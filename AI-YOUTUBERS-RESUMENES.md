@@ -942,3 +942,55 @@ Matthew Berman entrevistó a Sundar Pichai, CEO de Google, en el escenario de Go
 - **China y geopolítica:** Sundar advirtió sobre los riesgos de construir sobre el ecosistema de IA chino, y recomendó cautela a las empresas estadounidenses al usar modelos de IA chinos.
 
 - **Carrera hacia la AGI:** Habló sobre modelos que se auto-mejoran y la competencia global por la inteligencia artificial general.
+
+## Matthew Berman — Perplexity Just Built an AI That Does Everything
+**Fecha:** 2026-06-06
+**URL:** https://www.youtube.com/watch?v=udS9osDCJKo
+**Video ID:** udS9osDCJKo
+
+### 📝 Resumen
+
+Matthew Berman presenta **Perplexity Computer**, una plataforma de agente de IA completamente alojada que compite directamente con OpenClaw, pero con un enfoque mucho más accesible para el usuario promedio.
+
+#### 🧠 ¿Qué es Perplexity Computer?
+Es un agente de IA completo, similar a OpenClaw, pero totalmente alojado en la nube. Tiene acceso a un entorno de ejecución, puede escribir y ejecutar código, usar modelos frontera (Opus 4.6, GPT-5.4, Sonnet 4.6), buscar en la web y utilizar múltiples herramientas — todo sin necesidad de configuración local.
+
+#### 🧵 Hilos (Tasks) por Defecto
+A diferencia de OpenClaw (que viene con un solo hilo de conversación), Perplexity Computer viene con tareas/hilos por defecto. Esto permite mantener contextos separados para diferentes proyectos, evitando la mezcla de contextos y optimizando el rendimiento del agente.
+
+#### 🔌 Conectores (Lo más destacado)
+El punto fuerte del producto son sus **conectores pre-construidos** con cientos de servicios (Gmail, Google Drive, OneDrive, Box, Linear, Dropbox, Notion, GitHub, Telegram, etc.). Berman destaca que esto elimina la principal fricción de OpenClaw: la configuración manual de integraciones y la gestión insegura de API keys. En Perplexity Computer solo se autentica como lo haría normalmente (ej. "Iniciar sesión con Gmail").
+
+#### 🛠️ Skills (Habilidades Personalizadas)
+Al igual que en Claude Code y OpenClaw, se pueden crear skills personalizadas que definen cómo el agente debe comportarse para tareas específicas. Incluye un "create skill" que permite describir la skill deseada y se genera automáticamente.
+
+#### 🤖 Casos de Uso Demostrados
+
+1. **Asistente de calendario**: Consultar el próximo evento del día conectándose a Google Calendar.
+2. **Briefing de UFC**: Un workflow que automatiza la recopilación de alineaciones de peleas, movimientos de cuotas, resultados de pesaje, entrevistas recientes y rumores de lesiones, entregando un informe compacto los sábados por la tarde.
+3. **Diario de comida (Food Journal)**: Recreó su sistema de seguimiento de alimentos para problemas estomacales — toma fotos de la comida, las sube y el agente registra automáticamente los ingredientes.
+4. **Comparativa de benchmarks de Gemma 4**: El agente buscó datos, ejecutó subtareas en paralelo y generó un gráfico comparativo visual entre Gemma 4, Qwen 3.6, MiniMax y Kimi K2.5.
+5. **Workflow de Earnings (Resultados financieros)**: Programa un análisis semanal que busca resultados trimestrales de empresas tech, permite seleccionar cuáles seguir, y tras cada earnings call extrae el transcript, lo analiza y envía un reporte automático.
+6. **Base de Conocimiento persistente**: Construyó desde cero una aplicación web completa (con GPT-5.5 como planificador y Opus 4.7 para partes del build) que ingiere enlaces (artículos, videos, tweets), los convierte en embeddings y permite búsquedas semánticas — todo gestionado dentro de Perplexity Computer.
+
+#### 📱 Aplicación Móvil y Telegram
+Perplexity Computer se integra con Telegram (con un solo clic, sin necesidad de buscar bots) y también tiene una app móvil nativa muy bien diseñada que muestra todas las tareas y permite interactuar con el agente desde cualquier lugar.
+
+#### 💰 Modelo de Precios
+Requiere un plan de Perplexity (suscripción mensual que incluye Perplexity Search). Además, Perplexity Computer funciona con un sistema de créditos por uso. Ejemplos de costos: una tarea simple de calendario = ~15 créditos; una comparativa de benchmarks con salida de imagen = ~388 créditos; instalar un kit de base de conocimiento = ~1500 créditos.
+
+#### 🔑 Conclusión
+Perplexity Computer es presentado como la alternativa ideal para quienes quieren el poder de un agente de IA como OpenClaw **sin la complejidad de configuración, mantenimiento y seguridad**. Para quienes necesitan control total y ejecución local, OpenClaw sigue siendo la opción; pero para la mayoría de los usuarios, Perplexity Computer es claramente superior en facilidad de uso.
+
+### 🔗 Referencias
+| Tipo | Enlace |
+|------|--------|
+| 🏢 Perplexity Computer | https://www.perplexity.ai/products/computer |
+| 🔗 Newsletter de Matthew Berman | https://forwardfuture.ai |
+| 🔗 X / Twitter (@matthewberman) | https://x.com/matthewberman |
+| 🔗 Forward Future (X) | https://x.com/forwardfuture |
+| 🔗 Instagram | https://www.instagram.com/matthewberman_ai |
+| 🔗 Discord | https://discord.gg/evGThyRv |
+| 🔗 Spotify (Podcast) | https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8 |
+
+---
