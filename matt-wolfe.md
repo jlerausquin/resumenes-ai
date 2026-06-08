@@ -223,3 +223,33 @@ Matt Wolfe entrevista a Koray Kavukcuoglu, CTO de Google DeepMind, sobre el sist
 
 ---
 
+
+## [Matt Wolfe] How Big Tech Lies About AI Layoffs
+**Fecha:** 2026-06-07
+**URL:** https://www.youtube.com/shorts/08uMw4_BWOA
+**Video ID:** 08uMw4_BWOA
+
+### 📝 Resumen
+
+Matt Wolfe expone en este Short de 1 minuto por qué la narrativa de que "la IA está quitando empleos" es, en realidad, una cortina de humo corporativa.
+
+#### El verdadero motivo de los despidos masivos
+
+Wolfe argumenta que las grandes tecnológicas no están despidiendo gente porque la IA los haya reemplazado de la noche a la mañana. La realidad es más prosaica: durante 2020 y 2021 (época COVID), estas empresas contrataron de forma masiva y se volvieron organizaciones excesivamente grandes y con gastos insostenibles. Ahora necesitan recortar para ser rentables.
+
+#### La excusa de la IA como estrategia de relaciones públicas
+
+En lugar de admitir ante los inversores que cometieron errores de gestión (contratación excesiva), los CEOs utilizan la IA como coartada:
+- Decir "nos estamos volviendo más eficientes con IA" suena a innovación y visión de futuro.
+- Decir "contratamos demasiado y ahora tenemos que despedir" es una señal de mala gestión que castiga el precio de las acciones.
+
+#### Críticas desde la cúpula de la IA
+
+Dos de las figuras más importantes del sector han denunciado públicamente esta práctica:
+- **Jensen Huang (CEO de NVIDIA)** apareció en televisión internacional y calificó la excusa de los despidos por IA como "perezosa e irresponsable".
+- **Demis Hassabis (CEO de Google DeepMind)** dijo exactamente lo mismo con otras palabras apenas una semana antes.
+
+Wolfe concluye señalando que los inversores ya están empezando a darse cuenta: las empresas que usan la "excusa de la IA" están viendo caer el precio de sus acciones.
+
+---
+
