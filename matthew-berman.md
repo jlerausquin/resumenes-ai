@@ -3,6 +3,93 @@
 Generado automáticamente.
 ==================================================
 
+## [Matthew Berman] Only the best are using them...
+**Fecha:** 2026-06-09
+**URL:** https://www.youtube.com/watch?v=dMrm2jAyrKM
+**Video ID:** dMrm2jAyrKM
+
+### 📝 Resumen
+
+Matthew Berman analiza el nuevo paradigma que está revolucionando la ingeniería de software: **Loop Engineering** (ingeniería de bucles). El vídeo comienza con dos citas virales del mismo fin de semana: **Peter Steinberger** (cuyo tweet alcanzó 5 millones de visitas en 24 horas) y **Boris Cherny** (creador de Claude Code en Anthropic), ambos declarando que ya no "promptean" a sus agentes de IA, sino que diseñan bucles que los agentean automáticamente.
+
+#### ¿Qué es un loop?
+
+Un loop es un sistema que reemplaza el flujo tradicional de ingeniería agentiva:
+
+- **Flujo tradicional:** Humano → promptea agente → agente escribe código → humano espera → humano promptea de nuevo.
+- **Loop engineering:** Humano define un **trigger** (disparador) y un **goal** (objetivo verificable) → el agente se inicia solo y continúa hasta alcanzar el objetivo.
+
+Un loop solo necesita dos cosas:
+1. **Un trigger** (disparador): qué inicia el loop.
+2. **Un goal** (objetivo): un estado final verificable de alguna forma.
+
+La verificación puede ser:
+- **Determinista:** Tests que pasan, funciones que ejecutan sin errores.
+- **No determinista:** Un LLM decide si el objetivo se ha alcanzado.
+
+Berman lo compara directamente con **reinforcement learning (RL)**: el agente sabe cuándo ha alcanzado su objetivo gracias a una "reward function" verificable.
+
+#### Los tres tipos de triggers
+
+1. **Acción:** Ocurre algo (ej: se abre un PR).
+2. **Programación (cron):** Sucede cada cierto tiempo (ej: cada 30 minutos, cada hora, cada día).
+3. **Humano:** Una persona lo inicia manualmente.
+
+#### Ejemplo práctico en Cursor
+
+Berman muestra la pestaña "Automations" de Cursor. Configuró un loop que:
+- **Trigger:** Cada vez que se abre un PR en su proyecto AstroHub.
+- **Goal:** Revisar el PR, buscar problemas, arreglarlos automáticamente, hacer commit al mismo PR, asegurar que todos los tests pasen y que el CI esté en verde.
+
+#### Cómo usar loops en Claude Code
+
+Claude Code tiene un comando nativo `/loop`:
+```
+/loop cada 5 minutos: comparar lo construido con el spec completo (spec.md)
+y continuar construyendo hasta completar el spec completo
+```
+
+Esto lanza un agente cada 5 minutos que evalúa qué falta y continúa construyendo hasta que el spec está completo.
+
+#### La diferencia entre automation y loop
+
+Berman aclara la distinción:
+- **Automation:** Ejecuta una serie de pasos predefinidos de forma secuencial.
+- **Loop:** Toma **decisiones dentro del bucle**. El loop determina por sí mismo si ha alcanzado el objetivo o no. No es una ejecución lineal; es un ciclo con capacidad de autoevaluación.
+
+#### Limitaciones y críticas actuales
+
+1. **Difícil de configurar:** Los loops básicos son sencillos, pero construir una "fábrica de código" completa que construya productos enteros de forma autónoma es extremadamente complejo. Definir el estado final de una funcionalidad no determinista (como "construye esta feature") requiere especificar todo el comportamiento deseado upfront, lo que va en contra del proceso exploratorio e iterativo del desarrollo de software.
+
+2. **Extremadamente caro:** Cuanto más se abstrae al humano del código, más tokens se consumen. Peter Steinberger alcanzó **$1.3 millones en tokens mensuales**. Solo empresas como Anthropic y OpenAI pueden permitirse dar tokens ilimitados a sus empleados. Berman señala que existe una **bifurcación masiva** en la ingeniería: solo el **top 1% del 1%** utiliza estas técnicas porque tienen acceso a presupuestos de tokens prácticamente infinitos.
+
+3. **Riesgo de quema de tokens sin control:** Si el goal no está bien definido, el loop puede seguir ejecutándose indefinidamente quemando tokens sin llegar a un resultado útil.
+
+#### El futuro: ¿humanos en el loop?
+
+Berman plantea la pregunta clave: **¿seguirán siendo necesarios los humanos en el loop?**
+
+- **Hoy:** Los humanos definen la dirección (el goal). "Yo digo hacia dónde vamos y el loop ejecuta."
+- **Futuro posible:** Cuando la IA desarrolle "gusto" (taste) para decidir qué features construir, qué productos crear, qué empresas fundar — ese es el punto de **auto-mejora recursiva (RSI)**.
+
+Berman conecta esto directamente con su vídeo anterior sobre el paper de Anthropic "When AI Builds Itself": si la IA puede diseñar su propia fábrica, hemos alcanzado la RSI completa.
+
+#### Conclusión
+
+Loop Engineering representa el siguiente paso en la evolución de la ingeniería de software: de escribir código, a promptear agentes, a diseñar sistemas que agentean a otros agentes. Aunque hoy es prohibitivamente caro y complejo para la mayoría, Berman sostiene que es "absolutamente el futuro de la ingeniería" y que, como toda tecnología, lo que hoy es caro mañana será barato.
+
+### 🔗 Referencias
+| Tipo | Enlace |
+|------|--------|
+| 🏢 Empresa/Producto | https://here.now/r/matthewberman |
+| 🔗 Artículo | https://www.anthropic.com/institute/recursive-self-improvement |
+| 💻 Repositorio | https://x.com/steipete/status/2063697162748260627 |
+| 💻 Repositorio | https://x.com/steipete/status/2055685581758206139/photo/1 |
+| 📄 Newsletter | https://forwardfuture.ai |
+
+---
+
+
 ## [Matthew Berman] It's starting…
 **Fecha:** 2026-06-05
 **URL:** https://www.youtube.com/watch?v=XzUB8_gj6xM
