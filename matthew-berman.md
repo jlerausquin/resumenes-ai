@@ -3,6 +3,71 @@
 Generado automáticamente.
 ==================================================
 
+## [Matthew Berman] MYTHOS MYTHOS MYTHOS
+**Fecha:** 2026-06-09
+**URL:** https://www.youtube.com/watch?v=Ou-0vjl6FZo
+**Video ID:** Ou-0vjl6FZo
+
+### 📝 Resumen
+
+Matthew Berman analiza en profundidad **Claude Fable 5 y Mythos 5**, la nueva familia de modelos de Anthropic lanzada el 9 de junio de 2026. Mythos es el modelo que Anthropic había calificado como "demasiado peligroso" para lanzar públicamente, y finalmente lo han liberado — aunque con una estrategia muy calculada.
+
+#### 📊 Rendimiento y Benchmarks
+
+- **Fable 5** es un modelo de **10 billones de parámetros** (10 trillion), el primero de su clase.
+- **SWE-bench Pro:** Fable 5 obtiene **80%** vs Opus 4.8 (69%) y GPT 5.5 (58%).
+- **Frontier Code Diamond:** Fable 5 consigue **29.3%** — más del doble que Opus 4.8 (14.6%) y casi 6× que GPT 5.5 (5.7%).
+- **Terminal Bench:** 88% frente al 83.4% de Opus 4.8.
+- **Humanity's Last Exam:** Nuevos modelos frontier ocupan los dos primeros puestos.
+- **Computer Use:** 85% vs 78-83% de los competidores.
+
+#### 💸 Precios
+
+- **$10 por millón de tokens de entrada** y **$50 por millón de tokens de salida**.
+- Es caro, pero Berman recomienda usar **model routing**: usar Fable solo para las tareas más complejas y modelos más baratos (Sonnet, Haiku) para el resto.
+
+#### 🧠 Experiencia de uso
+
+Berman describe la experiencia como radicalmente diferente a cualquier modelo anterior:
+
+1. **Verbosidad extrema:** Fable 5 es increíblemente detallado. Usa vocabulario muy técnico y descripciones densas en información. Berman tuvo que pedirle repetidamente que simplificara sus explicaciones.
+2. **Densidad de información:** Cada palabra del modelo contiene mucho más significado que en otros modelos, lo que sugiere que los futuros modelos podrían desarrollar lenguajes hiperdensos que los humanos no puedan leer fácilmente.
+3. **Exceso de preguntas:** Fable 5 hace 3-5 preguntas aclaratorias por tarea, luego pide confirmación del resumen, luego escribe un spec y pide confirmación otra vez, luego pregunta por el enfoque agéntico... el proceso es frustrantemente lento al inicio.
+4. **Lentitud al arrancar:** Los primeros 5-8 minutos parecen no hacer nada, y luego explota consumiendo cientos de miles de tokens en segundos.
+5. **Paralelización masiva:** Con la función **workflows**, Fable puede delegar tareas a cientos de subagentes en paralelo.
+
+#### 🔬 Casos de uso destacados
+
+- **Stripe** reportó que Fable 5 comprimió meses de ingeniería en días, migrando una base de código de 50 millones de líneas en un día (tarea que un equipo completo habría tardado 2 meses).
+- **Rubik's Cube 3D interactivo:** Fable 5 lo construyó perfectamente con gráficos realistas, luces y sombras.
+- **Simulación de dinámica de fluidos:** Ejecutó 63 agentes en paralelo para crear una simulación interactiva en tiempo real con múltiples parámetros ajustables.
+- **Pokémon Fire Red:** Fable 5 completó el juego usando solo visión, sin mapas ni ayudas externas.
+
+#### 🔐 Estrategia de lanzamiento
+
+Anthropic ha estado probando Mythos desde enero de 2026 pero lo mantuvo en secreto. Berman sugiere que la estrategia fue:
+1. Usar Mythos internamente para acelerar su propia investigación.
+2. Construir una ventaja competitiva suficiente antes de liberarlo.
+3. Ahora que tienen Fable 5, liberan Mythos 5 con guardrails eliminados para la comunidad de seguridad.
+
+**Medida de seguridad interesante:** Las solicitudes que parezcan intentos de destilación del modelo se redirigirán automáticamente a Opus 4.8. Anthropic también implementó retención de datos de 30 días para tráfico de modelos Mythos-class.
+
+#### 💡 Conclusión
+
+Berman enfatiza que **nadie está aprovechando todo el potencial** de estos modelos todavía. El concepto de **loops** (bucles) combinado con **workflows** y **Fable** crea una capacidad que él llama "fábricas de software". El **model overhang** —la brecha entre la capacidad del modelo y nuestra habilidad para usarlo— es más real que nunca.
+
+### 🔗 Referencias
+| Tipo | Enlace |
+|------|--------|
+| 🔗 Artículo Anthropic | https://www.anthropic.com/institute/recursive-self-improvement |
+| 🏢 Here.Now (patrocinador) | https://here.now/r/matthewberman |
+| 💻 Demo: Fluid Sim | https://boreal-fresco-pzqa.here.now/ |
+| 💻 Demo: Rubik's Cube | https://quick-sycam-5veg.here.now/ |
+| 🔗 Newsletter Forward Future | https://forwardfuture.ai |
+| 🔗 Tweet Peter Steinberger | https://x.com/steipete/status/2063697162748260627 |
+
+---
+
 ## [Matthew Berman] Only the best are using them...
 **Fecha:** 2026-06-09
 **URL:** https://www.youtube.com/watch?v=dMrm2jAyrKM
@@ -79,13 +144,12 @@ Berman conecta esto directamente con su vídeo anterior sobre el paper de Anthro
 Loop Engineering representa el siguiente paso en la evolución de la ingeniería de software: de escribir código, a promptear agentes, a diseñar sistemas que agentean a otros agentes. Aunque hoy es prohibitivamente caro y complejo para la mayoría, Berman sostiene que es "absolutamente el futuro de la ingeniería" y que, como toda tecnología, lo que hoy es caro mañana será barato.
 
 ### 🔗 Referencias
-| Tipo | Enlace |
-|------|--------|
-| 🏢 Empresa/Producto | https://here.now/r/matthewberman |
-| 🔗 Artículo | https://www.anthropic.com/institute/recursive-self-improvement |
-| 💻 Repositorio | https://x.com/steipete/status/2063697162748260627 |
-| 💻 Repositorio | https://x.com/steipete/status/2055685581758206139/photo/1 |
-| 📄 Newsletter | https://forwardfuture.ai |
+
+- 🏢 Empresa/Producto: https://here.now/r/matthewberman
+- 🔗 Artículo: https://www.anthropic.com/institute/recursive-self-improvement
+- 💻 Repositorio: https://x.com/steipete/status/2063697162748260627
+- 💻 Repositorio: https://x.com/steipete/status/2055685581758206139/photo/1
+- 📄 Newsletter: https://forwardfuture.ai
 
 ---
 
@@ -737,14 +801,13 @@ Requiere un plan de Perplexity (suscripción mensual que incluye Perplexity Sear
 Perplexity Computer es presentado como la alternativa ideal para quienes quieren el poder de un agente de IA como OpenClaw **sin la complejidad de configuración, mantenimiento y seguridad**. Para quienes necesitan control total y ejecución local, OpenClaw sigue siendo la opción; pero para la mayoría de los usuarios, Perplexity Computer es claramente superior en facilidad de uso.
 
 ### 🔗 Referencias
-| Tipo | Enlace |
-|------|--------|
-| 🏢 Perplexity Computer | https://www.perplexity.ai/products/computer |
-| 🔗 Newsletter de Matthew Berman | https://forwardfuture.ai |
-| 🔗 X / Twitter (@matthewberman) | https://x.com/matthewberman |
-| 🔗 Forward Future (X) | https://x.com/forwardfuture |
-| 🔗 Instagram | https://www.instagram.com/matthewberman_ai |
-| 🔗 Discord | https://discord.gg/evGThyRv |
-| 🔗 Spotify (Podcast) | https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8 |
+
+- 🏢 Perplexity Computer: https://www.perplexity.ai/products/computer
+- 🔗 Newsletter de Matthew Berman: https://forwardfuture.ai
+- 🔗 X / Twitter (@matthewberman): https://x.com/matthewberman
+- 🔗 Forward Future (X): https://x.com/forwardfuture
+- 🔗 Instagram: https://www.instagram.com/matthewberman_ai
+- 🔗 Discord: https://discord.gg/evGThyRv
+- 🔗 Spotify (Podcast): https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8
 
 ---
