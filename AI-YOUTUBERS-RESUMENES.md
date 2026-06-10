@@ -57,14 +57,13 @@ Anthropic ha estado probando Mythos desde enero de 2026 pero lo mantuvo en secre
 Berman enfatiza que **nadie está aprovechando todo el potencial** de estos modelos todavía. El concepto de **loops** (bucles) combinado con **workflows** y **Fable** crea una capacidad que él llama "fábricas de software". El **model overhang** —la brecha entre la capacidad del modelo y nuestra habilidad para usarlo— es más real que nunca.
 
 ### 🔗 Referencias
-| Tipo | Enlace |
-|------|--------|
-| 🔗 Artículo Anthropic | https://www.anthropic.com/institute/recursive-self-improvement |
-| 🏢 Here.Now (patrocinador) | https://here.now/r/matthewberman |
-| 💻 Demo: Fluid Sim | https://boreal-fresco-pzqa.here.now/ |
-| 💻 Demo: Rubik's Cube | https://quick-sycam-5veg.here.now/ |
-| 🔗 Newsletter Forward Future | https://forwardfuture.ai |
-| 🔗 Tweet Peter Steinberger | https://x.com/steipete/status/2063697162748260627 |
+
+- 🔗 Artículo Anthropic: https://www.anthropic.com/institute/recursive-self-improvement
+- 🏢 Here.Now (patrocinador): https://here.now/r/matthewberman
+- 💻 Demo: Fluid Sim: https://boreal-fresco-pzqa.here.now/
+- 💻 Demo: Rubik's Cube: https://quick-sycam-5veg.here.now/
+- 🔗 Newsletter Forward Future: https://forwardfuture.ai
+- 🔗 Tweet Peter Steinberger: https://x.com/steipete/status/2063697162748260627
 
 ---
 
