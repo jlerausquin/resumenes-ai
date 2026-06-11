@@ -1,7 +1,9 @@
 # 📹 Resúmenes — Javier Garzás
 
 Generado automáticamente.
-==================================================## [Javier Garzás] Ya no gestionas, ahora tú también construyes con IA (y la mayoría no lo sabe)
+==================================================
+
+## [Javier Garzás] Ya no gestionas, ahora tú también construyes con IA (y la mayoría no lo sabe)
 **Fecha:** 2026-06-11
 **URL:** https://www.youtube.com/watch?v=Zklb5vmFnOU
 **Video ID:** Zklb5vmFnOU
