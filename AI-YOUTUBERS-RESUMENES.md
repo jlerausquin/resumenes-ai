@@ -2,6 +2,43 @@
 Canales monitoreados: Javier Garzás, Matt Wolfe, Matthew Berman
 Generado automáticamente.
 ==================================================
+## [Javier Garzás] Ya no gestionas, ahora tú también construyes con IA (y la mayoría no lo sabe)
+**Fecha:** 2026-06-11
+**URL:** https://www.youtube.com/watch?v=Zklb5vmFnOU
+**Video ID:** Zklb5vmFnOU
+
+### 📝 Resumen
+No se pudo obtener la transcripción para este video.
+
+### 🔗 Referencias
+- 🔗 Artículo: https://chat.whatsapp.com/J1h3GHHs3lf8HkaoMGDhRF
+
+
+## [Matt Wolfe] Why Everyone Is Freaking Out About Mythos
+**Fecha:** 2026-06-11
+**URL:** https://www.youtube.com/watch?v=2lE1-5hBfKk
+**Video ID:** 2lE1-5hBfKk
+
+### 📝 Resumen
+**🎬 Título:** Why Everyone Is Freaking Out About Mythos
+**📊 Duración del transcript:** 3997 palabras
+
+### 📋 Introducción
+So, Enthropic just dropped a new model called Claude Fable 5. And depending on which corner of the internet you're in, it was either the most incredible thing anyone has ever shipped or it was the moment that Enthropic turned evil. In the past 24 hours, I've seen people saying that we've finally achieved AGI. And I've seen people saying that Enthropic is a horrible gatekeeping company. Now, both might be true, but I want to try to cut through some of the noise and just figure out what's actually real. So, I'm going to break down what this thing is for anybody who's not like chronically online like me. I'm going to show you both the good and the bad that people are saying, and I want to clear up some misinformation that's been flying around right now. And then I want to do some actual testing myself and see what happens. So, let's get into it. So, here's the simple version of what Fable 5 is. Enthropic has this internal tier of models that they call Mythos class models. This is a tier of models that sits above the Opus class of models. So, a step better than...
+
+
+---
+*Este resumen fue generado automáticamente.*
+
+### 🔗 Referencias
+- 🔗 Artículo: https://futuretools.io/
+- 🔗 Artículo: https://futuretools.io/newsletter
+- 🔗 Artículo: https://www.threads.net/@mr.eflow
+- 🔗 Artículo: https://www.linkedin.com/in/matt-wolfe-30841712/
+- 🔗 Artículo: https://www.facebook.com/mattrwolfe
+- 🏢 Empresa/Producto: https://www.anthropic.com/news/claude-fable-5-mythos-5
+
+
 
 ## [Matthew Berman] MYTHOS MYTHOS MYTHOS
 **Fecha:** 2026-06-09
