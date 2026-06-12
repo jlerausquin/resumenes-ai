@@ -3,6 +3,82 @@
 Generado automáticamente.
 ==================================================
 
+
+## [Matthew Berman] MYTHOS is LIVE!!!! — Análisis completo de Claude Fable 5
+**Fecha:** 2026-06-09
+**URL:** https://www.youtube.com/watch?v=e-4xG1U7M70
+**Video ID:** e-4xG1U7M70
+
+### 📝 Resumen
+
+Anthropic lanzó oficialmente Mythos 5, su modelo más esperado, bajo la forma de **Claude Fable 5** — una versión con salvaguardas de seguridad del modelo Mythos original. Matthew Berman realizó una transmisión en vivo de casi dos horas donde probó el modelo en profundidad, mostró benchmarks, compartió sus impresiones tras una semana de uso temprano y ejecutó demos en vivo de generación de código, simulaciones físicas y creación de video. El modelo, con aproximadamente **10 billones de parámetros**, representa un salto generacional significativo respecto a Claude Opus 4.8 y GPT 5.5, aunque con un costo elevado y algunas peculiaridades notables.
+
+#### Mythos y Fable: dos caras del mismo modelo
+
+Anthropic lanzó Mythos 5 en dos variantes. **Mythos 5** es la versión sin restricciones, entregada exclusivamente a la comunidad de seguridad informática para encontrar vulnerabilidades, bugs y zero-days. **Fable 5** es la misma arquitectura pero con guardrails de seguridad para uso general. El nombre "Fable" se suma a la familia Claude (Haiku, Sonnet, Opus) como el nuevo modelo frontera de la compañía.
+
+- **Disponibilidad**: Fable 5 está accesible en Claude Desktop y Claude Co-work Desktop, pero no en Claude Code Desktop al momento de la transmisión (el despliegue se estaba realizando gradualmente).
+- Los usuarios necesitan una suscripción Max (plan de 20x o superior) para acceder al modelo.
+
+#### Resultados en benchmarks
+
+Fable 5 muestra mejoras sustanciales frente a Claude Opus 4.8 y GPT 5.5 en prácticamente todos los benchmarks estándar:
+
+- **SWEBench Pro**: 80% — frente al 69% de Opus 4.8 y 58% de GPT 5.5. Una mejora de 11 y 22 puntos porcentuales respectivamente.
+- **Frontier Code Diamond**: 29.3% — más del doble que Opus 4.8 (14.5%) y casi 6 veces más que GPT 5.5 (5.7%).
+- **GDP-Val** (benchmark de conocimiento general creado por OpenAI): 1,932 puntos — superando a Opus 4.8 (1,890) y GPT 5.5 (1,760).
+- **Razonamiento espacial**: 38.6% — notable mejora frente al bajo rendimiento de Opus 4.8 en esta categoría.
+- **Tool Use**: mejora de varios puntos porcentuales respecto a modelos anteriores.
+- **Computer Use**: 85% — competitivo con GPT 5.5, aunque Berman señala que GPT 5.5 sigue siendo el mejor para uso en navegador.
+- **Legal Agent Benchmark**: 13% — frente al 10% de Opus 4.8 y solo 2% de modelos anteriores.
+- **Terminal Bench**: 83.4-88% — resultados sólidos para coding agentico.
+
+Berman señala que, aunque los benchmarks muestran mejoras, la sensación real al usar el modelo es aún más impresionante que lo que los números sugieren.
+
+#### Capacidades destacadas y comportamiento único
+
+El modelo se siente fundamentalmente diferente a cualquier otro modelo que Berman haya probado:
+
+- **Horizontes temporales largos**: Fable 5 puede trabajar de forma autónoma durante períodos prolongados sin perder coherencia. Ninguna tarea, por compleja que fuera, logró que el modelo se atascara.
+- **Exploración profunda**: Incluso para tareas pequeñas, Fable 5 tiende a examinar todo el código base, considerar todos los ángulos posibles y ejecutar exploraciones exhaustivas.
+- **Densidad informativa**: El output de Fable 5 es extremadamente denso en información, utilizando vocabulario complejo y descripciones detalladas que requieren una lectura más lenta y cuidadosa.
+- **Eficiencia de tokens**: A pesar de su verbosidad, el modelo es más eficiente en tokens que modelos anteriores, transmitiendo más información por token.
+- **Velocidad lenta**: El modelo es significativamente más lento que Opus 4.8 y GPT 5.5, generando aproximadamente 7,000 tokens en 2 minutos al inicio de las tareas.
+
+#### Caso de uso real: Stripe y la migración de código de 50M de líneas
+
+Stripe reportó durante las pruebas tempranas que Fable 5 logró comprimir **meses de trabajo de ingeniería en días** sobre una base de código Ruby de 50 millones de líneas. El modelo realizó una migración completa del código base en un día que, de otro modo, habría requerido un equipo completo durante más de dos meses. Berman destaca que, para tareas de esta envergadura, el precio de $50 por millón de tokens de salida resulta una ganga en comparación con el costo de mantener equipos de ingeniería.
+
+#### Precios y estrategia de ruteo de modelos
+
+El precio de Fable 5 es de **$10 por millón de tokens de entrada** y **$50 por millón de tokens de salida**. Berman considera que, aunque es caro, esperaba que fuera aún más costoso. Recomienda enfáticamente una estrategia de **model routing**: usar Fable 5 solo para las tareas más complejas y críticas, mientras que para el resto se deben usar modelos más económicos como Sonnet o Haiku.
+
+- El costo es menos de la mitad que el del preview de Claude Mythos.
+- Berman advierte que ya se están viendo empresas con facturas extremadamente altas de Anthropic y OpenAI, por lo que saber rutear tareas al modelo adecuado será una habilidad crucial.
+
+#### Demos en vivo: simulaciones, cubos de Rubik y video generado por IA
+
+Durante la transmisión, Berman ejecutó múltiples pruebas en vivo con resultados impresionantes:
+
+- **Simulador de dinámica de fluidos**: Fable 5 creó desde cero un simulador interactivo con trazado de rayos, múltiples modos de visualización (presión, vorticidad, campo de velocidades) y efectos visuales avanzados. Fue calificado como "la mejor simulación de fluidos jamás creada por un modelo de IA".
+- **Cubo de Rubik 3D**: El modelo generó un simulador de cubo Rubik completamente funcional con capacidades de rotación, mezcla y resolución automática, con gráficos realistas que incluyen reflejos y sombras.
+- **Generación de video sin dirección**: Berman le pidió al modelo que creara un video "sin tema, sin dirección" y Fable 5 produjo un video musical completo con animación y banda sonora, aunque QuickTime se congeló al reproducirlo.
+- **Simulador de ciudades (Sim City)**: Se ejecutó en Ultra Code con múltiples agentes en paralelo, aunque no había finalizado al momento de terminar la transmisión.
+
+#### Sistemas de esfuerzo y modos de trabajo
+
+Fable 5 introduce niveles de esfuerzo configurables: medium, high, max y un modo especial **Ultra Code** que despliega múltiples subagentes en paralelo mediante workflows dinámicos. Durante la demo, Berman logró que el modelo ejecutara **63 agentes en paralelo** usando el modo de workflows.
+
+- El modelo también introdujo comandos como `/effort`, `/goal`, y `/workflows` para controlar su comportamiento.
+- Berman experimentó dificultades técnicas para hacer funcionar los workflows dinámicos, pero eventualmente lograron activarse.
+
+#### Reflexión final / Conclusiones
+
+Claude Fable 5 representa un salto cualitativo en capacidades de IA, especialmente en tareas que requieren horizontes temporales largos y exploración profunda de código. Sin embargo, su lentitud, alto costo y la necesidad de planes de suscripción específicos limitan su accesibilidad. Berman enfatiza que el futuro será un **mundo multimodelo** donde la clave estará en saber qué modelo usar para cada tarea, y Fable 5 está diseñado para ser el modelo "martillo nuclear" reservado para los problemas más difíciles. La información densa y el comportamiento exploratorio del modelo sugieren una nueva dirección en el desarrollo de IA, donde los modelos no solo responden preguntas, sino que emprenden investigaciones autónomas profundas.
+
+---
+
+
 ## [Matthew Berman] MYTHOS MYTHOS MYTHOS
 **Fecha:** 2026-06-09
 **URL:** https://www.youtube.com/watch?v=Ou-0vjl6FZo
