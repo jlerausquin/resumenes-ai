@@ -4,6 +4,70 @@ Generado automáticamente.
 ==================================================
 
 
+
+## [Matthew Berman] You NEED to try these open-source AI projects RIGHT NOW
+**Fecha:** 2026-06-12
+**URL:** https://www.youtube.com/watch?v=zjFE-dBzP_E
+**Video ID:** zjFE-dBzP_E
+
+### 📝 Resumen
+
+Matthew Berman presenta cuatro proyectos open-source de GitHub que están ganando tracción rápidamente en la comunidad de IA. Desde un motor de búsqueda basado en votación humana hasta un compresor de contexto que promete ahorrar hasta un 90% en costos de API, Berman demuestra cada proyecto paso a paso, integrándolos en su flujo de trabajo con herramientas como Cursor, Claude Code y Codex.
+
+#### Last30Days: el buscador que prioriza la inteligencia colectiva
+
+Creado por Matt Van Horn (cofundador de la empresa que se convirtió en Lyft), **Last30Days** es un skill/search engine que consulta Reddit, Hacker News, Polymarket, GitHub, X, YouTube y TikTok para encontrar contenido trending basado en votación humana real. En lugar de un algoritmo opaco como Google, Last30Days mide el engagement real de millones de personas.
+
+- Supera las **40.000 estrellas en GitHub**.
+- Funciona como un skill instalable: se pega la URL en Claude Code/Codex/Cursor y se instala con un solo comando.
+- Berman lo probó con el término "loop engineering", un concepto que nació el 7 de junio de 2026 sobre diseñar loops en lugar de prompts para agentes de IA. El skill devolvió 32 hilos de Reddit con 45,000 upvotes y 40 historias de Hacker News.
+- Permite emitir resúmenes como página HTML compartible.
+- El motor V3 analiza dónde buscar antes de comenzar la búsqueda — por ejemplo, "OpenClaw" resuelve automáticamente al handle de Twitter de Peter Steinberger y los subreddits relevantes.
+
+#### Open Notebook: el clon local de Notebook LM
+
+**Open Notebook** (casi 30.000 estrellas en GitHub) es una alternativa completamente open-source y local al Notebook LM de Google. Permite subir PDFs, enlaces y documentos, y hacer preguntas sobre ellos, así como generar podcasts sintetizados.
+
+- **Instalación**: Berman simplemente copió la URL de GitHub en Cursor y pidió "instálalo" — el agente lo configuró automáticamente en el escritorio.
+- **Funcionamiento**: Acepta enlaces a artículos, PDFs de miles de páginas, y cualquier documento. Genera insights automáticos y responde preguntas con referencias específicas.
+- **Generación de podcasts**: Crea podcasts de hasta 23 minutos con múltiples anfitriones, diferentes tonos y guiones personalizables. Berman usó ElevenLabs para voces más naturales.
+- **Transformaciones**: Incluye habilidades predefinidas como extraer ideas clave, resumen denso, analizar paper, generar preguntas de reflexión, tabla de contenidos.
+- **Flexibilidad de modelos**: Se puede configurar con modelos locales (Ollama, LM Studio) o cloud (GPT 5.5, GPT-4o mini, etc.). Berman usó GPT 5.5 para chat y GPT-4o mini para TTS.
+
+#### Agent Skills: el framework de ingeniería en 7 comandos
+
+**Agent Skills** (más de 56.000 estrellas en GitHub) proporciona siete comandos slash que mapean las siete etapas del flujo de ingeniería: spec, plan, build, test, review, code, simplify y ship.
+
+- Similar a GStack (de Gary Tan) pero enfocado exclusivamente en el flujo de ingeniería, no en construir empresas completas.
+- **/interview-me**: Berman lo probó y el skill condujo una entrevista estructurada para extraer los requisitos de un proyecto ("una biblioteca web de patrones de loops agenticos"), generando un archivo markdown detallado con hipótesis, casos de uso y edge cases.
+- Otros comandos incluyen seguridad/hardening, simplificación de código, optimización de rendimiento.
+- Se instala simplemente pegando la URL de GitHub en el agente.
+
+#### Headroom: compresión de contexto que ahorra hasta un 92% en tokens
+
+**Headroom** (24.000 estrellas en GitHub, pero creciendo explosivamente en junio) es un compresor de contexto que optimiza todo lo que el agente de IA lee —tool outputs, logs, RAG chunks, archivos, historial de conversación— antes de enviarlo al LLM.
+
+- **Ahorro demostrado**: 92% en code search (de 17,000 a 1,400 tokens), 92% en debugging de incidentes (65,000 a 5,000), 73% en GitHub issues (54,000 a 14,000), 47% en exploración de codebase (78,000 a 41,000).
+- **Precisión preservada**: Probado en GSM8K, TruthfulQA, SQuAD V2 y BFCL con puntuaciones prácticamente perfectas.
+- **Integración**: Funciona con Claude Code, Cursor y Codex. Berman lo probó con `headroom wrap claude` y funcionó sin problemas.
+- **Headroom learn**: Analiza sesiones fallidas y escribe correcciones automáticas en `claude.md` y `agents.md`. En una prueba encontró 9 sesiones, 378 llamadas, y sugirió mejoras como ahorrar 8,000 tokens por sesión cargando tool schemas de forma diferida.
+- **Headroom perf**: Muestra estadísticas detalladas de ahorro por modelo, rendimiento de caché, overhead de optimización, etc.
+- **Advertencias**: Instala Serena por defecto (para evitarlo: `-n --no-sa`). La telemetría viene activada por defecto.
+
+#### Reflexión final / Conclusiones
+
+Berman enfatiza que la combinación de estos cuatro proyectos —especialmente Headroom— puede transformar drásticamente la economía de uso de modelos de IA, especialmente cuando se trabaja con modelos caros como Fable 5. La tendencia hacia herramientas que optimizan el uso de tokens y permiten ejecución local señala un cambio hacia un ecosistema de IA más eficiente y accesible.
+
+---
+
+### 🔗 Referencias
+
+- 💻 Repositorio: Last30Days — https://github.com/mvanhorn/last30days-skill
+- 💻 Repositorio: Open Notebook — https://github.com/lfnovo/open-notebook
+- 💻 Repositorio: Agent Skills — https://github.com/addyosmani/agent-skills
+- 💻 Repositorio: Headroom — https://github.com/chopratejas/headroom
+- 🏢 Patrocinador: ElevenLabs 11 Agents — https://bit.ly/43LT9jZ
+
 ## [Matthew Berman] MYTHOS is LIVE!!!! — Análisis completo de Claude Fable 5
 **Fecha:** 2026-06-09
 **URL:** https://www.youtube.com/watch?v=e-4xG1U7M70
