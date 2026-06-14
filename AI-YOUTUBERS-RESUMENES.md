@@ -4,6 +4,82 @@ Generado automáticamente.
 ==================================================
 
 
+## [Matthew Berman] WTF is going on?!
+**Fecha:** 2026-06-13
+**URL:** https://www.youtube.com/watch?v=xvfz3gXVYNI
+**Video ID:** xvfz3gXVYNI
+
+### 📝 Resumen
+
+El gobierno de Estados Unidos emitió una orden de control de exportaciones que prohíbe a cualquier persona que no sea ciudadano estadounidense —incluyendo empleados de Anthropic que no tengan la nacionalidad estadounidense— acceder a Claude Fable 5 y Claude Mythos 5, los modelos más avanzados de Anthropic. La decisión, tomada en cuestión de horas tras descubrirse que el modelo podía ser jailbreakeado, representa un punto de inflexión en la historia de la IA: por primera vez, un modelo de frontera es tratado como una amenaza a la seguridad nacional, no como una herramienta. Berman analiza las causas, consecuencias y la ironía de que Anthropic —que construyó su narrativa en torno al miedo— haya recibido exactamente el tipo de regulación que pidió.
+
+#### La orden de control de exportaciones
+
+El viernes 13 de junio, el gobierno de EE.UU. notificó a Anthropic que, bajo autoridad de seguridad nacional, debía suspender inmediatamente el acceso a Fable 5 y Mythos 5 para cualquier "foreign national" (extranjero). La definición es extraordinariamente amplia: incluye a cualquier persona que no sea ciudadano estadounidense, incluso residentes permanentes (green card holders) que viven y trabajan en EE.UU.
+
+- La orden se recibió a las **5:21 p.m. ET**. En menos de 3 horas, Anthropic desactivó ambos modelos globalmente.
+- El gobierno no proporcionó detalles específicos sobre la amenaza, pero citó preocupaciones sobre jailbreaking del modelo.
+- La carta del gobierno afirma que "ha tomado conocimiento de un método para eludir o jailbreak Fable 5".
+- Anthropic respondió que la vulnerabilidad encontrada permitía identificar "un pequeño número de vulnerabilidades menores previamente conocidas", y que otros modelos públicos también pueden descubrirlas sin necesidad de jailbreak.
+- El efecto neto: Anthropic debe implementar medidas similares a **"Know Your Customer" (KYC)** de las instituciones financieras para verificar la ciudadanía de cada usuario.
+
+#### Proyecto Glasswing: el origen de la herida autoinfligida
+
+Berman traza el origen del problema hasta **Project Glasswing**, meses atrás, cuando Anthropic anunció Mythos con la narrativa de que era "demasiado peligroso para liberarlo". La compañía dijo que solo ellos y un puñado de empresas de confianza podrían usar el modelo, una estrategia que Berman califica como **"marketing basado en el miedo"**.
+
+- Anthropic declaró públicamente que Mythos era excepcionalmente bueno en ciberataques y ciberdefensa, lo que generó un inmenso interés.
+- Esta misma estrategia —decir que el modelo es tan peligroso que no puede liberarse— provocó que el gobierno lo viera como una amenaza real.
+- **Ironía fundamental**: Anthropic argumentaba que solo ellos eran lo suficientemente responsables para manejar Mythos, y el gobierno respondió: "entonces que no lo usen los extranjeros".
+
+#### El jailbreak y el rol de Amazon como detonante
+
+El detonante inmediato de la orden fue un jailbreak descubierto por investigadores de **Amazon**, que usaron una serie de prompts para obtener información sobre vulnerabilidades de seguridad. Según The Information, el propio CEO de Amazon, **Andy Jassy**, estuvo entre los líderes tecnológicos que presionaron a la administración Trump para considerar los riesgos de seguridad de Mythos y Fable.
+
+- **Ply the Prompter** (Ply el Liberador), un conocido jailbreaker, había vulnerado Fable 5 en cuestión de horas tras su lanzamiento.
+- Berman señala que todos los modelos de IA son jailbreakables por naturaleza; no existe un modelo perfectamente seguro.
+- La información filtrada sugiere que Andy Jassy mantuvo conversaciones con altos funcionarios de la administración en los días previos a la orden.
+- Amazon es uno de los mayores inversores y proveedores de Anthropic, lo que añade una capa de complejidad geopolítica y comercial.
+
+#### Impacto en la salida a bolsa de Anthropic
+
+Anthropic acababa de presentar su **S-1** (documento para salir a bolsa) de forma confidencial. Berman argumenta que esta orden de control de exportaciones probablemente retrasará la IPO:
+
+- Anthropic ya no vende un producto: ahora vende una "amenaza a la seguridad nacional".
+- La SEC (Securities and Exchange Commission) deberá evaluar este nuevo riesgo regulatorio.
+- Los inversores tendrán que recalcular la valoración de la compañía ante la incertidumbre regulatoria.
+- Kristen Davies, CIO del Departamento de Guerra, declaró: "Algunas cosas son simplemente más importantes que los ciclos de ingresos, el clickbait y la valoración pre-IPO".
+
+#### La captura regulatoria y la estrategia de Dario Amodei
+
+Dario Amodei, CEO de Anthropic, publicó días antes un ensayo titulado **"Policy on the AI Exponential"** donde argumentaba que el gobierno no está al día con la velocidad de evolución de la IA y proponía marcos regulatorios estrictos. Berman califica esto como un claro ejemplo de **captura regulatoria** —pedir regulación que beneficie a los actores establecidos en detrimento de los nuevos entrantes.
+
+- Anthropic pidió regulación; el gobierno se la dio, pero de una forma que Anthropic no esperaba ni deseaba.
+- Las startups competidoras se verán mucho más afectadas porque implementar sistemas KYC es costoso y solo viable para empresas con recursos masivos.
+- Esta dinámica beneficia a Anthropic a largo plazo (regulatory moat), pero a corto plazo paraliza su negocio.
+
+#### Implicaciones para el futuro de la IA
+
+Berman concluye con una reflexión preocupante sobre cómo este evento marca un cambio de paradigma en la percepción de los modelos de IA frontera.
+
+- **De herramienta a amenaza nacional**: cada modelo futuro será evaluado primero por su riesgo para la seguridad nacional, no por su utilidad para la humanidad.
+- OpenAI no ha sido objeto de restricciones similares a pesar de tener modelos casi igual de capaces (GPT-5.5 y pronto GPT-5.6), lo que crea un **campo de juego desigual**.
+- La conversación pública sobre la IA, ya negativa en EE.UU., se vuelve aún más adversa, dificultando la adopción y la innovación.
+- **Predicción de Berman**: en 1-2 semanas se alcanzará un acuerdo que restaure el acceso, siguiendo el patrón de la administración Trump de "decisión extrema → negociación → punto medio". Es probable que Anthropic deba implementar sistemas más agresivos de verificación de identidad y geolocalización.
+
+#### Reflexión final / Conclusiones
+
+Berman considera esto una **herida autoinfligida** por Anthropic: la compañía construyó su marca sobre el miedo a sus propios modelos, y ahora recoge exactamente lo que sembró. Aunque no está de acuerdo con la prohibición (porque ningún modelo es perfectamente seguro y la medida es demasiado amplia), reconoce que Anthropic sembró las semillas de esta decisión al exagerar los riesgos de su propia tecnología. La lección más importante para la industria es que **pedir regulación basada en el miedo puede tener consecuencias impredecibles y contraproducentes**. Este momento quedará registrado como el punto en que los gobiernos comenzaron a tratar los modelos de IA frontera como armas, no como herramientas.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Anthropic sobre la suspensión de acceso: https://www.anthropic.com/news/fable-mythos-access
+- 🔗 Anuncio de Anthropic en X: https://x.com/AnthropicAI/status/2065597531644743999
+- 🔗 Reacción de Theo en X: https://x.com/theo/status/2065665304882209132
+- 🔗 Reportaje de The Information (Steph Palazzolo): https://x.com/steph_palazzolo/status/2065830580135051306
+- 🔗 Dario Amodei — Policy on the AI Exponential: https://darioamodei.com/post/policy-on-the-ai-exponential
+
 
 ## [Matt Wolfe] AI News: An INSANE Week… Here's What Matters
 **Fecha:** 2026-06-12
