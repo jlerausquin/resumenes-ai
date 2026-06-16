@@ -81,7 +81,8 @@ Matt Wolfe cierra destacando que su objetivo con el canal es filtrar el ruido y 
 - 🔗 Artículo: https://openai.com/index/built-to-benefit-everyone-our-plan/
 - 🏢 Empresa: https://www.coinbase.com/blog/coinbase-for-agents
 
-## [## [Matthew Berman] WTF is going on?!
+
+## [Matthew Berman] WTF is going on?!
 **Fecha:** 2026-06-13
 **URL:** https://www.youtube.com/watch?v=xvfz3gXVYNI
 **Video ID:** xvfz3gXVYNI
