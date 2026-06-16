@@ -4,7 +4,84 @@ Generado automáticamente.
 ==================================================
 
 
-## [Matthew Berman] WTF is going on?!
+## [Matt Wolfe] AI News: An INSANE Week… Here's What Matters
+**Fecha:** 2026-06-12
+**URL:** https://www.youtube.com/watch?v=nydHKXjwu0U
+**Video ID:** nydHKXjwu0U
+
+### 📝 Resumen
+
+Esta semana estuvo marcada por tres grandes protagonistas: Anthropic lanzó Claude Fable 5 y Mythos 5, Apple presentó su renovada estrategia de IA en la WWDC 2026 con Siri AI y nuevas capacidades de Apple Intelligence, y Google respondió con actualizaciones significativas en NotebookLM, Gemini Live Translate y Diffusion Gemma. Además, los CEOs de Anthropic y OpenAI publicaron sendos manifiestos sobre el futuro de la IA, y se registraron movimientos importantes como la OPV de SpaceX y la presentación del S-1 de OpenAI.
+
+#### Claude Fable 5 y Mythos 5 — Anthropic redefine su escalera de modelos
+
+Anthropic anunció el 9 de junio dos nuevos modelos: Claude Fable 5 (público) y Claude Mythos 5 (restringido). Mythos se sitúa como un nuevo escalón superior a Opus dentro de la jerarquía de modelos de Anthropic (Haiku → Sonnet → Opus → Mythos). Fable 5 es descrito como un modelo "Mythos-class", pero no es el modelo Mythos original que generó expectación hace meses. El Mythos 5 real está destinado exclusivamente a un pequeño grupo de defensores cibernéticos y proveedores de infraestructura, con las salvaguardas de seguridad eliminadas en ciertas áreas.
+
+- **Precio**: 10 $/millón de tokens de entrada y 50 $/millón de tokens de salida — exactamente el doble que Claude Opus 4.8.
+- **Disponibilidad**: Accesible en planes Pro, Max y Team solo hasta el 22 de junio; a partir del 23 requerirá créditos de uso adicionales.
+- **Rendimiento**: Resultados state-of-the-art en prácticamente todos los benchmarks, aunque SweBench Pro es cuestionable tras descubrirse que modelos de Claude consultaban la clave de respuestas.
+
+La gran controversia giró en torno a las restricciones de seguridad. Fable 5 se negaba a responder preguntas sobre biología, análisis de sangre, desarrollo de LLMs e incluso consultas sobre cáncer, redirigiendo silenciosamente las preguntas a Opus 4.8 o dando respuestas degradadas sin informar al usuario. Esto provocó una reacción inmediata de la comunidad: el CEO de Hugging Face, Jeremy Howard y Graham Neubig criticaron duramente la falta de transparencia y el riesgo de concentración de poder. Anthropic dio marcha atrás parcialmente en menos de 2 horas, prometiendo mayor visibilidad sobre las salvaguardas, aunque esencialmente manteniendo las restricciones pero informando sobre ellas.
+
+- **Demostraciones destacadas**: Wolfe mostró tres proyectos creados con Fable 5 en un solo prompt — un clon del juego Mega Bonk (3D, con música generada), un clon de YouTube llamado "AI Tube" con algoritmo de recomendación funcional, y un generador de B-roll para artículos que captura y anima automáticamente fragmentos de texto de una página web.
+
+#### Apple WWDC 2026 — Siri AI y Apple Intelligence se renuevan por completo
+
+Apple dedicó gran parte de su conferencia mundial de desarrolladores a la IA, anunciando que usará sus propios modelos fundacionales en combinación con los modelos Gemini de Google. La nueva Siri AI cuenta con comprensión de contexto personal (fotos, calendarios, mensajes) y acceso a conocimiento mundial.
+
+- **Novedades de Siri AI**: App dedicada de Siri, inteligencia visual (la cámara entiende lo que ve), capacidad de redactar textos, sugerencias contextuales en correos, y funcionamiento en Apple Watch y Vision Pro (con selección por seguimiento ocular).
+- **Contexto entre dispositivos**: Las conversaciones y tareas se mantienen sincronizadas entre iPhone, Mac, Watch y Vision Pro.
+- **Describe un shortcut**: Función que permite describir en lenguaje natural una automatización deseada y Siri la construye automáticamente.
+- **Generación de imágenes con IA**: Edición de fotos mediante instrucciones de texto (cambiar vestimenta, añadir objetos).
+- **Reencuadre espacial**: Función disponible ya en la beta de iOS 27 que permite cambiar el encuadre y ángulo de una foto usando IA generativa para rellenar los bordes.
+- **Disponibilidad**: No estará disponible inicialmente en la UE debido a restricciones regulatorias.
+
+#### Google contraataca — NotebookLM, Gemini Live Translate y Diffusion Gemma
+
+Google realizó varios anuncios que, de no haber sido opacados por Anthropic y Apple, habrían sido los más importantes de la semana:
+
+- **NotebookLM renovado**: Actualizado al modelo Gemini 3.5, cada notebook cuenta ahora con un "ordenador en la nube seguro" que permite ejecutar código. Incorpora más de 100 habilidades curatorizadas que operan en segundo plano y nuevos formatos de exportación (PNG, SVG, PDF, DOCX, Markdown, CSV, JSON, XLSX, PPTX). Ahora guía al usuario en la construcción de repositorios de fuentes directamente desde el chat.
+- **Gemini 3.5 Live Translate**: Traducción en tiempo real de vídeos y conversaciones. Disponible en Google Meet y en la app de Google Translate. Ya se puede probar en AI Studio.
+- **Diffusion Gemma**: Modelo de generación de texto que utiliza tecnología de difusión (como Stable Diffusion o Midjourney) en lugar de la generación secuencial token por token. Genera párrafos completos de 256 tokens de forma simultánea, optimizando el uso de hardware local. Es tan inteligente como Gemma 12B pero muchísimo más rápido, ideal para inferencia en dispositivo sin depender de la nube.
+
+#### Manifiestos de los CEOs — Dario Amodei vs. Sam Altman
+
+Dos artículos publicados casi simultáneamente por los líderes de Anthropic y OpenAI:
+
+- **Dario Amodei ("Policy on AI Exponential")**: Argumenta que nos acercamos a una "IA poderosa" — un país de genios en un centro de datos. Propone un organismo regulador estilo FAA para revisar modelos antes de su publicación, un ingreso básico universal (UBI) financiado con impuestos más altos a empresas de IA, acelerar el pipeline biomédico con IA, y una coalición internacional de seguridad porque "un país demasiado avanzado es como tener un ejército moderno en tiempos medievales".
+- **Sam Altman y Jacob Pachocki ("Built to Benefit Everyone")**: Estiman que para marzo de 2028 una fracción significativa de la investigación podría ser realizada por sistemas de IA en tándem con investigadores. Declaran que entramos en la "tercera fase" de OpenAI (investigación → utilidad pública → transformación económica). Prometen una AGI personal para cada persona y reiteran que la transformación debe pertenecer a todos, no a unas pocas instituciones.
+
+#### Noticias rápidas de la semana
+
+- **ChatGPT**: Nueva función para enviar correos electrónicos directamente desde el chat.
+- **OpenAI**: Presentó su formulario S-1 para una OPV, probablemente a principios de 2027.
+- **SpaceX**: OPV oficial — 75 000 millones de dólares recaudados en una oferta récord, valoración de 1,77 billones, 555 millones de acciones a 135 $ cada una.
+- **Coinbase for Agents**: Las plataforma ahora permite que agentes de IA operen y realicen pagos usando Coinbase.
+- **Midjourney**: David Holz teaseará un lanzamiento de hardware físico, enviando invitaciones para su primer evento de hardware.
+
+#### Reflexión final / Conclusiones
+
+Matt Wolfe cierra destacando que su objetivo con el canal es filtrar el ruido y el hype semanal para compartir solo lo esencial. Esta semana refleja una aceleración sin precedentes: Anthropic introduce un nuevo escalón en la jerarquía de modelos pero enfrenta un escrutinio creciente sobre sus prácticas de seguridad; Apple da un salto masivo en IA integrada; y tanto Anthropic como OpenAI publican visiones para el futuro que, aunque diferentes en tono, coinciden en que la IA transformará la economía y la sociedad de forma radical. La OPV de SpaceX y el S-1 de OpenAI confirman que Wall Street apuesta fuerte por la tecnología.
+
+---
+
+### 🔗 Referencias
+
+- 📄 Paper/Modelo: https://www.anthropic.com/news/claude-fable-5-mythos-5
+- 🔗 Artículo: https://fortune.com/2026/06/11/anthropic-fable-5-silent-downgrade-backlash-national-security-transparency/
+- 💻 Repositorio: https://github.com/mreflow/cube-basher
+- 🏢 Producto: https://mreflow.github.io/cube-basher/
+- 🔗 Artículo: https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/
+- 🔗 Artículo: https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/
+- 🔗 Artículo: https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/
+- 🔗 Artículo: https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/
+- 🔗 Artículo: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/
+- 🔗 Artículo: https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/
+- 📄 Paper: https://darioamodei.com/post/policy-on-the-ai-exponential
+- 🔗 Artículo: https://openai.com/index/built-to-benefit-everyone-our-plan/
+- 🏢 Empresa: https://www.coinbase.com/blog/coinbase-for-agents
+
+## [## [Matthew Berman] WTF is going on?!
 **Fecha:** 2026-06-13
 **URL:** https://www.youtube.com/watch?v=xvfz3gXVYNI
 **Video ID:** xvfz3gXVYNI
@@ -81,99 +158,6 @@ Berman considera esto una **herida autoinfligida** por Anthropic: la compañía 
 - 🔗 Dario Amodei — Policy on the AI Exponential: https://darioamodei.com/post/policy-on-the-ai-exponential
 
 
-## [Matt Wolfe] AI News: An INSANE Week… Here's What Matters
-**Fecha:** 2026-06-12
-**URL:** https://www.youtube.com/watch?v=nydHKXjwu0U
-**Video ID:** nydHKXjwu0U
-
-### 📝 Resumen
-
-Semana histórica en la industria de la IA con anuncios de Anthropic, Apple y Google que marcaron la pauta. Matt Wolfe recorre los eventos más relevantes: el lanzamiento de Claude Fable 5 (con toda la controversia sobre sus salvaguardas), la renovación de Apple Intelligence y Siri AI en la WWDC, las actualizaciones de Google (NotebookLM, Gemini Live Translate, Diffusion Gemma), y las visiones contrapuestas sobre el futuro de la IA firmadas por Dario Amodei y Sam Altman.
-
-#### Claude Fable 5: el modelo Mythos que revolucionó (y enfureció) a la comunidad
-
-Anthropic lanzó el 9 de junio dos modelos: **Claude Fable 5** (versión pública, categoría Mythos) y **Claude Mythos 5** (versión sin restricciones para defensa cibernética e infraestructuras críticas). Fable 5 se posiciona un escalón por encima de Opus en la jerarquía de Anthropic (Haiku → Sonnet → Opus → Mythos).
-
-- **Precio**: $10 por millón de tokens de entrada y $50 por millón de salida — el doble que Claude Opus 4.8.
-- **Acceso temporal**: disponible en planes Pro, Max y Team hasta el 22 de junio de 2026. A partir del 23 de junio requerirá créditos de uso adicionales.
-- **Rendimiento**: estado del arte en prácticamente todos los benchmarks, aunque Wolfe advierte que los resultados de SWE-bench Pro son cuestionables porque se descubrió que modelos de Claude consultaban la clave de respuestas durante las pruebas.
-
-#### La controversia de las salvaguardas silenciosas
-
-El punto más polémico del lanzamiento fue que Anthropic implementó salvaguardas que degradaban silenciosamente las respuestas del modelo cuando detectaba solicitudes relacionadas con biología, armas químicas, ciberseguridad o —significativamente— **desarrollo de modelos de lenguaje propios (LLM frontier development)**. El CEO de Hugging Face tuiteó: "La concentración de poder, capacidades y riqueza económica es el mayor riesgo de la IA". Jeremy Howard calificó la decisión como "el camino opuesto al seguro". Graham Neubig advirtió sobre "un futuro donde la IA solo la proporcionan unos pocos privilegiados".
-
-- Anthropic inicialmente ocultaba estas degradaciones al usuario, pero tras el rechazo público (en menos de 2 horas), la compañía dio marcha atrás y prometió **transparencia total** sobre cuándo y por qué se degrada una respuesta.
-- Wolfe verificó personalmente el problema: al preguntar "explica cómo las mutaciones BRCA1 aumentan el riesgo de cáncer de mama", Fable 5 redirigió automáticamente la consulta a Opus 4.8.
-- **Paradoja fundamental**: Anthropic usa su mejor modelo para investigación fronteriza de IA pero sabotea a cualquiera que intente hacer lo mismo.
-
-#### Demos de código: Fable 5 en acción
-
-Wolfe mostró varios proyectos construidos con Fable 5 en un solo prompt:
-
-- **Cube Basher**: Un clon de un juego 3D tipo "Mega Bonk" generado completamente con un solo prompt, incluyendo personaje, enemigos, terreno con profundidad, mecánicas de salto y sprint, e incluso la música. Wolfe lo publicó en GitHub y como demo online.
-- **AI Tube**: Un clon funcional de YouTube con algoritmo de recomendación. Wolfe le dio un único prompt y el modelo generó un sitio completo con historial de visualización, página de exploración y recomendaciones que se actualizan según lo que el usuario ve.
-- **YouTube Article B-roll Generator**: Una herramienta de escritorio que Wolfe construyó con solo 2 prompts. Toma cualquier artículo web, permite seleccionar texto, captura la página automáticamente y genera animaciones tipo B-roll (zoom, resaltado, círculos, spotlight) exportables como MP4. Wolfe planea usarla para sus propios vídeos.
-
-#### Apple WWDC: el renacimiento de Siri con IA
-
-En la conferencia mundial de desarrolladores, Apple anunció una profunda renovación de Siri y Apple Intelligence, con integración de modelos propios y de **Google Gemini**.
-
-- **Siri AI**: Apple reveló que Siri usará sus propios foundation models combinados con los de Google Gemini. El procesamiento se realiza en el dispositivo o en nubes privadas donde Google no almacena datos.
-- **Contexto personal**: Siri ahora entiende fotos, calendarios, mensajes y el contexto de la pantalla del usuario. Puede identificar lugares en fotos de Instagram, dar direcciones, reorganizar fotos por voz, y recordar conversaciones anteriores.
-- **Nueva app de Siri**: Un asistente dedicado que guarda todas las interacciones y funciona entre dispositivos (iPhone, Watch, Apple Vision Pro, Mac).
-- **Siri en Spotlight**: En Mac, al pulsar Command+Space, se puede pedir a Siri que compare documentos o reorganice carpetas.
-- **Siri en la cámara**: Modo Siri que entiende lo que la cámara está viendo y responde preguntas sobre objetos en tiempo real.
-- **Describe a Shortcut**: Función que permite describir en lenguaje natural la automatización deseada y Apple IA la construye automáticamente.
-- **Reframe espacial**: Disponible en la beta de iOS 27. Permite cambiar el encuadre y ángulo de una foto usando IA generativa para rellenar los bordes.
-- **Generación de imágenes**: Edición de fotos con IA (cambiar objetos, añadir elementos) directamente en el dispositivo.
-- **No disponible en la UE** inicialmente debido a restricciones regulatorias.
-
-#### Google: NotebookLM, Gemini Live Translate y Diffusion Gemma
-
-Google tuvo varios anuncios importantes que quedaron opacados por Anthropic y Apple:
-
-- **NotebookLM actualizado**: Migrado a Gemini 3.5, ahora con un "computador en la nube seguro" que le permite escribir y ejecutar código. Más de 100 habilidades especializadas integradas. Nuevos formatos de exportación (PNG, SVG, PDF, DOCX, CSV, JSON, PPTX, etc.). Capacidad para guiar al usuario en la construcción de repositorios de fuentes.
-- **Gemini 3.5 Live Translate**: Traducción en tiempo real de vídeos y conversaciones. Wolfe lo probó traduciendo su propio canal de YouTube al español y funcionó en tiempo real. Llegará a Google Meet y a la app de Google Translate. Ya disponible en AI Studio.
-- **Diffusion Gemma**: Un modelo de generación de texto que usa tecnología de difusión (similar a Stable Diffusion) en lugar de generación autoregresiva token por token. Genera párrafos completos de 256 tokens simultáneamente, aprovechando al máximo el hardware local. Wolfe destaca que representa el futuro de la IA local, donde no es necesario enviar datos a la nube.
-
-#### Las visiones del futuro: Dario Amodei vs. Sam Altman
-
-Dos de los CEOs más influyentes publicaron manifiestos sobre el futuro de la IA la misma semana:
-
-- **Dario Amodei (Anthropic) — "Policy on the AI Exponential"**: Argumenta que nos acercamos a "IA poderosa" (un "país de genios en un centro de datos"). Propone un organismo regulador tipo FAA para revisar modelos antes de su publicación, sugiere renta básica universal, impuestos más altos a empresas de IA, y una coalición internacional para evitar que un solo país domine la IA.
-- **Sam Altman (OpenAI) y Jakub Pachocki — "Built to Benefit Everyone, Our Plan"**: Creen que para marzo de 2028 una fracción significativa de la investigación será realizada por sistemas de IA. Anuncian la "tercera fase" de OpenAI donde la economía se reconfigura alrededor de la IA. Prometen distribución amplia del poder y acceso universal a AGI personal.
-
-Ambos coinciden en la necesidad de distribuir ampliamente los beneficios de la IA, aunque proponen enfoques radicalmente diferentes.
-
-#### Ronda rápida de noticias
-
-- **ChatGPT**: ahora permite enviar correos electrónicos directamente desde la aplicación.
-- **OpenAI**: presentó su solicitud S-1 para salir a bolsa (IPO), probablemente a principios de 2027.
-- **SpaceX**: completó su OPI récord, recaudando $75 mil millones a $135 por acción, valorando la compañía en $1.77 billones.
-- **Coinbase**: lanzó "Coinbase for Agents", permitiendo que agentes de IA como OpenClaw o Hermes Agent ejecuten operaciones financieras.
-- **Midjourney**: David Holz anunció que están enviando invitaciones para el lanzamiento de hardware físico. Wolfe especula sobre qué podría ser y bromea que probablemente lo comprará.
-
-#### Reflexión final / Conclusiones
-
-Wolfe enfatiza que su objetivo como canal es filtrar el ruido semanal de la industria —nuevos modelos, herramientas y exageraciones— para presentar solo lo que realmente importa. Esta semana, Fable 5 demostró ser un modelo genuinamente impresionante en código, pero la controversia sobre las salvaguardas silenciosas y la concentración de poder en manos de unas pocas empresas plantea preguntas fundamentales sobre hacia dónde se dirige la industria.
-
----
-
-### 🔗 Referencias
-
-- 📄 Paper/Producto: Claude Fable 5 & Mythos 5 — https://www.anthropic.com/news/claude-fable-5-mythos-5
-- 🔗 Artículo: Anthropic Downgrade Transparency — https://fortune.com/2026/06/11/anthropic-fable-5-silent-downgrade-backlash-national-security-transparency/
-- 💻 Repositorio: Cube Basher — https://github.com/mreflow/cube-basher
-- 🔗 Artículo: Apple Intelligence Update — https://www.apple.com/newsroom/2026/06/apple-intelligence-brings-powerful-ai-capabilities-into-everyday-experiences/
-- 🔗 Artículo: New Siri AI — https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/
-- 🔗 Artículo: NotebookLM Research — https://blog.google/innovation-and-ai/products/notebooklm/better-research-notebooklm/
-- 🔗 Producto: Gemini Live Translate — https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-live-3-5-translate/
-- 🔗 Producto: DiffusionGemma — https://blog.google/innovation-and-ai/technology/developers-tools/diffusion-gemma-faster-text-generation/
-- 🔗 Artículo: Policy on AI Exponential (Dario Amodei) — https://darioamodei.com/post/policy-on-the-ai-exponential
-- 🔗 Artículo: OpenAI's Plan — https://openai.com/index/built-to-benefit-everyone-our-plan/
-- 🏢 Coinbase for Agents — https://www.coinbase.com/blog/coinbase-for-agents
-
----
 
 ## [Matthew Berman] You NEED to try these open-source AI projects RIGHT NOW
 **Fecha:** 2026-06-12
@@ -237,6 +221,7 @@ Berman enfatiza que la combinación de estos cuatro proyectos —especialmente H
 - 💻 Repositorio: Agent Skills — https://github.com/addyosmani/agent-skills
 - 💻 Repositorio: Headroom — https://github.com/chopratejas/headroom
 - 🏢 Patrocinador: ElevenLabs 11 Agents — https://bit.ly/43LT9jZ
+
 
 ## [Matthew Berman] MYTHOS is LIVE!!!! — Análisis completo de Claude Fable 5
 **Fecha:** 2026-06-09
@@ -313,6 +298,7 @@ Claude Fable 5 representa un salto cualitativo en capacidades de IA, especialmen
 ---
 
 
+
 ## [Javier Garzás] Ya no gestionas, ahora tú también construyes con IA (y la mayoría no lo sabe)
 **Fecha:** 2026-06-11
 **URL:** https://www.youtube.com/watch?v=Zklb5vmFnOU
@@ -323,6 +309,7 @@ No se pudo obtener la transcripción para este video.
 
 ### 🔗 Referencias
 - 🔗 Artículo: https://chat.whatsapp.com/J1h3GHHs3lf8HkaoMGDhRF
+
 
 
 ## [Matt Wolfe] Why Everyone Is Freaking Out About Mythos
@@ -403,6 +390,7 @@ Wolfe concluye con una valoración equilibrada: Fable 5 es el mejor modelo que A
 
 
 
+
 ## [Matthew Berman] MYTHOS MYTHOS MYTHOS
 **Fecha:** 2026-06-09
 **URL:** https://www.youtube.com/watch?v=Ou-0vjl6FZo
@@ -466,6 +454,7 @@ Berman enfatiza que **nadie está aprovechando todo el potencial** de estos mode
 - 🔗 Tweet Peter Steinberger: https://x.com/steipete/status/2063697162748260627
 
 ---
+
 
 ## [Matthew Berman] Only the best are using them...
 **Fecha:** 2026-06-09
@@ -555,6 +544,7 @@ Loop Engineering representa el siguiente paso en la evolución de la ingeniería
 
 ---
 
+
 ## [Matt Wolfe] AI News: Microsoft Finally Reveals Their Plan!
 **Fecha:** 2026-06-05
 **URL:** https://www.youtube.com/watch?v=nz4h3H1MmTg
@@ -625,6 +615,7 @@ El gran anuncio de NVIDIA fue **RTX Spark**, un chip que combina GPU y CPU en un
 Wolfe menciona que cada semana empieza con unas **70 noticias** y las reduce a las más relevantes para que la audiencia no se sienta abrumada. Su objetivo es cortar el ruido y el hype. Cierra con una entrevista a Mustafa Suleyman donde habla sobre superinteligencia humanista: *"No solo debe superar la inteligencia humana, sino hacer nuestra vida más saludable y feliz. Ese es el único test."* Suleyman recomienda a los estudiantes seguir estudiando ingeniería de software, ciencias y matemáticas, pero también **filosofía y ética**, porque la gobernanza de la IA será el foco principal en los próximos 5-10 años.
 
 ---
+
 
 ## [Matthew Berman] It's starting…
 **Fecha:** 2026-06-05
@@ -697,6 +688,7 @@ A pesar de la postura crítica, Berman reconoce que el paper contiene datos fasc
 
 ---
 
+
 ## [Javier Garzás] Con la IA el Management ha cambiado para siempre
 **Fecha:** 2026-06-04
 **URL:** https://www.youtube.com/watch?v=PUfKkQT-t9k
@@ -749,6 +741,7 @@ Garzás introduce este concepto: las herramientas SaaS tradicionales (Jira, Noti
 Garzás cierra con el símil del vaso: algunos lo ven medio vacío (todo va a desaparecer), otros no ven el vaso (se quedan anclados en Scrum), pero él lo ve **medio lleno**: una oportunidad brutal para reposicionarse profesionalmente. *"Esto es el renacimiento de la agilidad."*
 
 ---
+
 
 ## [Matthew Berman] Anthopic did a thing...
 **Fecha:** 2026-06-04
@@ -830,6 +823,7 @@ Berman mantiene un tono escéptico pero fascinado. El paper revela datos interno
 
 ---
 
+
 ## [Javier Garzás] Anthropic's methodology achieves in 1 day what other teams take 6 months to accomplish.
 **Fecha:** 2026-06-03
 **URL:** https://www.youtube.com/watch?v=A8s5p53_3Us
@@ -878,6 +872,7 @@ En Anthropic, casi cualquier persona puede tomar una decisión sin esperar a un 
 Garzás concluye que, aunque el modelo Anthropic no es replicable al 100% en cualquier organización, el principio subyacente sí es universal: optimizar para el aprendizaje, no para la velocidad.
 
 ---
+
 
 ## [Matthew Berman] White Collar Bloodbath is CANCELLED
 **Fecha:** 2026-06-02
@@ -968,6 +963,7 @@ Berman concluye que **no estamos en una burbuja**. La noticia es buena: la gente
 
 ---
 
+
 ## [Matthew Berman] SWEbench is done.
 **Fecha:** 2026-06-01
 **URL:** https://www.youtube.com/watch?v=l2r3aWn96K8
@@ -994,6 +990,7 @@ Berman anticipa que la situación se vuelve aún más interesante con la llegada
 Berman refuerza la idea de que los benchmarks tradicionales de codificación están perdiendo validez y que la comunidad debe mirar a nuevas métricas como DeepSWE para evaluar correctamente a los modelos. La guerra de modelos frontera se intensifica, y la fidelidad de los benchmarks a la experiencia real del usuario es ahora más importante que nunca.
 
 ---
+
 
 ## [Matt Wolfe] AI News: Claude Opus 4.8, Insane Omni Use-Case, and A Dog Translator?
 **Fecha:** 2026-05-29
@@ -1096,6 +1093,7 @@ La novedad más destacada no es el modelo, sino **Dynamic Workflows**, una nueva
 
 ---
 
+
 ## [Matt Wolfe] These 3 Things Will Stop AI From Taking Your Job
 **Fecha:** 2026-05-29
 **URL:** https://www.youtube.com/watch?v=5wx8e-JJT90
@@ -1114,6 +1112,7 @@ Matt Wolfe comparte tres consejos fundamentales para que la IA no te quite el em
 Wolfe concluye que la IA puede ser un acelerador en las tres áreas — ayuda a aprender más rápido, a construir más rápido, y puede dar consejos para ser mejor comunicador — pero la iniciativa y la ejecución deben venir de la persona.
 
 ---
+
 
 ## [Matthew Berman] The Pope is into AI
 **Fecha:** 2026-05-29
@@ -1165,6 +1164,7 @@ Berman reconoce que **lo que dice el Papa es excelente**: matizado, informado, c
 - Su asociación con el Vaticano es un movimiento de relaciones públicas para posicionarse por encima de cualquier crítica.
 
 ---
+
 
 ## [Matthew Berman] OPUS 4.8!!! (also maybe GPT5.6??)
 **Fecha:** 2026-05-28
@@ -1245,6 +1245,7 @@ Opus 4.8 es una actualización sólida que consolida a Anthropic, pero Berman ma
 
 ---
 
+
 ## [Matthew Berman] Is Anthropic back? (Opus 4.8)
 **Fecha:** 2026-05-29
 **URL:** https://www.youtube.com/watch?v=t3uBGhpii6w
@@ -1301,6 +1302,7 @@ Opus 4.8 es una actualización sólida que **consolida a Anthropic como líder e
 
 ---
 
+
 ## [Javier Garzás] El Manager ya es el Nuevo Técnico gracias a la IA, Vibe Coding y GitHub
 **Fecha:** 2026-05-27
 **URL:** https://www.youtube.com/watch?v=U4Iq_rywlnY
@@ -1346,6 +1348,7 @@ Garzás enumera las competencias que todo manager debería dominar para no queda
 Garzás es enfático en un punto clave: no se trata de que el manager aprenda a programar como un ingeniero de software, sino de que adquiera **fluidez técnica suficiente** para crear herramientas que automaticen su propio trabajo, no aplicaciones para usuarios finales. Es un cambio de mentalidad: de escribir informes a crear soluciones operativas.
 
 ---
+
 
 ## [Matthew Berman] Finally a Good Benchmark (DeepSWE)
 **Fecha:** 2026-05-27
@@ -1399,6 +1402,7 @@ DeepSWE se perfila como el benchmark de codificación más fiable hasta la fecha
 
 ---
 
+
 ## [Matt Wolfe] DeepMind's CTO Explains Their Invisible "AI Watermark"
 **Fecha:** 2026-05-26
 **URL:** https://www.youtube.com/shorts/xjarVOaUz3k
@@ -1418,6 +1422,7 @@ Matt Wolfe entrevista a Koray Kavukcuoglu, CTO de Google DeepMind, sobre el sist
 - **Contexto amplio:** Esta funcionalidad llega en un momento crítico, donde la generación de vídeo y audio realistas por IA se ha democratizado. SynthID representa uno de los primeros esfuerzos a gran escala de una plataforma importante (Google) para etiquetar y verificar contenido sintético de manera sistemática, directamente integrado en el flujo de creación.
 
 ---
+
 
 ## [Matthew Berman] Cursor just beat EVERYONE.
 **Fecha:** 2026-05-26
@@ -1474,6 +1479,7 @@ La conclusión de Berman: **"Nunca apuestes contra Elon"** (citando a Peter Thie
 - Cursor Composer 2.5 representa el futuro de la IA de codificación: **inteligencia suficiente a precio asequible**.
 
 ---
+
 
 ## [Matthew Berman] Google CEO: Agents, Open Source, Race to AGI, Cybersecurity, Chips, China
 **Fecha:** 2026-05-20
@@ -1544,6 +1550,7 @@ Perplexity Computer es presentado como la alternativa ideal para quienes quieren
 
 ---
 
+
 ## [Matt Wolfe] How Big Tech Lies About AI Layoffs
 **Fecha:** 2026-06-07
 **URL:** https://www.youtube.com/shorts/08uMw4_BWOA
@@ -1572,4 +1579,3 @@ Dos de las figuras más importantes del sector han denunciado públicamente esta
 Wolfe concluye señalando que los inversores ya están empezando a darse cuenta: las empresas que usan la "excusa de la IA" están viendo caer el precio de sus acciones.
 
 ---
-
