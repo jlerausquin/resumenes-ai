@@ -2,6 +2,154 @@
 
 ---
 
+## [Matt Wolfe] AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker
+**Fecha:** 2026-06-19
+**URL:** https://www.youtube.com/watch?v=Db260rUuKJg
+**Video ID:** Db260rUuKJg
+
+### 📝 Resumen
+
+Matt Wolfe presenta su resumen semanal de noticias de IA, dominado por un evento histórico: por primera vez, el gobierno de EE.UU. forzó la retirada del mercado de un modelo de IA comercial —Claude Fable 5 y Mythos 5 de Anthropic—. Además, cubre el lanzamiento del modelo open-source GLM 5.2 de Z.AI, el sorprendente escáner médico de Midjourney, y una ráfaga de novedades menores de OpenAI, Perplexity, Adobe y Google.
+
+#### La prohibición de Fable 5 y Mythos 5 — el gobierno de EE.UU. interviene
+
+El viernes 12 de junio, el gobierno de EE.UU. ordenó a Anthropic suspender el acceso a Fable 5 y Mythos 5 para cualquier persona que no fuera ciudadano estadounidense, incluyendo empleados de Anthropic sin nacionalidad estadounidense. Como era casi imposible implementar esa segmentación, Anthropic desactivó ambos modelos globalmente. Wolfe analiza las causas y las ironías de la situación.
+
+- **El detonante**: Un jailbreak descubierto por David Sacks (socio de confianza de Anthropic y el gobierno). Según Sacks, la administración pidió a Dario Amodei que arreglara el jailbreak y este se negó, lo que llevó a la orden de control de exportaciones.
+- **La ironía**: Dario Amodei publicó apenas días antes un ensayo pidiendo exactamente este tipo de regulación — un organismo estilo FAA que pudiera bloquear o revertir el lanzamiento de modelos peligrosos.
+- **El rol de Amazon**: El CEO Andy Jassy fue quien alertó al gobierno sobre los riesgos de seguridad de los modelos de Anthropic, a pesar de que Amazon es uno de sus mayores inversores. Wolfe sugiere que el gobierno simplemente no le tiene simpatía a Anthropic.
+- **Precedente peligroso**: Si el gobierno puede cerrar un modelo de una empresa valorada en ~$965 mil millones de la noche a la mañana, cualquier inversión en laboratorios de IA se vuelve más riesgosa.
+- **Posible restauración**: Según Korea JoongAng Daily, Anthropic confía en re-habilitar el acceso en los próximos días.
+
+#### GLM 5.2 — el nuevo líder open-source en codificación
+
+Z.AI lanzó GLM 5.2, un modelo open-weight con licencia MIT de **753 mil millones de parámetros** y **1 millón de tokens de contexto**. Wolfe lo probó exhaustivamente para evaluar si realmente merece el hype como el nuevo estado del arte en modelos abiertos.
+
+- **Rendimiento en benchmarks**: En el Code Arena (prueba ciega), GLM 5.2 ocupa el segundo lugar global, solo por detrás de Claude Fable 5, superando a Opus 4.8 y GPT 5.5 por un amplio margen.
+- **Precio**: $1.40 por millón de tokens de entrada y $4.40 por millón de salida — una fracción del costo de Fable 5 ($10/$50).
+- **Prueba práctica de Wolfe**: Solicitó un clon de Mega Bonk. El modelo respondió inicialmente en chino (tuvo que traducir la página), el primer intento no funcionó, y tras tres prompts logró crear un juego funcional aunque "janky" y nada parecido al original. Wolfe concluye que no se acerca al nivel de Fable 5 para codificación one-shot.
+- **Habilidad destacada**: Creación de presentaciones de diapositivas — generó una presentación de 10 diapositivas sobre agent loops con diseño limpio, aunque nada extraordinario.
+- **A tener en cuenta**: Actualmente parece ser gratuito (Wolfe no encontró forma de pagar).
+
+#### Midjourney Medical — escáner corporal por ultrasonidos
+
+Midjourney sorprendió al mundo anunciando una nueva rama: **Midjourney Medical**. Su primer producto es un escáner de cuerpo completo que usa 9.000 transductores de ultrasonido en un anillo sumergible, prometiendo realizar en minutos lo que un MRI hace en horas, a una fracción del costo.
+
+- **Cómo funciona**: El paciente se sumerge en agua en un "dunk tank" con anillos de transductores que emiten y recogen ondas sonoras para crear imágenes de hasta 25 estructuras biológicas (columna, músculos, órganos).
+- **El plan**: No es para hospitales — Midjourney planea abrir el **"Midjourney Spa"** en San Francisco en 2027, con saunas, jacuzzis, baños de hielo y escáneres corporales como experiencia relajante.
+- **Contexto**: David Holz, CEO de Midjourney, ya tenía una empresa de sensores antes de Midjourney. La compañía no tiene inversores externos, está completamente bootstrapped.
+- **Crítica de Hank Green**: Señala que compararlo con MRI es engañoso — el ultrasonido no puede atravesar los pulmones (por el aire interior) ni es bueno para huesos. Es excelente para tejidos blandos, tiroides, riñones, flujo sanguíneo, pero no reemplaza a un CT o MRI en todas sus capacidades.
+
+#### Ráfaga de novedades
+
+- **OpenAI Codex Record & Replay**: Nueva función que graba la pantalla del usuario realizando una tarea repetitiva, aprende los pasos y crea un skill para que el agente lo replique automáticamente en el futuro.
+- **Perplexity Brain**: Sistema de memoria auto-mejorable para agentes. Construye un grafo de contexto del trabajo realizado y, en intervalos programados (ej. cada noche), revisa y aprende de sus errores para mejorar. Wolfe lo compara con el sistema de auto-mejora de Hermes Agent.
+- **Palmier Video Editor**: Editor de vídeo que se integra con Claude para organizar media, editar la línea de tiempo, añadir efectos y generar vídeo con modelos de IA. Cuesta $29/mes por 3-7 minutos de vídeo generado.
+- **Adobe AI Assistant**: Llega a Premiere, Illustrator e InDesign, permitiendo comandos de texto para editar secuencias o generar imágenes.
+- **Google Ask Ad Manager**: Asistente de IA para optimizar campañas publicitarias, similar a Ask Studio en YouTube.
+- **Claude Design**: Nueva edición directa en canvas y capacidad de importar diseños desde GitHub, Adobe, Canva, Gamma y más.
+- **Facebook AI Mode**: Nuevo modo que responde preguntas basándose en contenido público de grupos y reels, similar a Grok en X. También añade edición de fotos con IA (cambio de ropa, collage).
+- **Pew Research Survey**: 49% de los adultos estadounidenses usan chatbots de IA (frente al 33% en 2024), pero la mayoría es profundamente escéptica sobre su impacto positivo. Wolfe reflexiona sobre la paradoja: se puede amar ciertos usos de la IA y odiar otros al mismo tiempo.
+- **Self-Driving Toilet**: Un inodoro autónomo de la empresa Yueban Xiaoban que navega solo, tiene función de bidet, se autolimpia y se vacía en el inodoro regular. Diseñado para personas con movilidad reducida.
+
+#### Reflexión final / Conclusiones
+
+Wolfe cierra reflexionando sobre la semana más intensa en la historia reciente de la IA. La prohibición de Fable 5 marca un antes y un después en la relación entre gobierno y empresas de IA. Pero también destaca señales positivas: Midjourney usando sus ganancias para innovar en salud, modelos open-source cada vez más competitivos, y herramientas que empoderan a los usuarios. Su meta sigue siendo beber de la manguera toda la semana para que su audiencia no tenga que hacerlo.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Suspensión de Fable/Mythos: https://www.anthropic.com/news/fable-mythos-access
+- 🔗 Artículo Politico: https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519
+- 💻 Amazon CEO Jassy: https://x.com/steph_palazzolo/status/2065830580135051306
+- 🔗 Petición Free Fable: https://freefable.org/
+- 🔗 GLM-5.2: https://z.ai/blog/glm-5.2
+- 🔗 Facebook AI Tools: https://about.fb.com/news/2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/
+- 🔗 Midjourney Medical: https://www.midjourney.com/medical/blogpost
+- 📄 Hank Green sobre ultrasonidos: https://x.com/hankgreen/status/2067471250159448305
+- 🔗 Codex Record Replay: https://x.com/OpenAIDevs/status/2067681320281723113
+- 🔗 Claude Design: https://claude.com/blog/claude-design-stays-on-brand-for-daily-work
+- 🔗 Perplexity Brain: https://www.perplexity.ai/hub/blog/self-improving-memory-for-agents
+- 🔗 Palmier Video Editor: https://x.com/Marcos12345rico/status/2067264877463261400
+- 🔗 Adobe AI: https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/
+- 🔗 Google Ask Ad Manager: https://blog.google/products/admanager/ask-ad-manager/
+- 📄 Pew Research: https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/
+- 🔗 Self-Driving Toilet: https://www.theverge.com/tech/952441/yueban-xiaoban-self-driving-autonomous-toilet
+
+
+
+## [Matt Wolfe] PewDiePie's FREE Odysseus AI (Full Review & Setup)
+**Fecha:** 2026-06-17
+**URL:** https://www.youtube.com/watch?v=_7BHqZayPOc
+**Video ID:** _7BHqZayPOc
+
+### 📝 Resumen
+
+Matt Wolfe analiza en profundidad **Project Odysseus**, una plataforma de IA local y autoalojada creada por PewDiePie (Felix Kjellberg) que ya cuenta con más de 71.000 estrellas en GitHub. Odysseus es un espacio de trabajo de IA autogestionado que intenta replicar la experiencia de ChatGPT o Claude pero ejecutándose completamente en el hardware del usuario, con modelos locales y control total de datos. Wolfe lo instaló en su Mac M3, lo probó durante horas y ofrece una evaluación honesta de lo que funciona y lo que no.
+
+#### ¿Qué es Odysseus?
+
+Odysseus es una interfaz alrededor de modelos de IA, no un modelo nuevo. PewDiePie no creó un "PewDiePie GPT", sino un **entorno de trabajo completo** que integra chat con modelos, ejecución de agentes, gestión de archivos, investigación profunda, comparación de modelos, edición de imágenes, notas, tareas y calendario. Todo autoalojado.
+
+- Se conecta a modelos locales vía Ollama o a modelos cloud mediante API keys (OpenAI, Anthropic, etc.).
+- Corre completamente offline si se usan modelos locales — ningún dato sale del ordenador.
+- El repositorio en GitHub tiene instrucciones de instalación para Docker, Linux, Mac (Apple Silicon), y Windows.
+- Wolfe lo describe como una herramienta para "tinkerers" — entusiastas dispuestos a experimentar y resolver problemas técnicos.
+
+#### Instalación y configuración
+
+Wolfe documenta el proceso de instalación paso a paso. Clonó el repositorio, ejecutó el script de inicio para macOS, creó un usuario y contraseña, y accedió a la interfaz web. La configuración fue sorprendentemente sencilla.
+
+- **Conexión de modelos locales**: Instaló Ollama y descargó Gemma 3 12B (se descargó en ~1 minuto).
+- **Conexión de modelos cloud**: Añadió una API key de OpenAI, lo que le dio acceso inmediato a GPT 5.5 y todos los modelos de OpenAI.
+- **Modelo grande local**: También descargó Qwen 3.5 de 122 mil millones de parámetros (requiere 77 GB de VRAM), aunque la descarga fue lenta.
+
+#### Pruebas de modelos: Gemma 3 12B vs GPT 5.5
+
+Wolfe usó la herramienta de **comparación de modelos** de Odysseus para enfrentar Gemma 3 12B (local) contra GPT 5.5 (cloud) en varias pruebas:
+
+- **Pregunta sobre IA local**: Ambos modelos dieron respuestas adecuadas, aunque GPT 5.5 fue más detallada y verbosa. Wolfe calificó el resultado como empate.
+- **Generación de SVG**: La diferencia fue abismal — Gemma 3 12B produjo un SVG simple y tosco, mientras que GPT 5.5 generó un diseño complejo y atractivo.
+- **Qwen 3.5 122B**: Mucho mejor que Gemma en SVGs, pero todavía lejos de GPT 5.5.
+- **Scoreboard**: Odysseus mantiene un marcador interno de los resultados de comparación.
+
+#### Investigación profunda (Deep Research)
+
+Wolfe quedó impresionado por el módulo de investigación profunda. Usando Gemma 3 12B como modelo local, configuró 5 rondas de investigación preguntando cómo se compara Odysseus con OpenClaw y Hermes.
+
+- **Tiempo**: Aproximadamente 7 minutos para completar las 5 rondas.
+- **Resultado**: Generó un informe visual con tabla de contenidos, comparando las tres plataformas. Aunque tuvo imprecisiones (confundió MCP con "Model Control Plane"), Wolfe señala que esas imprecisiones son del modelo, no de la plataforma.
+- **Conclusión**: El diseño del informe y la estructura fueron impresionantes para haberse generado completamente con un modelo local.
+
+#### Funcionalidades problemáticas
+
+No todo funcionó bien. Wolfe dedicó 45 minutos a intentar sin éxito la edición de imágenes con IA:
+
+- **Inpainting/Outpainting**: No pudo hacer funcionar la generación de imágenes a pesar de instalar Flux Client (9B parámetros), Diffusers y Transformers. Siempre recibía errores de configuración del endpoint.
+- **Agentes**: Tampoco logró hacer funcionar el módulo de agentes de Odysseus.
+- **Editor de imágenes**: El removedor de fondos funcionó "a medias".
+
+#### Reflexión final / Conclusiones
+
+Wolfe concluye que Odysseus es impresionante en ciertas áreas (comparación de modelos e investigación profunda) pero decepcionante en otras (edición de imágenes y agentes). Está diseñado para personas que quieren **desconectarse completamente de las plataformas cloud**: usar su propio calendario, su propia galería de fotos, sus propias notas, y modelos locales. Las limitaciones principales son:
+
+- **Los modelos locales no están al nivel de los cloud** — Gemma 3 12B no se acerca a GPT 5.5 o Claude Opus.
+- **Requiere hardware potente** — ejecutar modelos de 122B parámetros necesita GPUs con 80+ GB de VRAM.
+- **Configuración compleja** — no es plug-and-play, especialmente para edición de imágenes.
+- **Valor para la privacidad**: Es emocionante ver avances hacia la IA local, pero todavía queda camino para que sea competitiva con las soluciones cloud en calidad y facilidad de uso.
+
+---
+
+### 🔗 Referencias
+
+- 💻 Repositorio Odysseus: https://github.com/pewdiepie-archdaemon/odysseus
+- 💻 Web de Odysseus: https://pewdiepie-archdaemon.github.io/odysseus/
+- 🔗 Video de PewDiePie: https://www.youtube.com/watch?v=rAzT5lcezPs
+- 🏢 Recraft V4.1: https://go.recraft.ai/MattWolfe
+- 🏢 Ollama: https://ollama.com/
+
+
 
 ## [Matt Wolfe] AI News: An INSANE Week… Here's What Matters
 **Fecha:** 2026-06-12

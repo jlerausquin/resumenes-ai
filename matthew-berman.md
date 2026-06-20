@@ -3,6 +3,168 @@
 Generado automáticamente.
 ==================================================
 
+## [Matthew Berman] 7 INSANE loops you need to try right now
+**Fecha:** 2026-06-19
+**URL:** https://www.youtube.com/watch?v=F4a8aMLb678
+**Video ID:** F4a8aMLb678
+
+### 📝 Resumen
+
+Matthew Berman presenta en detalle el concepto de **loops** (bucles) en ingeniería de software con IA — sistemas autónomos donde un agente de IA trabaja sin supervisión continua hacia un objetivo definido. Como parte del vídeo, lanza la **Loop Library**, un repositorio gratuito de loops listos para usar, y demuestra 7 casos de uso concretos para herramientas como Cursor, Codex y Claude Code.
+
+#### ¿Qué es un loop? Trigger + Goal
+
+Berman explica que un loop necesita dos elementos fundamentales. Un **trigger** (disparador) que puede ser manual, por programación (cron) o basado en una acción (como abrir un PR). Y un **goal** (objetivo) que puede ser verificable de forma determinista (ej: 100% de cobertura de tests) o mediante un LLM como juez (ej: "refactoriza hasta que estés satisfecho"). La combinación elimina la necesidad de supervisión humana continua.
+
+- **Trigger manual**: El humano inicia el loop explícitamente con un comando `/goal`.
+- **Trigger programado**: Se ejecuta cada cierto tiempo (cada noche, cada hora).
+- **Trigger por acción**: Se activa cuando ocurre un evento específico (PR abierto, error en logs).
+- **Goal verificable**: Un número concreto, un test que pasa, una condición medible.
+- **Goal con LLM como juez**: El modelo decide cuándo se ha alcanzado un estado "satisfactorio".
+
+#### Loop 1: Sub-50ms page load
+
+El loop favorito de Berman. El objetivo es que cada página, modal y componente de su aplicación cargue en menos de 50 milisegundos. El agente mide el rendimiento de cada página, optimiza el código, y repite hasta cumplir el objetivo.
+
+- **Trigger**: Manual (Berman lo inicia).
+- **Resultado**: El agente trabajó durante 50 minutos recorriendo cada página y optimizándola hasta cumplir la meta.
+- **Uso ideal**: Rendimiento de producción, auditorías de velocidad.
+
+#### Loop 2: Overnight docs sweep
+
+Cada noche, un agente revisa todo el código base y actualiza la documentación para reflejar los cambios del día. Si encuentra documentación desactualizada, la corrige y abre un pull request.
+
+- **Trigger**: Programado (1:00 a.m. cada día).
+- **Goal**: LLM como juez — el modelo determina si la documentación está completa y actualizada.
+- **Beneficio**: Documentación siempre fresca sin esfuerzo manual.
+
+#### Loop 3: Architecture satisfaction
+
+Basado en un patrón que Peter Steinberger usa frecuentemente. El loop refactoriza el código hasta que la arquitectura es "satisfactoria", evaluando criterios como simplicidad, principios DRY y estructura limpia.
+
+- **Trigger**: Manual o nocturno.
+- **Seguimiento**: El agente mantiene un archivo markdown con el progreso de la refactorización.
+- **Valor**: Mantiene el código base limpio y bien estructurado sin intervención humana.
+
+#### Loop 4: Logging coverage + Loop 5: Production error sweep
+
+Dos loops complementarios. El primero asegura que cada ruta importante del sistema tenga logging adecuado. El segundo revisa los logs de producción cada noche, detecta errores, los diagnostica, escribe una corrección y abre un PR con la solución.
+
+- **Trigger del error sweep**: Programado (cada noche).
+- **Flujo completo**: Lee logs → encuentra error → analiza causa raíz → escribe fix → abre PR → notifica por Slack.
+- **Sinergia**: Juntos crean un sistema de detección y reparación autónoma de errores.
+
+#### Loop 6: SEO/GEO visibility
+
+Ejecuta una auditoría completa de SEO y GEO (optimización para motores de respuesta generativa) analizando crawlability, indexación, títulos, enlaces internos, datos estructurados y contenido "answer-first". Identifica y corrige issues críticos hasta que no quede ninguno.
+
+- **Cobertura**: Incluye tanto SEO tradicional como optimización para búsquedas con IA generativa.
+- **Frecuencia recomendada**: Una vez por semana.
+
+#### Loop 7: Full product evaluation
+
+El loop más ambicioso. Crea N escenarios realistas que cubren todas las capacidades del producto, define criterios de éxito, ejecuta cada escenario bajo las mismas condiciones, y si algo no cumple el estándar, lo corrige y vuelve a probar. Berman lo ha usado con 100 casos de uso diferentes.
+
+- **Tiempo**: Puede ejecutarse durante 12 horas o más.
+- **No es un test suite estándar**: Es no-determinista — el modelo evalúa subjetivamente si el comportamiento es "suficientemente bueno".
+- **Aplicación práctica**: Berman lo usa para verificar la calidad de respuestas de su producto con fuentes y referencias.
+
+#### Advertencias sobre los loops
+
+Berman comparte dos limitaciones importantes:
+
+1. **No apto para todo**: Los loops funcionan mejor con objetivos verificables. Para construir features nuevas desde cero, el resultado es impredecible — el modelo puede decidir qué construir y cuándo parar de formas que no son óptimas. Un intento de clonar Excel con un loop duró días hasta que Berman lo detuvo.
+2. **Coste extremo**: Los loops consumen tokens de forma autónoma hasta cumplir el objetivo. Desde 10 minutos hasta días de ejecución continua. Solo equipos con presupuestos de tokens ilimitados pueden usar loops de forma intensiva.
+
+#### Reflexión final / Conclusiones
+
+Berman enfatiza que los loops representan la frontera actual de la ingeniería con IA. Pasar de "promptear agentes" a "diseñar bucles autónomos" es el siguiente salto en productividad. La Loop Library (signals.forwardfuture.ai/loop-library) es un recurso gratuito para que la comunidad comparta y adopte estos patrones. Los loops no son para todos hoy — requieren presupuesto de tokens y un diseño cuidadoso del goal — pero Berman sostiene que son el futuro de la ingeniería de software.
+
+---
+
+### 🔗 Referencias
+
+- 💻 Loop Library: https://signals.forwardfuture.ai/loop-library/
+- 🏢 here.now (hosting): https://here.now/r/signals
+- 🏢 DigitalOcean (sponsor): https://do.co/forwardfutureai
+
+
+
+## [Matthew Berman] You NEED to know these vibe coding secrets
+**Fecha:** 2026-06-18
+**URL:** https://www.youtube.com/watch?v=wwfJlSF34n8
+**Video ID:** wwfJlSF34n8
+
+### 📝 Resumen
+
+Matthew Berman condensa en este vídeo todo lo que ha aprendido sobre codificación asistida por IA tras haber usado extensivamente las principales herramientas del mercado (Cursor, Codex, Claude Code, Factory, Devin). El vídeo cubre desde la selección de herramientas hasta técnicas avanzadas como automations, loops, multi-modelo, work trees y el problema no resuelto de merging y deploys.
+
+#### Las herramientas de codificación agentiva del momento
+
+Berman revela sus herramientas principales: **Cursor** y **Codex** son sus favoritos. Cursor destaca por permitir usar modelos de diferentes proveedores (OpenAI, Anthropic, y el modelo propio de Cursor) y por ser pionero en cloud agents. Codex le gusta por su diseño limpio y la concisión de sus explicaciones — cada acción se resume en 1-2 frases, sin "ensayos" que ralenticen la lectura.
+
+- **Claude Code**: Excelente pero Berman lo ha dejado de usar por quedarse sin cuota constantemente.
+- **Devin y Factory**: Opciones sólidas, cada una con sus pros y contras.
+- **Recomendación**: Probar todas y decidir según el flujo de trabajo personal.
+
+#### Skills: el secreto mejor guardado
+
+Berman dedica una sección importante a los **skills** (habilidades), insistiendo en que cualquier tarea que se haga más de una vez debería ser un skill. Los skills son prompts estandarizados que los agentes pueden invocar con solo escribir "/" seguido del nombre del skill.
+
+- **Usos clave de skills**: Tareas repetitivas, reglas específicas de dominio, tool instructions (cómo usar APIs, CLIs, test runners), y quality gates (checklists pre-commit).
+- **Skills predefinidos**: Recomienda **Agent Skills** (más de 56.000 estrellas en GitHub), que cubre el ciclo completo de ingeniería: spec, plan, build, test, review, simplify, ship.
+- **Instalación**: Basta con pegar la URL del repositorio en el agente y escribir "instala esto".
+
+#### Automations y Loops — el siguiente nivel
+
+Berman presenta **automations** (automatizaciones disparadas por eventos) y **loops** (bucles autónomos hacia un objetivo) como las técnicas que separan a los expertos de los principiantes.
+
+- **Automation en Cursor**: Configuró una automatización que se activa cuando se abre un PR en GitHub. Espera a que Greptile (su herramienta de revisión de código) publique comentarios, luego los revisa y corrige automáticamente, y empuja el código corregido al mismo PR.
+- **Automation en Codex**: Similar — se puede crear via chat describiendo la automatización en lenguaje natural o configurándola manualmente con trigger, prompt, repo y schedule.
+- **Loops**: Berman anuncia la **Loop Library** (signals.forwardfuture.ai/loop-library), un repositorio gratuito de loops que incluye el "overnight docs sweep" (documentación siempre actualizada), el "sub-50ms page load" (optimización de rendimiento), y el "production error sweep" (corrección nocturna de errores).
+
+#### Best practices: la trifecta de la excelencia
+
+Berman propone un estándar mínimo para cualquier proyecto serio:
+
+1. **100% test coverage**: Un automation debe verificar que no falten tests y escribirlos si es necesario.
+2. **Documentación perfecta**: Un loop nocturno que actualice la documentación con cada cambio.
+3. **Logging exhaustivo**: Cada ruta importante del sistema debe tener logs. Luego, un loop nocturno revisa los logs y corrige errores automáticamente.
+
+#### Cloud vs Local Agents
+
+Berman compara ambas opciones con matices. Los **cloud agents** ofrecen paralelismo infinito (no dependen del hardware local), accesibilidad desde cualquier lugar (apps móviles), y entornos aislados que evitan conflictos entre agentes — Cursor incluso genera vídeos y capturas de pantalla de los cambios realizados.
+
+- **Ventajas de local**: Más rápido (sin latencia de spin-up), más control, y acceso a las últimas funciones antes que en cloud.
+- **Tendencia de Berman**: Se está moviendo hacia cloud agents porque ejecutar 12-20 agentes en paralelo ralentiza su ordenador hasta hacerlo casi inusable.
+
+#### Multi-modelo: estrategia de costes y velocidad
+
+Berman revela su estrategia de **multi-modelo** para optimizar costes sin sacrificar calidad:
+
+1. **Planificación con Fable 5**: El mejor modelo para analizar el código base y diseñar la arquitectura.
+2. **Ejecución con Composer**: Un modelo más rápido y barato para escribir el código siguiendo el plan.
+3. **Revisión con GPT 5.5**: Un tercer modelo con perspectiva diferente para review.
+- Todo esto puede definirse como un skill que orquesta los tres modelos automáticamente.
+
+#### El problema no resuelto: merging y deploys
+
+Berman plantea el mayor desafío actual de la ingeniería agentiva: cuando múltiples agentes trabajan en paralelo y todos intentan mergear a main simultáneamente, se produce un caos de conflictos, rebases, tests fallidos y deploys encadenados. Cursor anunció que está construyendo su propio sistema Git alternativo específico para despliegue a escala de agentes, lo que confirma que es un problema reconocido sin solución madura.
+
+#### Reflexión final / Conclusiones
+
+Berman concluye que las automations y los loops son las técnicas más importantes que cualquier desarrollador debería adoptar hoy. La combinación de tests perfectos, documentación actualizada y logging exhaustivo crea un "flywheel de excelencia" donde el código se mantiene en su mejor estado posible sin intervención humana. Aunque el merging de agentes paralelos sigue siendo un problema abierto, la dirección es clara: hacia workflows cada vez más autónomos donde los humanos definen la dirección y los agentes ejecutan.
+
+---
+
+### 🔗 Referencias
+
+- 🏢 Greptile (sponsor): https://www.greptile.com/go/berman
+- 💻 Loop Library: https://signals.forwardfuture.ai/loop-library/
+- 🏢 here.now (hosting): https://here.now/r/signals
+- 💻 Agent Skills: https://github.com/addyosmani/agent-skills
+
+
 
 ## [Matthew Berman] WTF is going on?!
 **Fecha:** 2026-06-13

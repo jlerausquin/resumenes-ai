@@ -3,6 +3,380 @@ Canales monitoreados: Javier Garzás, Matt Wolfe, Matthew Berman
 Generado automáticamente.
 ==================================================
 
+## [Matt Wolfe] AI News: Fable Banned, New Open-Source Leader, Midjourney Shocker
+**Fecha:** 2026-06-19
+**URL:** https://www.youtube.com/watch?v=Db260rUuKJg
+**Video ID:** Db260rUuKJg
+
+### 📝 Resumen
+
+Matt Wolfe presenta su resumen semanal de noticias de IA, dominado por un evento histórico: por primera vez, el gobierno de EE.UU. forzó la retirada del mercado de un modelo de IA comercial —Claude Fable 5 y Mythos 5 de Anthropic—. Además, cubre el lanzamiento del modelo open-source GLM 5.2 de Z.AI, el sorprendente escáner médico de Midjourney, y una ráfaga de novedades menores de OpenAI, Perplexity, Adobe y Google.
+
+#### La prohibición de Fable 5 y Mythos 5 — el gobierno de EE.UU. interviene
+
+El viernes 12 de junio, el gobierno de EE.UU. ordenó a Anthropic suspender el acceso a Fable 5 y Mythos 5 para cualquier persona que no fuera ciudadano estadounidense, incluyendo empleados de Anthropic sin nacionalidad estadounidense. Como era casi imposible implementar esa segmentación, Anthropic desactivó ambos modelos globalmente. Wolfe analiza las causas y las ironías de la situación.
+
+- **El detonante**: Un jailbreak descubierto por David Sacks (socio de confianza de Anthropic y el gobierno). Según Sacks, la administración pidió a Dario Amodei que arreglara el jailbreak y este se negó, lo que llevó a la orden de control de exportaciones.
+- **La ironía**: Dario Amodei publicó apenas días antes un ensayo pidiendo exactamente este tipo de regulación — un organismo estilo FAA que pudiera bloquear o revertir el lanzamiento de modelos peligrosos.
+- **El rol de Amazon**: El CEO Andy Jassy fue quien alertó al gobierno sobre los riesgos de seguridad de los modelos de Anthropic, a pesar de que Amazon es uno de sus mayores inversores. Wolfe sugiere que el gobierno simplemente no le tiene simpatía a Anthropic.
+- **Precedente peligroso**: Si el gobierno puede cerrar un modelo de una empresa valorada en ~$965 mil millones de la noche a la mañana, cualquier inversión en laboratorios de IA se vuelve más riesgosa.
+- **Posible restauración**: Según Korea JoongAng Daily, Anthropic confía en re-habilitar el acceso en los próximos días.
+
+#### GLM 5.2 — el nuevo líder open-source en codificación
+
+Z.AI lanzó GLM 5.2, un modelo open-weight con licencia MIT de **753 mil millones de parámetros** y **1 millón de tokens de contexto**. Wolfe lo probó exhaustivamente para evaluar si realmente merece el hype como el nuevo estado del arte en modelos abiertos.
+
+- **Rendimiento en benchmarks**: En el Code Arena (prueba ciega), GLM 5.2 ocupa el segundo lugar global, solo por detrás de Claude Fable 5, superando a Opus 4.8 y GPT 5.5 por un amplio margen.
+- **Precio**: $1.40 por millón de tokens de entrada y $4.40 por millón de salida — una fracción del costo de Fable 5 ($10/$50).
+- **Prueba práctica de Wolfe**: Solicitó un clon de Mega Bonk. El modelo respondió inicialmente en chino (tuvo que traducir la página), el primer intento no funcionó, y tras tres prompts logró crear un juego funcional aunque "janky" y nada parecido al original. Wolfe concluye que no se acerca al nivel de Fable 5 para codificación one-shot.
+- **Habilidad destacada**: Creación de presentaciones de diapositivas — generó una presentación de 10 diapositivas sobre agent loops con diseño limpio, aunque nada extraordinario.
+- **A tener en cuenta**: Actualmente parece ser gratuito (Wolfe no encontró forma de pagar).
+
+#### Midjourney Medical — escáner corporal por ultrasonidos
+
+Midjourney sorprendió al mundo anunciando una nueva rama: **Midjourney Medical**. Su primer producto es un escáner de cuerpo completo que usa 9.000 transductores de ultrasonido en un anillo sumergible, prometiendo realizar en minutos lo que un MRI hace en horas, a una fracción del costo.
+
+- **Cómo funciona**: El paciente se sumerge en agua en un "dunk tank" con anillos de transductores que emiten y recogen ondas sonoras para crear imágenes de hasta 25 estructuras biológicas (columna, músculos, órganos).
+- **El plan**: No es para hospitales — Midjourney planea abrir el **"Midjourney Spa"** en San Francisco en 2027, con saunas, jacuzzis, baños de hielo y escáneres corporales como experiencia relajante.
+- **Contexto**: David Holz, CEO de Midjourney, ya tenía una empresa de sensores antes de Midjourney. La compañía no tiene inversores externos, está completamente bootstrapped.
+- **Crítica de Hank Green**: Señala que compararlo con MRI es engañoso — el ultrasonido no puede atravesar los pulmones (por el aire interior) ni es bueno para huesos. Es excelente para tejidos blandos, tiroides, riñones, flujo sanguíneo, pero no reemplaza a un CT o MRI en todas sus capacidades.
+
+#### Ráfaga de novedades
+
+- **OpenAI Codex Record & Replay**: Nueva función que graba la pantalla del usuario realizando una tarea repetitiva, aprende los pasos y crea un skill para que el agente lo replique automáticamente en el futuro.
+- **Perplexity Brain**: Sistema de memoria auto-mejorable para agentes. Construye un grafo de contexto del trabajo realizado y, en intervalos programados (ej. cada noche), revisa y aprende de sus errores para mejorar. Wolfe lo compara con el sistema de auto-mejora de Hermes Agent.
+- **Palmier Video Editor**: Editor de vídeo que se integra con Claude para organizar media, editar la línea de tiempo, añadir efectos y generar vídeo con modelos de IA. Cuesta $29/mes por 3-7 minutos de vídeo generado.
+- **Adobe AI Assistant**: Llega a Premiere, Illustrator e InDesign, permitiendo comandos de texto para editar secuencias o generar imágenes.
+- **Google Ask Ad Manager**: Asistente de IA para optimizar campañas publicitarias, similar a Ask Studio en YouTube.
+- **Claude Design**: Nueva edición directa en canvas y capacidad de importar diseños desde GitHub, Adobe, Canva, Gamma y más.
+- **Facebook AI Mode**: Nuevo modo que responde preguntas basándose en contenido público de grupos y reels, similar a Grok en X. También añade edición de fotos con IA (cambio de ropa, collage).
+- **Pew Research Survey**: 49% de los adultos estadounidenses usan chatbots de IA (frente al 33% en 2024), pero la mayoría es profundamente escéptica sobre su impacto positivo. Wolfe reflexiona sobre la paradoja: se puede amar ciertos usos de la IA y odiar otros al mismo tiempo.
+- **Self-Driving Toilet**: Un inodoro autónomo de la empresa Yueban Xiaoban que navega solo, tiene función de bidet, se autolimpia y se vacía en el inodoro regular. Diseñado para personas con movilidad reducida.
+
+#### Reflexión final / Conclusiones
+
+Wolfe cierra reflexionando sobre la semana más intensa en la historia reciente de la IA. La prohibición de Fable 5 marca un antes y un después en la relación entre gobierno y empresas de IA. Pero también destaca señales positivas: Midjourney usando sus ganancias para innovar en salud, modelos open-source cada vez más competitivos, y herramientas que empoderan a los usuarios. Su meta sigue siendo beber de la manguera toda la semana para que su audiencia no tenga que hacerlo.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Suspensión de Fable/Mythos: https://www.anthropic.com/news/fable-mythos-access
+- 🔗 Artículo Politico: https://www.politico.com/news/2026/06/13/inside-the-whirlwind-24-hours-that-led-the-white-house-to-slap-export-controls-on-anthropic-00961519
+- 💻 Amazon CEO Jassy: https://x.com/steph_palazzolo/status/2065830580135051306
+- 🔗 Petición Free Fable: https://freefable.org/
+- 🔗 GLM-5.2: https://z.ai/blog/glm-5.2
+- 🔗 Facebook AI Tools: https://about.fb.com/news/2026/06/new-ai-tools-to-help-you-make-things-happen-on-facebook/
+- 🔗 Midjourney Medical: https://www.midjourney.com/medical/blogpost
+- 📄 Hank Green sobre ultrasonidos: https://x.com/hankgreen/status/2067471250159448305
+- 🔗 Codex Record Replay: https://x.com/OpenAIDevs/status/2067681320281723113
+- 🔗 Claude Design: https://claude.com/blog/claude-design-stays-on-brand-for-daily-work
+- 🔗 Perplexity Brain: https://www.perplexity.ai/hub/blog/self-improving-memory-for-agents
+- 🔗 Palmier Video Editor: https://x.com/Marcos12345rico/status/2067264877463261400
+- 🔗 Adobe AI: https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/
+- 🔗 Google Ask Ad Manager: https://blog.google/products/admanager/ask-ad-manager/
+- 📄 Pew Research: https://www.pewresearch.org/internet/2026/06/17/americans-and-ai-2026-chatbots-smart-devices-and-views-on-impact/
+- 🔗 Self-Driving Toilet: https://www.theverge.com/tech/952441/yueban-xiaoban-self-driving-autonomous-toilet
+
+
+
+## [Matthew Berman] 7 INSANE loops you need to try right now
+**Fecha:** 2026-06-19
+**URL:** https://www.youtube.com/watch?v=F4a8aMLb678
+**Video ID:** F4a8aMLb678
+
+### 📝 Resumen
+
+Matthew Berman presenta en detalle el concepto de **loops** (bucles) en ingeniería de software con IA — sistemas autónomos donde un agente de IA trabaja sin supervisión continua hacia un objetivo definido. Como parte del vídeo, lanza la **Loop Library**, un repositorio gratuito de loops listos para usar, y demuestra 7 casos de uso concretos para herramientas como Cursor, Codex y Claude Code.
+
+#### ¿Qué es un loop? Trigger + Goal
+
+Berman explica que un loop necesita dos elementos fundamentales. Un **trigger** (disparador) que puede ser manual, por programación (cron) o basado en una acción (como abrir un PR). Y un **goal** (objetivo) que puede ser verificable de forma determinista (ej: 100% de cobertura de tests) o mediante un LLM como juez (ej: "refactoriza hasta que estés satisfecho"). La combinación elimina la necesidad de supervisión humana continua.
+
+- **Trigger manual**: El humano inicia el loop explícitamente con un comando `/goal`.
+- **Trigger programado**: Se ejecuta cada cierto tiempo (cada noche, cada hora).
+- **Trigger por acción**: Se activa cuando ocurre un evento específico (PR abierto, error en logs).
+- **Goal verificable**: Un número concreto, un test que pasa, una condición medible.
+- **Goal con LLM como juez**: El modelo decide cuándo se ha alcanzado un estado "satisfactorio".
+
+#### Loop 1: Sub-50ms page load
+
+El loop favorito de Berman. El objetivo es que cada página, modal y componente de su aplicación cargue en menos de 50 milisegundos. El agente mide el rendimiento de cada página, optimiza el código, y repite hasta cumplir el objetivo.
+
+- **Trigger**: Manual (Berman lo inicia).
+- **Resultado**: El agente trabajó durante 50 minutos recorriendo cada página y optimizándola hasta cumplir la meta.
+- **Uso ideal**: Rendimiento de producción, auditorías de velocidad.
+
+#### Loop 2: Overnight docs sweep
+
+Cada noche, un agente revisa todo el código base y actualiza la documentación para reflejar los cambios del día. Si encuentra documentación desactualizada, la corrige y abre un pull request.
+
+- **Trigger**: Programado (1:00 a.m. cada día).
+- **Goal**: LLM como juez — el modelo determina si la documentación está completa y actualizada.
+- **Beneficio**: Documentación siempre fresca sin esfuerzo manual.
+
+#### Loop 3: Architecture satisfaction
+
+Basado en un patrón que Peter Steinberger usa frecuentemente. El loop refactoriza el código hasta que la arquitectura es "satisfactoria", evaluando criterios como simplicidad, principios DRY y estructura limpia.
+
+- **Trigger**: Manual o nocturno.
+- **Seguimiento**: El agente mantiene un archivo markdown con el progreso de la refactorización.
+- **Valor**: Mantiene el código base limpio y bien estructurado sin intervención humana.
+
+#### Loop 4: Logging coverage + Loop 5: Production error sweep
+
+Dos loops complementarios. El primero asegura que cada ruta importante del sistema tenga logging adecuado. El segundo revisa los logs de producción cada noche, detecta errores, los diagnostica, escribe una corrección y abre un PR con la solución.
+
+- **Trigger del error sweep**: Programado (cada noche).
+- **Flujo completo**: Lee logs → encuentra error → analiza causa raíz → escribe fix → abre PR → notifica por Slack.
+- **Sinergia**: Juntos crean un sistema de detección y reparación autónoma de errores.
+
+#### Loop 6: SEO/GEO visibility
+
+Ejecuta una auditoría completa de SEO y GEO (optimización para motores de respuesta generativa) analizando crawlability, indexación, títulos, enlaces internos, datos estructurados y contenido "answer-first". Identifica y corrige issues críticos hasta que no quede ninguno.
+
+- **Cobertura**: Incluye tanto SEO tradicional como optimización para búsquedas con IA generativa.
+- **Frecuencia recomendada**: Una vez por semana.
+
+#### Loop 7: Full product evaluation
+
+El loop más ambicioso. Crea N escenarios realistas que cubren todas las capacidades del producto, define criterios de éxito, ejecuta cada escenario bajo las mismas condiciones, y si algo no cumple el estándar, lo corrige y vuelve a probar. Berman lo ha usado con 100 casos de uso diferentes.
+
+- **Tiempo**: Puede ejecutarse durante 12 horas o más.
+- **No es un test suite estándar**: Es no-determinista — el modelo evalúa subjetivamente si el comportamiento es "suficientemente bueno".
+- **Aplicación práctica**: Berman lo usa para verificar la calidad de respuestas de su producto con fuentes y referencias.
+
+#### Advertencias sobre los loops
+
+Berman comparte dos limitaciones importantes:
+
+1. **No apto para todo**: Los loops funcionan mejor con objetivos verificables. Para construir features nuevas desde cero, el resultado es impredecible — el modelo puede decidir qué construir y cuándo parar de formas que no son óptimas. Un intento de clonar Excel con un loop duró días hasta que Berman lo detuvo.
+2. **Coste extremo**: Los loops consumen tokens de forma autónoma hasta cumplir el objetivo. Desde 10 minutos hasta días de ejecución continua. Solo equipos con presupuestos de tokens ilimitados pueden usar loops de forma intensiva.
+
+#### Reflexión final / Conclusiones
+
+Berman enfatiza que los loops representan la frontera actual de la ingeniería con IA. Pasar de "promptear agentes" a "diseñar bucles autónomos" es el siguiente salto en productividad. La Loop Library (signals.forwardfuture.ai/loop-library) es un recurso gratuito para que la comunidad comparta y adopte estos patrones. Los loops no son para todos hoy — requieren presupuesto de tokens y un diseño cuidadoso del goal — pero Berman sostiene que son el futuro de la ingeniería de software.
+
+---
+
+### 🔗 Referencias
+
+- 💻 Loop Library: https://signals.forwardfuture.ai/loop-library/
+- 🏢 here.now (hosting): https://here.now/r/signals
+- 🏢 DigitalOcean (sponsor): https://do.co/forwardfutureai
+
+
+
+## [Matthew Berman] You NEED to know these vibe coding secrets
+**Fecha:** 2026-06-18
+**URL:** https://www.youtube.com/watch?v=wwfJlSF34n8
+**Video ID:** wwfJlSF34n8
+
+### 📝 Resumen
+
+Matthew Berman condensa en este vídeo todo lo que ha aprendido sobre codificación asistida por IA tras haber usado extensivamente las principales herramientas del mercado (Cursor, Codex, Claude Code, Factory, Devin). El vídeo cubre desde la selección de herramientas hasta técnicas avanzadas como automations, loops, multi-modelo, work trees y el problema no resuelto de merging y deploys.
+
+#### Las herramientas de codificación agentiva del momento
+
+Berman revela sus herramientas principales: **Cursor** y **Codex** son sus favoritos. Cursor destaca por permitir usar modelos de diferentes proveedores (OpenAI, Anthropic, y el modelo propio de Cursor) y por ser pionero en cloud agents. Codex le gusta por su diseño limpio y la concisión de sus explicaciones — cada acción se resume en 1-2 frases, sin "ensayos" que ralenticen la lectura.
+
+- **Claude Code**: Excelente pero Berman lo ha dejado de usar por quedarse sin cuota constantemente.
+- **Devin y Factory**: Opciones sólidas, cada una con sus pros y contras.
+- **Recomendación**: Probar todas y decidir según el flujo de trabajo personal.
+
+#### Skills: el secreto mejor guardado
+
+Berman dedica una sección importante a los **skills** (habilidades), insistiendo en que cualquier tarea que se haga más de una vez debería ser un skill. Los skills son prompts estandarizados que los agentes pueden invocar con solo escribir "/" seguido del nombre del skill.
+
+- **Usos clave de skills**: Tareas repetitivas, reglas específicas de dominio, tool instructions (cómo usar APIs, CLIs, test runners), y quality gates (checklists pre-commit).
+- **Skills predefinidos**: Recomienda **Agent Skills** (más de 56.000 estrellas en GitHub), que cubre el ciclo completo de ingeniería: spec, plan, build, test, review, simplify, ship.
+- **Instalación**: Basta con pegar la URL del repositorio en el agente y escribir "instala esto".
+
+#### Automations y Loops — el siguiente nivel
+
+Berman presenta **automations** (automatizaciones disparadas por eventos) y **loops** (bucles autónomos hacia un objetivo) como las técnicas que separan a los expertos de los principiantes.
+
+- **Automation en Cursor**: Configuró una automatización que se activa cuando se abre un PR en GitHub. Espera a que Greptile (su herramienta de revisión de código) publique comentarios, luego los revisa y corrige automáticamente, y empuja el código corregido al mismo PR.
+- **Automation en Codex**: Similar — se puede crear via chat describiendo la automatización en lenguaje natural o configurándola manualmente con trigger, prompt, repo y schedule.
+- **Loops**: Berman anuncia la **Loop Library** (signals.forwardfuture.ai/loop-library), un repositorio gratuito de loops que incluye el "overnight docs sweep" (documentación siempre actualizada), el "sub-50ms page load" (optimización de rendimiento), y el "production error sweep" (corrección nocturna de errores).
+
+#### Best practices: la trifecta de la excelencia
+
+Berman propone un estándar mínimo para cualquier proyecto serio:
+
+1. **100% test coverage**: Un automation debe verificar que no falten tests y escribirlos si es necesario.
+2. **Documentación perfecta**: Un loop nocturno que actualice la documentación con cada cambio.
+3. **Logging exhaustivo**: Cada ruta importante del sistema debe tener logs. Luego, un loop nocturno revisa los logs y corrige errores automáticamente.
+
+#### Cloud vs Local Agents
+
+Berman compara ambas opciones con matices. Los **cloud agents** ofrecen paralelismo infinito (no dependen del hardware local), accesibilidad desde cualquier lugar (apps móviles), y entornos aislados que evitan conflictos entre agentes — Cursor incluso genera vídeos y capturas de pantalla de los cambios realizados.
+
+- **Ventajas de local**: Más rápido (sin latencia de spin-up), más control, y acceso a las últimas funciones antes que en cloud.
+- **Tendencia de Berman**: Se está moviendo hacia cloud agents porque ejecutar 12-20 agentes en paralelo ralentiza su ordenador hasta hacerlo casi inusable.
+
+#### Multi-modelo: estrategia de costes y velocidad
+
+Berman revela su estrategia de **multi-modelo** para optimizar costes sin sacrificar calidad:
+
+1. **Planificación con Fable 5**: El mejor modelo para analizar el código base y diseñar la arquitectura.
+2. **Ejecución con Composer**: Un modelo más rápido y barato para escribir el código siguiendo el plan.
+3. **Revisión con GPT 5.5**: Un tercer modelo con perspectiva diferente para review.
+- Todo esto puede definirse como un skill que orquesta los tres modelos automáticamente.
+
+#### El problema no resuelto: merging y deploys
+
+Berman plantea el mayor desafío actual de la ingeniería agentiva: cuando múltiples agentes trabajan en paralelo y todos intentan mergear a main simultáneamente, se produce un caos de conflictos, rebases, tests fallidos y deploys encadenados. Cursor anunció que está construyendo su propio sistema Git alternativo específico para despliegue a escala de agentes, lo que confirma que es un problema reconocido sin solución madura.
+
+#### Reflexión final / Conclusiones
+
+Berman concluye que las automations y los loops son las técnicas más importantes que cualquier desarrollador debería adoptar hoy. La combinación de tests perfectos, documentación actualizada y logging exhaustivo crea un "flywheel de excelencia" donde el código se mantiene en su mejor estado posible sin intervención humana. Aunque el merging de agentes paralelos sigue siendo un problema abierto, la dirección es clara: hacia workflows cada vez más autónomos donde los humanos definen la dirección y los agentes ejecutan.
+
+---
+
+### 🔗 Referencias
+
+- 🏢 Greptile (sponsor): https://www.greptile.com/go/berman
+- 💻 Loop Library: https://signals.forwardfuture.ai/loop-library/
+- 🏢 here.now (hosting): https://here.now/r/signals
+- 💻 Agent Skills: https://github.com/addyosmani/agent-skills
+
+
+
+## [Javier Garzás] La Gestión que conocías ya No existe: la era de los agentes de IA (Londres 2026)
+**Fecha:** 2026-06-17
+**URL:** https://www.youtube.com/watch?v=LgoxHel-Tas
+**Video ID:** LgoxHel-Tas
+
+### 📝 Resumen
+
+Javier Garzás viajó a Londres para asistir a la **IA Summit 2026**, celebrada en el emblemático Tobacco Dock (un antiguo almacén de tabaco del siglo XIX reconvertido en centro de convenciones). Desde allí, comparte las cinco tendencias clave que observó en el evento, con un enfoque en cómo la inteligencia artificial está transformando la gestión de productos digitales y el rol del product manager. El mensaje central es contundente: quien gestiona ahora también construye, y la mayoría de profesionales todavía no lo ha asimilado.
+
+#### El nuevo rol Builder — el gestor que construye con IA
+
+La tendencia número uno que Garzás identificó en la cumbre es la emergencia de un nuevo perfil profesional, denominado indistintamente como **Builder**, **Platform** o **Creador**. Este rol no existía hasta hace un año y consiste en alguien que crea soluciones funcionales con IA sin necesidad de conocimientos técnicos profundos de programación. Las grandes empresas presentes (Nvidia, Google, IBM) validaron esta tendencia: se busca a alguien que conozca todas las herramientas, arquitecturas y formas de crear con IA para acelerar productos y procesos.
+
+- Este perfil rompe las fronteras entre los roles tradicionales de product manager, diseñador y gestor.
+- La clave habilitante: la IA permite crear sin conocimientos técnicos avanzados.
+- Garzás destaca que los perfiles más valorados hoy son los **"extécnicos"** — profesionales que fueron programadores, dejaron la técnica por la gestión, y ahora vuelven a crear porque la barrera ha caído drásticamente.
+
+#### El SaaS Apocalipsis — las herramientas de gestión tradicionales caen
+
+Garzás observó una paradoja en los stands de los patrocinadores: mientras herramientas modernas de gestión como Notion o CRMs brillaban por su ausencia, tecnologías legacy como **Drupal** (un CMS de los años 2000) estaban presentes. Esto refleja una tendencia profunda: las herramientas SaaS de gestión se están quedando como meros **repositorios de datos**, mientras que los profesionales construyen su propia capa de integración con IA por encima.
+
+- Las herramientas de gestión tradicionales (Notion, Mailchimp, gestores de clientes) se convierten en repositorios legacy de los que se extraen datos, pero ya no se usan para visualizar o gestionar.
+- Emergen hacia arriba las empresas nativas de IA y las plataformas de infraestructura (Supabase, etc.).
+- Las empresas de gestión "de medio" están en una posición peligrosa: demasiado específicas para sobrevivir como plataformas, pero no lo suficientemente útiles como herramientas autónomas.
+- La capacidad de cualquiera de crear sus propias soluciones con IA acelera esta tendencia: pequeñas aplicaciones que cruzan bases de datos y generan informes reemplazan suscripciones costosas.
+
+#### La productividad real vs. el mito del profesional 10x
+
+Una de las ponencias principales sacó a relucir el libro **"Peopleware"** de Tom DeMarco (años 80), generando un debate sobre si realmente estamos siendo más productivos con IA. La tesis principal: los modelos de trabajo legacy —reuniones, cambios de contexto, cargas cognitivas disparadas— están frenando el potencial que la IA ofrece.
+
+- El cambio de contexto y las interrupciones constantes son el mayor lastre para la productividad real.
+- Las metodologías tradicionales (Scrum, marcos de trabajo antiguos) se han quedado obsoletas en el nuevo paradigma.
+- La carga cognitiva es un límite humano fundamental: aunque los agentes trabajen en paralelo, el humano solo puede gestionar un número finito de estímulos.
+- Emerge la necesidad de refactorizar los modelos de trabajo para eliminar fricción, no solo añadir IA.
+
+#### El fin de las especificaciones escritas — prototipar es la nueva especificación
+
+Garzás observó una práctica recurrente entre los ponentes: en lugar de describir lo que querían construir con diapositivas, directamente abrían herramientas como **Claude Code** y creaban prototipos funcionales en tiempo real. Un ponente construyó una web de recomendación de vinos en directo frente a cientos de asistentes, conectando MCPs, skills y usando incluso **HeyGen** (generación de avatares) y ElevenLabs para clonar su voz.
+
+- La especificación de requisitos tradicional está muerta; las historias de usuario están en "congelación evolutiva".
+- El principio clave: **"Enséñamelo, no me lo describas"** — un prototipo funcionando vale más que mil palabras en un documento.
+- Las zonas de patrocinadores confirmaron esta tendencia: la mayoría de stands ofrecían herramientas para capacitar a los profesionales a crear prototipos, no a escribir especificaciones.
+
+#### Controlar la fauna de agentes — la ingeniería del arnés
+
+La quinta tendencia, y la más avanzada, aborda cómo controlar la diversidad de agentes de IA que los profesionales están desplegando. Garzás distingue entre workflows agénticos (que ya están muertos como tendencia) y **agentes autónomos** (IA a la que no hay que decirle paso a paso lo que hacer), que ya es un tema maduro.
+
+- Las organizaciones tienen múltiples agentes trabajando: unos inspeccionan mercados, otros revisan tendencias en emails, otros cruzan datos.
+- Garzás introduce el concepto de **"ingeniería del arnés"** (harness engineering): igual que un arnés de escalada protege de una caída, se necesitan sistemas que controlen a los agentes, que pongan carriles a la IA para que no se desvíe.
+- Hace un año se hablaba de workflows con nodos que llamaban a un LLM — eso ha desaparecido. Ahora se habla de cómo gestionar la fauna heterogénea de agentes.
+
+#### Reflexión final / Conclusiones
+
+Garzás cierra con un mensaje urgente: el ritmo de cambio es tan rápido que lo que era tendencia el año pasado ya está obsoleto hoy. Recomienda subirse al carro cuanto antes, crear una rutina de aprendizaje constante (como ir al gimnasio cada día) y unirse a comunidades para no ir solo. Invita a su grupo gratuito de WhatsApp donde comparte aprendizajes de forma más ligera y frecuente. La gestión digital ha cambiado para siempre: quien gestiona ahora construye, y la mayoría todavía no lo sabe.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 WhatsApp: https://chat.whatsapp.com/J1h3GHHs3lf8HkaoMGDhRF
+
+
+
+## [Matt Wolfe] PewDiePie's FREE Odysseus AI (Full Review & Setup)
+**Fecha:** 2026-06-17
+**URL:** https://www.youtube.com/watch?v=_7BHqZayPOc
+**Video ID:** _7BHqZayPOc
+
+### 📝 Resumen
+
+Matt Wolfe analiza en profundidad **Project Odysseus**, una plataforma de IA local y autoalojada creada por PewDiePie (Felix Kjellberg) que ya cuenta con más de 71.000 estrellas en GitHub. Odysseus es un espacio de trabajo de IA autogestionado que intenta replicar la experiencia de ChatGPT o Claude pero ejecutándose completamente en el hardware del usuario, con modelos locales y control total de datos. Wolfe lo instaló en su Mac M3, lo probó durante horas y ofrece una evaluación honesta de lo que funciona y lo que no.
+
+#### ¿Qué es Odysseus?
+
+Odysseus es una interfaz alrededor de modelos de IA, no un modelo nuevo. PewDiePie no creó un "PewDiePie GPT", sino un **entorno de trabajo completo** que integra chat con modelos, ejecución de agentes, gestión de archivos, investigación profunda, comparación de modelos, edición de imágenes, notas, tareas y calendario. Todo autoalojado.
+
+- Se conecta a modelos locales vía Ollama o a modelos cloud mediante API keys (OpenAI, Anthropic, etc.).
+- Corre completamente offline si se usan modelos locales — ningún dato sale del ordenador.
+- El repositorio en GitHub tiene instrucciones de instalación para Docker, Linux, Mac (Apple Silicon), y Windows.
+- Wolfe lo describe como una herramienta para "tinkerers" — entusiastas dispuestos a experimentar y resolver problemas técnicos.
+
+#### Instalación y configuración
+
+Wolfe documenta el proceso de instalación paso a paso. Clonó el repositorio, ejecutó el script de inicio para macOS, creó un usuario y contraseña, y accedió a la interfaz web. La configuración fue sorprendentemente sencilla.
+
+- **Conexión de modelos locales**: Instaló Ollama y descargó Gemma 3 12B (se descargó en ~1 minuto).
+- **Conexión de modelos cloud**: Añadió una API key de OpenAI, lo que le dio acceso inmediato a GPT 5.5 y todos los modelos de OpenAI.
+- **Modelo grande local**: También descargó Qwen 3.5 de 122 mil millones de parámetros (requiere 77 GB de VRAM), aunque la descarga fue lenta.
+
+#### Pruebas de modelos: Gemma 3 12B vs GPT 5.5
+
+Wolfe usó la herramienta de **comparación de modelos** de Odysseus para enfrentar Gemma 3 12B (local) contra GPT 5.5 (cloud) en varias pruebas:
+
+- **Pregunta sobre IA local**: Ambos modelos dieron respuestas adecuadas, aunque GPT 5.5 fue más detallada y verbosa. Wolfe calificó el resultado como empate.
+- **Generación de SVG**: La diferencia fue abismal — Gemma 3 12B produjo un SVG simple y tosco, mientras que GPT 5.5 generó un diseño complejo y atractivo.
+- **Qwen 3.5 122B**: Mucho mejor que Gemma en SVGs, pero todavía lejos de GPT 5.5.
+- **Scoreboard**: Odysseus mantiene un marcador interno de los resultados de comparación.
+
+#### Investigación profunda (Deep Research)
+
+Wolfe quedó impresionado por el módulo de investigación profunda. Usando Gemma 3 12B como modelo local, configuró 5 rondas de investigación preguntando cómo se compara Odysseus con OpenClaw y Hermes.
+
+- **Tiempo**: Aproximadamente 7 minutos para completar las 5 rondas.
+- **Resultado**: Generó un informe visual con tabla de contenidos, comparando las tres plataformas. Aunque tuvo imprecisiones (confundió MCP con "Model Control Plane"), Wolfe señala que esas imprecisiones son del modelo, no de la plataforma.
+- **Conclusión**: El diseño del informe y la estructura fueron impresionantes para haberse generado completamente con un modelo local.
+
+#### Funcionalidades problemáticas
+
+No todo funcionó bien. Wolfe dedicó 45 minutos a intentar sin éxito la edición de imágenes con IA:
+
+- **Inpainting/Outpainting**: No pudo hacer funcionar la generación de imágenes a pesar de instalar Flux Client (9B parámetros), Diffusers y Transformers. Siempre recibía errores de configuración del endpoint.
+- **Agentes**: Tampoco logró hacer funcionar el módulo de agentes de Odysseus.
+- **Editor de imágenes**: El removedor de fondos funcionó "a medias".
+
+#### Reflexión final / Conclusiones
+
+Wolfe concluye que Odysseus es impresionante en ciertas áreas (comparación de modelos e investigación profunda) pero decepcionante en otras (edición de imágenes y agentes). Está diseñado para personas que quieren **desconectarse completamente de las plataformas cloud**: usar su propio calendario, su propia galería de fotos, sus propias notas, y modelos locales. Las limitaciones principales son:
+
+- **Los modelos locales no están al nivel de los cloud** — Gemma 3 12B no se acerca a GPT 5.5 o Claude Opus.
+- **Requiere hardware potente** — ejecutar modelos de 122B parámetros necesita GPUs con 80+ GB de VRAM.
+- **Configuración compleja** — no es plug-and-play, especialmente para edición de imágenes.
+- **Valor para la privacidad**: Es emocionante ver avances hacia la IA local, pero todavía queda camino para que sea competitiva con las soluciones cloud en calidad y facilidad de uso.
+
+---
+
+### 🔗 Referencias
+
+- 💻 Repositorio Odysseus: https://github.com/pewdiepie-archdaemon/odysseus
+- 💻 Web de Odysseus: https://pewdiepie-archdaemon.github.io/odysseus/
+- 🔗 Video de PewDiePie: https://www.youtube.com/watch?v=rAzT5lcezPs
+- 🏢 Recraft V4.1: https://go.recraft.ai/MattWolfe
+- 🏢 Ollama: https://ollama.com/
+
+
 
 ## [Matt Wolfe] AI News: An INSANE Week… Here's What Matters
 **Fecha:** 2026-06-12

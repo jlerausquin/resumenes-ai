@@ -3,6 +3,69 @@
 Generado automáticamente.
 ==================================================
 
+## [Javier Garzás] La Gestión que conocías ya No existe: la era de los agentes de IA (Londres 2026)
+**Fecha:** 2026-06-17
+**URL:** https://www.youtube.com/watch?v=LgoxHel-Tas
+**Video ID:** LgoxHel-Tas
+
+### 📝 Resumen
+
+Javier Garzás viajó a Londres para asistir a la **IA Summit 2026**, celebrada en el emblemático Tobacco Dock (un antiguo almacén de tabaco del siglo XIX reconvertido en centro de convenciones). Desde allí, comparte las cinco tendencias clave que observó en el evento, con un enfoque en cómo la inteligencia artificial está transformando la gestión de productos digitales y el rol del product manager. El mensaje central es contundente: quien gestiona ahora también construye, y la mayoría de profesionales todavía no lo ha asimilado.
+
+#### El nuevo rol Builder — el gestor que construye con IA
+
+La tendencia número uno que Garzás identificó en la cumbre es la emergencia de un nuevo perfil profesional, denominado indistintamente como **Builder**, **Platform** o **Creador**. Este rol no existía hasta hace un año y consiste en alguien que crea soluciones funcionales con IA sin necesidad de conocimientos técnicos profundos de programación. Las grandes empresas presentes (Nvidia, Google, IBM) validaron esta tendencia: se busca a alguien que conozca todas las herramientas, arquitecturas y formas de crear con IA para acelerar productos y procesos.
+
+- Este perfil rompe las fronteras entre los roles tradicionales de product manager, diseñador y gestor.
+- La clave habilitante: la IA permite crear sin conocimientos técnicos avanzados.
+- Garzás destaca que los perfiles más valorados hoy son los **"extécnicos"** — profesionales que fueron programadores, dejaron la técnica por la gestión, y ahora vuelven a crear porque la barrera ha caído drásticamente.
+
+#### El SaaS Apocalipsis — las herramientas de gestión tradicionales caen
+
+Garzás observó una paradoja en los stands de los patrocinadores: mientras herramientas modernas de gestión como Notion o CRMs brillaban por su ausencia, tecnologías legacy como **Drupal** (un CMS de los años 2000) estaban presentes. Esto refleja una tendencia profunda: las herramientas SaaS de gestión se están quedando como meros **repositorios de datos**, mientras que los profesionales construyen su propia capa de integración con IA por encima.
+
+- Las herramientas de gestión tradicionales (Notion, Mailchimp, gestores de clientes) se convierten en repositorios legacy de los que se extraen datos, pero ya no se usan para visualizar o gestionar.
+- Emergen hacia arriba las empresas nativas de IA y las plataformas de infraestructura (Supabase, etc.).
+- Las empresas de gestión "de medio" están en una posición peligrosa: demasiado específicas para sobrevivir como plataformas, pero no lo suficientemente útiles como herramientas autónomas.
+- La capacidad de cualquiera de crear sus propias soluciones con IA acelera esta tendencia: pequeñas aplicaciones que cruzan bases de datos y generan informes reemplazan suscripciones costosas.
+
+#### La productividad real vs. el mito del profesional 10x
+
+Una de las ponencias principales sacó a relucir el libro **"Peopleware"** de Tom DeMarco (años 80), generando un debate sobre si realmente estamos siendo más productivos con IA. La tesis principal: los modelos de trabajo legacy —reuniones, cambios de contexto, cargas cognitivas disparadas— están frenando el potencial que la IA ofrece.
+
+- El cambio de contexto y las interrupciones constantes son el mayor lastre para la productividad real.
+- Las metodologías tradicionales (Scrum, marcos de trabajo antiguos) se han quedado obsoletas en el nuevo paradigma.
+- La carga cognitiva es un límite humano fundamental: aunque los agentes trabajen en paralelo, el humano solo puede gestionar un número finito de estímulos.
+- Emerge la necesidad de refactorizar los modelos de trabajo para eliminar fricción, no solo añadir IA.
+
+#### El fin de las especificaciones escritas — prototipar es la nueva especificación
+
+Garzás observó una práctica recurrente entre los ponentes: en lugar de describir lo que querían construir con diapositivas, directamente abrían herramientas como **Claude Code** y creaban prototipos funcionales en tiempo real. Un ponente construyó una web de recomendación de vinos en directo frente a cientos de asistentes, conectando MCPs, skills y usando incluso **HeyGen** (generación de avatares) y ElevenLabs para clonar su voz.
+
+- La especificación de requisitos tradicional está muerta; las historias de usuario están en "congelación evolutiva".
+- El principio clave: **"Enséñamelo, no me lo describas"** — un prototipo funcionando vale más que mil palabras en un documento.
+- Las zonas de patrocinadores confirmaron esta tendencia: la mayoría de stands ofrecían herramientas para capacitar a los profesionales a crear prototipos, no a escribir especificaciones.
+
+#### Controlar la fauna de agentes — la ingeniería del arnés
+
+La quinta tendencia, y la más avanzada, aborda cómo controlar la diversidad de agentes de IA que los profesionales están desplegando. Garzás distingue entre workflows agénticos (que ya están muertos como tendencia) y **agentes autónomos** (IA a la que no hay que decirle paso a paso lo que hacer), que ya es un tema maduro.
+
+- Las organizaciones tienen múltiples agentes trabajando: unos inspeccionan mercados, otros revisan tendencias en emails, otros cruzan datos.
+- Garzás introduce el concepto de **"ingeniería del arnés"** (harness engineering): igual que un arnés de escalada protege de una caída, se necesitan sistemas que controlen a los agentes, que pongan carriles a la IA para que no se desvíe.
+- Hace un año se hablaba de workflows con nodos que llamaban a un LLM — eso ha desaparecido. Ahora se habla de cómo gestionar la fauna heterogénea de agentes.
+
+#### Reflexión final / Conclusiones
+
+Garzás cierra con un mensaje urgente: el ritmo de cambio es tan rápido que lo que era tendencia el año pasado ya está obsoleto hoy. Recomienda subirse al carro cuanto antes, crear una rutina de aprendizaje constante (como ir al gimnasio cada día) y unirse a comunidades para no ir solo. Invita a su grupo gratuito de WhatsApp donde comparte aprendizajes de forma más ligera y frecuente. La gestión digital ha cambiado para siempre: quien gestiona ahora construye, y la mayoría todavía no lo sabe.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 WhatsApp: https://chat.whatsapp.com/J1h3GHHs3lf8HkaoMGDhRF
+
+
+
 ## [Javier Garzás] Ya no gestionas, ahora tú también construyes con IA (y la mayoría no lo sabe)
 **Fecha:** 2026-06-11
 **URL:** https://www.youtube.com/watch?v=Zklb5vmFnOU
