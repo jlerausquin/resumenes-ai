@@ -3,6 +3,141 @@
 Generado automáticamente.
 ==================================================
 
+## [Matthew Berman] You NEED to try these 12 open-source AI projects RIGHT NOW
+**Fecha:** 2026-06-24
+**URL:** https://www.youtube.com/watch?v=2lmBj_XQq0I
+**Video ID:** 2lmBj_XQq0I
+
+### 📝 Resumen
+
+Matthew Berman presenta y demuestra 12 proyectos open-source de IA y GitHub que están ganando tracción en la comunidad, desde agentes autónomos hasta herramientas de seguridad, edición de vídeo y clonación de voz. El vídeo funciona como una guía curada de las herramientas más interesantes del ecosistema agéntico actual, con proyectos que van desde 3.000 hasta 200.000 estrellas en GitHub.
+
+#### OpenMontage: estudio de vídeo completo para agentes de IA
+
+**OpenMontage** (casi 15.000 estrellas) transforma a un asistente de codificación con IA en un estudio completo de producción de vídeo. El usuario describe en lenguaje natural lo que quiere y el agente se encarga de la investigación, el guion, la generación de activos, la edición y la composición final.
+
+- Soporta **12 pipelines de producción**: vídeos explicativos, talking heads, demos de pantalla, tráilers cinemáticos, animaciones, podcasts, documentales, montajes y más.
+- Incluye **400 skills de agente** diferentes para diversos tipos de producción.
+- Puede partir de un vídeo de referencia: se le entrega un clip existente y genera un nuevo vídeo con estilo similar.
+- Ejemplo mostrado: un tráiler cinematográfico de ciencia ficción generado completamente por el agente, con concepto, guion, plan de escenas, motion clips generados por IA, banda sonora y composición final vía Remotion.
+
+#### Deer Flow: el super-agente de ByteDance para tareas de larga duración
+
+**Deer Flow** (Deep Exploration and Efficient Research Flow), creado por ByteDance, es un «super-agent harness» open-source con casi **74.000 estrellas** en GitHub. Orquesta subagentes, memoria y sandboxes para realizar tareas de larga duración (horas o incluso días).
+
+- Utiliza **subagentes** para descomponer tareas complejas.
+- Incluye sandboxes, memoria, herramientas y skills configurables.
+- Casos de uso reportados: construcción de pipelines de datos, generación de slide decks, creación de dashboards y automatización de flujos de contenido.
+- Se posiciona como una alternativa a OpenClaw y Hermes Agent para quienes necesitan agentes que trabajen de forma autónoma durante períodos prolongados.
+
+#### Anthropic Cybersecurity Skills: habilidades de ciberseguridad para agentes
+
+Repositorio con casi **20.000 estrellas** que proporciona a cualquier agente de IA todo lo necesario para convertirse en un experto en ciberseguridad. Funciona con Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI y cualquier agente que soporte skills.
+
+- Incluye **6 frameworks de ciberseguridad** reales: MITRE ATT&CK, NIST, y el marco MITRE Fight Fraud (codesarrollado por JP Morgan Chase, Citigroup, Lloyds Banking Group, Standard Chartered, CrowdStrike y Verizon Business).
+- Ofrece tácticas, técnicas y estrategias para proteger aplicaciones.
+- Instalación simple: copiar la URL del repositorio en el agente y ejecutar «instálalo».
+
+#### Hyperframes: de HTML/CSS a MP4 determinista
+
+**Hyperframes** (más de **30.000 estrellas**), creado por HeyGen, es un framework open-source que convierte HTML, CSS, media y animaciones seekable en vídeos MP4 deterministas. Ideal para demos de productos, slides, motion graphics y más.
+
+- Renderiza en Chrome con FFmpeg y funciona con múltiples librerías de animación, incluyendo Three.js.
+- El resultado es un vídeo MP4 reproducible, no una animación web efímera.
+- Berman mostró un ejemplo generado automáticamente con logotipos y transiciones animadas.
+
+#### Codebase Memory MCP: inteligencia de código ultrarrápida
+
+**Codebase Memory MCP** de DeusData (más de **12.000 estrellas**) se describe como el motor de inteligencia de código más rápido y eficiente para agentes de IA. Indexa un repositorio promedio en milisegundos.
+
+- **Rendimiento**: indexa el kernel completo de Linux (28 millones de líneas) en 3 minutos; responde consultas estructurales en menos de 1 milisegundo.
+- Soporta **158 lenguajes de programación**.
+- Usa **120 veces menos tokens** que alternativas comparables.
+- Funciona en **11 harnesses agenticos** diferentes (Claude Code, Cursor, Codex, etc.).
+- Incluye visualización 3D del codebase para explorar la estructura del proyecto.
+- Instalación en una sola línea.
+
+#### Matt Pocock's Skills: ingeniería de calidad en skills
+
+Repositorio de **143.000 estrellas** que codifica las habilidades de ingeniería de software de Matt Pocock (autor de Total TypeScript y ex-Vercel) como skills instalables para agentes de IA. Permite que cualquier agente desarrolle software siguiendo los mismos estándares y metodologías que Pocock.
+
+- Incluye «Ask Matt»: un router que determina qué skill o flow se ajusta a cada situación.
+- «Grill with docs»: sesiones de revisión que construyen el modelo de dominio del proyecto, afinan la terminología y actualizan context.md y ADRs (Architecture Decision Records).
+- Diseñado para ingeniería real, no para «vibe coding».
+
+#### GStack: el equipo de ingeniería completo de Garry Tan
+
+**GStack**, creado por Garry Tan (presidente de Y Combinator), con **114.000 estrellas** en GitHub, transforma a un agente de ingeniería en un equipo completo. Codifica todas las lecciones que Tan ha aprendido sobre construcción de startups.
+
+- Proceso estructurado en 7 pasos: **Think → Plan → Build → Review → Test → Ship → Reflect**.
+- Incluye skills como `/office-hours` (simula una sesión con un partner de YC), `/plan-ceo-review`, `/plan-design-review`, QA, pair agent, CSO ship, land-and-deploy, canary, benchmark, document release.
+- No es una colección de herramientas: es un **proceso completo** para construir startups.
+- Instalación simple: pegar la URL y el agente lo ingiere automáticamente.
+
+#### Unlimited OCR: modelo de visión de Baidu para lectura de documentos
+
+Proyecto nuevo de Baidu con apenas **3.000 estrellas** (lanzado hace días). Es un modelo de lenguaje y visión (VLM) open-weight que proporciona OCR ultrarrápido para leer y analizar documentos.
+
+- Berman demostró cómo el modelo resalta texto en PDFs con precisión, entendiendo tanto el contenido como la posición espacial en la página.
+- El modelo pesa solo **6.5 GB**, lo que permite ejecutarlo en hardware modesto.
+- Disponible para descarga en Hugging Face.
+
+#### SkillSpector de NVIDIA: escáner de seguridad para skills de IA
+
+Proyecto de NVIDIA con menos de **10.000 estrellas** que actúa como escáner de seguridad para skills de agentes de IA. Detecta vulnerabilidades, patrones maliciosos y riesgos de seguridad antes de instalar un skill.
+
+- Analiza **65 patrones de vulnerabilidad** en **16 categorías**: prompt injection, exfiltración de datos, escalado de privilegios, riesgos de supply chain, agency excesiva y más.
+- Acepta múltiples formatos de entrada: repositorios Git, URLs, archivos zip, directorios o archivos individuales.
+- Berman recomienda usarlo antes de instalar cualquier skill de terceros.
+
+#### Palmier Pro: editor de vídeo nativo de IA (open-source)
+
+**Palmier Pro** (8.000 estrellas) es un editor de vídeo nativo de IA para macOS (con promesa de versiones para Windows y Linux). Es completamente open-source y gratuito.
+
+- Incluye un **servidor MCP integrado** que permite controlar el editor desde agentes externos (Claude, Codex, Cursor).
+- El agente puede manipular la línea de tiempo, añadir efectos y editar vídeo mediante comandos de lenguaje natural.
+- Berman destaca su interfaz visual atractiva y la capacidad de integrarse con el ecosistema agéntico.
+
+#### Hermes Agent: 200.000 estrellas y auto-mejora
+
+**Hermes Agent** (lanzado por Nous Research) acaba de alcanzar las **200.000 estrellas** en GitHub. Berman lo describe como una gran alternativa a OpenClaw, con un enfoque particular en capacidades de auto-reparación y auto-mejora.
+
+- Si un skill falla durante la ejecución, Hermes Agent lo repara automáticamente y lo mejora para la siguiente ejecución.
+- Incluye un conjunto completo de funcionalidades para desarrollo agéntico profesional.
+- Berman señala que requeriría un vídeo completo para reseñarlo en profundidad.
+
+#### Voicebox: clonación de voz y transcripción open-source
+
+**Voicebox** (33.000 estrellas) promete ser la combinación de ElevenLabs y WhisperFlow en un solo producto open-source y gratuito. Cubre tanto la generación como la transcripción de voz.
+
+- **Clonación de voz** casi perfecta, con editor de historias (timeline) para editar audio como en cualquier DAW.
+- **Transcripción** y generación ilimitada, con pipeline de efectos de audio.
+- Soporta modelos locales para ejecución completamente offline.
+- Berman mostró la interfaz, destacando lo pulida y fácil de usar que resulta.
+
+#### Reflexión final / Conclusiones
+
+Este vídeo de Matthew Berman funciona como un termómetro del ecosistema agéntico actual. La diversidad de proyectos —desde OCR ligero hasta agentes de larga duración pasando por seguridad, edición de vídeo y clonación de voz— demuestra que el ecosistema open-source de IA está madurando rápidamente. Proyectos como Codebase Memory MCP, Headroom y GStack apuntan a una dirección clara: herramientas especializadas que resuelven problemas concretos con una integración mínima. La recomendación implícita de Berman es que cualquier desarrollador debería explorar estos proyectos, instalar los que resuelvan sus problemas específicos, y usar SkillSpector como filtro de seguridad antes de incorporar skills de terceros.
+
+---
+
+### 🔗 Referencias
+
+- 💻 Repositorio: OpenMontage — https://github.com/calesthio/OpenMontage
+- 💻 Repositorio: Deer Flow — https://github.com/bytedance/deer-flow
+- 💻 Repositorio: Anthropic Cybersecurity Skills — https://github.com/mukul975/Anthropic-Cybersecurity-Skills
+- 💻 Repositorio: Hyperframes — https://github.com/heygen-com/hyperframes
+- 💻 Repositorio: Codebase Memory MCP — https://github.com/DeusData/codebase-memory-mcp
+- 💻 Repositorio: Matt Pocock Skills — https://github.com/mattpocock/skills
+- 💻 Repositorio: GStack — https://github.com/garrytan/gstack
+- 💻 Repositorio: Unlimited OCR — https://github.com/baidu/Unlimited-OCR
+- 💻 Repositorio: SkillSpector (NVIDIA) — https://github.com/nvidia/skillspector
+- 💻 Repositorio: Palmier Pro — https://github.com/palmier-io/palmier-pro
+- 💻 Repositorio: Hermes Agent — https://github.com/nousresearch/hermes-agent
+- 💻 Repositorio: Voicebox — https://github.com/jamiepine/voicebox
+- 🏢 Patrocinador: Merlin AI (descuento 75% con código MATT5) — https://www.getmerlin.in/pricing
+
+
 ## [Matthew Berman] 7 INSANE loops you need to try right now
 **Fecha:** 2026-06-19
 **URL:** https://www.youtube.com/watch?v=F4a8aMLb678
