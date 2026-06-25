@@ -3,6 +3,146 @@ Canales monitoreados: Javier Garzás, Matt Wolfe, Matthew Berman
 Generado automáticamente.
 ==================================================
 
+## [Matt Wolfe] 9 Free AI Skills That Feel Like Cheat Codes
+**Fecha:** 2026-06-24
+**URL:** https://www.youtube.com/watch?v=STH929HARLo
+**Video ID:** STH929HARLo
+
+### 📝 Resumen
+
+Matt Wolfe presenta y demuestra en vivo **9 skills y plugins gratuitos** que transforman a asistentes de codificación con IA (Claude Code, Codex, Cursor, OpenClaw, Hermes, VS Code, GitHub Copilot) en herramientas radicalmente más potentes. Skills y plugins son archivos de instrucciones reutilizables que dan a los agentes de IA un comportamiento repetible y consistente sin tener que empezar desde cero cada vez. Wolfe diferencia skills (un único archivo prompt) de plugins (paquetes que incluyen skills, agentes, hooks, MCPs y configuración adicional). Todos los proyectos mostrados se instalan simplemente pidiendo al agente que lo haga —basta con pasarle la URL del repositorio de GitHub.
+
+#### GStack — el equipo de ingeniería virtual de Garry Tan
+
+**GStack** es un plugin masivo creado por Garry Tan (CEO de Y Combinator) que convierte a Claude Code (y cualquier otro agente) en un **equipo completo de ingeniería virtual**. Incluye 23 especialistas y 8 herramientas potentes, todos comandos slash gratuitos.
+
+- **Roles integrados**: CEO que repiensa el producto, Engineering Manager que bloquea arquitectura, diseñador que detecta AI slop, revisor que encuentra bugs de producción, QA que abre navegador real, oficial de seguridad que ejecuta auditorías OWASP y STRIDE, y un release engineer que despliega PRs.
+- **Instalación**: simplemente se le da al agente la URL `github.com/garrytan/gstack` y se le pide que lo instale. Wolfe lo probó tanto en Claude Code como en Codex.
+- **Demostración**: usó el skill `/gstack office hours` para que el agente stress-testeara una idea de app (analizador de canales de YouTube) — el agente hizo preguntas durante ~20 minutos para validar el concepto y generó un brief en markdown.
+- **Otro ejemplo usó `/gstack review`** para revisar el código de un dashboard de redes sociales. Encontró un bug real: cambios de scope del proyecto que no se habían reflejado en el código.
+
+#### Stop Slop — eliminación de marcas de IA en textos
+
+Un skill simple pero efectivo que **elimina los "AI-isms"** de textos generados por inteligencia artificial. Wolfe hizo que ChatGPT escribiera un párrafo sobre robots humanoides y luego aplicó Stop Slop para limpiarlo de marcas reconocibles de IA. Ideal para guiones, blogs o cualquier contenido escrito con IA que necesite sonar más natural.
+
+#### Graphify — grafos de conocimiento como memoria para agentes
+
+**Graphify** convierte codebases, documentación, esquemas, notas y medios en **grafos de conocimiento consultables**. La verdadera potencia está en que el agente puede usar este grafo como una capa de memoria, ahorrando tokens al no tener que redescubrir relaciones cada vez.
+
+- **Aplicación en second brain**: Wolfe lo ejecutó sobre su base de conocimiento personal (wiki + journal). Generó un grafo visual con nodos interconectados que reveló patrones: estrategia de creadores de YouTube, sostenibilidad del creador, persistencia, flujos de trabajo con agentes de IA.
+- **Consultas inteligentes**: preguntó al grafo "¿cuáles son los temas recurrentes más grandes en mis notas?" y "¿qué 3 ideas de vídeo están escondidas en esta base de conocimiento?" — recibió respuestas basadas únicamente en el grafo, sin tener que indexar todos los archivos markdown.
+- **También funciona en codebases**: Wolfe lo ejecutó sobre el código de Future Tools y el grafo reveló conexiones inesperadas, como por qué un componente CSS conectaba tantas comunidades de UI.
+
+#### Understand Anything — mapas visuales interactivos de código
+
+Similar a Graphify pero enfocado en **onboarding visual para humanos y agentes**. Convierte cualquier código en un mapa de conocimiento interactivo que se puede explorar, buscar y consultar. Wolfe lo describe como "grafos que enseñan > grafos que impresionan".
+
+- **Mapa de Future Tools**: generó un diagrama de flujo visual con API routes, security boundary, servicios e integraciones, modelo de datos de Supabase, flujos de administración, UI pública, documentación y configuración del proyecto.
+- **Navegación**: se puede hacer clic en cualquier nodo para profundizar. Por ejemplo, al hacer clic en "servicios e integraciones" se despliega un mapa detallado de cómo se conectan Google Sheets, Beehiiv, FireCrawl y otras integraciones.
+- **Consultas**: preguntó "¿por dónde debería empezar un nuevo desarrollador?" y el agente respondió basándose en el flujo de trabajo visual.
+
+#### Last 30 Days — investigación de sentimiento en tiempo real
+
+Un skill de investigación que busca en **Reddit, X (Twitter), YouTube, Hacker News, Polymarket, GitHub y la web general** lo que la gente está diciendo sobre un tema concreto y sintetiza un resumen fundamentado.
+
+- **Demostración con Claude Fable**: Wolfe pidió investigar el sentimiento sobre Claude Fable. El skill encontró 21 hilos de Reddit, 20 vídeos de YouTube, 27 historias de Hacker News, 19 items de GitHub y 4 mercados de Polymarket.
+- **Resultados**: entusiasmo por el salto de capacidades, confusión sobre acceso/ciudadanía y mecánicas de chat, especulación sobre restauración de acceso. Incluyó fuentes y un resumen de patrones clave.
+- **Bonus**: el skill puede generar un archivo HTML compartible con toda la investigación formateada visualmente.
+
+#### Front End Design vs. Taste Skill — duelo de diseño de interfaces
+
+Wolfe enfrentó dos skills de diseño de front-end: **Front End Design** (creado por Anthropic, el segundo skill más popular en skills.sh) y **Taste Skill** (de Leon XLNX, con casi 50.000 estrellas en GitHub). Ambos mejoran la estética de diseños web generados por IA.
+
+- **Prueba**: Wolfe pidió rediseñar la homepage de Future Tools con 4 condiciones: sin skill (modelo solo), con Front End Design, con Taste Skill, y con ambos combinados.
+- **Resultados**: sin skill → diseño básico similar al original. Con Front End Design → más colorido, mejor estructura. Con Taste Skill → diseño más limpio pero eliminó funcionalidades clave (los tools desaparecieron). Combinados → diseño con degradado y una imagen grande, el menos favorito de Wolfe.
+- **Conclusión**: el gusto estético es subjetivo. Wolfe recomienda instalar ambos y probar variaciones hasta encontrar el diseño deseado.
+
+#### ReMotion vs. HyperFrames — generación de animaciones con IA
+
+Dos skills que permiten generar animaciones desde un solo prompt, compitiendo con lo que tradicionalmente requiere After Effects.
+
+- **Animación de conversación iPhone**: ReMotion generó un MP4 de 11 segundos simulando una conversación de texto en un iPhone con animación funcional. HyperFrames produjo una versión notablemente mejor, con mayor realismo en la interfaz del iPhone.
+- **Logo reveal**: Wolfe pidió una animación donde el logo de Future Tools aparece tras una explosión de partículas. Ambos skills lo lograron, con HyperFrames ligeramente superior en calidad visual.
+- **Gráfico bursátil de NVIDIA**: ambos skills generaron un gráfico animado del crecimiento de NVIDIA en 5 años. ReMotion usó Yahoo Finance como fuente de datos. HyperFrames incluyó más animaciones y efectos visuales.
+
+#### Reflexión final / Conclusiones
+
+Wolfe concluye que los skills y plugins son una de las herramientas más infravaloradas del ecosistema actual de IA. Permiten obtener resultados consistentes y de alta calidad sin tener que rediseñar prompts desde cero cada vez. A medida que la comunidad continúa creando y compartiendo estos recursos, la barrera para lograr resultados profesionales con agentes de IA sigue disminuyendo. Wolfe promete más breakdowns de skills si hay suficiente interés, y recuerda su newsletter semanal en futuretools.io para mantenerse al día.
+
+---
+
+### 🔗 Referencias
+
+- 💻 Repositorio: https://github.com/garrytan/gstack (GStack)
+- 💻 Repositorio: https://github.com/hardikpandya/stop-slop (Stop Slop)
+- 💻 Repositorio: https://github.com/safishamsi/graphify (Graphify)
+- 💻 Repositorio: https://github.com/Egonex-AI/Understand-Anything (Understand Anything)
+- 💻 Repositorio: https://github.com/mvanhorn/last30days-skill (Last 30 Days)
+- 🔗 Skill: https://www.skills.sh/anthropics/skills/frontend-design (Front End Design - Anthropic)
+- 💻 Repositorio: https://github.com/Leonxlnx/taste-skill (Taste Skill)
+- 💻 Repositorio: https://github.com/remotion-dev/remotion (ReMotion)
+- 💻 Repositorio: https://github.com/heygen-com/hyperframes (HyperFrames)
+- 🔗 Web: https://futuretools.io/ (Future Tools)
+- 🔗 Newsletter: https://futuretools.io/newsletter
+
+
+## [Javier Garzás] ¿Es el fin de Jira y Notion? La IA cambia las reglas
+**Fecha:** 2026-06-24
+**URL:** https://www.youtube.com/watch?v=kuN1cwb6P50
+**Video ID:** kuN1cwb6P50
+
+### 📝 Resumen
+
+Javier Garzás analiza el momento crítico que atraviesa la industria del software de gestión empresarial —el llamado "SaaS Apocalipsis"— donde Atlassian (dueños de Jira) acaba de firmar uno de sus peores años bursátiles, mientras herramientas de infraestructura "viejunas" como Supabase, Drupal y WordPress resurgen con fuerza gracias a la inteligencia artificial. El vídeo explica por qué la IA, y en concreto el protocolo MCP (Model Context Protocol), está cambiando radicalmente la forma en que los profesionales interactúan con sus herramientas de gestión, y por qué los fabricantes tradicionales están perdiendo el control de sus propias interfaces.
+
+#### El SaaS Apocalipsis — el declive de las herramientas de gestión tradicionales
+
+Garzás introduce el concepto de "SaaS Apocalipsis" para describir el pánico en el sector del software de gestión como servicio. Herramientas como Jira, Notion, Monday, los CRMs y los gestores documentales están viendo caer su valoración y uso. La causa: la IA está permitiendo a los usuarios saltarse las interfaces tradicionales y acceder directamente a los datos a través de chatbots.
+
+- **Atlassian en caída**: la empresa dueña de Jira y Confluence ha firmado uno de sus peores años en bolsa. Wall Street se pregunta abiertamente si la IA va a "matar" su negocio.
+- **La paradoja**: mientras caen las herramientas de gestión, resucitan herramientas "viejunas" de infraestructura como Drupal (CMS de los años 2000), WordPress y Supabase. Garzás relata cómo en la IA Summit de Londres 2026 se encontró con un stand de Drupal patrocinando el evento — algo impensable hace dos años.
+- **Goldman Sachs lo confirma**: el banco de inversión ha señalado a Supabase y otras herramientas de infraestructura como las grandes ganadoras de la nueva economía digital impulsada por IA. Supabase acaba de levantar 500 millones de dólares.
+
+#### MCP — el protocolo que lo cambió todo
+
+El **Model Context Protocol (MCP)** es, según Garzás, la tecnología que ha cambiado para siempre la forma de trabajar con herramientas de gestión. Permite que los chatbots de IA (ChatGPT, Claude, Gemini) lean y escriban directamente en múltiples herramientas de gestión simultáneamente, sin necesidad de copy-paste ni configuraciones complejas.
+
+- **Antes del MCP**: los profesionales vivían en dos mundos separados — las herramientas de gestión (Jira, Notion, email, calendario) por un lado, y los chatbots de IA por otro. Para usar la IA, había que extraer datos manualmente de las herramientas, pasarlos al chatbot, y luego llevar el resultado de vuelta.
+- **Con el MCP**: desde un solo chatbot se puede leer un ticket de Jira, extraer datos de Notion, escribir en Google Calendar, y enviar un email — todo mediante prompts en lenguaje natural y sin cambiar de interfaz.
+- **Mezcla de datos**: la capacidad más poderosa del MCP es poder combinar datos de diferentes herramientas en un mismo prompt. Por ejemplo, extraer una tarea de un tablero Kanban en Notion, procesarla con una técnica de priorización, y llevarla como evento a Google Calendar.
+- **Eliminación del coste de aprendizaje**: al operar a través del chatbot vía MCP, el usuario ya no necesita aprender la interfaz de cada herramienta ni sus actualizaciones periódicas. El "front-end" de todo es el chatbot.
+
+#### El cambio de comportamiento — del acceso directo al acceso vía chatbot
+
+Garzás revela una regla interna que él y su equipo se han autoimpuesto: **"si puedo hacerlo mediante un chatbot, no voy a la herramienta"**. Ir directamente a la interfaz de Jira, Notion o Google Calendar es considerado "viejuno" e ineficiente.
+
+- **Ejemplo con Google Calendar**: programar un evento recurrente en Google Calendar requiere navegar menús, fechas y configuraciones. En cambio, desde un chatbot se puede pedir en lenguaje natural, y el MCP se encarga de la ejecución. Además, el prompt puede incluir inteligencia adicional (ej: "sabes que los martes no te conviene, ponlo en miércoles").
+- **Creación de interfaces propias**: Garzás va más allá: no solo se accede a las herramientas vía chatbot, sino que ahora cualquier profesional sin conocimientos técnicos puede crearse sus propias interfaces personalizadas usando herramientas como Lovable, los artefactos de Claude, o incluso WordPress y Drupal. Si las vistas que ofrece el fabricante no son suficientes, el usuario puede construir las suyas.
+- **La limitación de las IAs integradas en las herramientas**: Garzás critica a fabricantes como Atlassian y Notion por incorporar funcionalidades de IA limitadas a su propio ecosistema. "La IA de Atlassian solo ve datos de Atlassian", explica. Esto es una "limitación brutal" comparada con lo que permite un chatbot conectado vía MCP a múltiples fuentes simultáneamente.
+
+#### Herramientas de infraestructura — el resurgimiento de lo "viejuno"
+
+Mientras las herramientas de gestión caen, las herramientas de infraestructura están viviendo una segunda edad de oro. Garzás explica la razón: cuando un perfil no técnico crea pequeñas aplicaciones con IA (vibe coding), necesita **dónde guardar los datos y dónde visualizarlos**.
+
+- **Supabase**: base de datos que ha resurgido como solución para que no-técnicos almacenen los resultados de sus aplicaciones creadas con IA. Acaba de levantar 500 millones de dólares.
+- **Drupal y WordPress**: gestores de contenido clásicos que ahora se posicionan como "herramientas de infraestructura" para los desarrollos que personas no técnicas están haciendo para resolver sus problemas particulares.
+- **El nicho olvidado**: Garzás recalca que estas aplicaciones no son software "liberable a producción para miles de usuarios", sino pequeñas soluciones para problemas específicos — y ahí está la clave que mucha gente no está viendo.
+- **Ejemplos prácticos**: Garzás y su equipo han creado CRMs pequeños para necesidades específicas, generadores de diplomas formativos, y "centenares de pequeñas aplicaciones, automatizaciones y agentes" que resuelven problemas que antes eran manuales o simplemente no se hacían.
+
+#### Una IA entrenada con 20 años de material formativo
+
+Garzás comparte un proyecto personal ambicioso: está entrenando una IA con todos los materiales que ha generado en más de 20 años de carrera, incluyendo más de 100.000 alumnos formados, tableros de Miro, dibujos, y contenido formativo. Esta IA será capaz de trasladar todo ese conocimiento acumulado a nuevas generaciones de gestores de producto.
+
+#### Reflexión final / Conclusiones
+
+Garzás es claro: las herramientas de gestión tradicionales no van a desaparecer porque siguen siendo necesarias como repositorios de datos, pero su época de esplendor ha pasado. El futuro está en acceder a esos datos a través de chatbots de IA vía MCP, saltándose las interfaces de los fabricantes y creando las propias cuando sea necesario. La recomendación para cualquier profesional del sector es adoptar una mentalidad "IA First": por defecto, ir primero al chatbot y solo entrar a las herramientas de gestión para temas puntuales. El que no adopte este cambio ahora, según Garzás, llegará tarde.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Comunidad WhatsApp: https://javiergarzas.com/link-whatsapp-youtube-javier-garzas
+
 ## [Matthew Berman] You NEED to try these 12 open-source AI projects RIGHT NOW
 **Fecha:** 2026-06-24
 **URL:** https://www.youtube.com/watch?v=2lmBj_XQq0I

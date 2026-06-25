@@ -3,6 +3,63 @@
 Generado automáticamente.
 ==================================================
 
+## [Javier Garzás] ¿Es el fin de Jira y Notion? La IA cambia las reglas
+**Fecha:** 2026-06-24
+**URL:** https://www.youtube.com/watch?v=kuN1cwb6P50
+**Video ID:** kuN1cwb6P50
+
+### 📝 Resumen
+
+Javier Garzás analiza el momento crítico que atraviesa la industria del software de gestión empresarial —el llamado "SaaS Apocalipsis"— donde Atlassian (dueños de Jira) acaba de firmar uno de sus peores años bursátiles, mientras herramientas de infraestructura "viejunas" como Supabase, Drupal y WordPress resurgen con fuerza gracias a la inteligencia artificial. El vídeo explica por qué la IA, y en concreto el protocolo MCP (Model Context Protocol), está cambiando radicalmente la forma en que los profesionales interactúan con sus herramientas de gestión, y por qué los fabricantes tradicionales están perdiendo el control de sus propias interfaces.
+
+#### El SaaS Apocalipsis — el declive de las herramientas de gestión tradicionales
+
+Garzás introduce el concepto de "SaaS Apocalipsis" para describir el pánico en el sector del software de gestión como servicio. Herramientas como Jira, Notion, Monday, los CRMs y los gestores documentales están viendo caer su valoración y uso. La causa: la IA está permitiendo a los usuarios saltarse las interfaces tradicionales y acceder directamente a los datos a través de chatbots.
+
+- **Atlassian en caída**: la empresa dueña de Jira y Confluence ha firmado uno de sus peores años en bolsa. Wall Street se pregunta abiertamente si la IA va a "matar" su negocio.
+- **La paradoja**: mientras caen las herramientas de gestión, resucitan herramientas "viejunas" de infraestructura como Drupal (CMS de los años 2000), WordPress y Supabase. Garzás relata cómo en la IA Summit de Londres 2026 se encontró con un stand de Drupal patrocinando el evento — algo impensable hace dos años.
+- **Goldman Sachs lo confirma**: el banco de inversión ha señalado a Supabase y otras herramientas de infraestructura como las grandes ganadoras de la nueva economía digital impulsada por IA. Supabase acaba de levantar 500 millones de dólares.
+
+#### MCP — el protocolo que lo cambió todo
+
+El **Model Context Protocol (MCP)** es, según Garzás, la tecnología que ha cambiado para siempre la forma de trabajar con herramientas de gestión. Permite que los chatbots de IA (ChatGPT, Claude, Gemini) lean y escriban directamente en múltiples herramientas de gestión simultáneamente, sin necesidad de copy-paste ni configuraciones complejas.
+
+- **Antes del MCP**: los profesionales vivían en dos mundos separados — las herramientas de gestión (Jira, Notion, email, calendario) por un lado, y los chatbots de IA por otro. Para usar la IA, había que extraer datos manualmente de las herramientas, pasarlos al chatbot, y luego llevar el resultado de vuelta.
+- **Con el MCP**: desde un solo chatbot se puede leer un ticket de Jira, extraer datos de Notion, escribir en Google Calendar, y enviar un email — todo mediante prompts en lenguaje natural y sin cambiar de interfaz.
+- **Mezcla de datos**: la capacidad más poderosa del MCP es poder combinar datos de diferentes herramientas en un mismo prompt. Por ejemplo, extraer una tarea de un tablero Kanban en Notion, procesarla con una técnica de priorización, y llevarla como evento a Google Calendar.
+- **Eliminación del coste de aprendizaje**: al operar a través del chatbot vía MCP, el usuario ya no necesita aprender la interfaz de cada herramienta ni sus actualizaciones periódicas. El "front-end" de todo es el chatbot.
+
+#### El cambio de comportamiento — del acceso directo al acceso vía chatbot
+
+Garzás revela una regla interna que él y su equipo se han autoimpuesto: **"si puedo hacerlo mediante un chatbot, no voy a la herramienta"**. Ir directamente a la interfaz de Jira, Notion o Google Calendar es considerado "viejuno" e ineficiente.
+
+- **Ejemplo con Google Calendar**: programar un evento recurrente en Google Calendar requiere navegar menús, fechas y configuraciones. En cambio, desde un chatbot se puede pedir en lenguaje natural, y el MCP se encarga de la ejecución. Además, el prompt puede incluir inteligencia adicional (ej: "sabes que los martes no te conviene, ponlo en miércoles").
+- **Creación de interfaces propias**: Garzás va más allá: no solo se accede a las herramientas vía chatbot, sino que ahora cualquier profesional sin conocimientos técnicos puede crearse sus propias interfaces personalizadas usando herramientas como Lovable, los artefactos de Claude, o incluso WordPress y Drupal. Si las vistas que ofrece el fabricante no son suficientes, el usuario puede construir las suyas.
+- **La limitación de las IAs integradas en las herramientas**: Garzás critica a fabricantes como Atlassian y Notion por incorporar funcionalidades de IA limitadas a su propio ecosistema. "La IA de Atlassian solo ve datos de Atlassian", explica. Esto es una "limitación brutal" comparada con lo que permite un chatbot conectado vía MCP a múltiples fuentes simultáneamente.
+
+#### Herramientas de infraestructura — el resurgimiento de lo "viejuno"
+
+Mientras las herramientas de gestión caen, las herramientas de infraestructura están viviendo una segunda edad de oro. Garzás explica la razón: cuando un perfil no técnico crea pequeñas aplicaciones con IA (vibe coding), necesita **dónde guardar los datos y dónde visualizarlos**.
+
+- **Supabase**: base de datos que ha resurgido como solución para que no-técnicos almacenen los resultados de sus aplicaciones creadas con IA. Acaba de levantar 500 millones de dólares.
+- **Drupal y WordPress**: gestores de contenido clásicos que ahora se posicionan como "herramientas de infraestructura" para los desarrollos que personas no técnicas están haciendo para resolver sus problemas particulares.
+- **El nicho olvidado**: Garzás recalca que estas aplicaciones no son software "liberable a producción para miles de usuarios", sino pequeñas soluciones para problemas específicos — y ahí está la clave que mucha gente no está viendo.
+- **Ejemplos prácticos**: Garzás y su equipo han creado CRMs pequeños para necesidades específicas, generadores de diplomas formativos, y "centenares de pequeñas aplicaciones, automatizaciones y agentes" que resuelven problemas que antes eran manuales o simplemente no se hacían.
+
+#### Una IA entrenada con 20 años de material formativo
+
+Garzás comparte un proyecto personal ambicioso: está entrenando una IA con todos los materiales que ha generado en más de 20 años de carrera, incluyendo más de 100.000 alumnos formados, tableros de Miro, dibujos, y contenido formativo. Esta IA será capaz de trasladar todo ese conocimiento acumulado a nuevas generaciones de gestores de producto.
+
+#### Reflexión final / Conclusiones
+
+Garzás es claro: las herramientas de gestión tradicionales no van a desaparecer porque siguen siendo necesarias como repositorios de datos, pero su época de esplendor ha pasado. El futuro está en acceder a esos datos a través de chatbots de IA vía MCP, saltándose las interfaces de los fabricantes y creando las propias cuando sea necesario. La recomendación para cualquier profesional del sector es adoptar una mentalidad "IA First": por defecto, ir primero al chatbot y solo entrar a las herramientas de gestión para temas puntuales. El que no adopte este cambio ahora, según Garzás, llegará tarde.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Comunidad WhatsApp: https://javiergarzas.com/link-whatsapp-youtube-javier-garzas
+
 ## [Javier Garzás] La Gestión que conocías ya No existe: la era de los agentes de IA (Londres 2026)
 **Fecha:** 2026-06-17
 **URL:** https://www.youtube.com/watch?v=LgoxHel-Tas
