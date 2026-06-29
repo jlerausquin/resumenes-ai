@@ -2,6 +2,99 @@
 
 ---
 
+
+## [Matthew Berman] "The best thing since OpenClaw" (Hermes Tutorial)
+**Fecha:** 2026-06-28
+**URL:** https://www.youtube.com/watch?v=TML-0HmxWCE
+**Video ID:** TML-0HmxWCE
+
+### 📝 Resumen
+
+Matthew Berman presenta una tutorial práctico sobre **Hermes Agent**, la plataforma de agentes de IA creada por Nous Research, patrocinado por Hostinger. Berman lo califica como "lo mejor desde OpenClaw" y demuestra su instalación en menos de dos minutos, destacando las diferencias clave frente a alternativas como OpenClaw. El vídeo recorre todas las capacidades principales del sistema: desde la configuración inicial hasta la integración con Telegram, pasando por skills, plugins, memoria, perfiles y automatizaciones programadas.
+
+#### Instalación ultrarrápida con Hostinger
+
+Berman muestra el proceso completo de instalación. Usando el plan de Hostinger (con un 73% de descuento mediante enlace patrocinado), el proceso es completamente automatizado:
+
+- Selección del plan y configuración del proveedor (OpenAI en este caso).
+- Creación de una API key en platform.openai.com y pegarla en el panel de Hostinger.
+- Hostinger configura Hermes automáticamente en menos de 2 minutos.
+- Tras la instalación, Berman configura su modelo por defecto como GPT 5.4 Mini y verifica que el agente responde correctamente.
+
+- **Diferencia clave**: a diferencia de instalar localmente en un Mac Mini o servidor propio, Hostinger provee un entorno aislado y gestionado, eliminando la necesidad de mantenimiento de infraestructura.
+
+#### Skills preinstalados y personalización
+
+Hermes viene con una amplia colección de **skills** activados por defecto, algo que lo diferencia significativamente de OpenClaw. Berman recorre el panel de skills:
+
+- Skills incluidos de serie: Claude Code, Codex, Hermes Agent (auto-referencia), Manim (animaciones matemáticas), Manim Video, Excalidraw (diagramas), entre muchos otros.
+- Cada skill se puede leer, activar o desactivar con un simple clic.
+- **Instalación de nuevos skills**: Berman demuestra instalando el skill "Last 30 Days" desde GitHub. El proceso consiste en copiar el archivo `SKILL.md` del repositorio, pegarlo en el panel de skills de Hermes y nombrarlo. Tras crearlo, se invoca escribiendo `/` en el chat y seleccionando el skill.
+- **Auto-reparación (self-healing)**: durante la demostración, el skill requería un archivo adicional que no estaba presente. Hermes detectó el problema automáticamente, descargó el repositorio en un directorio temporal y continuó la ejecución sin intervención del usuario.
+
+#### Automatizaciones con Tasks
+
+El sistema de **Tasks** permite crear automatizaciones programadas, similares a los loops de OpenClaw pero más accesibles:
+
+- Creación mediante una interfaz gráfica: nombre, programación (ej. cada 24 horas), prompt descriptivo.
+- Berman crea un "Daily Brief" que revisa su calendario y resume las reuniones del día.
+- Los tasks pueden incluir skills específicos y entregar la salida directamente al chat.
+- Todos los trabajos programados se listan y gestionan desde un panel central.
+
+#### Memoria y Perfiles
+
+Hermes incorpora un sistema de **memoria persistente** que se construye automáticamente con el uso:
+
+- **Agent Soul**: documento central (equivalente a `identity.md`/`soul.md` de OpenClaw) que define la personalidad del agente. Berman edita el suyo para que hable como un pirata, demostrando el cambio de comportamiento en tiempo real.
+- **Memoria explícita**: el usuario puede añadir información sobre sí mismo (nombre, empresa, newsletter) que el agente recordará en futuras interacciones.
+- **Perfiles múltiples**: permite tener varios agentes especializados (marketing, desarrollo, etc.) cada uno con su propio conjunto de skills, memoria y configuración. Esto evita tener un agente "hinchado" con todas las capacidades mezcladas.
+
+#### Panel de control e Insights
+
+Hermes ofrece un panel analítico con datos de uso:
+
+- Tokens consumidos diariamente (Berman muestra ~73,000 tokens).
+- Número de mensajes y sesiones.
+- Visibilidad granular del comportamiento del agente a lo largo del tiempo.
+
+#### Configuración de proveedores y enrutamiento de modelos
+
+Una de las fortalezas más destacadas de Hermes es su soporte extensivo de **proveedores de inferencia**:
+
+- Proveedores compatibles: OpenAI, Anthropic, Copilot, DeepSeek, Gemini, Kimi, LM Studio (local), Mistral, Nexos, Nous Portal, Nvidia Nims.
+- **Enrutamiento de modelos**: permite asignar modelos específicos para distintas tareas (visión, compresión, extracción web, búsqueda de sesiones, aprobación). Opción "auto" para delegar la decisión al sistema.
+- **Plugins**: funcionalidades completas pre-integradas como Browser Use, FireCrawl (web scraping), Discord, Google Chat, Google Meet. También se pueden crear plugins propios.
+
+#### Integración con Telegram
+
+Berman demuestra la conexión de Hermes con **Telegram** como canal de comunicación:
+
+- Desde el CLI de Hermes ejecuta `hermes gateway setup`.
+- Selecciona Telegram de una lista extensa que incluye Slack, Matrix, Mattermost, WhatsApp, Signal, Email.
+- Crea un bot en Telegram vía BotFather, copia el token y lo pega en Hermes.
+- Configura los IDs de usuario permitidos para control de acceso.
+- En menos de 5 minutos, Berman tiene su agente Hermes funcionando desde Telegram, manteniendo el contexto (incluyendo la personalidad pirata que configuró antes).
+
+#### Demostración: generación de vídeo con Manim
+
+Como demo final, Berman usa el skill **Manim Video** para crear un vídeo educativo animado:
+
+- Prompt: "Crea un vídeo explicando cómo funcionan los exponenciales".
+- En pocos minutos, Hermes genera un MP4 de 58 segundos con gráficos animados explicando el crecimiento exponencial mediante multiplicación repetida.
+- El vídeo se reproduce directamente desde el chat, demostrando la capacidad multimodalde Hermes.
+
+#### Reflexión final / Conclusiones
+
+Berman concluye que Hermes Agent representa un salto significativo en accesibilidad para agentes de IA. La combinación de instalación en 2 minutos, skills preinstalados, auto-reparación, amplio soporte de proveedores, integración con canales de mensajería y perfiles múltiples lo convierten en una opción superior para usuarios técnicos y no técnicos por igual. El patrocinio de Hostinger elimina la barrera de la infraestructura, ofreciendo un entorno aislado y gestionado. Recomienda el enlace en la descripción para obtener descuentos y anima a los espectadores a probarlo.
+
+---
+
+### 🔗 Referencias
+
+- 🏢 Hostinger (sponsor): https://hostinger.com/matthewhermes (código MATTHEWB para 10% descuento)
+- 🏢 Hermes Agent: https://hermes-agent.nousresearch.com
+- 🏢 Forward Future Newsletter: https://forwardfuture.ai
+
 ## [Matthew Berman] I can't believe this happened...
 
 **Fecha:** 2026-06-26
