@@ -2,6 +2,193 @@
 
 ---
 
+## [Matt Wolfe] GLM-5.2 Proves Open-Source AI is Finally Good Now!
+**Fecha:** 2026-07-01
+**URL:** https://www.youtube.com/watch?v=XbHeJL45USQ
+**Video ID:** XbHeJL45USQ
+
+### 📝 Resumen
+
+Matt Wolfe pone a prueba **GLM-5.2**, el nuevo modelo insignia de Z.AI (Zhipu AI), un modelo de pesos abiertos con licencia MIT que está generando un enorme revuelo en la comunidad de IA. Con un contexto de **1 millón de tokens**, capacidad de output de **128.000 tokens**, y un coste **5 veces menor** que modelos frontera como Opus 4.8, Wolfe explora qué puede hacer realmente este modelo y dónde se queda corto. El vídeo incluye pruebas en la web de ZAI, en el harness de Cursor, y demostraciones de creación de juegos, extensiones de Chrome, automatizaciones y animaciones.
+
+#### ¿Qué es GLM-5.2 y por qué importa?
+
+GLM-5.2 es un modelo de **753 mil millones de parámetros**, con pesos abiertos y licencia MIT. Sin embargo, Wolfe aclara un malentendido común: **pesos abiertos no significa ejecutable en casa**. El modelo ocupa más de **1,5 terabytes** descargado; incluso una versión cuantizada a 1 bit necesitaría unos 200 GB de memoria. No es un modelo para consumidores, sino para empresas y proveedores de infraestructura.
+
+Las tres formas de acceder al modelo son:
+
+- **Nivel 1 (web)**: usar z.ai directamente, gratuito y sin límite aparente.
+- **Nivel 2 (API)**: conectar el modelo a aplicaciones propias o harness de agentes (Cursor, OpenCode, Claude Code).
+- **Nivel 3 (self-hosted)**: alquilar GPUs en la nube o tener un superordenador propio.
+
+Wolfe destaca que lo emocionante no es que cualquiera pueda ejecutarlo, sino que **el ecosistema puede construirse sobre él**: se puede alojar, optimizar, y compite en precio, reduciendo la dependencia de los grandes laboratorios cerrados.
+
+- El modelo soporta **function calling, output estructurado, context caching y MCP**.
+- Está claramente optimizado para **codificación y workflows agentivos**.
+- **Empresas occidentales** como Lindy (DeepSeek V4), Cursor (Kimi 2.5) y Coinbase (GLM 5.2) ya están migrando cargas de trabajo a modelos chinos por ser más baratos y con menor riesgo regulatorio.
+
+#### Pruebas en la web de ZAI: lógica, ética y creatividad
+
+Wolfe realizó múltiples pruebas directamente en z.ai:
+
+- **Página web**: el modelo creó una web HTML limpia y funcional con scroll automático, comparable a lo que harían Opus o GPT-5.5.
+- **Pruebas de lógica**: acertó "cuántas R tiene strawberry" (3) y la pregunta del coche ("deberías conducir, necesitas llevar el coche al lavadero").
+- **Prueba de contradicción**: detectó correctamente la incoherencia entre "rehabilitación de espalda" y "peso muerto de 300 libras".
+- **Prueba ética (Ponzi scheme)**: accedió a detallar un esquema Ponzi cuando se enmarcó como parte de una novela, lo que Wolfe considera un comportamiento esperable.
+- **Detección de IA**: al pedirle una introducción que "no sonara a IA", GPTZero la detectó como **100% generada por IA**, con frases hechas típicas.
+- **Gráfico SVG**: creó un gráfico visual de la evolución de los LLMs chinos, comparable en calidad a GPT-5.5 pero a una fracción del coste.
+
+#### BuseyBench: el primer test de SVGs de Gary Busey
+
+Wolfe introduce un nuevo benchmark humorístico: **BuseyBench**, que mide la capacidad de los modelos para generar un SVG de la cara de Gary Busey. GLM-5.2 obtuvo un resultado "sorprendentemente bueno" para ser la primera entrada. También generó un SVG de un mono en patines, con resultado aceptable aunque con una radio a cuestas.
+
+#### Usando GLM-5.2 en Cursor: juegos, extensiones y automatizaciones
+
+La parte más potente del vídeo muestra GLM-5.2 dentro de **Cursor** como modelo de agente:
+
+- **MegaBonk clone**: tras 6 prompts, Wolfe logró un clon funcional del juego 3D MegaBonk con controles, cámara y daño a enemigos. La calidad gráfica fue inferior a la lograda con Fable, pero considerando que el coste es **5 veces menor**, el resultado es impresionante para un modelo open-weight.
+- **Chrome Extension (Page Brief)**: en 2 intentos, el modelo creó una extensión que resume páginas web, extrae action items y enlaces clave, y exporta a markdown. Funcionó correctamente tras una iteración de feedback.
+- **Organización de descargas**: el modelo organizó la carpeta de descargas de Wolfe en subcarpetas (videos, imágenes, documentos, etc.) en 3 minutos y 16 segundos.
+- **Mejora continua ("Improve Your Matt")**: Wolfe conectó GLM-5.2 con **Granola** (toma de notas de reuniones) para crear un skill que, cada viernes, analiza las reuniones de la semana, identifica problemas recurrentes y genera herramientas/skills como soluciones. El sistema encontró 7 problemas en reuniones del 22 de junio y creó 3 skills, incluyendo un **generador de hooks para vídeos cortos** (Hook Lab) que produce 5 variantes de hooks virales.
+
+#### Animaciones con Remotion
+
+GLM-5.2 también se probó con **Remotion** para crear animaciones. Generó un gráfico de barras animado comparando GLM-5.2 con GPT-5.5, Opus 4.6 y Gemini 3.5 en SWE-Bench Pro. Aunque la primera versión tenía texto solapado, tras una corrección el resultado fue funcional.
+
+#### Inference.net: cambio de modelo sin riesgo
+
+Wolfe destaca la herramienta **Inference.net** de Sam Hogan, que permite instalar un gateway para **reflejar tráfico en vivo** a GLM-5.2 mientras se sigue usando el proveedor actual. En 24 horas, un modelo de reinforcement learning genera evaluaciones, y si son positivas, se puede cambiar el modelo sin riesgo de caídas en producción.
+
+#### Reflexión final / Conclusiones
+
+Wolfe concluye que GLM-5.2 **no es un modelo para usar ciegamente en todo**. No supera a Claude, GPT o Gemini en todas las métricas, pero es **uno de los modelos más interesantes para probar ahora mismo** por la combinación de: API barata, pesos abiertos, contexto masivo, fuerte capacidad de codificación, workflows agentivos, y la garantía de que **no será prohibido por el gobierno de EE.UU.** al ser open-weight. El mensaje clave: si tu tarea es larga, intensiva en código, con muchos documentos, agentiva o costosa en tokens, GLM-5.2 merece una prueba. La presión competitiva de modelos chinos baratos y abiertos está obligando a los grandes laboratorios a reaccionar.
+
+---
+
+### 🔗 Referencias
+
+- 📄 Z.AI GLM-5.2: https://z.ai
+- 💻 Repositorio GLM-5.2 (Hugging Face): enlace en descripción
+- 🔗 GPTZero: https://gptzero.me
+- 🏢 FutureTools.io (newsletter de Matt Wolfe): https://futuretools.io/newsletter
+- 🏢 Inference.net: https://inference.net
+- 🏢 Granola (toma de notas AI): https://granola.ai
+- 🔗 Remotion: https://remotion.dev
+- 🏢 BuseyBench: https://buseybench.com
+
+## [Javier Garzás] Most people use ChatGPT/Claude to chat and NOT to manage. 15 tricks to change that
+**Fecha:** 2026-07-01
+**URL:** https://www.youtube.com/watch?v=XW-gFpXTVpM
+**Video ID:** XW-gFpXTVpM
+
+### 📝 Resumen
+
+Javier Garzás aborda una realidad que observa en 2026: profesionales con años de experiencia usan ChatGPT o Claude como si fueran meros buscadores con superpoderes, para redactar correos o hacer resúmenes. El vídeo presenta **15 trucos progresivos** (de menor a mayor complejidad) para transformar la IA de un chat conversacional a una **máquina de gestión autónoma**. Garzás utiliza Claude como referencia, pero señala que todos los conceptos aplican a cualquier chatbot de IA, incluyendo ChatGPT.
+
+#### Memoria y contexto: el primer escalón
+
+El primer consejo es el más básico pero fundamental: la IA debe conocer los **mínimos del proyecto, producto u organización**. Para ello existe la funcionalidad de **memoria** en todos los chatbots. Garzás explica que el contexto es aquello que la IA desconoce porque ocurrió después de su entrenamiento, y que el usuario debe proporcionarle: nombre del equipo, organización, años de experiencia, tipo de cliente, etc. Configurar esto permite que cada respuesta esté automáticamente contextualizada.
+
+- **Acción**: escribir en la memoria cómo se llama el equipo, la organización, el tipo de cliente y otros datos permanentes.
+- **Beneficio**: la IA contextualiza cada respuesta sin necesidad de repetir la información en cada prompt.
+
+#### Selector de modelos: economía de tokens
+
+Garzás compara los distintos modelos (LLMs) dentro de un chatbot con los perfiles profesionales de una organización: hay gente más preparada (consume más recursos) y gente junior (más barata, para tareas simples). En Claude los niveles son **Opus** (más potente, caro), **Sonnet** (intermedio) y **Haiku** (básico, barato). La clave es usarlos según la complejidad de la tarea:
+
+- **Opus**: para tareas estratégicas como priorización de backlog con OKRs vía MCP.
+- **Sonnet**: para tareas intermedias.
+- **Haiku**: para tareas sencillas como redactar correos triviales.
+- Esto no solo optimiza velocidad, sino que **economiza tokens**, cuyo coste equipara a la gasolina o el Bitcoin en importancia.
+
+#### MCPs: conectar la IA con las herramientas del día a día
+
+Los puntos 3 y 4 se centran en los **MCPs (Model Context Protocol)**, que permiten al chatbot leer y escribir datos de otras aplicaciones.
+
+- **Punto 3**: conectar el chatbot al **gestor de correo electrónico y calendario** (Gmail, Google Calendar). Garzás recomienda que la interfaz de entrada del gestor sea el propio chatbot, no el cliente de correo. El chatbot puede leer correos, gestionar la agenda y crear eventos recurrentes mucho más rápido que haciéndolo manualmente.
+- **Punto 4**: conectar el chatbot a las **herramientas de gestión de tareas** (Jira, Notion, etc.) vía MCP. El gestor de productos puede así gestionar tickets, priorizar y leer historias de usuario directamente desde el chatbot, sin entrar en la herramienta.
+
+#### Artefactos y visuales interactivos
+
+Garzás dedica los puntos 5 y 6 a la **visualización**. La mayoría de chatbots tienen una funcionalidad de **artefactos** que crea pequeñas aplicaciones integradas dentro del chat para visualizar datos:
+
+- **Artefactos**: informes visuales, métricas, OKRs, datos financieros. Se pueden crear desde los datos extraídos vía MCP.
+- **Visuales interactivos**: **user story maps**, **customer journeys**, y otras técnicas clásicas de product management que antes se hacían en pizarras físicas. Ahora se pueden crear, visualizar e interactuar con ellas mediante el LLM.
+
+#### Proyectos: la organización del conocimiento
+
+El punto 7 es uno de los que Garzás considera imprescindibles. Los **proyectos** (en Claude) son carpetas que agrupan conversaciones sobre un mismo tema (cliente, producto, actividad). Las ventajas son:
+
+- Una **instrucción común** que da contexto adicional a todas las conversaciones del proyecto.
+- **Ficheros compartidos** (PDFs, requerimientos) que todas las conversaciones pueden leer.
+- **Memoria compartida** entre conversaciones del mismo proyecto, permitiendo que lo dicho en una conversación sea conocido por otra.
+
+#### No escribas: usa la voz
+
+El punto 8 es un cambio de hábito: **dejar de escribir y empezar a hablar**. Escribir es lento y anticuado. Garzás recomienda usar el micrófono integrado de los chatbots o herramientas externas como **Whisper Flow**, que transcribe la voz a texto no solo en el chatbot sino en cualquier campo de texto (correos, tickets en Notion, etc.).
+
+#### Scraping vía extensión de Chrome
+
+El punto 9 presenta una funcionalidad poco conocida: la **extensión de Chrome para Claude** que permite hacer **scraping** (simular que el usuario hace scroll y clics en cualquier web). Esto es especialmente útil para **discovery**: analizar webs de la competencia, tendencias del sector, etc. La IA recorre la web automáticamente mediante un prompt, ahorrando horas de navegación manual.
+
+#### Claude Cowork: la aplicación de escritorio
+
+El punto 10 introduce **Claude Cowork**, la aplicación de escritorio de Anthropic que ha cambiado la forma de trabajar de Garzás. Al estar instalada localmente, puede:
+
+- Interactuar con **ficheros** (PDFs, facturas, documentos escaneados).
+- Leer, sintetizar, abrir, mezclar y unir archivos.
+- Hacerlo todo más rápido y consumiendo menos tokens que desde el navegador.
+
+#### Tareas programadas y Dispatch
+
+Los puntos 11 y 12 llevan la automatización al siguiente nivel:
+
+- **Tareas programadas**: Claude Cowork puede ejecutar acciones recurrentes (revisar el backlog los lunes, comprobar incidencias de clientes cada noche) sin intervención manual.
+- **Dispatch**: permite enviar instrucciones desde el móvil al entorno de escritorio local. Ideal para cuando se está de viaje, en un aeropuerto o en una gasolinera, y se recuerda algo importante que necesita ejecutarse en el equipo local.
+
+#### Claude Code: el salto para no técnicos
+
+El punto 13 aborda **Claude Code**, la herramienta de programación asistida por IA. Garzás anima a los no técnicos a perderle el miedo, porque permite:
+
+- Convertir un requerimiento de Jira (vía MCP) en un **prototipo funcional** que se puede ver y enseñar al equipo, sin necesidad de que un desarrollador lo implemente.
+- Gestionar repositorios en GitHub (guardar ficheros locales en servidores).
+- Garzás afirma que "cuando empiezas con Claude Code es un antes y un después; no vuelves hacia atrás".
+
+#### Skills: el estándar del futuro
+
+El punto 14 es sobre las **skills**: prompts empaquetados en un formato estándar que pueden usarse en cualquier entorno (Claude, ChatGPT, etc.). Existen repositorios de skills con técnicas de product management como:
+
+- Priorización de backlog
+- Creación de historias de usuario
+- Mapas de historia de usuario
+- Customer journeys
+- Técnicas de entrevista y personas
+
+Garzás considera que dominar las skills es tan ineludible para un profesional digital como saber leer o hablar.
+
+#### Claude Design: diseñar sin ser diseñador
+
+El punto 15 cierra con **Claude Design**, una herramienta de diseño integrada con Claude Code. Permite:
+
+- Crear diseños con estilos, tendencias y coherencia visual.
+- Integrarse con Claude Code para que el diseño se convierta directamente en código.
+- Que un gestor de producto pueda **enseñar diseños funcionales a su equipo** sin depender de un diseñador ni esperar sprints enteros. Ejemplo concreto: una **landing page básica** que antes requería un equipo técnico, ahora la puede hacer una sola persona.
+
+#### Reflexión final / Conclusiones
+
+Garzás sintetiza su mensaje: **no te puedes quedar en usar un chatbot para escribir correos o corregir ortografía**. Hay que convertir la IA en una máquina que dé superpoderes para salir del rol del "gestor tradicional" (que solo leía tickets, escribía historias de usuario y coordinaba reuniones) y convertirse en un **builder, un creador**. Los 15 trucos permiten visualizar, mezclar datos, crear prototipos, diseñar y programar sin ser técnico. El salto es de "chatear" a "gestionar con IA", y separa al profesional que va 10x del que se queda atrás. Invita a unirse a su comunidad de WhatsApp para seguir aprendiendo.
+
+---
+
+### 🔗 Referencias
+
+- 🏢 Comunidad WhatsApp de Javier Garzás: enlace en la descripción del vídeo
+- 🔗 Whisper Flow: herramienta de transcripción por voz
+- 🔗 Extensión de Chrome para Claude (scraping)
+- 🔗 Claude Cowork (aplicación de escritorio de Anthropic)
+- 🔗 Claude Code (herramienta de programación asistida por IA)
+- 🔗 Claude Design (herramienta de diseño de Anthropic)
+- 🏢 Anthropic: https://www.anthropic.com
 
 ## [Matthew Berman] "The best thing since OpenClaw" (Hermes Tutorial)
 **Fecha:** 2026-06-28
