@@ -2,6 +2,94 @@
 
 ---
 
+---
+
+## [Matt Wolfe] AI News: Fable's Back But This New Model is Better?
+**Fecha:** 2026-07-03
+**URL:** https://www.youtube.com/watch?v=NVP_paJarG4
+**Video ID:** NVP_paJarG4
+
+### 📝 Resumen
+
+Matt Wolfe repasa las noticias más relevantes de la semana en inteligencia artificial, encabezadas por el regreso de **Fable 5** (el modelo estrella de Anthropic que había sido retirado por seguridad el 12 de junio) y el anuncio de **GPT 5.6** de OpenAI, que llega en tres variantes pero con acceso severamente restringido. El vídeo también cubre el lanzamiento de Claude Sonnet 5, varias novedades de Google (Nano Banana 2 Light, Gemini Omni Flash, Gemini Spark en macOS), una oferta polémica de OpenAI al gobierno de Trump, y el nuevo benchmark humorístico de Wolfe: **BuseyBench**.
+
+#### Fable 5 vuelve… con más restricciones
+
+El 1 de julio, Anthropic redeployó Fable 5 tras 2,5 semanas de ausencia forzada por seguridad. La nueva versión mantiene las mismas capacidades pero incorpora guardrails adicionales. Según Anthropic, el nuevo clasificador es más sensible, lo que resulta en que solicitudes benignas sean bloqueadas con mayor frecuencia durante tareas rutinarias de codificación y depuración.
+
+- **Bridgemind** (cuenta de benchmarks en X) reportó caídas significativas en rendimiento: debugging pasó de 86,2 a 25,9; refactoring de 73,6 a 38,4; alucinaciones de 75,9 a 61,7.
+- Sin embargo, Wolfe indica que en su experiencia personal el modelo **se siente igual que antes**. No ha recibido ningún bloqueo inesperado en sus pruebas, incluyendo proyectos complejos como un dashboard de creación de vídeos cortos, un generador de B-roll para artículos, y el propio BuseyBench.
+- **Limitación temporal**: el acceso a Fable 5 incluido en los planes de pago solo está garantizado hasta el **7 de julio**. Después, requerirá créditos de uso adicionales. Wolfe recomienda aprovechar estos días para que Fable realice el trabajo pesado de proyectos grandes, y luego continuar con Opus o GPT-5.5 para los ajustes incrementales.
+
+#### BuseyBench: el benchmark más absurdo (y revelador)
+
+Wolfe presenta **BuseyBench** (buseybench.com), un benchmark que mide la capacidad de los modelos de IA para generar imágenes SVG del rostro de **Gary Busey**. Construido íntegramente con Fable 5, el sitio permite:
+
+- Ver la evolución de modelos desde **GPT-3.5 Turbo (marzo 2023)** hasta los modelos más recientes.
+- Ordenar resultados por **coste** (GPT-5.5 Pro: $4 por SVG; O1 Pro: $3), **tokens usados** (Grok 420: 106.000 tokens) o **duración de ejecución** (GLM 5.1: 6 min 50 s).
+- Filtrar por **proveedor** para ver la evolución temporal de cada familia de modelos.
+- La progresión es clara: los modelos mejoran visiblemente con el tiempo en su capacidad de generar código SVG que se asemeje a un rostro humano.
+- También incluye un apartado para generadores de imágenes (MidJourney V1 → Nano Banana 2 Light / GPT Image 2), aunque menos desarrollado.
+
+#### GPT 5.6: Sol, Terra y Luna
+
+OpenAI anunció oficialmente **GPT 5.6**, su nueva generación de modelos, en tres variantes: **Sol** (la más potente, comparable a Fable/Mythos), **Terra** (intermedia, similar a Sonnet) y **Luna** (la más ligera, similar a Haiku). Sin embargo, el acceso está **extremadamente restringido**:
+
+- Solo disponible mediante API para un grupo selecto de socios y organizaciones de confianza.
+- **Sol Ultra** puntúa un **91,9% en Terminal Bench** frente al 84,3% de Fable.
+- Terra iguala a Fable en Terminal Bench.
+- Precios: Sol a **$5 input / $30 output** — aproximadamente la mitad que Fable ($10/$50).
+- Wolfe especula que OpenAI podría activar el acceso general justo el **7 de julio**, cuando expire el periodo gratuito de Fable 5.
+
+#### OpenAI ofrece un 5% al gobierno de Trump
+
+Wolfe cubre una noticia que le genera sentimientos encontrados: OpenAI habría ofrecido al gobierno de Trump una **participación del 5% en la compañía** (valorado en ~$42.600 millones) como medida para aliviar tensiones regulatorias y compartir el beneficio económico de la IA con el público. Wolfe señala el conflicto de intereses: si el gobierno tiene participación en la empresa que debe regular, se incentiva una regulación más laxa para maximizar el valor de esa participación.
+
+#### Claude Sonnet 5: nuevo pero no frontera
+
+Anthropic lanzó **Claude Sonnet 5**, un modelo de gama media que mejora respecto a Sonnet 4.6 en trabajo de conocimiento y reduce comportamientos indeseables, pero **no alcanza el nivel de Opus, Mythos o Fable**. La propia Anthropic lo reconoce explícitamente en su system card. Su principal ventaja es el precio: **$2 input / $10 output** (hasta el 31 de agosto, luego $3/$15). Wolfe lo probó en BuseyBench: Sonnet 5 genera un SVG de Gary Busey decente, pero inferior a Fugu Ultra, Quinn 3.7 y Gemini 3.5 Flash.
+
+#### Novedades de Google: Nano Banana 2 Light, Omni Flash y más
+
+Google lanzó varias actualizaciones:
+
+- **Nano Banana 2 Light**: genera imágenes en **4 segundos** a un coste de ~3,5 centavos por 1.000 imágenes. Wolfe lo probó en Gemini (Ultra plan): resultados rápidos y sólidos.
+- **Gemini Omni Flash**: versión más rápida y barata de Gemini Omni para generación y edición de vídeo. Disponible vía API a 10 centavos/segundo. Wolfe lo probó en Gemini con un vídeo de Google IO: añadió Godzilla a la escena, aunque tuvo problemas con el API (errores internos del servidor).
+- **NotebookLM**: ahora permite crear **vídeos cortos verticales de 60 segundos** a partir de notebooks. Wolfe lo probó: el resultado tardó ~30 minutos y la calidad fue básica (imágenes simples y voz narrada).
+- **Gemini Meet Notes**: toma notas automáticas en reuniones de Google Meet, con resúmenes y action items guardados en Google Docs.
+- **Gemini Spark para macOS**: la respuesta de Google a OpenClaw ya disponible en macOS para suscriptores Ultra. Wolfe demostró cómo Spark organizó su carpeta de descargas automáticamente.
+
+#### Ronda rápida
+
+- **Claude Science**: Anthropic lanzó un workbench de IA para científicos, disponible en Mac/Linux para suscriptores de pago.
+- **Cursor iOS**: aplicación móvil que permite lanzar y controlar agentes en la nube desde el teléfono.
+- **X MCP Server**: X (Twitter) lanzó un servidor MCP para facilitar la integración de agentes con su plataforma.
+- **OpenAI Codex Hardware**: teaser de un macro pad físico diseñado específicamente para Codex, con lanzamiento previsto para el **15 de julio**.
+
+#### Reflexión final / Conclusiones
+
+Wolfe cierra reconociendo que la semana ha sido abrumadora en cantidad y profundidad de noticias: el regreso de Fable 5 con restricciones, la llegada de GPT 5.6 con acceso limitado, y los movimientos estratégicos de OpenAI con el gobierno marcan una nueva era de **regulación y restricción** en el acceso a modelos de frontera. El creador reafirma su compromiso de publicar resúmenes semanales cada viernes para que su audiencia no tenga que seguir todas las fuentes por su cuenta.
+
+---
+
+### 🔗 Referencias
+
+- 📄 Redeploying Fable 5 (Anthropic): https://www.anthropic.com/news/redeploying-fable-5
+- 🔗 Fable 5 Nerfed (Bridgemind): https://x.com/bridgemindai/status/2072662214704533888
+- 🏢 BuseyBench: https://buseybench.com/
+- 📄 Previewing GPT-5.6 Sol (OpenAI): https://openai.com/index/previewing-gpt-5-6-sol/
+- 📄 OpenAI Government Stake (The Verge): https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump
+- 📄 Claude Sonnet 5 (Anthropic): https://www.anthropic.com/news/claude-sonnet-5
+- 📄 Gemini Omni Flash / Nano Banana 2 Lite (Google): https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-flash-nano-banana-2-lite/
+- 🔗 NotebookLM Video Overviews: https://x.com/NotebookLM/status/2071987494799716626
+- 📄 Claude Science Workbench: https://www.anthropic.com/news/claude-science-ai-workbench
+- 🏢 Cursor for iOS: https://cursor.com/blog/ios-mobile-app
+- 📄 X MCP Server (TechCrunch): https://techcrunch.com/2026/06/30/x-now-offers-an-mcp-server-to-make-its-platform-easier-for-ai-tools-to-use/
+- 📄 Gemini Meet Notes (Google): https://blog.google/products-and-platforms/products/workspace/take-notes-for-me/
+- 📄 Gemini Spark Updates (Google): https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/
+- 📄 OpenAI Codex Hardware (The Verge): https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder
+
+
 ## [Matt Wolfe] GLM-5.2 Proves Open-Source AI is Finally Good Now!
 **Fecha:** 2026-07-01
 **URL:** https://www.youtube.com/watch?v=XbHeJL45USQ
