@@ -2,7 +2,92 @@
 
 ---
 
+## [Matthew Berman] Cut your AI cost IN HALF (EASY)
+**Fecha:** 2026-07-07
+**URL:** https://www.youtube.com/watch?v=1KKB_UiW6ls
+**Video ID:** 1KKB_UiW6ls
+
+### 📝 Resumen
+
+Matthew Berman presenta una guía práctica sobre **model routing** (enrutamiento de modelos), una estrategia para reducir drásticamente los costes de API de IA sin sacrificar calidad. El concepto central es simple pero poderoso: usar modelos de frontera (caros) solo para las tareas que realmente los requieren, y modelos más económicos para el resto. Berman demuestra cómo esta técnica puede ahorrar hasta un **68% del coste total** en proyectos de codificación con IA, y ofrece implementaciones prácticas tanto manuales como automatizadas.
+
+#### Planificación vs. Ejecución: el principio fundamental
+
+La clave del ahorro reside en distinguir entre dos fases del desarrollo con IA:
+
+- **Planificación**: requiere el mejor modelo disponible (Fable, el modelo estrella de Anthropic) para diseñar la arquitectura, entender el codebase, aplicar mejores prácticas y tomar decisiones de diseño. Esta fase consume pocos tokens de salida pero exige la máxima capacidad de razonamiento.
+- **Ejecución**: una vez que se tiene un plan detallado (un **spec** o especificación), cualquier modelo decente puede escribir el código siguiendo las instrucciones. Modelos como GPT-5.5, Opus 4.8 o Composer 2.5 son perfectamente capaces y mucho más baratos.
+
+Berman enfatiza que esta distinción no es especulativa: el spec escrito por Fable tiene cientos de líneas detallando cada aspecto de la implementación, lo que reduce la carga cognitiva del modelo ejecutor a una simple tarea de traducción de especificaciones a código.
+
+#### Desglose de costes: el caso concreto
+
+Berman presenta números reales que demuestran el impacto económico:
+
+- **Planificación con Fable**: 100K tokens de entrada + 20K tokens de salida = **$2.00**
+- **Ejecución con Fable** (sin optimizar): 150K tokens de entrada + 120K tokens de salida = **$7.50**
+- **Coste total sin optimizar**: **$9.50**
+
+- **Ejecución con modelo barato** (GPT-5.5 a $2/M input, $6/M output): los mismos 150K/120K tokens = **$1.02**
+- **Coste total con model routing**: **$3.02**
+
+- **Ahorro total**: **$6.48 (68%)**
+
+El factor clave: los modelos de frontera como Fable cobran **$50 por millón de tokens de salida**, 8 veces más que un modelo económico a $6. Y la fase de codificación requiere **6 veces más tokens de salida** que la de planificación. La combinación de estos dos factores multiplica el ahorro.
+
+#### Implementación manual: copiar y pegar entre modelos
+
+La forma más sencilla de aplicar model routing no requiere herramientas adicionales:
+
+1. Usar Claude con Fable para la fase de **investigación y planificación**, iterando hasta obtener un spec detallado.
+2. Copiar el spec y pegarlo en **Codex con GPT-5.5**, instruyéndole: "Build this" + el spec completo.
+3. GPT-5.5 tarda aproximadamente una hora en escribir todo el código y genera un **Pull Request**.
+4. Copiar el PR de vuelta a Fable para que lo **revise** (feedback crítico si es necesario).
+5. Pasar el feedback al modelo barato para correcciones y despliegue.
+
+Berman demuestra este flujo en vivo, mostrando cómo evitó gastar el 60% de su cuota de Fable en una sola feature.
+
+#### Automatización con skills: Claude Code invocando Codex
+
+Para usuarios avanzados, Berman creó un **skill personalizado** que automatiza todo el proceso:
+
+- El skill se llama "Fable plans, GPT-5.5 Codex writes, Claude verifies".
+- Funciona porque Codex expone una **CLI** (interfaz de línea de comandos) que Claude Code puede ejecutar como cualquier otro programa.
+- El usuario simplemente escribe la feature que quiere; el skill se encarga de planificar con Fable, delegar la codificación a Codex, recibir el código, integrarlo y verificar el resultado.
+
+#### Enrutamiento automático en herramientas de terceros
+
+Berman señala que los **frontier labs** (OpenAI, Anthropic) no tienen incentivos para hacer model routing —quieren que uses sus modelos más caros. En cambio, los **harnesses de terceros** como Cursor, Factory y Devin sí implementan enrutamiento automático como ventaja competitiva:
+
+- **Cursor** tiene un "auto mode" que enruta tareas al modelo apropiado. Incluso cuando el usuario selecciona Fable 5 High, Cursor puede delegar sub-tareas a **Composer 2.5** (su modelo propietario más barato) para operaciones rutinarias.
+- **Not Diamond** es una empresa especializada exclusivamente en model routing para empresas, donde Berman es pequeño inversor. No solo ahorra dinero, sino que a menudo **mejora la calidad** al seleccionar el mejor modelo para cada tarea específica.
+
+#### No solo para código: modelos y esfuerzo mental
+
+Berman extiende el principio más allá de la programación:
+
+- En herramientas como **Claude Co-work** (documentos, Excel, trabajo de conocimiento), es crucial seleccionar el modelo adecuado: Haiku 4.5 (rápido y barato), Sonnet 5 (balanceado), Opus 4.8 (capaz y con buen precio), Fable (máxima capacidad, máximo coste).
+- El nivel de **esfuerzo de pensamiento** (thinking level) también se debe ajustar: de bajo a máximo según la complejidad de la tarea. No se necesita max thinking para "deploy this code".
+
+#### Caso real: Coinbase
+
+Berman cita a **Brian Armstrong** de Coinbase, una de las empresas más "AI-native" del mundo. Los datos muestran que Coinbase ha conseguido que el **coste total de IA se mantenga plano o incluso disminuya** mientras el uso de tokens se dispara. ¿Cómo? Aplicando exactamente esta estrategia:
+
+- Usan **GLM 5.2** (modelo open-source extremadamente barato) para la mayoría de tareas de codificación.
+- Reservan los modelos de frontera (OpenAI, Anthropic) solo para planificación.
+- Además implementan **caching avanzado, gestión de contexto y control agresivo del esfuerzo de pensamiento por defecto**.
+
+#### Reflexión final / Conclusiones
+
+Berman concluye que el model routing es la estrategia más infravalorada para trabajar con IA de forma eficiente. La mayoría de los usuarios simplemente usan el modelo por defecto, desperdiciando dinero y cuota. La clave está en conocer las fortalezas de cada modelo familiarizándose con sus capacidades y costes, y aplicar la regla de oro: modelo de frontera para pensar, modelo económico para hacer. Con herramientas como Genspark (el patrocinador del vídeo), que unifica múltiples modelos y herramientas en un solo espacio de trabajo, la barrera para aplicar esta estrategia es cada vez menor.
+
 ---
+
+### 🔗 Referencias
+
+- 🏢 Genspark (sponsor): https://www.genspark.ai/
+- 💻 Not Diamond (model routing enterprise): https://www.notdiamond.ai/
+- 🏢 Forward Future Newsletter: https://forwardfuture.ai
 
 ## [Matt Wolfe] AI News: Fable's Back But This New Model is Better?
 **Fecha:** 2026-07-03

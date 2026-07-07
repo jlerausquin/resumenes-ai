@@ -2,8 +2,6 @@
 
 ---
 
----
-
 ## [Matt Wolfe] AI News: Fable's Back But This New Model is Better?
 **Fecha:** 2026-07-03
 **URL:** https://www.youtube.com/watch?v=NVP_paJarG4
