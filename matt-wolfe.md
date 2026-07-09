@@ -2,6 +2,88 @@
 
 ---
 
+## [Matt Wolfe] Anyone Can Make Insane Visual Effects Now!
+**Fecha:** 2026-07-08
+**URL:** https://www.youtube.com/watch?v=Zq5Yj8yCiqY
+**Video ID:** Zq5Yj8yCiqY
+
+### 📝 Resumen
+
+Matt Wolfe presenta una guía práctica y detallada sobre cómo añadir **efectos visuales con IA** a vídeos sin que parezcan generados artificialmente. Partiendo de su propia experiencia —sus vídeos de noticias de los viernes siempre empiezan con efectos visuales salvajes que son lo que más preguntas generan—, Wolfe demuestra que se puede usar IA para potenciar un vídeo 95% humano con solo un 5% de "especias" de IA. El tutorial abarca intros, transiciones, efectos de fondo, B-roll, animaciones de logotipos, rótulos inferiores, gráficos animados y cabezas parlantes animadas, utilizando herramientas como Runway, Seed Dance 2.0, Gemini, Veo 3.1, Remotion y Codex.
+
+#### Intros con Runway: la fórmula del "key frame"
+
+La técnica principal para las intros de efectos visuales consiste en grabar dos fotogramas fijos en Da Vinci Resolve y enviarlos a Runway para generar una transición animada entre ambos.
+
+- **Paso 1**: grabar un fotograma vacío de la habitación (sin el presentador) y otro justo antes de empezar a hablar.
+- **Paso 2**: en Runway, usar la modalidad **Key Frame** con Seed Dance 2.0 (el modelo que Wolfe considera superior actualmente para este tipo de efectos), aunque también funcionan Cling y Veo 3.1 de Google.
+- **Paso 3**: descargar el vídeo generado, importarlo a Da Vinci Resolve y usar la transición **Smooth Cut** para difuminar el cambio entre el clip generado y la grabación real.
+- Wolfe ha creado variaciones como una **máquina de garra** que lo levanta y lo sienta en la silla, o un efecto **animorph** donde un lobo se transforma en su rostro (usando ChatGPT para generar la imagen inicial del animal).
+
+#### Transiciones entre ubicaciones con IA
+
+Cuando Wolfe sabe que grabará en una ubicación diferente, graba los primeros segundos en su estudio y el resto en el destino, y usa Runway para generar una transición fluida entre ambos escenarios.
+
+- La clave está en **grabar con previsión**: un clip corto en el estudio diciendo "cambiemos de escenario", y luego el resto en la nueva ubicación.
+- Es importante **usar la misma ropa** en ambas grabaciones para que la transición sea creíble.
+- Wolfe creó un vídeo para NAB (nunca mostrado) con transiciones espectaculares: lanzar el micrófono al aire en cámara lenta en San Diego y atraparlo en Las Vegas, o ser succionado por un agujero de gusano.
+- Para estas transiciones usó el modelo **Cling** dentro de Leonardo.ai en lugar de Seed Dance.
+
+#### Efectos de fondo con Gemini (Google Omni)
+
+Gemini (modelo Omni de Google) permite añadir elementos que no ocurrieron en la grabación real, manteniendo al presentador sin reaccionar.
+
+- **Yeti en el fondo**: Wolfe grabó 10 segundos hablando, subió el clip a Gemini y pidió "un yeti camina detrás del hombre". El resultado es un yeti que cruza el fondo mientras Wolfe sigue hablando como si nada.
+- **Godzilla en Google IO**: sobre un clip de una banda tocando en Google IO, Gemini insertó a Godzilla caminando y destrozando el escenario.
+- **Explosión sin reacción**: añadió una explosión detrás de sí mismo con la instrucción explícita de "no reacciones ni te des cuenta".
+- **Humo en la cabeza**: el mismo clip con "haz que mi cabeza eche humo".
+- **Cambio climático**: transformó un día soleado en Google IO en un día lluvioso con todos los asistentes usando paraguas y chaquetas.
+
+#### B-roll y animaciones de texto con Claude Co-work (Fable)
+
+Para generar B-roll de artículos y animaciones de texto, Wolfe utiliza **Claude Co-work** (modelo Opus 4.8 o Fable), que puede navegar por páginas web, capturar pantallas y generar vídeos MP4 con animaciones personalizadas.
+
+- Wolfe le pide a Claude que capture una página web de un artículo, haga scroll hasta un párrafo específico, lo **ilumine con un resaltador amarillo**, y genere un MP4 con la animación.
+- Con **Fable**, los resultados son aún más suaves y naturales en las animaciones de resaltado.
+- También se pueden crear **flechas apuntando a texto**, **zooms a secciones específicas**, y animaciones de **cursor**.
+- Para B-roll genérico tipo stock footage, Wolfe usa **Runway con Seed Dance** para generar escenas como "hombre de negocios estrechando la mano de una mujer en una sala de conferencias" o "hombre sentado sobre un montón de dinero lanzándolo al aire".
+
+#### Logotipos, lower thirds y gráficos animados con Remotion
+
+Para animaciones más controladas y precisas, Wolfe utiliza **Remotion** (a través de Codex o Claude Code con el skill "remotion best practices"), que genera vídeos mediante código.
+
+- **Logo reveals con partículas**: Wolfe subió su logotipo de Future Tools a Codex y pidió "una explosión de partículas que se reforman para formar el logotipo". Remotion generó una animación perfecta.
+- **Paint splatter**: usando el mismo skill, creó una animación donde salpicaduras de pintura de los colores de su avatar se reorganizan para formar su imagen.
+- **Lower thirds**: Seed Dance genera animaciones con texto, pero a menudo escribe mal los nombres (ej: "CEO of Busty Bench" en vez de "CEO of Busybench"). **Veo 3.1** lo hace mejor con texto. **Remotion** es el más preciso pero menos vistoso.
+- **Gráficos animados**: Wolfe creó una simulación de conversación de texto estilo iPhone, gráficos de stock de NVIDIA, y animaciones de rutas de avión (aunque los modelos de vídeo son malos en precisión geográfica).
+
+#### Cabezas parlantes animadas (truco del texto de Sam Altman)
+
+Para la recreación de la conversación por SMS entre **Sam Altman y Mira Murati**, Wolfe usó **Character Script to Video** de Runway:
+
+- Grabó su propia voz leyendo ambos lados de la conversación.
+- Subió una imagen de Sam Altman y otra de Mira Murati a Runway.
+- Runway generó dos vídeos separados donde cada imagen "hablaba" toda la conversación.
+- En Da Vinci Resolve, Wolfe **editó los vídeos** para que pareciera una conversación real de ida y vuelta.
+
+#### Reflexión final / Conclusiones
+
+Wolfe enfatiza que su enfoque es mantener los vídeos **95% humanos** y usar IA solo para **"inyectar un poco de diversión y extravagancia"**, no para crear el vídeo entero. Reconoce que cada vez es más difícil distinguir contenido real de generado por IA, y por eso procura que sus efectos sean **visiblemente artificiales**, para que nadie se pregunte si lo que ve es real o no. La filosofía es usar la IA como herramienta de realce, no de reemplazo.
+
+---
+
+### 🔗 Referencias
+
+- 🏢 Herramienta: https://runwayml.com — Runway (generación de vídeo con IA)
+- 🏢 Herramienta: https://gemini.google.com — Google Gemini / Omni (efectos de fondo)
+- 🏢 Herramienta: https://www.anthropic.com — Claude Co-work / Fable (animaciones B-roll)
+- 🏢 Herramienta: https://remotion.dev — Remotion (animaciones basadas en código)
+- 🏢 Herramienta: https://leonardo.ai — Leonardo.ai (generación de vídeo con modelos)
+- 💻 Skill: Remotion best practices para Codex/Claude Code
+- 🌐 Web: https://futuretools.io — Exploración de herramientas y newsletter de Matt Wolfe
+
+---
+
 ## [Matt Wolfe] AI News: Fable's Back But This New Model is Better?
 **Fecha:** 2026-07-03
 **URL:** https://www.youtube.com/watch?v=NVP_paJarG4
@@ -87,6 +169,7 @@ Wolfe cierra reconociendo que la semana ha sido abrumadora en cantidad y profund
 - 📄 Gemini Spark Updates (Google): https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-june-2026/
 - 📄 OpenAI Codex Hardware (The Verge): https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder
 
+---
 
 ## [Matt Wolfe] GLM-5.2 Proves Open-Source AI is Finally Good Now!
 **Fecha:** 2026-07-01
@@ -229,4 +312,3 @@ Wolfe cierra reconociendo que, aunque fue una semana con pocas noticias, las que
 - 📄 The Atlantic AI Watchdog: https://www.theatlantic.com/category/ai-watchdog
 - 📄 GPT 5.6 staggered release (The Information)
 - 🏢 Krea AI open weights: https://krea.ai
-

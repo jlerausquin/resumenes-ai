@@ -2,6 +2,66 @@
 
 ---
 
+## [Javier Garzás] ¿Llevan razón los negacionistas del vibe coding?
+**Fecha:** 2026-07-08
+**URL:** https://www.youtube.com/watch?v=bDBse242_EI
+**Video ID:** bDBse242_EI
+
+### 📝 Resumen
+
+Javier Garzás, con más de 20 años de experiencia en calidad de software y refactoring (escribió el primer artículo en español sobre refactoring en 2002), analiza con datos y ejemplos reales las cuatro críticas más repetidas contra el **vibe coding** —el desarrollo de software asistido por inteligencia artificial mediante lenguaje natural. El contexto de fondo: el 84% de los desarrolladores ya usa o planea usar IA para programar según Stack Overflow 2025, herramientas como Lovable alcanzan 500M$ ARR con 1M de proyectos nuevos por semana, y figuras como Kent Beck y Robert C. Martin (Uncle Bob) defienden activamente el uso de IA en programación. Garzás sostiene que la mayoría de los argumentos negacionistas no se sostienen, pero advierte que hay uno que merece atención seria.
+
+#### Negacionismo 1: "El vibe coding genera código inmantenible y 10× más caro"
+
+Garzás reconoce que este es el único argumento con **algo de realidad**. Hacer vibe coding sin control para aplicaciones críticas es peligroso por mantenibilidad, seguridad y escalabilidad. Sin embargo, señala que este es un **problema histórico del software** que existe desde siempre, independientemente de la IA.
+
+- Escribió el primer artículo en español sobre refactoring en 2002 junto a Mario Piattini, donde ya alertaban sobre los problemas del mal código.
+- Ha auditado y refactorizado millones de líneas de código a lo largo de su carrera, y afirma haber visto código humano tan malo que duda que una IA pueda igualarlo.
+- **Kent Beck** (creador de Extreme Programming y JUnit) ha defendido que el software necesita acompañarse de **seguridad y confianza** —prácticas como pair programming y testing—, y adaptaciones de XP para la era de la IA (como "AI Extreme Programming") están surgiendo.
+- La conclusión: no se debe cargar la culpa al vibe coding, sino a **no acompañar el desarrollo de buenas prácticas** que den seguridad, ya sea con humanos o con IA.
+
+#### Negacionismo 2: "Te han vendido el humo de que cualquiera puede hacer grandes aplicaciones"
+
+Garzás considera este argumento superficial y falto de matiz. Es evidente que una persona sin conocimientos técnicos no va a construir un CRM como HubSpot o competir con SAP usando vibe coding. Pero de ahí a decir que **no se puede hacer nada** hay un abismo.
+
+- Su propio equipo tiene un **CRM propio hecho con vibe coding** porque HubSpot se les quedaba grande y no les daba las soluciones que necesitaban.
+- El valor real del vibe coding para no-técnicos está en construir **pequeñas capas de integración** sobre herramientas existentes (Notion, Jira, Gmail, calendarios, CRMs) que resuelvan problemas específicos que las grandes aplicaciones no cubren.
+- El argumento de "no puedes hacer nada" desmotiva injustamente a profesionales no técnicos que podrían obtener superpoderes con desarrollos pequeños pero transformadores.
+
+#### Negacionismo 3: "El vibe coding es una moda pasajera"
+
+Garzás presenta datos concretos para refutar esta afirmación:
+
+- **Stack Overflow 2025**: el 84% de los desarrolladores usa o tiene planes de usar IA para desarrollar, frente al 76% en 2024 —un crecimiento de 8 puntos porcentuales en un año.
+- **Lovable** alcanzó 500M$ de ingresos recurrentes anuales (ARR) en junio de 2026, duplicando en solo 6 meses, con 1M de nuevos proyectos por semana.
+- **Robert C. Martin (Uncle Bob)**, el máximo defensor del código limpio, afirma públicamente que "la IA programa mejor que tú, asúmelo", y recomienda usar IA con buenas prácticas adaptadas.
+- El vibe coding no es una moda, sino un **cambio de paradigma imparable**. Como todo cambio tecnológico, hay negacionistas y pioneros, pero los números demuestran una adopción creciente y sostenida.
+
+#### Negacionismo 4: "Solo sirve para aplicaciones de juguete"
+
+Garzás califica este argumento de **"tremendamente peligroso e irresponsable"** porque desmotiva a gente que podría beneficiarse enormemente del vibe coding.
+
+- Personas no técnicas pueden crear **prototipos operativos** funcionales que antes requerían equipos enteros de desarrollo, acelerando el ciclo de discovery y validación de producto.
+- Incluso pequeños desarrollos (cruzar bases de datos, conectar email marketing con Gmail y calendario, integrar CRM con facturación) tienen un **impacto enorme en productividad** y antes eran impensables sin conocimientos técnicos.
+- El vibe coding está revolucionando la **reducción de requisitos a prototipos**: en vez de escribir historias de usuario, los product managers pueden mostrar prototipos funcionales hechos con herramientas como Lovable, acelerando drásticamente la validación de ideas.
+
+#### Reflexión final / Conclusiones
+
+Garzás concluye que tres de los cuatro negacionismos no se sostienen bajo escrutinio, y el único que tiene algo de razón (código inmantenible) es un problema que ha acompañado al software desde sus orígenes, no algo que el vibe coding haya inventado. El verdadero desafío no es **si** usar vibe coding, sino **cómo** hacerlo bien: con buenas prácticas, ingeniería del arnés (harness engineering) y controles de calidad adaptados a la nueva era. La IA y el vibe coding no tienen vuelta atrás, y los profesionales que mejor los integren en su flujo de trabajo serán los que lideren la próxima década del desarrollo de software.
+
+---
+
+### 🔗 Referencias
+
+- 📄 Encuesta: https://survey.stackoverflow.co/2025/ai — Stack Overflow 2025 sobre uso de IA en desarrollo
+- 🔗 Artículo: https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week/ — Lovable: 500M ARR y 1M proyectos/semana
+- 🔗 Artículo: https://news.fundsforngos.org/2026/06/08/lovable-targets-12-billion-valuation-in-new-funding-round-as-ai-coding-boom-accelerates/ — Lovable: ronda hacia 12B de valoración
+- 🔗 LinkedIn: https://www.linkedin.com/posts/kentbeck_software-is-bipedal-code-and-trust-move-activity-7474959156257398784-MgwR — Kent Beck: "Software is bipedal: code and trust"
+- 🔗 X/Twitter: https://x.com/unclebobmartin/status/2046206145597972849 — Robert C. Martin sobre IA
+- 🌐 Web: https://233academy.com — Comunidad y recursos de Javier Garzás
+
+---
+
 ## [Javier Garzás] Most people use ChatGPT/Claude to chat and NOT to manage. 15 tricks to change that
 **Fecha:** 2026-07-01
 **URL:** https://www.youtube.com/watch?v=XW-gFpXTVpM
@@ -115,4 +175,3 @@ Garzás sintetiza su mensaje: **no te puedes quedar en usar un chatbot para escr
 - 🔗 Claude Code (herramienta de programación asistida por IA)
 - 🔗 Claude Design (herramienta de diseño de Anthropic)
 - 🏢 Anthropic: https://www.anthropic.com
-
