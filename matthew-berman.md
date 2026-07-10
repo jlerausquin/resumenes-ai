@@ -2,6 +2,130 @@
 
 ---
 
+## [Matthew Berman] GPT-5.6 SOL is HERE
+**Fecha:** 2026-07-09
+**URL:** https://www.youtube.com/watch?v=roGmNXASYOM
+**Video ID:** roGmNXASYOM
+
+### 📝 Resumen
+
+Matthew Berman realizó un livestream el 9 de julio de 2026 para celebrar el lanzamiento público de **GPT-5.6**, el modelo más avanzado de la familia GPT-5, tras semanas de retraso causados por la controversia regulatoria en torno a Claude Fable de Anthropic. Durante casi dos horas, Berman repasó las capacidades del modelo, mostró demos en vivo de clones de software complejos creados con bucles autónomos, y comparó precios y rendimiento con Fable, Opus 4.8 y GPT-5.5. El evento coincidió además con el lanzamiento de otros modelos competidores como Grok de xAI y Spark de Meta, y con una ofensiva de Anthropic que reseteó los límites de tokens de Claude para todos los usuarios.
+
+#### Las tres variantes de GPT-5.6: Luna, Terra y Soul
+
+OpenAI lanzó GPT-5.6 en tres tamaños distintos para cubrir diferentes necesidades y presupuestos:
+
+- **Luna**: el modelo más pequeño y económico, ideal para tareas simples como despliegues o trabajo de bajo requerimiento cognitivo.
+- **Terra**: el modelo intermedio, optimizado para implementación de código a un coste de $2,50/M tokens de entrada y $15/M de salida.
+- **Soul (Sol)**: el modelo frontier, con un precio de $5/M tokens de entrada y $30/M de salida. Soporta **Ultra mode**, un nivel de razonamiento extremo diseñado para consumir grandes cantidades de cuota en tareas complejas.
+
+Berman destacó que Soul tiene exactamente el mismo precio que GPT-5.5, haciendo que este último quede obsoleto: "No hay razón para usar GPT-5.5 nunca más". La estrategia recomendada es usar **Soul para planificación y orquestación**, Terra para la escritura de código, y Luna para despliegues —una técnica de enrutamiento que permite ahorrar hasta un 50% en costes.
+
+#### Comparativa con Claude Fable y Opus 4.8
+
+Berman dedicó una parte significativa del stream a comparar GPT-5.6 con los modelos de Anthropic:
+
+- **GPT-5.6 Soul vs Claude Opus 4.8**: Soul es claramente superior. Opus 4.8 se siente como un modelo de generación anterior, mientras que Soul ofrece un rendimiento significativamente mejor en el Coding Agent Index con un coste API similar (~$2,400 por max effort).
+- **GPT-5.6 Soul vs Claude Fable**: Fable obtiene puntuaciones más altas pero a un coste desorbitado (hasta $3,700 en max effort). Sin embargo, Berman cree que Fable tiene más potencial de mejora porque es un modelo completamente nuevo de un nuevo entrenamiento (posiblemente 10 billones de parámetros), mientras que GPT-5.6 es la cúspide del entrenamiento GPT-5.
+- **Analogía de Berman**: GPT-5.6 es "el Honda Civic más tuneado que hayas visto" —cada caballo de fuerza ha sido exprimido—, mientras que Fable es "un Ferrari recién salido de fábrica, sin optimizar, con un potencial mucho mayor por delante".
+
+Fable destaca en personalidad: dice cosas con un toque humano que sorprende gratamente. GPT-5.6, en cambio, es más directo y "soso" en personalidad, pero va al grano sin desviarse.
+
+#### Demos en vivo: Excel, Minecraft, sistema operativo y más
+
+Berman mostró varias aplicaciones creadas enteramente por GPT-5.6 mediante el sistema de **bucles (/goal)** de Codex:
+
+- **Excel clone**: un clon funcional de Microsoft Excel creado con un solo prompt de 8 palabras ("create an Excel clone, feature parity"). El modelo trabajó durante **6 días** sin supervisión, usando computer use para abrir Excel real, estudiar sus características y replicarlas. El resultado incluye fórmulas, tablas dinámicas, gráficos, validación de datos, ordenación y filtros. Berman lo detuvo manualmente; el modelo habría seguido añadiendo funciones.
+- **BlockCraft (clon de Minecraft)**: con el prompt "clone Minecraft full feature parody", el modelo generó un mundo 3D navegable con inventario, biomas, mobs, minería, agricultura y física básica. En un día ya había un juego funcional; durante los 6 días siguientes fue añadiendo biomas, NPCs y enemigos del juego original de forma autónoma.
+- **Astra OS**: un sistema operativo completo con ventanas, configuración y aplicaciones, aunque Berman admitió que el diseño era "muy feo".
+- **Máquina Rube Goldberg**: un juego interactivo de física.
+- **Cubo de Rubik 3D**: simulación que permite girar caras, hacer zoom y resolver automáticamente.
+
+#### Browser use y computer use: el asesino silencioso
+
+La capacidad que más impresionó a Berman fue el **control de navegador** de GPT-5.6 en Codex. Demostró cómo el modelo puede:
+- Gestionar cambios complejos de DNS a través de múltiples servicios (Vercel, DigitalOcean, GoDaddy) con un solo prompt de 10 palabras.
+- Escalar automáticamente instancias de Supabase cuando se acercaban al límite de cuota y luego reducirlas al terminar.
+- Navegar por Gmail, calendarios y cualquier web como lo haría un humano.
+
+Berman afirmó que el navegador de Codex se ha convertido en su navegador predeterminado y que OpenAI probablemente invertirá fuertemente en esta funcionalidad, que se está fusionando con la nueva "super app" de ChatGPT.
+
+#### El ecosistema: reseteo de cuota y herramientas
+
+Coincidiendo con el lanzamiento, el CTO de OpenAI, Tibo, anunció el reseteo de los límites de tokens de Codex, lo que Berman calificó como "100% de probabilidad" tras el anuncio. Además, Berman presentó:
+- **GPT-5.6 Relay**: un skill open source para Codex que permite usar Soul como planificador y delegar tareas a Terra y Luna automáticamente, ahorrando cuota.
+- **Loopy**: una librería open source (2.500+ estrellas en GitHub) que ayuda a diseñar, revisar y monitorear bucles en cualquier editor agéntico (Codex, Cursor, Claude Code).
+- Su web **forwardfuture.com** (nuevo dominio, adquirido por $2,500), que alberga el review completo de GPT-5.6 con todas las demos interactivas.
+
+#### Reflexión final / Conclusiones
+
+Berman concluye que GPT-5.6 representa la **madurez máxima de la familia GPT-5**, ofreciendo un rendimiento excepcional a un precio competitivo, especialmente cuando se combinan las tres variantes mediante enrutamiento inteligente. Sin embargo, reconoce que Fable tiene un techo más alto a largo plazo por ser un modelo de nueva generación. La recomendación práctica: usar GPT-5.6 Soul para planificar, Terra para ejecutar y Luna para desplegar, y reservar Fable para tareas que requieran el máximo nivel de razonamiento posible. El futuro, según Berman, está en la **orquestación multi-modelo** y en sistemas agénticos que combinen lo mejor de cada modelo.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Review completo de GPT-5.6: https://signals.forwardfuture.com/gpt-5-6-review/
+- 💻 GPT-5.6 Relay (GitHub): https://github.com/Forward-Future/gpt-5-6-relay
+- 🌐 Newsletter Forward Future: https://forwardfuture.com
+- 🏢 OpenAI - GPT-5.6: https://openai.com/index/gpt-5-6/
+
+---
+
+## [Matthew Berman] GPT-5.6 is FINALLY HERE (WOAH)
+**Fecha:** 2026-07-09
+**URL:** https://www.youtube.com/watch?v=mD1F5DsC5tc
+**Video ID:** mD1F5DsC5tc
+
+### 📝 Resumen
+
+Matthew Berman publicó una revisión en profundidad de **GPT-5.6** coincidiendo con su lanzamiento público el 9 de julio de 2026, apenas horas antes de que Claude Fable fuera reautorizado por el gobierno. Este vídeo es la versión producida y editada del análisis que luego expandió en su livestream del mismo día. Berman describe GPT-5.6 como "el salto más masivo de un punto release (.5 a .6) que jamás haya visto", squeezando cada gota de rendimiento del entrenamiento GPT-5. El video incluye el benchmark personalizado de **Box AI** para evaluar el modelo en tareas de trabajo real del conocimiento.
+
+#### Capacidades de creación de software con bucles autónomos
+
+Berman dedicó gran parte del video a demostrar el poder de los **bucles (/goal)** de Codex impulsados por GPT-5.6. Los dos proyectos estrella:
+
+- **Clon de Excel**: un prompt de 8 palabras ("/goal make an Excel clone, continue until feature parity") generó un clon funcional que ejecutó durante **5 días** hasta que Berman lo detuvo manualmente. El modelo usó **computer use** para abrir Excel real en el escritorio, estudiar cada característica y replicarla en el clon HTML. El resultado incluye: fórmulas (suma, resta, referencia de celdas), ordenación ascendente/descendente, validación de datos, formato condicional, tablas dinámicas, gráficos, búsqueda y reemplazo, y múltiples hojas de cálculo. Todo en una sola página HTML.
+
+- **Clon de Minecraft**: con el mismo enfoque de bucle, GPT-5.6 generó un mundo 3D completo durante **7 días**. El resultado incluye minería de bloques con animaciones 3D, inventario completo, agricultura (zanahorias, tierras de cultivo), animales (gatos), diferentes biomas, generación de semillas de mundo, y mobs del juego original. Berman destacó que es "la mejor versión de Minecraft creada con IA hasta la fecha".
+
+#### La estrategia de tres modelos y el skill GPT-5.6 Relay
+
+GPT-5.6 se lanza en tres tamaños con diferentes niveles de razonamiento:
+
+- **Luna**: el más pequeño y barato, para despliegues y tareas simples.
+- **Terra**: modelo medio a $2.50/M input, ideal para implementación de código con razonamiento alto.
+- **Soul**: modelo frontier a $5/M input ($30/M output), la mitad del precio de Fable ($10/M input, $50/M output).
+
+Berman presentó **GPT-5.6 Relay**, un skill open source que permite planificar con Soul, delegar la implementación a Terra (con razonamiento alto), y usar Luna para despliegues —todo dentro de Codex. Esta estrategia de **enrutamiento multi-modelo** ahorra cuota significativamente sin sacrificar calidad.
+
+#### Box AI Benchmark y comparativa de rendimiento
+
+Box (partner del video) desarrolló un benchmark personalizado de trabajo real del conocimiento que evalúa lectura de documentos, conciliación de números, due diligence y revisión de outputs expertos:
+
+- **GPT-5.6 Soul**: 68.1% de precisión (domina a GPT-5.5 en todos los subsegmentos: sector público, ciencias de la vida y salud).
+- **GPT-5.6 Terra**: 59% (inferior a Soul, pero mucho más rápido y barato).
+- **GPT-5.6 Luna**: ~59% (misma precisión que Terra pero más rápido y más barato).
+- **GPT-5.5**: 63.3% (superado por Soul en todos los sectores).
+
+Berman enfatizó que GPT-5.6 no solo es más barato que Fable, sino que **usa menos tokens para lograr el mismo resultado**, dando una "línea de visión más directa" hacia la solución. En el Coding Agent Index, Soul obtiene ~80 puntos a $2,400 de coste API, frente a los ~72 puntos de Opus 4.8 al mismo precio.
+
+#### Reflexión final / Conclusiones
+
+Berman compara GPT-5.6 con un **Honda Civic súper tuneado** (máximo rendimiento de una plataforma madura) y Fable con un **Ferrari sin ajustar** (potencial bruto por explotar). Aunque Fable "ve alrededor de las esquinas" mejor, GPT-5.6 ofrece la mejor relación coste-rendimiento del mercado actual. La recomendación: usar GPT-5.6 Soul para planificación estratégica, Terra para implementación, y el skill Relay para orquestar todo, reservando Fable para problemas que requieran el máximo nivel de razonamiento. El futuro, sugiere Berman, está en la **orquestación inteligente entre modelos** más que en depender de un único modelo frontier.
+
+---
+
+### 🔗 Referencias
+
+- 🏢 Box AI + GPT-5.6: https://bit.ly/4pkwci0
+- 🔗 Review completo de GPT-5.6: https://signals.forwardfuture.com/gpt-5-6-review/
+- 💻 GPT-5.6 Relay (GitHub): https://github.com/Forward-Future/gpt-5-6-relay
+- 🌐 Newsletter Forward Future: https://forwardfuture.com
+- 📄 OpenAI - GPT-5.6: https://openai.com/index/gpt-5-6/
+
+---
+
 ## [Matthew Berman] We just figured out how AI actually works (J-Space)
 **Fecha:** 2026-07-08
 **URL:** https://www.youtube.com/watch?v=bjHuGNo3spk
