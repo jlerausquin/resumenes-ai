@@ -2,6 +2,150 @@
 
 ---
 
+## [Matt Wolfe] AI News: GPT-5.6 and the new Super App are a Massive Leap!
+**Fecha:** 2026-07-10
+**URL:** https://www.youtube.com/watch?v=EOCRtSnvNNE
+**Video ID:** EOCRtSnvNNE
+
+### 📝 Resumen
+
+Matt Wolfe repasa las noticias más importantes de la semana del 10 de julio de 2026, encabezadas por el lanzamiento público de **GPT-5.6** de OpenAI y la nueva aplicación unificada **ChatGPT Work** (la "super app" que fusiona Codex, ChatGPT y Atlas). La semana también trajo novedades de xAI con Grok 4.5, Meta con Muse Spark 1.1 y Muse Image (controvertido), extensiones de acceso a Fable 5 de Anthropic, y nuevos modelos de imagen como Seedream 5.0 Pro de ByteDance. Wolfe dedica una parte significativa a comparar GPT-5.6 con Fable en uso real, concluyendo que ambos modelos son complementarios y representan el mayor salto cualitativo desde GPT-3.5 a GPT-4.
+
+#### GPT-5.6: tres variantes, un salto monumental
+
+OpenAI lanzó oficialmente GPT-5.6, descrito por Wolfe como "el salto más masivo de un punto release (.5 a .6) que jamás haya visto", comparable en magnitud al salto de GPT-3.5 a GPT-4. El modelo se presenta en tres niveles:
+
+- **Soul (Sol)**: la variante frontier a $5/M tokens de entrada y $30/M de salida. Soporta el modo **Ultra** para razonamiento extremo. Puntúa un **91,9% en Terminal Bench**, superando a Fable (84,3%) y estableciéndose como el mejor modelo para uso agéntico.
+- **Terra**: modelo intermedio a $2,50/M input y $15/M output, ideal para codificación general.
+- **Luna**: el más ligero y económico a $1/M input y $6/M output, para despliegues y tareas simples.
+
+En **Deep SWE Bench** (el nuevo estándar de referencia para ingeniería de software), GPT-5.6 Soul alcanza un 72,7%, superando a Fable Max (66%) y Grok 4.5 (62%). Wolfe destaca que el modelo se siente "como un GPT-6 disfrazado de 5.6" y que por primera vez desde GPT-4 hay una sensación de salto monumental.
+
+- **SolBonk**: Wolfe creó un clon funcional de Mega Bonk con un solo prompt. El modelo tardó 31 minutos en la primera iteración. Wolfe lo considera superior a la primera versión de Fable, que requería prompts adicionales para corregir la cámara y la apariencia del personaje.
+- **Sites (ChatGPT)**: el nuevo sistema de hosting integrado permite publicar el juego en `chatgpt.site` sin gestionar bases de datos, CDNs ni servidores. Wolfe lo publicó y cualquiera puede jugarlo.
+- **"Imprímeme"**: Wolfe le pidió a GPT-5.6 "crea un sitio web que realmente me impresione" (modo Soul Ultra, 35 minutos de trabajo). El resultado fue un sitio interactivo con lluvia hacia arriba, entornos cambiantes, y un botón "Colapsar la atmósfera".
+
+#### ChatGPT Work: la super app unificada
+
+OpenAI fusionó Codex, ChatGPT y Atlas en una sola aplicación llamada **ChatGPT Work**, que Wolfe describe como la "super app" largamente anticipada. La app tiene dos modos principales:
+
+- **Codex Mode**: para desarrollo de software con todas las herramientas de codificación (terminal, revisión de código, ramas de trabajo, archivos locales).
+- **Work Mode**: modo asistente personal, menos técnico, que decide autónomamente si responder, conectar con herramientas o escribir código según lo que necesite el usuario.
+
+Las capacidades más destacadas incluyen:
+
+- **Browser integrado**: reemplaza a Atlas. El navegador vive dentro de la app y permite a los agentes navegar por la web.
+- **Plugins**: conexión con Gmail, Google Drive, Slack, Granola y cualquier servicio.
+- **Side Chat**: permite hacer preguntas rápidas a ChatGPT en un panel lateral sin interrumpir el proyecto principal.
+- **Control deslizante de inteligencia**: un slider que va desde Terra Light (mínimo) hasta Soul Ultra (máximo), permitiendo ajustar el consumo de créditos.
+- **Sites**: hosting integrado que despliega sitios web completos con un solo clic, sin necesidad de gestionar infraestructura.
+
+Wolfe demostró el modo asistente personal pidiéndole que revisara sus correos, calendario, Slack, Granola y proyectos recientes para identificar áreas de mejora. El asistente creó una **"torre de control"** con pestañas de: tareas del día, inteligencia de IA (noticias en tiempo real), seguimiento de marca (menciones en internet) y datos de sitios web. Wolfe ahora usa esta torre de control como su página de inicio predeterminada.
+
+#### HyperAgent: marketplace de skills para agentes
+
+HyperAgent, la plataforma de agentes de la compañía que creó Airtable, lanzó un **marketplace de skills** donde cualquier persona puede crear y compartir habilidades para agentes de IA. Wolfe desarrolló un **generador de B-roll** para creadores de vídeo que:
+
+- Toma un script de vídeo y lo analiza para determinar dónde debe ir cada toma.
+- Enruta cada prompt al modelo de generación adecuado (Veo para realista, Hyperframes para gráficos animados).
+- Normaliza todos los clips con FFmpeg y los ensambla en un vídeo completo con texto superpuesto, lower thirds y transiciones.
+- Genera un shot list detallado indicando cuándo debe aparecer cada elemento.
+
+El marketplace permite "forkear" skills de otros usuarios, eliminando la necesidad de construir desde cero.
+
+#### GPT-Live: voz natural con interrupción mutua
+
+OpenAI presentó **GPT-Live**, un nuevo modo de voz que permite conversaciones mucho más naturales. La diferencia clave: tanto el usuario como la IA pueden interrumpirse mutuamente, generando un ritmo de conversación real. Wolfe demostró cómo funciona:
+
+- Le pidió que no respondiera hasta que él se lo indicara, mientras enumeraba todas las noticias de la semana.
+- Al darle la señal, GPT-Live recitó la lista completa sin perder detalle.
+- También funciona como traductor simultáneo: se coloca el teléfono en medio de una conversación entre dos personas que hablan distintos idiomas, y la IA traduce en tiempo real, hablando por encima de los interlocutores según sea necesario.
+
+Para activarlo: Settings → Voice → Model → "Live". Ofrece opciones de velocidad (respuesta rápida vs. más inteligente pero más lenta).
+
+#### Grok 4.5: xAI sorprende en benchmarks
+
+xAI lanzó **Grok 4.5**, y Wolfe admite que es "más impresionante de lo que esperaba". En benchmarks:
+
+- **Deep SWE Bench**: Grok 4.5 obtiene 62%, frente al 66% de Fable y el 72,7% de GPT-5.6.
+- **Terminal Bench**: 83%, compitiendo directamente con Fable (84%) y GPT-5.5 High (83,4%).
+- Precio: $2/M input y $6/M output, similar a los modelos más económicos de GPT-5.6.
+
+Wolfe le pidió a Grok 4.5 que creara un sitio web impresionante. El resultado fue un **simulador de universo interactivo** con estrellas que responden al ratón, zoom desde la escala de la palma de la mano hasta el universo observable, diferentes tipos de estrellas (nebulosa, secuencia principal, gigante roja, remanente) y un modo de constelaciones dibujables. Wolfe lo considera bueno pero inferior al sitio creado por GPT-5.6.
+
+- Grok 4.5 se puede instalar y ejecutar localmente mediante CLI, sin necesidad de facturación inicial.
+- En BuseyBench ocupa el puesto #21.
+
+#### Muse Spark 1.1: Meta vuelve a la conversación
+
+Meta lanzó **Muse Spark 1.1**, un modelo que Wolfe califica como "sorprendentemente decente", aunque no al nivel de los modelos frontier. En benchmarks:
+
+- **Terminal Bench**: 80% (Opus 4.8 tiene 82,7%, GPT-5.5 tiene 83,4%).
+- **Deep SWE Bench**: 53,3%.
+- Precio: $1,25/M input y $4,25/M output.
+
+Lo más impresionante para Wolfe es la **trayectoria de mejora**: el modelo anterior de Meta (Llama Scout, abril 2025) generaba SVGs de Gary Busey prácticamente irreconocibles. Muse Spark 1.1 genera resultados coherentes. En la web impresionante que Wolfe le pidió, Meta creó un sitio interactivo con fondos que cambian al mover el ratón, que Wolfe considera "ligeramente más impresionante que el de Grok 4.5".
+
+#### Muse Image: generación de imágenes de cualquier persona etiquetada
+
+Meta también lanzó **Muse Image**, un modelo de generación de imágenes que se integra con Instagram. La característica más polémica: permite generar imágenes de **cualquier persona etiquetada con @**, incluso si no se la conoce. Wolfe demostró cómo creó imágenes de Joe Rogan comiendo un taco sobre un delfín y de Mr. Beast haciendo el pino sobre un montón de pepinillos, sin necesidad de permiso de los involucrados.
+
+- Se puede desactivar desde los ajustes de la aplicación móvil, aunque Wolfe señala que no todos los usuarios tienen disponible esa opción aún.
+- Wolfe recomienda desactivarlo si no se desea que otros generen imágenes de uno mismo.
+
+#### Actualizaciones de Claude y Anthropic
+
+Anthropic realizó varios movimientos estratégicos coincidiendo con el lanzamiento de GPT-5.6:
+
+- **Extensión de Fable 5**: el acceso gratuito se extendió del 7 al **12 de julio**. Wolfe señaló la ironía de que muchos usuarios ya habían agotado sus límites semanales para el 7 de julio, y justo el 9 de julio (día del lanzamiento de GPT-5.6), Anthropic **reseteó los límites semanales** para todos.
+- **Claude Cowork en móvil y web**: hasta ahora Cowork vivía solo en el ordenador portátil y el trabajo se detenía al cerrar la tapa. Ahora el trabajo continúa en la nube, permitiendo iniciar una tarea en el escritorio, verificarla desde el móvil y recoger el resultado en cualquier lugar.
+- **Reflect**: una función estilo "Spotify Wrapped" para Claude que muestra el día más activo, el pico de uso, el número de conversaciones con gráficos, y detalles sobre en qué se ha empleado más tiempo.
+- **J-Space**: Anthropic publicó una investigación sobre el espacio interno de pensamiento de Claude (ver resumen del vídeo de Matthew Berman del 8 de julio para más detalles).
+
+#### Otras novedades: Google Photos y Seedream 5.0 Pro
+
+Google lanzó **Video Remix** en Google Photos, que usa Gemini Omni para añadir estilización y recuerdos imaginativos a los vídeos. Disponible en los planes Google AI Plus, Pro y Ultra.
+
+ByteDance presentó **Seedream 5.0 Pro**, un modelo de imagen con capacidades destacadas:
+
+- **Infografías**: maneja grandes cantidades de información visual densa con imágenes incrustadas.
+- **Edición interactiva**: permite rodear elementos, dibujar líneas y decirle qué hacer.
+- **Capas al estilo Photoshop**: los elementos de una composición se pueden reorganizar como capas independientes.
+- **Fotorrealismo**: alta calidad en imágenes realistas.
+
+Wolfe lo probó en Leonardo.ai, pidiéndole una infografía que explicara el J-Space de Anthropic. El resultado fue visualmente atractivo aunque Wolfe dudó de su precisión conceptual.
+
+#### Reflexión final / Comparativa GPT-5.6 vs Fable
+
+Wolfe dedica los últimos minutos a una comparación práctica entre los dos modelos frontier de la semana:
+
+- **Fable** es "un poco más inteligente" en decisiones arquitectónicas y en encontrar la mejor ruta del punto A al punto B. Wolfe lo describe como un **Ferrari sin ajustar** —potencial bruto para problemas complejos.
+- **GPT-5.6** es mejor para "volcar mucha información y decir 've y hazlo'" y al volver encontrar el trabajo prácticamente terminado. Wolfe lo describe como su **conductor diario** (daily driver).
+- Ambos son complementarios: Wolfe construyó la mayor parte del nuevo sitio de Future Tools con Fable, y luego le pasó todo a GPT-5.6, que **encontró vulnerabilidades de seguridad** que Fable había pasado por alto (como exposición accidental de API keys).
+
+La conclusión: GPT-5.6 Soul y Luna serán los modelos principales de Wolfe, con Fable como "potencia extra de pensamiento" para problemas realmente difíciles. Wolfe califica la combinación de ambos como "lo más divertido que ha tenido en el último año y medio" y recuerda que "esto es lo peor que va a ser nunca" —implicando que la mejora continuará acelerándose.
+
+---
+
+### 🔗 Referencias
+
+- 📄 GPT-5.6 (OpenAI): https://openai.com/index/gpt-5-6/
+- 📄 ChatGPT Work: https://openai.com/index/chatgpt-for-your-most-ambitious-work/
+- 📄 GPT-Live: https://openai.com/index/introducing-gpt-live/
+- 🏢 HyperAgent Marketplace: https://hyperagent.com/marketplace/s/ccs01KWW9863B_K2WF34HK4MHCBT5N
+- 📄 Grok 4.5 (xAI): https://x.ai/news/grok-4-5
+- 📄 Muse Spark 1.1 (Meta): https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
+- 📄 Muse Image (Meta): https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/
+- 🔗 Fable 5 Access Extended: https://x.com/claudeai/status/2074548242386178258
+- 🔗 Claude Rate Limits Reset: https://x.com/ClaudeDevs/status/2075279141352706215
+- 📄 Claude Cowork Web & Mobile: https://claude.com/blog/cowork-web-mobile
+- 📄 Reflect With Claude: https://www.anthropic.com/news/reflect-with-claude
+- 📄 J-Space Research: https://www.anthropic.com/research/global-workspace
+- 📄 Google Photos Video Remix: https://blog.google/products-and-platforms/products/photos/video-remix/
+- 📄 Seedream 5.0 Pro: https://seed.bytedance.com/en/seedream5_0_pro
+- 🔗 SolBonk Game: https://solbonk-sunpit.mreflow.chatgpt.site/
+- 🌐 Future Tools: https://futuretools.io/
+
 ## [Matt Wolfe] Anyone Can Make Insane Visual Effects Now!
 **Fecha:** 2026-07-08
 **URL:** https://www.youtube.com/watch?v=Zq5Yj8yCiqY
@@ -312,3 +456,4 @@ Wolfe cierra reconociendo que, aunque fue una semana con pocas noticias, las que
 - 📄 The Atlantic AI Watchdog: https://www.theatlantic.com/category/ai-watchdog
 - 📄 GPT 5.6 staggered release (The Information)
 - 🏢 Krea AI open weights: https://krea.ai
+
