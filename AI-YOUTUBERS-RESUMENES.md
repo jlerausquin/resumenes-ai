@@ -5,24 +5,88 @@
 **Video ID:** etduwo9Lu3M
 
 ### 📝 Resumen
-**🎬 Título:** Master AI Coding with these 9 tips
-**📊 Duración del transcript:** 2920 palabras
 
-### 📋 Introducción
-There are so many unknown tips and tricks to get the most out of Codex and even advanced users often times don't know all of them. That's what this video is about. I put together everything I have learned about Codex after using it for over a thousand hours and it doesn't matter if you're a beginner or you're very experienced, you will get something out of this video. And I talk a lot about how to get the most out of artificial intelligence on this channel and if you appreciate that, please drop a like, hit the subscribe button. It does help the channel. Thank you in advance. Now that GPT-5.6 is out, you have so many different options to choose from even just within the 5.6 family. Whether you're choosing Soul, Terra or Luna or the five levels of thinking effort or fast versus regular. And so knowing when to use which model, which thinking effort is an entire skill in itself. Now, I don't want to get too technical here, but I did want to show this graph really quick just to show you the differences between Soul, Terra and Luna, which are the three sizes of...
+Matthew Berman compila los **9 consejos esenciales** para dominar Codex con GPT-5.6, basados en más de 1.000 horas de uso. El vídeo cubre desde la selección óptima de modelos hasta seguridad avanzada con hooks, pasando por el uso de hilos paralelos, skills, plugins, bucles autónomos (goals) y control remoto desde el móvil. Está dirigido tanto a principiantes como a usuarios avanzados, y cada consejo incluye demostraciones prácticas sobre cómo implementarlo.
 
+#### 1. Selección de modelos: Soul para lo difícil, Luna para todo lo demás
+
+Con la llegada de GPT-5.6, los usuarios tienen tres tamaños de modelo (Soul, Terra y Luna) y cinco niveles de esfuerzo de pensamiento. Berman presenta un gráfico de coste vs. rendimiento que revela un hallazgo contraintuitivo: **Terra rinde menos que Luna Max** a pesar de ser más caro. La recomendación práctica es simple:
+
+- **Soul** con esfuerzo "High" para los problemas más complejos.
+- **Luna** con esfuerzo "Extra High" para todo lo demás.
+- Evitar el modo "Fast": cuesta 2,5 veces más por solo 1,5 veces de velocidad.
+- Berman nunca usa Soul Light, y apenas baja de High.
+
+#### 2. Hilos (threads) y delegación entre modelos
+
+Cada hilo en Codex puede **ver el contenido de los demás hilos**, lo que permite estrategias de delegación avanzadas:
+
+- Crear un hilo nuevo desde un hilo existente usando un modelo y presupuesto de pensamiento diferente.
+- Asignar tareas específicas (ej. despliegue) a Luna Max mientras el hilo principal en Soul gestiona la lógica compleja.
+- **Hilo supervisor**: un hilo maestro que monitoriza otros hilos en paralelo, detecta si alguno se detiene y lo reanuda automáticamente.
+
+#### 3. Revisión del archivo agents.md
+
+Cada nuevo modelo de Codex puede requerir **reglas diferentes** en el archivo `agents.md`. Berman recomienda revisarlo periódicamente: las reglas que funcionaban con versiones anteriores pueden estar obsoletas, ocupando espacio valioso en el contexto de todos los agentes. Un simple prompt ("revisa agents.md para reglas obsoletas") permite limpiar y optimizar este archivo.
+
+#### 4. Plugins: integración con 9.000+ aplicaciones via Zapier MCP
+
+El plugin de **Zapier** (patrocinador del vídeo) da acceso a más de 9.000 aplicaciones directamente desde Codex: Gmail, Trello, Asana, Google Docs y prácticamente cualquier servicio con integración Zapier. La configuración es sencilla: desde Settings > Integrations > Plugins > MCPs, se activa el Zapier MCP y Codex obtiene acceso completo a todo el ecosistema de automatización de Zapier.
+
+#### 5. Uso del navegador integrado de Codex
+
+El navegador de Codex es, según Berman, una de las funcionalidades más infravaloradas. Permite **importar cookies y contraseñas** del navegador principal con un solo clic. Los casos de uso incluyen:
+
+- Gestión de cambios complejos de DNS en múltiples proveedores (Vercel, DigitalOcean, GoDaddy).
+- Escalado automático de instancias de Supabase.
+- Organización de archivos y carpetas con comandos simples.
+- Berman predice que el navegador de Codex será su navegador principal para finales de año.
+
+#### 6. Skills: el poder de las habilidades compartidas
+
+Los skills permiten añadir funcionalidades específicas a Codex. Berman recomienda especialmente el skill de **Matt Pocock** para desarrollo de software, que contiene decenas de habilidades útiles. Instalarlo es tan simple como copiar una URL y ejecutar "install this skill" en Codex.
+
+#### 7. Bucles autónomos (Goals) y la Loop Library
+
+Los **loops** (llamados "goals" en Codex) permiten que el agente trabaje hacia un objetivo durante horas o incluso días sin supervisión. Berman demuestra con un ejemplo real:
+
+- Prompt: `/goal Run our benchmark. When done, examine ways Astro failed and fix them. Continue until score reaches 90% or above.`
+- El bucle ejecuta el benchmark, analiza fallos, aplica correcciones y vuelve a ejecutar, iterando hasta 12 horas seguidas.
+- **Loop Library**: repositorio de loops probados de Berman, Jason de OpenAI y Peter Steinberger de OpenAI.
+- **Loopy**: skill para Codex que ayuda a crear, encontrar y gestionar loops basados en el código del usuario.
+
+#### 8. Control remoto: Codex desde el móvil
+
+Codex permite **controlar el escritorio desde cualquier lugar** mediante el móvil. La configuración es simple:
+
+1. En Codex desktop: Settings > Connections > "Control this Mac" > generar QR.
+2. Escanear el QR desde la app móvil de Codex.
+3. Una vez conectado, la vista remota muestra en vivo el escritorio y permite ejecutar comandos y monitorear agentes desde cualquier lugar.
+
+#### 9. Seguridad con hooks y control de acceso
+
+Tras el incidente de Matt Schumer (cuyo GPT-5.6 Soul eliminó casi todos los archivos de su Mac), Berman dedica una sección completa a la seguridad:
+
+- **Pre-tool use hooks**: filtros que se ejecutan antes de que Codex ejecute cualquier comando, bloqueando operaciones peligrosas como `rm -rf /`, eliminación del directorio home, etc.
+- El prompt de hooks está disponible en un **GitHub Gist** en la descripción del vídeo.
+- **Control de acceso**: en lugar de usar "Full Access" (riesgoso), Berman recomienda "Approve for me", donde un modelo intermedio decide qué comandos necesitan aprobación humana según su nivel de riesgo.
+
+#### Reflexión final / Conclusiones
+
+Berman concluye que Codex con GPT-5.6 es una herramienta extraordinariamente potente, pero su verdadero potencial solo se alcanza combinando correctamente todas estas técnicas: selección inteligente de modelos, delegación entre hilos, bucles autónomos, skills especializados y una configuración de seguridad adecuada. El mensaje central es que **la mayoría de los usuarios avanzados ni siquiera conocen todas estas capacidades**, y que dedicar tiempo a aprenderlas multiplica la productividad. El vídeo cierra con un enlace a su vídeo anterior sobre "vibe coding" para quienes quieran profundizar.
 
 ---
-*Este resumen fue generado automáticamente.*
 
 ### 🔗 Referencias
-- 💻 Repositorio: https://github.com/Forward-Future/loopy
-- 🔗 Artículo: https://bit.ly/3SX5zn7
-- 🔗 Artículo: https://forwardfuture.com
-- 🔗 Artículo: https://signals.forwardfuture.com/loop-library/
-- 🔗 Artículo: https://discord.gg/evGThyRv
-- 🔗 Artículo: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8
-- 🔗 Artículo: https://bit.ly/44TC45V
+
+- 💻 Loopy (GitHub): https://github.com/Forward-Future/loopy/tree/main
+- 🔗 Loop Library: https://signals.forwardfuture.com/loop-library/
+- 📄 Hook Prompt (GitHub Gist): https://gist.github.com/mberman84/b4e22cb3ac7782a1c43d5324a0413505
+- 🏢 Zapier MCP: https://bit.ly/3SX5zn7
+- 🌐 Newsletter Forward Future: https://forwardfuture.com
+- 🏢 Discord: https://discord.gg/evGThyRv
+- 🎙️ Podcast Spotify: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8
+- 📧 Media/Sponsorships: https://bit.ly/44TC45V
 
 
 
