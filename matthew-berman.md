@@ -1,4 +1,29 @@
 # 📹 Resúmenes — Matthew Berman
+## [Matthew Berman] Master AI Coding with these 9 tips
+**Fecha:** 2026-07-15
+**URL:** https://www.youtube.com/watch?v=etduwo9Lu3M
+**Video ID:** etduwo9Lu3M
+
+### 📝 Resumen
+**🎬 Título:** Master AI Coding with these 9 tips
+**📊 Duración del transcript:** 2920 palabras
+
+### 📋 Introducción
+There are so many unknown tips and tricks to get the most out of Codex and even advanced users often times don't know all of them. That's what this video is about. I put together everything I have learned about Codex after using it for over a thousand hours and it doesn't matter if you're a beginner or you're very experienced, you will get something out of this video. And I talk a lot about how to get the most out of artificial intelligence on this channel and if you appreciate that, please drop a like, hit the subscribe button. It does help the channel. Thank you in advance. Now that GPT-5.6 is out, you have so many different options to choose from even just within the 5.6 family. Whether you're choosing Soul, Terra or Luna or the five levels of thinking effort or fast versus regular. And so knowing when to use which model, which thinking effort is an entire skill in itself. Now, I don't want to get too technical here, but I did want to show this graph really quick just to show you the differences between Soul, Terra and Luna, which are the three sizes of...
+
+
+---
+*Este resumen fue generado automáticamente.*
+
+### 🔗 Referencias
+- 💻 Repositorio: https://github.com/Forward-Future/loopy
+- 🔗 Artículo: https://bit.ly/3SX5zn7
+- 🔗 Artículo: https://forwardfuture.com
+- 🔗 Artículo: https://signals.forwardfuture.com/loop-library/
+- 🔗 Artículo: https://discord.gg/evGThyRv
+- 🔗 Artículo: https://open.spotify.com/show/6dBxDwxtHl1hpqHhfoXmy8
+- 🔗 Artículo: https://bit.ly/44TC45V
+
 
 ---
 
