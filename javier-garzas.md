@@ -2,6 +2,78 @@
 
 ---
 
+## [Javier Garzás] Deja de usar ChatGPT o Claude y dirige agentes que trabajen mientras duermes
+**Fecha:** 2026-07-15
+**URL:** https://www.youtube.com/watch?v=YMbLelcaqHI
+**Video ID:** YMbLelcaqHI
+
+### 📝 Resumen
+
+Javier Garzás, con más de 20 años en liderazgo de equipos de software, explica cómo la mayoría de los usuarios paga suscripciones de IA pero sigue usando únicamente el modo chat tradicional (reactivo), desaprovechando la capacidad de agentes autónomos que pueden trabajar mientras ellos descansan. El vídeo presenta una demo real en Claude (Anthropic) de un agente que prepara el daily de cada madrugada —el "233 Daily"— y muestra los 3 pasos esenciales para que cualquier persona sin conocimientos técnicos pueda montar su propio equipo de agentes.
+
+#### Chat reactivo vs. modo agente proactivo
+
+Garzás distingue dos formas de usar la IA que marcan una diferencia radical en productividad:
+
+- **Modo chat tradicional (reactivo)**: el usuario pregunta, la IA responde, y se genera un "pimponeo" constante de ida y vuelta. Es el uso más común pero el menos eficiente.
+- **Modo agente (proactivo)**: se le da un objetivo al agente y este se busca la vida para resolverlo de forma autónoma, tomando decisiones sin supervisión constante.
+
+El autor insiste en que la suscripción que la mayoría ya paga incluye el modo agente, pero casi nadie lo activa.
+
+#### Paso 1: Empaquetar — escribir la receta una vez
+
+El primer paso consiste en crear una **rutina** en Claude (sección Code → Rutinas). Se redacta una instrucción clara en lenguaje natural ("en cristiano") que define qué debe hacer el agente, con qué criterios y qué formato de salida debe generar. Esta "receta" se escribe una sola vez y el agente la ejecuta automáticamente en cada ciclo.
+
+- La rutina incluye: objetivo, instrucciones detalladas, formato de salida esperado.
+- Se puede programar la ejecución (diaria, semanal, laborables, etc.).
+- Claude sugiere ejemplos predefinidos (resumir PRs, clasificar issues, redactar notas de versión).
+
+#### Paso 2: Encargárselo — darle las manos con conectores MCP
+
+El agente necesita acceso a las herramientas para poder trabajar. Garzás denomina "darle las manos" al proceso de conectar el agente con los servicios que necesita mediante **conectores MCP** (Model Context Protocol):
+
+- **Google Drive**: para documentos, hojas de cálculo y referencias.
+- **Gmail**: para detectar correos importantes o alertas.
+- **Google Calendar**: para revisar eventos del día siguiente.
+- **Notion**: donde reside el tablero Kanban del equipo.
+
+También se pueden usar APIs, webhooks o conectores locales. La clave es que el agente pueda leer y escribir en las mismas herramientas que usa el equipo humano.
+
+#### Paso 3: Ponerle despertador — ejecución programada
+
+El tercer paso es la programación temporal. Garzás recomienda lanzar los agentes a las **3 de la madrugada**, cuando hay menos tráfico y consumo de tokens. Así, cuando el equipo llega por la mañana (6:30), todo el trabajo burocrático ya está hecho:
+
+- El backlog está priorizado.
+- Las alertas de posibles fallos están preparadas.
+- Los correos importantes, la agenda y las prioridades están resumidos en una página de Notion y un borrador de Gmail.
+
+#### El agente vigía: alertas y sospechas
+
+Más allá del daily, Garzás muestra un segundo agente llamado **"Alertas y sospechas"** que se ejecuta periódicamente (los lunes a las 3 AM). Su función es detectar comportamientos anómalos cruzando datos de múltiples fuentes vía MCP. Si encuentra algo que no cuadra, genera un aviso por Gmail o un popup. Esto evita que el equipo tenga que acordarse de revisar manualmente ciertos indicadores.
+
+#### Equivalente en ChatGPT: tareas programadas
+
+Para quienes usan ChatGPT en lugar de Claude, Garzás muestra las **"Tareas programadas"** como equivalente funcional. Aunque considera que el entorno de Anthropic es actualmente más potente para agentes, ChatGPT permite configurar tareas diarias con conectores similares, frecuencia de ejecución y personalización.
+
+- **Claude** → Rutinas
+- **ChatGPT** → Tareas programadas
+- **Gemini** → Acciones programadas
+
+#### Reflexión final / Conclusiones
+
+Garzás lanza una pregunta provocadora: "¿Trabaja la IA por ti mientras duermes, paseas al perro o ves el fútbol?" Si la respuesta es no, se está desaprovechando un potencial enorme. Montar un agente básico no requiere conocimientos técnicos y puede hacerse en minutos. La verdadera ventaja competitiva hoy no es tener la mejor suscripción, sino saber orquestar agentes que trabajen de forma autónoma mientras el humano se centra en tareas de mayor valor.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Rutinas de Claude (Anthropic): https://claude.ai (sección Code → Rutinas)
+- 🔗 Tareas programadas de ChatGPT: https://chatgpt.com (sección Programadas)
+- 🔗 Vídeo recomendado — IA-Skills: https://youtu.be/v95f4EL8_nQ
+- 🔗 Grupo de WhatsApp gratuito de Javier Garzás: enlace en la descripción del vídeo
+
+---
+
 ## [Javier Garzás] ¿Llevan razón los negacionistas del vibe coding?
 **Fecha:** 2026-07-08
 **URL:** https://www.youtube.com/watch?v=bDBse242_EI

@@ -2,6 +2,92 @@
 
 ---
 
+## [Matt Wolfe] Complete Guide to ChatGPT 5.6 + Prompting Guide
+**Fecha:** 2026-07-15
+**URL:** https://www.youtube.com/watch?v=MDy_b9F7oUc
+**Video ID:** MDy_b9F7oUc
+
+### 📝 Resumen
+
+Matt Wolfe presenta la guía más completa de la nueva aplicación de ChatGPT 5.6, que unifica ChatGPT, Codex, el navegador y ChatGPT Work en una sola plataforma. Wolfe, que ha consumido **6.800 millones de tokens** en Codex durante las últimas dos semanas, recorre todas las funcionalidades, comparte los prompts que usa a diario y muestra las creaciones más impresionantes de la comunidad. El vídeo está patrocinado por OpenAI, pero Wolfe afirma que todas las opiniones son genuinas.
+
+#### Recorrido por la nueva app de ChatGPT 5.6
+
+La nueva aplicación fusiona cuatro herramientas que antes estaban separadas:
+
+- **ChatGPT**: el chatbot conversacional clásico.
+- **Codex**: el entorno de desarrollo para programar con IA.
+- **Browser**: un navegador integrado con capacidad de anotación.
+- **ChatGPT Work**: el modo asistente personal que puede ejecutar tareas autónomas.
+
+Además, incluye la funcionalidad **Sites**, que permite publicar webs, apps o juegos directamente sin necesidad de hosting externo. Wolfe lo describe como "no necesitar un millón de herramientas distintas para publicar algo online".
+
+#### Navegador integrado con anotaciones
+
+El navegador incorporado permite importar cookies y contraseñas desde Chrome, de modo que la IA puede iniciar sesión en sitios web por cuenta del usuario. La función estrella es **Annotate**: permite seleccionar una sección de cualquier página web y dar instrucciones sobre ella, y la IA entiende exactamente a qué parte del código o contenido se refiere.
+
+#### Tareas programadas y Side Chat
+
+- **Tareas programadas**: se pueden crear prompts que se ejecuten automáticamente cada hora, día o semana. Ejemplos: limpiar la carpeta de descargas, crear briefings diarios, revisiones semanales o monitoreo de correos para seguimiento.
+- **Side Chat**: un chat lateral que puede usarse mientras Codex está trabajando en otra tarea, permitiendo multitarea real.
+
+#### Asistente personal con acceso total
+
+Wolfe creó un **proyecto de asistente personal** que es su herramienta más usada. La configuración incluye:
+
+- **Skill de contexto total**: el asistente tiene acceso a Gmail, Calendar, Slack, Google Drive, Granola, journals, proyectos previos, memos, Future Tools, Twitter e Instagram vía navegador, YouTube, etc. Todo en modo solo lectura.
+- **Perfil de voz**: el asistente analizó 12 meses de correos y mensajes de Slack enviados por Wolfe para aprender su estilo de escritura y redactar borradores que suenen como él.
+- **"What do I need to hear right now?"**: un prompt que, al tener acceso a todo el ecosistema del usuario, ofrece consejos personalizados sobre qué debería priorizar.
+
+#### Demos prácticas de ChatGPT Work
+
+Wolfe muestra múltiples casos de uso reales del modo Work:
+
+- **Book one-pager**: el asistente leyó conversaciones previas sobre un libro y generó una ficha resumen de una página.
+- **Slide deck automático**: con un outline y un brief, la IA generó una presentación completa con capturas de pantalla reales.
+- **Preparación para ponencias**: para un panel en OpenSauce, la IA creó un documento de 32 páginas con anécdotas y puntos de conversación basados en la experiencia previa de Wolfe.
+- **Cold leads y drafts de email**: la IA investigó 20 empresas locales en San Diego, escribió emails personalizados para cada una y los guardó como borradores en Gmail.
+- **Limpiar descargas**: organizó 65 archivos en las carpetas existentes en 1 minuto y 23 segundos.
+- **Renombrar thumbnails**: analizó 21 imágenes y las renombró según su contenido visual y texto en 1 minuto y 19 segundos.
+
+#### Codex con GPT-5.6: proyectos destacados
+
+Wolfe muestra lo que la comunidad y él mismo han construido con Codex y los modelos 5.6 (Soul Ultra, Terra, Luna):
+
+- **Corner Post**: una recreación mejorada de Craigslist con diseño moderno, publicada en Sites.
+- **Echo Garden**: un juego de puzles original donde el jugador genera clones que deben colaborar para resolver niveles. Con 6 niveles construidos.
+- **Vídeo completo generado por IA**: Nate Herk creó un vídeo con avatar parlante, guion, gráficos y edición todo desde un solo prompt, usando GPT-5.6 + HeyGen + Hyperframes.
+- **Control de Blender con IA**: GPT-5.6 Soul Ultra usó el modo Computer Use Agent (CUA) para manejar Blender directamente y modelar un cañón 3D, sin necesidad de MCP.
+- **Game Boy Emulator de Nueva York**: stream de datos en tiempo real (subway, clima, vuelos) sobre un mapa 3D de Manhattan.
+- **Voxel-based Manhattan**: Matt Schumer construyó un Manhattan en voxels que funcionó autónomamente durante una semana.
+
+#### Wolf Control Tower y BuseyBench
+
+- **Wolf Control Tower**: el panel de control personal de Wolfe para su negocio. Monitorea en tiempo real noticias de 30+ laboratorios de IA (Anthropic, OpenAI, Google, DeepSeek, etc.), controla menciones de marca, audiencia en redes sociales, tráfico web y estadísticas de crecimiento semanal.
+- **BuseyBench (BuseyBench)**: un benchmark que evalúa la capacidad de los modelos de IA para generar SVGs de Gary Busey. Usa un sistema de votación entre LLMs como juez. GPT-5.6 Terra y Soul ocupan los primeros puestos.
+
+#### Mini aplicaciones de un solo prompt
+
+Wolfe destaca que lo más emocionante de la IA actual es poder crear **herramientas a medida** para problemas específicos. Ejemplo: creó **Dock Toggle**, una miniaplicación que oculta/muestra el Dock de macOS al pulsar un botón del Stream Deck, ahorrándole segundos cada vez que graba vídeos.
+
+#### Reflexión final / Conclusiones
+
+Wolfe afirma que no había disfrutado tanto con la IA como en las últimas dos semanas desde que llegaron GPT-5.6 y la nueva app. La capacidad de construir cualquier cosa que se le ocurra —desde un juego original hasta un panel de control empresarial— con un solo prompt le parece "lo más emocionante ahora mismo". Anima a los usuarios a dejar de ser conservadores con los tokens y aprovechar las generosas cuotas y resets que OpenAI está ofreciendo mientras dura la competencia con Anthropic.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Descargar ChatGPT 5.6: https://chatgpt.com/download/
+- 🛠️ Future Tools: https://futuretools.io/
+- 📰 Newsletter semanal: https://futuretools.io/newsletter
+- 🏢 OpenAI (patrocinador): https://openai.com
+- 🔗 Vídeo de Nate Herk sobre vídeos generados por IA: enlace en descripción
+- 🏢 HeyGen: plataforma de avatares con IA
+- 🏢 Hyperframes: generación de visuales con IA
+
+---
+
 ## [Matt Wolfe] AI News: GPT-5.6 and the new Super App are a Massive Leap!
 **Fecha:** 2026-07-10
 **URL:** https://www.youtube.com/watch?v=EOCRtSnvNNE
@@ -456,4 +542,3 @@ Wolfe cierra reconociendo que, aunque fue una semana con pocas noticias, las que
 - 📄 The Atlantic AI Watchdog: https://www.theatlantic.com/category/ai-watchdog
 - 📄 GPT 5.6 staggered release (The Information)
 - 🏢 Krea AI open weights: https://krea.ai
-

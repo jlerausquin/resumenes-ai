@@ -1,4 +1,180 @@
 # 📹 Resúmenes Diarios — IA YouTubers
+
+---
+
+## [Javier Garzás] Deja de usar ChatGPT o Claude y dirige agentes que trabajen mientras duermes
+**Fecha:** 2026-07-15
+**URL:** https://www.youtube.com/watch?v=YMbLelcaqHI
+**Video ID:** YMbLelcaqHI
+
+### 📝 Resumen
+
+Javier Garzás, con más de 20 años en liderazgo de equipos de software, explica cómo la mayoría de los usuarios paga suscripciones de IA pero sigue usando únicamente el modo chat tradicional (reactivo), desaprovechando la capacidad de agentes autónomos que pueden trabajar mientras ellos descansan. El vídeo presenta una demo real en Claude (Anthropic) de un agente que prepara el daily de cada madrugada —el "233 Daily"— y muestra los 3 pasos esenciales para que cualquier persona sin conocimientos técnicos pueda montar su propio equipo de agentes.
+
+#### Chat reactivo vs. modo agente proactivo
+
+Garzás distingue dos formas de usar la IA que marcan una diferencia radical en productividad:
+
+- **Modo chat tradicional (reactivo)**: el usuario pregunta, la IA responde, y se genera un "pimponeo" constante de ida y vuelta. Es el uso más común pero el menos eficiente.
+- **Modo agente (proactivo)**: se le da un objetivo al agente y este se busca la vida para resolverlo de forma autónoma, tomando decisiones sin supervisión constante.
+
+#### Paso 1: Empaquetar — escribir la receta una vez
+
+El primer paso consiste en crear una **rutina** en Claude (sección Code → Rutinas). Se redacta una instrucción clara en lenguaje natural ("en cristiano") que define qué debe hacer el agente, con qué criterios y qué formato de salida debe generar.
+
+#### Paso 2: Encargárselo — darle las manos con conectores MCP
+
+El agente necesita acceso a las herramientas para poder trabajar mediante **conectores MCP** (Model Context Protocol): Google Drive, Gmail, Google Calendar y Notion.
+
+#### Paso 3: Ponerle despertador — ejecución programada
+
+Garzás recomienda lanzar los agentes a las **3 de la madrugada**. Cuando el equipo llega por la mañana, el backlog está priorizado, las alertas preparadas y los correos importantes resumidos.
+
+#### Equivalente en ChatGPT: tareas programadas
+
+- **Claude** → Rutinas / **ChatGPT** → Tareas programadas / **Gemini** → Acciones programadas
+
+#### Reflexión final / Conclusiones
+
+Garzás lanza una pregunta provocadora: "¿Trabaja la IA por ti mientras duermes?" Montar un agente básico no requiere conocimientos técnicos y puede hacerse en minutos.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Rutinas de Claude: https://claude.ai (Code → Rutinas)
+- 🔗 Tareas programadas ChatGPT: https://chatgpt.com (Programadas)
+- 🔗 IA-Skills: https://youtu.be/v95f4EL8_nQ
+
+---
+
+## [Matt Wolfe] Complete Guide to ChatGPT 5.6 + Prompting Guide
+**Fecha:** 2026-07-15
+**URL:** https://www.youtube.com/watch?v=MDy_b9F7oUc
+**Video ID:** MDy_b9F7oUc
+
+### 📝 Resumen
+
+Matt Wolfe presenta la guía más completa de la nueva aplicación de ChatGPT 5.6, que unifica ChatGPT, Codex, el navegador y ChatGPT Work en una sola plataforma. Wolfe ha consumido **6.800 millones de tokens** en Codex durante las últimas dos semanas.
+
+#### Recorrido por la nueva app
+
+La nueva aplicación fusiona cuatro herramientas: ChatGPT, Codex, Browser (con anotación) y ChatGPT Work. Incluye **Sites** para publicar webs sin hosting externo, **Side Chat** para multitarea, y **tareas programadas** para automatización recurrente.
+
+#### Asistente personal con acceso total
+
+Wolfe creó un asistente con acceso a Gmail, Calendar, Slack, Google Drive, Granola, Twitter e Instagram. El asistente analizó 12 meses de correos para aprender su estilo de escritura.
+
+#### Demos prácticas
+
+- **Book one-pager**: resumen de un libro a partir de conversaciones previas.
+- **Slide deck automático**: presentación completa desde un outline.
+- **Cold leads**: 20 emails personalizados guardados como borradores en Gmail.
+- **Wolf Control Tower**: panel que monitorea 30+ fuentes de noticias de IA, menciones de marca y tráfico web.
+- **BuseyBench**: benchmark que evalúa SVGs de Gary Busey generados por IA.
+
+#### Proyectos con Codex
+
+- **Corner Post**: clon mejorado de Craigslist.
+- **Echo Garden**: juego de puzles original con clones.
+- **Control de Blender**: GPT-5.6 manejó Blender vía Computer Use Agent.
+
+#### Reflexión final
+
+Wolfe afirma que no había disfrutado tanto con la IA como en las últimas dos semanas. Anima a usar activamente las cuotas de OpenAI.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Descargar ChatGPT 5.6: https://chatgpt.com/download/
+- 🛠️ Future Tools: https://futuretools.io/
+- 🏢 OpenAI: https://openai.com
+
+---
+
+## [Matthew Berman] OpenAI vs Anthropic
+**Fecha:** 2026-07-15
+**URL:** https://www.youtube.com/watch?v=nxr20lcqagg
+**Video ID:** nxr20lcqagg
+
+### 📝 Resumen
+
+Matthew Berman analiza la rivalidad OpenAI vs Anthropic. Anthropic cometió un error hace 2 años al no invertir agresivamente en cómputo. Ahora OpenAI explota esa debilidad con resets de cuota frecuentes y mejor precio.
+
+#### Comparativa de modelos
+
+- **Fable 5**: puntuación 60 en inteligencia, $2.75 por tarea.
+- **GPT-5.6 Soul**: puntuación 59, poco más de $1 por tarea —3 veces más barato.
+
+#### La guerra de cuotas
+
+OpenAI resetea cuotas constantemente (94% de probabilidad en 48h según willcodexquotareset.com). Anthropic rara vez las resetea y ha estado a punto de retirar Fable 5 de la suscripción estándar.
+
+#### Recursive Self-Improvement
+
+Fable 5 tiene más potencial de mejora por ser un modelo más grande y nuevo. Si logra mejorarse a sí mismo (RSI), la brecha podría ampliarse.
+
+#### Recomendación
+
+Berman recomienda la suscripción de OpenAI por mejor relación calidad-precio, pero no descarta a Anthropic por su potencial de RSI.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Will Codex Reset?: https://www.willcodexquotareset.com/
+- 🏢 Artificial Analysis: https://artificialanalysis.ai/
+- 🌐 Newsletter Forward Future: https://forwardfuture.com
+
+---
+
+## [Matthew Berman] AI NEWS LIVE
+**Fecha:** 2026-07-15
+**URL:** https://www.youtube.com/watch?v=5HTqWgt6ctk
+**Video ID:** 5HTqWgt6ctk
+
+### 📝 Resumen
+
+Livestream del equipo Forward Future cubriendo el hardware Codex Creator Micro de OpenAI, el modelo Inkling de Thinking Machines, y el paper de alineación de Anthropic sobre agentes autónomos.
+
+#### Temas clave
+
+- **Codex Creator Micro**: teclado especializado para Codex ($250) con botón de voz, perilla física para ajustar esfuerzo de pensamiento, y botones LED para hilos.
+- **Inkling (Thinking Machines)**: modelo open weights multimodal de Miriam Muratti, disponible para probar inmediatamente.
+- **Paper de Anthropic**: 4 nuevos escenarios de fallos de alineación en agentes autónomos.
+
+---
+
+### 🔗 Referencias
+
+- 🔗 Thinking Machines: https://thinkingmachines.ai
+- 📄 Anthropic Alignment: https://www.anthropic.com/research/alignment-failures-autonomous-agents
+
+---
+
+## [Matthew Berman] AI NEWS LIVE
+**Fecha:** 2026-07-15
+**URL:** https://www.youtube.com/watch?v=WMiylHobhBM
+**Video ID:** WMiylHobhBM
+
+### 📝 Resumen
+
+Segundo livestream del día discutiendo el hardware de OpenAI, Inkling de Thinking Machines y comparativas de modelos GPT-5.6 vs Fable.
+
+#### Temas principales
+
+- **Codex Creator Micro**: análisis extendido y debate sobre utilidad real.
+- **Inkling**: comparación con modelos chinos (Kimi K3).
+- **Perplexity**: destacado como "underdog perpetuo" con mejoras constantes.
+- **Model routing**: Berman usa Soul para tareas complejas y compara múltiples modelos.
+
+---
+
+### 🔗 Referencias
+
+- 🏢 Thinking Machines: https://thinkingmachines.ai
+- 🌐 Forward Future: https://forwardfuture.com
 ## [Matthew Berman] Master AI Coding with these 9 tips
 **Fecha:** 2026-07-15
 **URL:** https://www.youtube.com/watch?v=etduwo9Lu3M
