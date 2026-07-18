@@ -2,6 +2,137 @@
 
 ---
 
+## [Matt Wolfe] AI News: Claude's New Browser, Spotify Gets AI & OpenAI's New Hardware
+**Fecha:** 2026-07-17
+**URL:** https://www.youtube.com/watch?v=ss2LaCKUQmU
+**Video ID:** ss2LaCKUQmU
+
+### 📝 Resumen
+
+Matt Wolfe presenta el resumen semanal de noticias de IA del 17 de julio de 2026, grabado desde San Francisco durante el evento Open Sauce. La semana trajo novedades significativas de Anthropic (navegador integrado en Claude Code), Spotify (asistente de voz con IA conversacional), Google (apps conectadas a búsqueda y avatares en Vids), nuevas aperturas de modelos como Kimi K3 e Inkling, y los primeros rumores sobre hardware propio de OpenAI. Wolfe describe la semana como "tranquila en comparación con la anterior", pero subraya que en IA nunca hay semanas aburridas.
+
+#### Claude Code incorpora un navegador integrado
+
+Anthropic respondió rápidamente al lanzamiento de la nueva app de ChatGPT añadiendo un navegador web integrado dentro de Claude Code en escritorio. Para activarlo, basta con pulsar **Cmd+Shift+B** o hacer clic en el icono del navegador en la esquina superior derecha del panel de Claude Code. El navegador se abre en el lado derecho de la ventana y permite:
+
+- **Anotación de elementos**: al seleccionar un elemento visual en la página web (un botón, un texto), el código correspondiente se resalta automáticamente en el editor de la izquierda, permitiendo modificaciones directas como cambiar textos o estilos.
+- **Navegación autónoma**: el agente puede explorar sitios web como X (Twitter) o Instagram para extraer datos sin necesidad de APIs costosas. Wolfe destaca que usar la API de X para obtener datos resulta caro, pero con acceso a navegador el agente simplemente puede "hacer scroll" y encontrar la información.
+- **Edición visual**: combinando la anotación con comandos de voz o texto, se pueden hacer cambios en tiempo real sobre sitios web en desarrollo.
+
+Esta funcionalidad está disponible exclusivamente en el modo Claude Code (no en el chat normal) y alinea a Anthropic con la experiencia que OpenAI ya había lanzado en su nueva app unificada días antes.
+
+#### Google Search integra apps conectadas al modo IA
+
+Google desplegó una actualización en su **modo de búsqueda con IA** (AI mode) que permite conectar aplicaciones externas directamente desde los resultados de búsqueda. A diferencia de Gemini, que ya tenía un panel tradicional de conexión de apps, en el modo IA la conexión se activa contextualmente: el usuario lanza un prompt y, si existe una app relevante, el sistema la detecta y ofrece conectarla. Wolfe demuestra el caso de uso de crear una lista de la compra y conectarla a **Instacart** para añadir productos al carrito. Google Search está evolucionando hacia un agente de IA integrado que ejecuta acciones completas, no solo busca información.
+
+#### Google Vids incorpora Gemini Omni y avatares personalizados
+
+**Google Vids** —la plataforma de creación de vídeos tipo presentación de Google— recibió tres grandes mejoras:
+
+- **Gemini Omni integrado**: además de generar las diapositivas, el nuevo modelo anima automáticamente los elementos visuales de cada slide.
+- **Edición conversacional**: se puede hablar o escribir instrucciones para modificar el vídeo, y los cambios se aplican directamente.
+- **Avatares personalizados**: los usuarios pueden importar su propia imagen y la IA genera un avatar animado que aparece dentro del vídeo. Wolfe muestra el ejemplo de una tarjeta de felicitación de cumpleaños donde el avatar habla y se mueve.
+
+Aunque Wolfe opina que la IA aún no engaña a nadie haciéndole creer que es la persona real, valora la utilidad de la función como una extensión de lo que ya ofrecen Sora o Meta.
+
+#### Spotify lanza asistente de voz conversacional con IA
+
+Spotify habilitó un **asistente de IA conversacional** para usuarios Premium. Desde la vista de inicio o "Now Playing", se puede escribir o hablar directamente para:
+
+- Preguntar qué se escuchaba hace dos años y generar una playlist basada en ese historial.
+- Conocer el artista favorito de un año concreto y detalles sobre su estilo musical.
+- Explorar el historial de escucha y recibir recomendaciones.
+
+Wolfe probó la función en directo: pidió una playlist de lo que escuchaba hace dos años y el sistema accedió a su historial, identificó géneros dominantes (lo-fi beats) y generó una lista de reproducción coherente. También preguntó cuál fue su canción más escuchada de 2025 y el asistente respondió correctamente. Wolfe califica la función como "una buena idea para quienes no quieren decidir qué escuchar".
+
+#### Seedream 5.0 Pro: generación multimodal de imágenes con referencias
+
+ByteDance lanzó **Seedream 5.0 Pro**, su nuevo generador multimodal de imágenes, disponible en la plataforma **Artlist** (patrocinador del vídeo). Las capacidades destacadas incluyen:
+
+- Hasta **5 imágenes de referencia** para controlar personajes, productos, colores, composición y estilo.
+- **Razonamiento mejorado** para entender instrucciones complejas como crear infografías detalladas, maquetas UI o imágenes con texto legible.
+- **Control de resolución y aspecto** directamente desde Artlist, que ofrece acceso unificado a múltiples modelos sin cambiar de plataforma.
+
+#### Thinking Machines Labs lanza Inkling: primer modelo público
+
+**Thinking Machines Labs**, la startup fundada por **Mira Murati** (ex-CTO de OpenAI), liberó su primer modelo público: **Inkling**, un modelo de **952 mil millones de parámetros** con **2 TB de tamaño de archivo** y pesos abiertos. Aunque es descargable y fine-tuneable, Wolfe señala que no destaca frente a otros modelos abiertos:
+
+- En benchmarks de razonamiento y coding agéntico, **GLM 5.2** lo supera en prácticamente todas las categorías.
+- Es "un modelo decente para ser open-weight, pero no estado del arte".
+- Se puede probar gratuitamente en **Tinker**, una plataforma similar al playground de OpenAI.
+- El precio de API es competitivo, pero Wolfe sugiere que si igual va a usarse en la nube, es mejor optar por modelos más potentes.
+
+#### Bonsai 27B: modelo de 1-bit para teléfonos
+
+**Prism ML** lanzó **Bonsai 27B**, un modelo de **27 mil millones de parámetros comprimido a 1-bit** (aproximadamente 4 GB) diseñado para ejecutarse íntegramente en un teléfono móvil. Las características:
+
+- Ejecución local completa: "ningún dato sale del dispositivo".
+- **94 tokens por segundo** de velocidad en demostración, aunque Wolfe sospecha que la demo en Hugging Face no se ejecutaba realmente en local.
+- **No apto para programación**: Wolfe intentó que escribiera código y generara SVGs para BuseyBench, pero falló en ambos casos (20 minutos de procesamiento sin resultado).
+- Útil para respuestas rápidas y puzzles lógicos simples, pero no para tareas complejas.
+
+#### Kimi K3: el nuevo aspirante a mejor modelo open-weight
+
+**Moonshot AI** presentó **Kimi K3**, un modelo de **2,8 billones de parámetros** que, según Wolfe, será el modelo open-weight más capaz del mercado cuando liberen los pesos este mismo mes. Los benchmarks muestran resultados impresionantes:
+
+- En **Deep SWE Bench** (benchmark de ingeniería de software), Kimi K3 se sitúa justo detrás de **GPT-5.6 Soul** y **Fable 5**, superando a GPT-5.5, Opus 4.8 y GLM 5.2.
+- En **Terminal Bench**, supera directamente a **Fable 5**.
+- Es el **primer modelo abierto en alcanzar 2,8 billones de parámetros**, lo que implica que no se ejecutará en hardware de consumo, sino en GPUs en la nube.
+- Wolfe planea probarlo en BuseyBench la semana siguiente y promete un análisis más profundo.
+
+#### Noticias rápidas (Rapid Fire)
+
+Wolfe repasa múltiples novedades breves:
+
+- **Grok Build (xAI)**: el agente de codificación y terminal de xAI fue liberado como **código abierto** en GitHub, permitiendo forks y modificaciones.
+- **Grok Automations**: xAI añadió tareas programadas a Grok, con **disparadores diarios y por correo entrante**, similar a las "loops" de Claude y ChatGPT.
+- **ChatGPT mejora la búsqueda**: desde la barra lateral se pueden buscar chats, proyectos, imágenes y documentos con filtros avanzados.
+- **Claude + 1Password**: Claude puede usar las credenciales de 1Password para iniciar sesión automáticamente en sitios web. Las contraseñas no se envían a Anthropic ni se usan para entrenamiento.
+- **DoorDash CLI**: DoorDash lanzó una interfaz de línea de comandos que permite a cualquier agente de IA (OpenClaw, Hermes, Codex) pedir comida directamente.
+- **Meta revierte función**: Meta eliminó la posibilidad de etiquetar a cualquier persona en Instagram para generar imágenes con IA, tras una semana de reacción negativa de creadores y actores.
+- **Nuevo Siri con IA**: Apple comenzó a desplegar Siri con funciones de IA, incluyendo soporte en **Apple Watch**. Las primeras reseñas son positivas.
+- **Claude for Teachers**: Anthropic ofrece acceso gratuito a Claude Premium para educadores verificados de K-12 en EE.UU., con biblioteca de habilidades docentes.
+- **Gemini Notebook**: Google renombró Notebook LM como **Gemini Notebook**, manteniendo la misma funcionalidad.
+- **Google Images evoluciona**: el buscador de imágenes incorporará recomendaciones estilo Pinterest y generación de imágenes directamente desde google.com.
+- **OpenAI hardware**: lanzó el **Codex Creator Micro**, un teclado numérico diseñado para Codex, fabricado por Work Louder, a la venta por **230 dólares** en openai.com/supply. Wolfe encargó la versión "clicky" y promete reseña cuando llegue.
+- **Rumor: altavoz sin pantalla de OpenAI**: se rumorea que OpenAI desarrolla un dispositivo tipo smart speaker (similar a Amazon Alexa) sin pantalla, como asistente de compañía con control del hogar inteligente.
+- **Apple demanda a OpenAI**: Apple acusa a OpenAI de apropiarse de secretos comerciales y ejemplos de hardware de ex-empleados de Apple. OpenAI lo niega.
+- **Nueva York: moratoria de centros de datos**: el estado de Nueva York prohibió nuevos permisos ambientales para centros de datos de más de 50 MW durante un año, para regular su impacto energético y medioambiental.
+- **Sunrun: centros de datos distribuidos en hogares**: Sunrun lanzó un programa piloto que instala **minicomputadores de IA** en casas de clientes, conectados a paneles solares y baterías. Los participantes reciben compensación económica. Wolfe especula con la posibilidad de ejecutar modelos locales en estos dispositivos.
+- **Webinar gratuito**: Wolfe impartirá un taller gratuito con Teachable el **22 de julio** sobre cómo decidir qué automatizar con IA en la vida personal y laboral.
+
+#### Reflexión final / Conclusiones
+
+Wolfe cierra el vídeo señalando que, aunque esta semana fue más tranquila que la anterior, el ritmo de innovación en IA no se detiene. Destaca especialmente a **Kimi K3** como el avance más prometedor de la semana por su potencial para convertirse en el mejor modelo open-weight disponible, y anima a los espectadores a suscribirse al canal (cerca de 1 millón de suscriptores). Subraya la tendencia imparable de integrar **agentes autónomos con acceso a navegador** como la dirección dominante del sector.
+
+---
+
+### 🔗 Referencias
+
+- 💻 Repositorio: https://github.com (Grok Build open source)
+- 🔗 GPT-5.6: https://openai.com/index/gpt-5-6/
+- 🔗 ChatGPT Work: https://openai.com/index/chatgpt-for-your-most-ambitious-work/
+- 🔗 GPT-Live: https://openai.com/index/introducing-gpt-live/
+- 🔗 Grok 4.5: https://x.ai/news/grok-4-5
+- 🔗 Muse Spark 1.1: https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/
+- 🔗 Muse Image: https://about.fb.com/news/2026/07/introducing-muse-image-meta-ai/
+- 🔗 Claude Fable 5: https://x.com/claudeai/status/2074548242386178258
+- 🔗 Claude Cowork: https://claude.com/blog/cowork-web-mobile
+- 🔗 Reflect With Claude: https://www.anthropic.com/news/reflect-with-claude
+- 🔗 Global Workspace Research: https://www.anthropic.com/research/global-workspace
+- 🔗 Google Photos Video Remix: https://blog.google/products-and-platforms/products/photos/video-remix/
+- 🏢 Artlist (Seedream 5.0 Pro): https://artlist.io/
+- 🔗 Seedream 5.0 Pro: https://seed.bytedance.com/en/seedream5_0_pro
+- 🔗 Claude Code Browser: https://x.com/ClaudeDevs/status/2075635283211772279
+- 🔗 Google Search Connected Apps: https://blog.google/products-and-platforms/products/search/connected-apps
+- 🔗 Google Vids Gemini Omni: https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars
+- 🔗 OpenAI Hardware Store: https://openai.com/supply
+- 🛠️ Future Tools: https://futuretools.io/
+- 📰 Newsletter: https://futuretools.io/newsletter
+- 🏢 Teachable Webinar: https://www.teachable.com/events/deciding-what-to-automate-with-ai-in-your-personal-and-work-life
+
+---
+
 ## [Javier Garzás] Deja de usar ChatGPT o Claude y dirige agentes que trabajen mientras duermes
 **Fecha:** 2026-07-15
 **URL:** https://www.youtube.com/watch?v=YMbLelcaqHI
