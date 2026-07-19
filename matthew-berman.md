@@ -1,5 +1,45 @@
 # 📹 Resúmenes — Matthew Berman
 
+
+## [Matthew Berman] Did Kimi K3 really beat Fable?
+**Fecha:** 2026-07-19
+**URL:** https://www.youtube.com/watch?v=JrVPIy9AdfQ
+**Video ID:** JrVPIy9AdfQ
+
+### 📝 Resumen
+
+Matthew Berman analiza el lanzamiento de Kimi K3, el modelo de código abierto de Moonshot AI (China), que ha alcanzado el primer puesto en el benchmark de desarrollo front-end de Arena AI, superando a Fable 5 (Anthropic) y GPT-5.6 (OpenAI). Con 2,8 billones de parámetros, es el modelo open-source más grande jamás creado, con una ventana de contexto de 1 millón de tokens y capacidades destacadas en razonamiento, codificación de horizonte largo y trabajo con conocimiento. Berman contextualiza el hito dentro de la geopolítica de la IA, la guerra entre EEUU y China, y el verdadero estado de la frontera tecnológica.
+
+#### Kimi K3: rendimiento fronterizo en front-end y escritura
+
+Kimi K3 obtuvo un 76% en el benchmark de desarrollo front-end de Arena AI, frente al 63% de Fable 5 y porcentajes inferiores de GPT-5.6. También lidera el benchmark de agente web de Nex.js.org con un 92% de tasa de éxito, y Moonshot AI afirma que ha desplazado a Claude Fable 5 como número uno en escritura con su tono editorial (2840 ELO), siendo cinco veces más barato que el modelo que destronó. Berman muestra una demo donde Kimi K3 construye un mundo simulado en 3D con reflejos en tiempo real y ciclos de luz dinámicos, comparable a un videojuego estilo Red Dead Redemption.
+
+#### Coste vs. inteligencia: la paradoja del precio
+
+Aunque Kimi K3 cuesta la mitad que GPT-5.6 Soul en precio por token (3$/millón input, 15$/millón output), Berman señala que consume aproximadamente el doble de tokens para la misma tarea, resultando en un coste efectivo similar (unos 4,70$ por tarea en DeepSuite). La verdadera ventaja de Kimi K3 no es el precio absoluto, sino su disponibilidad como modelo abierto que cualquiera puede inspeccionar y replicar. Moonshot AI ha revelado todos sus descubrimientos algorítmicos, lo que permite a la comunidad global beneficiarse de sus avances.
+
+#### Geopolítica de la IA: China abre, EEUU regula
+
+Berman destaca la declaración de David Sacks (el "AI Zar" de EEUU), quien advierte que por primera vez un modelo chino ha alcanzado el número uno en un benchmark relevante. Mientras EEUU enfrenta un mosaico de regulaciones estatales que ralentizan a sus laboratorios fronterizos —Fable fue retirado temporalmente, GPT-5.6 se retrasó semanas—, China puede liberar modelos rápidamente sin las mismas restricciones. Sin embargo, Berman matiza que los laboratorios cerrados estadounidenses (OpenAI, Anthropic) probablemente tienen modelos 8-10 meses más avanzados internamente (GPT-6, Mythos), pero no los liberan por evaluaciones de seguridad y post-entrenamiento.
+
+#### Open-source como motor del ecosistema
+
+Berman argumenta que el open-source beneficia a toda la cadena de valor: los modelos mejoran y se abaratan (Ley de Jevons → más tokens consumidos), las aplicaciones se vuelven más potentes, los proveedores de inferencia ganan más, y Nvidia vende más chips. El único perdedor son los laboratorios cerrados que pierden su ventaja competitiva. Sin embargo, el riesgo real es que las empresas estadounidenses construyan su infraestructura sobre modelos chinos optimizados para chips chinos, creando dependencia tecnológica estratégica.
+
+#### Rendimiento real: lento pero capaz
+
+Como nota práctica, Berman ejecutó un experimento con el cubo de Rubik: Kimi K3 tardó unos 30 minutos en generar la simulación 3D, confirmando las críticas sobre su lentitud y alto consumo de tokens. El resultado final fue correcto —el cubo se resolvía visualmente con reflejos y animaciones—, pero la experiencia evidenció que no es un modelo para aplicaciones en tiempo real.
+
+### 🔗 Referencias
+- 📄 Paper/Docs: https://platform.kimi.ai/docs/guide/kimi-k3-quickstart
+- 📱 Red Social: https://x.com/arena/status/2077893862778183737
+- 📱 Red Social: https://x.com/Kimi_Moonshot/status/2077821890207547467
+- 🔗 Artículo/Web: https://deepswe.datacurve.ai/
+- 📱 Red Social: https://x.com/DavidSacks/status/2078092271296143593
+- 📱 Red Social: https://x.com/rauchg/status/2077900518404321759
+- 📱 Red Social: https://x.com/Whats_AI/status/2077860441380798908
+- 📱 Red Social: https://x.com/emollick/status/2078129219691798953
+- 📱 Red Social: https://x.com/chamath/status/2078075083914957254
 ---
 
 ## [Matthew Berman] OpenAI vs Anthropic

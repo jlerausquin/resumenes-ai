@@ -1,5 +1,39 @@
 # 📹 Resúmenes — Javier Garzás
 
+
+## [Javier Garzás] Si solo usas ChatGPT o Copilot, estás muy lejos de trabajar productivamente con IA
+**Fecha:** 2026-07-19
+**URL:** https://www.youtube.com/watch?v=Kdf7JZk8J0Q
+**Video ID:** Kdf7JZk8J0Q
+
+### 📝 Resumen
+
+Javier Garzás presenta una hoja de ruta práctica de cinco niveles de madurez en adopción de inteligencia artificial generativa, basada en su experiencia con proyectos profesionales reales. El vídeo parte de una constatación clave: la mayoría de usuarios y empresas creen que usar IA equivale a usar un chatbot, cuando en realidad existe un espectro mucho más amplio de capacidades que va desde el uso amateur hasta los agentes autónomos especializados. Garzás adapta el modelo de madurez de CoinTelligence (Molit) para crear una guía que permite a profesionales y equipos identificar en qué nivel se encuentran y cuál es el siguiente paso lógico en su evolución.
+
+#### Nivel 1: Uso básico y amateur — el chatbot aumentado
+
+El escalón más básico, donde se encuentra la gran mayoría de usuarios. Se caracteriza por el uso de la IA como un mero buscador mejorado: redactar correos, generar imágenes con herramientas como DALL-E o Midjourney, crear presentaciones con Gamma, o usar navegadores aumentados como Comet. En este nivel no hay integración profunda ni mejora real de procesos. Garzás advierte que quedarse aquí es el error más común, ya que se desaprovecha todo el potencial transformador de la tecnología.
+
+#### Nivel 2: Asistente profesional — prompt engineering y contexto
+
+Aquí la IA se utiliza como asistente profesional con técnicas avanzadas de prompting. Incluye la creación de bibliotecas de prompts como activos organizacionales, el uso de MCP (Model Context Protocol) para conectar chatbots con herramientas externas como CRMs o gestores documentales, y la ingeniería de contexto —dotar a los prompts de información específica de la organización. Garzás menciona los GPTs (ChatGPT), proyectos (Claude) y gemas (Gemini) como soluciones que permiten gestionar este contexto sin necesidad de conocimientos técnicos avanzados.
+
+#### Nivel 3: Automatización de procesos — vibe coding y RAG
+
+El salto cualitativo llega cuando el equipo es capaz de crear pequeñas aplicaciones operativas internas mediante técnicas de vibe coding (sin necesidad de conocimientos técnicos). Garzás menciona Antigravity como herramienta para generar miniapps que resuelven problemas del día a día —como la generación masiva de certificados— que antes se hacían manualmente o simplemente no se hacían. También incluye workflows automatizados con herramientas como n8n o Make, añadiendo nodos de IA en procesos de facturación, CRM o bases de datos. Se introduce el RAG (Retrieval-Augmented Generation) como evolución de la ingeniería de contexto para conectar la IA a documentos, PDFs y bases de datos dinámicas.
+
+#### Nivel 4: Mejora del ciclo de vida del producto
+
+En este nivel la IA se aplica a mejorar el producto o servicio que la organización ofrece a usuarios reales. Garzás destaca tres aplicaciones principales: la mejora del Discovery (analizar mercados, usuarios y oportunidades con búsquedas profundas), el prototipado funcional con herramientas como Lovable (que permite crear prototipos operativos en lugar de PowerPoints estáticos), y el procesamiento masivo de información con herramientas como NotebookLM para sintetizar tendencias a partir de miles de documentos. También incluye el uso de IA en testing, validación y desarrollo aumentado.
+
+#### Nivel 5: Agentes especializados — la IA actúa sola
+
+El nivel más avanzado, donde la IA opera con alta autonomía aunque siempre bajo supervisión humana. Garzás describe agentes especializados por dominio (ventas, captación, seguimiento comercial) y workspaces de IA como Claude Cowork y OpenClaw, que se instalan 24/7 en el ordenador del usuario. Estos agentes pueden ejecutar tareas programadas a cualquier hora (por ejemplo, revisar correos a las 3 de la madrugada), operar el navegador de forma autónoma, y disparar workflows sin intervención directa. Garzás recomienda periodificar tareas en horas de baja demanda para optimizar el consumo de tokens.
+
+### 🔗 Referencias
+- 💬 Comunidad WhatsApp: https://api.whatsapp.com/send/?phone=34684724916&text=Hola%2C+quiero+unirme+a+la+comunidad&type=phone_number&app_absent=0
+- 🔗 Artículo/Web: https://www.javiergarzas.com
+- 💼 LinkedIn: https://www.linkedin.com/in/jgarzas/
 ---
 
 ## [Javier Garzás] Deja de usar ChatGPT o Claude y dirige agentes que trabajen mientras duermes

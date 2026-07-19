@@ -1,5 +1,79 @@
 # 📹 Resúmenes Diarios — IA YouTubers
 
+
+
+## [Matthew Berman] Did Kimi K3 really beat Fable?
+**Fecha:** 2026-07-19
+**URL:** https://www.youtube.com/watch?v=JrVPIy9AdfQ
+**Video ID:** JrVPIy9AdfQ
+
+### 📝 Resumen
+
+Matthew Berman analiza el lanzamiento de Kimi K3, el modelo de código abierto de Moonshot AI (China), que ha alcanzado el primer puesto en el benchmark de desarrollo front-end de Arena AI, superando a Fable 5 (Anthropic) y GPT-5.6 (OpenAI). Con 2,8 billones de parámetros, es el modelo open-source más grande jamás creado, con una ventana de contexto de 1 millón de tokens y capacidades destacadas en razonamiento, codificación de horizonte largo y trabajo con conocimiento. Berman contextualiza el hito dentro de la geopolítica de la IA, la guerra entre EEUU y China, y el verdadero estado de la frontera tecnológica.
+
+#### Kimi K3: rendimiento fronterizo en front-end y escritura
+
+Kimi K3 obtuvo un 76% en el benchmark de desarrollo front-end de Arena AI, frente al 63% de Fable 5 y porcentajes inferiores de GPT-5.6. También lidera el benchmark de agente web de Nex.js.org con un 92% de tasa de éxito, y Moonshot AI afirma que ha desplazado a Claude Fable 5 como número uno en escritura con su tono editorial (2840 ELO), siendo cinco veces más barato que el modelo que destronó. Berman muestra una demo donde Kimi K3 construye un mundo simulado en 3D con reflejos en tiempo real y ciclos de luz dinámicos, comparable a un videojuego estilo Red Dead Redemption.
+
+#### Coste vs. inteligencia: la paradoja del precio
+
+Aunque Kimi K3 cuesta la mitad que GPT-5.6 Soul en precio por token (3$/millón input, 15$/millón output), Berman señala que consume aproximadamente el doble de tokens para la misma tarea, resultando en un coste efectivo similar (unos 4,70$ por tarea en DeepSuite). La verdadera ventaja de Kimi K3 no es el precio absoluto, sino su disponibilidad como modelo abierto que cualquiera puede inspeccionar y replicar. Moonshot AI ha revelado todos sus descubrimientos algorítmicos, lo que permite a la comunidad global beneficiarse de sus avances.
+
+#### Geopolítica de la IA: China abre, EEUU regula
+
+Berman destaca la declaración de David Sacks (el "AI Zar" de EEUU), quien advierte que por primera vez un modelo chino ha alcanzado el número uno en un benchmark relevante. Mientras EEUU enfrenta un mosaico de regulaciones estatales que ralentizan a sus laboratorios fronterizos —Fable fue retirado temporalmente, GPT-5.6 se retrasó semanas—, China puede liberar modelos rápidamente sin las mismas restricciones. Sin embargo, Berman matiza que los laboratorios cerrados estadounidenses (OpenAI, Anthropic) probablemente tienen modelos 8-10 meses más avanzados internamente (GPT-6, Mythos), pero no los liberan por evaluaciones de seguridad y post-entrenamiento.
+
+#### Open-source como motor del ecosistema
+
+Berman argumenta que el open-source beneficia a toda la cadena de valor: los modelos mejoran y se abaratan (Ley de Jevons → más tokens consumidos), las aplicaciones se vuelven más potentes, los proveedores de inferencia ganan más, y Nvidia vende más chips. El único perdedor son los laboratorios cerrados que pierden su ventaja competitiva. Sin embargo, el riesgo real es que las empresas estadounidenses construyan su infraestructura sobre modelos chinos optimizados para chips chinos, creando dependencia tecnológica estratégica.
+
+#### Rendimiento real: lento pero capaz
+
+Como nota práctica, Berman ejecutó un experimento con el cubo de Rubik: Kimi K3 tardó unos 30 minutos en generar la simulación 3D, confirmando las críticas sobre su lentitud y alto consumo de tokens. El resultado final fue correcto —el cubo se resolvía visualmente con reflejos y animaciones—, pero la experiencia evidenció que no es un modelo para aplicaciones en tiempo real.
+
+### 🔗 Referencias
+- 📄 Paper/Docs: https://platform.kimi.ai/docs/guide/kimi-k3-quickstart
+- 📱 Red Social: https://x.com/arena/status/2077893862778183737
+- 📱 Red Social: https://x.com/Kimi_Moonshot/status/2077821890207547467
+- 🔗 Artículo/Web: https://deepswe.datacurve.ai/
+- 📱 Red Social: https://x.com/DavidSacks/status/2078092271296143593
+- 📱 Red Social: https://x.com/rauchg/status/2077900518404321759
+- 📱 Red Social: https://x.com/Whats_AI/status/2077860441380798908
+- 📱 Red Social: https://x.com/emollick/status/2078129219691798953
+- 📱 Red Social: https://x.com/chamath/status/2078075083914957254
+## [Javier Garzás] Si solo usas ChatGPT o Copilot, estás muy lejos de trabajar productivamente con IA
+**Fecha:** 2026-07-19
+**URL:** https://www.youtube.com/watch?v=Kdf7JZk8J0Q
+**Video ID:** Kdf7JZk8J0Q
+
+### 📝 Resumen
+
+Javier Garzás presenta una hoja de ruta práctica de cinco niveles de madurez en adopción de inteligencia artificial generativa, basada en su experiencia con proyectos profesionales reales. El vídeo parte de una constatación clave: la mayoría de usuarios y empresas creen que usar IA equivale a usar un chatbot, cuando en realidad existe un espectro mucho más amplio de capacidades que va desde el uso amateur hasta los agentes autónomos especializados. Garzás adapta el modelo de madurez de CoinTelligence (Molit) para crear una guía que permite a profesionales y equipos identificar en qué nivel se encuentran y cuál es el siguiente paso lógico en su evolución.
+
+#### Nivel 1: Uso básico y amateur — el chatbot aumentado
+
+El escalón más básico, donde se encuentra la gran mayoría de usuarios. Se caracteriza por el uso de la IA como un mero buscador mejorado: redactar correos, generar imágenes con herramientas como DALL-E o Midjourney, crear presentaciones con Gamma, o usar navegadores aumentados como Comet. En este nivel no hay integración profunda ni mejora real de procesos. Garzás advierte que quedarse aquí es el error más común, ya que se desaprovecha todo el potencial transformador de la tecnología.
+
+#### Nivel 2: Asistente profesional — prompt engineering y contexto
+
+Aquí la IA se utiliza como asistente profesional con técnicas avanzadas de prompting. Incluye la creación de bibliotecas de prompts como activos organizacionales, el uso de MCP (Model Context Protocol) para conectar chatbots con herramientas externas como CRMs o gestores documentales, y la ingeniería de contexto —dotar a los prompts de información específica de la organización. Garzás menciona los GPTs (ChatGPT), proyectos (Claude) y gemas (Gemini) como soluciones que permiten gestionar este contexto sin necesidad de conocimientos técnicos avanzados.
+
+#### Nivel 3: Automatización de procesos — vibe coding y RAG
+
+El salto cualitativo llega cuando el equipo es capaz de crear pequeñas aplicaciones operativas internas mediante técnicas de vibe coding (sin necesidad de conocimientos técnicos). Garzás menciona Antigravity como herramienta para generar miniapps que resuelven problemas del día a día —como la generación masiva de certificados— que antes se hacían manualmente o simplemente no se hacían. También incluye workflows automatizados con herramientas como n8n o Make, añadiendo nodos de IA en procesos de facturación, CRM o bases de datos. Se introduce el RAG (Retrieval-Augmented Generation) como evolución de la ingeniería de contexto para conectar la IA a documentos, PDFs y bases de datos dinámicas.
+
+#### Nivel 4: Mejora del ciclo de vida del producto
+
+En este nivel la IA se aplica a mejorar el producto o servicio que la organización ofrece a usuarios reales. Garzás destaca tres aplicaciones principales: la mejora del Discovery (analizar mercados, usuarios y oportunidades con búsquedas profundas), el prototipado funcional con herramientas como Lovable (que permite crear prototipos operativos en lugar de PowerPoints estáticos), y el procesamiento masivo de información con herramientas como NotebookLM para sintetizar tendencias a partir de miles de documentos. También incluye el uso de IA en testing, validación y desarrollo aumentado.
+
+#### Nivel 5: Agentes especializados — la IA actúa sola
+
+El nivel más avanzado, donde la IA opera con alta autonomía aunque siempre bajo supervisión humana. Garzás describe agentes especializados por dominio (ventas, captación, seguimiento comercial) y workspaces de IA como Claude Cowork y OpenClaw, que se instalan 24/7 en el ordenador del usuario. Estos agentes pueden ejecutar tareas programadas a cualquier hora (por ejemplo, revisar correos a las 3 de la madrugada), operar el navegador de forma autónoma, y disparar workflows sin intervención directa. Garzás recomienda periodificar tareas en horas de baja demanda para optimizar el consumo de tokens.
+
+### 🔗 Referencias
+- 💬 Comunidad WhatsApp: https://api.whatsapp.com/send/?phone=34684724916&text=Hola%2C+quiero+unirme+a+la+comunidad&type=phone_number&app_absent=0
+- 🔗 Artículo/Web: https://www.javiergarzas.com
+- 💼 LinkedIn: https://www.linkedin.com/in/jgarzas/
 ---
 
 ## [Matt Wolfe] AI News: Claude's New Browser, Spotify Gets AI & OpenAI's New Hardware
