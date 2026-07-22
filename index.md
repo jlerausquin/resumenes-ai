@@ -1,7 +1,7 @@
 # 📹 Resúmenes AI YouTubers
 
 Resúmenes diarios de los canales de IA monitorizados.
-Última actualización: 2026-07-19 08:08
+Última actualización: 2026-07-22 08:14
 
 ---
 
@@ -9,7 +9,7 @@ Resúmenes diarios de los canales de IA monitorizados.
 
 - **[Javier Garzás](javier-garzas.md)** — 4 resúmenes (mod: 2026-07-19 08:08)
 - **[Matt Wolfe](matt-wolfe.md)** — 7 resúmenes (mod: 2026-07-18 08:07)
-- **[Matthew Berman](matthew-berman.md)** — 11 resúmenes (mod: 2026-07-19 08:08)
+- **[Matthew Berman](matthew-berman.md)** — 12 resúmenes (mod: 2026-07-22 08:14)
 
 ---
 
