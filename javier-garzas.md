@@ -1,6 +1,43 @@
 # 📹 Resúmenes — Javier Garzás
 
 
+
+---
+
+## [Javier Garzás] La Agilidad se está quedando sin empleos: primero el Scrum Master, ¿luego tú?
+**Fecha:** 2026-07-22
+**URL:** https://www.youtube.com/watch?v=BLTWGaI5HgY
+**Video ID:** BLTWGaI5HgY
+
+### 📝 Resumen
+
+Javier Garzás analiza la progresiva desaparición del rol de Scrum Master como puesto dedicado en las organizaciones, respaldado con datos del mercado laboral, y ofrece consejos para quienes trabajan en gestión de productos y proyectos digitales.
+
+#### Los 5 datos que confirman la tendencia
+
+Garzás presenta cinco evidencias: (1) las ofertas de Scrum Master han caído un 67% en tres años, de 15.000 a menos de 5.000; (2) los equipos con Scrum Master dedicado pasaron del 54% (2020) al 37% (2025); (3) la formación en Scrum se ha desplomado — formadores de referencia reportan caídas de alumnos del 49% a menos del 5%; (4) los salarios de Scrum Master llevan años congelados mientras los de Product Manager han subido entre un 8 y un 12%; (5) empresas como Capital One eliminaron 1.100 puestos de su "familia ágil" en 2023, recolocando a los profesionales en otros roles.
+
+#### Cinco causas de fondo
+
+La primera causa es que la IA ha reducido drásticamente el tamaño de los equipos — Gartner predice que para 2029 el 60% de las organizaciones trabajará con equipos de 2-3 personas (tiny teams), reduciendo la necesidad de coordinación. La segunda es que el delivery se ha simplificado: lo que antes llevaba días ahora se hace en horas con nocode e IA. La tercera es la burbuja de certificaciones: empresas que querían "vestirse de ágiles" contrataron Scrum Masters certificados en masa sin formación real. La cuarta, derivada, es la proliferación de Scrum Masters sin conocimientos técnicos que no podían entender a sus equipos. La quinta causa, la más profunda, es la madurez del sector usando el concepto japonés **Shu-Ha-Ri**: las organizaciones ya han superado la fase de imitación (Shu) y están en las fases de adaptación (Ha) e innovación (Ri), por lo que ya no necesitan tutores de agilidad.
+
+#### Consejos para quien trabaja en el sector digital
+
+Garzás recomienda tres movimientos estratégicos: (1) abandonar la etiqueta de "Scrum Master" y moverse hacia roles como Delivery Manager o Product Manager; (2) desarrollar habilidades técnicas aprovechando que la IA permite a no-programadores crear soluciones (BYY coding, MCPs, automatizaciones); (3) moverse hacia el Discovery — la fase de identificar problemas y necesidades del usuario — que ha ganado protagonismo frente a un Delivery cada vez más automatizado.
+
+#### La agilidad no ha muerto
+
+El autor aclara que Scrum como framework se está diluyendo, pero el mindset ágil — trabajar por incrementos, aceptar el cambio, experimentar — es más necesario que nunca ante la adopción masiva y desordenada de IA. Advierte contra el "FOMO digital" que está llevando a muchas empresas a automatizar sin método, repitiendo errores del antiguo modelo en cascada.
+
+### 🔗 Referencias
+- 📄 Artículo/Web: https://www.birjob.com/blog/scrum-master-agile-coach-disappearing
+- 📄 Artículo/Web: https://age-of-product.com/scrum-master-decline/
+- 📄 Artículo/Web: https://www.bankingdive.com/news/capital-one-cuts-1100-tech-jobs-agile/640861/
+- 📄 Artículo/Web: https://www.theregister.com/2023/01/20/capital_one/
+- 📄 Artículo/Web: https://www.gartner.com/en/newsroom/press-releases/2026-07-07-gartner-predicts-60-percent-of-organizations-will-adopt-smaller-software-engineering-teams-by-2029
+- 📄 Artículo/Web: https://fortune.com/2025/09/19/surviving-great-flattening-coming-extinction-of-middle-manager-layoffs/
+- 📄 Artículo/Web: https://www.fastcompany.com/91548285/everyone-wants-to-kill-the-middle-manager-role-the-data-says-dont-do-it
+
 ## [Javier Garzás] Si solo usas ChatGPT o Copilot, estás muy lejos de trabajar productivamente con IA
 **Fecha:** 2026-07-19
 **URL:** https://www.youtube.com/watch?v=Kdf7JZk8J0Q
