@@ -7,6 +7,88 @@ Generado automáticamente.
 
 
 
+
+## [Matthew Berman] You NEED to do this (HUGE AI SAVINGS)
+**Fecha:** 2026-07-23
+**URL:** https://www.youtube.com/watch?v=QNEo_tl-nhw
+**Video ID:** QNEo_tl-nhw
+
+Matthew Berman explica en este vídeo un concepto fundamental para optimizar el uso de modelos de lenguaje: la **densidad de inteligencia por token**. El argumento central es que no todos los tokens son iguales, y que la estrategia óptima no consiste en usar un único modelo para todo, sino en orquestar una combinación de modelos según la tarea.
+
+#### La falacia del precio por token
+
+Berman desmonta la idea de que el precio por millón de tokens sea el indicador decisivo. Compara GPT-5.6 Soul (5 $/M input, 30 $/M output), Claude Fable 5 y Kimi K3 (3 $/M input, 15 $/M output). Aunque Kimi cuesta la mitad, consume el doble de tokens para resolver una misma tarea, resultando en un coste total equivalente (~30 $). Lo relevante no es el precio unitario, sino el coste real por tarea completada.
+
+#### Estrategia de modelos combinados
+
+El flujo recomendado consta de tres fases:
+- **Planificación** — se usa un modelo frontera (p. ej., Claude Fable) para analizar el código, diseñar la arquitectura y generar un plan detallado. Esta fase consume muchos tokens de entrada (lectura del codebase) pero pocos de salida.
+- **Ejecución** — un modelo más económico y rápido (Grok 4.5 o el modelo Composer de Cursor) escribe el código siguiendo el plan. Aquí el volumen de tokens de salida es alto, por lo que usar un modelo barato genera un ahorro significativo.
+- **Revisión** — otro modelo frontera (GPT-5.6) revisa el código resultante, buscando bugs y verificando que cumple la especificación. Nuevamente, predominan los tokens de entrada.
+
+Con esta combinación, el coste total del ejemplo baja de 81 $ (solo Fable) o 46,50 $ (solo GPT-5.6) a **25,55 $**, manteniendo o incluso mejorando la calidad final.
+
+#### Validación cruzada entre modelos
+
+Berman presenta datos de Greptile que demuestran que cuando un modelo revisa el código escrito por otro modelo diferente, se detectan más errores que cuando un modelo se revisa a sí mismo. Por ejemplo, GPT-5.5 encuentra más bugs en código escrito por Claude Opus 4.7 que el propio Claude. Cada modelo tiene fortalezas y debilidades distintas (unos fallan más en comportamiento faltante, otros en intención semántica), y combinarlos aprovecha esas diferencias.
+
+#### Velocidad de inferencia como variable oculta
+
+El tiempo de generación también importa: si un modelo tarda el doble en completar una tarea, el coste de oportunidad en tiempo de desarrollo puede superar el ahorro en tokens. Usar modelos rápidos y baratos para la ejecución reduce el tiempo total del ciclo.
+
+#### La batalla entre código abierto y cerrado
+
+Berman plantea el escenario económico global: los laboratorios cerrados (OpenAI, Anthropic) venden tokens con márgenes elevados, mientras que los modelos open-source como Kimi K3 fuerzan la competencia entre hyperscalers, reduciendo los precios de inferencia. Si el open-source gana, el margen se desplaza de la capa de tokens hacia los chips (Nvidia), los centros de datos y las aplicaciones. El usuario final se beneficia de tokens más baratos y mayor consumo.
+
+### 🔗 Referencias
+
+| Tipo | Enlace |
+|------|--------|
+| 🏢 Producto | [Greptile — Code Review AI](https://www.greptile.com/go/berman/review) |
+| 🏢 Empresa | [OpenAI — GPT-5.6 Soul](https://openai.com) |
+| 🏢 Empresa | [Anthropic — Claude Fable 5](https://anthropic.com) |
+| 💻 Repositorio | [Kimi K3 (open-source)](https://github.com/MoonshotAI) |
+| 🔗 Artículo | [Artificial Analysis — Benchmarks y costes por tarea](https://artificialanalysis.ai) |
+| 🏢 Producto | [Cursor — Composer model](https://cursor.com) |
+| 🏢 Producto | [xAI — Grok 4.5](https://x.ai) |
+| 📱 Red Social | [Matthew Berman en X](https://x.com/matthewberman) |
+| 📱 Red Social | [Forward Future (newsletter)](https://forwardfuture.com) |
+| 📱 Red Social | [Discord de Matthew Berman](https://discord.gg/u7wTTGWhuJ) |
+
+---
+
+## [Matthew Berman] Negotiated my ENTIRE return
+**Fecha:** 2026-07-23
+**URL:** https://www.youtube.com/watch?v=Bf-f2XK4Qv0
+**Video ID:** Bf-f2XK4Qv0
+
+Matthew Berman demuestra un uso práctico y sorprendente de los agentes de IA para la gestión de tareas cotidianas: negociar devoluciones y reembolsos con empresas de servicios.
+
+#### Devolución fuera de plazo en Amazon
+
+Berman había comprado un reloj infantil Gabb en Amazon, pero al no necesitarlo intentó devolverlo dos meses después, muy fuera del plazo estándar de devolución. En lugar de gestionarlo manualmente, proporcionó a Claude Codex su número de pedido. El agente abrió un navegador, accedió a Amazon, contactó con atención al cliente, negoció la devolución y consiguió un reembolso completo con la etiqueta de envío incluida.
+
+#### Cancelación de suscripción sin penalización
+
+En un segundo caso, Berman había pagado una suscripción anual completa a Gabb sin haberla utilizado. Instruyó a Codex para obtener un reembolso y, si era posible, que le eximieran de la cuota de cancelación. El agente mantuvo una conversación con el chat de soporte, negoció durante aproximadamente una hora y media, y logró tanto el reembolso como la eliminación completa de la penalización por cancelación anticipada.
+
+#### Implicaciones
+
+El vídeo ilustra cómo los agentes de IA, equipados con capacidades de navegación web y diálogo autónomo, pueden actuar como asistentes personales para tareas que requieren paciencia, persistencia y habilidades de negociación. Berman sugiere que este tipo de uso —delegar gestiones administrativas a la IA— es una de las aplicaciones más infravaloradas de la tecnología actual.
+
+### 🔗 Referencias
+
+| Tipo | Enlace |
+|------|--------|
+| 🏢 Producto | [Anthropic Claude Codex](https://anthropic.com/claude-codex) |
+| 🏢 Empresa | [Amazon](https://amazon.com) |
+| 🏢 Empresa | [Gabb Wireless](https://gabb.com) |
+| 📱 Red Social | [Matthew Berman en X](https://x.com/matthewberman) |
+| 📱 Red Social | [Forward Future (newsletter)](https://forwardfuture.com) |
+
+---
+
+
 ---
 
 ## [Matthew Berman] It Begins: An AI Tried to Escape the Lab
