@@ -1,6 +1,41 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] Claude Code for project management without coding knowledge
+**Fecha:** 2026-07-30
+**URL:** https://www.youtube.com/watch?v=-QKnfdAjgjY
+**Video ID:** -QKnfdAjgjY
 
+### 📝 Resumen
+
+Javier Garzás presenta Claude Code como una herramienta de inteligencia artificial capaz de transformar la gestión de proyectos sin necesidad de conocimientos de programación. El autor desmonta la percepción de que Claude Code es exclusivamente para desarrolladores y demuestra cómo cualquier profesional puede aprovecharlo para tareas cotidianas de gestión.
+
+#### La diferencia fundamental con los chatbots tradicionales
+
+A diferencia de ChatGPT o Claude en el navegador, Claude Code se instala localmente en el PC y tiene acceso directo a los archivos del usuario. Esto elimina la necesidad de ir subiendo documentos uno a uno, permitiendo trabajar con carpetas enteras de forma simultánea. La herramienta puede leer PDFs, CSVs, Excel, PowerPoint y cualquier otro formato, procesándolos como un conjunto unificado.
+
+#### Cinco casos de uso reales para la gestión
+
+El vídeo detalla cinco aplicaciones prácticas. El primero es leer y resumir grandes volúmenes de datos: contratos, normativas, informes de clientes almacenados en una misma carpeta. El segundo consiste en clasificar y transformar archivos heterogéneos — por ejemplo, fusionar facturas en PDF con datos de Excel para generar un único informe estructurado. El tercer caso permite crear visualizaciones y cuadros de mando interactivos directamente desde los datos, generando dashboards financieros sin escribir una línea de código. El cuarto caso aborda la priorización de tareas cruzando archivos locales con herramientas externas como Gmail o Jira mediante MCP. El quinto explora el concepto del "segundo cerebro": almacenar documentación y notas en formato Markdown, que la IA procesa con fluidez, y visualizarlas posteriormente con herramientas como Obsidian.
+
+#### Arquitectura y modos de acceso
+
+Claude Code puede usarse de cuatro formas: terminal (modo avanzado), IDE (para programadores), aplicación de escritorio (la recomendada para no técnicos) y navegador (versión limitada). La versión de escritorio permite gestionar carpetas de trabajo de manera intuitiva, mientras que mediante MCP (Model Context Protocol) se puede conectar con fuentes de datos externas como sistemas de incidencias o correo electrónico, ampliando significativamente el alcance de la herramienta.
+
+#### Implicaciones para la productividad profesional
+
+El autor enfatiza que la herramienta no solo automatiza tareas tediosas sino que cambia fundamentalmente la relación del gestor con los datos. Lo que antes requería horas de trabajo manual — síntesis de documentos, extracción de información, cruce de datos — ahora se resuelve con instrucciones en lenguaje natural. La barrera técnica desaparece, permitiendo que cualquier profesional pueda crear informes, dashboards y análisis que antes requerían equipos especializados.
+
+#### Origen y contexto del proyecto
+
+Claude Code nació de una anécdota: su creador, Boris Cherry, desarrolló una pequeña aplicación local para entender cómo funcionaba la API de Anthropic. Al conectarle IA, le preguntó qué música estaba escuchando y la herramienta, usando utilidades del sistema operativo, fue capaz de responder. Este momento fundacional ilustra la filosofía del producto: una IA que opera directamente sobre el entorno del usuario, comprendiendo y manipulando su contexto local.
+
+### 🔗 Referencias
+- 📄 Paper: https://www.anthropic.com/research/claude-code-expertise
+- 📄 Paper: https://arxiv.org/abs/2507.09089
+- 🔗 Artículo/Web: https://metr.org/blog/2026-02-24-uplift-update
+- 🔗 Artículo/Web: https://javiergarzas.com/diccionario-de-la-ia-javier-garzas
+
+---
 
 ---
 
