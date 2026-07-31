@@ -1,5 +1,54 @@
 # 📹 Resúmenes — Matthew Berman
 
+
+## [Matthew Berman] GPT-5.6 just made itself CHEAPER
+**Fecha:** 2026-07-31
+**URL:** https://www.youtube.com/watch?v=wAPDmc8e22U
+**Video ID:** wAPDmc8e22U
+
+### 📝 Resumen
+
+Matthew Berman analiza la drástica rebaja de precios anunciada por OpenAI en la familia GPT-5.6 y, sobre todo, el detalle más sorprendente del anuncio: la compañía utilizó su propio modelo de frontera, GPT-5.6 Soul, para optimizar la eficiencia del resto de sus modelos. El autor interpreta este hecho como un caso práctico de auto-mejora recursiva y especula sobre sus profundas implicaciones para el equilibrio competitivo de la industria.
+
+#### La rebaja de precios de la familia GPT-5.6
+
+El vídeo repasa los nuevos precios de la API: GPT-5.6 Luna, el modelo más pequeño de la familia, baja un 80% hasta los 0,20 dólares por millón de tokens de entrada y 1,20 por millón de salida, un precio inferior incluso al de los modelos open-source de frontera chinos. GPT-5.6 Terra, el modelo intermedio, recibe un recorte del 20% (2 dólares de entrada y 12 de salida por millón de tokens). El modelo grande, Soul, no baja de precio, pero estrena un modo rápido en la API que multiplica por 2,5 la velocidad al doble de coste — antes la opción rápida ofrecía 1,5 veces la velocidad por el mismo sobrecoste, por lo que el autor lo considera una bajada de precio efectiva por unidad de trabajo.
+
+#### Coste por tarea: la métrica que importa
+
+Berman insiste en que el precio por token es un dato engañoso y que la única métrica relevante es el coste por tarea completada. Pone como ejemplo a Kimi K3, que cuesta la mitad que GPT-5.6 Soul pero consume el doble de tokens para la misma tarea, resultando en un coste efectivo idéntico. Apoyándose en el índice de inteligencia de Artificial Analysis, muestra que GPT-5.6 Luna Max ronda los 6 céntimos por tarea, frente a los 25-28 de GLM 5.2 Max, los 40 de Claude Opus 5 (modo bajo), los 72 de Kimi K3, los 1,54 dólares de GPT-5.6 Soul Max, los 1,80 de Claude Sonnet 5 Max y los 2,75 de Claude Fable 5. Con una inteligencia comparable a la de sus rivales, Luna queda en una liga propia en eficiencia económica.
+
+#### Auto-mejora recursiva: Soul optimizándose a sí mismo
+
+El punto central del vídeo es que OpenAI usó GPT-5.6 Soul para mejorar su propio despliegue: un 20% menos de coste de servicio gracias a mejoras en los kernels GPU de producción, un 15% más de eficiencia en la generación de tokens mediante una mejor decodificación especulativa, y la reescritura y optimización de los kernels de producción. Además, Soul rediseñó su propio modelo borrador diseñando y ejecutando cientos de experimentos sobre su arquitectura, probando cambios de tamaño, estructura y características. Con Codex, el modelo analiza continuamente el tráfico de producción, detecta desequilibrios, prueba nuevas estrategias de enrutado y ajusta heurísticas de forma iterativa. Para Berman, esto es un bucle de optimización ejecutándose 24 horas al día con los datos de millones de usuarios.
+
+#### El paralelismo con la investigación automática de Karpathy
+
+El autor conecta este anuncio con el proyecto open-source que Andrej Karpathy — ahora empleado de Anthropic — publicó meses atrás, en el que un modelo diseña sus propios experimentos, los ejecuta, analiza los resultados e itera de forma autónoma para mejorar la eficiencia del entrenamiento de un LLM desde cero. En aquel experimento el modelo encontró mejoras reales que el propio Karpathy no había logrado identificar. Berman subraya que OpenAI aplica ese mismo bucle con uno de los mejores modelos del planeta y toda la capacidad de cómputo de la compañía, lo que en la práctica constituye un investigador de IA totalmente automatizado.
+
+#### La estrategia de los laboratorios de frontera
+
+Berman especula sobre por qué Soul no ha recibido recorte de precio: probablemente los importantes márgenes de eficiencia conseguidos también en el modelo grande se están convirtiendo directamente en beneficio, ya que Soul es la principal fuente de ingresos de OpenAI. La presión competitiva vendría de Kimi K3 y del ecosistema open-source, que al ser examinado por múltiples proveedores e investigadores descubre mejoras de eficiencia más rápido que un equipo cerrado. El autor describe el posible manual de juego de OpenAI y Anthropic: entrenar modelos de frontera enormes e ineficientes, destilarlos en versiones casi igual de capaces pero mucho más baratas para el público, financiar con esos ingresos el siguiente modelo grande y mantener el modelo de frontera bajo llave. Cree que Anthropic podría dejar de publicar modelos como Fable (que tenía desde enero) y que, si la auto-mejora recursiva se acelera, ambos laboratorios podrían volverse inalcanzables; el open-source quedaría como la única presión competitiva real.
+
+#### Qué cambia para el usuario
+
+El vídeo concluye señalando que una caída de precios de esta magnitud altera las cuentas a la hora de elegir proveedor o suscripción entre Anthropic y OpenAI. Con Luna en modo máximo a una fracción del coste de sus competidores con inteligencia similar, el autor recomienda reevaluar la decisión y menciona que ha publicado un vídeo previo dedicado precisamente a esa comparativa.
+
+### 🔗 Referencias
+
+| Tipo | Recurso | Enlace |
+|---|---|---|
+| 🏢 Empresa/Producto | OpenAI — GPT-5.6 (Luna, Terra, Soul) | https://openai.com |
+| 🏢 Empresa/Producto | Anthropic — Claude Opus 5, Sonnet 5 y Fable | https://www.anthropic.com |
+| 🏢 Empresa/Producto | Moonshot AI — Kimi K3 | https://www.moonshot.ai |
+| 🏢 Empresa/Producto | Zhipu AI — GLM 5.2 | https://www.zhipuai.cn |
+| 📊 Benchmark | Artificial Analysis Intelligence Index | https://artificialanalysis.ai/ |
+| 📱 Red Social | Anuncio de OpenAI en X | https://x.com/OpenAI/status/2082878156483219672 |
+| 🔗 Artículo/Web | Boletín Forward Future | https://forwardfuture.com |
+| 🏢 Empresa/Producto | Hyperagent (patrocinador del vídeo) | https://www.hyperagent.com/forwardfuture500 |
+
+---
+
 ## [Matthew Berman] I'm disappointed
 **Fecha:** 2026-07-30
 **URL:** https://www.youtube.com/watch?v=N80TzPCHbNg
