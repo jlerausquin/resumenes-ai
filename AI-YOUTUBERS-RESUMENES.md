@@ -1,6 +1,19 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Javier Garzás] Prueba integral final del flujo
+
+**Fecha:** 2026-08-02
+**URL:** https://www.youtube.com/watch?v=TESTFINAL789
+**Video ID:** TESTFINAL789
+
+### 📝 Resumen
+
+Prueba integral del flujo completo: generación → append → verificación → push.
+
+#### Subsección de prueba
+
+Contenido de verificación.
 ## [Matt Wolfe] AI News: Opus 5, the Slack Killer & Google Earth AI
 **Fecha:** 2026-08-01
 **URL:** https://www.youtube.com/watch?v=sUmx-Yi6TwE
