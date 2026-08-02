@@ -1,7 +1,7 @@
 # 📹 Resúmenes AI YouTubers
 
 Resúmenes diarios de los canales de IA monitorizados.
-Última actualización: 2026-08-01 08:13
+Última actualización: 2026-08-02 08:13
 
 ---
 
