@@ -1,5 +1,57 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Open-source is WINNING
+**Fecha:** 2026-08-04
+**URL:** https://www.youtube.com/watch?v=CVlKp9Ld-Zg
+**Video ID:** CVlKp9Ld-Zg
+
+### 📝 Resumen
+
+El vídeo analiza el lanzamiento de Qwen 3.8 Max, un nuevo modelo de código abierto de Alibaba con unos 2,4 billones de parámetros, y lo enmarca en la carrera entre los laboratorios abiertos chinos y los laboratorios cerrados estadounidenses. Berman abre destacando el tráiler optimista del modelo —personas disfrutando de su tiempo libre mientras la IA trabaja por ellas— como contrapunto a las narrativas apocalípticas habituales, y dedica el resto del vídeo a evaluar el rendimiento del modelo, su precio real y el riesgo geopolítico de que EE.UU. dependa de la IA china.
+
+#### Qwen 3.8 Max: un frontier de código abierto
+
+Alibaba ha publicado Qwen 3.8 Max como modelo de pesos abiertos, gratuito y descargable, lo que lo convierte en el segundo modelo chino de ese tamaño tras Kimi K3 de Moonshot (en torno a 3 billones de parámetros). Berman lo califica sin ambages de modelo de nivel frontier, extremadamente capaz y competitivo con los mejores modelos cerrados de EE.UU., y valora positivamente que los laboratorios chinos los publiquen gratis para que cualquiera pueda ejecutarlos en sus propios servidores.
+
+#### Rendimiento en benchmarks, con cautela
+
+El presentador advierte de que los benchmarks pueden manipularse y no siempre reflejan la capacidad general de un modelo. Aun así, los resultados mostrados son notables: SWE-bench Pro con 67,7 frente a los 80 del líder (Fable), y Terminal Bench con 86,6 frente a 84,6 de Fable y ligeramente por debajo de GPT-5.6 Soul. Qwen domina en razonamiento multimodal, percepción visual, comprensión espacial del mundo real e inteligencia documental y ofimática, mientras Fable 5 sobresale en agente visual y codificación. Berman reconstruyó la tabla comparativa con Codex para hacerla legible y la dejó disponible en forwardfuture.com.
+
+#### Reproducción de papers y auto-mejora recursiva
+
+Alibaba destaca la capacidad del modelo para reproducir resultados de artículos de investigación partiendo únicamente del paper y de un conjunto de GPUs, sin código inicial ni pipelines preparados. En esa prueba, Qwen 3.8 Max ideó y probó 18 ideas de mejora propias a lo largo de cuatro rondas, un ejemplo de auto-mejora recursiva que se considera el paso previo a que un modelo pueda hacer descubrimientos autónomos. El vídeo también subraya que el modelo ejecuta de forma autónoma el flujo completo de diseño de chips (silicon design flow), un hito relevante porque el diseño y la fabricación de semiconductores es tradicionalmente el punto débil de China.
+
+#### Precio por token frente a coste por tarea
+
+En OpenRouter el modelo cuesta 2 dólares por millón de tokens de entrada y 6 por millón de salida, frente a los 5/30 de GPT-5.6 Soul y los 10/50 de Fable. Berman insiste en que el precio por token es solo la mitad de la ecuación: lo decisivo es cuántos tokens cuesta completar una misma tarea. Apoyándose en Artificial Analysis, recuerda que Qwen 3.7 Max cuesta unos 1,28 dólares por tarea completada, Kimi K3 Max entre un 30 y un 40 % menos, y GPT-5.6 Soul 1,23 dólares, de modo que un modelo barato por token puede acabar costando lo mismo si consume más tokens.
+
+#### La carrera del cómputo: 2T frente a 7T parámetros
+
+Los mejores modelos abiertos chinos (Kimi y Qwen) se sitúan en la franja de 2-3 billones de parámetros, mientras que se rumorea que Fable ronda los 7 billones o más y que el próximo entrenamiento de OpenAI, cuyo nombre en clave público es "Astra", sería de tamaño similar. Berman concluye que la ventaja estadounidense reside en el cómputo: los laboratorios chinos no disponen de las mejores GPUs de Nvidia en cantidad comparable, y todo termina reduciéndose a cuánta capacidad de cómputo se tiene.
+
+#### Beneficios a corto plazo y riesgo geopolítico a medio y largo plazo
+
+A corto plazo, los modelos abiertos chinos benefician al ecosistema: ofrecen alternativas mucho más baratas a Anthropic y OpenAI, dan a las empresas opcionalidad para alojar, servir y afinar sus propios modelos (evitando el riesgo de plataforma) y frenan la concentración de poder, una de las mayores preocupaciones del autor. A medio y largo plazo, sin embargo, teme que EE.UU. y sus empresas terminen dependiendo de la IA china: aunque la inferencia pueda ejecutarse en suelo estadounidense sin enviar datos a China, el co-diseño extremo entre modelo y chip podría arrastrar también una dependencia de chips chinos, con el consiguiente riesgo geopolítico. Agradece a DeepSeek, Moonshot y Alibaba sus lanzamientos, pero recuerda que son países adversarios.
+
+#### La duda final: ¿commoditización o auto-mejora recursiva?
+
+Berman cierra exponiendo su conflicto: o el open source commoditiza la capa de modelos y devalúa a OpenAI y Anthropic por la presión competitiva en precios, o todo eso no importa porque la auto-mejora recursiva es el único objetivo y los laboratorios cerrados, con más cómputo, los mejores modelos y mejoras más rápidas, no tienen competencia real. Como ejemplo de esta dinámica cita el recorte del 80 % en los precios de OpenAI, posible gracias a las ganancias de eficiencia de GPT-5.6. Deja la pregunta abierta a la audiencia.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Qwen (Alibaba) — modelo Qwen 3.8 Max | https://qwenlm.github.io |
+| Moonshot AI — Kimi K3 | https://www.moonshot.ai |
+| OpenRouter — precios de inferencia | https://openrouter.ai |
+| Artificial Analysis — coste por tarea completada | https://artificialanalysis.ai |
+| OpenAI — GPT-5.6 y entrenamiento "Astra" | https://openai.com |
+| Anthropic | https://www.anthropic.com |
+| DeepSeek | https://www.deepseek.com |
+| Fable (modelo frontier mencionado) | — |
+| Axio Work (sourcing con agentes de IA, patrocinador) | — |
+
+---
 ## [Matthew Berman] GPT-5.6 just made itself CHEAPER
 **Fecha:** 2026-07-31
 **URL:** https://www.youtube.com/watch?v=wAPDmc8e22U
