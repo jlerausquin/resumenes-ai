@@ -1,6 +1,86 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] Master Codex with these 15 Tips
+**Fecha:** 2026-08-05
+**URL:** https://www.youtube.com/watch?v=jGR8LnfVPbA
+**Video ID:** jGR8LnfVPbA
+
+### 📝 Resumen
+
+Matthew Berman comparte las mejores prácticas que ha aprendido tras cientos de horas usando ChatGPT y Codex, con el objetivo de sacar el máximo partido a la plataforma y automatizar el mayor número posible de tareas.
+
+#### Navegación web y control del ordenador
+Codex puede navegar por internet en nombre del usuario. En una demostración, a partir de un único prompt investiga cámaras comparables para su estudio, las reúne en una hoja de cálculo con precios, valoraciones y diferencias respecto a la suya, y entrega la información lista para decidir. Berman lo usa también para gestionar reembolsos, negociar con servicio al cliente o archivar correos. Además, Codex puede controlar el ordenador directamente: organizar archivos, eliminar bloatware y acelerar el equipo.
+
+#### Voz, publicación web y fijación de hilos
+El modo de voz nativo de Codex permite dirigir por voz a los agentes, lanzar tareas en hilos nuevos y supervisarlos sin escribir. La función ChatGPT Sites publica en la web cualquier contenido —poemas, hojas de cálculo, portfolios— generando URLs que se pueden compartir con cualquier persona o incluso con otros agentes. La opción de fijar chats (pinning) ayuda a mantener a la vista las conversaciones y proyectos más importantes del momento.
+
+#### Elección de modelo: Luna, Terra y Soul
+Con GPT-5.6 y sus distintas variantes, la clave está en elegir el modelo adecuado para cada tarea y así optimizar la cuota semanal: Luna para tareas rápidas y económicas, Soul para las más complejas, ajustando además el nivel de razonamiento (thinking effort). El ejemplo práctico: Soul construye una web completa, mientras que Luna es más que suficiente para los retoques de fuentes, colores o imágenes.
+
+#### Tareas programadas y plugins
+Las tareas programadas ejecutan procesos recurrentes cada día, como revisar logs de producción en busca de errores, comprobar el estado de una web o resumir calendario, correo pendiente y prioridades al comenzar la jornada. Al usar Luna, su coste es casi nulo, por lo que conviene automatizar todo lo que se repita. Los plugins conectan ChatGPT con las aplicaciones que el usuario ya utiliza —Gmail, GitHub, Google Drive, Notion, Linear, Dropbox, etc.—, de modo que el modelo no tiene que adivinar cómo usarlas.
+
+#### Skills y objetivos (/goal)
+Las skills convierten flujos de trabajo repetidos en comandos reutilizables que se invocan con "/", y existe además un catálogo de skills publicadas por la comunidad. La función /goal hace que el agente trabaje de forma autónoma hasta alcanzar un objetivo, ya sea verificable ("que la web cargue un 50% más rápido") o juzgado por el propio modelo (LLM as judge), con la opción de fijar límites temporales. Berman ha llegado a tener agentes ejecutándose durante días con esta función, por lo que recomienda usarla con objetivos concretos.
+
+#### Cuota, hilos interconectados y acceso remoto
+Controlar la cuota semanal es esencial: la app muestra el porcentaje consumido y la fecha de reinicio, y existen "banked resets" que conviene gastar antes de que expiren. Los hilos funcionan como un único sistema: un hilo puede buscar, resumir, delegar trabajo y crear otros hilos. Por último, las Connections permiten vincular el móvil al ordenador de escritorio mediante un código QR y seguir trabajando desde cualquier dispositivo, con todos los hilos disponibles en remoto.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| ChatGPT | Producto (OpenAI) | https://chatgpt.com |
+| Codex | Producto (OpenAI) | https://openai.com/codex |
+| GPT-5.6 | Modelo (OpenAI) | https://openai.com |
+| GenSpark — Second Brain Note | Producto (patrocinador) | https://genspark.ai |
+| Forward Future | Proyecto del canal | https://forwardfuture.com |
+| Vídeo previo sobre loops ("7 INSANE loops") | Vídeo del canal | https://www.youtube.com/watch?v=F4a8aMLb678 |
+
+---
+## [Javier Garzás] ¿Fin de los programadores? Tu oportunidad de posicionarte, aunque no sepas programar
+**Fecha:** 2026-08-05
+**URL:** https://www.youtube.com/watch?v=niwfPxiTrlM
+**Video ID:** niwfPxiTrlM
+
+### 📝 Resumen
+
+El vídeo aborda la pregunta que sobrevuela la profesión: si la IA ya programa, ¿sobran los programadores? Javier Garzás sostiene que lo que viene no es el final, sino el renacimiento de la profesión, tanto para los técnicos como para quienes nunca han escrito una línea de código.
+
+#### La IA ya programa: ¿fin o renacimiento?
+El vídeo arranca con un hecho: la IA ya es capaz de crear software, lo que permite a cualquier persona construir aplicaciones sin saber programar. Para fundamentar el "antes y después" se citan referentes del sector. Boris Cherney, creador de Claude Code, ha dejado de usar su editor de código clásico y trabaja con lenguaje natural vía prompts. Robert C. Martin (Uncle Bob), autor de Clean Code, afirma que programar a mano "a la antigua" es prácticamente un suicidio y hoy se limita a rodear a la IA de tests y controles sin necesidad de leer el código. Kent Beck, creador de Extreme Programming, resumió el cambio con su célebre frase: el valor del 90% de sus habilidades acababa de caer a cero, y el 10% restante valía ahora 1000 veces más.
+
+#### Los datos de la adopción
+Se presentan cifras que respaldan la tendencia. El informe DORA de Google Cloud señala que el 90% de los profesionales del desarrollo ya usa IA en su trabajo diario, y los CEOs de Microsoft y Google reconocen que la IA escribe en torno al 30% de su código, cifra que sube cada trimestre. Lovable, herramienta de vibe coding, registra un millón de proyectos nuevos cada semana, y el 80% de quienes construyen con ella no son perfiles técnicos. El propio equipo de Garzás ya crea con IA sus CRMs, dashboards de seguimiento económico, generadores de certificados para su comunidad y todas sus webs corporativas.
+
+#### Implicaciones para los no técnicos
+La conclusión práctica es directa: cualquier profesional —fisioterapeuta, abogado, gestor de proyectos, product owner— debe empezar a crear software ya mediante lenguaje natural, sin tocar una línea de código. La disrupción real no está en las grandes aplicaciones, sino en pequeñas soluciones que mejoran el día a día: dashboards que visualizan datos de gestión y económicos, consultas conversacionales a bases de datos que antes exigían SQL, prototipos e integraciones que antes requerían un equipo informático o un presupuesto inalcanzable.
+
+#### La paradoja de Jevons y la explosión del software
+Al abaratarse la producción de software se disparará su consumo (paradoja de Jevons), igual que ocurrió con la fotografía digital. Habrá mucho más software de "usar y tirar", automatización de tareas cotidianas y, sobre todo, nuevos negocios: emprendedores y startups que antes necesitaban inversión para contratar un equipo técnico ahora podrán validar sus ideas por sí solos. Parte de ese software quedará en prototipo, pero cuando una idea validada empiece a escalar y a acumular usuarios reales, necesitará pasar a un estado profesional.
+
+#### La nueva demanda de perfiles técnicos
+Ahí reside la gran oportunidad para los técnicos: se demandará cada vez más a profesionales capaces de tomar el software creado por no técnicos y llevarlo a un nivel productivo serio, con seguridad, accesibilidad, escalabilidad y guardarraíles, lo que se conoce como ingeniería del arnés o vibe engineering. La vieja escuela, la de programar a mano, queda obsoleta: entre la comunidad corre la frase de que escribir código a mano empieza a ser "una irresponsabilidad", porque te hace lento y te saca del sistema.
+
+#### La lección histórica de Fortran
+Para responder si la IA acabará con la profesión, el vídeo recurre a la historia. Cuando apareció Fortran en los años 50, el "sacerdocio" de programadores veteranos criticó a John Backus por haber hecho la programación tan fácil que cualquiera pudiera usarla, tachándolo de revolucionario loco. Lejos de acabar con la profesión, los lenguajes de alto nivel multiplicaron el número de personas que entraron en la programación. La misma lógica se aplica a la IA: no eliminará la profesión, la disparará. A quien se esté planteando formarse en programación, Garzás le recomienda hacerlo sí, pero en la "nueva informática": entender qué hay detrás del código para saber dirigir a la IA y hacer robusto y escalable el software que otros crean con ella.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Claude Code (Anthropic) | Producto | https://claude.com/claude-code |
+| Robert C. Martin (Uncle Bob) — Clean Code | Autor / Libro | https://blog.cleancoder.com |
+| Kent Beck — Extreme Programming | Metodología | https://www.extremeprogramming.org |
+| Informe DORA (Google Cloud) | Informe | https://dora.dev |
+| Lovable | Producto | https://lovable.dev |
+| javiergarzas.com | Web del canal | https://javiergarzas.com |
+| 23academy.com | Formación | https://23academy.com |
+| FORTRAN / John Backus | Referencia histórica | https://en.wikipedia.org/wiki/Fortran |
+
+---
 ## [Matthew Berman] Open-source is WINNING
 **Fecha:** 2026-08-04
 **URL:** https://www.youtube.com/watch?v=CVlKp9Ld-Zg

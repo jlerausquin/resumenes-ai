@@ -1,5 +1,44 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Master Codex with these 15 Tips
+**Fecha:** 2026-08-05
+**URL:** https://www.youtube.com/watch?v=jGR8LnfVPbA
+**Video ID:** jGR8LnfVPbA
+
+### 📝 Resumen
+
+Matthew Berman comparte las mejores prácticas que ha aprendido tras cientos de horas usando ChatGPT y Codex, con el objetivo de sacar el máximo partido a la plataforma y automatizar el mayor número posible de tareas.
+
+#### Navegación web y control del ordenador
+Codex puede navegar por internet en nombre del usuario. En una demostración, a partir de un único prompt investiga cámaras comparables para su estudio, las reúne en una hoja de cálculo con precios, valoraciones y diferencias respecto a la suya, y entrega la información lista para decidir. Berman lo usa también para gestionar reembolsos, negociar con servicio al cliente o archivar correos. Además, Codex puede controlar el ordenador directamente: organizar archivos, eliminar bloatware y acelerar el equipo.
+
+#### Voz, publicación web y fijación de hilos
+El modo de voz nativo de Codex permite dirigir por voz a los agentes, lanzar tareas en hilos nuevos y supervisarlos sin escribir. La función ChatGPT Sites publica en la web cualquier contenido —poemas, hojas de cálculo, portfolios— generando URLs que se pueden compartir con cualquier persona o incluso con otros agentes. La opción de fijar chats (pinning) ayuda a mantener a la vista las conversaciones y proyectos más importantes del momento.
+
+#### Elección de modelo: Luna, Terra y Soul
+Con GPT-5.6 y sus distintas variantes, la clave está en elegir el modelo adecuado para cada tarea y así optimizar la cuota semanal: Luna para tareas rápidas y económicas, Soul para las más complejas, ajustando además el nivel de razonamiento (thinking effort). El ejemplo práctico: Soul construye una web completa, mientras que Luna es más que suficiente para los retoques de fuentes, colores o imágenes.
+
+#### Tareas programadas y plugins
+Las tareas programadas ejecutan procesos recurrentes cada día, como revisar logs de producción en busca de errores, comprobar el estado de una web o resumir calendario, correo pendiente y prioridades al comenzar la jornada. Al usar Luna, su coste es casi nulo, por lo que conviene automatizar todo lo que se repita. Los plugins conectan ChatGPT con las aplicaciones que el usuario ya utiliza —Gmail, GitHub, Google Drive, Notion, Linear, Dropbox, etc.—, de modo que el modelo no tiene que adivinar cómo usarlas.
+
+#### Skills y objetivos (/goal)
+Las skills convierten flujos de trabajo repetidos en comandos reutilizables que se invocan con "/", y existe además un catálogo de skills publicadas por la comunidad. La función /goal hace que el agente trabaje de forma autónoma hasta alcanzar un objetivo, ya sea verificable ("que la web cargue un 50% más rápido") o juzgado por el propio modelo (LLM as judge), con la opción de fijar límites temporales. Berman ha llegado a tener agentes ejecutándose durante días con esta función, por lo que recomienda usarla con objetivos concretos.
+
+#### Cuota, hilos interconectados y acceso remoto
+Controlar la cuota semanal es esencial: la app muestra el porcentaje consumido y la fecha de reinicio, y existen "banked resets" que conviene gastar antes de que expiren. Los hilos funcionan como un único sistema: un hilo puede buscar, resumir, delegar trabajo y crear otros hilos. Por último, las Connections permiten vincular el móvil al ordenador de escritorio mediante un código QR y seguir trabajando desde cualquier dispositivo, con todos los hilos disponibles en remoto.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| ChatGPT | Producto (OpenAI) | https://chatgpt.com |
+| Codex | Producto (OpenAI) | https://openai.com/codex |
+| GPT-5.6 | Modelo (OpenAI) | https://openai.com |
+| GenSpark — Second Brain Note | Producto (patrocinador) | https://genspark.ai |
+| Forward Future | Proyecto del canal | https://forwardfuture.com |
+| Vídeo previo sobre loops ("7 INSANE loops") | Vídeo del canal | https://www.youtube.com/watch?v=F4a8aMLb678 |
+
+---
 ## [Matthew Berman] Open-source is WINNING
 **Fecha:** 2026-08-04
 **URL:** https://www.youtube.com/watch?v=CVlKp9Ld-Zg

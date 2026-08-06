@@ -1,5 +1,46 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] ¿Fin de los programadores? Tu oportunidad de posicionarte, aunque no sepas programar
+**Fecha:** 2026-08-05
+**URL:** https://www.youtube.com/watch?v=niwfPxiTrlM
+**Video ID:** niwfPxiTrlM
+
+### 📝 Resumen
+
+El vídeo aborda la pregunta que sobrevuela la profesión: si la IA ya programa, ¿sobran los programadores? Javier Garzás sostiene que lo que viene no es el final, sino el renacimiento de la profesión, tanto para los técnicos como para quienes nunca han escrito una línea de código.
+
+#### La IA ya programa: ¿fin o renacimiento?
+El vídeo arranca con un hecho: la IA ya es capaz de crear software, lo que permite a cualquier persona construir aplicaciones sin saber programar. Para fundamentar el "antes y después" se citan referentes del sector. Boris Cherney, creador de Claude Code, ha dejado de usar su editor de código clásico y trabaja con lenguaje natural vía prompts. Robert C. Martin (Uncle Bob), autor de Clean Code, afirma que programar a mano "a la antigua" es prácticamente un suicidio y hoy se limita a rodear a la IA de tests y controles sin necesidad de leer el código. Kent Beck, creador de Extreme Programming, resumió el cambio con su célebre frase: el valor del 90% de sus habilidades acababa de caer a cero, y el 10% restante valía ahora 1000 veces más.
+
+#### Los datos de la adopción
+Se presentan cifras que respaldan la tendencia. El informe DORA de Google Cloud señala que el 90% de los profesionales del desarrollo ya usa IA en su trabajo diario, y los CEOs de Microsoft y Google reconocen que la IA escribe en torno al 30% de su código, cifra que sube cada trimestre. Lovable, herramienta de vibe coding, registra un millón de proyectos nuevos cada semana, y el 80% de quienes construyen con ella no son perfiles técnicos. El propio equipo de Garzás ya crea con IA sus CRMs, dashboards de seguimiento económico, generadores de certificados para su comunidad y todas sus webs corporativas.
+
+#### Implicaciones para los no técnicos
+La conclusión práctica es directa: cualquier profesional —fisioterapeuta, abogado, gestor de proyectos, product owner— debe empezar a crear software ya mediante lenguaje natural, sin tocar una línea de código. La disrupción real no está en las grandes aplicaciones, sino en pequeñas soluciones que mejoran el día a día: dashboards que visualizan datos de gestión y económicos, consultas conversacionales a bases de datos que antes exigían SQL, prototipos e integraciones que antes requerían un equipo informático o un presupuesto inalcanzable.
+
+#### La paradoja de Jevons y la explosión del software
+Al abaratarse la producción de software se disparará su consumo (paradoja de Jevons), igual que ocurrió con la fotografía digital. Habrá mucho más software de "usar y tirar", automatización de tareas cotidianas y, sobre todo, nuevos negocios: emprendedores y startups que antes necesitaban inversión para contratar un equipo técnico ahora podrán validar sus ideas por sí solos. Parte de ese software quedará en prototipo, pero cuando una idea validada empiece a escalar y a acumular usuarios reales, necesitará pasar a un estado profesional.
+
+#### La nueva demanda de perfiles técnicos
+Ahí reside la gran oportunidad para los técnicos: se demandará cada vez más a profesionales capaces de tomar el software creado por no técnicos y llevarlo a un nivel productivo serio, con seguridad, accesibilidad, escalabilidad y guardarraíles, lo que se conoce como ingeniería del arnés o vibe engineering. La vieja escuela, la de programar a mano, queda obsoleta: entre la comunidad corre la frase de que escribir código a mano empieza a ser "una irresponsabilidad", porque te hace lento y te saca del sistema.
+
+#### La lección histórica de Fortran
+Para responder si la IA acabará con la profesión, el vídeo recurre a la historia. Cuando apareció Fortran en los años 50, el "sacerdocio" de programadores veteranos criticó a John Backus por haber hecho la programación tan fácil que cualquiera pudiera usarla, tachándolo de revolucionario loco. Lejos de acabar con la profesión, los lenguajes de alto nivel multiplicaron el número de personas que entraron en la programación. La misma lógica se aplica a la IA: no eliminará la profesión, la disparará. A quien se esté planteando formarse en programación, Garzás le recomienda hacerlo sí, pero en la "nueva informática": entender qué hay detrás del código para saber dirigir a la IA y hacer robusto y escalable el software que otros crean con ella.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Claude Code (Anthropic) | Producto | https://claude.com/claude-code |
+| Robert C. Martin (Uncle Bob) — Clean Code | Autor / Libro | https://blog.cleancoder.com |
+| Kent Beck — Extreme Programming | Metodología | https://www.extremeprogramming.org |
+| Informe DORA (Google Cloud) | Informe | https://dora.dev |
+| Lovable | Producto | https://lovable.dev |
+| javiergarzas.com | Web del canal | https://javiergarzas.com |
+| 23academy.com | Formación | https://23academy.com |
+| FORTRAN / John Backus | Referencia histórica | https://en.wikipedia.org/wiki/Fortran |
+
+---
 ## [Javier Garzás] Claude Code for project management without coding knowledge
 **Fecha:** 2026-07-30
 **URL:** https://www.youtube.com/watch?v=-QKnfdAjgjY
