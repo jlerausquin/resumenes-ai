@@ -1,6 +1,56 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] What is Google even doing?
+
+**Fecha:** 2026-08-07
+**URL:** https://www.youtube.com/watch?v=LVepOOCtjnQ
+**Video ID:** LVepOOCtjnQ
+
+### 📝 Resumen
+
+El vídeo analiza la crisis de liderazgo y estrategia que atraviesa Google en IA, partiendo de dos noticias recientes: la salida de Jeff Dean (empleado nº 30 y arquitecto de gran parte de la infraestructura de Google) para fundar su propia empresa, y la renuncia de Demis Hassabis como CEO de Google DeepMind. El autor reconstruye cómo Google pasó de liderar la IA durante casi dos décadas a ser cuestionada en el presente, y ofrece tanto el diagnóstico de los fallos como una visión optimista sobre sus opciones futuras.
+
+#### El legado que Google no supo aprovechar
+
+El vídeo recuerda que Google estuvo en la vanguardia de la IA durante años: publicó el paper seminal "Attention Is All You Need" en 2017 —la base de todos los sistemas modernos como ChatGPT o los modelos de Anthropic— y DeepMind desarrolló sistemas que derrotaron a los mejores humanos en Go y StarCraft. Sin embargo, la compañía no logró convertir esa ventaja investigadora en productos. El caso más llamativo lo aporta un ingeniero conocido como Tibo, actual líder del equipo Codex en OpenAI y antiguo miembro del equipo de Jeff Dean: según él, Google tenía un producto tipo ChatGPT un año antes del lanzamiento real, con el nombre en clave LM Chat, pero nunca lo lanzó por miedo a canibalizar su propio negocio.
+
+#### El dilema del innovador
+
+El núcleo del análisis es el concepto del "innovator's dilemma": las decisiones más lógicas y rentables a corto plazo son precisamente las que conducen al fracaso cuando aparece una tecnología disruptiva. Google depende de su "vaca lechera" —el buscador y la publicidad asociada, un negocio de márgenes enormes— y DeepMind tenía bloqueado el lanzamiento de cualquier producto que pudiera amenazarlo. A ese miedo a romper el modelo de negocio se suma la naturaleza no determinista de la IA: Google desconfiaba de lanzar sistemas que no pudiera controlar por completo y que pudieran dañar su imagen.
+
+#### La salida de Demis Hassabis
+
+El vídeo interpreta la renuncia de Hassabis como una decisión estratégica personal: pasa a ser presidente de Google DeepMind y chief scientist de Alphabet, un rol que le permite centrarse en estrategia a largo plazo y en acelerar avances científicos, incluido su trabajo en Isomorphic para curar enfermedades. Según el análisis, Hassabis identifica que la "vaca lechera" de Google está bajo asedio y no quiere gestionar esa transición, sino ir a la frontera y construir el futuro lejos de la presión de los resultados trimestrales.
+
+#### La marcha de Jeff Dean
+
+La salida de Jeff Dean se presenta como un hecho aún más significativo: no se trata de un cambio de rol, sino de una marcha definitiva. Incluso con presupuesto, cómputo y libertad aparentemente ilimitados dentro de Google, Dean no consideró posible construir su visión dentro de la compañía, lo que el autor considera muy revelador de la cultura interna actual. Dean funda Discovery Loop, una empresa centrada en "automatizar el descubrimiento para acelerar la ciencia y la ingeniería", junto a otros tres ex-Googlers cuyo historial incluye el buscador, Google Ads, Gmail, News, Translate, Gemini, las TPU cloud, MapReduce, AlphaStar y AlphaFold.
+
+#### Factores culturales internos
+
+Además del dilema del innovador, el vídeo apunta a la burocracia intermedia: un estamento de mandos intermedios que prefiere proteger su empleo y el statu quo antes que impulsar el cambio. El autor reconoce que esta parte es especulación, pero considera que ese conservadurismo interno contribuyó a los problemas culturales que llevaron a la fuga de talento.
+
+#### Un futuro todavía prometedor
+
+Pese a todo, el vídeo concluye con una nota optimista: Google conserva ventajas estructurales importantes —datos propietarios de entrenamiento sin parangón, sus propios chips TPU (ya en su octava generación), el ecosistema Android y una enorme generación de caja para seguir haciendo apuestas masivas— y la historia demuestra que los equipos suelen fortalecerse tras la salida de figuras clave. Como recomendación estratégica, el autor sugiere que Google deje de competir en la frontera con modelos como Fable o Soul y apueste de forma decidida por el open source: lanzar los mejores modelos abiertos (como ya hace con Gemma), lograr que la comunidad construya sobre su arquitectura y monetizar el hardware (TPU) que alimenta esos modelos, una estrategia que ya siguen empresas chinas y que Nvidia impulsa con su inversión de más de 20.000 millones de dólares en su familia Nemotron.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Paper "Attention Is All You Need" (2017) | https://arxiv.org/abs/1706.03762 |
+| Google DeepMind | https://deepmind.google |
+| Isomorphic Labs (Demis Hassabis) | https://www.isomorphiclabs.com |
+| AlphaFold | https://deepmind.google/technologies/alphafold/ |
+| Gemma (modelos abiertos de Google) | https://ai.google.dev/gemma |
+| Google Cloud TPU | https://cloud.google.com/tpu |
+| Nvidia Nemotron (open source) | https://developer.nvidia.com/nemotron |
+| Logan Kilpatrick (Google, invitado habitual) | https://x.com/LoganK |
+| Discovery Loop (nueva empresa de Jeff Dean) | — |
+| Tuit de Tibo (OpenAI Codex, ex-DeepMind) | — |
+
+---
 ## [Matthew Berman] Master Codex with these 15 Tips
 **Fecha:** 2026-08-05
 **URL:** https://www.youtube.com/watch?v=jGR8LnfVPbA
