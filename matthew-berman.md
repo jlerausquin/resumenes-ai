@@ -1,5 +1,47 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Mark Zuckerberg just called out Dario (and Anthropic)
+**Fecha:** 2026-08-12
+**URL:** https://www.youtube.com/watch?v=hZqJvWDI0Rs
+**Video ID:** hZqJvWDI0Rs
+
+### 📝 Resumen
+
+Matthew Berman analiza en profundidad el ensayo de Mark Zuckerberg titulado "The Future is for Everyone", en el que el CEO de Meta defiende una visión de inteligencia artificial distribuida y de código abierto frente al enfoque centralizado de laboratorios como Anthropic. Berman aplaude buena parte de la filosofía del ensayo, pero identifica un fallo crítico que, en su opinión, atraviesa todo el argumento: el cómputo (y la energía que lo alimenta) es finito, y quien tenga más capital podrá comprar más capacidad de cómputo, lo que terminaría por imponer una ventaja estructural imposible de igualar.
+
+#### El ensayo y la filosofía de Meta
+
+Zuckerberg plantea tres principios rectores: el empoderamiento individual como fuente de prosperidad, la invención (no la automatización) como propósito principal de la superinteligencia, y el equilibrio de poder como fundamento de la seguridad. El texto aprovecha para lanzar dardos directos contra Anthropic, citando las declaraciones de Dario Amodei sobre un "bloodbath" de cuello blanco: Berman considera contradictorio que un laboratorio profetice un futuro sombrío y a la vez construya la tecnología que lo provocaría, y coincide con la idea de que la seguridad no debe depender de que unos pocos decidan por todos. La concentración de poder con IA es, dice, su mayor temor.
+
+#### La promesa de abundancia
+
+El ensayo describe un futuro en el que cada persona dispondrá de agentes personales trabajando 24/7 en su salud, finanzas, carrera u hogar, y de tutores con nivel de doctorado en cualquier materia. Berman subraya dos puntos que le entusiasman: la economía de la "cola larga" de problemas (enfermedades raras o nichos que antes no eran rentables ahora sí lo son con IA) y la llegada de empresas de una sola persona capaces de alcanzar valoraciones de miles de millones. También repasa la anécdota del CTO de Meta, Andrew Bosworth, desdeñando la pregunta de un empleado sobre los "Meta Days", ilustrando la división entre quienes usarán el tiempo liberado para descansar y quienes lo reinvertirán en trabajar más.
+
+#### El fallo crítico: cómputo finito y "clase permanente"
+
+Aquí se rompe el argumento, según Berman. Zuckerberg promete acceso gratuito o asequible a la superinteligencia con un mecanismo de subasta dinámica para quien quiera más cómputo. El problema: el cómputo es finito y quien tenga más capital comprará más inteligencia, generará más ingresos y ampliará su ventaja — el concepto de "clase permanente" (permanent underclass). Berman aplica el razonamiento a los ejemplos del propio ensayo: en un juicio donde ambas partes tengan superinteligencia, ganará quien pueda lanzar más cómputo al modelo; en los negocios, una gran empresa con megacentros de datos siempre podrá superar en cómputo a una startup; solo en ciberseguridad le parece que la asimetría juega a favor (los defensores corporativos tienen más recursos que los atacantes). La conclusión: "superinteligencia para todos" iguala el nivel de la capa de modelos, pero no el acceso al cómputo.
+
+#### Empleo, empresas y percepción pública
+
+Berman coincide con la tesis de que la IA creará más empleo del que destruye: nuevos oficios como estudios de producto unipersonales, diseñadores de mundos o biólogos personales, apoyándose en la analogía agrícola (del 90% de agricultores a cifras de un dígito). También ve plausible la reducción del tamaño medio de las empresas, con más compañías y menos empleados cada una. Respecto a los centros de datos, destaca el caso de Richland Parish (Luisiana), donde los profesores recibieron bonificaciones de 50.000 dólares por la recaudación fiscal, y las promesas de Meta de ser "water positive" para 2030 con sistemas de circuito cerrado.
+
+#### Seguridad, bioseguridad y la carrera con China
+
+Sobre los riesgos biológicos y químicos, Berman discrepa de Anthropic: controlar la difusión del conocimiento es casi imposible ("el conocimiento encuentra salida"), pero regular los componentes físicos, las instalaciones y la experiencia necesarias para fabricar armas sí es factible, como demuestra el precedente nuclear. En geopolítica, resalta que Zuckerberg defiende mantener los controles de exportación de chips (frente a Jensen Huang y Nvidia, que abogan por vender los mejores chips a China), reclama más energía e infraestructura para EE.UU. y pide que la destilación de modelos sea legal, apuntando de nuevo a Anthropic, que la ha enmarcado como dañina.
+
+#### Control y mejora recursiva
+
+El ensayo sugiere que si varios laboratorios alcanzaran la mejora recursiva (RSI) casi a la vez, se equilibrarían mutuamente. Berman no lo cree: la RSI se compone exponencialmente y la brecha entre el primero y el segundo solo se amplía desde el primer momento. Cierra el vídeo con un balance: le encanta la visión, apoya el código abierto y quiere superinteligencia para todos, pero sigue sin ver cómo evitar que, al final, todo se reduzca a quién controla más cómputo y energía — aunque confía en que la necesidad de retorno del capital acabe orientando el cómputo hacia problemas que la sociedad realmente necesita resolver.
+
+### 🔗 Referencias
+
+| Tipo | Enlace | Descripción |
+|------|--------|-------------|
+| 📄 Artículo | https://www.meta.com/thefutureisforeveryone/ | Ensayo de Mark Zuckerberg "The Future is for Everyone" |
+| 📄 Artículo | https://www.inc.com/kevin-haynes/a-meta-employee-asked-for-more-time-off-cto-andrew-bosworth-called-the-question-very-dumb/91387314 | Inc.: empleado de Meta pregunta por los "Meta Days" y la respuesta de Andrew Bosworth |
+| 🏢 Empresa/Producto | https://bit.ly/4ceg6ku | Zapier MCP (patrocinador del vídeo) |
+
+---
 ## [Matthew Berman] What is Google even doing?
 
 **Fecha:** 2026-08-07
