@@ -1,5 +1,45 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] El dashboard de mi proyecto en 3 min con Claude Code (deja de perder tardes en informes)
+**Fecha:** 2026-08-12
+**URL:** https://www.youtube.com/watch?v=N5HpfPhp13k
+**Video ID:** N5HpfPhp13k
+
+### 📝 Resumen
+
+El vídeo muestra cómo construir cuadros de mando de proyectos con IA en minutos, siguiendo un camino de tres niveles de complejidad creciente: desde un chat en el navegador con ficheros adjuntos hasta una IA instalada en local que se actualiza sola de forma periódica. La propuesta central es que la elaboración manual de informes de seguimiento (sintetizar datos de correos, Jira, Notion o Excel y maquetarlos en PowerPoint) ha quedado obsoleta frente a los asistentes de IA.
+
+#### El problema: informes que consumen tardes enteras
+Garzás parte del dolor habitual de cualquier responsable de proyecto: reunir incidencias, correos, ficheros locales y métricas de herramientas diversas, cruzarlos, sintetizarlos y maquetar la salida (PowerPoint, PDF o Excel). Ese proceso, que tradicionalmente llevaba horas o tardes, es precisamente el que la IA elimina: el método manual se sustituye por prompts y skills que encapsulan el criterio de selección y síntesis.
+
+#### Nivel 1: dashboard en el navegador arrastrando ficheros
+La primera demo es inmediata y gratuita: se arrastra un Excel con costes y avance del proyecto a un chatbot (Claude, ChatGPT o Gemini) y, con un prompt sencillo, el asistente analiza los datos, extrae conclusiones y genera un artefacto interactivo con KPIs clásicos —coste, plazo, alcance y calidad—, desviaciones, CPIs, composición del gasto mes a mes y gráficos como el diagrama de Kiviat. El resultado es descargable y publicable, y se puede refinar ajustando el prompt a la casuística de cada proyecto.
+
+#### Nivel 2: conexión en vivo a las herramientas con MCP
+El segundo nivel conecta el chat a las herramientas reales del proyecto mediante conectores MCP (Model Context Protocol), como el de Notion, activable desde el propio Claude. Con lenguaje natural se consultan bases de datos, sprints e incidencias y se cruzan varias fuentes a la vez (Jira, Gmail, calendario o CRM). En la demo, el asistente genera una versión 2 del cuadro de mando leyendo directamente los datos de un proyecto Notion, sin exportaciones ni subidas de ficheros.
+
+#### Nivel 3: IA local con acceso a carpetas y ficheros
+El escalón más potente instala la IA en local —Claude Desktop con Claude Code integrado, o el equivalente Codex de OpenAI— y le concede acceso controlado a la carpeta del proyecto. Así el asistente lee actas, PDFs, OKRs y Excel locales, combina esa información con los conectores MCP y produce un dashboard HTML interactivo, visible en un navegador integrado, con velocidad por sprint, valor de negocio, incidencias por módulo o severidad. Garzás insiste en las precauciones de seguridad: no subir nada confidencial y hacer copias de seguridad.
+
+#### Rutinas: el cuadro de mando que se actualiza solo
+El cierre del vídeo presenta las rutinas de Claude Code: tareas programadas que se ejecutan periódicamente. Con una rutina configurada para cada viernes a las 8:00, el asistente relee la carpeta del proyecto, consulta Notion vía MCP y regenera el dashboard HTML automáticamente, dejando un resumen de cinco líneas con los cambios. A las 8:05 el responsable ya tiene el informe listo sin intervención.
+
+#### Conclusión
+Garzás resume que cada usuario puede quedarse en el nivel que necesite, pero subraya que la combinación de acceso a herramientas (MCP), acceso a ficheros locales y automatización por rutinas supera con creces al chatbot tradicional, ahorrando horas y mejorando la calidad visual de los informes. Invita a la comunidad a compartir sus propias experiencias y flujos.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Model Context Protocol (MCP) | https://modelcontextprotocol.io |
+| Claude Code (Anthropic) | https://www.anthropic.com/claude-code |
+| Claude Desktop (Anthropic) | https://www.anthropic.com |
+| OpenAI Codex | https://openai.com |
+| Notion | https://www.notion.com |
+| Jira (Atlassian) | https://www.atlassian.com/software/jira |
+| Supabase | https://supabase.com |
+
+---
 ## [Javier Garzás] ¿Fin de los programadores? Tu oportunidad de posicionarte, aunque no sepas programar
 **Fecha:** 2026-08-05
 **URL:** https://www.youtube.com/watch?v=niwfPxiTrlM

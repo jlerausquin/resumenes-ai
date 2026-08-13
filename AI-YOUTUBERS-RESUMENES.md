@@ -1,6 +1,126 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] Cursor just made something incredible...
+**Fecha:** 2026-08-12
+**URL:** https://www.youtube.com/watch?v=mZM-J7XK5Aw
+**Video ID:** mZM-J7XK5Aw
+
+### 📝 Resumen
+
+Berman analiza Grockbot, la nueva aplicación agéntica del equipo de Cursor, diseñada para el gran público: una interfaz de chat depurada que oculta el código, las llamadas a herramientas e incluso el selector de modelo, pero que mantiene toda la potencia de un agente de código bajo el capó.
+
+#### Un agente conversacional para todos
+Grockbot se presenta como una app de mensajería al uso —hilos a la izquierda, chat a la derecha— sin rastro de código, directorios ni textos de "pensamiento" brillantes. La ausencia deliberada de tool calls y de selector de modelo (el usuario ni siquiera sabe qué modelo usa) refuerza la idea de que está pensada para trabajadores del conocimiento no técnicos, sin renunciar a la capacidad de Cursor o Codex.
+
+#### Cada hilo es un agente
+A diferencia de Cursor, donde los hilos separan temas de un mismo agente, en Grockbot cada hilo es un agente independiente con su propia personalidad y funciones: chief of staff, email, calendario, limpieza del ordenador. Berman muestra cómo crear un bot para comprar en Amazon y cómo el agente le hace preguntas para afinar la búsqueda. Su solución personal al "ruido" de tener muchos agentes es el patrón del chief of staff: un agente principal con contexto largo que delega en los demás.
+
+#### Computadoras en la nube y control del PC local
+La característica que más lo diferencia es que cada agente despliega su propio ordenador completo en la nube —una máquina Linux con gestor de archivos visible—, donde navega por sitios reales como Amazon y envía capturas del resultado. Todos los entornos comparten autenticación, por lo que basta iniciar sesión una vez. Además, el mismo agente puede operar sobre el equipo local del usuario, ofreciendo un híbrido local-nube que Berman considera único frente al enfoque local-first de Codex o Claude Code.
+
+#### Agentes que se comunican entre sí
+Otra novedad destacada es la mensajería entre agentes con conversaciones persistentes: al preguntar al chief of staff cuántos correos son archivables, este encarga la tarea al agente de email y trae de vuelta el resultado (3 de 21 hilos superan el umbral seguro), y el usuario puede consultar la conversación completa entre ambos. Esa persistencia acumula contexto que luego puede reutilizarse.
+
+#### Plugins, rutinas y tareas enseñadas
+Grockbot se potencia con plugins estilo MCP para Gmail, Google Drive, Google Calendar, Slack, Notion o Box; con rutinas programadas (como la limpieza semanal del disco o un resumen diario de correos importantes); y con "teach a task", donde el usuario demuestra un flujo en el entorno del agente —por ejemplo, copiar el precio de un producto de Amazon a una hoja de Google— y el sistema genera automáticamente una skill reutilizable. Berman también prueba instalar skills desde el marketplace y desde repositorios privados, como la "humanizer".
+
+#### Impresión general y fronteras difusas
+Berman valora la rapidez y capacidad del modelo y el diseño pensado para no técnicos, pero cuestiona tener una aplicación separada de Cursor: la línea entre "trabajo de conocimiento" y "código" será borrosa, y echa de menos un producto único que decida por sí mismo qué mostrar (código, tool calls o solo el resultado). El vídeo incluye la promoción del patrocinador Here.Now, que permite publicar documentos en la web desde los agentes en segundos.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Grockbot (equipo de Cursor) | — |
+| Cursor | https://cursor.com |
+| OpenAI Codex | https://openai.com |
+| Claude Code (Anthropic) | https://www.anthropic.com/claude-code |
+| Model Context Protocol (MCP) | https://modelcontextprotocol.io |
+| Here.Now | https://here.now |
+| Notion | https://www.notion.com |
+| Box | https://box.com |
+| Slack | https://slack.com |
+| Google Workspace (Gmail, Drive, Calendar) | https://workspace.google.com |
+
+---
+## [Matt Wolfe] Making An Actually Fun 3D Game with AI
+**Fecha:** 2026-08-13
+**URL:** https://www.youtube.com/watch?v=qK4nV_LnXxQ
+**Video ID:** qK4nV_LnXxQ
+
+### 📝 Resumen
+
+Un año después de crear su primer juego "vibecodeado", The Librarian, Matt Wolfe vuelve a intentarlo con una secuela en 3D mucho más ambiciosa, usando dos modelos de código distintos en fases diferentes. Más allá del resultado, el vídeo es una defensa argumentada de la industria del videojuego frente a quienes proclaman que "está cocinada" por la IA.
+
+#### El concepto: The Librarian 2
+La secuela parte del bucle del juego original —recoger libros y devolverlos a las estanterías antes de que el medidor de caos llegue al 100%— y lo amplía: gráficos 3D, niveles generados proceduralmente, nuevos power-ups, mejoras meta permanentes entre partidas, jefes, alumnos enfermos y desastres naturales como terremotos o tornados. El objetivo de diseño es permitir "broken runs", partidas en las que el personaje se vuelve tan poderoso que el juego resulta casi effortless, al estilo roguelite.
+
+#### Dos modelos para dos fases
+Wolfe reparte el trabajo entre Claude Code con el modelo Opus 5, responsable de la construcción inicial —el modelo detrás de los demos más impresionantes de juegos con aspecto AAA—, y Codex con GPT-5.6 para el ajuste fino posterior, cerrando con el modelo tope de OpenAI para los últimos retoques. Dicta las ideas con Whisper Flow y usa GitHub como respaldo de versiones, además de un design.md que describe el estado del juego para que el segundo modelo retome el trabajo sin perder contexto.
+
+#### Construcción, autotest y autoajuste
+En hora y media, Opus 5 generó 10.400 líneas de código en 33 módulos sin un solo fichero de assets: texturas, materiales, personajes, efectos de sonido y música se generan íntegramente en código. Lo más llamativo es que Claude Code abre el juego en su propio navegador, lo ejecuta, detecta errores (cámara atravesando techos, profundidad de campo) y los corrige solo, e incluso reequilibra la dificultad cuando detecta que los jefes dominan el medidor de caos.
+
+#### Iteración y testeo con Dave
+Tras probar la V1 —controles invertidos, tienda meta sin botón de volver—, Wolfe pide las correcciones, añade un personaje jugable basado en su propia imagen de miniatura ("Wolf") y pasa a Codex, que sugiere 12 mejoras priorizadas, entre ellas arreglar la alcanzabilidad procedural, el apilamiento de progresión y añadir un tutorial interactivo. La revisión final junto a su productor Dave deja un balance agridulce: visualmente es un gran salto, pero aún quedan desequilibrios evidentes (el acosador Braden es imposible de atrapar, el tornado apenas tira libros).
+
+#### La industria del videojuego no está "cocinada"
+Wolfe dedica el cierre a rebatir los mensajes de X que sentencian la muerte del desarrollo de juegos. Su conclusión, en línea con la famosa frase del CEO de Take-Two, es que el código nunca fue el cuello de botella: lo difícil son las pequeñas decisiones, el equilibrio, la diversión y la dirección creativa. La IA acelera la producción y permite a cualquiera hacer juegos sorprendentemente pulidos, pero no sustituye al criterio del diseñador, y la mayoría de jugadores seguirá comprando juegos de estudios profesionales. El juego queda disponible de forma gratuita para probar, descargar y forkear.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Claude Code (Anthropic) | https://www.anthropic.com/claude-code |
+| Anthropic Opus 5 | https://www.anthropic.com |
+| OpenAI Codex | https://openai.com |
+| OpenAI GPT-5.6 | https://openai.com |
+| Whisper Flow | https://whisperflow.ai |
+| The Librarian (juego original, repo en GitHub) | https://github.com |
+| GitHub | https://github.com |
+
+---
+## [Javier Garzás] El dashboard de mi proyecto en 3 min con Claude Code (deja de perder tardes en informes)
+**Fecha:** 2026-08-12
+**URL:** https://www.youtube.com/watch?v=N5HpfPhp13k
+**Video ID:** N5HpfPhp13k
+
+### 📝 Resumen
+
+El vídeo muestra cómo construir cuadros de mando de proyectos con IA en minutos, siguiendo un camino de tres niveles de complejidad creciente: desde un chat en el navegador con ficheros adjuntos hasta una IA instalada en local que se actualiza sola de forma periódica. La propuesta central es que la elaboración manual de informes de seguimiento (sintetizar datos de correos, Jira, Notion o Excel y maquetarlos en PowerPoint) ha quedado obsoleta frente a los asistentes de IA.
+
+#### El problema: informes que consumen tardes enteras
+Garzás parte del dolor habitual de cualquier responsable de proyecto: reunir incidencias, correos, ficheros locales y métricas de herramientas diversas, cruzarlos, sintetizarlos y maquetar la salida (PowerPoint, PDF o Excel). Ese proceso, que tradicionalmente llevaba horas o tardes, es precisamente el que la IA elimina: el método manual se sustituye por prompts y skills que encapsulan el criterio de selección y síntesis.
+
+#### Nivel 1: dashboard en el navegador arrastrando ficheros
+La primera demo es inmediata y gratuita: se arrastra un Excel con costes y avance del proyecto a un chatbot (Claude, ChatGPT o Gemini) y, con un prompt sencillo, el asistente analiza los datos, extrae conclusiones y genera un artefacto interactivo con KPIs clásicos —coste, plazo, alcance y calidad—, desviaciones, CPIs, composición del gasto mes a mes y gráficos como el diagrama de Kiviat. El resultado es descargable y publicable, y se puede refinar ajustando el prompt a la casuística de cada proyecto.
+
+#### Nivel 2: conexión en vivo a las herramientas con MCP
+El segundo nivel conecta el chat a las herramientas reales del proyecto mediante conectores MCP (Model Context Protocol), como el de Notion, activable desde el propio Claude. Con lenguaje natural se consultan bases de datos, sprints e incidencias y se cruzan varias fuentes a la vez (Jira, Gmail, calendario o CRM). En la demo, el asistente genera una versión 2 del cuadro de mando leyendo directamente los datos de un proyecto Notion, sin exportaciones ni subidas de ficheros.
+
+#### Nivel 3: IA local con acceso a carpetas y ficheros
+El escalón más potente instala la IA en local —Claude Desktop con Claude Code integrado, o el equivalente Codex de OpenAI— y le concede acceso controlado a la carpeta del proyecto. Así el asistente lee actas, PDFs, OKRs y Excel locales, combina esa información con los conectores MCP y produce un dashboard HTML interactivo, visible en un navegador integrado, con velocidad por sprint, valor de negocio, incidencias por módulo o severidad. Garzás insiste en las precauciones de seguridad: no subir nada confidencial y hacer copias de seguridad.
+
+#### Rutinas: el cuadro de mando que se actualiza solo
+El cierre del vídeo presenta las rutinas de Claude Code: tareas programadas que se ejecutan periódicamente. Con una rutina configurada para cada viernes a las 8:00, el asistente relee la carpeta del proyecto, consulta Notion vía MCP y regenera el dashboard HTML automáticamente, dejando un resumen de cinco líneas con los cambios. A las 8:05 el responsable ya tiene el informe listo sin intervención.
+
+#### Conclusión
+Garzás resume que cada usuario puede quedarse en el nivel que necesite, pero subraya que la combinación de acceso a herramientas (MCP), acceso a ficheros locales y automatización por rutinas supera con creces al chatbot tradicional, ahorrando horas y mejorando la calidad visual de los informes. Invita a la comunidad a compartir sus propias experiencias y flujos.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Model Context Protocol (MCP) | https://modelcontextprotocol.io |
+| Claude Code (Anthropic) | https://www.anthropic.com/claude-code |
+| Claude Desktop (Anthropic) | https://www.anthropic.com |
+| OpenAI Codex | https://openai.com |
+| Notion | https://www.notion.com |
+| Jira (Atlassian) | https://www.atlassian.com/software/jira |
+| Supabase | https://supabase.com |
+
+---
 ## [Matthew Berman] Mark Zuckerberg just called out Dario (and Anthropic)
 **Fecha:** 2026-08-12
 **URL:** https://www.youtube.com/watch?v=hZqJvWDI0Rs

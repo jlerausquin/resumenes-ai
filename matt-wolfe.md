@@ -1,5 +1,42 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] Making An Actually Fun 3D Game with AI
+**Fecha:** 2026-08-13
+**URL:** https://www.youtube.com/watch?v=qK4nV_LnXxQ
+**Video ID:** qK4nV_LnXxQ
+
+### 📝 Resumen
+
+Un año después de crear su primer juego "vibecodeado", The Librarian, Matt Wolfe vuelve a intentarlo con una secuela en 3D mucho más ambiciosa, usando dos modelos de código distintos en fases diferentes. Más allá del resultado, el vídeo es una defensa argumentada de la industria del videojuego frente a quienes proclaman que "está cocinada" por la IA.
+
+#### El concepto: The Librarian 2
+La secuela parte del bucle del juego original —recoger libros y devolverlos a las estanterías antes de que el medidor de caos llegue al 100%— y lo amplía: gráficos 3D, niveles generados proceduralmente, nuevos power-ups, mejoras meta permanentes entre partidas, jefes, alumnos enfermos y desastres naturales como terremotos o tornados. El objetivo de diseño es permitir "broken runs", partidas en las que el personaje se vuelve tan poderoso que el juego resulta casi effortless, al estilo roguelite.
+
+#### Dos modelos para dos fases
+Wolfe reparte el trabajo entre Claude Code con el modelo Opus 5, responsable de la construcción inicial —el modelo detrás de los demos más impresionantes de juegos con aspecto AAA—, y Codex con GPT-5.6 para el ajuste fino posterior, cerrando con el modelo tope de OpenAI para los últimos retoques. Dicta las ideas con Whisper Flow y usa GitHub como respaldo de versiones, además de un design.md que describe el estado del juego para que el segundo modelo retome el trabajo sin perder contexto.
+
+#### Construcción, autotest y autoajuste
+En hora y media, Opus 5 generó 10.400 líneas de código en 33 módulos sin un solo fichero de assets: texturas, materiales, personajes, efectos de sonido y música se generan íntegramente en código. Lo más llamativo es que Claude Code abre el juego en su propio navegador, lo ejecuta, detecta errores (cámara atravesando techos, profundidad de campo) y los corrige solo, e incluso reequilibra la dificultad cuando detecta que los jefes dominan el medidor de caos.
+
+#### Iteración y testeo con Dave
+Tras probar la V1 —controles invertidos, tienda meta sin botón de volver—, Wolfe pide las correcciones, añade un personaje jugable basado en su propia imagen de miniatura ("Wolf") y pasa a Codex, que sugiere 12 mejoras priorizadas, entre ellas arreglar la alcanzabilidad procedural, el apilamiento de progresión y añadir un tutorial interactivo. La revisión final junto a su productor Dave deja un balance agridulce: visualmente es un gran salto, pero aún quedan desequilibrios evidentes (el acosador Braden es imposible de atrapar, el tornado apenas tira libros).
+
+#### La industria del videojuego no está "cocinada"
+Wolfe dedica el cierre a rebatir los mensajes de X que sentencian la muerte del desarrollo de juegos. Su conclusión, en línea con la famosa frase del CEO de Take-Two, es que el código nunca fue el cuello de botella: lo difícil son las pequeñas decisiones, el equilibrio, la diversión y la dirección creativa. La IA acelera la producción y permite a cualquiera hacer juegos sorprendentemente pulidos, pero no sustituye al criterio del diseñador, y la mayoría de jugadores seguirá comprando juegos de estudios profesionales. El juego queda disponible de forma gratuita para probar, descargar y forkear.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Claude Code (Anthropic) | https://www.anthropic.com/claude-code |
+| Anthropic Opus 5 | https://www.anthropic.com |
+| OpenAI Codex | https://openai.com |
+| OpenAI GPT-5.6 | https://openai.com |
+| Whisper Flow | https://whisperflow.ai |
+| The Librarian (juego original, repo en GitHub) | https://github.com |
+| GitHub | https://github.com |
+
+---
 ## [Matt Wolfe] AI News: The AI Stories Everyone's Freaking Out About
 **Fecha:** 2026-08-08
 **URL:** https://www.youtube.com/watch?v=ACYAYsVMmT8

@@ -1,5 +1,48 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Cursor just made something incredible...
+**Fecha:** 2026-08-12
+**URL:** https://www.youtube.com/watch?v=mZM-J7XK5Aw
+**Video ID:** mZM-J7XK5Aw
+
+### 📝 Resumen
+
+Berman analiza Grockbot, la nueva aplicación agéntica del equipo de Cursor, diseñada para el gran público: una interfaz de chat depurada que oculta el código, las llamadas a herramientas e incluso el selector de modelo, pero que mantiene toda la potencia de un agente de código bajo el capó.
+
+#### Un agente conversacional para todos
+Grockbot se presenta como una app de mensajería al uso —hilos a la izquierda, chat a la derecha— sin rastro de código, directorios ni textos de "pensamiento" brillantes. La ausencia deliberada de tool calls y de selector de modelo (el usuario ni siquiera sabe qué modelo usa) refuerza la idea de que está pensada para trabajadores del conocimiento no técnicos, sin renunciar a la capacidad de Cursor o Codex.
+
+#### Cada hilo es un agente
+A diferencia de Cursor, donde los hilos separan temas de un mismo agente, en Grockbot cada hilo es un agente independiente con su propia personalidad y funciones: chief of staff, email, calendario, limpieza del ordenador. Berman muestra cómo crear un bot para comprar en Amazon y cómo el agente le hace preguntas para afinar la búsqueda. Su solución personal al "ruido" de tener muchos agentes es el patrón del chief of staff: un agente principal con contexto largo que delega en los demás.
+
+#### Computadoras en la nube y control del PC local
+La característica que más lo diferencia es que cada agente despliega su propio ordenador completo en la nube —una máquina Linux con gestor de archivos visible—, donde navega por sitios reales como Amazon y envía capturas del resultado. Todos los entornos comparten autenticación, por lo que basta iniciar sesión una vez. Además, el mismo agente puede operar sobre el equipo local del usuario, ofreciendo un híbrido local-nube que Berman considera único frente al enfoque local-first de Codex o Claude Code.
+
+#### Agentes que se comunican entre sí
+Otra novedad destacada es la mensajería entre agentes con conversaciones persistentes: al preguntar al chief of staff cuántos correos son archivables, este encarga la tarea al agente de email y trae de vuelta el resultado (3 de 21 hilos superan el umbral seguro), y el usuario puede consultar la conversación completa entre ambos. Esa persistencia acumula contexto que luego puede reutilizarse.
+
+#### Plugins, rutinas y tareas enseñadas
+Grockbot se potencia con plugins estilo MCP para Gmail, Google Drive, Google Calendar, Slack, Notion o Box; con rutinas programadas (como la limpieza semanal del disco o un resumen diario de correos importantes); y con "teach a task", donde el usuario demuestra un flujo en el entorno del agente —por ejemplo, copiar el precio de un producto de Amazon a una hoja de Google— y el sistema genera automáticamente una skill reutilizable. Berman también prueba instalar skills desde el marketplace y desde repositorios privados, como la "humanizer".
+
+#### Impresión general y fronteras difusas
+Berman valora la rapidez y capacidad del modelo y el diseño pensado para no técnicos, pero cuestiona tener una aplicación separada de Cursor: la línea entre "trabajo de conocimiento" y "código" será borrosa, y echa de menos un producto único que decida por sí mismo qué mostrar (código, tool calls o solo el resultado). El vídeo incluye la promoción del patrocinador Here.Now, que permite publicar documentos en la web desde los agentes en segundos.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Grockbot (equipo de Cursor) | — |
+| Cursor | https://cursor.com |
+| OpenAI Codex | https://openai.com |
+| Claude Code (Anthropic) | https://www.anthropic.com/claude-code |
+| Model Context Protocol (MCP) | https://modelcontextprotocol.io |
+| Here.Now | https://here.now |
+| Notion | https://www.notion.com |
+| Box | https://box.com |
+| Slack | https://slack.com |
+| Google Workspace (Gmail, Drive, Calendar) | https://workspace.google.com |
+
+---
 ## [Matthew Berman] Mark Zuckerberg just called out Dario (and Anthropic)
 **Fecha:** 2026-08-12
 **URL:** https://www.youtube.com/watch?v=hZqJvWDI0Rs
