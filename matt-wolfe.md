@@ -1,5 +1,58 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI News: A Flood of New Models (Here's What Matters)
+**Fecha:** 2026-08-14
+**URL:** https://www.youtube.com/watch?v=NC4h5kWH_-A
+**Video ID:** NC4h5kWH_-A
+
+### 📝 Resumen
+
+Matt Wolfe repasa una semana saturada de novedades, ordenadas por lo que considera más interesante: el modelo de mundos 3D de Tencent, el nuevo agente Grokbot de xAI, la apuesta creciente de la industria por la transparencia del contenido generado por IA (marcas de agua en Claude, Suno y Spotify) y una avalancha de modelos —Grok 4.6, Gemini 3.7 Flash, Muse Glimmer, Nemotron 3.5 Lightning, DeepSeek V4 Pro, MAI Code 1.1 y el modo ultrarrápido de GPT-5.6 Soul—, además de una ronda rápida de actualizaciones de producto.
+
+#### 🌍 WorldClaw de Tencent: mundos 3D completos con un prompt
+
+Tencent presenta WorldClaw, un modelo que genera mundos 3D enteros donde cada elemento (árboles, casas, carros, farolas...) es un activo editable independiente, con mapas de profundidad, normales e instancias. La arquitectura combina un agente de planificación de terreno y un agente de herramientas que puede buscar en la web para obtener detalles sobre el escenario: las imágenes las genera GPT Image 2, SAM 3 de Meta segmenta cada elemento y la tecnología Hunyuan convierte las imágenes 2D en activos 3D. Wolfe ve aplicaciones en videojuegos, animación y entrenamiento de robots en entornos virtuales. Aún no hay acceso público: el repositorio de GitHub está vacío.
+
+#### 🤖 Grokbot: agentes para quien no quiere tocar código
+
+El nuevo producto de xAI (que ha absorbido Cursor) está pensado para usar agentes tipo OpenClaw o Hermes sin ver código: se crean bots por su nombre y rol (investigación, triage de email, jefe de gabinete, etc.), se conectan plugins (Gmail, Drive, Calendar, Notion, Slack...), y cada agente dispone de su propio ordenador en la nube con Chrome, gestor de archivos y terminal. Se le puede "enseñar" una tarea grabando la pantalla para que cree una skill reutilizable, y las rutinas funcionan como cron jobs activados por horario o por eventos (un nuevo mensaje de Slack, un evento de calendario...). Hay app móvil para gestionar los agentes desde el teléfono mientras siguen trabajando en su ordenador en la nube.
+
+#### 🏷️ La industria aprieta en transparencia: Claude, Suno y Spotify
+
+Anthropic incrustará marcas de agua invisibles en el texto de Claude en todas sus superficies (plataforma, API, Claude Code, Claude Cowork, app); la marca viaja con el texto al copiarlo, aunque su ausencia no demuestra nada. Wolfe cree que surgirán herramientas para esquivarla y recomienda editar los borradores generados. Suno adoptará watermarking y huellas digitales de audio y limitará las descargas (20 al mes en el plan Pro, 60 en el premium, desde el 3 de septiembre), y Spotify empezará a etiquetar a los artistas con identidades generadas por IA ("AI persona") y a excluirlos de las recomendaciones editoriales y algorítmicas. El presentador aplaude la dirección general, con matices sobre los efectos colaterales para creadores legítimos.
+
+#### 📊 Avalancha de modelos: Grok 4.6, Gemini 3.7 Flash y más
+
+Grok 4.6 lidera benchmarks como DeepSuite, GDPval y Harvey Lab (uso legal) con un precio de 2/6 $ por millón de tokens, casi al nivel de GPT-5.6 Soul y Fable 5; Elon Musk promete un 4.7 "significativamente mejor" en tres o cuatro semanas. Google lanza Gemini 3.7 Flash, muy barato (0,75/3,75 $ introductorios hasta fin de año) y especialmente bueno generando SVGs. También pasan por el banco de pruebas: Muse Glimmer (Meta, 30B abierto para ejecutar en local), Nemotron 3.5 Lightning (NVIDIA, 30B open-weight), DeepSeek V4 Pro (versión GA, 62,7 en DeepSuite, por delante de Opus 4.8) y MAI Code 1.1 Flash (Microsoft, sin apenas detalles). Cierra OpenAI con GPT-5.6 Soul en modo ultrarrápido sobre Cerebras a 750 tokens por segundo, solo para testers de confianza. Wolfe matiza que la mayoría de estos lanzamientos son mejoras marginales.
+
+#### ⚡ Ronda rápida de novedades
+
+El resto de actualizaciones: la app de escritorio de ChatGPT (con Codex) llega a Linux; Claude Code activa el modo automático por defecto desde el 14 de agosto en los planes Pro, Max y Team; la extensión de Claude para Chrome usa Claude Cowork para trabajar con todas las pestañas abiertas; las sesiones de Claude Code pueden mensajearse entre sí; LTX 2.5 genera vídeo de 10 segundos desde una imagen en 6,8 segundos en los superchips de NVIDIA (open-weight y ejecutable en RTX); Wan 3.0 de Alibaba genera clips de hasta 30 segundos; MAI Image 2.6 de Microsoft queda segundo en el arena de texto-a-imagen, solo tras GPT Image 2; en Twitch hay que desactivar manualmente que Amazon entrene con los streams; y DeepMind presenta SL2T, un modelo que transcribe lengua de signos a texto.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| WorldClaw / Hunyuan (Tencent) | https://github.com/Tencent |
+| Grokbot / Grok 4.6 (xAI) | https://x.ai |
+| Cursor | https://cursor.com |
+| Anthropic (marcas de agua en Claude) | https://www.anthropic.com/news |
+| EU AI Act | https://artificialintelligenceact.eu |
+| Suno | https://suno.com |
+| Spotify | https://open.spotify.com |
+| Gemini 3.7 Flash (Google DeepMind) | https://deepmind.google |
+| Muse Glimmer (Meta) | https://ai.meta.com |
+| Nemotron (NVIDIA) | https://www.nvidia.com/en-us/ai/ |
+| DeepSeek V4 Pro | https://www.deepseek.com |
+| MAI Code / MAI Image (Microsoft) | https://www.microsoft.com/ai |
+| LTX-Video (Lightricks) | https://github.com/Lightricks/LTX-Video |
+| Wan (Alibaba) | https://github.com/Wan-Video |
+| Cerebras | https://www.cerebras.ai |
+| ChatGPT (OpenAI) | https://openai.com/chatgpt |
+| Claude Code | https://www.anthropic.com/claude-code |
+| SL2T (Google DeepMind) | https://deepmind.google |
+
+---
 ## [Matt Wolfe] Making An Actually Fun 3D Game with AI
 **Fecha:** 2026-08-13
 **URL:** https://www.youtube.com/watch?v=qK4nV_LnXxQ

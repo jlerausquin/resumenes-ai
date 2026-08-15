@@ -1,5 +1,49 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!
+**Fecha:** 2026-08-14
+**URL:** https://www.youtube.com/watch?v=9qix4oDB5aw
+**Video ID:** 9qix4oDB5aw
+
+### 📝 Resumen
+
+Semana intensa en IA según Matthew Berman, que repasa varias novedades simultáneas: el modo ultrarrápido de ChatGPT, la decisión de Anthropic de incrustar marcas de agua en sus salidas, la llegada de Grok 4.6 y de Grokbot tras la absorción de Cursor por parte de xAI, una nueva oleada de modelos de código abierto y una función experimental de OpenAI que observa el uso del ordenador para proponer automatizaciones.
+
+#### ⚡ ChatGPT ultrarrápido: GPT-5.6 "Soul" sobre Cerebras
+
+Berman destaca la alianza entre OpenAI y Cerebras, el proveedor de inferencia con chips propios, que permite ejecutar GPT-5.6 "Soul" a 14 veces la velocidad habitual. En una demo, un dashboard financiero completo se generó en 1 minuto 50 segundos frente a los 12 minutos 20 del modo estándar. El presentador señala que esto cambiará el flujo de trabajo de los desarrolladores: en lugar de lanzar diez agentes en paralelo y sufrir el coste del cambio de contexto, bastará con dos o tres agentes muy rápidos. El cuello de botella se desplaza ahora al equipo del usuario —"los CPUs vuelven"— y todo apunta a una migración aún mayor hacia agentes en la nube. El modo está en preview para testers de confianza.
+
+#### 🏷️ Anthropic añade marcas de agua invisibles a Claude
+
+Anthropic comenzará a incrustar marcas de agua imperceptibles en el texto generado por Claude para cumplir el artículo 52 de la EU AI Act (código de prácticas sobre transparencia del contenido generado por IA). Según el blog de la compañía, la marca aprovecha las elecciones de palabras de "bajo riesgo" que el modelo hace al azar, sustituyendo la fuente de aleatoriedad por una clave; solo se adhiere a palabras elegidas por Claude, por lo que apenas afecta a texto corregido por la IA ni al código, y se aplicará a los futuros modelos. Berman se muestra escéptico: duda de que no tenga ningún efecto sobre las salidas y alerta de las implicaciones de que un proveedor pueda rastrear el texto generado.
+
+#### 🤖 Grok 4.6 y Grokbot: la nueva era de xAI/SpaceX
+
+Tras la adquisición de Cursor, xAI lanza Grok 4.6, un modelo muy competitivo en la frontera —cerca de GPT-5.6 Soul y Fable 5, aunque sin igualarlos— y muy barato: 2 $ por millón de tokens de entrada y 6 $ por millón de salida. Además presenta Grokbot, una interfaz que simplifica los agentes de código: cada hilo es un agente individual, admite plugins (Slack, Google Docs, email, etc.) y permite que los agentes se comuniquen entre sí y conserven sus conversaciones. Berman lo describe como "OpenClaw para un público más amplio": más simple y pulido, pensado para quien no quiere tocar código, y asegura que ya está moviendo buena parte de sus flujos de trabajo a esta herramienta.
+
+#### 🆓 Tres lanzamientos open-source
+
+GLM 5.3 (Zhipu) mejora claramente a su predecesor y supera a Kimi K3 en Terminal Bench, sin alcanzar la frontera absoluta; DeepSeek V4 Pro se muestra "increíblemente capaz" y muy económico, con precios reducidos en horas valle y un coste de caché de 0,02 $ por millón de tokens de entrada; y Meta vuelve a la carga con Muse Glimmer, un modelo abierto de 30B pensado para ejecutarse en una GPU de escritorio (gama 40/50). El creador celebra especialmente el regreso de Meta al open-source, aunque matiza que ninguno de estos modelos compite al nivel de los frontier.
+
+#### 🖥️ "Computer History": OpenAI observa tu ordenador (opt-in)
+
+OpenAI lanza una función que registra la actividad del ordenador y propone automatizaciones. Es opt-in, con controles finos para elegir qué compartir (solo hojas de cálculo, solo el navegador, o nada). Berman recuerda el precedente de Microsoft Recall y el rechazo que sufrió en su lanzamiento; él se muestra dispuesto a probarla con cautela, y resume el sentir de su equipo: "OpenAI tiene novedades locas en las próximas semanas", con rumores de Gemini 3.7 Flash, Gemini 4 Pro y una posible apertura total de Meta.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Cerebras | https://www.cerebras.ai |
+| ChatGPT (OpenAI) | https://openai.com/chatgpt |
+| Blog de Anthropic (marcas de agua en Claude) | https://www.anthropic.com/news |
+| EU AI Act (artículo 52) | https://artificialintelligenceact.eu |
+| Grok 4.6 / Grokbot (xAI) | https://x.ai |
+| Cursor | https://cursor.com |
+| GLM 5.3 (Zhipu AI) | https://z.ai |
+| DeepSeek V4 Pro | https://www.deepseek.com |
+| Muse Glimmer (Meta) | https://ai.meta.com |
+
+---
 ## [Matthew Berman] Cursor just made something incredible...
 **Fecha:** 2026-08-12
 **URL:** https://www.youtube.com/watch?v=mZM-J7XK5Aw
