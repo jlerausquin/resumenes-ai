@@ -1,5 +1,48 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] 6 Open-Source AI Projects Trending NOW
+**Fecha:** 2026-08-17
+**URL:** https://www.youtube.com/watch?v=1RTq_EWv2Yo
+**Video ID:** 1RTq_EWv2Yo
+
+### 📝 Resumen
+
+Matthew Berman presenta seis proyectos de código abierto que, según explica, pueden instalarse de inmediato para potenciar el trabajo con agentes de IA. El recorrido abarca desde herramientas de fine-tuning y ejecución local de modelos hasta navegadores y sistemas de comunicación diseñados específicamente para agentes, pasando por utilidades de productividad y generación 3D.
+
+#### Unsloth: fine-tuning y agente local en una sola herramienta
+Unsloth ha evolucionado de ser una herramienta para simplificar el fine-tuning local de LLMs a una plataforma completa con interfaz de agente tipo ChatGPT, pero 100% local. Soporta los modelos de código abierto más recientes (Kimi K3, MiniMax, Qwen, Muse Glimmer de Meta, DeepSeek V4, Gemma de Google) y permite ejecutar y entrenar modelos de texto, imagen y vídeo. Incluye búsqueda web, herramientas, MCP, memoria y acceso remoto desde cualquier dispositivo, reuniendo en local capacidades similares a las de Codex, Claude Code o Cursor. Su punto fuerte declarado es la facilidad de uso: permite fine-tuning sin escribir código, con una interfaz guiada de apuntar y hacer clic.
+
+#### Diagram Design: diagramas profesionales desde el agente
+El segundo proyecto, Diagram Design, otorga a los agentes la capacidad de generar diagramas con buena estética, evitando flechas rotas o superpuestas. Ofrece múltiples formatos —flowcharts, diagramas de arquitectura, máquinas de estado, líneas de tiempo, cuadrantes— y se instala como plugin o skill en herramientas como Claude Code, Codex, Pi y Hermes Agent. En la demostración, Berman instala la skill en Hermes Agent alojado en Hostinger (patrocinador del vídeo, con código de descuento "Matthew B") y el agente genera al instante un diagrama de arquitectura de Hermes, destacando la ventaja de ejecutar agentes en la nube las 24 horas sin depender de un equipo encendido.
+
+#### Obsidian Skills: la base de conocimiento del agente
+Obsidian Skills conecta al agente con Obsidian, la aplicación de notas basada en markdown y local-first. Al usar la especificación de agent skills, funciona con cualquier agente: Hermes, Claude Code, Codex, Cursor o Grokbot. El vídeo destaca usos como wiki personal, base de conocimiento del agente o "cerebro" central, aprovechando que tanto los agentes como Obsidian trabajan de forma natural con markdown, con almacenamiento local y sincronización opcional entre dispositivos.
+
+#### Buzz: el Slack de código abierto, nativo de agentes
+De la compañía de Jack Dorsey (Block, creador de Twitter y Square) llega Buzz, una alternativa de código abierto a Slack orientada a agentes, que acumuló unos 27.000 stars en su primera semana. Su característica distintiva es que los agentes son ciudadanos de primera clase: trabajan en los mismos canales que el equipo humano. Es autoalojable, prioriza privacidad y seguridad, e integra flujos de trabajo y automatizaciones. Internamente usa un relay de Nostr en el que cada mensaje, reacción, paso de workflow o aprobación es un evento firmado con el mismo modelo de identidad y auditoría, sea el autor una persona o un proceso. Admite cualquier modelo, open source o propietario, local o alojado.
+
+#### Ego Light: el navegador rápido para agentes
+Ego Light se presenta como el navegador más rápido para ceder a los agentes, pensado para automatización del navegador compartiendo el estado de sesión iniciada con agentes como Codex o Claude Code sin interferir con el usuario. Con unos 10.000 stars, se describe como de coste cero y configuración cero: se invoca desde el agente como una skill (por ejemplo, `/browser` en Codex) y ejecuta la navegación de forma visible y veloz.
+
+#### Modly: de imagen a malla 3D, en local
+El último proyecto, Modly, genera mallas 3D a partir de imágenes mediante IA, de forma local y open source (cerca de 6.000 stars). Sirve para generación de assets, impresión 3D o desarrollo de juegos: se carga una imagen y se obtiene una malla 3D lista para usar. No es intensivo en cómputo y funciona en GPUs de escritorio, con soporte para Windows, Linux y Mac.
+
+### 🔗 Referencias
+
+| Proyecto / Producto | Enlace | Descripción |
+|---|---|---|
+| Unsloth | https://github.com/unslothai/unsloth | Fine-tuning e inferencia local de LLMs con UI de agente |
+| Obsidian | https://obsidian.md | App de notas en markdown, local-first |
+| Obsidian Skills | — | Skill para dar al agente acceso a Obsidian |
+| Diagram Design | — | Skill/plugin para generar diagramas desde el agente |
+| Buzz (Block) | https://block.xyz | Alternativa a Slack de código abierto, agent-native |
+| Nostr | https://nostr.com | Protocolo de eventos firmados usado por Buzz |
+| Ego Light | — | Navegador rápido para automatización de agentes |
+| Modly | — | Generación local de mallas 3D a partir de imágenes |
+| Hostinger | https://www.hostinger.com | Patrocinador; hosting en la nube para Hermes (código "Matthew B") |
+| Hermes Agent | https://hermes-agent.nousresearch.com/docs | Agente que ejecuta skills como Diagram Design |
+
+---
 ## [Matthew Berman] AI News: ChatGPT Ultrafast, Grok 4.6, 3 New Open-Source Models, and more!
 **Fecha:** 2026-08-14
 **URL:** https://www.youtube.com/watch?v=9qix4oDB5aw
