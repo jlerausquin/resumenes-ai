@@ -1,5 +1,57 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] Las 7 Nuevas Profesiones con más futuro en la era de la IA (y las mejores no piden saber programar)
+**Fecha:** 2026-08-19
+**URL:** https://www.youtube.com/watch?v=rEnB7_QHj0E
+**Video ID:** rEnB7_QHj0E
+
+### 📝 Resumen
+
+Javier Garzás analiza las siete profesiones emergentes que la IA está creando, ordenadas de mayor a menor exigencia técnica. Parte de una idea central: la IA ya genera la parte algorítmica que antes escribía un programador, lo que permite a personas sin conocimientos técnicos crear software pequeño, automatizaciones e integraciones mediante lenguaje natural. Eso sí, matiza que liberar software en producción para muchos usuarios sigue exigiendo conocimientos de escalabilidad y seguridad. El vídeo subraya que estas profesiones aún no están masificadas, por lo que existe una ventana para posicionarse, y que las tres últimas son especialmente accesibles para perfiles no técnicos.
+
+#### El puente hacia los desarrolladores tradicionales
+
+La primera profesión es la de quien enseña a los desarrolladores clásicos la nueva forma de crear software con IA, un ámbito con familias emergentes como el desarrollo dirigido por especificaciones (SDD) o la "codificación aumentada", término que atribuye a Kent Beck. También menciona el ecosistema de frameworks e infraestructura que acompaña a esta transición, con referencias como GitHub y AWS Kiro, y lo presenta como un rol muy demandado para modernizar equipos.
+
+#### La ingeniería del arnés
+
+La segunda profesión, bautizada por OpenAI, es la ingeniería del arnés: el profesional que controla lo que crea la IA y pone los "guardarraíles" para que no se salga de los límites. Incluye técnicas como usar LLMs como jueces de otros LLMs o los semáforos de control. Garzás la describe como la evolución natural del testing tradicional en la era de la IA, con un enorme campo por explorar.
+
+#### Llevar a producción el software de los no técnicos
+
+La tercera es el especialista que lleva a producción el software creado por personas sin conocimientos técnicos: emprendedores y profesionales independientes que validan una idea y superan el MVP, pero no saben escalarla. Este rol, ejercido a menudo por consultores independientes, se encarga de hacer ese software escalable, seguro, mantenible y robusto, a modo de auditoría o consultoría periódica.
+
+#### IA aplicada al software legacy
+
+La cuarta profesión fusiona el mundo legacy con la IA: un ingeniero capaz de entender, refactorizar, migrar y mejorar software antiguo (C, C++, Fortran) que históricamente solo conocía quien lo creó. La IA, con un humano que la dirija, elimina la enorme barrera de entrada de estos sistemas, y Garzás remite a un artículo de Martin Fowler sobre esta posibilidad.
+
+#### El arquitecto empresarial de IA
+
+La quinta, el "arquitecto empresarial de IA", pone orden en el caos de herramientas que invade las organizaciones: skills, GPTs, agentes, RAG, fuentes de verdad, versiones de LLM, tokenización y las distintas familias de Anthropic, Google Gemini, OpenAI o las IA chinas. Es el perfil, de abstracción alta y sin necesidad de detalle técnico, que decide qué adoptar y qué descartar en cada organización.
+
+#### El líder de producto en la era de la IA
+
+La sexta es el líder de producto con IA, bajo nombres como AI Product Manager, Product Builder o Product Maker. Supone la evolución del product manager y product owner tradicionales, con roles cada vez más fusionados (producto, diseño y técnica). Este perfil potencia el discovery con IA: leer reseñas de la web, chatbots que analizan la opinión de los clientes, detectar pains y gains, o búsquedas profundas por sector para decidir qué incorporar al producto.
+
+#### La séptima profesión: IA en tu propio sector
+
+La última no es un puesto en sí, sino una recomendación para todo profesional, técnico o no: incorporar la IA a su sector. Quien tiene años de experiencia en marketing, derecho, medicina o cualquier campo, puede disparar su valor automatizando procesos burocráticos, fusionando datos de Excel, CRM, ticketing o correo, y creando pequeñas automatizaciones antes impensables. Garzás insiste en que la clave no está en crear aplicaciones para millones de usuarios, sino en aplicar el superpoder de la IA a los procesos internos que cada uno conoce mejor.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Martin Fowler — artículo sobre IA y software legacy | Artículo | https://martinfowler.com/ |
+| Kent Beck — codificación aumentada | Autor | https://www.kentbeck.com/ |
+| Spec-Driven Development (SDD) | Metodología | https://sdd.dev/ |
+| GitHub Copilot | Producto | https://github.com/features/copilot |
+| AWS Kiro | Producto | https://aws.amazon.com/kiro/ |
+| OpenAI — origen del término "ingeniería del arnés" | Empresa | https://openai.com/ |
+| Anthropic (Claude, skills, agentes) | Empresa | https://www.anthropic.com/ |
+| Google Gemini | Producto | https://gemini.google.com/ |
+| Diccionario de la IA (PDF gratuito, enlace en la descripción del vídeo) | Recurso | https://www.youtube.com/watch?v=rEnB7_QHj0E |
+
+---
 ## [Javier Garzás] El dashboard de mi proyecto en 3 min con Claude Code (deja de perder tardes en informes)
 **Fecha:** 2026-08-12
 **URL:** https://www.youtube.com/watch?v=N5HpfPhp13k
