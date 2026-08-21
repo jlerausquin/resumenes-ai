@@ -1,6 +1,55 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] — 11 INSANE Use Cases for Grok Bot
+**Fecha:** 2026-08-20
+**URL:** https://www.youtube.com/watch?v=5CSXUsljJ_E
+**Video ID:** 5CSXUsljJ_E
+
+### 📝 Resumen
+
+Matthew Berman presenta once casos de uso reales de Grokbot, el agente conversacional de xAI, que utiliza a diario desde su lanzamiento. El autor destaca que la interfaz de Grokbot otorga a cada bot una identidad persistente, más cercana a un personaje que a un hilo de chat desechable, lo que lo convierte en un punto intermedio natural entre los asistentes de chat tradicionales y los agentes de programación complejos. A lo largo del vídeo muestra flujos concretos de automatización personal y buenas prácticas para sacar partido al agente.
+
+#### Gestión y clasificación del correo
+Un bot dedicado revisa el correo cada mañana a las 7:30, archiva automáticamente las notificaciones de bajo valor y agrupa los mensajes de esfuerzo reducido en resúmenes breves. Para los correos que exigen acción, el agente lee todo el contexto —incluidos hilos previos e integraciones con HubSpot y Google Drive— y propone la siguiente acción. Además, Grokbot puntúa y etiqueta los correos de patrocinio con un sistema de lead scoring heredado de OpenClaw, que se ejecuta como rutina programada en días laborables.
+
+#### Publicación de contenido y compartición
+Grokbot puede publicar contenido en internet mediante un plugin nativo de Here.Now, devolviendo en segundos una URL pública o privada sin necesidad de cuenta. Esta capacidad permite compartir imágenes, documentos o prompts con el equipo o los clientes sin salir del chat.
+
+#### Calendario y coordinación
+Un bot de calendario, al que el autor casi nunca se dirige directamente, negocia horarios de reunión, detecta solapamientos, reprograma citas y crea eventos a partir de las fechas mencionadas en los correos. La delegación se gestiona a través del bot "Chief of Staff", que actúa como interlocutor principal y reparte las tareas entre el resto de agentes.
+
+#### Navegación autónoma del navegador
+Al ejecutarse en la nube, Grokbot maneja el navegador por el usuario: busca y compra productos en Amazon (con sesión persistente), devuelve artículos generando el código QR, reserva horas de gimnasio o consultas médicas y completa trámites como la renovación del registro del coche. El autor recuerda que el caso de Perplexity contra Amazon se desestimó, lo que permite a los agentes operar libremente sobre la plataforma.
+
+#### Grokbot como agente de programación
+Siguiendo la recomendación del equipo de Cursor, el autor describe un flujo en el que Grokbot actúa como agente de codificación: se crea un bot por proyecto o flujo de trabajo, se lanza la tarea desde Slack y Grokbot delega en el CLI de Cursor, supervisa los agentes cloud y persiste el contexto mejor que Cursor directamente. En un bucle típico, revisa las pull requests y corrige el código hasta que el CI pasa en verde antes de fusionar.
+
+#### Resúmenes de reuniones y seguimiento de acciones
+Fathom se une a las reuniones, las transcribe y Grokbot consulta su API cada 30 minutos para ingerir el transcript, redactar el resumen y extraer los compromisos adquiridos, que envía por Slack o Telegram. Durante la propia reunión es posible pedirle al agente que recuerde acciones concretas. El autor planea además dejar que el bot ejecute directamente elementos de su lista de tareas.
+
+#### Asistentes personales: Chief of Staff, bot personal y schoolbot
+El autor separa su vida laboral y personal con dos bots anclados: el Chief of Staff (trabajo) y el bot personal, que delegan en agentes especializados. El schoolbot escanea cada día a las 19:00 el correo de los colegios de sus hijos, resume lo relevante, crea eventos de calendario e invita a su mujer automáticamente, notificando por Telegram.
+
+#### Mantenimiento del sistema y accesos
+El bot de limpieza revisa el disco, clasifica los archivos candidatos a borrado en riesgo bajo, medio y alto sin eliminar nada sin permiso, y libera espacio de forma periódica (detectó 90 GB de caché de bajo riesgo). Por último, el autor muestra cómo conectar Grokbot a Telegram mediante BotFather para acceder al Chief of Staff desde cualquier lugar, incluida la entrada por nota de voz, a la espera de la app de Android.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Grokbot (xAI) | https://x.ai |
+| Here.Now (publicación de contenido) | https://here.now |
+| Fathom (transcripción de reuniones) | https://fathom.video |
+| Cursor (CLI y agentes cloud) | https://cursor.com |
+| OpenClaw | https://openclaw.ai |
+| DoorDash CLI | https://www.doordash.com |
+| Telegram BotFather | https://t.me/botfather |
+| HubSpot | https://www.hubspot.com |
+| Claude Code | https://www.anthropic.com/claude-code |
+| OpenAI Codex | https://openai.com/codex |
+
+---
 ## [Javier Garzás] Las 7 Nuevas Profesiones con más futuro en la era de la IA (y las mejores no piden saber programar)
 **Fecha:** 2026-08-19
 **URL:** https://www.youtube.com/watch?v=rEnB7_QHj0E
