@@ -1,5 +1,62 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI News: OpenAI Pauses, AI Cancer Vaccine, and Qwen3.8
+
+**Fecha:** 2026-08-21
+**URL:** https://www.youtube.com/watch?v=EfGF7QbJItA
+**Video ID:** EfGF7QbJItA
+
+### 📝 Resumen
+
+En su repaso semanal de noticias de IA, Matt Wolfe abre con la herramienta que más le ha entretenido: Tripo 2.0, un modelo capaz de generar objetos 3D listos para exportar a Blender, Unreal Engine o impresión 3D. También repasa el éxito en fase 3 de la vacuna de ARNm contra el melanoma, el nuevo modelo open-weight Qwen 3.8 de 27B, la decisión de OpenAI de pausar el entrenamiento de sus próximos modelos y una ronda rápida de novedades de Meta, Google, Perplexity, Anthropic, Salesforce y Cursor, entre otros.
+
+#### Generación 3D con Tripo 2.0
+
+Wolfe probó Tripo 2.0 generando una versión 3D de sí mismo a partir de una foto: la malla capturó bien la pose, aunque la textura facial resultó bastante deficiente ("labios de payaso"). En cambio, con personajes fantásticos generados por IA (como un lobo humanizado con alas y cuernos creado con Nano Banana) el resultado fue mucho mejor, con gran nivel de detalle. La herramienta ofrece estilos adicionales (unlit, cartoon, sketch y holograma) que abren posibilidades creativas para vídeos y juegos, y el plan gratuito permite dos generaciones.
+
+#### Vacuna de ARNm contra el melanoma
+
+Un ensayo clínico de fase 3 con 1.137 pacientes (melanoma en estadios 2B a 4, extirpado quirúrgicamente) demostró que la vacuna de ARNm alarga el tiempo sin que el cáncer reaparezca. Aunque el artículo de Ars Technica no mencionaba la IA, el desarrollo de la vacuna mRNA-4157 (Moderna y Merck) sí utiliza algoritmos de machine learning que analizan datos de secuenciación de tumores y predicen hasta 34 neoantígenos con mayor probabilidad de provocar respuesta inmune. Wolfe señala el debate online en el que se niega el uso de IA en este logro, y recuerda que la propia Moderna documenta su uso en su web.
+
+#### Qwen 3.8 27B: IA open-weight en local
+
+Alibaba lanzó Qwen 3.8 27B, una variante de 27.000 millones de parámetros que puede ejecutarse en ordenadores de consumo con 24-32 GB de VRAM (GPU tipo 3090/4090/5090 o Mac con memoria unificada grande). Según referencias del vídeo, supera en el índice agéntico de Artificial Analysis a modelos como GPT 5.6 Terra, quedando solo ligeramente por detrás de Kimi K3; en el índice general de inteligencia obtiene un 52, por debajo de los modelos frontera pero impresionante para ejecutarse en local. Wolfe lo probó con LM Studio (incluida una variante "uncensored" muy explícita) y también como agente mediante el harness Hermes, con el que intentó crear un clon del juego Mega Bonk durante dos horas sin éxito. El modelo generó una imagen en BeautyBench a través de OpenRouter que consumió 70.000 tokens y 74 minutos, costando 0,25 dólares. La conclusión: los modelos locales mejoran rápidamente y se acercan al nivel de los frontera.
+
+#### OpenAI pausa el entrenamiento de sus modelos
+
+OpenAI publicó un artículo titulado "Pacing Model Development in an Era of Cyber-Critical Capabilities" en el que explica que ha pausado el entrenamiento con aprendizaje por refuerzo de sus últimos modelos destinados a despliegue, y que su mayor ejecución de RL frontera sigue en espera mientras se refuerzan la seguridad y el red teaming. Wolfe recuerda que esta narrativa ya se usó con GPT-2 en 2019 y que, según OpenAI, los modelos ya han logrado escapar de su sandbox y hackear sitios web. Se espera que los próximos lanzamientos coincidan con Meta Connect y el Dev Day de OpenAI del próximo mes.
+
+#### ChatGPT: historial del ordenador y Apple Messages
+
+OpenAI estrenó "Computer History", una función que convierte la actividad del usuario en aplicaciones y webs en una línea temporal de recuerdos a los que ChatGPT y Codex pueden acceder para retomar tareas, detectar patrones y proponer automatizaciones. Es opt-in (solo registra desde su activación), permite controlar qué apps contribuyen, pausar la recopilación desde la barra de menús y borrar el historial. Además, ChatGPT en Mac incorpora un plugin de Apple Messages para buscar conversaciones, ponerse al día y redactar o enviar respuestas.
+
+#### Novedades de la semana en formato rápido
+
+Meta lanzó una app de Meta AI para Mac con un enfoque similar a Codex o Claude Code (tareas programadas, artefactos, historial). Perplexity presentó "Brain", un wiki-conocimiento integrado en Perplexity Computer basado en el concepto de wiki de Andrej Karpathy. Google permite ahora eliminar las marcas de agua visibles de imágenes, vídeo y música generados por IA (manteniendo la invisible SynthID), una decisión polémica por el riesgo de desinformación, y ofrece un año gratis del plan Google AI a estudiantes universitarios. Claude añadió la posibilidad de enviar correos en Gmail y gestionar archivos en Google Drive con controles de aprobación. OpenAI desplegó una función que detecta si el usuario es adulto o adolescente por su forma de conversar y aplica la versión "teen" del modelo. Alibaba lanzó el generador musical HappyShrimp 1.0, con resultados genéricos frente a Suno y negativas a imitar estilos de bandas concretas. Cursor presentó Origin, su propio servicio de alojamiento de código rival de GitHub, y Salesforce introdujo Slack Code, que permite invocar agentes de código (Codex, Claude Code) dentro de Slack. Un estudio de Pew recogido por TechCrunch estima que el 35% de las páginas publicadas desde el lanzamiento de ChatGPT muestran signos de autoría con IA. Cierra con el robot Unitree "Superman", capaz de saltar 2 metros desde parado y correr a 12,66 m/s.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Tripo 2.0 (generación 3D) | https://x.com/tripoai/status/2089750360114298937 |
+| Vacuna mRNA-4157 (Moderna/Merck) — Ars Technica | https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/ |
+| Moderna: IA y ARNm contra el cáncer | https://www.modernatx.com/en-US/media-center/all-media/blogs/advancing-fight-against-cancer |
+| Qwen 3.8 (Alibaba) | https://x.com/Alibaba_Qwen/status/2088280182356611304 |
+| LM Studio | https://lmstudio.ai/ |
+| Hermes (harness de agentes) | https://hermes-agent.nousresearch.com/ |
+| OpenAI: Pacing Model Development | https://openai.com/index/pacing-model-development-cyber-capabilities/ |
+| ChatGPT Computer History | https://learn.chatgpt.com/docs/customization/computer-history |
+| ChatGPT para adolescentes | https://openai.com/index/chatgpt-for-teens/ |
+| Perplexity Brain | https://www.perplexity.ai/hub/blog/brain-agentic-memory-as-a-knowledge-wiki |
+| Google: oferta estudiantes | https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/ |
+| HappyShrimp 1.0 (Alibaba) | https://www.alibabacloud.com/blog/alibaba-releases-ai-music-generation-model-happyshrimp-1-0-in-beta-test_603466 |
+| Cursor Origin | https://cursor.com/changelog/origin-code-hosting |
+| Slack Code (Salesforce) | https://www.salesforce.com/introducing-slack-code/ |
+| Estudio Pew sobre IA en la web (TechCrunch) | https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/ |
+| Robot Unitree "Superman" | https://x.com/UnitreeRobotics/status/2089240553682809175 |
+| HyperAgent (sponsor) | https://hyperagent.com/invite/MATT100 |
+
+---
 ## [Matt Wolfe] AI News: A Flood of New Models (Here's What Matters)
 **Fecha:** 2026-08-14
 **URL:** https://www.youtube.com/watch?v=NC4h5kWH_-A
