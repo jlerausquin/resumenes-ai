@@ -1,6 +1,57 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] How to Understand the Next Wave of AI Before Everyone Else | Tibo Interview
+**Fecha:** 2026-08-24
+**URL:** https://www.youtube.com/watch?v=4qjEgPojjzM
+**Video ID:** 4qjEgPojjzM
+
+### 📝 Resumen
+
+Matthew Berman entrevista a Tibo, ejecutivo de OpenAI, en una conversación que repasa su etapa en Google DeepMind, la evolución de los agentes de coding, la voz como interfaz y los planes de la compañía. Tibo relata cómo Google ya tenía un prototipo de chatbot antes de ChatGPT y por qué DeepMind no estaba preparada para lanzarlo, contrastando esa cultura con la de OpenAI, orientada a publicar rápido y empoderar a los equipos. La charla aborda la fusión de ChatGPT y Codex en un único agente personal adaptativo, la llegada del modo "ultrafast" y sus implicaciones, la caída de precios de modelos como Luna y Terra, y el papel de la auto-mejora recursiva en la optimización de la infraestructura. También se discuten los "resets" de uso como gesto de confianza con la comunidad, la pausa del entrenamiento de frontera en RL por motivos de seguridad y una reflexión final sobre cómo la eficiencia hará que la IA sea accesible para todo el mundo.
+
+#### De DeepMind a OpenAI: la lección de LM Chat
+
+Tibo trabajó en Google DeepMind en infraestructura y productos para acelerar la investigación. Cuenta que, alrededor de un año antes de ChatGPT, el equipo ya tenía un prototipo interno de chatbot basado en modelos de lenguaje (LM Chat), pero DeepMind no estaba preparada para lanzar productos y la organización frenaba iniciativas que pudieran perturbar el negocio de Google. Esa experiencia le sirvió para valorar la cultura de OpenAI: estructura bottom-up, equipos que idean y publican de forma conjunta, sesgo hacia enviar productos y alta densidad de talento. A los fundadores les recomienda tener convicción, conseguir usuarios pronto e iterar rápido con su feedback, y estar dispuestos a canibalizar su propio producto cuando surgen nuevas oportunidades.
+
+#### La voz como nueva interfaz dominante
+
+Tibo destaca que el nuevo modo de voz de ChatGPT es mucho más natural y capaz de usar herramientas, lo que ha disparado el número de usuarios que interactúan solo por voz. Él mismo usa a diario el dictado en lugar de escribir prompts, y describe un futuro "ambiental" en el que el asistente participa en conversaciones naturales, entiende lo que se escribe en una pizarra y capta matices no verbales. La idea central: los humanos eligen el camino de menor resistencia, y la tecnología debe adaptarse a la persona y no al revés.
+
+#### El harness del futuro: más allá del portátil
+
+Sobre la evolución de los agentes de coding, Tibo cree que herramientas como Codex parecerán primitivas en dos o tres meses. Señala las limitaciones actuales del "harness": los skill files son difíciles de mantener, la memoria es incompleta y la gestión de subagentes rompe la ilusión de un compañero perfecto. El objetivo es un agente que entienda los objetivos, el día a día y el contexto del equipo, y que actúe de forma proactiva. Además, el portátil es una restricción diseñada para humanos: los modelos del futuro necesitarán más recursos y operarán como agentes en la nube.
+
+#### Dos categorías de problemas: agente personal y automatización
+
+Tibo distingue dos grandes líneas de trabajo: por un lado, el AGI personal, un asistente profundamente adaptado a cada individuo que trabaja en flujo con él; por otro, la automatización completa de procesos complejos —como revisar logs de producción, optimizar rendimiento, corregir regresiones o parchear vulnerabilidades de seguridad— con mínima o nula intervención humana.
+
+#### La fusión de ChatGPT y Codex
+
+La compañía ha unificado ChatGPT y Codex en una misma tecnología y harness porque los futuros modelos lo exigen: un único agente multimodal, voice-first y eficiente, cuya interfaz se adapta a cada persona en lugar de ofrecer modos separados para técnicos y no técnicos. Berman menciona que Codex alcanzó 20 millones de usuarios, y ambos discuten la competencia con Anthropic: Tibo asegura que OpenAI no se centra en la competencia, sino en la comunidad y en llevar la tecnología al mayor número posible de personas. También explica los "resets" de uso: empezaron como compensación cuando algo fallaba y ahora son una práctica habitual (incluso con un botón físico) para agradecer a los usuarios.
+
+#### Eficiencia, precios y auto-mejora recursiva
+
+OpenAI ha reducido el precio de Luna un 80% y ha abaratado también Terra, gracias a una combinación de planificación de cómputo a largo plazo y a la optimización del stack con los propios modelos de frontera. Tibo describe la auto-mejora recursiva aplicada a la infraestructura: kernels CUDA, stack de inferencia y nuevas formas de interacción se rediseñan con ayuda de los modelos más avanzados, logrando una velocidad un 60% superior a la de hace tres meses. Además, confirma que OpenAI pausó el entrenamiento de frontera en RL para endurecer los sistemas de seguridad y alineación, y que el equipo de safety definió unos principios claros antes de reanudar.
+
+#### Modo ultrafast: velocidad y futuro
+
+El modo "ultrafast" ofrece velocidades de tokens 10-14 veces superiores y se reserva internamente para situaciones críticas, como la respuesta a incidentes, mientras la mayor parte de la capacidad se destina a clientes. Tibo matiza que la ganancia real depende del tipo de trabajo: con mucha generación (prototipos de webs o juegos) se nota el 10x, pero con muchas tool calls el efecto se reduce a 3-4x. Predice que estas velocidades serán casi estándar en uno o dos años, aunque siempre existirá un nivel premium, y que la eficiencia de tokens seguirá mejorando con cada generación de modelos.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| OpenAI — ChatGPT | https://chatgpt.com |
+| OpenAI — Codex | https://openai.com/codex |
+| OpenAI | https://openai.com |
+| Google DeepMind | https://deepmind.google |
+| Anthropic | https://www.anthropic.com |
+| Hugging Face | https://huggingface.co |
+| NVIDIA CUDA | https://developer.nvidia.com/cuda-zone |
+| Modelos Luna, Terra y Soul (mencionados) | — |
+
+---
 ## [Matt Wolfe] AI News: OpenAI Pauses, AI Cancer Vaccine, and Qwen3.8
 
 **Fecha:** 2026-08-21
