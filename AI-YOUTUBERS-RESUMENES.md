@@ -1,6 +1,175 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] The Most Important Chart In AI Right Now
+**Fecha:** 2026-08-26
+**URL:** https://www.youtube.com/watch?v=2w7ZdceZT-g
+**Video ID:** 2w7ZdceZT-g
+
+### 📝 Resumen
+
+El vídeo analiza un gráfico de Vercel que muestra, entre junio y agosto, cómo el uso de modelos de pesos abiertos (open weights) supera ya al de los modelos cerrados en volumen de tokens, y argumenta que este "cruce" reconfigura la economía de la IA: los modelos abiertos ganan en volumen de uso, pero OpenAI y Anthropic siguen capturando la mayor parte del gasto. El autor repasa quién gana y quién pierde con este cambio, por qué las empresas estadounidenses se apoyan cada vez más en modelos chinos de código abierto y qué riesgos geopolíticos se derivan.
+
+#### El gráfico: open weights ganan terreno en volumen
+
+La cuota de tokens de los modelos cerrados (ChatGPT, Claude) cae mientras sube la de los modelos de pesos abiertos, que se pueden descargar, ajustar y ejecutar en cualquier sitio a menor coste. El dato más llamativo: DeepSeek ya supera a Anthropic en cuota de tokens (25,2% frente a 24,5%). Sin embargo, el gasto cuenta otra historia: DeepSeek solo recibe el 2,8% de los dólares gastados en tokens, frente al 64,6% de Anthropic, unas 23 veces más, porque sus modelos son mucho más baratos. En conjunto, los mejores modelos del mundo concentran cerca del 50% de los tokens pero casi el 90% del gasto total.
+
+#### El valor está en la frontera
+
+Según el inversor Gavin Baker, la popularidad de los modelos abiertos es positiva para la demanda de infraestructura: al poder ejecutarse en cualquier lugar, generan más tokens y más necesidad de chips, lo que beneficia a Nvidia. Su predicción es que los tokens de frontera (Anthropic y OpenAI) representarán el 60-90% del valor económico con solo el 10-25% de los tokens, porque en tareas críticas (como trading de alta frecuencia) una pequeña ventaja de inteligencia vale miles de millones. La diferencia entre un modelo "95% tan bueno" y el absolutamente frontera es, según el vídeo, la que separa a los ganadores de los perdedores del mercado.
+
+#### Precios y volumen de negocio
+
+La brecha de precios es enorme: Claude Fable 5 cuesta 50 dólares por millón de tokens de salida frente a los 0,18 dólares de DeepSeek V4 Flash. Anthropic supera los 65.000 millones de dólares anualizados y OpenAI ronda los 40.000 millones, más que todos los proveedores de modelos abiertos juntos. Bindu Reddy matiza que hay que juzgar por coste por tarea completada, no por token: Kimi K3 cuesta la mitad por token que GPT-5.6 Soul, pero el coste de completar una misma tarea es casi igual (0,84 frente a 0,96 dólares) porque necesita más tokens. Por su parte, Aaron Levie (Box) destaca que los pesos abiertos expanden el mercado y bajan costes, y Martin Casado añade que la elección de modelo depende del coste, la privacidad y el ajuste al producto.
+
+#### Empresas construidas sobre modelos abiertos chinos
+
+Grandes empresas estadounidenses ya construyen sus productos sobre modelos chinos de pesos abiertos: Thomson Reuters usa Qwen a través de Harvey, Cursor emplea Kimi K2.5, Airbnb usa Qwen y Perplexity DeepSeek. Harvey incluso ha fine-tuneado Kimi K3 con datos internos para convertirlo en un experto legal que lidera varios benchmarks del sector. La motivación no es solo el precio, sino la privacidad y el control total: poder ajustar el modelo con datos propios sin que el proveedor del modelo se quede con ellos.
+
+#### Por qué importan los open weights
+
+El autor destaca cuatro ventajas: propiedad (los datos y el modelo son del usuario de principio a fin), poder de negociación (se puede elegir entre decenas de proveedores de inferencia o neo-clouds en lugar de depender de dos grandes), personalización (más inteligencia útil por el mismo precio al alimentar el modelo con datos propios) y presión competitiva sobre los laboratorios de frontera. También subraya el riesgo de plataforma de los modelos cerrados: construir un negocio sobre la API de otro es "alquilar inteligencia" sin construir patrimonio, como ilustra la cita del CTO de Thomson Reuters. Ya existen más de 151.000 modelos derivados de Qwen, y según el índice de inteligencia de Artificial Analysis los modelos abiertos están muy cerca de la frontera: Kimi K3 Max, GLM 5.3, Qwen 3.8 y Muse Spark de Meta aparecen entre los diez primeros.
+
+#### Riesgo geopolítico y conclusión
+
+El autor advierte del principal peligro: la mayoría de los modelos abiertos de calidad proceden de China, y si las empresas estadounidenses construyen sobre ellos, quedarán expuestas cuando esos modelos se co-diseñen con chips chinos, generando dependencia de hardware chino. A corto plazo, los modelos abiertos ganarán en volumen (mejor para todos: más baratos, más control y privacidad) y los laboratorios cerrados ganarán en ingresos; OpenAI ya ha bajado precios de forma agresiva (GPT-5.6 Luna un 80%, y GPT-5.6 Soul un 20-33%). La conclusión final: conviene adoptar y dominar los modelos de pesos abiertos, y aunque el riesgo de concentración de poder ha disminuido, EE.UU. sigue sin tener una estrategia open-source sólida.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Vercel (gráfico open vs closed weights) | Empresa / datos | https://vercel.com |
+| DeepSeek | Empresa / modelos | https://www.deepseek.com |
+| Anthropic | Empresa / modelos | https://www.anthropic.com |
+| OpenAI | Empresa / modelos | https://openai.com |
+| Claude Fable 5 | Modelo (Anthropic) | https://www.anthropic.com |
+| DeepSeek V4 Flash | Modelo (DeepSeek) | https://www.deepseek.com |
+| GPT-5.6 (Soul / Luna) | Modelo (OpenAI) | https://openai.com |
+| Gavin Baker (VC) | Analista mencionado | — |
+| Aaron Levie / Box | Empresa / ejecutivo | https://www.box.com |
+| Martin Casado (a16z) | Analista mencionado | — |
+| Bindu Reddy | Analista mencionado | — |
+| Christian Catalini / MIT Cryptoeconomics Lab | Académico / laboratorio | https://cryptoeconomics.mit.edu |
+| Artículo de Christian Catalini | Artículo | https://forwardfuture.com |
+| Harvey | Empresa (IA legal) | https://www.harvey.ai |
+| Thomson Reuters | Empresa | https://www.thomsonreuters.com |
+| Qwen (Alibaba) | Modelos open weights | https://github.com/QwenLM |
+| Kimi (Moonshot AI) | Modelos open weights | https://www.moonshot.ai |
+| Cursor | Producto | https://www.cursor.com |
+| Airbnb | Empresa | https://www.airbnb.com |
+| Perplexity | Producto | https://www.perplexity.ai |
+| Artificial Analysis | Índice de modelos | https://artificialanalysis.ai |
+| GLM (Zhipu AI) | Modelos open weights | https://www.zhipuai.cn |
+| Muse Spark (Meta) | Modelo (Meta) | https://ai.meta.com |
+| Higsfield (MCP, patrocinador) | Producto / patrocinador | — |
+
+---
+## [Matt Wolfe] I Built a FREE App That Runs Your Entire Business
+**Fecha:** 2026-08-26
+**URL:** https://www.youtube.com/watch?v=rKo9iLGjUbs
+**Video ID:** rKo9iLGjUbs
+
+### 📝 Resumen
+
+Matt Wolfe construye desde cero y en directo su "Control Tower" (torre de control), una aplicación de panel único gratuita que centraliza la gestión de un negocio: noticias del sector, menciones de marca, recordatorios, audiencia en redes sociales, newsletters y tareas. El proyecto se crea con ChatGPT Codex y el modelo GPT-5.6 Soul, y se publica en GitHub para que cualquiera pueda instalarlo y adaptarlo a su propio negocio o vida.
+
+#### El concepto: una torre de control para el negocio
+
+El autor parte de su propia experiencia: está cansado de mejoras marginales en generadores de vídeo, imagen o LLMs, y prefiere construir herramientas propias. Su dashboard real —una única pestaña abierta todo el día— incluye un agregador de noticias de IA, un sistema de alertas de marca, un lector de newsletters y el seguimiento de audiencia. En el vídeo reconstruye esa aplicación desde cero añadiendo funciones nuevas y compartiendo el código.
+
+#### Construcción paso a paso con Codex
+
+El proceso empieza con un proyecto local en ChatGPT Codex, usando el mejor modelo disponible para el esqueleto inicial y bajando de modelo después para los ajustes. Un primer prompt describe las pestañas deseadas (noticias, recordatorios, audiencia, newsletters, tareas) y el acceso a Gmail, calendario, Slack y otros plugins; la primera versión tarda unos 15 minutos y tiene muchos enlaces muertos. Tras varias horas de idas y venidas con la herramienta (sesiones de 20, 23, 31 minutos y hasta 2h37m), el resultado final incluye un modo oscuro por defecto y todas las funciones operativas.
+
+#### Recorrido por las pestañas
+
+La pantalla "Today" ofrece un resumen diario personalizable con las tareas del día. La pestaña "Industry" agrega noticias de fuentes y palabras clave configurables (en el caso de Wolfe: OpenAI, Anthropic, DeepMind y términos como IA o machine learning), las ordena por importancia o antigüedad y permite archivar lo leído. "Mentions" funciona como un Google Alerts mejorado: detecta menciones del autor, su marca o su web filtrando falsos positivos (otros Matt Wolfe del mundo) con filtrado por identidad. "Reminders" guarda enlaces desde una extensión de Chrome o manualmente, con notas y carpetas. "Audience" monitoriza el crecimiento de seguidores en YouTube, X, Instagram, Facebook, LinkedIn, Threads o TikTok. Y "Tasks" es un gestor de tareas con tareas recurrentes diarias y un historial de completadas.
+
+#### El lector de newsletters con Gmail
+
+La pestaña "Newsletters" es una de las más potentes: se conecta por OAuth a una cuenta de Gmail dedicada a suscripciones, lee los boletines automáticamente, deduplica noticias repetidas entre distintas newsletters (en la demo: 48 números vigilados y 156 historias activas) y muestra de qué newsletters procede cada noticia, con resumen y enlace a la fuente original. La configuración de credenciales OAuth de Google se explica paso a paso y solo se hace una vez.
+
+#### Configuración y personalización
+
+El panel es altamente configurable: nombre, descripción de qué noticias importan al usuario, número de artículos objetivo, fuentes a vigilar, etiquetas, temas excluidos, términos de mención, webs oficiales y exclusiones. El seguimiento de audiencia admite múltiples perfiles por red social. Opcionalmente se puede conectar una API key de IA (OpenAI, Anthropic, Gemini o Grok, o modelos locales vía LM Studio u Ollama) para mejorar el filtrado de relevancia, generar resúmenes por noticia y asignar prioridades; sin clave, el sistema funciona igual con ranking heurístico.
+
+#### Instalación y despliegue
+
+La aplicación es gratuita y se instala clonando el repositorio github.com/mistereflow/control-center con Codex, Claude Code o cualquier herramienta similar: clonado, instalación de dependencias y arranque en localhost en unos minutos. Como truco adicional para usuarios de pago de ChatGPT, el autor muestra cómo desplegar el proyecto en los servidores de ChatGPT con la directiva @sites, obteniendo una URL accesible desde cualquier dispositivo sin coste extra, protegida por el inicio de sesión del usuario.
+
+#### Mejoras posteriores
+
+Tras la grabación, el autor añadió mejoras: el resumen diario ahora reúne automáticamente los cinco ítems más importantes de noticias, menciones y newsletters; las menciones y noticias se resumen por IA con puntuación de prioridad cuando hay API key; la página de audiencia incorpora gráficos de crecimiento y distribución; y la selección de modelos amplía las opciones de proveedor e incluye modelos locales para un uso totalmente offline. El autor anuncia que seguirá evolucionando el proyecto después de la publicación del vídeo.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| mistereflow/control-center | Repositorio (GitHub) | https://github.com/mistereflow/control-center |
+| ChatGPT Codex | Producto (OpenAI) | https://openai.com |
+| GPT-5.6 (modelos Soul / Luna / Mini) | Modelo (OpenAI) | https://openai.com |
+| Future Tools | Sitio del autor | https://www.futuretools.io |
+| Matt Wolfe (web personal) | Sitio del autor | https://www.mattwolfe.com |
+| BeautyBench | Sitio del autor | https://www.beautybench.com |
+| TechCrunch | Medio | https://techcrunch.com |
+| The Verge | Medio | https://www.theverge.com |
+| The Information | Medio | https://www.theinformation.com |
+| The Rundown | Newsletter | https://www.therundown.ai |
+| Ben's Bites | Newsletter | https://www.bensbites.com |
+| TLDR | Newsletter | https://tldr.tech |
+| Superhuman | Newsletter | https://superhuman.com |
+| AlphaSignal | Newsletter | https://www.alphasignal.ai |
+| LM Studio | Herramienta (modelos locales) | https://lmstudio.ai |
+| Ollama | Herramienta (modelos locales) | https://ollama.com |
+| Granola | Herramienta mencionada | https://www.granola.ai |
+
+---
+## [Javier Garzás] La IA escribe el software, PERO arreglarlo será el trabajo mejor pagado (sin volver a programar)
+**Fecha:** 2026-08-26
+**URL:** https://www.youtube.com/watch?v=Q34r7Zt8KXw
+**Video ID:** Q34r7Zt8KXw
+
+### 📝 Resumen
+
+El vídeo analiza la contradicción central del desarrollo de software actual: la IA ya genera la mayor parte del código nuevo, pero nadie se fía del todo de él, y de esa brecha nace una nueva profesión muy bien pagada. El autor compara la situación con el efecto 2000, cuando el mundo pagó fortunas a programadores veteranos para revisar código mal hecho, y advierte de que la historia se repite ahora con mucho más software y sin una fecha límite.
+
+#### La radiografía del sector: datos y contradicciones
+
+La IA ya escribe el 42% del código que se sube hoy, con una previsión de alcanzar el 65% en 2027, y no hay vuelta atrás. Sin embargo, las empresas más punteras muestran una doble cara: Oracle presume de que la IA genera su código pero prohíbe su uso en las partes críticas de sus productos, y la comunidad Linux permite código con IA solo si una persona humana lo firma y se hace responsable. Además, el 96% de quienes suben código generado con IA afirma no fiarse de él, pero solo el 48% lo verifica realmente. El autor recuerda que el software mal hecho no lo ha inventado la IA: ya antes de su auge se estimaban pérdidas de billones de dólares anuales por su mala calidad, solo que ahora hay mucho más volumen y más creadores sin conocimientos técnicos.
+
+#### El verification gap y la nueva profesión
+
+La combinación de más volumen de código, menos expertos capaces de juzgarlo y la necesidad de criterio humano crea el llamado "verification gap", un hueco que ya está dando lugar a una profesión con nombre y ofertas publicadas, como la de "vibe coding cleanup specialist": el especialista que limpia, hace mantenible, seguro y escalable el código generado por IA o por personas no técnicas. Se trata de un perfil de entrada puntual más que continua, contratado cuando una idea validada con prototipos IA necesita rigor, y que en Estados Unidos ya alcanza sueldos de entre 120.000 y 200.000 dólares al año, con tarifas de hasta 200 dólares la hora y demanda al alza en los portales de empleo.
+
+#### Qué se le pide al nuevo perfil: criterio, abstracción y control
+
+El profesional ideal no compite con la IA ni la rechaza, sino que la controla; no es un programador tradicional, sino alguien que trabaja a un nivel de abstracción superior al detalle del lenguaje o del IDE; y usa la propia IA para controlar a la IA, mediante técnicas como LLM como juez, guardarraíles y semáforos. El autor recuerda que por miedo muchas empresas bloquean la IA por completo, lo que las deja lentas frente a la competencia: el criterio está en el punto justo, ni prohibición total ni anarquía.
+
+#### Dónde la IA debe ir a toda velocidad
+
+Hay dos áreas donde el software generado por IA por no técnicos debe fluir sin freno: la automatización de procesos internos de profesionales de marketing, derecho o analítica, que pueden consultar bases de datos en lenguaje natural o integrar sistemas vía MCP; y el prototipado, donde gente de negocio valida ideas con herramientas low-code antes de invertir en producción. En cambio, los puntos críticos (seguridad, escalabilidad, mantenibilidad, uso masivo) exigen supervisión humana experta.
+
+#### Consejos según el rol
+
+Para los managers, el mensaje es no eliminar la IA (irían lentos) ni dejarla libre (hipotecarían el futuro), y plantearse cuanto antes un asesor o auditor externo de criterio técnico. Para los técnicos, es el renacimiento de la profesión: subir el nivel de abstracción, posicionarse sobre la IA y aprender a controlarla. Y para los ex técnicos que dejaron la programación por la gestión, es el perfil mejor posicionado: entienden las raíces técnicas, pero ya no necesitan perderse en el detalle.
+
+#### La lección del efecto 2000
+
+El mundo gastó entre 300.000 y 600.000 millones de dólares en revisar código sin control ante el cambio de milenio, y hubo que reclutar a veteranos jubilados, los únicos con criterio, pagándoles fortunas. Gracias a ellos casi no pasó nada, aunque hubo incidentes reales: horas sin procesar datos de un satélite espía en EE.UU. y 150 diagnósticos erróneos de test de Down en un hospital inglés. La conclusión del vídeo es que esa historia se repite hoy con mucho más software, sin fecha límite, y que los profesionales con criterio para resolverlo serán los más revalorizados.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Oracle | Empresa | https://www.oracle.com |
+| Comunidad Linux (kernel) | Comunidad / proyecto | https://www.kernel.org |
+| Splicer (caso: ingenieros que cobran por borrar código IA) | Empresa / caso mencionado | — |
+| Forbes | Medio | https://www.forbes.com |
+| Robert C. Martin (Uncle Bob) | Referencia profesional | https://blog.cleancoder.com |
+| Kent Beck | Referencia profesional | https://www.kentbeck.com |
+| Diccionario de IA (recurso del canal) | Recurso mencionado | — |
+
+---
 ## [Matthew Berman] How to Understand the Next Wave of AI Before Everyone Else | Tibo Interview
 **Fecha:** 2026-08-24
 **URL:** https://www.youtube.com/watch?v=4qjEgPojjzM

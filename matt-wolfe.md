@@ -1,5 +1,65 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] I Built a FREE App That Runs Your Entire Business
+**Fecha:** 2026-08-26
+**URL:** https://www.youtube.com/watch?v=rKo9iLGjUbs
+**Video ID:** rKo9iLGjUbs
+
+### 📝 Resumen
+
+Matt Wolfe construye desde cero y en directo su "Control Tower" (torre de control), una aplicación de panel único gratuita que centraliza la gestión de un negocio: noticias del sector, menciones de marca, recordatorios, audiencia en redes sociales, newsletters y tareas. El proyecto se crea con ChatGPT Codex y el modelo GPT-5.6 Soul, y se publica en GitHub para que cualquiera pueda instalarlo y adaptarlo a su propio negocio o vida.
+
+#### El concepto: una torre de control para el negocio
+
+El autor parte de su propia experiencia: está cansado de mejoras marginales en generadores de vídeo, imagen o LLMs, y prefiere construir herramientas propias. Su dashboard real —una única pestaña abierta todo el día— incluye un agregador de noticias de IA, un sistema de alertas de marca, un lector de newsletters y el seguimiento de audiencia. En el vídeo reconstruye esa aplicación desde cero añadiendo funciones nuevas y compartiendo el código.
+
+#### Construcción paso a paso con Codex
+
+El proceso empieza con un proyecto local en ChatGPT Codex, usando el mejor modelo disponible para el esqueleto inicial y bajando de modelo después para los ajustes. Un primer prompt describe las pestañas deseadas (noticias, recordatorios, audiencia, newsletters, tareas) y el acceso a Gmail, calendario, Slack y otros plugins; la primera versión tarda unos 15 minutos y tiene muchos enlaces muertos. Tras varias horas de idas y venidas con la herramienta (sesiones de 20, 23, 31 minutos y hasta 2h37m), el resultado final incluye un modo oscuro por defecto y todas las funciones operativas.
+
+#### Recorrido por las pestañas
+
+La pantalla "Today" ofrece un resumen diario personalizable con las tareas del día. La pestaña "Industry" agrega noticias de fuentes y palabras clave configurables (en el caso de Wolfe: OpenAI, Anthropic, DeepMind y términos como IA o machine learning), las ordena por importancia o antigüedad y permite archivar lo leído. "Mentions" funciona como un Google Alerts mejorado: detecta menciones del autor, su marca o su web filtrando falsos positivos (otros Matt Wolfe del mundo) con filtrado por identidad. "Reminders" guarda enlaces desde una extensión de Chrome o manualmente, con notas y carpetas. "Audience" monitoriza el crecimiento de seguidores en YouTube, X, Instagram, Facebook, LinkedIn, Threads o TikTok. Y "Tasks" es un gestor de tareas con tareas recurrentes diarias y un historial de completadas.
+
+#### El lector de newsletters con Gmail
+
+La pestaña "Newsletters" es una de las más potentes: se conecta por OAuth a una cuenta de Gmail dedicada a suscripciones, lee los boletines automáticamente, deduplica noticias repetidas entre distintas newsletters (en la demo: 48 números vigilados y 156 historias activas) y muestra de qué newsletters procede cada noticia, con resumen y enlace a la fuente original. La configuración de credenciales OAuth de Google se explica paso a paso y solo se hace una vez.
+
+#### Configuración y personalización
+
+El panel es altamente configurable: nombre, descripción de qué noticias importan al usuario, número de artículos objetivo, fuentes a vigilar, etiquetas, temas excluidos, términos de mención, webs oficiales y exclusiones. El seguimiento de audiencia admite múltiples perfiles por red social. Opcionalmente se puede conectar una API key de IA (OpenAI, Anthropic, Gemini o Grok, o modelos locales vía LM Studio u Ollama) para mejorar el filtrado de relevancia, generar resúmenes por noticia y asignar prioridades; sin clave, el sistema funciona igual con ranking heurístico.
+
+#### Instalación y despliegue
+
+La aplicación es gratuita y se instala clonando el repositorio github.com/mistereflow/control-center con Codex, Claude Code o cualquier herramienta similar: clonado, instalación de dependencias y arranque en localhost en unos minutos. Como truco adicional para usuarios de pago de ChatGPT, el autor muestra cómo desplegar el proyecto en los servidores de ChatGPT con la directiva @sites, obteniendo una URL accesible desde cualquier dispositivo sin coste extra, protegida por el inicio de sesión del usuario.
+
+#### Mejoras posteriores
+
+Tras la grabación, el autor añadió mejoras: el resumen diario ahora reúne automáticamente los cinco ítems más importantes de noticias, menciones y newsletters; las menciones y noticias se resumen por IA con puntuación de prioridad cuando hay API key; la página de audiencia incorpora gráficos de crecimiento y distribución; y la selección de modelos amplía las opciones de proveedor e incluye modelos locales para un uso totalmente offline. El autor anuncia que seguirá evolucionando el proyecto después de la publicación del vídeo.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| mistereflow/control-center | Repositorio (GitHub) | https://github.com/mistereflow/control-center |
+| ChatGPT Codex | Producto (OpenAI) | https://openai.com |
+| GPT-5.6 (modelos Soul / Luna / Mini) | Modelo (OpenAI) | https://openai.com |
+| Future Tools | Sitio del autor | https://www.futuretools.io |
+| Matt Wolfe (web personal) | Sitio del autor | https://www.mattwolfe.com |
+| BeautyBench | Sitio del autor | https://www.beautybench.com |
+| TechCrunch | Medio | https://techcrunch.com |
+| The Verge | Medio | https://www.theverge.com |
+| The Information | Medio | https://www.theinformation.com |
+| The Rundown | Newsletter | https://www.therundown.ai |
+| Ben's Bites | Newsletter | https://www.bensbites.com |
+| TLDR | Newsletter | https://tldr.tech |
+| Superhuman | Newsletter | https://superhuman.com |
+| AlphaSignal | Newsletter | https://www.alphasignal.ai |
+| LM Studio | Herramienta (modelos locales) | https://lmstudio.ai |
+| Ollama | Herramienta (modelos locales) | https://ollama.com |
+| Granola | Herramienta mencionada | https://www.granola.ai |
+
+---
 ## [Matt Wolfe] AI News: OpenAI Pauses, AI Cancer Vaccine, and Qwen3.8
 
 **Fecha:** 2026-08-21

@@ -1,5 +1,51 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] La IA escribe el software, PERO arreglarlo será el trabajo mejor pagado (sin volver a programar)
+**Fecha:** 2026-08-26
+**URL:** https://www.youtube.com/watch?v=Q34r7Zt8KXw
+**Video ID:** Q34r7Zt8KXw
+
+### 📝 Resumen
+
+El vídeo analiza la contradicción central del desarrollo de software actual: la IA ya genera la mayor parte del código nuevo, pero nadie se fía del todo de él, y de esa brecha nace una nueva profesión muy bien pagada. El autor compara la situación con el efecto 2000, cuando el mundo pagó fortunas a programadores veteranos para revisar código mal hecho, y advierte de que la historia se repite ahora con mucho más software y sin una fecha límite.
+
+#### La radiografía del sector: datos y contradicciones
+
+La IA ya escribe el 42% del código que se sube hoy, con una previsión de alcanzar el 65% en 2027, y no hay vuelta atrás. Sin embargo, las empresas más punteras muestran una doble cara: Oracle presume de que la IA genera su código pero prohíbe su uso en las partes críticas de sus productos, y la comunidad Linux permite código con IA solo si una persona humana lo firma y se hace responsable. Además, el 96% de quienes suben código generado con IA afirma no fiarse de él, pero solo el 48% lo verifica realmente. El autor recuerda que el software mal hecho no lo ha inventado la IA: ya antes de su auge se estimaban pérdidas de billones de dólares anuales por su mala calidad, solo que ahora hay mucho más volumen y más creadores sin conocimientos técnicos.
+
+#### El verification gap y la nueva profesión
+
+La combinación de más volumen de código, menos expertos capaces de juzgarlo y la necesidad de criterio humano crea el llamado "verification gap", un hueco que ya está dando lugar a una profesión con nombre y ofertas publicadas, como la de "vibe coding cleanup specialist": el especialista que limpia, hace mantenible, seguro y escalable el código generado por IA o por personas no técnicas. Se trata de un perfil de entrada puntual más que continua, contratado cuando una idea validada con prototipos IA necesita rigor, y que en Estados Unidos ya alcanza sueldos de entre 120.000 y 200.000 dólares al año, con tarifas de hasta 200 dólares la hora y demanda al alza en los portales de empleo.
+
+#### Qué se le pide al nuevo perfil: criterio, abstracción y control
+
+El profesional ideal no compite con la IA ni la rechaza, sino que la controla; no es un programador tradicional, sino alguien que trabaja a un nivel de abstracción superior al detalle del lenguaje o del IDE; y usa la propia IA para controlar a la IA, mediante técnicas como LLM como juez, guardarraíles y semáforos. El autor recuerda que por miedo muchas empresas bloquean la IA por completo, lo que las deja lentas frente a la competencia: el criterio está en el punto justo, ni prohibición total ni anarquía.
+
+#### Dónde la IA debe ir a toda velocidad
+
+Hay dos áreas donde el software generado por IA por no técnicos debe fluir sin freno: la automatización de procesos internos de profesionales de marketing, derecho o analítica, que pueden consultar bases de datos en lenguaje natural o integrar sistemas vía MCP; y el prototipado, donde gente de negocio valida ideas con herramientas low-code antes de invertir en producción. En cambio, los puntos críticos (seguridad, escalabilidad, mantenibilidad, uso masivo) exigen supervisión humana experta.
+
+#### Consejos según el rol
+
+Para los managers, el mensaje es no eliminar la IA (irían lentos) ni dejarla libre (hipotecarían el futuro), y plantearse cuanto antes un asesor o auditor externo de criterio técnico. Para los técnicos, es el renacimiento de la profesión: subir el nivel de abstracción, posicionarse sobre la IA y aprender a controlarla. Y para los ex técnicos que dejaron la programación por la gestión, es el perfil mejor posicionado: entienden las raíces técnicas, pero ya no necesitan perderse en el detalle.
+
+#### La lección del efecto 2000
+
+El mundo gastó entre 300.000 y 600.000 millones de dólares en revisar código sin control ante el cambio de milenio, y hubo que reclutar a veteranos jubilados, los únicos con criterio, pagándoles fortunas. Gracias a ellos casi no pasó nada, aunque hubo incidentes reales: horas sin procesar datos de un satélite espía en EE.UU. y 150 diagnósticos erróneos de test de Down en un hospital inglés. La conclusión del vídeo es que esa historia se repite hoy con mucho más software, sin fecha límite, y que los profesionales con criterio para resolverlo serán los más revalorizados.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Oracle | Empresa | https://www.oracle.com |
+| Comunidad Linux (kernel) | Comunidad / proyecto | https://www.kernel.org |
+| Splicer (caso: ingenieros que cobran por borrar código IA) | Empresa / caso mencionado | — |
+| Forbes | Medio | https://www.forbes.com |
+| Robert C. Martin (Uncle Bob) | Referencia profesional | https://blog.cleancoder.com |
+| Kent Beck | Referencia profesional | https://www.kentbeck.com |
+| Diccionario de IA (recurso del canal) | Recurso mencionado | — |
+
+---
 ## [Javier Garzás] Las 7 Nuevas Profesiones con más futuro en la era de la IA (y las mejores no piden saber programar)
 **Fecha:** 2026-08-19
 **URL:** https://www.youtube.com/watch?v=rEnB7_QHj0E
