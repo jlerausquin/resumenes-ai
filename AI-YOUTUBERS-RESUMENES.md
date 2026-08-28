@@ -1,6 +1,48 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] This feels illegal...
+**Fecha:** 2026-08-27
+**URL:** https://www.youtube.com/watch?v=z1ez0yWu1P4
+**Video ID:** z1ez0yWu1P4
+
+### 📝 Resumen
+
+El vídeo presenta Dark Bloom, un proyecto que convierte cualquier Mac en un nodo de un centro de datos distribuido: los usuarios comparten capacidad de cómputo para servir modelos de IA de código abierto a cambio de un pago mensual. Matthew Berman lo describe como un concepto fascinante que podría convertirse en una alternativa real a los grandes data centers.
+
+#### ☁️ Un centro de datos distribuido
+La idea central es que, en lugar de depender de enormes instalaciones —cada vez más impopulares, especialmente en Estados Unidos—, miles de ordenadores domésticos se agregan para formar una capacidad de inferencia conjunta, de forma análoga a los paneles solares que generan electricidad en cada casa. El proyecto apenas tiene unos días de vida y ya ha servido más de 4.500 millones de tokens; sus modelos también están disponibles en OpenRouter a un precio aproximadamente un 50 % inferior al de otros proveedores.
+
+#### 🏗️ Cómo resuelve el problema de la privacidad
+El white paper del proyecto aborda el problema central: el propietario de una máquina con acceso root y custodia física no debe poder ver las instrucciones ni las respuestas de los usuarios. La solución ejecuta el motor de inferencia en un único proceso Swift endurecido, sin subprocesos, sin servidor local y sin comunicación entre procesos, utilizando MLX Swift LM sobre la GPU de Apple Silicon. Así se eliminan las vías de software por las que podrían observarse los datos, lo que cambia el paradigma: en lugar de enviar los datos a un gran proveedor, el usuario se conecta directamente a los equipos de otras personas (inferencia peer-to-peer).
+
+#### ⚙️ Instalación y requisitos
+La instalación se reduce a un comando desde darkbloom.dev, ya que por ahora solo existe la CLI (la app para Mac llegará pronto). El proceso requiere crear una cuenta en Dark Bloom, instalar un perfil de inscripción en Gestión de Dispositivos (MDM) de macOS y superar una verificación de hardware. Berman muestra cómo automatizó toda la instalación con Codex y prueba un modelo GPT-OSS 20B a 78 tokens por segundo. El proyecto exige actualmente al menos 48 GB de RAM, un umbral que se subió recientemente por la alta demanda y que probablemente se reducirá con el tiempo.
+
+#### 💰 Monetización y canal de pago
+Los pagos se canalizan a través de Stripe, que actúa como intermediario: Dark Bloom no tiene acceso a la cuenta bancaria del usuario, solo puede enviarle dinero. Como referencia, la web estima unos 37 dólares al mes para un Mac Studio M5 Ultra con 96 GB de memoria, y el coste incremental de electricidad es bajo gracias a la eficiencia de los equipos Apple, aunque depende del precio de la luz de cada zona.
+
+#### 🔍 Auditoría y riesgos
+Ante las acusaciones de estafa aparecidas en los comentarios, el autor revisó el código público del proyecto con GPT-5.6 Soul: no encontró malware, minería oculta ni robo de credenciales, y el riesgo del acceso MDM se considera bajo. El único punto señalado es que actualmente el usuario recibe el 100 % de los ingresos generados, pero ese porcentaje podría cambiar en el futuro. Berman recomienda usarlo bajo el propio criterio y recuerda que el proyecto está en una fase muy temprana, con aristas por pulir.
+
+#### 🧭 Reflexión final
+El vídeo cierra con una reflexión: el cómputo distribuido es un argumento más a favor de los modelos de código abierto, porque pone el poder de la IA en manos de cada individuo y reduce la concentración de poder en grandes infraestructuras. Aunque el autor todavía no ha empezado a generar ingresos con su nodo, lo que le entusiasma es el concepto en sí: una red de cómputo construida por personas corrientes que podría ser muy potente en el futuro.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Dark Bloom (web oficial) | https://darkbloom.dev |
+| Dark Bloom en OpenRouter | https://openrouter.ai |
+| White paper de Dark Bloom | https://darkbloom.dev |
+| GPT-OSS (OpenAI, modelo abierto) | https://github.com/openai/gpt-oss |
+| Qwen 3.6 | https://qwen.ai |
+| Gemma 4 (Google) | https://ai.google.dev/gemma |
+| MLX Swift LM (motor de inferencia de Apple) | https://github.com/ml-explore/mlx |
+| Stripe | https://stripe.com |
+| Newsletter Forward Future | https://forwardfuture.com |
+
+---
 ## [Matthew Berman] The Most Important Chart In AI Right Now
 **Fecha:** 2026-08-26
 **URL:** https://www.youtube.com/watch?v=2w7ZdceZT-g
