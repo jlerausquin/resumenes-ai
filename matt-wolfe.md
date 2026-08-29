@@ -1,5 +1,69 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI News: OpenAI Made a Massive Move Against NVIDIA
+**Fecha:** 2026-08-28
+**URL:** https://www.youtube.com/watch?v=TInwQglNkzo
+**Video ID:** TInwQglNkzo
+
+### 📝 Resumen
+
+En su repaso semanal de la actualidad, Matt Wolfe analiza la aceleración de la batalla entre los modelos de pesos abiertos (open-weight) y los cerrados, marcada por el movimiento de OpenAI para fabricar su propio chip de inferencia y por la supuesta compra de Hugging Face por parte de Nvidia. El vídeo repasa además nuevos modelos abiertos, hardware local para IA, actualizaciones de Google, OpenAI, Anthropic y Perplexity, y cierra con música generada por IA, robótica y el hito personal de superar el millón de suscriptores.
+
+#### La guerra de los chips: OpenAI fabrica su propio silicio
+
+OpenAI mostró los primeros resultados de "Jalapeño", su chip de inferencia diseñado para reducir la dependencia de Nvidia. En modelos open-weight públicos alcanza hasta 104 veces el rendimiento, una cifra verificable por terceros; internamente, asegura que la ventaja se amplía aún más con sus propios modelos frontera. Wolfe matiza que estos chips sirven solo para inferencia (generar respuestas), no para entrenar modelos, tarea para la que OpenAI probablemente seguirá recurriendo a Nvidia a corto plazo. La jugada se suma a su reciente alianza con Cerebras para inferencia ultrarrápida, lo que sugiere una estrategia deliberada de diversificación de hardware.
+
+#### Apple apuesta por el cómputo local
+
+Apple presentó los chips M6 y M5 Ultra, orientados al cómputo de IA en el escritorio. El M5 Ultra ofrece 4,5 veces el rendimiento GPU del M3 Ultra que usa el propio Wolfe y estará disponible con hasta 512 GB de memoria unificada, aprovechable casi en su totalidad como VRAM para modelos. El precio parte de casi 11.000 dólares en su versión de 256 GB. La consecuencia práctica: cada vez más modelos de calidad (GLM, DeepSeek, Qwen) podrán ejecutarse en casa, acercando el día en que modelos de nivel frontera corran localmente.
+
+#### Nvidia y Hugging Face: la apuesta por el open-weight
+
+Según informaciones aún no confirmadas oficialmente, Nvidia habría acordado comprar Hugging Face, el "GitHub de los modelos de IA" que además alquila GPUs en la nube. La lógica: si los modelos abiertos ganan cuota, Nvidia controlaría la infraestructura donde se ejecutan y dependería menos de OpenAI o Meta para el cómputo de inferencia. Wolfe respalda la tesis con datos del CEO de Vercel: hace dos meses el 71,6% de los tokens de su AI Gateway iban a modelos cerrados y esta semana el 62% va a modelos abiertos, con la salvedad de que en número de peticiones aún dominan los cerrados (62% frente a 38%). La tendencia, no obstante, apunta claramente al open-weight.
+
+#### Nuevos modelos abiertos: GLM 5.3 Flash y Qwen 3.8 Flash
+
+GLM 5.3 Flash, lanzado en sigilo como "Ox Alpha", obtiene un 63,4 en Deep Suite, por encima de Opus 4.8 y muy cerca de Gemini 3.7 Flash, con una inteligencia similar a Qwen 3.8 Max pero a un coste muy inferior. Según el índice de Artificial Analysis, todo lo que queda en su "caja roja" es a la vez menos inteligente y más caro, incluidos Gemini 3.7 Flash, Claude Sonnet 5 o DeepSeek V4, lo que deja obsoleta a una buena parte del catálogo actual. En su leaderboard subjetivo (Beutybench) obtuvo un 5,4 (puesto 25). Le acompaña Qwen 3.8 Flash, de 125.000 millones de parámetros, pensado para la nube, con un 56 en el índice de Artificial Analysis y el puesto 19 en Beutybench.
+
+#### Google: vídeo, transcripción y búsqueda con IA
+
+Google actualizó su modelo de vídeo Gemini Omni 1.1 Flash: mismo precio (10 céntimos por salida 720p, con opciones hasta 4K), hasta 10 segundos de contexto previo, frames de inicio y fin, y upscaling a 4K. Encabeza la arena text-to-video de LMArena (test ciego) y es segundo en image-to-video, solo por detrás de MiniMax. Wolfe destaca que, pese a probarlo en AI Studio (con errores de servidor) y en Flow, la consistencia entre escenas ha mejorado mucho, aunque el resultado aún tiene fallos. También llegaron Gemini 3.5 Transcribe, su alternativa a Whisper disponible en la app de Gemini y vía API; funciones de viaje en el modo IA de Search (seguimiento de precios de vuelos y reserva de hoteles); la integración de ebooks de Google Play Books en Gemini Notebook (antes NotebookLM); y el control remoto de sesiones en el IDE Anti-Gravity desde el navegador.
+
+#### OpenAI y Anthropic: agentes más autónomos
+
+ChatGPT Work ahora puede iniciar sesión en sitios web desde el navegador web usando gestores de contraseñas, sin llegar a conocerlas nunca, y permite disparar tareas por eventos de Slack, Gmail o GitHub. Además, GPT-5.6 "Soul" baja su precio un 20% durante tres meses. Wolfe también muestra cómo construir un dashboard en vivo de métricas de redes sociales con Sites dentro de la app de Codex (segmento patrocinado), con hosting, autenticación y base de datos integrados y soporte de web MCP para agentes. En Anthropic, Claude tendrá navegador integrado en Cowork en las próximas semanas (planes Pro, Max y Teams), Claude in Chrome ya está disponible de forma general y la memoria se unifica entre el chat y Cowork, de modo que lo planeado en una conversación puede ejecutarse como tarea en la nube sin repetir contexto.
+
+#### Perplexity, música, robótica y controversias
+
+Perplexity presentó su "computer" portátil: un agente local que ejecuta modelos pequeños (Nvidia Nemotron, Qwen 3.6 y 3.8) en la máquina del usuario, escalando a la nube solo cuando es necesario y siempre con permiso explícito, sin tarifas de inferencia; eso sí, requiere hardware potente como una DGX Spark de unos 4.000 dólares. En el terreno musical, Dr. Dre admitió usar IA para producir canciones y Stability AI levantó una ronda con inversores como Electronic Arts, Sony Music, Universal y Warner, señal de que la industria no rechaza la IA sino que quiere participar del negocio. Wolfe critica la lista TIME de las 100 personas más influyentes en IA por ausencias notables (Jensen Huang, Demis Hassabis, Andrej Karpathy) y presencias discutibles (Paris Hilton), que atribuye a una estrategia de engagement. Por último, Skild AI presentó S1, un modelo fundacional para robots capaz de aprender tareas de diez minutos a partir de un único vídeo, sin fine-tuning, y el canal celebró el hito de superar el millón de suscriptores.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| OpenAI (chip Jalapeño, Codex, Sites) | https://openai.com |
+| Cerebras | https://www.cerebras.ai |
+| Nvidia | https://www.nvidia.com |
+| Hugging Face | https://huggingface.co |
+| Vercel AI Gateway | https://vercel.com |
+| Apple (M5 Ultra / M6) | https://www.apple.com |
+| Z.ai — GLM 5.3 Flash | https://www.z.ai |
+| Qwen (Alibaba) | https://qwenlm.github.io |
+| DeepSeek | https://www.deepseek.com |
+| Google DeepMind / Gemini | https://deepmind.google |
+| Gemini Notebook (ex NotebookLM) | https://notebooklm.google.com |
+| Google AI Studio | https://aistudio.google.com |
+| Anti-Gravity | https://www.anti-gravity.ai |
+| Claude / Anthropic | https://claude.ai |
+| Perplexity | https://www.perplexity.ai |
+| NVIDIA DGX Spark | https://www.nvidia.com |
+| Suno | https://suno.com |
+| Stability AI | https://stability.ai |
+| TIME 100 IA | https://time.com |
+| Skild AI (modelo S1) | https://www.skild.ai |
+| Future Tools | https://www.futuretools.io |
+
+---
 ## [Matt Wolfe] I Built a FREE App That Runs Your Entire Business
 **Fecha:** 2026-08-26
 **URL:** https://www.youtube.com/watch?v=rKo9iLGjUbs
