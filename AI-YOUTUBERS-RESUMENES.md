@@ -1,6 +1,52 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] Cancel your subscriptions, Ox-Alpha is here! (GLM 5.3 Flash)
+**Fecha:** 2026-08-29
+**URL:** https://www.youtube.com/watch?v=TOWXXhn7ctY
+**Video ID:** TOWXXhn7ctY
+
+### 📝 Resumen
+
+El vídeo analiza el lanzamiento de GLM 5.3 Flash, el nuevo modelo de código abierto y pesos abiertos de Z.ai (Zhipu AI), que durante días circuló en OpenRouter bajo el misterioso nombre de «Ox-Alpha» y generó todo tipo de especulaciones. Berman repasa sus especificaciones, benchmarks, precio y demos prácticas, y destaca el dato que considera más impactante de la historia: la capacidad de inferencia del modelo se sirve íntegramente sobre chips chinos.
+
+#### El misterio de «Ox-Alpha» y la revelación de Z.ai
+
+El modelo apareció en OpenRouter con el nombre clave «Ox-Alpha» y los usuarios lo recibieron con entusiasmo, llegando a compararlo con los modelos frontera. Las especulaciones apuntaban a un nuevo Gemini o a un modelo de aprendizaje continuo, hasta que se reveló su identidad: GLM 5.3 Flash, el último lanzamiento open-weights del laboratorio chino Z.ai. Al tratarse de pesos abiertos, cualquiera puede descargarlo, ajustarlo, alojarlo o servirlo, lo que a juicio del autor convierte este lanzamiento en uno de los más emocionantes de los últimos tiempos.
+
+#### Un modelo compacto con especificaciones de gama alta
+
+A pesar de su nombre «Flash» (rápido, barato y más pequeño de lo habitual), el modelo ofrece 320 mil millones de parámetros con 18 mil millones activos gracias a una arquitectura de mezcla de expertos (MoE). Dispone de un contexto de un millón de tokens, hasta 131.000 tokens de salida y razonamiento máximo activado por defecto. Su precio es de aproximadamente un céntimo por millón de tokens de entrada en caché, una décima parte del coste del ya económico GLM 5.2, al que supera en rendimiento, acercándose a Claude Opus 4.8 en benchmarks de programación y uso agéntico.
+
+#### Resultados en benchmarks
+
+En Terminal Bench obtiene 84,3 puntos, por encima del GLM 5.2 completo; en Deep Suite (considerado el indicador más fiel del rendimiento real) alcanza 63,4, compitiendo de cerca con GPT-5.6 Terra; y en GDP-val, el benchmark de OpenAI para trabajo de conocimiento del mundo real, se sitúa en el primer puesto por amplio margen. En el índice de inteligencia de Artificial Analysis marca 57 frente al 62 de Claude Fable 5, una diferencia mínima teniendo en cuenta la enorme brecha de tamaño y precio entre ambos.
+
+#### Coste por tarea: inteligencia casi frontera por centavos
+
+La comparativa de coste por tarea completada es el dato central: GLM 5.3 Flash cuesta unos 9 céntimos por tarea, frente a los 3,14 dólares de Claude Fable 5, los 95 céntimos de GPT-5.6 Soul, los 84 de Kimi K3 o los 27 de DeepSeek V4 Pro. El autor calcula que ofrece una inteligencia apenas un 5-7 % por debajo de la frontera absoluta por un 2-3 % de su precio. Como contrapartida, es de los modelos más intensivos en tokens (unos 47.000 por tarea frente a los 20.000 de GPT-5.6 Luna Max), aunque con pesos abiertos cabe esperar iteraciones que reduzcan ese consumo.
+
+#### El giro geopolítico: 100 billones de tokens al día en chips chinos
+
+Según un informe de SemiAnalysis citado en el vídeo, GLM 5.3 Flash se sirvió a escala masiva —100 billones de tokens al día— sobre un clúster de chips exclusivamente chinos, con interconexión de alta velocidad y un stack de serving optimizado para ese hardware, sin utilizar ni un solo chip de NVIDIA. El autor subraya que China está co-diseñando modelos, chips e interconexiones como un ecosistema integrado, con una eficiencia y un coste por token comparables a las GPUs NVIDIA convencionales, lo que anticipa un impacto geopolítico profundo en la industria.
+
+#### Demos prácticas y comparativas con GPT-5.6 Soul
+
+Berman probó el modelo a través de z.ai (servido desde China), OpenRouter y su integración con OpenCode, y destaca la compatibilidad con cualquier herramienta que soporte la API de OpenAI. Entre las demos destaca una simulación 3D hiperrealista de un cubo de Rubik con físicas correctas, y varias comparativas frente a GPT-5.6 Soul: en la escena 3D de dioramas gana Soul por detalle y coherencia; en diseño de páginas web (manzanas, DGX Spark, patos de goma, Galaxy Z Fold y Tesla Model Y) GLM 5.3 Flash muestra mejor gusto de diseño, aunque sin acceso a internet; y en una presentación PowerPoint siguiendo las brand guidelines de Forward Future el resultado es sorprendentemente fiel y profesional.
+
+### 🔗 Referencias
+
+| Tipo | Recurso | Enlace |
+|------|---------|--------|
+| 📄 Paper/Blog | Blog oficial GLM 5.3 Flash (Z.ai) | https://z.ai/blog/glm-5.3-flash |
+| 🔗 Análisis | Artificial Analysis (benchmarks y precios) | https://artificialanalysis.ai/ |
+| 🏢 Empresa | Z.ai (Zhipu AI) | https://z.ai |
+| 🏢 Producto | OpenRouter (inferencia multi-proveedor) | https://openrouter.ai |
+| 💻 Repositorio | OpenCode (agente de código abierto) | https://github.com/sst/opencode |
+| 🔗 Artículo | SemiAnalysis (informe sobre chips chinos) | https://semianalysis.com |
+| 🏢 Producto | Higgsfield API (patrocinador) | https://higgsfield.ai/s/TvYKkQ |
+
+---
 ## [Matthew Berman] The Hugging Face Incident Full Report
 **Fecha:** 2026-08-28
 **URL:** https://www.youtube.com/watch?v=0RqTLAeaVMM
