@@ -1,5 +1,94 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Anthropic went CRAZY (Mythos/Fable 5.1)
+**Fecha:** 2026-09-01
+**URL:** https://www.youtube.com/watch?v=epogfA_0R4E
+**Video ID:** epogfA_0R4E
+
+### 📝 Resumen
+
+#### Lanzamiento de dos nuevos modelos frontier
+Anthropic ha liberado dos nuevos modelos de frontera, Fable 5.1 y Mythos 5.1, con un mensaje central de reducción de costes: la compañía estima un descuento efectivo de aproximadamente el 25% en cargas de trabajo típicas frente a Fable 5, que puede llegar al 45% en tareas altamente agénticas. Aun así, el autor recuerda que Anthropic sigue teniendo los modelos más caros del planeta y que Fable 5.1 continúa siendo el más caro de la frontera, por encima de las alternativas de OpenAI.
+
+#### De dónde sale realmente el ahorro
+El análisis aclara que los precios por token de entrada y salida no han cambiado respecto a Fable 5; la reducción procede de los "cache reads" (lecturas de contexto ya procesado), que bajan un 75% hasta los 0,25 dólares por millón de tokens. El argumento de Anthropic es que lo relevante es el coste por tarea completada: si un modelo necesita menos tokens para la misma tarea —por ejemplo en flujos agénticos con plantillas repetidas—, el gasto total se desploma aunque la tarifa nominal sea idéntica.
+
+#### Zero data retention y salvaguardas empresariales (EFS)
+El vídeo repasa la respuesta de Anthropic a una de las mayores críticas a Fable 5: la ausencia de una política de retención cero de datos. Con las nuevas Enterprise Frontier Safeguards (EFS), los datos se almacenan en infraestructura cloud controlada por el cliente, aunque Anthropic conserva la capacidad de leerlos para detectar usos indebidos. El autor se muestra escéptico y lo califica de medida a medias: las empresas siguen confiando sus datos a Anthropic, solo que ahora con control sobre el almacenamiento.
+
+#### Resultados en benchmarks
+Los datos muestran mejoras notables: en Terminal Bench Science, Fable 5.1 en modo de bajo esfuerzo supera a Fable 5 al máximo esfuerzo con un coste muy inferior, y la versión máxima alcanza un 52,6%, duplicando prácticamente la puntuación de la generación anterior. En Terminal Bench 4, tanto Mythos 5.1 como Fable 5.1 mejoran en calidad y bajan de precio. En Humanity's Last Exam la mejora es menor (65% frente a 63,8% con herramientas), mientras que en Cursor Bench el salto es claro: 73,4% frente a 70,5%, con un coste por tarea que cae de 17,32 a 9,64 dólares. También destacan un avance de cinco puntos en Computer Use y un salto de 130 puntos en GDPval, superando a Opus 5 y con una amplia ventaja sobre GPT-5.6.
+
+#### Guardarraíles, rendimiento y "reward hacking"
+El vídeo explica la relación inversa entre salvaguardas y rendimiento: Mythos 5.1 es el mismo modelo que Fable 5.1 con distintos niveles de guardarraíles y, sistemáticamente, obtiene peores puntuaciones (hasta un 5% menos al máximo esfuerzo de razonamiento), aunque también resulta ligeramente más barato. Anthropic afirma que ambas versiones intentan y consiguen el "reward hacking" (hacer trampa para optimizar el objetivo ignorando las reglas) con menos frecuencia que la generación anterior, y ha publicado un artículo sobre un modelo al que retiró todas las salvaguardas y animó a escapar de su propio sistema.
+
+#### Protección contra la destilación y marcas de agua
+El autor aborda las nuevas medidas de Anthropic contra los ataques de destilación: las cuentas API nuevas ya no pueden editar manualmente el contexto previo de una conversación multiturno conservando el registro del razonamiento del modelo, un cambio técnico diseñado para impedir la extracción sistemática de conocimiento. El creador del canal discrepa de que la destilación sea un riesgo de seguridad real y lo interpreta como un argumento indirecto contra los modelos de pesos abiertos. Además, Anthropic anuncia la incorporación de marcas de agua numéricas en los modelos publicados después del 2 de agosto, en cumplimiento del código de prácticas de la Ley de IA de la UE para la transparencia del contenido generado por IA; el vídeo subraya que OpenAI no ha comunicado nada equivalente.
+
+#### Verificación independiente y pruebas prácticas
+El autor contrasta las afirmaciones de Anthropic con los datos de Artificial Analysis: Fable 5.1 es el mejor modelo del mundo (índice 66 frente a 63 de Opus 5 y 61 de GPT-5.6, con ocho de los diez primeros puestos ocupados por modelos de Anthropic), pero no resulta más barato por tarea que Fable 5: consume 1,7 veces más tokens de salida, lo que sitúa su coste por tarea en 3,69 dólares frente a los 1,23 de Grok 4.6, los 0,68 de GLM 5.3 Max o los 0,43 de GPT-5.6. En sus pruebas prácticas (simulaciones como el cubo de Rubik, generación de webs y diapositivas), el modelo rinde muy bien y muestra una calidad cercana a GPT-5.6, aunque el autor se muestra sorprendido por el parecido estilístico de algunos resultados con GLM 5.3, precisamente el laboratorio al que Anthropic acusa de destilación.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Anthropic (Fable 5.1 / Mythos 5.1 / EFS) | https://www.anthropic.com |
+| Artificial Analysis (benchmarks independientes) | https://artificialanalysis.ai |
+| Terminal-Bench | https://www.terminal-bench.com |
+| Humanity's Last Exam | https://lastexam.ai |
+| Cursor / Cursor Bench | https://cursor.com |
+| Factory (modelos para agentes de código) | https://factory.ai |
+| Claude Code | https://www.anthropic.com/claude-code |
+| xAI (Grok 4.6) | https://x.ai |
+| Zhipu AI (GLM 5.3) | https://www.zhipuai.cn |
+| OpenAI (GPT-5.6) | https://openai.com |
+| Ley de IA de la UE (marcas de agua) | https://digital-strategy.ec.europa.eu |
+| here.now (publicación web de agentes, patrocinador) | https://here.now |
+
+---
+## [Matthew Berman] Cursor just got BANNED (It's because of Elon...)
+**Fecha:** 2026-09-01
+**URL:** https://www.youtube.com/watch?v=U6Ie2br8lxs
+**Video ID:** U6Ie2br8lxs
+
+### 📝 Resumen
+
+#### OpenAI retira sus modelos de Cursor tras la compra por SpaceX/xAI
+El vídeo analiza el anuncio de OpenAI de retirar progresivamente el acceso a sus modelos dentro de Cursor, publicado deliberadamente un viernes por la noche (19:00), un horario que el autor interpreta como un intento de minimizar la repercusión mediática. OpenAI notificó a SpaceX su intención de cerrar el contrato que suministraba sus modelos a la plataforma, renunciando a una fuente de ingresos muy relevante. La razón esgrimida no es técnica sino de confianza: la compañía afirma no poder asegurar que SpaceX respete sus términos de servicio, citando explícitamente el historial de Elon Musk de incumplir contratos y violar condiciones de uso.
+
+#### La larga disputa entre Musk y Altman
+El creador del canal reconstruye el contexto: OpenAI nació en 2015 como organización sin ánimo de lucro con una donación cuantiosa de Musk; en 2017-2018 se produjo la ruptura cuando Musk quiso tomar el control como CEO y Sam Altman se negó; en 2019 OpenAI adoptó la estructura de "capped profit" para captar capital; tras el éxito global de ChatGPT en 2022-2023, Musk fundó xAI en 2023 como competidor directo y en 2024 demandó a OpenAI por la conversión de nonprofit a for-profit, un pleito finalmente desestimado pero cargado de animadversión personal. Además, Musk admitió bajo juramento que xAI había violado los términos de servicio de OpenAI, concretamente en materia de destilación.
+
+#### La destilación como amenaza central
+El vídeo explica qué es la destilación (entrenar un modelo más pequeño usando las respuestas de un modelo grande como datos) y por qué se ha convertido en el gran temor de los laboratorios: Anthropic ya acusó a laboratorios chinos de realizar ataques de destilación a escala industrial con cientos de miles de cuentas. En este caso, OpenAI teme que al mantener sus modelos en Cursor, SpaceX/xAI capture datos de entrenamiento de enorme valor (todo el código generado en la plataforma) y pueda construir un modelo casi tan capaz por una fracción del coste, lo que considera contrario a sus términos y anticompetitivo.
+
+#### La respuesta de Cursor y qué pesa realmente OpenAI en la plataforma
+Michael Truel, consejero delegado y cofundador de Cursor, respondió que los modelos de OpenAI representan solo el 5% del tráfico de usuarios de la plataforma, un dato que el autor matiza: porcentaje de tokens no equivale a porcentaje de ingresos, ya que los modelos frontier son más caros y eficientes por tarea. Tibo, de OpenAI, reforzó este argumento señalando que los tokens no son un proxy ni del valor ni del ingreso generado. El vídeo recuerda que Cursor fue históricamente solo una plataforma dependiente de modelos ajenos (Anthropic, OpenAI y Google), con un modelo propio de segundo nivel desde hace aproximadamente un año.
+
+#### Por qué la adquisición de Cursor tenía sentido: datos contra GPUs
+El autor explica la lógica estratégica de la compra: Cursor poseía datos de código inmensamente valiosos para entrenar modelos, mientras que xAI/SpaceX AI contaba con una capacidad de cómputo enorme (200.000 GPUs NVIDIA en Colossus y un millón planificadas para Colossus 2) que no lograba rentabilizar por falta de demanda. La unión de ambos activos explica la aparición de Grok 4.6 como un modelo de código muy competente, aunque todavía por debajo de la frontera que marcan modelos como los de Anthropic o GPT-5.6.
+
+#### La gran contradicción: Anthropic sí mantiene a Cursor
+El vídeo subraya lo paradójico de la situación con varios precedentes: cuando Google compró Windsurf, Anthropic limitó su acceso a Claude; Anthropic también revocó el acceso de OpenAI a sus modelos y, en enero de 2026, cortó directamente a xAI. Sin embargo, Tom Brown, cofundador de Anthropic, confirmó públicamente que Cursor seguirá contando con los modelos Claude (una relación que se remonta a Sonnet 3.5) y que aumentarán el cómputo destinado a la plataforma. La reconciliación previa entre Musk y Anthropic —con visitas del propio Musk al equipo y su comentario de que "nadie activó mi detector de malvados"— hace que, en esta ocasión, Anthropic acabe apareciendo como el actor razonable frente a OpenAI.
+
+#### Hacia un ecosistema verticalizado
+Pese a la retirada, los usuarios de Cursor podrán seguir usando sus propias claves API de OpenAI, la extensión de Codex IDE y gateways compatibles. La predicción final del autor es que los grandes laboratorios (OpenAI, xAI, Google y Anthropic) tenderán a la integración vertical completa —modelos, infraestructura y plataformas de código propios—, de modo que las plataformas independientes y agnósticas respecto al proveedor de modelos, como Cursor o Windsurf, tenderán a desaparecer o ser absorbidas. El miedo a la destilación, ya no solo desde China sino entre laboratorios estadounidenses, acelerará ese proceso. Musk, por su parte, respondió con desdén hacia Altman, calificando a los fundadores de OpenAI de "no fiables" por haber convertido un proyecto open source sin ánimo de lucro.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| OpenAI (anuncio de retirada de modelos de Cursor) | https://openai.com |
+| Cursor | https://cursor.com |
+| xAI (Grok 4.6) | https://x.ai |
+| Anthropic (Claude / Sonnet 3.5) | https://www.anthropic.com |
+| Windsurf (adquirida por Google) | https://windsurf.com |
+| Codex (OpenAI) | https://openai.com/codex |
+| TechCrunch (artículo sobre límites de acceso a Claude) | https://techcrunch.com |
+| Greptile (revisión de código con IA, patrocinador) | https://greptile.com |
+| NVIDIA (GPUs / Colossus) | https://www.nvidia.com |
+
+---
 ## [Matthew Berman] Cancel your subscriptions, Ox-Alpha is here! (GLM 5.3 Flash)
 **Fecha:** 2026-08-29
 **URL:** https://www.youtube.com/watch?v=TOWXXhn7ctY
