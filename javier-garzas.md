@@ -1,5 +1,41 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] Qué hacer con tu carrera después de los 40 en la era de la IA: las 4 leyes
+**Fecha:** 2026-09-02
+**URL:** https://www.youtube.com/watch?v=eO6MRBgwGuU
+**Video ID:** eO6MRBgwGuU
+
+### 📝 Resumen
+
+Javier Garzás aborda un fenómeno que observa cada vez con más frecuencia: profesionales del sector tecnológico de alrededor de 50 años siendo prejubilados, y la inquietud de quienes rondan los 40, a quienes les quedarían apenas diez años de margen para reaccionar. Aunque reconoce el debate sobre si los despidos masivos son realmente culpa de la IA o si esta solo los enmascara, su objetivo no es analizar las causas sino ayudar al espectador a posicionarse como profesional difícil de reemplazar. Para ello presenta cuatro "leyes" que dice haber seguido durante años para surfear los sucesivos cambios de paradigma del sector —el paso a SaaS, las metodologías ágiles y ahora la IA— y las adapta específicamente a quienes ya tienen experiencia acumulada, porque cambiar de sector es más difícil y queda menos tiempo: la metáfora del punto V1 del despegue de un avión, a partir del cual ya no hay marcha atrás.
+
+#### Ley 1: cuando algo se construye más fácil y barato, se crea mucho más
+Garzás parte de la paradoja de Jevons: abaratar la creación de un bien aumenta su producción total. En software ocurre desde hace décadas —lenguajes de alto nivel, SaaS, plataformas, no-code— y la IA multiplica el fenómeno: perfiles sin formación técnica (marketing, medicina, fisioterapia...) ya prototipan negocios o automatizan procesos. Recuerda que ya en 2013 predijo en su blog esta democratización de la programación, y cita que GitHub llegó a caer en agosto de 2026 por el aluvión de código subido. Su conclusión: habrá más software y más profesiones nuevas, así que no hay que huir del sector digital, sino buscar necesidades emergentes derivadas del propio conocimiento en nichos aún no masificados —integraciones de IA, implantación de RAG, seguridad y arneses para creación con IA, arquitectura de IA o discovery de productos—, aunque eso exija "desenamorarse" de soluciones pasadas.
+
+#### Ley 2: las maneras mueren, los problemas perduran
+Los grandes problemas que resuelve una profesión cambian poco; lo que caduca es la forma de resolverlos. Garzás lo ejemplifica con su propia trayectoria: la revisión manual de calidad de código que le pagaban por hacer quedó obsoleta cuando llegaron herramientas automáticas como Sonar, pero el problema de la mala calidad seguía existiendo; algo similar ocurrió con los modelos de mejora de procesos tipo CMMI, contra los que escribió un libro muy criticado y que hoy quedan testimoniales. Advierte además contra el falso consuelo de que el problema perdure: los cocheros de caballos no se convirtieron en taxistas. Y desmonta la famosa frase de que "el cliente no quiere un taladro, quiere un agujero": lo que quiere es colgar un cuadro. La recomendación es analizar con honestidad si se está enamorado de la solución antigua o del problema real, y saltar a la nueva manera de resolverlo.
+
+#### Ley 3: cada salto tecnológico empuja hacia la multifuncionalidad
+El mundo industrial dejó departamentos estancos (negocio, diseño, técnico, testing) que evolucionaron primero hacia equipos multifuncionales con competencias en T —especialización propia y conocimiento ligero del resto—. Con la IA se avanza hacia competencias en M: la barrera de entrada a disciplinas colindantes se ha roto (un perfil de negocio ahora puede crear prototipos técnicos pidiéndoselo a la IA en lenguaje natural), por lo que hay que conocer en profundidad las profesiones vecinas, no solo por encima. Garzás lo ve reflejado en las ofertas de empleo actuales, llenas de roles nuevos y multifuncionales. La buena noticia: la IA elimina la parte ardua de aprender esas disciplinas.
+
+#### Ley 4: el conocimiento se regala; el criterio es lo que se paga
+Antes el conocimiento era escaso y caro (libros difíciles de conseguir, másters); hoy se regala en podcasts, vídeos y redes, y además caduca cada vez más rápido. Por la ley de oferta y demanda, su valor cae y lo que realmente se paga es el criterio: saber priorizar en qué formarse, porque el tiempo es el recurso escaso. Por eso la formación puntual tradicional pierde peso frente a la formación continua, y el juego se gana encontrando "agujas de conocimiento en pajares enormes". Para afinar ese criterio recomienda unirse a comunidades de profesionales con problemas similares y crear un "sistema de escaneado" continuo (con la metáfora del escáner de Terminator) que permita procesar mucha información superficial para detectar dónde profundizar.
+
+#### Conclusión: cuatro recomendaciones prácticas
+Garzás sintetiza las cuatro leyes en un decálogo práctico: buscar las necesidades nuevas que están apareciendo sin aferrarse a las soluciones antiguas; analizar el gran problema que resuelve la propia profesión y adoptar cuanto antes su nueva forma de solucionarlo; empezar ya a hacer parte del trabajo de las profesiones colindantes; y rodearse de comunidades que agudicen el olfato para priorizar bien el tiempo, ya que todos disponen de las mismas 24 horas, pero no todos saben optimizarlas. Define el momento actual como "el renacimiento" de las profesiones y anima a los espectadores a compartir sus propios consejos en los comentarios.
+
+### 🔗 Referencias
+
+| Qué es | Referencia |
+|---|---|
+| Vídeo analizado | [Qué hacer con tu carrera después de los 40 en la era de la IA](https://www.youtube.com/watch?v=eO6MRBgwGuU) |
+| Blog personal y diccionario de IA de Javier Garzás | [javiergarzas.com](https://javiergarzas.com) |
+| Comunidad profesional mencionada | [233academy.com](https://233academy.com) |
+| Herramienta de análisis de calidad de código citada | [Sonar](https://www.sonarsource.com) |
+| Repositorio citado por el aumento de código subido | [GitHub](https://github.com) |
+| Concepto económico citado (paradoja de Jevons) | [Paradoja de Jevons](https://es.wikipedia.org/wiki/Paradoja_de_Jevons) |
+
+---
 ## [Javier Garzás] La IA escribe el software, PERO arreglarlo será el trabajo mejor pagado (sin volver a programar)
 **Fecha:** 2026-08-26
 **URL:** https://www.youtube.com/watch?v=Q34r7Zt8KXw

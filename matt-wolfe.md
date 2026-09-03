@@ -1,5 +1,46 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] The Most Overhyped and Underhyped New AI Models
+**Fecha:** 2026-09-03
+**URL:** https://www.youtube.com/watch?v=Po_Dh7WLgmM
+**Video ID:** Po_Dh7WLgmM
+
+### 📝 Resumen
+
+Matt Wolfe analiza la oleada semanal de lanzamientos de modelos y expresa su frustración por el ritmo vertiginoso de releases: aunque los modelos son cada vez más capaces en matemáticas, ciencia y código, la mayoría de los usuarios apenas nota diferencias en su día a día, y gran parte de la narrativa de "cambio de mundo" proviene de la máquina de hype de los creadores de contenido. En este vídeo desgrana tres novedades concretas: Fable 5.1 de Anthropic, Gemini 3.8 Flash de Google DeepMind y el anuncio de OpenAI sobre Astra, con pruebas prácticas propias y datos de benchmarks.
+
+#### Fable 5.1 de Anthropic: el más inteligente, y el más sobrevalorado
+Wolfe considera a Fable 5.1 el modelo más sobrevalorado de la semana, pese a ser objetivamente el más capaz disponible. Es una versión con post-entrenamiento adicional sobre Fable 5 (no un modelo nuevo desde cero) que lidera el índice de Artificial Analysis con 66 puntos frente a los 63 de Claude Opus 5 —un salto comparable a la diferencia entre GLM 5.3 y Opus 5— y que duplica a sus predecesores en investigación científica agéntica y da grandes saltos en coding agéntico. Anthropic ha ajustado además sus salvaguardas de ciberseguridad: rechaza un 60% menos de peticiones y ya permite usarlo para identificar vulnerabilidades de software, aunque sigue redirigiendo tareas de doble uso hacia los modelos Opus.
+
+#### El coste real de Fable 5.1
+El punto débil del modelo es la economía de uso. Wolfe muestra cómo, pese a que Anthropic anuncia un 25% menos de coste que Fable 5 gracias a la rebaja de cache reads (precio sin cambios: 10 $/millón de tokens de entrada y 50 $/millón de salida), los datos de Artificial Analysis indican que por tarea Fable 5.1 (~3,69 $) es más caro que Fable 5 (~3,14 $). En su prueba con BusyBench, generar una imagen SVG le costó 4,35 $ y 18 minutos de procesamiento. Al encargarle un clon del juego Mega Bonk a través de Claude Code en modo "ultra", el modelo estuvo más de dos horas trabajando, agotó su plan de 200 $ mensuales y terminó costándole 114 $ en créditos adicionales. Su conclusión: es el mejor modelo del momento, pero inasumible para un uso habitual.
+
+#### Medidas anti-destilación
+Anthropic ha introducido mecanismos para dificultar la destilación: ya no es posible que cuentas API nuevas editen manualmente el contexto previo de Claude en conversaciones multi-turno conservando el rastro de su razonamiento. La medida busca impedir que laboratorios (especialmente chinos) entrenen modelos copiando el "pensamiento" de los modelos frontera. Wolfe señala la ironía de que estos mismos laboratorios entrenaron con datos extraídos de todo internet y ahora prohíben copiar sus deberes.
+
+#### Gemini 3.8 Flash: el gran ignorado
+Para Wolfe, el lanzamiento realmente infravalorado es Gemini 3.8 Flash. En DeepSweep puntúa 73,7-74, empatando con Claude Opus 5 y superando a Fable 5 (70%), pero con un coste medio por tarea de 2,36 $ frente a los 11,84 $ de Opus 5 o los 21,63 $ de Fable 5: un rendimiento de nivel frontera en código por una décima parte del precio. Además es rapidísimo (2,5 minutos por tarea frente a 7,4 de los modelos de Anthropic) y en su índice de inteligencia global queda a mitad de tabla (59), porque está optimizado para ser bueno, barato y rápido en programación, no en trabajo de conocimiento. En sus pruebas generó un clon de Mega Bonk por 9 céntimos en 92 segundos —peor que el de Fable 5.1, pero muy superior al primer intento que Fable 5 le dio en su día— y opina que la falta de atención se debe a que Google lleva tiempo fuera del foco mediático.
+
+#### Astra de OpenAI: el anuncio con alerta de seguridad
+OpenAI publicó "Path to Astra", anunciando que su próximo modelo podrá encontrar vulnerabilidades de seguridad desconocidas y desarrollar exploits sobre sistemas bien protegidos sin supervisión humana paso a paso, motivo por el cual han ralentizado su desarrollo y blindado las protecciones contra cibermal uso. Según la gráfica mostrada, Astra alcanza ~40% de éxito en explotación de vulnerabilidades con 76.188 tokens, frente al 11,5% de GPT-5.6 Sól con casi 140.000. Wolfe menciona además, citando The Information, que OpenAI usa una técnica nueva llamada "recurrent depth" o "looped transformer", que procesa el texto varias veces y oculta parte del razonamiento (chain of thought), dificultando la auditoría humana del proceso de pensamiento —un motivo de preocupación para científicos, sobre todo en ámbitos de código, ciberseguridad y biología.
+
+#### Reflexión final: ¿demasiados lanzamientos?
+Wolfe cierra pidiendo a los laboratorios que espacien los lanzamientos y reserven los grandes anuncios para saltos reales, en lugar de releases incrementales que mejoran un 1% algún benchmark: la rueda de hámster semanal agota al público y, para la mayoría de tareas, los modelos actuales ya son "suficientemente buenos". Aun así, seguirá cubriendo la actualidad en su resumen de noticias de los viernes.
+
+### 🔗 Referencias
+
+| Qué es | Referencia |
+|---|---|
+| Vídeo analizado | [The Most Overhyped and Underhyped New AI Models](https://www.youtube.com/watch?v=Po_Dh7WLgmM) |
+| Anthropic — Fable 5.1 y Mythos 5.1 | [anthropic.com](https://www.anthropic.com) |
+| Google DeepMind — Gemini 3.8 Flash | [deepmind.google](https://deepmind.google) |
+| OpenAI — anuncio "Path to Astra" | [openai.com](https://openai.com) |
+| Benchmark de ingeniería de software mencionado (DeepSweep/SWE-bench) | [Búsqueda: DeepSweep benchmark](https://www.google.com/search?q=DeepSweep+coding+benchmark+AI) |
+| Índice independiente de modelos Artificial Analysis | [artificialanalysis.ai](https://artificialanalysis.ai) |
+| Prueba BusyBench (generación SVG) | [BusyBench](https://www.busybench.com) |
+| Artículo de The Information sobre "recurrent depth" | [theinformation.com](https://www.theinformation.com) |
+
+---
 ## [Matt Wolfe] AI News: OpenAI Made a Massive Move Against NVIDIA
 **Fecha:** 2026-08-28
 **URL:** https://www.youtube.com/watch?v=TInwQglNkzo

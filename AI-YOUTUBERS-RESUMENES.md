@@ -1,6 +1,83 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Javier Garzás] Qué hacer con tu carrera después de los 40 en la era de la IA: las 4 leyes
+**Fecha:** 2026-09-02
+**URL:** https://www.youtube.com/watch?v=eO6MRBgwGuU
+**Video ID:** eO6MRBgwGuU
+
+### 📝 Resumen
+
+Javier Garzás aborda un fenómeno que observa cada vez con más frecuencia: profesionales del sector tecnológico de alrededor de 50 años siendo prejubilados, y la inquietud de quienes rondan los 40, a quienes les quedarían apenas diez años de margen para reaccionar. Aunque reconoce el debate sobre si los despidos masivos son realmente culpa de la IA o si esta solo los enmascara, su objetivo no es analizar las causas sino ayudar al espectador a posicionarse como profesional difícil de reemplazar. Para ello presenta cuatro "leyes" que dice haber seguido durante años para surfear los sucesivos cambios de paradigma del sector —el paso a SaaS, las metodologías ágiles y ahora la IA— y las adapta específicamente a quienes ya tienen experiencia acumulada, porque cambiar de sector es más difícil y queda menos tiempo: la metáfora del punto V1 del despegue de un avión, a partir del cual ya no hay marcha atrás.
+
+#### Ley 1: cuando algo se construye más fácil y barato, se crea mucho más
+Garzás parte de la paradoja de Jevons: abaratar la creación de un bien aumenta su producción total. En software ocurre desde hace décadas —lenguajes de alto nivel, SaaS, plataformas, no-code— y la IA multiplica el fenómeno: perfiles sin formación técnica (marketing, medicina, fisioterapia...) ya prototipan negocios o automatizan procesos. Recuerda que ya en 2013 predijo en su blog esta democratización de la programación, y cita que GitHub llegó a caer en agosto de 2026 por el aluvión de código subido. Su conclusión: habrá más software y más profesiones nuevas, así que no hay que huir del sector digital, sino buscar necesidades emergentes derivadas del propio conocimiento en nichos aún no masificados —integraciones de IA, implantación de RAG, seguridad y arneses para creación con IA, arquitectura de IA o discovery de productos—, aunque eso exija "desenamorarse" de soluciones pasadas.
+
+#### Ley 2: las maneras mueren, los problemas perduran
+Los grandes problemas que resuelve una profesión cambian poco; lo que caduca es la forma de resolverlos. Garzás lo ejemplifica con su propia trayectoria: la revisión manual de calidad de código que le pagaban por hacer quedó obsoleta cuando llegaron herramientas automáticas como Sonar, pero el problema de la mala calidad seguía existiendo; algo similar ocurrió con los modelos de mejora de procesos tipo CMMI, contra los que escribió un libro muy criticado y que hoy quedan testimoniales. Advierte además contra el falso consuelo de que el problema perdure: los cocheros de caballos no se convirtieron en taxistas. Y desmonta la famosa frase de que "el cliente no quiere un taladro, quiere un agujero": lo que quiere es colgar un cuadro. La recomendación es analizar con honestidad si se está enamorado de la solución antigua o del problema real, y saltar a la nueva manera de resolverlo.
+
+#### Ley 3: cada salto tecnológico empuja hacia la multifuncionalidad
+El mundo industrial dejó departamentos estancos (negocio, diseño, técnico, testing) que evolucionaron primero hacia equipos multifuncionales con competencias en T —especialización propia y conocimiento ligero del resto—. Con la IA se avanza hacia competencias en M: la barrera de entrada a disciplinas colindantes se ha roto (un perfil de negocio ahora puede crear prototipos técnicos pidiéndoselo a la IA en lenguaje natural), por lo que hay que conocer en profundidad las profesiones vecinas, no solo por encima. Garzás lo ve reflejado en las ofertas de empleo actuales, llenas de roles nuevos y multifuncionales. La buena noticia: la IA elimina la parte ardua de aprender esas disciplinas.
+
+#### Ley 4: el conocimiento se regala; el criterio es lo que se paga
+Antes el conocimiento era escaso y caro (libros difíciles de conseguir, másters); hoy se regala en podcasts, vídeos y redes, y además caduca cada vez más rápido. Por la ley de oferta y demanda, su valor cae y lo que realmente se paga es el criterio: saber priorizar en qué formarse, porque el tiempo es el recurso escaso. Por eso la formación puntual tradicional pierde peso frente a la formación continua, y el juego se gana encontrando "agujas de conocimiento en pajares enormes". Para afinar ese criterio recomienda unirse a comunidades de profesionales con problemas similares y crear un "sistema de escaneado" continuo (con la metáfora del escáner de Terminator) que permita procesar mucha información superficial para detectar dónde profundizar.
+
+#### Conclusión: cuatro recomendaciones prácticas
+Garzás sintetiza las cuatro leyes en un decálogo práctico: buscar las necesidades nuevas que están apareciendo sin aferrarse a las soluciones antiguas; analizar el gran problema que resuelve la propia profesión y adoptar cuanto antes su nueva forma de solucionarlo; empezar ya a hacer parte del trabajo de las profesiones colindantes; y rodearse de comunidades que agudicen el olfato para priorizar bien el tiempo, ya que todos disponen de las mismas 24 horas, pero no todos saben optimizarlas. Define el momento actual como "el renacimiento" de las profesiones y anima a los espectadores a compartir sus propios consejos en los comentarios.
+
+### 🔗 Referencias
+
+| Qué es | Referencia |
+|---|---|
+| Vídeo analizado | [Qué hacer con tu carrera después de los 40 en la era de la IA](https://www.youtube.com/watch?v=eO6MRBgwGuU) |
+| Blog personal y diccionario de IA de Javier Garzás | [javiergarzas.com](https://javiergarzas.com) |
+| Comunidad profesional mencionada | [233academy.com](https://233academy.com) |
+| Herramienta de análisis de calidad de código citada | [Sonar](https://www.sonarsource.com) |
+| Repositorio citado por el aumento de código subido | [GitHub](https://github.com) |
+| Concepto económico citado (paradoja de Jevons) | [Paradoja de Jevons](https://es.wikipedia.org/wiki/Paradoja_de_Jevons) |
+
+---
+## [Matt Wolfe] The Most Overhyped and Underhyped New AI Models
+**Fecha:** 2026-09-03
+**URL:** https://www.youtube.com/watch?v=Po_Dh7WLgmM
+**Video ID:** Po_Dh7WLgmM
+
+### 📝 Resumen
+
+Matt Wolfe analiza la oleada semanal de lanzamientos de modelos y expresa su frustración por el ritmo vertiginoso de releases: aunque los modelos son cada vez más capaces en matemáticas, ciencia y código, la mayoría de los usuarios apenas nota diferencias en su día a día, y gran parte de la narrativa de "cambio de mundo" proviene de la máquina de hype de los creadores de contenido. En este vídeo desgrana tres novedades concretas: Fable 5.1 de Anthropic, Gemini 3.8 Flash de Google DeepMind y el anuncio de OpenAI sobre Astra, con pruebas prácticas propias y datos de benchmarks.
+
+#### Fable 5.1 de Anthropic: el más inteligente, y el más sobrevalorado
+Wolfe considera a Fable 5.1 el modelo más sobrevalorado de la semana, pese a ser objetivamente el más capaz disponible. Es una versión con post-entrenamiento adicional sobre Fable 5 (no un modelo nuevo desde cero) que lidera el índice de Artificial Analysis con 66 puntos frente a los 63 de Claude Opus 5 —un salto comparable a la diferencia entre GLM 5.3 y Opus 5— y que duplica a sus predecesores en investigación científica agéntica y da grandes saltos en coding agéntico. Anthropic ha ajustado además sus salvaguardas de ciberseguridad: rechaza un 60% menos de peticiones y ya permite usarlo para identificar vulnerabilidades de software, aunque sigue redirigiendo tareas de doble uso hacia los modelos Opus.
+
+#### El coste real de Fable 5.1
+El punto débil del modelo es la economía de uso. Wolfe muestra cómo, pese a que Anthropic anuncia un 25% menos de coste que Fable 5 gracias a la rebaja de cache reads (precio sin cambios: 10 $/millón de tokens de entrada y 50 $/millón de salida), los datos de Artificial Analysis indican que por tarea Fable 5.1 (~3,69 $) es más caro que Fable 5 (~3,14 $). En su prueba con BusyBench, generar una imagen SVG le costó 4,35 $ y 18 minutos de procesamiento. Al encargarle un clon del juego Mega Bonk a través de Claude Code en modo "ultra", el modelo estuvo más de dos horas trabajando, agotó su plan de 200 $ mensuales y terminó costándole 114 $ en créditos adicionales. Su conclusión: es el mejor modelo del momento, pero inasumible para un uso habitual.
+
+#### Medidas anti-destilación
+Anthropic ha introducido mecanismos para dificultar la destilación: ya no es posible que cuentas API nuevas editen manualmente el contexto previo de Claude en conversaciones multi-turno conservando el rastro de su razonamiento. La medida busca impedir que laboratorios (especialmente chinos) entrenen modelos copiando el "pensamiento" de los modelos frontera. Wolfe señala la ironía de que estos mismos laboratorios entrenaron con datos extraídos de todo internet y ahora prohíben copiar sus deberes.
+
+#### Gemini 3.8 Flash: el gran ignorado
+Para Wolfe, el lanzamiento realmente infravalorado es Gemini 3.8 Flash. En DeepSweep puntúa 73,7-74, empatando con Claude Opus 5 y superando a Fable 5 (70%), pero con un coste medio por tarea de 2,36 $ frente a los 11,84 $ de Opus 5 o los 21,63 $ de Fable 5: un rendimiento de nivel frontera en código por una décima parte del precio. Además es rapidísimo (2,5 minutos por tarea frente a 7,4 de los modelos de Anthropic) y en su índice de inteligencia global queda a mitad de tabla (59), porque está optimizado para ser bueno, barato y rápido en programación, no en trabajo de conocimiento. En sus pruebas generó un clon de Mega Bonk por 9 céntimos en 92 segundos —peor que el de Fable 5.1, pero muy superior al primer intento que Fable 5 le dio en su día— y opina que la falta de atención se debe a que Google lleva tiempo fuera del foco mediático.
+
+#### Astra de OpenAI: el anuncio con alerta de seguridad
+OpenAI publicó "Path to Astra", anunciando que su próximo modelo podrá encontrar vulnerabilidades de seguridad desconocidas y desarrollar exploits sobre sistemas bien protegidos sin supervisión humana paso a paso, motivo por el cual han ralentizado su desarrollo y blindado las protecciones contra cibermal uso. Según la gráfica mostrada, Astra alcanza ~40% de éxito en explotación de vulnerabilidades con 76.188 tokens, frente al 11,5% de GPT-5.6 Sól con casi 140.000. Wolfe menciona además, citando The Information, que OpenAI usa una técnica nueva llamada "recurrent depth" o "looped transformer", que procesa el texto varias veces y oculta parte del razonamiento (chain of thought), dificultando la auditoría humana del proceso de pensamiento —un motivo de preocupación para científicos, sobre todo en ámbitos de código, ciberseguridad y biología.
+
+#### Reflexión final: ¿demasiados lanzamientos?
+Wolfe cierra pidiendo a los laboratorios que espacien los lanzamientos y reserven los grandes anuncios para saltos reales, en lugar de releases incrementales que mejoran un 1% algún benchmark: la rueda de hámster semanal agota al público y, para la mayoría de tareas, los modelos actuales ya son "suficientemente buenos". Aun así, seguirá cubriendo la actualidad en su resumen de noticias de los viernes.
+
+### 🔗 Referencias
+
+| Qué es | Referencia |
+|---|---|
+| Vídeo analizado | [The Most Overhyped and Underhyped New AI Models](https://www.youtube.com/watch?v=Po_Dh7WLgmM) |
+| Anthropic — Fable 5.1 y Mythos 5.1 | [anthropic.com](https://www.anthropic.com) |
+| Google DeepMind — Gemini 3.8 Flash | [deepmind.google](https://deepmind.google) |
+| OpenAI — anuncio "Path to Astra" | [openai.com](https://openai.com) |
+| Benchmark de ingeniería de software mencionado (DeepSweep/SWE-bench) | [Búsqueda: DeepSweep benchmark](https://www.google.com/search?q=DeepSweep+coding+benchmark+AI) |
+| Índice independiente de modelos Artificial Analysis | [artificialanalysis.ai](https://artificialanalysis.ai) |
+| Prueba BusyBench (generación SVG) | [BusyBench](https://www.busybench.com) |
+| Artículo de The Information sobre "recurrent depth" | [theinformation.com](https://www.theinformation.com) |
+
+---
 ## [Matthew Berman] Anthropic went CRAZY (Mythos/Fable 5.1)
 **Fecha:** 2026-09-01
 **URL:** https://www.youtube.com/watch?v=epogfA_0R4E
