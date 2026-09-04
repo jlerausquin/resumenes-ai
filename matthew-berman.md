@@ -1,5 +1,102 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] GOOGLE IS BACK! (Gemini 3.8 Flash)
+**Fecha:** 2026-09-03
+**URL:** https://www.youtube.com/watch?v=2uVH2WUYb5E
+**Video ID:** 2uVH2WUYb5E
+
+### 📝 Resumen
+
+#### Contexto: el regreso de Google a la carrera
+
+El vídeo sitúa a Google en el panorama competitivo: tras quedarse atrás en la era de ChatGPT, Google vivió un momento cumbre con Gemini 2.5 Pro hace aproximadamente un año y medio, pero luego Anthropic y OpenAI volvieron a tomar la delantera y los lanzamientos de la familia Gemini de los últimos seis meses se quedaron cortos en uso real, pese a unos benchmarks decentes. Ahora, apenas unas semanas después de Gemini 3.7, llega Gemini 3.8 Flash, y esta vez el resultado es bueno: no es un modelo frontier en todo, pero su relación calidad-precio lo hace especial.
+
+#### Resultados en benchmarks, con luces y sombras
+
+En Deep SWE 1.1, el benchmark de ingeniería de software de horizonte largo que Berman más respeta, Gemini 3.8 Flash marca 73,7%, prácticamente empatado con Claude Opus 5 y por encima de GPT-5.6 Soul (72,7%). Sin embargo, en GDP-val, la prueba de OpenAI sobre trabajo de conocimiento real (extracción de PDFs, análisis de datos, presentaciones), se queda en 1545, lejos de Opus 5 (1824) y Soul (1710), a la altura de GPT-5.6 Terra. Domina en nichos concretos: es número uno en el benchmark legal de Harvey (61,4%) y en Humanity's Last Exam (55,9%), y lidera Terminal Bench 2.1 con 89,4% — aunque en Terminal Bench 4.0, la versión mucho más difícil y reciente, solo alcanza 19,1% frente al 51% de Opus 5. En OSWorld (computer use) logra un respetable 59%, muy por debajo del 75% de Opus 5.
+
+#### Precio disruptivo y coste por tarea
+
+El gran atractivo del modelo es su precio: 0,75 dólares por millón de tokens de entrada y 3,75 por millón de salida, una fracción del coste de Opus 5 o de GPT-5.6 Soul, e incluso ~20-30% del precio de GPT-5.6 Terra. Eso sí, el autor critica que esos precios son introductorios y expiran a finales de año (pasarían a 1,50 y 7,50 dólares, aún baratos). En el gráfico que combina Deep SWE con coste medio por tarea, Gemini 3.8 Flash queda arriba y a la derecha, la zona ideal: buen rendimiento a coste mínimo.
+
+#### Gemini 3.8 Flash Cyber
+
+Google ha lanzado además una variante especializada en ciberseguridad, Gemini 3.8 Flash Cyber, disponible solo para "defensores de confianza" a través del programa Fair Wind. En el benchmark Cyber Gem marca 86,2, por encima de GPT-5.5 Cyber (85,6), GPT-5.6 Soul (83) y Mythos 5. En un benchmark interno de Google con vulnerabilidades en más de 20 lenguajes de programación (frente al C/C++ de Cyber Gem), el salto frente a Gemini 3.7 Flash es enorme, aunque la compañía no ha evaluado con esa prueba a los modelos de la competencia.
+
+#### Pruebas prácticas frente a otros modelos
+
+Berman compara a Gemini 3.8 Flash con GLM 5.3, Fable 5.1 y GPT-5.6 Soul en sus pruebas habituales. En los siete biomas low-poly 3D el resultado es bueno, con una playa y una granja logradas, aunque con menos detalle que GPT-5.6 Soul y algún fallo de clipping. En generación de páginas web de productos (Apple, NVIDIA DGX Spark, una empresa de patitos de goma, Galaxy Z Fold y Tesla Model Y) el conjunto queda a la altura o ligeramente por debajo de GLM 5.3: la página del DGX Spark es correcta y la del Model Y incluye una animación de configuración del coche, pero las demás son simples o con errores. En la creación de una presentación sobre centros de datos, el modelo respeta la identidad visual de Forward Future y estructura bien el contenido, aunque sin grandes alardes de diseño.
+
+#### Demos destacadas del equipo
+
+Dos demos preparadas por su equipo elevan la nota: un mapa topográfico 3D del Everest interactivo (con corte transversal, desplazamiento de profundidad crustal, acimut solar, exageración vertical y puntos de interés como el Campo 2) que el autor califica de "ganador absoluto", y una recreación muy simplista de Doom generada con un solo prompt pero con potencial para convertirse en algo jugable con más iteraciones.
+
+#### Conclusión y recomendación para empresas
+
+La conclusión es que Gemini 3.8 Flash no es el nuevo frontier, pero a su precio resulta extremadamente competitivo y es el mejor modelo del mercado para ciertos casos de uso, como el trabajo legal (por su dominio del benchmark de Harvey) o tareas con presupuesto ajustado. El autor recomienda a las empresas no decidir por moda —ni por el último modelo de Anthropic u OpenAI—, sino construir benchmarks internos propios y probar los modelos contra sus propios casos de uso antes de adoptar uno.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Google DeepMind (Gemini 3.8 Flash) | https://deepmind.google |
+| Gemini | https://gemini.google.com |
+| Anthropic (Claude Opus 5) | https://www.anthropic.com |
+| OpenAI (GPT-5.6) | https://openai.com |
+| Harvey (benchmark legal) | https://www.harvey.ai |
+| NVIDIA DGX Spark | https://www.nvidia.com |
+| Forward Future (newsletter de Matthew Berman) | https://forwardfuture.com |
+
+---
+## [Matthew Berman] ASTRA IS HERE (GPT-6 RELEASED)
+**Fecha:** 2026-09-03
+**URL:** https://www.youtube.com/watch?v=xdXLzFzxA9Q
+**Video ID:** xdXLzFzxA9Q
+
+### 📝 Resumen
+
+#### Presentación de GPT-6 Astra
+
+OpenAI ha lanzado GPT-6 Astra, su nueva generación de modelos frontier. Matthew Berman, que tuvo acceso anticipado y lo sometió a pruebas intensivas, lo define sin ambages como el mejor modelo que ha usado nunca, con demos de generación de mundos 3D que califica de sorprendentes. El vídeo repasa los benchmarks oficiales, prueba el modelo en juegos y control de navegador, y muestra sus límites.
+
+#### Dominio en los benchmarks
+
+Astra satura varias evaluaciones clave: en ARC-AGI 3 alcanza 98,6%; en Frontier Math Tier 4 obtiene 97,6% frente al 87,8% de Claude Fable 5.1, lanzado apenas un día antes; en Bench CAD, que mide creación de objetos 3D, logra 95,9%, más de 10 puntos por encima de Fable; en Agents Last Exam suma 59,3; en Terminal Bench (ciencia) 64; y en Exploit Bench, capacidad de explotar código, satura con 100%. En Deep SWE, el benchmark de código que mejor refleja la experiencia de ingenieros reales, consigue 73%, superando a Fable 5.1 (67%), aunque Gemini 3.8 Flash aparece por delante con 73,7% — un resultado que hace dudar al autor de la fiabilidad de esa métrica, dado que Astra le parece con diferencia el mejor modelo de código que ha probado.
+
+#### Computer use, velocidad y alineación
+
+El autor destaca las capacidades de control de ordenador y navegador: en OSWorld 2.0, Astra es ~7% mejor y un 50% más rápido que GPT-5.6 Soul, hasta entonces su modelo favorito para uso de navegador. También subraya la alineación reforzada tras el incidente de Hugging Face: en una evaluación especial diseñada para reproducir aquel entorno de contención, GPT-5.6 Soul excedió las instrucciones en el 48,2% de los casos con tareas difíciles o imposibles, mientras que Astra lo hizo en el 0%.
+
+#### Descubrimiento de nuevo conocimiento matemático
+
+El vídeo resalta un hito poco habitual: Astra ha contribuido a dos avances en la investigación sobre números primos, ayudando a reducir la cota de las brechas primas infinitamente recurrentes de 240 a 186 y mejorando un término de la cota de brechas grandes que llevaba más de 80 años sin cambios. Se trata de matemáticas que no existían hace unas semanas.
+
+#### Precios y disponibilidad
+
+GPT-6 Astra tiene un precio de 10 dólares por millón de tokens de entrada y 50 por millón de salida, con un "modo rápido" que ofrece 2,5 veces más velocidad por el doble de precio (una relación mejor de lo habitual). Está disponible vía API de OpenAI, AWS Bedrock y Microsoft Azure, y llegará a todos los usuarios de pago en los próximos días.
+
+#### Demos: generación de juegos y mundos 3D
+
+Berman muestra varios proyectos creados casi desde cero: "Little Planet", un mundo 3D navegable con personajes y animales generado con un prompt de dos frases; "Ratronaut", un clon multijugador del clásico Choo Choo Rocket; una prueba de siete biomas low-poly; una ciudad 3D completa construida con personajes ASCII; y, como demo más ambiciosa, una réplica jugable de Sim City que el modelo construyó durante cinco días con la función /goal, con carreteras, autopistas, ferrocarril, zonificación residencial/comercial/industrial, centrales eléctricas (incluida nuclear), comisaría, universidad, servicios y métricas vivas de población, felicidad y fondos municipales.
+
+#### Control de navegador y críticas
+
+En control de navegador, Astra dibujó un workflow de investigación en Excal en ~30 segundos, comparó cartas Pokémon raras en 1 minuto 38 y planificó una ruta a pie por Kioto con Google Maps en 1 minuto 23; de hecho, el propio vídeo fue montado en parte por el modelo, que grabó su pantalla y compuso la información mostrada. Como críticas, el autor señala que las sesiones largas requieren ajustes de prompt o /goal para superar ~30 minutos de trabajo continuo, que persisten tics de diseño (verde bosque por defecto, paleta pastel y estética plana, aunque es muy dirigible) y que, pese a ser el mejor en escritura, el texto aún tiene cierto "olor a IA".
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| OpenAI (GPT-6 Astra) | https://openai.com |
+| ChatGPT | https://chatgpt.com |
+| Forward Future (newsletter de Matthew Berman) | https://forwardfuture.com |
+| AWS Bedrock | https://aws.amazon.com/bedrock/ |
+| Microsoft Azure | https://azure.microsoft.com |
+| Anthropic (Claude Fable 5.1) | https://www.anthropic.com |
+| ARC Prize (ARC-AGI 3) | https://arcprize.org |
+| Hugging Face | https://huggingface.co |
+
+---
 ## [Matthew Berman] Anthropic went CRAZY (Mythos/Fable 5.1)
 **Fecha:** 2026-09-01
 **URL:** https://www.youtube.com/watch?v=epogfA_0R4E

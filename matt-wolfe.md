@@ -1,5 +1,53 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] GPT-6 Astra Is Finally Here (And It's REALLY Good)
+**Fecha:** 2026-09-03
+**URL:** https://www.youtube.com/watch?v=GGzT7zVrRTU
+**Video ID:** GGzT7zVrRTU
+
+### 📝 Resumen
+
+#### Lanzamiento de GPT-6 Astra y despliegue progresivo
+
+OpenAI anunció GPT-6 Astra el 3 de septiembre, en un despliegue que comenzó con un conjunto limitado de organizaciones y que, en los días siguientes, llegará a todos los usuarios de pago de ChatGPT (Plus, Pro, Business y Enterprise). El creador del canal tuvo acceso anticipado y advierte que, aunque el vídeo se publica el mismo día del anuncio, muchos usuarios todavía no verán el modelo disponible en su cuenta. Aclara también que el vídeo no está patrocinado por OpenAI, pese a haber colaborado con la compañía en el pasado.
+
+#### Resultados en benchmarks: grandes saltos en agentes, pero dudas en código
+
+El vídeo repasa los resultados oficiales del modelo: en Automation Bench el salto es de 18,1% a 41%, y en Terminal Bench (ciencia) de 22% a 64,6%. En ARC-AGI 3, la prueba que mide cómo aprenden los agentes ante tareas interactivas desconocidas, Astra alcanza 99,9% frente al 48% de un humano medio, saturando prácticamente la evaluación. Sin embargo, en Deep Suite (benchmark de código más correlacionado con la experiencia real de los ingenieros) obtiene 74,1%, un avance de solo ~2 puntos sobre GPT-5.6 y por debajo de Meta Muse Spark 1.3 (75,4%), algo que el autor considera sorprendente dado lo bien que se comporta el modelo programando. Además, en el agregado de Artificial Analysis GPT-6 aparece en quinto lugar, prácticamente empatado con GPT-5.6, una posición que el autor cuestiona tras sus pruebas manuales. El coste estimado por tarea es de unos 167 dólares, algo superior al de su predecesor.
+
+#### Pruebas prácticas: juegos generados en minutos
+
+Matt Wolfe sometió al modelo a sus pruebas habituales de generación. La más llamativa fue el clon 3D de Mega Bonk, un juego con clases de personaje (caballero, arquero y mago) con armas iniciales distintas, que GPT-6 construyó por completo en unos 8 minutos — frente a las 1,5–2 horas que tardaban los modelos anteriores en tareas similares —, con una estética cuidada y un funcionamiento fluido, aunque con alguna animación mejorable.
+
+#### Simulador de mundos interactivo
+
+Otra prueba consistió en pedir al modelo una web interactiva que mostrara sus capacidades. GPT-6 generó un simulador de planetas donde el usuario controla deslizadores de luz solar, nivel del mar, lluvia o terreno, pudiendo añadir océanos, tierra, vegetación o lanzar asteroides que dejan cráteres. El sistema simula en tiempo real la habitabilidad, la temperatura superficial y la evolución de la población según los cambios, y permite generar una "postal" del mundo diseñado.
+
+#### Computer use aplicado a Blender y Unreal Engine
+
+El autor destaca la función de computer use, con la que el modelo toma el control del ordenador. Con una sola instrucción creó en Blender una figura 3D de un lobo humanoide, después la dotó de un rig de 50 huesos, le quitó el pedestal y generó animaciones (incluida una de carrera) únicamente mediante prompts, sin que el creador supiera usar Blender. En Unreal Engine, otro prompt le llevó a construir "Whisperwood", un mundo forestal con senderos, estanque y flores silvestres, incorporando al lobo como personaje jugable en unos 35 minutos.
+
+#### Creaciones de la comunidad
+
+El vídeo recopila demos virales en X de otros usuarios con acceso anticipado: Matt Berman publicó mundos planetarios en 3JS, un juego de terror en 3D y un clon de Fall Guys; Matt Schumer construyó un Manhattan en Unreal Engine a lo largo de una semana y un mundo poblado por humanos con agentes con energía propia que acabaron conversando entre sí; Pietro generó modelos y animaciones 3D a partir de una imagen, un simulador submarino de Atlantis y juegos tipo Beyblade o Wave Race; y Ethan Mollick recreó la Biblioteca de Alejandría con narración integrada.
+
+#### Valoración general
+
+Para el autor, GPT-6 Astra supone un salto mayor que la oleada reciente de lanzamientos, que califica de mejoras pequeñas, y es uno de los modelos con los que más ha disfrutado trabajando, especialmente por su capacidad para manejar herramientas profesionales como Blender o Unreal Engine. Planea usarlo para rediseñar su dashboard y aumentar su productividad diaria, y anuncia más vídeos extra durante la semana además de su resumen de noticias de los viernes.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| OpenAI (GPT-6 Astra, blog y demos) | https://openai.com |
+| ChatGPT | https://chatgpt.com |
+| Artificial Analysis | https://artificialanalysis.ai |
+| ARC Prize (ARC-AGI) | https://arcprize.org |
+| Blender | https://www.blender.org |
+| Unreal Engine | https://www.unrealengine.com |
+| Canal Matt Wolfe | https://www.youtube.com/@mreflow |
+
+---
 ## [Matt Wolfe] The Most Overhyped and Underhyped New AI Models
 **Fecha:** 2026-09-03
 **URL:** https://www.youtube.com/watch?v=Po_Dh7WLgmM
