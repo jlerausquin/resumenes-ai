@@ -1,5 +1,68 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI News: The Most Insane Week So Far This Year!
+
+**Fecha:** 2026-09-04
+**URL:** https://www.youtube.com/watch?v=GfPZm9yucQo
+**Video ID:** GfPZm9yucQo
+
+### 📝 Resumen
+
+#### Cuatro modelos de frontera en una sola semana
+
+El vídeo repasa una semana excepcional en la que cuatro grandes laboratorios publicaron modelos de nueva generación casi simultáneamente: Claude Fable 5.1 (Anthropic), Gemini 3.8 Flash (Google), Muse Spark 1.3 (Meta) y GPT-6 Astra (OpenAI). El autor aclara que dedicó vídeos separados a los lanzamientos más relevantes y que en esta entrega ofrece una visión panorámica con comparativas prácticas y benchmarks para quien solo quiera ver un resumen semanal.
+
+#### Claude Fable 5.1: el nuevo rey de los benchmarks, con un coste elevado
+
+Fable 5.1 (junto a Mythos 5.1, reservado a profesionales de ciberseguridad) arrasó en los rankings el día de su lanzamiento: lidera Artificial Analysis incluso después de que llegaran el resto de modelos de la semana y destaca en pruebas como Scientific Research y Terminal Bench. Anthropic afirma que costará un 25% menos que Fable 5 en cargas típicas y que bloquea un 60% menos de peticiones legítimas por falsos positivos. Sin embargo, en la métrica de coste por tarea de Artificial Analysis resulta ser el modelo más caro del mercado ($3,69 por tarea frente a $3,14 de Fable 5) y en Beauty Bench tardó 18 minutos y $4,35 en generar una única imagen SVG.
+
+#### Gemini 3.8 Flash: la mejor relación calidad-precio, sobre todo en código
+
+El modelo de Google destaca por ser económico y rápido: 75 centavos por millón de tokens de entrada y $3,75 de salida, frente a los $5/$25 de Opus 5 o los $10/$50 de Fable. Su punto fuerte es la programación: alcanza un 73,7% en DeepSWE frente al 74% de Opus 5, pero con un coste medio por tarea de $2,36 frente a los $11,84 de Opus. Con 58 centavos por tarea en Artificial Analysis y resultados más que dignos en Beauty Bench (poco más de 9 centavos y 92 segundos por imagen), se presenta como la opción de valor más clara de la semana para trabajar con agentes de código.
+
+#### Muse Spark 1.3: cuando los rankings dejan de cuadrar
+
+El modelo de Meta desconcierta al autor: marca un 75,4% en DeepSWE (que lo convertiría en el mejor modelo de código jamás medido) y ocupa el tercer puesto en Artificial Analysis, por delante de GPT-6 y Gemini 3.8 Flash, con un coste por tarea de solo 55 centavos y disponibilidad gratuita vía OpenRouter. El problema es que ni siquiera aparece en el leaderboard oficial de DeepSWE y que en Beauty Bench queda en el puesto 20 con una imagen SVG muy pobre. Esta contradicción entre rankings y resultados reales lleva a Matt Wolfe a cuestionar abiertamente la fiabilidad de los benchmarks que hasta ahora consideraba más sólidos.
+
+#### GPT-6 Astra: resultados espectaculares con despliegue todavía limitado
+
+El lanzamiento de OpenAI comenzó con acceso restringido a un conjunto limitado de organizaciones y se extenderá en los próximos días a usuarios de pago. En DeepSWE registra un 74,1% y satura ARC-AGI-3 con un 99,9%, lo que para el autor convierte ese benchmark en inútil. Su rendimiento en Beauty Bench le da el primer puesto, con una imagen generada en unos 9 minutos y un coste estimado equivalente de $1,94 por API. Wolfe remite a su vídeo dedicado para un análisis más profundo del modelo.
+
+#### La prueba "Megabon": la experiencia real no coincide con los rankings
+
+Para contrastar los números, el autor pidió a los cuatro modelos que clonaran un mismo videojuego sencillo. Fable 5.1 produjo un juego vistoso, pero tardó unas dos horas y consumió todo el crédito del plan 20x de Anthropic ($200/mes) más unos $120 adicionales. Gemini 3.8 Flash entregó un resultado claramente mejor que el obtenido previamente con Fable 5 gastando una fracción mínima de los créditos de Cursor. Muse Spark 1.3, pese a ser el supuesto número uno en código, generó el clon más pobre (un cubo disparando a otros cubos). GPT-6 Astra fue el ganador estético y de calidad, con un juego casi completo en unos 12 minutos. Esta disparidad entre los rankings y lo que el autor observa al usar los modelos le lleva a concluir que ya no puede confiar plenamente ni en DeepSWE ni en Artificial Analysis.
+
+#### Novedades de producto y herramientas destacadas
+
+World Labs presentó Atlas, un sistema en acceso anticipado que reconstruye entornos 3D navegables a partir de una o varias fotografías, con control de cámara "pixel perfect" y efectos tipo bullet-time. Runway mostró Solaris, también en early access, que permite manipular vídeos en tiempo real (arrastrar objetos, cambiar ropa, mover elementos con sombras coherentes) a partir de su modelo Gen 4.5. OpenClaw lanzó su versión 2.0, aunque el autor reconoce que ya no lo utiliza porque Cursor y Codex integran funciones agénticas. En transcripción llegaron dos modelos nuevos: Muse Voice Transcribe de Meta y MAI Transcribe 2 de Microsoft, presentado como el más rápido, preciso y barato de su categoría. Además, ChatGPT amplió la conexión de varias cuentas de Google en su app y Google llevó las funciones conversacionales de voz (Gemini) a Gmail, Docs y Keep para suscriptores de pago. La sección incluye un patrocinio de Artlist, que añadió AI Flows (canvas visual de flujos reutilizables) y Seedance 2.5 (vídeo 1080p de hasta 30 segundos con 50 imágenes de referencia).
+
+#### Ecosistema, sociedad y gadgets
+
+Nvidia hizo oficial la adquisición de Hugging Face, movimiento que el autor interpreta como una apuesta por los modelos de pesos abiertos: si los grandes laboratorios fabrican sus propios chips, Nvidia necesitará que empresas y usuarios finales compren su hardware para ejecutar modelos open-weight en sus propios centros de datos. También advierte de que las conversaciones con ChatGPT no están protegidas y pueden terminar en un tribunal. En educación, el alcalde de Nueva York firmó una política que impide usar IA en las escuelas de K-8 hasta dominar los fundamentos, con la analogía de aprender matemáticas sin calculadora. En el lado más lúdico, el nuevo modelo de vídeo de MiniMax (15 segundos generados en 13) ha disparado los "streams infinitos" de contenido automatizado como Fowl.live o InfiniteSlop.ai de Pieter Levels, que llegó a reunir 37.000 espectadores simultáneos. Por último, Dyson presentó Camera Jet, un cepillo de dientes con cámara y chorro de agua que usa IA para hacer el flossing automáticamente... por $500.
+
+### 🔗 Referencias
+
+| Qué | Entidad | Enlace |
+|---|---|---|
+| Modelo de IA | Claude Fable 5.1 / Mythos 5.1 (Anthropic) | https://www.anthropic.com |
+| Modelo de IA | Gemini 3.8 Flash (Google) | https://deepmind.google |
+| Modelo de IA | Muse Spark 1.3 (Meta) | https://ai.meta.com |
+| Modelo de IA | GPT-6 Astra (OpenAI) | https://openai.com |
+| Benchmark agregado | Artificial Analysis | https://artificialanalysis.ai |
+| Benchmark de código | DeepSWE-Bench | https://deepwiki.com |
+| Benchmark visual | Beauty Bench | https://beauty.bench.org |
+| Benchmark de razonamiento | ARC-AGI-3 | https://arcprize.org |
+| Plataforma de modelos | OpenRouter | https://openrouter.ai |
+| Editor con IA | Cursor | https://cursor.com |
+| Generación de entornos 3D | World Labs Atlas | https://www.worldlabs.ai |
+| Vídeo en tiempo real | Runway Solaris (Gen 4.5) | https://runwayml.com |
+| Agente de código abierto | OpenClaw 2.0 | https://openclaw.ai |
+| Banco de recursos | Artlist AI Flows + Seedance 2.5 | https://artlist.io |
+| Transmisión infinita de IA | InfiniteSlop.ai (Pieter Levels) | https://infiniteslop.ai |
+| Adquisición | Nvidia + Hugging Face | https://huggingface.co |
+| Gadget | Dyson Camera Jet | https://www.dyson.com |
+
+---
 ## [Matt Wolfe] GPT-6 Astra Is Finally Here (And It's REALLY Good)
 **Fecha:** 2026-09-03
 **URL:** https://www.youtube.com/watch?v=GGzT7zVrRTU

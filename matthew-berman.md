@@ -1,5 +1,51 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] I've had early access to Astra... it's INSANE
+
+**Fecha:** 2026-09-04
+**URL:** https://www.youtube.com/watch?v=ZTgFyP0PZJo
+**Video ID:** ZTgFyP0PZJo
+
+### 📝 Resumen
+
+#### Primeras impresiones con GPT-6 Astra
+
+El vídeo muestra la experiencia del autor con acceso anticipado a GPT-6 Astra, al que describe como el mejor modelo que ha utilizado hasta la fecha. La mayor parte del contenido son demos en vivo de proyectos generados por el modelo: juegos completos, mundos 3D navegables, simulaciones y tareas de navegador, todos ellos publicados para que los espectadores puedan probarlos directamente.
+
+#### Juegos completos con un solo prompt
+
+Berman demuestra varias demos creadas con prompts mínimos: un clon de Fall Guys jugable, con efectos de sonido y buenas físicas, generado a partir de un único prompt y refinado con una sola ronda de feedback; un mundo de siete biomas que considera impecable y al menos al nivel de lo logrado con GLM 5.3 o Fable 5.1; una ciudad 3D completa construida únicamente con caracteres ASCII; un planeta/isla 3D de un solo prompt con animaciones que cambian al nadar, waypoints navegables de forma autónoma y sin problemas de clipping; un juego de terror espacial liminal hiperrealista; un mini GTA; un manga y un clon multijugador de Choo Choo Rocket. En su opinión, estos resultados superan con claridad lo que conseguía con Fable 5.1 en la misma tarea.
+
+#### SimCity de cinco días y mundos generativos
+
+Una de las demos más llamativas es un SimCity completo que Astra construyó durante cinco días seguidos tras un comando /goal: creó uno a uno cada edificio (parque de bomberos, comisaría, hospital, planta nuclear, universidad) y el resultado es un juego totalmente jugable con población, felicidad, tráfico, emergencias y gestión de zonas. El autor tuvo que pedirle explícitamente que optimizara el rendimiento para navegador y los FPS, y el mundo además se genera de forma infinita mientras el jugador avanza.
+
+#### Control de navegador y trabajo de conocimiento
+
+Astra destaca también en computer use y control del navegador, algo que al autor le importa especialmente porque "ya no quiere hacerlo todo él mismo". En la demo, el modelo escribió su propio software de grabación de pantalla con temporizador para documentar su trabajo, investigó y comparó tres listados de cartas Pokémon caras en eBay en 55 segundos, y preparó una presentación corporativa sobre centros de datos aplicando la marca de la empresa. Son tareas de knowledge work que el autor considera transformadoras para el trabajo diario.
+
+#### Eval de Box AI: resultados por industria
+
+El vídeo incluye un segmento patrocinado por Box, que publicó su propio benchmark de trabajo complejo con IA para GPT-6 Astra: mejora global del 3% sobre el conjunto completo, con subidas destacadas por industria — tecnología de 62 a 77, legal de 64 a 72, energía de 77 a 86 y un gran salto en medios y entretenimiento. Box AI integrará GPT-6 Astra próximamente, según anuncia el patrocinador.
+
+#### Críticas: el "olor a IA" y la uniformidad del diseño
+
+Pese al entusiasmo, Berman señala defectos reconocibles: queda cierto "olor a IA" tanto en los textos como en las decisiones de diseño, y observa que cinco o seis proyectos distintos generados sin instrucciones comparten la misma paleta de verde bosque y abundan los elementos de diseño plano. La buena noticia es que Astra es muy dirigible: con pequeños ajustes se obtienen estilos muy diferentes. También bromea con que benchmarks como el del cubo de Rubik ya están saturados, aunque reconoce que en juegos y demos interactivas el modelo supera todo lo que había probado antes.
+
+### 🔗 Referencias
+
+| Qué | Entidad | Enlace |
+|---|---|---|
+| Modelo de IA | GPT-6 Astra (OpenAI) | https://openai.com |
+| Almacenamiento y eval empresarial | Box / Box AI Complex Work Eval | https://www.box.com |
+| Modelo de IA (comparativa) | Claude Fable 5.1 (Anthropic) | https://www.anthropic.com |
+| Modelo de IA (comparativa) | GLM 5.3 (Zhipu) | https://www.z.ai |
+| Pizarra online | Excalidraw (workflow dibujado por Astra) | https://excalidraw.com |
+| Marketplace (demo de búsqueda) | eBay | https://www.ebay.com |
+| Juego de referencia | Fall Guys | https://www.fallguys.com |
+| Juego de referencia | Choo Choo Rocket | — |
+
+---
 ## [Matthew Berman] GOOGLE IS BACK! (Gemini 3.8 Flash)
 **Fecha:** 2026-09-03
 **URL:** https://www.youtube.com/watch?v=2uVH2WUYb5E

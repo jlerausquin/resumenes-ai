@@ -1,6 +1,115 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] I've had early access to Astra... it's INSANE
+
+**Fecha:** 2026-09-04
+**URL:** https://www.youtube.com/watch?v=ZTgFyP0PZJo
+**Video ID:** ZTgFyP0PZJo
+
+### 📝 Resumen
+
+#### Primeras impresiones con GPT-6 Astra
+
+El vídeo muestra la experiencia del autor con acceso anticipado a GPT-6 Astra, al que describe como el mejor modelo que ha utilizado hasta la fecha. La mayor parte del contenido son demos en vivo de proyectos generados por el modelo: juegos completos, mundos 3D navegables, simulaciones y tareas de navegador, todos ellos publicados para que los espectadores puedan probarlos directamente.
+
+#### Juegos completos con un solo prompt
+
+Berman demuestra varias demos creadas con prompts mínimos: un clon de Fall Guys jugable, con efectos de sonido y buenas físicas, generado a partir de un único prompt y refinado con una sola ronda de feedback; un mundo de siete biomas que considera impecable y al menos al nivel de lo logrado con GLM 5.3 o Fable 5.1; una ciudad 3D completa construida únicamente con caracteres ASCII; un planeta/isla 3D de un solo prompt con animaciones que cambian al nadar, waypoints navegables de forma autónoma y sin problemas de clipping; un juego de terror espacial liminal hiperrealista; un mini GTA; un manga y un clon multijugador de Choo Choo Rocket. En su opinión, estos resultados superan con claridad lo que conseguía con Fable 5.1 en la misma tarea.
+
+#### SimCity de cinco días y mundos generativos
+
+Una de las demos más llamativas es un SimCity completo que Astra construyó durante cinco días seguidos tras un comando /goal: creó uno a uno cada edificio (parque de bomberos, comisaría, hospital, planta nuclear, universidad) y el resultado es un juego totalmente jugable con población, felicidad, tráfico, emergencias y gestión de zonas. El autor tuvo que pedirle explícitamente que optimizara el rendimiento para navegador y los FPS, y el mundo además se genera de forma infinita mientras el jugador avanza.
+
+#### Control de navegador y trabajo de conocimiento
+
+Astra destaca también en computer use y control del navegador, algo que al autor le importa especialmente porque "ya no quiere hacerlo todo él mismo". En la demo, el modelo escribió su propio software de grabación de pantalla con temporizador para documentar su trabajo, investigó y comparó tres listados de cartas Pokémon caras en eBay en 55 segundos, y preparó una presentación corporativa sobre centros de datos aplicando la marca de la empresa. Son tareas de knowledge work que el autor considera transformadoras para el trabajo diario.
+
+#### Eval de Box AI: resultados por industria
+
+El vídeo incluye un segmento patrocinado por Box, que publicó su propio benchmark de trabajo complejo con IA para GPT-6 Astra: mejora global del 3% sobre el conjunto completo, con subidas destacadas por industria — tecnología de 62 a 77, legal de 64 a 72, energía de 77 a 86 y un gran salto en medios y entretenimiento. Box AI integrará GPT-6 Astra próximamente, según anuncia el patrocinador.
+
+#### Críticas: el "olor a IA" y la uniformidad del diseño
+
+Pese al entusiasmo, Berman señala defectos reconocibles: queda cierto "olor a IA" tanto en los textos como en las decisiones de diseño, y observa que cinco o seis proyectos distintos generados sin instrucciones comparten la misma paleta de verde bosque y abundan los elementos de diseño plano. La buena noticia es que Astra es muy dirigible: con pequeños ajustes se obtienen estilos muy diferentes. También bromea con que benchmarks como el del cubo de Rubik ya están saturados, aunque reconoce que en juegos y demos interactivas el modelo supera todo lo que había probado antes.
+
+### 🔗 Referencias
+
+| Qué | Entidad | Enlace |
+|---|---|---|
+| Modelo de IA | GPT-6 Astra (OpenAI) | https://openai.com |
+| Almacenamiento y eval empresarial | Box / Box AI Complex Work Eval | https://www.box.com |
+| Modelo de IA (comparativa) | Claude Fable 5.1 (Anthropic) | https://www.anthropic.com |
+| Modelo de IA (comparativa) | GLM 5.3 (Zhipu) | https://www.z.ai |
+| Pizarra online | Excalidraw (workflow dibujado por Astra) | https://excalidraw.com |
+| Marketplace (demo de búsqueda) | eBay | https://www.ebay.com |
+| Juego de referencia | Fall Guys | https://www.fallguys.com |
+| Juego de referencia | Choo Choo Rocket | — |
+
+---
+## [Matt Wolfe] AI News: The Most Insane Week So Far This Year!
+
+**Fecha:** 2026-09-04
+**URL:** https://www.youtube.com/watch?v=GfPZm9yucQo
+**Video ID:** GfPZm9yucQo
+
+### 📝 Resumen
+
+#### Cuatro modelos de frontera en una sola semana
+
+El vídeo repasa una semana excepcional en la que cuatro grandes laboratorios publicaron modelos de nueva generación casi simultáneamente: Claude Fable 5.1 (Anthropic), Gemini 3.8 Flash (Google), Muse Spark 1.3 (Meta) y GPT-6 Astra (OpenAI). El autor aclara que dedicó vídeos separados a los lanzamientos más relevantes y que en esta entrega ofrece una visión panorámica con comparativas prácticas y benchmarks para quien solo quiera ver un resumen semanal.
+
+#### Claude Fable 5.1: el nuevo rey de los benchmarks, con un coste elevado
+
+Fable 5.1 (junto a Mythos 5.1, reservado a profesionales de ciberseguridad) arrasó en los rankings el día de su lanzamiento: lidera Artificial Analysis incluso después de que llegaran el resto de modelos de la semana y destaca en pruebas como Scientific Research y Terminal Bench. Anthropic afirma que costará un 25% menos que Fable 5 en cargas típicas y que bloquea un 60% menos de peticiones legítimas por falsos positivos. Sin embargo, en la métrica de coste por tarea de Artificial Analysis resulta ser el modelo más caro del mercado ($3,69 por tarea frente a $3,14 de Fable 5) y en Beauty Bench tardó 18 minutos y $4,35 en generar una única imagen SVG.
+
+#### Gemini 3.8 Flash: la mejor relación calidad-precio, sobre todo en código
+
+El modelo de Google destaca por ser económico y rápido: 75 centavos por millón de tokens de entrada y $3,75 de salida, frente a los $5/$25 de Opus 5 o los $10/$50 de Fable. Su punto fuerte es la programación: alcanza un 73,7% en DeepSWE frente al 74% de Opus 5, pero con un coste medio por tarea de $2,36 frente a los $11,84 de Opus. Con 58 centavos por tarea en Artificial Analysis y resultados más que dignos en Beauty Bench (poco más de 9 centavos y 92 segundos por imagen), se presenta como la opción de valor más clara de la semana para trabajar con agentes de código.
+
+#### Muse Spark 1.3: cuando los rankings dejan de cuadrar
+
+El modelo de Meta desconcierta al autor: marca un 75,4% en DeepSWE (que lo convertiría en el mejor modelo de código jamás medido) y ocupa el tercer puesto en Artificial Analysis, por delante de GPT-6 y Gemini 3.8 Flash, con un coste por tarea de solo 55 centavos y disponibilidad gratuita vía OpenRouter. El problema es que ni siquiera aparece en el leaderboard oficial de DeepSWE y que en Beauty Bench queda en el puesto 20 con una imagen SVG muy pobre. Esta contradicción entre rankings y resultados reales lleva a Matt Wolfe a cuestionar abiertamente la fiabilidad de los benchmarks que hasta ahora consideraba más sólidos.
+
+#### GPT-6 Astra: resultados espectaculares con despliegue todavía limitado
+
+El lanzamiento de OpenAI comenzó con acceso restringido a un conjunto limitado de organizaciones y se extenderá en los próximos días a usuarios de pago. En DeepSWE registra un 74,1% y satura ARC-AGI-3 con un 99,9%, lo que para el autor convierte ese benchmark en inútil. Su rendimiento en Beauty Bench le da el primer puesto, con una imagen generada en unos 9 minutos y un coste estimado equivalente de $1,94 por API. Wolfe remite a su vídeo dedicado para un análisis más profundo del modelo.
+
+#### La prueba "Megabon": la experiencia real no coincide con los rankings
+
+Para contrastar los números, el autor pidió a los cuatro modelos que clonaran un mismo videojuego sencillo. Fable 5.1 produjo un juego vistoso, pero tardó unas dos horas y consumió todo el crédito del plan 20x de Anthropic ($200/mes) más unos $120 adicionales. Gemini 3.8 Flash entregó un resultado claramente mejor que el obtenido previamente con Fable 5 gastando una fracción mínima de los créditos de Cursor. Muse Spark 1.3, pese a ser el supuesto número uno en código, generó el clon más pobre (un cubo disparando a otros cubos). GPT-6 Astra fue el ganador estético y de calidad, con un juego casi completo en unos 12 minutos. Esta disparidad entre los rankings y lo que el autor observa al usar los modelos le lleva a concluir que ya no puede confiar plenamente ni en DeepSWE ni en Artificial Analysis.
+
+#### Novedades de producto y herramientas destacadas
+
+World Labs presentó Atlas, un sistema en acceso anticipado que reconstruye entornos 3D navegables a partir de una o varias fotografías, con control de cámara "pixel perfect" y efectos tipo bullet-time. Runway mostró Solaris, también en early access, que permite manipular vídeos en tiempo real (arrastrar objetos, cambiar ropa, mover elementos con sombras coherentes) a partir de su modelo Gen 4.5. OpenClaw lanzó su versión 2.0, aunque el autor reconoce que ya no lo utiliza porque Cursor y Codex integran funciones agénticas. En transcripción llegaron dos modelos nuevos: Muse Voice Transcribe de Meta y MAI Transcribe 2 de Microsoft, presentado como el más rápido, preciso y barato de su categoría. Además, ChatGPT amplió la conexión de varias cuentas de Google en su app y Google llevó las funciones conversacionales de voz (Gemini) a Gmail, Docs y Keep para suscriptores de pago. La sección incluye un patrocinio de Artlist, que añadió AI Flows (canvas visual de flujos reutilizables) y Seedance 2.5 (vídeo 1080p de hasta 30 segundos con 50 imágenes de referencia).
+
+#### Ecosistema, sociedad y gadgets
+
+Nvidia hizo oficial la adquisición de Hugging Face, movimiento que el autor interpreta como una apuesta por los modelos de pesos abiertos: si los grandes laboratorios fabrican sus propios chips, Nvidia necesitará que empresas y usuarios finales compren su hardware para ejecutar modelos open-weight en sus propios centros de datos. También advierte de que las conversaciones con ChatGPT no están protegidas y pueden terminar en un tribunal. En educación, el alcalde de Nueva York firmó una política que impide usar IA en las escuelas de K-8 hasta dominar los fundamentos, con la analogía de aprender matemáticas sin calculadora. En el lado más lúdico, el nuevo modelo de vídeo de MiniMax (15 segundos generados en 13) ha disparado los "streams infinitos" de contenido automatizado como Fowl.live o InfiniteSlop.ai de Pieter Levels, que llegó a reunir 37.000 espectadores simultáneos. Por último, Dyson presentó Camera Jet, un cepillo de dientes con cámara y chorro de agua que usa IA para hacer el flossing automáticamente... por $500.
+
+### 🔗 Referencias
+
+| Qué | Entidad | Enlace |
+|---|---|---|
+| Modelo de IA | Claude Fable 5.1 / Mythos 5.1 (Anthropic) | https://www.anthropic.com |
+| Modelo de IA | Gemini 3.8 Flash (Google) | https://deepmind.google |
+| Modelo de IA | Muse Spark 1.3 (Meta) | https://ai.meta.com |
+| Modelo de IA | GPT-6 Astra (OpenAI) | https://openai.com |
+| Benchmark agregado | Artificial Analysis | https://artificialanalysis.ai |
+| Benchmark de código | DeepSWE-Bench | https://deepwiki.com |
+| Benchmark visual | Beauty Bench | https://beauty.bench.org |
+| Benchmark de razonamiento | ARC-AGI-3 | https://arcprize.org |
+| Plataforma de modelos | OpenRouter | https://openrouter.ai |
+| Editor con IA | Cursor | https://cursor.com |
+| Generación de entornos 3D | World Labs Atlas | https://www.worldlabs.ai |
+| Vídeo en tiempo real | Runway Solaris (Gen 4.5) | https://runwayml.com |
+| Agente de código abierto | OpenClaw 2.0 | https://openclaw.ai |
+| Banco de recursos | Artlist AI Flows + Seedance 2.5 | https://artlist.io |
+| Transmisión infinita de IA | InfiniteSlop.ai (Pieter Levels) | https://infiniteslop.ai |
+| Adquisición | Nvidia + Hugging Face | https://huggingface.co |
+| Gadget | Dyson Camera Jet | https://www.dyson.com |
+
+---
 ## [Matthew Berman] GOOGLE IS BACK! (Gemini 3.8 Flash)
 **Fecha:** 2026-09-03
 **URL:** https://www.youtube.com/watch?v=2uVH2WUYb5E
