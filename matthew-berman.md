@@ -1,5 +1,53 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] We need to talk about this...
+
+**Fecha:** 2026-09-09
+**URL:** https://www.youtube.com/watch?v=e7t9HU2Z6t8
+**Video ID:** e7t9HU2Z6t8
+
+### 📝 Resumen
+
+Matthew Berman desgrana el anuncio de OpenAI según el cual un grupo de agentes basados en un modelo de próxima generación —significativamente más capaz que GPT-6 Astra, lanzado apenas cuatro días antes— habría producido una demostración para el problema de Navier-Stokes, uno de los Problemas del Milenio dotado con un premio de un millón de dólares. El vídeo explica qué es este problema, por qué importa tanto, la disputa pública con los matemáticos que llevaban un año trabajando en él y las consecuencias que el episodio tiene sobre la mejora recursiva de la IA y sobre el riesgo de plataforma para cualquier negocio construido encima de modelos propietarios.
+
+#### Qué es el problema de Navier-Stokes y por qué importa
+
+Las ecuaciones de Navier-Stokes son la herramienta principal con la que la ciencia describe y predice el movimiento de los fluidos: desde el agua que circula por una tubería hasta el aire que rodea las alas de un avión, las corrientes oceánicas o el humo que se arremolina en una habitación. Su comportamiento se vuelve infinitamente complejo y la pregunta abierta es si es posible predecirlo indefinidamente. La formulación matemática de ese límite forma parte de los Problemas del Milenio, con un premio de un millón de dólares, y ha resistido los intentos de científicos y matemáticos durante décadas: Berman sitúa el problema como abierto desde hace más de ochenta años. De su resolución dependen avances prácticos en aeronáutica, eficiencia de vehículos, refrigeración de chips y predicción meteorológica.
+
+#### El anuncio de OpenAI y el salto de generación
+
+El anuncio de OpenAI llegó apenas unos minutos antes de la grabación del vídeo. La compañía afirmó compartir una solución al problema del Milenio y atribuyó la prueba a un grupo de agentes que operaban con un modelo de próxima generación "significativamente más capaz que GPT-6 Astra", el modelo presentado tan solo cuatro días antes. Para Berman el hecho tiene dos lecturas. La primera es que la IA ya no resuelve únicamente problemas teóricos sin aplicación: aquí hay consecuencias industriales y científicas muy concretas, y es precisamente el terreno que más le entusiasma, por su promesa de nuevos materiales, nuevos medicamentos y potencial cura de enfermedades. La segunda es la naturalidad con la que OpenAI menciona un modelo muy superior a uno lanzado apenas unos días antes.
+
+#### La disputa con Buckmaster y Alpagy
+
+El matemático Tristan Buckmaster y su colega Levent Alpagy llevaban un año trabajando en el problema y utilizaban Codex de OpenAI, almacenando en la herramienta todos sus borradores. A mediados de agosto obtuvieron un resultado real al demostrar algo que hasta entonces no estaba probado. El 3 de septiembre llegaron los rumores de que OpenAI conocía su trabajo, y Buckmaster escribió a la compañía para aclarar que era un proyecto personal y no una iniciativa oficial, matiz relevante porque uno de los dos matemáticos es empleado de Anthropic. El 6 de septiembre OpenAI les llamó para decirles que su propia IA había producido una prueba sobre la siguiente versión, más difícil, del mismo problema, empleando un enfoque inusual idéntico al que habían elegido ellos. Buckmaster sostiene que el primer intento de OpenAI se lanzó solo un día después de conocer su progreso, pidió sin éxito una respuesta clara sobre si sus borradores privados de Codex se habían utilizado, y denunció negociaciones sobre el reparto de crédito en las que uno de los matemáticos habría quedado fuera por trabajar en Anthropic. El 8 de septiembre publicó un texto acusando a OpenAI de precipitar la publicación antes de completar las verificaciones para controlar quién se atribuía el mérito.
+
+#### La respuesta de OpenAI y el matiz sobre los datos
+
+OpenAI negó categóricamente esa versión: felicitó públicamente a los dos matemáticos por su trabajo y aseguró que ni los investigadores ni los agentes vieron su trabajo por ningún medio hasta que lo publicaron, y que no se accedió a datos específicos de usuario para resolver el problema. Sin embargo, la compañía añadió un matiz muy relevante: aunque lo considera improbable, no puede descartar que datos desidentificados derivados del uso de sus productos hayan ayudado a mejorar sus modelos. Poco después, Sebastian Bubck, responsable de la iniciativa Navier-Stokes en OpenAI, publicó pruebas de su conversación con los matemáticos: afirmó haberse puesto en contacto con Levent para coordinar las publicaciones porque habían llegado a la solución casi al mismo tiempo, negó haber pedido que le retiraran de la autoría y sostuvo que la intención de la compañía era celebrar sus logros, señalando además que Levent se negó a asistir a las reuniones pese a sus insistencia. Berman recuerda que todo esto procede de mensajes y comunicados públicos y que no puede confirmar qué ocurrió realmente.
+
+#### Los números: 88 horas frente a ochenta años
+
+El dato que más impresiona al autor es la escala temporal. El modelo de próxima generación de OpenAI habría resuelto el problema en menos de cinco días: el trabajo comenzó el 1 de septiembre y terminó el sábado 5 de septiembre, un total de 88 horas. En ese proceso se intercambiaron 4,9 millones de mensajes entre agentes y se generaron 300.000 millones de tokens de salida. Para Berman, si un sistema de IA puede resolver un Problema del Milenio, en la práctica puede resolver cualquier problema matemático, lo que convierte este episodio en una señal del terreno que se avecina.
+
+#### Mejora recursiva: el ciclo que se está cerrando
+
+Berman aprovecha el caso para explicar la mejora recursiva o RSI, es decir, la capacidad de la propia inteligencia artificial para descubrir formas de mejorarse a sí misma. Tanto Anthropic como OpenAI ya están usando los inicios de este mecanismo: la compañía ha explicado que GPT-5.5 ayudó a construir GPT-5.6 y ha publicado un artículo sobre cómo acelera su propia investigación en IA con IA. El bucle todavía no está cerrado del todo —el escenario completo sería aquel en el que la IA diseña los experimentos, los ejecuta, identifica las soluciones válidas y se mejora a sí misma de forma indefinida—, pero el autor subraya que la aceleración ya alcanza prácticamente todas las fases de su investigación. Lo describe como un escenario a la vez temible y extraordinario: exponencial en su mejora si se mantiene bajo control, y capaz de desbloquear avances en materiales, medio ambiente, predicción meteorológica o vuelos mucho más rápidos.
+
+#### El lugar del humano y el riesgo de plataforma
+
+La reflexión final del vídeo se divide en dos frentes. El primero es el papel humano cuando la IA descubre conocimiento mejor y más rápido: Berman recurre al ajedrez, donde los motores superan a cualquier persona desde hace años, y observa que las competiciones siguen existiendo porque nos gusta ver a humanos enfrentarse entre sí, no ver a una máquina arrasar a Magnus Carlsen. En matemáticas y descubrimiento de frontera, en cambio, no existe ese placer: lo que se desea es el mejor resultado lo antes posible, y ese terreno quedará para la IA. El segundo frente es el riesgo de plataforma. Quien construye su negocio sobre los modelos de OpenAI o Anthropic entrega a esas compañías su experiencia y sus datos, y la propia OpenAI admite que no puede descartar que datos desidentificados hayan mejorado sus modelos. La conclusión del autor es que futuras versiones de estos sistemas podrían incorporar ya el conocimiento de tu negocio, lo que convierte la evaluación de modelos abiertos en una decisión estratégica y no solo técnica.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Problema de Navier-Stokes (Clay Mathematics Institute) | https://www.claymath.org/millennium/navier-stokes-equation/ |
+| OpenAI | https://openai.com |
+| OpenAI Codex | https://openai.com/codex |
+| Anthropic | https://www.anthropic.com |
+
+---
 ## [Matthew Berman] I've had early access to Astra... it's INSANE
 
 **Fecha:** 2026-09-04

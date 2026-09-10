@@ -1,5 +1,56 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] AI makes Project Management obsolete: this is what's coming next
+
+**Fecha:** 2026-09-09
+**URL:** https://www.youtube.com/watch?v=WAfTZLE9cso
+**Video ID:** WAfTZLE9cso
+
+### 📝 Resumen
+
+Javier Garzás, con más de veinte años de experiencia en el sector digital, sostiene que la gestión de proyectos tradicional no está muriendo, pero sí está dejando de ser una rama con crecimiento y glamour profesional. A partir de tres señales medibles —el comportamiento de las herramientas, el desplome del interés por el término y la retirada de los grandes referentes— traza una fotografía del sector y argumenta que lo relevante no es la decadencia de lo antiguo, sino el nacimiento de una nueva disciplina de gestión moldeada por la IA.
+
+#### Las herramientas: Jira pierde el futuro mientras Atlassian factura más que nunca
+
+Jira, nacida en 2002 —cinco años antes que el iPhone—, es la herramienta emblemática de la gestión tradicional, y hoy pierde un 32% de sus clientes nuevos en un año. En contraste, Linear, nacida en 2019, crece por encima del 67% y se ha posicionado como la herramienta de la nueva gestión, muy acoplada a la creación de producto y bien integrada con herramientas de generación de código como Cursor. Garzás subraya la aparente paradoja de que Atlassian, la empresa propietaria de Jira, factura más que nunca: lo hace sobre su base instalada, es decir, sobre los clientes de toda la vida. Donde se desangra es en la captación de nuevos clientes, en el crecimiento. Con un símil televisivo, Jira sería la televisión que sigue viendo la gente mayor, mientras que Linear y similares se han convertido en el YouTube que consume la gente joven. En términos fríos, lo que pierde Jira es el futuro: emprendedores, nuevas startups y empresas que prefieren herramientas más ligeras.
+
+#### El desplome del interés y la retirada de los grandes nombres
+
+El segundo síntoma es la demanda: las búsquedas del término "gestión de proyectos" caen un 55% en un año, hasta niveles de práctica irrelevancia mediática. El tercero es la deserción de figuras de referencia. Jürgen Appelo, creador de Management 3.0 y uno de los nombres más influyentes del management digital, ha anunciado el cierre de su newsletter y de su actividad en redes para trabajar por cuenta ajena en la gestión de un hospital. La marca Management 3.0 continúa, pero con un atractivo muy alejado de sus mejores tiempos. En la misma línea, la Scrum Alliance cerró su último ejercicio publicado en pérdidas por primera vez, con casi dos millones de dólares, y la mayoría de las conferencias del sector han desaparecido o arrastran una asistencia poco significativa.
+
+#### Por qué la gestión no desaparece: las modas sólidas no mueren
+
+Garzás rechaza la lectura catastrofista. Tras ver llegar y caer varias modas tecnológicas, su experiencia indica que las disciplinas robustas nunca desaparecen del todo: la ciberseguridad estuvo muy de moda y sigue vigente aunque ya no sea tendencia; el software libre tuvo su burbuja y sigue existiendo; incluso la orientación a objetos, mucho más antigua, continúa ahí. La gestión de proyectos, con todas sus ramas, es una disciplina sólida de muchos años que seguirá existiendo, pero ya no será una rama potente de crecimiento ni de moda profesional. Cuando algo pierde ese impulso, normalmente aparece una rama nueva empujada por una disrupción tecnológica: en este caso, la IA como motor principal de la creación algorítmica y de la programación, sin que ello signifique que la IA pueda entregar software a producción por sí sola.
+
+#### El nacimiento de una nueva forma de gestionar
+
+Lo interesante, según el autor, es que se está asistiendo al nacimiento de otro modo de afrontar los retos que antes cubría la gestión tradicional. Esta disciplina incipiente —product management, product builder, product maker, o el nombre que acabe recibiendo— responde a problemas que antes no existían: equipos mucho más pequeños, un delivery simplificado, reducido y muy automatizado, la mejora del discovery para detectar qué necesidades merecen resolverse, el trabajo en iteraciones y mini-sprints muy cortos, la necesidad de especificar a una máquina cómo debe hacer las cosas y la convivencia con un "ser no humano" que debe ser supervisado por personas.
+
+#### Tres mundos que convivirán durante años
+
+Garzás distingue tres capas simultáneas en el ámbito digital. La primera es la gestión en cascada tradicional, la más antigua, que sigue existiendo. La segunda es la agilidad clásica y sus aledaños, que se mantendrá durante años en administraciones públicas, grandes bancos y corporaciones donde la seguridad y la inercia tecnológica dificultan incorporar la IA con rapidez. La tercera, y la verdaderamente importante ahora, es la nueva gestión que está naciendo al calor de la IA. Su consecuencia estructural es clara: habrá muchos menos roles dedicados en exclusiva a la gestión, porque habrá menos tareas burocráticas y equipos más reducidos.
+
+#### El rol del manager frente a la necesidad de management
+
+El paralelismo que usa el autor es el de tester y testing: una cosa es la persona que ocupa el rol y otra la actividad que debe realizarse. Con la gestión ocurre algo similar: la necesidad de management no desaparecerá, aunque se reduzca la demanda de roles exclusivos. Además, perfiles técnicos que tradicionalmente no gestionaban —programadores, perfiles de QA, diseñadores e incluso product managers— tendrán que aprender a supervisar lo que produce la IA, orientarse más al negocio, a la priorización y al descubrimiento de problemas que vale la pena resolver.
+
+#### Consejos según el momento profesional
+
+La recomendación de Garzás se segmenta por situación. Quien está empezando y quiere dedicarse a esto debería moverse rápido hacia la nueva gestión, que aún se está formando y prácticamente no tiene nombre, antes de que llegue todo el mundo. Quien ya acumula años de experiencia en gestión tradicional en una organización consolidada debería capitalizar esa experiencia durante los años profesionales que le queden. Y quien quiera cambiar de rumbo, sea cual sea su edad, encontrará en esta nueva gestión un renacimiento atractivo de la disciplina, con la advertencia de que conviene formarse, aceptar el ciclo de prueba y error y sumarse a comunidades, porque el ritmo es demasiado rápido para avanzarlo en solitario. Cierra el vídeo recordando una idea que atribuye a Marty Cagan, referente del product management: las tareas burocráticas de la gestión tradicional pueden acabar totalmente automatizadas.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Jira (Atlassian) | https://www.atlassian.com/software/jira |
+| Linear | https://linear.app |
+| Cursor | https://cursor.com |
+| Management 3.0 (Jürgen Appelo) | https://management30.com |
+| Scrum Alliance | https://www.scrumalliance.org |
+| Marty Cagan / Silicon Valley Product Group | https://www.svpg.com |
+| Comunidad Rebeldes y Ágiles (233 Academy) | https://233academy.com |
+
+---
 ## [Javier Garzás] Qué hacer con tu carrera después de los 40 en la era de la IA: las 4 leyes
 **Fecha:** 2026-09-02
 **URL:** https://www.youtube.com/watch?v=eO6MRBgwGuU

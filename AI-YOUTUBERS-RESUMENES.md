@@ -1,6 +1,154 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] We need to talk about this...
+
+**Fecha:** 2026-09-09
+**URL:** https://www.youtube.com/watch?v=e7t9HU2Z6t8
+**Video ID:** e7t9HU2Z6t8
+
+### 📝 Resumen
+
+Matthew Berman desgrana el anuncio de OpenAI según el cual un grupo de agentes basados en un modelo de próxima generación —significativamente más capaz que GPT-6 Astra, lanzado apenas cuatro días antes— habría producido una demostración para el problema de Navier-Stokes, uno de los Problemas del Milenio dotado con un premio de un millón de dólares. El vídeo explica qué es este problema, por qué importa tanto, la disputa pública con los matemáticos que llevaban un año trabajando en él y las consecuencias que el episodio tiene sobre la mejora recursiva de la IA y sobre el riesgo de plataforma para cualquier negocio construido encima de modelos propietarios.
+
+#### Qué es el problema de Navier-Stokes y por qué importa
+
+Las ecuaciones de Navier-Stokes son la herramienta principal con la que la ciencia describe y predice el movimiento de los fluidos: desde el agua que circula por una tubería hasta el aire que rodea las alas de un avión, las corrientes oceánicas o el humo que se arremolina en una habitación. Su comportamiento se vuelve infinitamente complejo y la pregunta abierta es si es posible predecirlo indefinidamente. La formulación matemática de ese límite forma parte de los Problemas del Milenio, con un premio de un millón de dólares, y ha resistido los intentos de científicos y matemáticos durante décadas: Berman sitúa el problema como abierto desde hace más de ochenta años. De su resolución dependen avances prácticos en aeronáutica, eficiencia de vehículos, refrigeración de chips y predicción meteorológica.
+
+#### El anuncio de OpenAI y el salto de generación
+
+El anuncio de OpenAI llegó apenas unos minutos antes de la grabación del vídeo. La compañía afirmó compartir una solución al problema del Milenio y atribuyó la prueba a un grupo de agentes que operaban con un modelo de próxima generación "significativamente más capaz que GPT-6 Astra", el modelo presentado tan solo cuatro días antes. Para Berman el hecho tiene dos lecturas. La primera es que la IA ya no resuelve únicamente problemas teóricos sin aplicación: aquí hay consecuencias industriales y científicas muy concretas, y es precisamente el terreno que más le entusiasma, por su promesa de nuevos materiales, nuevos medicamentos y potencial cura de enfermedades. La segunda es la naturalidad con la que OpenAI menciona un modelo muy superior a uno lanzado apenas unos días antes.
+
+#### La disputa con Buckmaster y Alpagy
+
+El matemático Tristan Buckmaster y su colega Levent Alpagy llevaban un año trabajando en el problema y utilizaban Codex de OpenAI, almacenando en la herramienta todos sus borradores. A mediados de agosto obtuvieron un resultado real al demostrar algo que hasta entonces no estaba probado. El 3 de septiembre llegaron los rumores de que OpenAI conocía su trabajo, y Buckmaster escribió a la compañía para aclarar que era un proyecto personal y no una iniciativa oficial, matiz relevante porque uno de los dos matemáticos es empleado de Anthropic. El 6 de septiembre OpenAI les llamó para decirles que su propia IA había producido una prueba sobre la siguiente versión, más difícil, del mismo problema, empleando un enfoque inusual idéntico al que habían elegido ellos. Buckmaster sostiene que el primer intento de OpenAI se lanzó solo un día después de conocer su progreso, pidió sin éxito una respuesta clara sobre si sus borradores privados de Codex se habían utilizado, y denunció negociaciones sobre el reparto de crédito en las que uno de los matemáticos habría quedado fuera por trabajar en Anthropic. El 8 de septiembre publicó un texto acusando a OpenAI de precipitar la publicación antes de completar las verificaciones para controlar quién se atribuía el mérito.
+
+#### La respuesta de OpenAI y el matiz sobre los datos
+
+OpenAI negó categóricamente esa versión: felicitó públicamente a los dos matemáticos por su trabajo y aseguró que ni los investigadores ni los agentes vieron su trabajo por ningún medio hasta que lo publicaron, y que no se accedió a datos específicos de usuario para resolver el problema. Sin embargo, la compañía añadió un matiz muy relevante: aunque lo considera improbable, no puede descartar que datos desidentificados derivados del uso de sus productos hayan ayudado a mejorar sus modelos. Poco después, Sebastian Bubck, responsable de la iniciativa Navier-Stokes en OpenAI, publicó pruebas de su conversación con los matemáticos: afirmó haberse puesto en contacto con Levent para coordinar las publicaciones porque habían llegado a la solución casi al mismo tiempo, negó haber pedido que le retiraran de la autoría y sostuvo que la intención de la compañía era celebrar sus logros, señalando además que Levent se negó a asistir a las reuniones pese a sus insistencia. Berman recuerda que todo esto procede de mensajes y comunicados públicos y que no puede confirmar qué ocurrió realmente.
+
+#### Los números: 88 horas frente a ochenta años
+
+El dato que más impresiona al autor es la escala temporal. El modelo de próxima generación de OpenAI habría resuelto el problema en menos de cinco días: el trabajo comenzó el 1 de septiembre y terminó el sábado 5 de septiembre, un total de 88 horas. En ese proceso se intercambiaron 4,9 millones de mensajes entre agentes y se generaron 300.000 millones de tokens de salida. Para Berman, si un sistema de IA puede resolver un Problema del Milenio, en la práctica puede resolver cualquier problema matemático, lo que convierte este episodio en una señal del terreno que se avecina.
+
+#### Mejora recursiva: el ciclo que se está cerrando
+
+Berman aprovecha el caso para explicar la mejora recursiva o RSI, es decir, la capacidad de la propia inteligencia artificial para descubrir formas de mejorarse a sí misma. Tanto Anthropic como OpenAI ya están usando los inicios de este mecanismo: la compañía ha explicado que GPT-5.5 ayudó a construir GPT-5.6 y ha publicado un artículo sobre cómo acelera su propia investigación en IA con IA. El bucle todavía no está cerrado del todo —el escenario completo sería aquel en el que la IA diseña los experimentos, los ejecuta, identifica las soluciones válidas y se mejora a sí misma de forma indefinida—, pero el autor subraya que la aceleración ya alcanza prácticamente todas las fases de su investigación. Lo describe como un escenario a la vez temible y extraordinario: exponencial en su mejora si se mantiene bajo control, y capaz de desbloquear avances en materiales, medio ambiente, predicción meteorológica o vuelos mucho más rápidos.
+
+#### El lugar del humano y el riesgo de plataforma
+
+La reflexión final del vídeo se divide en dos frentes. El primero es el papel humano cuando la IA descubre conocimiento mejor y más rápido: Berman recurre al ajedrez, donde los motores superan a cualquier persona desde hace años, y observa que las competiciones siguen existiendo porque nos gusta ver a humanos enfrentarse entre sí, no ver a una máquina arrasar a Magnus Carlsen. En matemáticas y descubrimiento de frontera, en cambio, no existe ese placer: lo que se desea es el mejor resultado lo antes posible, y ese terreno quedará para la IA. El segundo frente es el riesgo de plataforma. Quien construye su negocio sobre los modelos de OpenAI o Anthropic entrega a esas compañías su experiencia y sus datos, y la propia OpenAI admite que no puede descartar que datos desidentificados hayan mejorado sus modelos. La conclusión del autor es que futuras versiones de estos sistemas podrían incorporar ya el conocimiento de tu negocio, lo que convierte la evaluación de modelos abiertos en una decisión estratégica y no solo técnica.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Problema de Navier-Stokes (Clay Mathematics Institute) | https://www.claymath.org/millennium/navier-stokes-equation/ |
+| OpenAI | https://openai.com |
+| OpenAI Codex | https://openai.com/codex |
+| Anthropic | https://www.anthropic.com |
+
+---
+## [Matt Wolfe] GPT-6 Astra will Make you Think BIGGER.
+
+**Fecha:** 2026-09-09
+**URL:** https://www.youtube.com/watch?v=UZZ53F_kEAA
+**Video ID:** UZZ53F_kEAA
+
+### 📝 Resumen
+
+Matt Wolfe analiza GPT-6 Astra, el primer modelo de la familia GPT-6, que apareció públicamente unos días antes de la grabación. Lo describe como el modelo de lenguaje más potente visto hasta la fecha y un salto de magnitud respecto a GPT-5.6 "Soul", aunque insiste en que ello no implica superioridad humana en todos los terrenos. El vídeo combina una muestra de lo que construye su comunidad con una disección práctica de qué mejora realmente, dónde siguen apareciendo los límites y para qué tareas conviene elegir cada modelo.
+
+#### Qué supone Astra frente a la generación anterior
+
+Astra es, en palabras del autor, el modelo GPT-6 más potente hasta la fecha y supone un avance de magnitud respecto a Soul en una amplia variedad de tareas, no una ventaja universal. Wolfe advierte que las diferencias no resultan evidentes de inmediato: Soul ya era extremadamente capaz y, con su precio más bajo para usuarios del plan Plus, puede seguir siendo la opción preferida en muchas tareas. Si al usar Astra no se percibe un salto grande, lo más probable es que la tarea encomendada no sea lo bastante difícil para sacar a relucir el modelo. El autor subraya además que el hecho de ser el primer modelo de la familia GPT-6 abre la puerta a modelos menores y más eficientes a corto plazo.
+
+#### Lo que construye la comunidad
+
+Gran parte del vídeo se dedica a demostraciones hechas por miembros del servidor de Discord del canal. Entre ellas destacan Rocket Zero, un juego de carreras espaciales en 3D con minimapa, múltiples vueltas y animaciones de nave en evolución; una recreación de Black Ops 2 en modo zombis con animación de recarga realista y sistema de puntos para desbloquear armas; una animación estilizada en low-poly sobre una chica en un tren; anuncios ficticios y piezas humorísticas con pixel art; un AMV construido a partir de clips de anime; una animación inspirada en los backrooms; una versión jugable en HTML para móvil del mapa de Black Ops 2; y un simulador de dormitorio nocturno. El autor insiste en que estos resultados no revelan la creatividad del modelo, sino la de las personas que dirigen el proceso: Astra interpreta y ejecuta con enorme fidelidad una idea previamente concebida por humanos.
+
+#### El juego de slime: el bucle humano de playtesting
+
+La creación propia de Wolfe es un juego 3D en el que se controla una criatura de gelatina con física realista, desarrollado en Unreal Engine 5.8 con Codex conectado al servidor MCP oficial y algunos activos gratuitos de Fab. El autor insiste en que no se trató de un único prompt dejado cocinar durante horas: iteró constantemente, jugó cada versión, señaló problemas concretos y pidió correcciones. El modelo resolvió con soltura retos como una vista de teleportación que muestra al personaje a través de objetos con transición a transparente, física de gelatina con interacción real y bajo impacto en rendimiento, o un mundo cohesionado con tuberías y ladrillos modelados individualmente. Wolfe concluye que se podría publicar un juego de alcance completo con IA, situando al humano como probador y director, aunque descarta la fantasía de juegos AAA creados de la nada en un día.
+
+#### El RPG autónomo: dónde fallan los agentes sin supervisión
+
+Para contrastar, el autor encargó un RPG 3D de estilo Bethesda en un único prompt de objetivo amplio, sin probarlo en ningún momento y consumiendo dos resets completos del plan Codex Pro. El resultado es ilustrativo: objetos solapándose en el mismo espacio con parpadeos, animaciones de personaje demasiado lentas, diálogos sin contexto narrativo, puertas que solo funcionan en un sentido o vehículos que acaban estrellados. Wolfe sostiene que la debilidad de Astra no está en diseñar espacios 3D ni en usar las herramientas, sino en no poder experimentar el resultado como un humano. Su propuesta concreta es que los modelos incorporen entrada de vídeo nativa, lo que permitiría detectar este tipo de fallos sin depender del ojo humano.
+
+#### Orquestación, sub-agentes y consumo de tokens
+
+La tarea de desarrollo de juego llegó a emplear 16 sub-agentes distintos, desde revisión hasta generación de terreno. Wolfe observa que Astra tiende a fijarse en ciertas partes del prompt y a ignorar otras: no se trata de olvido, sino de fijación en lo que el modelo considera prioritario. Tampoco destaca por orquestarse solo en proyectos grandes, por lo que conviene explicitar qué se espera en cada pasada, repartir más trabajo por sub-agente y permitir que descarte unas partes en favor de otras. En cuanto al coste, no lo percibe mucho más hambriento de tokens que Soul, y en modos de pensamiento ligero y medio resulta eficiente e incluso más rápido; sin embargo, es un modelo más caro y drena las cuotas de uso más deprisa, hasta el punto de que el autor agotó sus resets trabajando casi sin parar.
+
+#### Uso del ordenador y comportamiento agéntico
+
+La función de uso del ordenador que OpenAI publicitó ha mejorado, pero sigue siendo lenta. Es mejor que Soul reaccionando cuando algo ocurre de forma distinta a la esperada, y permite sacar adelante bastante trabajo. La crítica principal del autor es que OpenAI no permita lanzar varias acciones encadenadas a la vez sin renunciar al control del equipo. También nota que Astra interrumpe con más frecuencia para preguntar por la dirección concreta del trabajo, lo que refuerza la sensación de comportamiento más agéntico, aunque pueda resultar intrusivo mientras se usa el ordenador.
+
+#### Qué modelo elegir para cada tarea
+
+La recomendación práctica de Wolfe es usar Astra dentro de Codex, plataforma que prefiere frente a Claude Code para exprimir los modelos de OpenAI. Por tareas, elegiría Astra —o incluso Astra Medium— para desarrollo en Unreal Engine; posiblemente se quedaría con Luna para trabajo informático sencillo, instalaciones y proyectos de GitHub, por ser más barato y rápido; recurriría a Astra para crear espacios 3D complejos mediante el MCP de Blender; y optaría por Soul para diagnosticar problemas domésticos como el router Wi-Fi. Sobre la competencia, considera que Fable 5.1 está cerca de Astra en áreas concretas como el modelado 3D, pero acumuló más errores en Claude Code, algo que atribuye al arnés más que al modelo. Su valoración final es que OpenAI va por delante en la carrera por los modelos más potentes.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| OpenAI Codex | https://openai.com/codex |
+| Unreal Engine | https://www.unrealengine.com |
+| Blender MCP (repositorio) | https://github.com/ahujasid/blender-mcp |
+| Fab (activos 3D gratuitos) | https://www.fab.com |
+| Servidor de Discord de Matt Wolfe | https://discord.gg/mattvidpro |
+
+---
+## [Javier Garzás] AI makes Project Management obsolete: this is what's coming next
+
+**Fecha:** 2026-09-09
+**URL:** https://www.youtube.com/watch?v=WAfTZLE9cso
+**Video ID:** WAfTZLE9cso
+
+### 📝 Resumen
+
+Javier Garzás, con más de veinte años de experiencia en el sector digital, sostiene que la gestión de proyectos tradicional no está muriendo, pero sí está dejando de ser una rama con crecimiento y glamour profesional. A partir de tres señales medibles —el comportamiento de las herramientas, el desplome del interés por el término y la retirada de los grandes referentes— traza una fotografía del sector y argumenta que lo relevante no es la decadencia de lo antiguo, sino el nacimiento de una nueva disciplina de gestión moldeada por la IA.
+
+#### Las herramientas: Jira pierde el futuro mientras Atlassian factura más que nunca
+
+Jira, nacida en 2002 —cinco años antes que el iPhone—, es la herramienta emblemática de la gestión tradicional, y hoy pierde un 32% de sus clientes nuevos en un año. En contraste, Linear, nacida en 2019, crece por encima del 67% y se ha posicionado como la herramienta de la nueva gestión, muy acoplada a la creación de producto y bien integrada con herramientas de generación de código como Cursor. Garzás subraya la aparente paradoja de que Atlassian, la empresa propietaria de Jira, factura más que nunca: lo hace sobre su base instalada, es decir, sobre los clientes de toda la vida. Donde se desangra es en la captación de nuevos clientes, en el crecimiento. Con un símil televisivo, Jira sería la televisión que sigue viendo la gente mayor, mientras que Linear y similares se han convertido en el YouTube que consume la gente joven. En términos fríos, lo que pierde Jira es el futuro: emprendedores, nuevas startups y empresas que prefieren herramientas más ligeras.
+
+#### El desplome del interés y la retirada de los grandes nombres
+
+El segundo síntoma es la demanda: las búsquedas del término "gestión de proyectos" caen un 55% en un año, hasta niveles de práctica irrelevancia mediática. El tercero es la deserción de figuras de referencia. Jürgen Appelo, creador de Management 3.0 y uno de los nombres más influyentes del management digital, ha anunciado el cierre de su newsletter y de su actividad en redes para trabajar por cuenta ajena en la gestión de un hospital. La marca Management 3.0 continúa, pero con un atractivo muy alejado de sus mejores tiempos. En la misma línea, la Scrum Alliance cerró su último ejercicio publicado en pérdidas por primera vez, con casi dos millones de dólares, y la mayoría de las conferencias del sector han desaparecido o arrastran una asistencia poco significativa.
+
+#### Por qué la gestión no desaparece: las modas sólidas no mueren
+
+Garzás rechaza la lectura catastrofista. Tras ver llegar y caer varias modas tecnológicas, su experiencia indica que las disciplinas robustas nunca desaparecen del todo: la ciberseguridad estuvo muy de moda y sigue vigente aunque ya no sea tendencia; el software libre tuvo su burbuja y sigue existiendo; incluso la orientación a objetos, mucho más antigua, continúa ahí. La gestión de proyectos, con todas sus ramas, es una disciplina sólida de muchos años que seguirá existiendo, pero ya no será una rama potente de crecimiento ni de moda profesional. Cuando algo pierde ese impulso, normalmente aparece una rama nueva empujada por una disrupción tecnológica: en este caso, la IA como motor principal de la creación algorítmica y de la programación, sin que ello signifique que la IA pueda entregar software a producción por sí sola.
+
+#### El nacimiento de una nueva forma de gestionar
+
+Lo interesante, según el autor, es que se está asistiendo al nacimiento de otro modo de afrontar los retos que antes cubría la gestión tradicional. Esta disciplina incipiente —product management, product builder, product maker, o el nombre que acabe recibiendo— responde a problemas que antes no existían: equipos mucho más pequeños, un delivery simplificado, reducido y muy automatizado, la mejora del discovery para detectar qué necesidades merecen resolverse, el trabajo en iteraciones y mini-sprints muy cortos, la necesidad de especificar a una máquina cómo debe hacer las cosas y la convivencia con un "ser no humano" que debe ser supervisado por personas.
+
+#### Tres mundos que convivirán durante años
+
+Garzás distingue tres capas simultáneas en el ámbito digital. La primera es la gestión en cascada tradicional, la más antigua, que sigue existiendo. La segunda es la agilidad clásica y sus aledaños, que se mantendrá durante años en administraciones públicas, grandes bancos y corporaciones donde la seguridad y la inercia tecnológica dificultan incorporar la IA con rapidez. La tercera, y la verdaderamente importante ahora, es la nueva gestión que está naciendo al calor de la IA. Su consecuencia estructural es clara: habrá muchos menos roles dedicados en exclusiva a la gestión, porque habrá menos tareas burocráticas y equipos más reducidos.
+
+#### El rol del manager frente a la necesidad de management
+
+El paralelismo que usa el autor es el de tester y testing: una cosa es la persona que ocupa el rol y otra la actividad que debe realizarse. Con la gestión ocurre algo similar: la necesidad de management no desaparecerá, aunque se reduzca la demanda de roles exclusivos. Además, perfiles técnicos que tradicionalmente no gestionaban —programadores, perfiles de QA, diseñadores e incluso product managers— tendrán que aprender a supervisar lo que produce la IA, orientarse más al negocio, a la priorización y al descubrimiento de problemas que vale la pena resolver.
+
+#### Consejos según el momento profesional
+
+La recomendación de Garzás se segmenta por situación. Quien está empezando y quiere dedicarse a esto debería moverse rápido hacia la nueva gestión, que aún se está formando y prácticamente no tiene nombre, antes de que llegue todo el mundo. Quien ya acumula años de experiencia en gestión tradicional en una organización consolidada debería capitalizar esa experiencia durante los años profesionales que le queden. Y quien quiera cambiar de rumbo, sea cual sea su edad, encontrará en esta nueva gestión un renacimiento atractivo de la disciplina, con la advertencia de que conviene formarse, aceptar el ciclo de prueba y error y sumarse a comunidades, porque el ritmo es demasiado rápido para avanzarlo en solitario. Cierra el vídeo recordando una idea que atribuye a Marty Cagan, referente del product management: las tareas burocráticas de la gestión tradicional pueden acabar totalmente automatizadas.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Jira (Atlassian) | https://www.atlassian.com/software/jira |
+| Linear | https://linear.app |
+| Cursor | https://cursor.com |
+| Management 3.0 (Jürgen Appelo) | https://management30.com |
+| Scrum Alliance | https://www.scrumalliance.org |
+| Marty Cagan / Silicon Valley Product Group | https://www.svpg.com |
+| Comunidad Rebeldes y Ágiles (233 Academy) | https://233academy.com |
+
+---
 ## [Matthew Berman] I've had early access to Astra... it's INSANE
 
 **Fecha:** 2026-09-04

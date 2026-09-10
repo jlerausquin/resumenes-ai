@@ -1,5 +1,54 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] GPT-6 Astra will Make you Think BIGGER.
+
+**Fecha:** 2026-09-09
+**URL:** https://www.youtube.com/watch?v=UZZ53F_kEAA
+**Video ID:** UZZ53F_kEAA
+
+### 📝 Resumen
+
+Matt Wolfe analiza GPT-6 Astra, el primer modelo de la familia GPT-6, que apareció públicamente unos días antes de la grabación. Lo describe como el modelo de lenguaje más potente visto hasta la fecha y un salto de magnitud respecto a GPT-5.6 "Soul", aunque insiste en que ello no implica superioridad humana en todos los terrenos. El vídeo combina una muestra de lo que construye su comunidad con una disección práctica de qué mejora realmente, dónde siguen apareciendo los límites y para qué tareas conviene elegir cada modelo.
+
+#### Qué supone Astra frente a la generación anterior
+
+Astra es, en palabras del autor, el modelo GPT-6 más potente hasta la fecha y supone un avance de magnitud respecto a Soul en una amplia variedad de tareas, no una ventaja universal. Wolfe advierte que las diferencias no resultan evidentes de inmediato: Soul ya era extremadamente capaz y, con su precio más bajo para usuarios del plan Plus, puede seguir siendo la opción preferida en muchas tareas. Si al usar Astra no se percibe un salto grande, lo más probable es que la tarea encomendada no sea lo bastante difícil para sacar a relucir el modelo. El autor subraya además que el hecho de ser el primer modelo de la familia GPT-6 abre la puerta a modelos menores y más eficientes a corto plazo.
+
+#### Lo que construye la comunidad
+
+Gran parte del vídeo se dedica a demostraciones hechas por miembros del servidor de Discord del canal. Entre ellas destacan Rocket Zero, un juego de carreras espaciales en 3D con minimapa, múltiples vueltas y animaciones de nave en evolución; una recreación de Black Ops 2 en modo zombis con animación de recarga realista y sistema de puntos para desbloquear armas; una animación estilizada en low-poly sobre una chica en un tren; anuncios ficticios y piezas humorísticas con pixel art; un AMV construido a partir de clips de anime; una animación inspirada en los backrooms; una versión jugable en HTML para móvil del mapa de Black Ops 2; y un simulador de dormitorio nocturno. El autor insiste en que estos resultados no revelan la creatividad del modelo, sino la de las personas que dirigen el proceso: Astra interpreta y ejecuta con enorme fidelidad una idea previamente concebida por humanos.
+
+#### El juego de slime: el bucle humano de playtesting
+
+La creación propia de Wolfe es un juego 3D en el que se controla una criatura de gelatina con física realista, desarrollado en Unreal Engine 5.8 con Codex conectado al servidor MCP oficial y algunos activos gratuitos de Fab. El autor insiste en que no se trató de un único prompt dejado cocinar durante horas: iteró constantemente, jugó cada versión, señaló problemas concretos y pidió correcciones. El modelo resolvió con soltura retos como una vista de teleportación que muestra al personaje a través de objetos con transición a transparente, física de gelatina con interacción real y bajo impacto en rendimiento, o un mundo cohesionado con tuberías y ladrillos modelados individualmente. Wolfe concluye que se podría publicar un juego de alcance completo con IA, situando al humano como probador y director, aunque descarta la fantasía de juegos AAA creados de la nada en un día.
+
+#### El RPG autónomo: dónde fallan los agentes sin supervisión
+
+Para contrastar, el autor encargó un RPG 3D de estilo Bethesda en un único prompt de objetivo amplio, sin probarlo en ningún momento y consumiendo dos resets completos del plan Codex Pro. El resultado es ilustrativo: objetos solapándose en el mismo espacio con parpadeos, animaciones de personaje demasiado lentas, diálogos sin contexto narrativo, puertas que solo funcionan en un sentido o vehículos que acaban estrellados. Wolfe sostiene que la debilidad de Astra no está en diseñar espacios 3D ni en usar las herramientas, sino en no poder experimentar el resultado como un humano. Su propuesta concreta es que los modelos incorporen entrada de vídeo nativa, lo que permitiría detectar este tipo de fallos sin depender del ojo humano.
+
+#### Orquestación, sub-agentes y consumo de tokens
+
+La tarea de desarrollo de juego llegó a emplear 16 sub-agentes distintos, desde revisión hasta generación de terreno. Wolfe observa que Astra tiende a fijarse en ciertas partes del prompt y a ignorar otras: no se trata de olvido, sino de fijación en lo que el modelo considera prioritario. Tampoco destaca por orquestarse solo en proyectos grandes, por lo que conviene explicitar qué se espera en cada pasada, repartir más trabajo por sub-agente y permitir que descarte unas partes en favor de otras. En cuanto al coste, no lo percibe mucho más hambriento de tokens que Soul, y en modos de pensamiento ligero y medio resulta eficiente e incluso más rápido; sin embargo, es un modelo más caro y drena las cuotas de uso más deprisa, hasta el punto de que el autor agotó sus resets trabajando casi sin parar.
+
+#### Uso del ordenador y comportamiento agéntico
+
+La función de uso del ordenador que OpenAI publicitó ha mejorado, pero sigue siendo lenta. Es mejor que Soul reaccionando cuando algo ocurre de forma distinta a la esperada, y permite sacar adelante bastante trabajo. La crítica principal del autor es que OpenAI no permita lanzar varias acciones encadenadas a la vez sin renunciar al control del equipo. También nota que Astra interrumpe con más frecuencia para preguntar por la dirección concreta del trabajo, lo que refuerza la sensación de comportamiento más agéntico, aunque pueda resultar intrusivo mientras se usa el ordenador.
+
+#### Qué modelo elegir para cada tarea
+
+La recomendación práctica de Wolfe es usar Astra dentro de Codex, plataforma que prefiere frente a Claude Code para exprimir los modelos de OpenAI. Por tareas, elegiría Astra —o incluso Astra Medium— para desarrollo en Unreal Engine; posiblemente se quedaría con Luna para trabajo informático sencillo, instalaciones y proyectos de GitHub, por ser más barato y rápido; recurriría a Astra para crear espacios 3D complejos mediante el MCP de Blender; y optaría por Soul para diagnosticar problemas domésticos como el router Wi-Fi. Sobre la competencia, considera que Fable 5.1 está cerca de Astra en áreas concretas como el modelado 3D, pero acumuló más errores en Claude Code, algo que atribuye al arnés más que al modelo. Su valoración final es que OpenAI va por delante en la carrera por los modelos más potentes.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| OpenAI Codex | https://openai.com/codex |
+| Unreal Engine | https://www.unrealengine.com |
+| Blender MCP (repositorio) | https://github.com/ahujasid/blender-mcp |
+| Fab (activos 3D gratuitos) | https://www.fab.com |
+| Servidor de Discord de Matt Wolfe | https://discord.gg/mattvidpro |
+
+---
 ## [Matt Wolfe] AI News: The Most Insane Week So Far This Year!
 
 **Fecha:** 2026-09-04
