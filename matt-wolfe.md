@@ -1,5 +1,54 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] Trying To Solve The Biggest AI Problem
+
+**Fecha:** 2026-09-09
+**URL:** https://www.youtube.com/watch?v=-KcHn0QcSb0
+**Video ID:** -KcHn0QcSb0
+
+### 📝 Resumen
+
+Matt Wolfe documenta en este vídeo el proceso completo de construcción de un detector de «slop» de vídeo: una web donde cualquiera pueda pegar el enlace de un vídeo de Instagram, TikTok, YouTube o X y obtener un veredicto sobre si ha sido generado con IA. Lo que arranca como un experimento de fin de semana con Codex y los modelos de OpenAI termina revelando tres cosas incómodas: que los modelos de frontera son sorprendentemente malos detectando contenido sintético, que la única pieza que funciona bien es una API de terceros con un coste descontrolado, y que la distancia entre la retórica del AGI y el rendimiento observable sigue siendo enorme.
+
+#### El problema: vídeo sintético que engaña a todo el mundo
+
+El autor abre describiendo una situación cotidiana que se ha vuelto insostenible: su familia, sus amigos y su productor le envían constantemente vídeos con la frase «mira lo que ha inventado alguien», y en la mayoría de los casos se trata de vídeo generado con IA. Reconoce que él mismo ha caído: hay clips que ha tenido que ver dos o tres veces antes de que su cerebro registrara que no eran reales. De ahí nace el objetivo del vídeo: construir una web sencilla donde se pega una URL y el sistema responde si lo que se está viendo es IA o no, con la idea de poder responder a quien te manda un clip diciendo «pásalo primero por aquí». Señala que la idea no es original y que existen herramientas parecidas, pero ninguna le ha parecido decente, así que decide intentarlo por su cuenta.
+
+#### Punto de partida: viabilidad, SynthID y la comprensión de vídeo de Gemini
+
+Antes de escribir una línea de código, el autor dedica una fase exploratoria a comprobar si el proyecto es viable. Su punto de partida técnico son dos piezas conocidas: SynthID de Google, que permite certificar si un contenido fue generado por las plataformas de Google pero no sirve como detector general —solo responde por material creado con sus propios modelos, y no de forma definitiva—, y los modelos Gemini, que señala como prácticamente los únicos capaces de «mirar» un vídeo y comprender qué ocurre en él. Añade que Google acababa de publicar en septiembre una nueva versión de su comprensión de vídeo con mejor precisión, que podría integrarse en el flujo de trabajo. Tras razonar durante unos diecisiete minutos, ChatGPT concluye que el proyecto es factible pero que nunca será exacto al cien por cien, de modo que la interfaz no debe prometer certeza absoluta. Al autor le parece suficiente y decide construir.
+
+#### El primer prototipo con Codex y la auditoría de GPT-6 Astra
+
+El desarrollo se hace en Codex, dentro de una carpeta local llamada «AI slop detector» a la que se da acceso al modelo, y arranca simplemente compartiendo el enlace de la conversación anterior de ChatGPT para que el agente lea el contexto. En poco más de una hora y cuarto hay una versión usable, aunque el propio autor se burla de los textos generados («We detect evidence. We do not certify reality»). La primera prueba real es un clip evidentemente sintético, el «Fart Zuka» de una mujer con traje inflable y propulsión acuática, y el veredicto es un fracaso: el sistema dictamina que probablemente no es IA, con confianza alta, argumentando que el chorro blanco parece un efecto de partículas de CGI tradicional y no generación. El autor cambia entonces a GPT-6 Astra, que en menos de seis minutos audita el código y encuentra fallos de lógica: la etiqueta de «alta confianza» se asignaba automáticamente a partir del valor numérico devuelto por Gemini —cualquier puntuación igual o inferior a quince generaba confianza alta— y la aplicación podía sobrescribir un diagnóstico «no concluyente». Lanza después una ejecución en modo objetivo continuo para que el sistema se probara y corrigiera a sí mismo en bucle: ocho horas más tarde el proceso se declara estancado, con cuatro documentos generados y sin solución.
+
+#### Sightengine: cuando el propio agente decide usar una API ajena
+
+El desenlace de esa ejecución es revelador: la conclusión del agente es integrar Sightengine, un servicio de terceros con plan de 29 dólares al mes que ya hace detección de IA y análisis de vídeo. Es decir, el sistema acabó recomendando la herramienta que el vídeo entero pretendía construir. El nivel gratuito de Sightengine ofrece dos mil operaciones al mes y moderación de contenido, pero no procesamiento de vídeo, así que el autor contrata un plan de pago y guarda sus claves en un fichero de variables de entorno. Lo interesante del tramo es que el agente se somete a sus propias pruebas: introduce 39 clips generados con IA y acierta en 23, y marca como IA dos de 36 clips reales. Con esos números se niega a darse por satisfecho —«no es lo bastante fiable»— y sigue iterando hasta aceptar que la detección real debe apoyarse en el servicio externo.
+
+#### Las pruebas reales: aciertos, falsos positivos y el veredicto «inconcluso»
+
+Con todo integrado, el comportamiento mejora pero de forma irregular. Con un reel de Instagram, Sightengine señala indicadores de IA en 19 de las 23 posiciones muestreadas mientras Gemini no encuentra nada, y la aplicación pasa a mostrar «inconcluso» con la discrepancia a la vista en lugar de una confianza alta injustificada. El clip del Fart Zuka sigue saliendo inconcluso, y un vídeo real de una persona hablando a cámara también. El autor descubre además una limitación que nunca pidió y que el propio código se había autoimpuesto: clips de menos de un minuto y con un máximo de 50 megabytes. En la última iteración —con Gemini degradado a modo ligero y Sightengine tomando prioridad— el sistema finalmente acierta en lo esencial: no encuentra indicadores en un vídeo real de una creadora hablando a cámara, justificándolo con permanencia de objetos, contacto visual natural y una cadencia de habla realista; marca como IA el Fart Zuka, el clip de una grúa que deja caer un avión al vacío publicado en X, y vuelve a no encontrar nada en otro vídeo auténtico. El autor resume el resultado con sorna: Sightengine parece bastante bueno, pero nunca explica por qué cree que algo es IA, y Gemini sencillamente nunca encuentra nada.
+
+#### El muro del coste: 12.000 operaciones y un plan de 40
+
+El objetivo declarado del proyecto —publicar la web para que cualquiera pueda comprobar enlaces— se rompe contra la factura. Según los datos que él mismo muestra, había consumido más de 11.000 operaciones y después más de 12.000 tras analizar apenas media docena de vídeos, con casos concretos que devoran 440 operaciones por clip, mientras el plan de 100 dólares al mes contempla 40 operaciones y ni siquiera tiene claro qué cuenta como una. La conclusión es que no puede liberar la herramienta al público, y la alternativa que ofrece es publicar todo el código en GitHub para quien quiera ejecutarlo en local conectando su propia clave de API. Aprovecha para rediseñar la interfaz en clave minimalista: pegar enlace, subir vídeo y listo.
+
+#### Qué revela todo esto sobre el relato del AGI
+
+El vídeo cierra con una reflexión que conecta el fracaso técnico con el debate de fondo. El autor recuerda que Jensen Huang ha llegado a afirmar que el AGI ya ha llegado y que OpenAI sostiene que estamos en la era del AGI, pero se pregunta cómo puede ser eso cuando los modelos son incapaces de señalar algo que él, como humano, identifica a simple vista: si el AGI implica igualar a una persona en cualquier tarea, ¿por qué falla en justo esta? Añade que Gemini es prácticamente el único modelo capaz de analizar un vídeo y aun así no distingue el contenido sintético, y que al darle un enlace evidentemente generado a Astra o a Fable 5.1 de Anthropic la respuesta es «inconcluso». Reconoce que existe una dinámica de gato y ratón —si la detección mejora, la generación aprende a esconderse—, pero subraya que ahora mismo la detección es mala en general y que lo que funciona, Sightengine, no es un gran modelo generativo sino visión por computador clásica. Termina con un balance agridulce: tiene un detector que más o menos funciona, pero no el producto que quería entregar.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Google SynthID | https://deepmind.google/technologies/synthid/ |
+| Gemini — comprensión de vídeo | https://ai.google.dev/gemini-api/docs/video-understanding |
+| OpenAI Codex | https://openai.com/codex |
+| Sightengine (API de detección de IA) | https://sightengine.com |
+| Matt Wolfe (canal) | https://www.youtube.com/@mattwolfe |
+
+---
 ## [Matt Wolfe] GPT-6 Astra will Make you Think BIGGER.
 
 **Fecha:** 2026-09-09
