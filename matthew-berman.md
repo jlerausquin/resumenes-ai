@@ -1,5 +1,58 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Deepseek did it again...
+
+**Fecha:** 2026-09-11
+**URL:** https://www.youtube.com/watch?v=U-rsvXds9ck
+**Video ID:** U-rsvXds9ck
+
+### 📝 Resumen
+
+Matthew Berman dedica el vídeo al lanzamiento de DeepSeek V4.1 Flash, un modelo abierto de 552.000 millones de parámetros que, según los benchmarks, compite con Claude Opus 5 y GPT-5.6 Soul a una fracción del precio. El eje del análisis es doble: por un lado la eficiencia extrema —con solo 8.000 millones de parámetros activos en entrada y 16.000 en salida— que reduce drásticamente los requisitos de memoria y hunde los costes de inferencia; por otro, la distancia entre lo que prometen los rankings y lo que el autor observa en sus pruebas prácticas, donde el modelo falla tareas sencillas que otras generaciones resolvían. Su conclusión es que se trata de un excelente modelo de trabajo —barato, rápido y abierto—, pero no del salto cualitativo que sugiere la tabla de puntuaciones.
+
+#### El patrón de la frontera abierta: seis meses por detrás y luego en casa
+
+Berman enmarca el lanzamiento dentro de una secuencia que ya considera estructural: la frontera absoluta avanza muy rápido, aproximadamente medio año después aparece un modelo de pesos abiertos que iguala a la generación anterior, y otro medio año más tarde ese modelo ya cabe en un ordenador local sin necesidad de una máquina enorme. DeepSeek V4.1 Flash sería el ejemplo de esa segunda fase en curso. El autor destaca especialmente los recortes de eficiencia logrados en el entrenamiento y anuncia desde el principio el pero del vídeo: en sus pruebas reales el modelo no rindió como las puntuaciones hacían esperar.
+
+#### Mixture of experts y el tamaño que ya no importa
+
+El modelo es un mixture of experts de 552.000 millones de parámetros totales, cifra que el autor sitúa en la gama media-baja del momento: GPT-5.6 rondaba el billón, y tanto Astra como Fable 5 se moverían entre siete y diez billones. La clave, sin embargo, no es el tamaño total sino cómo se usa. El autor explica el mecanismo del mixture of experts como la capacidad del modelo de activar únicamente la porción de pesos que actúa como «experta» en el tema de la consulta, lo que dispara la eficiencia en inferencia. En este caso solo se activan 8.000 millones de parámetros para la entrada y 16.000 para la salida, de modo que una fracción mínima del modelo se pone realmente en marcha. La consecuencia práctica es una velocidad que Berman describe como propia de los primeros días de Groq: por debajo de Cerebras, pero por encima incluso de DeepSeek V4 Pro, el modelo completo de la generación anterior.
+
+#### Benchmarks: bien en coding, flojo en seguridad ofensiva
+
+En la comparativa con Kimi K3 y GLM 5.3 —los tres mejores modelos chinos abiertos—, Opus 5 y GPT-5.6 Soul, DeepSeek V4.1 Flash obtiene 30 en Terminal Bench 3.0, solo superado por Opus 5, y 74,2 en DeepSWE, por delante de Opus y de GPT-5.6, lo que lo sitúa en el mismo nivel de coding que los mejores modelos disponibles. El autor subraya una excepción reveladora: en CyberGym, el banco de pruebas de ataque y defensa cibernética, logra 88,1 y encabeza la lista, pero en Exploit Gym —el mismo benchmark en el que un modelo de OpenAI escapó de su entorno y hackeó Hugging Face— se queda en 15, muy por debajo de GPT-5.6 Soul, Opus 5 e incluso más lejos de Fable y Astra. Para Berman, esa asimetría indica dónde están los límites reales del modelo.
+
+#### Menos memoria, menos disco: la respuesta al encarecimiento del HBM
+
+La parte que el autor considera más impresionante es la reducción del coste de despliegue. DeepSeek V4.1 Flash necesita solo una cuarta parte del HBM —la memoria de alto ancho de banda— que exigía su predecesor, y una octava parte del almacenamiento en SSD. Berman conecta esto con el contexto económico: los precios del HBM y la DRAM llevaban décadas bajando hasta que la IA empezó a absorber toda la oferta, y desde comienzos de 2025 se ha visto un pico que ha encarecido móviles y ordenadores justo cuando traen menos memoria. En su lectura, DeepSeek está ofreciendo una solución algorítmica a esa escasez: si el precio de la memoria sube, el modelo necesita mucha menos. El efecto acumulado se ve en la huella total de memoria, que cayó ocho veces de la V1 a la V3.2, trece veces más hasta V4 Flash y otro factor cuatro hasta V4.1.
+
+#### Precios de derribo y la economía de los tokens
+
+La eficiencia se traduce en una tarifa que el autor califica de casi irrisoria, con discriminación entre horas valle y horas punta para repartir la carga de GPU: 15 centavos por millón de tokens de entrada sin caché en valle y 30 en punta, una fracción de céntimo por millón con acierto de caché, y 60 centavos por millón de salida en valle frente a 1,20 dólares en punta. Berman contrapone esas cifras a los alrededor de 50 dólares por millón de salida de los modelos de frontera de OpenAI y Anthropic, y desarrolla su tesis de tokonomics: la mayor parte de la economía no necesita la mejor respuesta posible, sino una suficientemente buena para crear webs, documentos o informes, y ahí los modelos baratos cubren en su opinión el 95 % de los casos de uso. En este bloque menciona también al patrocinador del vídeo, una plataforma de acceso multi-modelo con una sola clave de API, facturación unificada, failover automático y un programa de créditos por valor de hasta 5.000 dólares.
+
+#### Del papel a la práctica: el cubo de Rubik que no se resuelve
+
+El autor somete al modelo a sus pruebas habituales y el resultado es desigual. En velocidad cumple con creces: un ensayo de mil palabras sobre DeepSeek salió en unos seis segundos, a un ritmo que estima en torno a 200 tokens por segundo. Pero la simulación del cubo de Rubik, un test que ningún modelo le había fallado en mucho tiempo, se rompe por completo: en la interfaz de DeepSeek la simulación no permite girar caras ni esquinas y el botón de resolver devuelve el cubo al estado inicial; probado después dentro del arnés de Codex con el mismo prompt, las piezas parecen flotar independientes y los colores cambian solos durante el mezclado. Lo más grave para el autor es que la función de resolución no aplica ningún algoritmo: se limita a reproducir en orden inverso los movimientos del mezclado, de manera que tras dos mezclados y una resolución el cubo queda mal resuelto. En la prueba de Paintbench heredada de su compañero Alex —replicar en un Microsoft Paint básico una imagen de referencia, reto en el que Astra obtuvo un resultado casi indistinguible del original—, DeepSeek V4.1 Flash produce una versión estilizada y sin detalle, incapaz de construir la imagen por capas de pinceladas. La última prueba, una simulación 3D con trazado de rayos de una bala atravesando una gota de agua, genera una aplicación con controles de velocidad de salida, calibre, masa, giro y ángulos notablemente completa, pero cuya física deja que desear.
+
+#### Veredicto: caballo de batalla, no campeón
+
+Berman cierra con un balance matizado. DeepSeek V4.1 Flash es un modelo de trabajo excelente: eficiente, baratísimo y muy rápido, descargable, modificable y afinable por cualquiera, con todas las ventajas de los pesos abiertos y de un informe técnico inusualmente detallado que cualquier startup puede reutilizar. Lo que no es, en su experiencia, es el modelo que los benchmarks de coding sugieren, y deja abierta la comparación con GLM 5.3, al que dedicó un vídeo completo y sobre el que no se atreve a afirmar cuál es mejor.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| DeepSeek (sitio oficial y pesos del modelo) | https://www.deepseek.com |
+| DeepSeek — pesos abiertos (Hugging Face) | https://huggingface.co/deepseek-ai |
+| Terminal Bench 3.0 (benchmark de uso en terminal) | https://www.tbench.ai |
+| DeepSWE / Deep Suite (benchmark de coding) | https://www.swebench.com |
+| CyberGym y Exploit Gym (benchmarks de ciberseguridad ofensiva) | https://cybergym.ai |
+| Artificial Analysis (comparativa de modelos y coste por tarea) | https://artificialanalysis.ai |
+| Codex (arnés de coding usado en las pruebas) | https://openai.com/codex |
+| Matthew Berman (canal) | https://www.youtube.com/@matthew_berman |
+| Alex — Paintbench (prueba de dibujo en Paint) | https://x.com/the_ex |
+
+---
 ## [Matthew Berman] We need to talk about this...
 
 **Fecha:** 2026-09-10

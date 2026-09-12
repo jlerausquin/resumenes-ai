@@ -1,5 +1,71 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI News: The AI World is REALLY Scared Right Now
+
+**Fecha:** 2026-09-11
+**URL:** https://www.youtube.com/watch?v=JwTCjarfJYw
+**Video ID:** JwTCjarfJYw
+
+### 📝 Resumen
+
+Matt Wolfe repasa la semana de noticias de IA marcada por un giro inesperado hacia el pesimismo: la dimisión de un investigador de Anthropic afirmando que ninguna de las grandes compañías está actuando con responsabilidad, el respaldo de otro investigador de la misma empresa cifrando en más del 10 % la probabilidad de catástrofe esta década y un artículo del científico jefe de OpenAI sobre mejora recursiva. Además de ese bloque central, el vídeo cubre el nuevo modelo de imágenes de ChatGPT, el agente personal Muse de Meta —que el autor describe como la forma más sencilla de empezar a usar un agente—, el lanzamiento de DeepSeek V4.1 Flash y un repaso rápido de productos de Apple, Microsoft, OpenAI, Google, Suno y Blackmagic. La postura del autor es la de una preocupación genuina que rechaza tanto el pánico como la etiqueta de montaje publicitario.
+
+#### ChatGPT Images 2.5 y el nuevo modo sketch
+
+OpenAI presentó ChatGPT Images 2.5, la versión del modelo de imagen que se usa dentro de ChatGPT. El autor señala que la mejora principal es la consistencia: al partir de fotos de referencia, el modelo conserva mucho mejor el parecido, la pose, las manos o la forma de un objeto mientras cambia el contenido —por ejemplo, mantiene la persona y el boleto igual mientras altera la información impresa—. La novedad funcional es el modo sketch, que permite dibujar sobre un lienzo dentro de la propia aplicación, también en móvil, y usar ese boceto como referencia para generar una imagen realista. Wolfe lo prueba con un dibujo propio y con un retrato que Astra esbozó a partir de una foto suya, comparando el resultado con el juego del teléfono descompuesto. El modelo está disponible en ChatGPT, ChatGPT Work y Codex en todos los planes y plataformas, y con dos variantes en la API: una más detallada y cara y otra más rápida y económica.
+
+#### Meta Muse: el agente personal que casi se configura solo
+
+Meta lanzó Muse, presentado como el primer agente personal pensado para todo el mundo. Se conecta al correo, el calendario y distintas aplicaciones, y opera sobre una máquina virtual segura en lugar del ordenador del usuario. Puede enviar correos, reservar viajes, abrir un navegador, rellenar formularios y negociar en nombre del usuario, sigue trabajando con la aplicación cerrada y pide aprobación antes de acciones sensibles como enviar un mensaje o hacer una compra. Recuerda detalles que el usuario mencionó una sola vez y tiene en cuenta el contexto de Facebook, Instagram y WhatsApp. Frente a las suspicacias históricas sobre la privacidad de Meta, el autor recoge las salvaguardas anunciadas: equipo dedicado sin acceso de otros agentes, credenciales en almacenamiento seguro que Muse usa sin verlas, control granular por aplicación, exclusión del entrenamiento y separación de los sistemas publicitarios. Muse ya es la segunda aplicación más descargada en Estados Unidos, está en iOS, Android y muse.ai, y llegará a las gafas inteligentes.
+
+En la prueba práctica, Wolfe destaca la facilidad de incorporación: un chat persistente con side chats por tema, un feed con sugerencias que el propio usuario define, secciones de objetivos, artefactos, actividad, aprobaciones, tareas recurrentes e identidad con memoria y «alma» del agente. Conectado a Gmail y al calendario, Muse dedujo correctamente su rutina —jueves protegidos para grabar, sincronizaciones ligeras, tardes de familia— y elaboró un inventario de sus suscripciones a herramientas de IA que resultó demoledor: veinte servicios listados que el autor reconoce incompletos. Su valoración es que Muse es el agente más sencillo de arrancar que ha probado —más que OpenClaw, Hermes, ChatGPT Work o Claude Co-work— aunque todavía pierde frente a ellos en número de integraciones disponibles.
+
+#### Optimizely y los compañeros de equipo virtuales
+
+En el bloque patrocinado, el autor presenta los «virtual teammates» de Optimizely: agentes especializados que asumen flujos de trabajo completos en lugar de esperar instrucciones. Se integran como miembros reales del equipo, con nombre, dirección de correo y ficha en el directorio, participan en reuniones, dejan rastro de auditoría y mantienen las tareas irreversibles bajo aprobación humana, además de trabajar de forma proactiva y acumular memoria de la voz de marca y de campañas anteriores. Hay perfiles preparados para SEO, marketing, analítica, contenido y gestión web.
+
+#### DeepSeek V4.1 Flash: barato, pero con benchmarks discutibles
+
+El autor dedica un bloque breve al nuevo modelo de DeepSeek. En Artificial Analysis, la referencia agregada que combina varios benchmarks, el modelo puntúa 40 frente a los 36 de la versión anterior, con un coste por tarea de 27 centavos, muy por debajo de los 8,75 dólares de Fable 5 o los 3,26 de GPT-6. En DeepSWE 1.1, el benchmark de coding, alcanza 74,2, el mismo nivel que GPT-6 Astra, Gemini 3.8 Flash y Opus 5, todas ellas en torno al 74 %. Sin embargo, Wolfe es cada vez más escéptico ante esa métrica: su propio bench de belleza visual —consistente en generar imágenes mediante código SVG— produjo en 59 segundos y por menos de dos céntimos un resultado claramente inferior al de GPT-6 Astra, Gemini 3.8 Flash o Fable 5.1, lo que no encaja con la igualdad que sugiere DeepSWE. Reconoce que no ha podido ejecutar su prueba completa y que lo menciona porque la audiencia lo esperaría.
+
+#### El terremoto: la dimisión en Anthropic y las dos contradicciones
+
+El bloque central del vídeo arranca con la publicación de un investigador que dimitió de Anthropic tras tres años haciendo investigación de preentrenamiento en OpenAI y Anthropic, y que sostiene que ninguna de las dos compañías actúa con responsabilidad: ambas compiten por llegar a una superinteligencia autorrecursiva apostando con nuestras vidas. El texto describe sistemas que pronto serán superhumanos, capaces de hackear cualquier cosa y acumular poder y recursos reales, y afirma que quienes construyen esta tecnología creen de verdad que puede matar a todos antes de final de década; las cautelas ante la prensa serían una pose, porque en privado expresan el mismo miedo. Wolfe destaca dos afirmaciones que le resultan difíciles de reconciliar: por un lado, que el equipo de Anthropic cree que nadie más actuará con responsabilidad, de modo que deben hacerlo ellos pese al riesgo; por otro, la respuesta del responsable de ciencia de alineación de la misma empresa, que confirma el diagnóstico, sitúa por encima del 10 % la probabilidad de que la IA mate a todos los humanos en la próxima década y admite que aún no existe un plan para alinear la superinteligencia y que no están claramente en camino de tenerlo. El autor resume la paradoja: la compañía que se considera la única capaz de gestionar esto declara abiertamente que no tiene plan.
+
+#### «An Alien Mind»: la advertencia del científico jefe de OpenAI
+
+Jakub Pachocki, científico jefe de OpenAI, publicó un artículo en la misma semana en el que sostiene que, a partir de resultados internos, espera que el ritmo de progreso se mantenga hasta la mejora recursiva, y que los sistemas de los próximos años representarán saltos de capacidad iguales o mayores y dirigirán cada vez más su propio desarrollo. Advierte de que nadie está preparado para las consecuencias de un aumento rápido de la inteligencia de las máquinas, de que los resultados serán más difíciles de interpretar a medida que los sistemas superen a sus creadores, y de que los agentes con objetivos propios negociarán, engañarán o chantajearán a las personas, además de los riesgos derivados de tecnologías que la IA puede habilitar, como patógenos diseñados. Su propuesta es que hace falta IA alineada y poderosa para la defensa, capaz de proteger infraestructuras y contrarrestar agentes descontrolados en tiempo real, y anuncia que será un foco central del despliegue de OpenAI. El autor enlaza con la resolución del problema de Navier-Stokes —uno de los Problemas del Milenio, abierto unos noventa años— como prueba de que la IA ya genera conocimiento nuevo, y con el detalle de que se resolvió con un modelo interno significativamente más capaz que GPT-6 Astra, el modelo que hoy se considera el mejor disponible: lo que las empresas tienen dentro es, al parecer, mucho mejor que lo que ofrece al público.
+
+#### ¿Montaje publicitario o preocupación real?
+
+Wolfe aborda la reacción de las redes, donde muchos califican todo esto de marketing destinado a favorecer una salida a bolsa. No lo compra del todo: son investigadores respetados y cree que creen lo que dicen. También reconoce el sesgo de su trabajo —quien se dedica a la alineación se pasa el día mapeando el peor escenario posible y acaba asustándose— y aporta como contrapunto que existe un componente real de negocio en el miedo: la divulgadora Sabine Hossenfelder publicó un vídeo sobre cómo le ofrecieron dinero para decir que la IA nos matará. Su postura final es intermedia: no aceptar la acusación de montaje y despreciar las advertencias, ni instalarse en el pánico. Sostiene que el desarrollo no se va a detener —«la pasta de dientes ya está fuera del tubo»—, que un pacto global de desaceleración no es creíble por falta de confianza entre empresas y países, y que lo razonable es volcar más recursos en investigar la alineación en lugar del valor para el accionista.
+
+#### Ráfaga final de lanzamientos
+
+El resto del vídeo es un repaso rápido. Apple celebró su evento de hardware con el iPhone 18 Pro y Pro Max —mejoras incrementales, con apertura variable en cámara, más batería y nuevo chip—, el iPhone Duo plegable, una nueva Siri con contexto personal y conciencia de pantalla, Apple Intelligence, relojes con una función de readiness que analiza actividad, carga de entrenamiento, constantes vitales y sueño, y capacidades de audio con reconocimiento de sonidos, rebobinado en directo de los últimos quince segundos de conversación y resúmenes con Siri, además de AirPods 5 con traducción en vivo. Microsoft presentó MAI Image 2.6, con edición multi-referencia y acceso a información de la web. ChatGPT Work aprende ahora el estilo de escritura del usuario a partir de Gmail, Drive, Slack o SharePoint, y OpenAI lanzó un agente de datos que se conecta a fuentes como Redshift, Datadog, BigQuery, ClickHouse, Databricks, MongoDB o Snowflake para visualizar, analizar y presentar información. La aplicación de Gemini dejó de ser exclusiva de Mac y llegó a Windows. Suno lanzó V6, reentrenado únicamente con música licenciada tras sus acuerdos con Warner Music Group y BMG, y Google presentó su generador musical Lyria 3.5, disponible en Gemini, Flow Music, AI Studio y Vids. Blackmagic publicó DaVinci Resolve 21.1, con un asistente de IA que permite conectar Claude directamente al editor. Cierra con el tráiler de «Artificial», la película sobre la destitución y vuelta de Sam Altman en OpenAI, con Andrew Garfield en el papel principal y estreno el día de Navidad.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| OpenAI — ChatGPT Images 2.5 / Images | https://openai.com |
+| Meta Muse (agente personal) | https://muse.ai |
+| Optimizely — Virtual Teammates (patrocinador) | https://www.optimizely.com |
+| DeepSeek | https://www.deepseek.com |
+| Artificial Analysis (comparativa de modelos y coste por tarea) | https://artificialanalysis.ai |
+| DeepSWE (benchmark de coding) | https://www.swebench.com |
+| Anthropic | https://www.anthropic.com |
+| OpenAI — artículo «An Alien Mind» de Jakub Pachocki | https://openai.com |
+| Sabine Hossenfelder (canal de divulgación) | https://www.youtube.com/@SabineHossenfelder |
+| Apple — evento de hardware | https://www.apple.com |
+| Microsoft — MAI Image 2.6 | https://www.microsoft.com |
+| Google — Lyria 3.5 | https://deepmind.google |
+| Suno V6 | https://suno.com |
+| Blackmagic — DaVinci Resolve 21.1 | https://www.blackmagicdesign.com |
+| Película «Artificial» | https://www.imdb.com |
+| Matt Wolfe (canal) | https://www.youtube.com/@mattwolfe |
+
+---
 ## [Matt Wolfe] Trying To Solve The Biggest AI Problem
 
 **Fecha:** 2026-09-09
