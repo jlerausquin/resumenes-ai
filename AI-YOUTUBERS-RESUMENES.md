@@ -1,6 +1,638 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Javier Garzás] Mientras gestionas con Jira o Notion, otros ya tienen un IA segundo cerebro con Claude Cowork
+
+**Fecha:** 2026-05-20
+**URL:** https://www.youtube.com/watch?v=yoHbh9eg6Ew
+**Video ID:** yoHbh9eg6Ew
+
+### 📝 Resumen
+
+Javier Garzás plantea el problema de gestionar el conocimiento de un proyecto con herramientas que no están pensadas para la IA y propone un sistema de tres piezas que él y su equipo usan a diario y que ha compartido con los más de 500 profesionales de su comunidad. El sistema combina ficheros Markdown como memoria persistente, IA generativa instalada en local que los gestiona y Obsidian como capa de lectura, y su objetivo es que las conversaciones dejen de empezar de cero y que la IA recuerde el contexto del proyecto.
+
+#### El límite de Word, Google Docs y los copilotos integrados
+
+La forma tradicional de escribir un informe —abrir Word o Google Docs y ponerse a escribir— es hoy lenta e impensable. Los copilotos integrados, como Copilot en Word o Gemini en Google Docs, ayudan a redactar, pero el autor les atribuye dos limitaciones claras: son lentos al tocar los ficheros y son muy limitados para leer datos externos. Si se quiere usar un MCP que lea de una fuente externa, o aprovechar skills, la capacidad de los procesadores de texto tradicionales se queda corta; complementar el procesador de texto con una IA integrada, por tanto, no resuelve el problema de fondo.
+
+#### Cuándo el chatbot se queda corto
+
+Parece lógico entonces irse directamente a un chatbot potente —ChatGPT, Claude o Gemini— y construir el documento conversando: pedir secciones, buscar información, leer datos vía MCP. Eso funciona hasta que el documento es grande, del orden de 50 a 70 páginas. En ese punto aparecen dos problemas: la IA pierde contexto y empieza a olvidar el principio de la conversación, repitiendo cosas que se le pidió expresamente que no hiciera; y llega el momento de sacar una versión en papel o en un .docx, que no tiene una salida sencilla.
+
+#### El copy-paste como trampa: dos repositorios y la versión buena perdida
+
+La salida más obvia, copiar y pegar el resultado en un Word o un Google Doc, genera dos repositorios: la conversación del chatbot con sus MCP y skills, y la versión pegada en el fichero. Cada cambio obliga a volver al chatbot y repetir el copy-paste en ambos sentidos, un flujo muy tedioso. Además, por el no determinismo de la IA, al pedir una nueva versión puede devolver algo muy distinto a lo ya cerrado en el documento, y se pierde el control de dónde está la versión buena. La conversación sirve para generar, no para mantener.
+
+#### La fuente de verdad: ficheros Markdown
+
+La solución pasa por una fuente de verdad persistente y ligera, y el formato que encaja es Markdown, los ficheros .md, con una antigüedad que el autor sitúa en 2004. Destaca cuatro propiedades poco evidentes: son ficheros y por tanto memoria persistente fuera de la ventana de contexto; ocupan muy poco, son texto plano y se modifican en segundos; conservan el formato (negritas, cursivas, tachado, títulos H1 y H2) de forma que un Google Doc sabe interpretarlo al importarlos; y las IA los entienden y manipulan de manera muy eficiente, al no ser un HTML complejo, un PDF o un .docx. El inconveniente es que gestionarlos a mano —versionarlos, unirlos, separarlos— resulta tedioso para cualquier persona.
+
+#### Las IA que trabajan en local: Claude Cowork y OpenClaw
+
+Ese inconveniente lo resuelven las IA que trabajan directamente con los ficheros del ordenador, como Claude Cowork u OpenClaw, que crean, modifican, unen y separan los Markdown en local sin exigir conocimientos técnicos. Eso permite que el chatbot potente se use para generar y no para mantener: se aprovecha su potencia conectada a MCP de CRM, Gmail o Calendar, pero el resultado se vuelca a ficheros ligeros en lugar de a un repositorio pesado tipo .docx, lo que reduce el miedo a la pérdida de contexto.
+
+#### Obsidian: el visualizador que cierra el triángulo
+
+Para la IA un .md es oro puro, pero para una persona es un formato feo y tedioso de leer. Ese hueco lo cubre Obsidian, herramienta gratuita que ya existía antes de la aparición de ChatGPT (el autor la sitúa hacia 2020) y que visualiza de forma amigable y muy visual los ficheros Markdown guardados en las carpetas del ordenador, con una experiencia cercana a un editor de texto enriquecido. El sistema queda así como un triángulo: Markdown como fuente de verdad, IA generativa instalada en local que lo gestiona y Obsidian como visor que conecta lo que la IA necesita con lo que el humano necesita ver.
+
+#### El origen del método: de Zettelkasten al flujo Karpathy
+
+El autor sitúa el origen de este flujo de trabajo en Andréj Karpathy, uno de los fundadores de OpenAI, que contó cómo trabajaba y de ahí el nombre de «flujo Karpathy». La raíz es mucho más antigua: el Zettelkasten, el método de fichas del sociólogo alemán Niklas Luhmann, que escribió más de 70 libros con él. Garzás cuenta que ya lo utilizó en la elaboración de su tesis doctoral, mucho antes de la era de la IA, y que llevarlo al trabajo con inteligencia artificial sigue siendo la base profunda de la que derivan las familias de métodos que hoy se observan.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| Grupo gratuito de WhatsApp de la comunidad «los rebeldes y ágiles» | — |
+| Obsidian | — |
+| Claude Cowork (Anthropic) | — |
+| OpenClaw | — |
+| Jira | — |
+| Notion | — |
+| Zettelkasten (método de Niklas Luhmann) | — |
+| Andréj Karpathy | — |
+
+---
+## [Javier Garzás] El PM que aún Escribe Requisitos está Antiguo gracias a IAs como Claude Design
+
+**Fecha:** 2026-05-10
+**URL:** https://www.youtube.com/watch?v=yfp9e8SvhGE
+**Video ID:** yfp9e8SvhGE
+
+### 📝 Resumen
+
+El vídeo parte de una idea central de Javier Garzás: escribir requisitos es ya una práctica del pasado para una parte creciente del sector, y lo que de verdad importa no es la herramienta de moda, sino hacia dónde se está desplazando el ciclo de vida del producto. Su tesis es que Claude Design, más allá de si es más o menos potente que Figma, es la señal de un movimiento estratégico que probablemente copiarán el resto de grandes actores de la IA.
+
+#### Las dos maneras clásicas de especificar requisitos
+
+Las dos formas «viejunas» son la herencia de un mundo con poco cambio. La primera es la cascada: entregas en ciclos de meses, producto que acababa en un medio físico como una cinta o un CD y se distribuía desde el CPD, con cambios posteriores carísimos. Las especificaciones en papel se convertían a menudo en contratos inamovibles, bajo la lógica del «proyecto llave en mano», y el objetivo último era reducir la interacción humana durante la creación. La segunda son las historias de usuario, que llegan con la corriente ágil y con la cultura de la colaboración por encima de la negociación: textos mínimos, definidas como «promesas de conversación», pensadas para la interacción entre humanos. Garzás aclara que ese primer mundo sigue existiendo, pero con un hueco pequeño.
+
+#### La nube cambia el ritmo y aparece la incertidumbre
+
+Cuando el software pasa a la nube y se accede por navegador o aplicación móvil, los cambios se vuelven fáciles y el negocio deja de entender que se tarde mucho en corregir un bug o en añadir una funcionalidad. Al mismo tiempo se agota la etapa de automatizar procedimientos manuales bien definidos y entra una época de mucha más incertidumbre, en la que predecir lo que quiere el usuario es más difícil. De ahí la receta: prototipar muy rápido y escribir muy poco requisito para liberar antes y captar necesidades directamente del negocio. En este punto menciona variantes y formatos posteriores, como Gherkin para describir con pruebas de aceptación.
+
+#### La tercera vía: especificaciones en Markdown
+
+Con la IA generativa capaz de crear algoritmos y prototipos a una velocidad impensable, aparecen las especificaciones (specs) en texto plano, típicamente en ficheros Markdown, un formato que recuerda que data de 2004 o 2006. Su función es acotar al máximo lo que debe hacer la máquina y disponer de una única fuente de la verdad, porque la IA es no determinista y, ante la misma especificación, puede dar resultados distintos; también ayuda a manejar la pérdida de contexto. Garzás lo considera un tema polémico: si se acota en exceso se vuelve al lado oscuro de la cascada, de modo que la disciplina consiste en hacer specs lo más pequeñas posible aunque sean detalladas.
+
+#### La cuarta vía: prototipos funcionales creados desde negocio
+
+La IA permitió crear prototipos operativos sin saber programar, con la advertencia habitual del autor: prototipos, no grandes aplicaciones en producción con millones de usuarios, que siempre exigen un bucle humano-IA. Con esto, el responsable de negocio o product manager ya no enseña textos ni imágenes muertas de un Figma, sino algo que funciona con sus botones, desplegables y campos, y puede validarlo con usuarios beta del círculo «friends and family» sin pasar por ciclos, perfiles y reuniones largas. Herramientas como Lovable elevaron el nivel y son uno de los exponentes de esta vía, que difumina las fronteras profesionales y hace equipos más pequeños, sin que ello signifique prescindir del UX cuando el producto lo requiere.
+
+#### Claude Design: la noticia y la caída del 7% de Figma
+
+Claude Design aparece en abril de 2026 y, según la noticia que origina el vídeo, las acciones de Figma —su competidor histórico más fuerte y la herramienta hiperpopular de diseñadores y UX— caen un 7%. La herramienta ha sido muy criticada por simple y alejada de Figma, y la primera impresión al probarla es la de un «Canva con superpoderes», con una función de exportación directa a Canva; Garzás la usó, por ejemplo, para diseñar la convocatoria de un encuentro presencial de su comunidad para ver el estreno de Mandalorian. Su insistencia es que quedarse en la comparación de potencia y en el FOMO de herramientas impide ver el trasfondo.
+
+#### El botón clave: la integración con Claude Code
+
+El detalle que pasa desapercibido es un pequeño botón de integración con Claude Code, en opinión del autor la herramienta más potente de creación y programación hasta la fecha. Lo que propone Anthropic es que, una vez validado el prototipo, este pase de forma integrada y sin fisuras mediante un handoff a Claude Code, que lo implementa, quedando muy cerca de una release si lo permiten los requisitos funcionales, de negocio y de seguridad. Eso va más allá de Lovable y competidores, que se quedaban en prototipos más o menos muertos: aquí hay control total sobre infraestructura y arquitectura, con validación por perfiles humanos acompañada de agentes que validan resultados.
+
+#### Un ciclo de vida completo en manos de la IA
+
+El ciclo que dibuja el vídeo es: la persona de negocio diseña en Claude Design, se valida el prototipo y se entrega a Claude Code, que implementa; las especificaciones en texto quedan en un segundo plano, sin desaparecer. El resultado es más velocidad y menos separación entre negocio, diseño y técnico. Garzás señala las consecuencias: para aplicaciones con gran exigencia de diseño harán falta perfiles muy senior, lo que deja a los junior en una posición delicada; pero también subraya que muchas de las cosas que se hacen son automatizaciones menores o de uso interno, antes impensables por presupuesto, perfiles y tiempos, que ahora asume directamente un perfil de negocio.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| Grupo gratuito de WhatsApp de la comunidad «los rebeldes y ágiles» | — |
+| Claude Design (Anthropic) | — |
+| Claude Code (Anthropic) | — |
+| Lovable | — |
+| Figma | — |
+| Canva | — |
+| Gherkin (formato de pruebas de aceptación) | — |
+
+---
+## [Javier Garzás] He creado un agente de IA que hace de mi Product Owner: esto es lo que aprendí
+
+**Fecha:** 2026-05-03
+**URL:** https://www.youtube.com/watch?v=9yERjr1P6X8
+**Video ID:** 9yERjr1P6X8
+
+### 📝 Resumen
+
+Garzás ha entregado su backlog a un agente de IA propio al que ha bautizado como C233PO, que lleva semanas trabajando para él como coproduct owner y le ha enseñado tanto la parte brillante como la parte oscura de delegar la gestión rutinaria en una IA. El vídeo cuenta cómo funciona por dentro, qué ha cambiado en su equipo y qué riesgos conviene gestionar antes de replicarlo.
+
+#### C233PO: un agente, no un chatbot
+
+La distinción es el eje del experimento: no es un LLM, ni un prompt, ni un chatbot, ni una skill, sino un agente autónomo que está operativo 7x24 en un entorno propio, lee el backlog en Notion y escribe por Telegram al teléfono de Javier. Por la mañana le llegan mensajes como que llevan tres días sin tocar tareas marcadas con F (las de futuro, separadas de lo urgente y lo importante), avisos de que solo se está centrando en el día a día mientras lo que aporta valor no entra en el backlog, o listas de los cinco items que debería revisar hoy con el aviso de que alguno no aporta valor y debería eliminarse. En su equipo hay además otro agente llamado Leia.
+
+#### Qué hace cada noche y qué cambia en el equipo
+
+C233PO mantiene el backlog, lo reordena, lo prioriza y lo limpia, y por la noche, con una tarea planificada a las 3 de la mañana aprovechando que hay menos demanda de tokens, prepara el daily y avisa de los cambios por Telegram. Antes, la rutina consistía en abrir el backlog en el proyector media hora antes del daily para ordenar, quitar y añadir items, algo que muchas veces no se hacía por falta de tiempo y que dejaba backlogs caóticos. La mayor sorpresa ha sido que el agente empezó a recordar por iniciativa propia buenas prácticas que él mismo le había inculcado, y que mantiene la disciplina sin cansarse ni ceder a la presión del día a día.
+
+#### Una arquitectura de tres capas
+
+El agente no se construye solo con un prompt. La primera capa es el alma: los ficheros Soul.md e Identity.md, en texto plano y lenguaje natural, donde están los criterios de trabajo, la obsesión por el valor, la guerra contra el desperdicio como enemigo del valor y la brújula interna para decidir qué importa más. Sin ella, sería un ejecutor sin juicio. La segunda capa es la memoria: Memory.md y User.md describen el negocio, la ética, los principios y cómo trabaja la organización, y es lo que le permite saber en qué punto se quedó ayer y diferenciarse de un chatbot que empieza de cero. La tercera capa es la acción: Agents.md y Tools.md definen cómo actúa, qué puede tocar, cómo lee el calendario y a qué herramientas accede.
+
+#### Open Clow sobre un VPS como plataforma
+
+La base es Open Clow, que define como un repositorio o workspace de agentes de IA de código abierto, no un LLM ni un chatbot, que él ejecuta en un VPS por tener menos riesgos que en local. La plataforma permite hablar con el agente desde herramientas conocidas como Telegram o WhatsApp, conectarlo a Google Calendar y a Notion, y programar tareas planificadas. Sobre esa base, el agente hereda buenas prácticas acumuladas en más de 20 años de trabajo y en la asesoría a más de 800 equipos: tareas F de futuro, items pequeños, backlogs reducidos, técnicas de priorización, clasificación por valor y revisiones periódicas de elementos olvidados. El matiz de nomenclatura es importante: es un coproduct owner, se queda con lo rutinario y mecánico, y no alcanza lo que hace un product manager de verdad, que es discovery, visión de futuro y decisión sobre qué problemas resolver.
+
+#### La parte oscura: tres riesgos a gestionar
+
+El primero es que la IA siempre dice que sí; y en un equipo humano, que todo el mundo asienta es mala señal, porque las mejores ideas surgen de la diversidad y de discusiones sanas. El segundo es el acceso a los datos: para funcionar necesita calendar, correo, backlog en Notion y la capacidad de escribir por Telegram a él y a su equipo, así que recomienda conceder solo lo imprescindible y separar tajantemente lo confidencial. El tercero es el tiempo: cuidado con que las automatizaciones se conviertan en aficiones. Su regla es eliminar antes los procesos que no deberían existir, comprobar si el proceso se puede agilizar, valorar si aporta valor, si se repite, si consume mucho tiempo y si el mantenimiento será caro, e ir siempre a MVPs de automatización.
+
+#### El humano no desaparece
+
+La parte mecánica, viejuna y tediosa probablemente acabará en manos de la IA, pero lo diferenciador es lo mental, humano y emocional: el olfato, el pensar, el decidir, ver qué problemas hay fuera y el alma de la organización, algo que la IA no tiene y que el agente le devuelve en forma de tiempo. C233PO no ocupa su puesto, ocupa su agenda. Su consejo para quien esté en estas disciplinas es que aprenda a montar este tipo de agentes, porque la barrera no es técnica sino de paciencia y de olfato para decidir dónde merece la pena invertir tiempo, y quien lo haga ahora tendrá ventaja mientras otros siguen discutiendo sobre el Scrum de los años ochenta. Cierra con una pregunta al público: cuántas horas semanales dedica cada uno a tareas que un agente bien configurado podría hacer a las 3 de la mañana mientras duerme.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| Grupo gratuito de WhatsApp del canal | — |
+| Open Clow (workspace de agentes de IA de código abierto) | — |
+| Notion (backlog del equipo) | — |
+| Google Calendar | — |
+| Telegram | — |
+| VPS (servidor virtual donde corre el agente) | — |
+| Vídeos del canal sobre prompts, skills y agentes | — |
+
+---
+## [Javier Garzás] Los creadores de Agile lo admiten: la IA ha cambiado tu profesión para siempre
+
+**Fecha:** 2026-04-26
+**URL:** https://www.youtube.com/watch?v=9QHrMeIGL7U
+**Video ID:** 9QHrMeIGL7U
+
+### 📝 Resumen
+
+El vídeo parte de un hecho reciente: los firmantes del manifiesto ágil y una cuarentena larga de profesionales volvieron a Utah, en febrero, 25 años después de la firma, para constatar que la IA ha cambiado la profesión de crear software. Garzás, que lleva desde 2001 en esto y ha acompañado a más de 800 equipos, resume en cinco pilares qué ha cambiado y qué papel queda para las personas.
+
+#### Un cambio de época admitido por los propios firmantes
+
+Fowler sostiene que el salto actual está al nivel del que supuso pasar a los lenguajes de alto nivel. Uncle Bob va más allá y pide dejar de programar: la IA lo hace más rápido y mejor, así que conviene dedicarse a lo que aporta valor real y asumir que no hay marcha atrás. Kent Beck reconoce que el 90% de sus habilidades ha pasado a valer cero, mientras que el 10% restante se ha multiplicado de forma exponencial. Incluso autores de la época cascada hablan ya de una tercera época dorada en la evolución del software.
+
+#### Pilar 1 — Cualquiera puede construir software hablándole en español
+
+Karpathy tiene fijado un mensaje en su cuenta que define el lenguaje de programación más potente hoy como el español (o el inglés). En un taller con Lovable, gente del propio sector se sorprendía de que con un prompt sencillo se genere en segundos un prototipo operativo, no necesariamente liberable a producción pero muy por encima de una pantalla muerta o un PowerPoint. Otras herramientas citadas son Antigravity y Claude Code. El impacto real está en el software pequeño: Javier y su equipo acumulan centenares de aplicaciones internas de vibe coding que antes no se habrían hecho por falta de presupuesto o de un técnico dedicado. La consecuencia es que empresas pequeñas entran en sectores antes vedados y que el mercado se llena de desarrollos que no existían.
+
+#### Pilar 2 — Si la IA asume parte del trabajo, los equipos se reducen
+
+Equipos más pequeños implican menos ceremonias, menos reuniones y menos coordinación, algo que se diseñó para plantillas grandes. Garzás lo ve como una oportunidad de saneamiento frente a los dailies de 40 personas y 45 minutos que llamó «oscuridad». Además, las fronteras entre roles se difuminan: el product manager hace algo de UX con ayuda de IA y el UX crea prototipos operativos en lugar de pantallas en Figma; en algunas empresas aparece incluso un rol que aglutina todo y que se está llamando «product». El efecto colateral es exigente: quien no sea técnico tendrá que manejarse con GitHub, entender qué es un fichero markdown o leer código generado sin asustarse. El perfil puramente no técnico, igual que el estrictamente antiguo, está en extinción.
+
+#### Pilar 3 — Del documento de requisitos al prototipo operativo
+
+Si se puede tener un prototipo funcionando en minutos, el documento de requisitos pierde su papel central: historias de usuario, especificaciones funcionales y todo el material pensado para la interacción humana pasan a un segundo plano. La razón es simple: un prototipo operativo vale mucho más que una imagen y que mil palabras. Al mismo tiempo, gran parte de los requisitos deben empezar a pensarse para la máquina, con ficheros de especificación que actúan como fuente única de la verdad frente al comportamiento no determinista de la IA. De aquí sale la conclusión más importante: el Discovery, descubrir qué problemas merece la pena resolver, deja de ser una fase previa y ocurre en paralelo, construyendo. El Discovery es la estrella del momento y una gran ventana profesional, porque el delivery se automatiza cada vez más.
+
+#### Pilar 4 — El legacy, el código nuevo y quién mantiene qué
+
+Durante años disciplinas como la deuda técnica, el clean code o herramientas como Sonar existieron para que los humanos entendieran el código. Cuando el código lo genera y lo mantiene la IA bajo supervisión humana, esas prácticas siguen siendo importantes pero su papel es menos crítico, y aparecen voces que proponen volver al código máquina o al ensamblador en puntos críticos, porque la IA lo interpreta bien aunque sea ilegible para nosotros. El caso que más le sorprende es el del legacy: sistemas de 20 años, empezados en C y luego Java, con sus programadores originales jubilados y rincones que casi nadie entiende, donde se conecta un chatbot con un LLM mediante técnicas de RAG para que pueda estudiarlo e interpretarlo. Ha visto ya tres o cuatro casos así, y eso rompe la dependencia del guardián único del conocimiento.
+
+#### Pilar 5 — El testing, cuello de botella y gran oportunidad
+
+Si el equipo genera código diez veces más rápido, las pruebas manuales se convierten en el cuello de botella, y ya no queda nada por supuesto: siguen haciendo falta garantías de seguridad, de contención y de que la IA no se salga de los raíles marcados. Por eso habla del tercer carril y de IA juez o LLM juez, con agentes que controlan a otros agentes, validación continua y verificación basada en agentes, siempre dentro de un bucle humano que seguirá existiendo. Para quien se dedique al QA o al testing, históricamente una disciplina poco valorada, es una época dorada con decenas de técnicas y herramientas nuevas apareciendo.
+
+#### ¿Nos reemplazará la IA? La paradoja de Jevons
+
+Kent Beck respondía a esta pregunta en un podcast con la paradoja de Jevons: cuando una innovación aumenta la eficiencia con la que se usa un recurso, el consumo tiende a crecer en lugar de reducirse. El ejemplo es la fotografía: del carrete a lo digital, hoy hacemos muchísimas más fotos que nunca porque sacar una foto es casi gratis. Con el software pasará lo mismo: se producirá más software que en toda la historia junta. Por eso la pregunta relevante no es si la IA sustituye a las personas, sino qué papel ocupará cada profesional en un mundo con diez veces más software, que probablemente exigirá más gente pensando, diseñando, validando y controlando, y menos gente atada a la rutina mecánica. La decisión, insiste, hay que tomarla hoy y no mañana.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| Grupo gratuito de WhatsApp del canal | — |
+| Lovable (herramienta de vibe coding) | — |
+| Antigravity (herramienta de generación de código con IA) | — |
+| Claude Code (agente de código de Anthropic) | — |
+| Sonar (calidad de código) | — |
+| Vídeo del canal sobre RAG | — |
+
+---
+## [Javier Garzás] OpenClaw IA: si gestionas productos así, ya vas tarde
+
+**Fecha:** 2026-04-19
+**URL:** https://www.youtube.com/watch?v=1ZTjZ-IKu8k
+**Video ID:** 1ZTjZ-IKu8k
+
+### 📝 Resumen
+
+Javier Garzás abre el vídeo distinguiendo dos tipos de gestores: los que usan la IA como un buscador ampliado y los que ya tienen un agente autónomo trabajando 24×7 para sus equipos y productos. La mayoría sigue en el primer grupo sin saberlo. En su comunidad de más de 500 profesionales, la incorporación de OpenClaw marcó un antes y un después. El vídeo cubre qué es la herramienta, sus casos de uso en gestión de producto y proyectos, y cómo la instaló él, con la advertencia de que no es trivial hacerlo bien y de que una instalación descuidada no es segura.
+
+#### Qué es OpenClaw
+
+OpenClaw es un agente de código abierto y software libre, autoalojado: se ejecuta en el PC del usuario o en un servidor propio y automatiza tareas en esa máquina, puede leer ficheros y estar funcionando 24 horas haciendo lo que se le encomiende. No es un LLM: se conecta vía API al modelo que el usuario configure, sea un GPT o cualquier otro del mercado. La diferencia clave con un chatbot como ChatGPT o Copilot es que no vive en la nube de un tercero ni espera a que se le pregunte: está siempre dispuesto, siempre procesando, en una máquina que el usuario controla.
+
+#### El lío de nombres y su origen
+
+Garzás dedica un apartado a aclarar el naming, porque el proyecto ha tenido varios nombres y en algún momento se llamó Clawbot y antes Moltbot. Anthropic, propietaria de Claude, pidió de manera amistosa al proyecto que cambiara el nombre de Clawbot por su parecido con el suyo, y para evitar problemas se adoptó el nombre actual, OpenClaw. El proyecto lo creó un desarrollador independiente, Peter Steinberger, que se hizo tan famoso con él que acabó fichado por OpenAI. Como dato de tracción, el autor destaca que superó las 220.000 estrellas en GitHub en menos de tres meses, un récord absoluto en la plataforma, y que ha sido citado varias veces por el CEO de Nvidia como una revolución al nivel de la aparición de ChatGPT.
+
+#### Las cinco claves que lo hacen disruptivo
+
+El primer punto es que es un agente y no un LLM: se conecta por API a cualquier modelo y trabaja con prompts y skills. El segundo es su proactividad: cuando no puede resolver un problema se busca la vida, busca una skill, descarga lo que necesita y lo soluciona, algo que un ChatGPT no hace. El tercero es que su interfaz de chatbot son herramientas que todo el mundo ya conoce —Telegram, WhatsApp o Slack—, lo que además permite aprovechar funciones como el micrófono por audio. El cuarto es que es software libre, gratis entre comillas, porque hay que pagar los tokens del LLM y el PC o VPS donde se instala. El quinto, que Garzás considera el más llamativo, es que se autoconfigura: si no puede ejecutar algo, se va a la web o a GitHub, busca la manera de lograrlo y propone soluciones, un comportamiento que compara con Jarvis o Her.
+
+#### Cómo instalarlo: VPS frente a local
+
+La recomendación del autor es instalarlo en un VPS, un servidor virtual privado, y no en local, por dos razones: seguridad, ya que en local tiene acceso a todo, y disponibilidad, porque así funciona 24×7 sin depender de tener el ordenador dedicado y encendido. Él lo tiene en Hostinger, que ahora patrocina el canal aunque él ya lo usaba antes. El proceso resumido: entrar en la web de Hostinger, elegir el plan básico de VPS —no hace falta mucha potencia para arrancar—, configurar la duración del plan y el descuento, aplicar el cupón "Javier Garzas", desmarcar la opción de "IA lista para usar" para no consumir créditos de Hostinger y usar en su lugar la cuenta propia de OpenAI, y esperar al despliegue automático. Después se accede al panel con el token y la contraseña y se chatea con el agente de instalación, cuya primera tarea recomendada es configurar una pasarela o chatbot, normalmente Telegram porque WhatsApp resulta más complicado y tiene más restricciones. Avisa de que con Anthropic hay más fricción y problemas de compatibilidad, así que la mayoría usa modelos de OpenAI.
+
+#### Casos de uso en gestión de producto
+
+El primero son los backlogs inteligentes y proactivos: por la noche, cuando hay menos tráfico y menos consumo de tokens, el agente analiza Slack, los tickets y las plataformas de feedback de usuario, y genera un backlog de ítems priorizados con criterios de aceptación propuestos, que el product manager revisa después. El segundo es el reporting: cada lunes a las 8 el agente recopila las métricas de producto, las contrasta con los OKRs aplicando una skill, y entrega por Telegram un resumen ejecutivo listo para enviar sin abrir ninguna herramienta. El tercero es la vigilancia de competidores: se le da la instrucción de monitorizar los lanzamientos de un competidor y avisar, siguiendo repositorios, notas, artículos publicados, redes sociales y tendencias, en lugar de hacer scroll manual. El cuarto es la detección de oportunidades: rastrea patrones de uso en analítica, reseñas y sesiones, detecta necesidades emergentes y sugiere hipótesis. El quinto es la preparación de roadmaps: antes de las revisiones trimestrales resume el progreso de las iniciativas y lo convierte en narrativas y borradores de argumentario según la skill y los prompts configurados, algo que describe como un copiloto muy potente, un "co-PM".
+
+#### Riesgos, seguridad y control de costes
+
+El agente tiene acceso total a los archivos, y todavía más si se instala en local, de ahí la insistencia en llevarlo a un VPS, lo que minimiza pero no elimina el riesgo. Como todo LLM, no es determinista y puede alucinar, así que hay que comprobar lo que hace. Recomienda vigilar la seguridad de los puertos, exigir que pida confirmación antes de acciones raras y no instalar MCPs o skills de terceros sin revisarlos. En costes distingue el alojamiento, que considera ridículo —menos que una pizza o una hamburguesa—, del consumo de tokens del LLM, que es lo que hay que controlar: él tiene fijado un presupuesto máximo en OpenAI, de modo que cuando se agota el agente avisa y deja de consumir. Advierte del riesgo de dejar la tarjeta sin límite, porque un agente muy proactivo puede gastar de madrugada resolviendo problemas por iniciativa propia.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| OpenClaw (proyecto de agente de código abierto, más de 220.000 estrellas en GitHub) | — |
+| Hostinger (planes VPS y despliegue automático de OpenClaw) | — |
+| Cupón de descuento "Javier Garzas" para Hostinger | — |
+| Guía en PDF sobre configuración e instalación de OpenClaw | — |
+| Grupo de WhatsApp gratuito del canal | — |
+| Vídeo del canal sobre skills aplicadas a gestión de producto | — |
+| Vídeo del canal sobre skills de OKR | — |
+
+---
+## [Javier Garzás] 5 libros que cambiarán cómo gestionas con IA (y que el 90% nunca leerá)
+
+**Fecha:** 2026-04-05
+**URL:** https://www.youtube.com/watch?v=URznOJ5Ex1g
+**Video ID:** URznOJ5Ex1g
+
+### 📝 Resumen
+
+Javier Garzás parte de una crítica al ruido informativo: el 90% de los profesionales que conoce se informa solo con newsletters y LinkedIn, y sigue gestionando igual que hace cinco o seis años. Frente a los posts que duran minutos, propone cinco libros que, en su experiencia, explican el presente y el futuro de la gestión. Ninguno promete un método mágico ni ofrece listas de herramientas; todos exigen cambiar la forma de pensar.
+
+#### 1. La ola que viene — Mustafa Suleyman
+
+El primer libro es "La ola que viene", de Mustafa Suleyman, cofundador de DeepMind y actual CEO de la división de IA en Microsoft, al que Garzás presenta como alguien que lleva décadas construyendo la tecnología y no un divulgador cualquiera. No es un libro de productividad ni de herramientas: es un libro incómodo sobre la magnitud real de lo que está pasando. Su tesis es que la ola que viene es a la vez la mayor oportunidad y el mayor riesgo que ha tenido la civilización, y que la mayoría de las organizaciones no está entendiendo ninguna de las dos. Para un gestor la consecuencia es directa: quien trate la IA como una moda pasajera o una herramienta más que añadir al stack llegará tarde, no un poco tarde, sino estructuralmente tarde. El objetivo del libro es obligar a salir del detalle del prompt y del chatbot para ver el mapa completo.
+
+#### 2. The Atomic Human — Neil Lawrence
+
+El segundo título es "The Atomic Human", de Neil Lawrence, catedrático de machine learning en la Universidad de Cambridge, al que Garzás escuchó en persona en una AI Summit en Londres. Su pregunta no es cómo usamos la IA, sino qué queda de nosotros cuando la IA hace lo que antes hacíamos. Para el autor esto ya no es filosofía sino operativa: si un manager no sabe qué aporta él que una IA no puede replicar, no puede construir un equipo de futuro, ni delegar, ni liderar, y se queda en la mera supervisión de tareas, algo que no escala. Lawrence sostiene que lo que nos define es precisamente lo más difícil de automatizar: el juicio en contextos de incertidumbre, la confianza, la comunicación implícita y el olfato para reconocer patrones y tendencias.
+
+#### 3. Frictionless: la fricción invisible que frena a los equipos
+
+El tercer libro aborda por qué se bloquean los gestores, y la respuesta no es la falta de herramientas sino el exceso de fricción. Su tesis es que en la mayoría de los equipos una parte enorme del tiempo se va en coordinación, esperas y retrabajo en lugar de trabajo real, en un ruido organizativo que nadie ha decidido eliminar. La advertencia central es que la IA amplifica lo que ya existe: si el proceso es lento y antiguo, la IA lo hará ir aún más lento, y si el equipo tiene fricciones, los agentes generarán más fricción. De ahí su regla repetida: antes de automatizar hay que limpiar, y no se debe optimizar lo que no debería existir. Frente a los títulos más abstractos, este es el más operativo y ayuda a visualizar metodológicamente qué está frenando al equipo para eliminarlo antes de disparar el uso de IA.
+
+#### 4. Pensar con prompts: cognición híbrida y razón generativa
+
+El cuarto libro es "Pensar con prompts", un ensayo sobre cómo cambia nuestra forma de pensar cuando se usa IA generativa a diario: ya no pensamos solos, sino en conversaciones constantes con modelos como ChatGPT o Claude. Introduce el concepto de cognición híbrida y defiende que un prompt no es solo una orden, sino un acto de pensamiento, una pregunta o hipótesis que abre un espacio mental compartido entre humanos y máquinas; el autor lo llama razón generativa y laboratorio de pensamiento. La IA funciona a la vez como espejo de nuestros sesgos y como amplificador de capacidades, y aprender a gestionar esa colaboración se plantea casi como un acto de responsabilidad. Un detalle llamativo: el libro firma como una entidad híbrida humano-máquina, idea que nace de la colaboración entre un filósofo italiano, Andrea Colamedici, y una IA, defendiendo que las ideas ya no nacen de una mente individual sino del diálogo entre inteligencia humana y artificial. Para el gestor, la lectura es útil para usar la IA como copiloto en discovery, estrategia y delivery, y para decidir qué tareas automatizar y cuáles no.
+
+#### 5. Extreme Programming de Kent Beck: el clásico del 99 que vuelve
+
+El quinto libro es el más paradójico: "Extreme Programming" de Kent Beck, en una edición de 2001 sobre un original de 1999, el mismo Beck que formalizó el TDD y que hoy asesora a empresas sobre desarrollo aumentado con IA. Garzás lo reivindica precisamente porque el framework de Extreme Programming nació para resolver un problema que la IA ha vuelto a poner sobre la mesa multiplicado: cómo mantener el control de productos que crecen a toda velocidad. En 1999 el problema estaba en el desarrollo humano; hoy está en la velocidad con la que crean los agentes. De aquel corpus destaca el test driven development como técnica de control, entendida de forma conceptual y no solo técnica: escribir pruebas que describan lo que se quiere antes de crear, en ciclos de generar y validar. Encaja con el spec driven development: mantener en ficheros de texto plano las especificaciones funcionales, de negocio y de aceptación que guían la generación, evitando que esas specs degeneren en un nuevo cascada. No todo el detalle del libro sirve hoy, pero sí su filosofía y el motivo por el que nacieron esas prácticas.
+
+#### Hilo común: cinco incomodidades y ninguna receta
+
+Garzás cierra describiendo los cinco libros como cinco incomodidades de distinto nivel: una macro sobre el sistema, una de identidad, una operativa y una táctica, más un regreso al pasado que ayuda a explicar el futuro. Ninguno da una lista de herramientas ni promete felicidad a quien siga un método mágico, pero todos piden algo: cambiar la forma de pensar, ir más allá del Copilot o ChatGPT, entender el sistema, eliminar fricción antes de automatizar y mantener el control de lo que se construye. Avisa de que eso difícilmente se aprende perdiendo horas en LinkedIn, aunque también reconoce que hoy se publican muchos libros generados a gran velocidad que no valen nada.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| "La ola que viene", de Mustafa Suleyman | — |
+| "The Atomic Human", de Neil Lawrence | — |
+| "Frictionless" (libro sobre la fricción en los equipos) | — |
+| "Pensar con prompts" (firmado por entidad híbrida; Andrea Colamedici) | — |
+| "Extreme Programming", de Kent Beck (edición 2001, original 1999) | — |
+| Grupo de WhatsApp gratuito del canal | — |
+| Vídeo relacionado del canal sobre los temas tratados | — |
+
+---
+## [Javier Garzás] El clásico Sprint hoy es demasiado lento: las 3 velocidades de los equipos con IA
+
+**Fecha:** 2026-03-29
+**URL:** https://www.youtube.com/watch?v=nOtaMh2yRfI
+**Video ID:** nOtaMh2yRfI
+
+### 📝 Resumen
+
+Javier Garzás, con más de 800 equipos transformados en más de 20 años, sostiene que el sprint tal y como nació hace tres décadas ya no encaja con la velocidad de creación que permite la IA. Frente a los equipos que siguen aplicándolo sin cuestionárselo, plantea un ciclo de vida en el que humanos e inteligencias artificiales conviven de forma explícita dentro de carriles de velocidad diferenciados.
+
+#### Los tres supuestos de Scrum que la IA ha hecho saltar por los aires
+
+El punto de partida del vídeo es que los sprints originales se diseñaron sobre tres supuestos que la IA ha destruido. El primero era que crear productos era un proceso mucho más lento; se trata de un marco de los años 80, de una época en la que ni existían los smartphones. El segundo asumía que solo los perfiles técnicos, y en concreto los desarrolladores, creaban producto. El tercero daba por hecho que los equipos estaban formados exclusivamente por personas. Con la IA esos tres pilares caen: la velocidad de creación se ha disparado, los perfiles no técnicos ya construyen y los agentes forman parte del equipo. De ahí la necesidad de definir ciclos de vida que integren de forma explícita el trabajo de personas y de IAs, sin renunciar a la velocidad pero también sin liberar versiones que acaben explotando.
+
+#### Del IA human loop a los carriles de velocidad
+
+Antes de organizar el trabajo, Garzás distingue tres niveles de participación humano-IA dentro del llamado human in the loop: autonomía total de la IA con supervisión humana muy baja, supervisión parcial del humano sobre lo que hace la IA, y supervisión total o máxima. Esos tres niveles se corresponden con la metáfora central del vídeo: una autovía con carriles separados por velocidad, donde los vehículos lentos no frenan a los rápidos. La idea de organizar el trabajo por carriles no es nueva: sitúa su primera referencia conocida en Microsoft a finales de la década de 2010, cuando empezó a separar un carril de impacto interno y otro de impacto externo durante las migraciones a la nube. La novedad es que la IA añade un tercer carril que ahora mismo se está definiendo en foros y comunidades.
+
+#### El carril interno: velocidad de la luz y vibe coding
+
+El primer carril es el carril interno o inner loop, el de mayor velocidad, dedicado a la creación y construcción. Es el carril donde hoy manda el vibe coding: la IA hace algorítmica, prototipado y generación a gran velocidad, con autonomía casi total y supervisión humana mínima. El ciclo se mide en minutos, y en él participan tanto perfiles técnicos como no técnicos, incluido un product manager que prototipa sin pasar por un equipo de desarrollo, algo impensable hace unos años. Su función es explorar, probar alternativas y validar cuanto antes con usuarios cercanos, beta o friends and family, en lugar de discutir sobre pantallazos y PowerPoint. Garzás insiste en que este carril no es para producción y en que no puede frenarse con planificaciones, reviews de fin de sprint, ceremonias ni multitud de perfiles opinando.
+
+#### El carril medio: supervisión con agentes, no con personas
+
+El segundo carril es el más novedoso, el middle loop, una capa de control y robustez que comprueba lo que la IA ha producido a toda velocidad. Su objetivo no es solo que algo funcione, sino que no genere un desastre. El autor ilustra el riesgo con el caso de Amazon: dejó demasiada autonomía a la IA en el carril rápido, se reportaron hasta cuatro fallos críticos y hubo hasta seis horas de incidencias con millones de pedidos afectados. El error contrario es igual de grave: trasladar al carril intermedio las revisiones humanas manuales de siempre, porque así las personas se convierten en cuello de botella y frenan los vehículos rápidos. La supervisión debe hacerse con agentes de IA y técnicas de IA que controlen a la IA. Aquí aparecen disciplinas emergentes que aún están buscando nombre, como la ingeniería del arnés (harness engineering), entendida como todo lo que rodea a la IA para que trabaje dentro de límites seguros, fiables y controlados, y el vibe engineering, orientado a hacer robusto lo que salió del primer carril y diferenciado de los "vibers" cuyo foco es la validación.
+
+#### El carril externo: liberar y aprender de usuarios reales
+
+El tercer carril es el externo, u outer loop, el más lento y el más supervisado, reservado para poner cosas en manos de usuarios reales: compradores de un e-commerce, alumnos de una formación, etc. Aquí ya no importa crear rápido, sino observar cómo se comporta lo construido: si aporta valor, si resuelve el problema correcto, si encaja en el negocio y si merece la pena seguir evolucionándolo. La participación humana es estratégica y prácticamente total, con el discovery como pieza determinante: decidir qué validar, interpretar el feedback, priorizar y determinar si el producto sigue, pivota o se descarta.
+
+#### Etiquetar el backlog y qué queda del sprint clásico
+
+La recomendación operativa es etiquetar cada elemento del backlog con el carril por el que va a circular, porque eso condiciona las subtareas y la definición de terminado de cada tarjeta. Un mismo ítem puede nacer en cualquier carril y saltar de uno a otro según el momento: hay ideas que mueren en el carril interno, lo cual es sano, y validaciones del carril externo que devuelven trabajo al interno para volver a explorar. Los tres carriles pueden funcionar en paralelo. Sobre el sprint, Garzás considera que la terminología se mantendrá por cultura organizativa, pero que en la práctica se relaja: contrastada con la Guía de Scrum, resulta dudoso que lo que se hace hoy fuera pueda seguir llamándose así. El carril interno vive mejor en un modelo tipo kanban de ciclo continuo, sin plannings, reviews ni dailies eternos, mientras que los carriles medio y externo pueden seguir cerca de un scrum más planificado.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| Guía de Scrum (Scrum Guide) | — |
+| Grupo de WhatsApp gratuito del canal | — |
+| Vídeo del canal sobre nuevos ciclos de vida con IA | — |
+| Vídeo del canal sobre vibe coding | — |
+
+---
+## [Javier Garzás] Si gestionas productos sin la técnica IA-Skills eres lento
+
+**Fecha:** 2026-03-22
+**URL:** https://www.youtube.com/watch?v=v95f4EL8_nQ
+**Video ID:** v95f4EL8_nQ
+
+### 📝 Resumen
+
+Javier Garzás explica qué son las IA-Skills, por qué se han vuelto una técnica ineludible para quien gestiona productos y cómo arrancar con ellas. Compara a quien sigue trabajando con copy-paste de prompts con aquellos que en su día seguían pegando pósits cuando ya existían herramientas de gestión mucho más potentes: se quedan lentos y se quedan atrás.
+
+#### Del trabajo a mano al pegado de prompts
+
+Repasa la evolución de la técnica. Primero se escribía todo a mano; después llegaron las IA generativas y las librerías de prompts, con buenas prácticas en lenguaje natural para escribir una historia de usuario, priorizar o redactar una prueba de aceptación. El avance fue enorme, pero el problema actual es que copiar y pegar prompts es lento y difícil de distribuir en equipo, obliga a tenerlos en un Notion o un Google Doc y sobrecarga la ventana de contexto con tokens, lo que hace que la IA empiece a perder el hilo en problemas complejos.
+
+#### GPTs, proyectos y Gems: el conocimiento quedaba encerrado
+
+Un paso intermedio fueron los custom GPTs, que encapsulaban los prompts y facilitaban distribuirlos, un patrón que después replicaron los proyectos de Claude y las Gems de Google. La limitación es que ese conocimiento quedaba encerrado en cada ecosistema concreto: llevarse lo que se había creado en un custom GPT o en un proyecto de Claude a otro entorno como Google Antigravity era realmente complejo.
+
+#### Qué es una IA-Skill y cuándo se convirtió en estándar
+
+Una skill es, técnicamente, una carpeta que contiene un fichero skill.md —Markdown, texto plano y fácil de formatear— con las instrucciones, el contexto y el comportamiento deseado, que puede ir acompañada de otros ficheros de contexto y distribuirse en formato .zip. Aclara que el nombre confunde: no se trata de que la persona tenga una destreza con la IA, sino de darle una destreza a la IA. Anthropic lanzó las skills hacia el 16 de octubre de 2025 y en diciembre de ese mismo año las abrió y estandarizó, igual que había ocurrido antes con los MCP. Al ser estándar, funcionan en Claude, en Antigravity, en ChatGPT y en prácticamente cualquier chatbot.
+
+#### Ventajas: distribución, reutilización y contexto más limpio
+
+Las skills permiten onboardings mucho más rápidos, reutilizar el conocimiento de expertos y distribuir las mejores prácticas entre el equipo, además de hacer a la organización independiente de una herramienta o ecosistema concreto. Añade una ventaja técnica importante: al invocar una skill, esta no inunda la ventana de contexto, con lo que se puede mantener una conversación larga sin el problema de sobrecarga de tokens que degrada las respuestas.
+
+#### Demo práctica en Claude con un user story mapping
+
+Muestra el camino más sencillo. En Claude se entra en personalización, se va a la sección de skills y se pulsa el botón de añadir, donde hay varias opciones: crear con Claude, que abre una conversación en la que la herramienta pregunta qué se quiere construir y al final guarda la skill, o bien escribir las instrucciones directamente y cargar la habilidad. Hace la demostración descargando una skill de mapa de historia de usuario del repositorio de Dean Peters en GitHub y muestra cómo Claude se apoya en las buenas prácticas embebidas por el autor para generar el mapa, la persona y el recorrido del usuario. Comenta de pasada que trabajó el ejemplo con Whisper en lugar de escribir y que merece la pena.
+
+#### Combinar skills con MCP: Miro y Gamma
+
+Cuenta que Miro es su herramienta de trabajo para volcar ideas, donde hace su brainstorming personal, y que las skills vía MCP leen ese tablero y aplican las instrucciones que él ha definido para sintetizar y condensar la información. Con un MCP de salida hacia Gamma consigue generar informes, carruseles o presentaciones a partir de esa síntesis, como sustituto potente del PowerPoint clásico. Su recomendación es enganchar siempre las skills a un MCP, porque ahí se multiplica y se dispara su potencial.
+
+#### Repositorios y marketplaces de skills
+
+Recomienda el repositorio de Dean Peters en GitHub, centrado en product management, con material muy variado: hipótesis, discovery, customer journey, métricas financieras o jobs to be done, entre otras. Explica que basta con entrar en una skill, descargarla, copiar el texto del skill.md o adaptarlo, y subirla al chatbot. Además de ese repositorio, menciona otros recursos donde buscar skills ya hechas: el marketplace skillsmp.com, mcp market y skills.sh. Cualquiera puede usar las skills de otros o crear las suyas propias.
+
+#### Migrar de GPTs a skills: lo que hace su equipo
+
+Su equipo ha migrado prácticamente todo lo que tenía en los antiguos custom GPTs a skills, porque son mucho más rápidas, no atan a una plataforma y se pueden invocar desde cualquier sitio. Mantiene sus GPTs públicos de OKRs y de product management porque los usa mucha gente, pero para uso interno la apuesta son las skills. Cierra insistiendo en no quedarse en el mundo del pegaprom y en combinar skills con MCP, y remite a su comunidad gratuita de WhatsApp para seguir el tema en un formato más ágil.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| Repositorio de skills de Dean Peters (Product Management, GitHub) | — |
+| skillsmp.com (marketplace de skills) | skillsmp.com |
+| mcp market (marketplace de skills) | — |
+| skills.sh | skills.sh |
+| MCP (protocolo de Anthropic) | — |
+| Grupo de WhatsApp gratuito de Javier Garzás | — |
+
+---
+## [Javier Garzás] Así han evolucionado los roles de Producto cuando el equipo trabaja con IA
+
+**Fecha:** 2026-03-15
+**URL:** https://www.youtube.com/watch?v=6EHLuD_9bTI
+**Video ID:** 6EHLuD_9bTI
+
+### 📝 Resumen
+
+Javier Garzás analiza qué partes del rol de product manager, product owner o gestor conviene potenciar y cuáles abandonar para seguir siendo imprescindible en equipos que trabajan con IA. Parte de dos datos que resume al arrancar: la IA ya genera el 4 % de todos los commits de GitHub y, al ritmo actual, podría superar el 20 % antes de terminar el año, y en Spotify los mejores ingenieros llevan meses sin escribir una línea de código y solo supervisan lo que genera la IA.
+
+#### La barrera técnica ha caído para siempre
+
+El mensaje central es que hoy cualquier perfil, sea técnico o no, no solo tiene la capacidad de crear productos tecnológicos: tiene la obligación. La IA ha tirado la barrera de entrada que reservaba la creación de prototipos, integraciones y automatizaciones a perfiles con conocimientos profundos, y para ello no hace falta un conocimiento enorme, sino paciencia y criterio. Un mundo con roles claros, carreras definidas y certificaciones está desapareciendo, y no por la caída de Scrum ni por una nueva moda metodológica, sino porque esa barrera exclusiva ha dejado de existir.
+
+#### De escribir código a dirigir a la IA
+
+El trabajo humano se ha desplazado de teclear líneas de código a verificar, poner límites y dirigir. Herramientas como Claude Code escriben código a un nivel muy alto, proponen cambios y empujan commits complejos a producción, de modo que el humano pasa a definir objetivos, revisar, acotar y fijar arquitectura. El mismo patrón se repite en cualquier trabajo de conocimiento con un ordenador delante: leer, analizar, resumir, preparar documentos y reuniones o coordinar es terreno de la IA, mientras criterio, decisiones e impacto quedan para las personas.
+
+#### Se diluyen las fronteras entre perfiles profesionales
+
+De ahí que los roles dejen de definirse por lo que se sabía hacer técnicamente y pasen a definirse por cómo se use la IA. Los silos entre departamentos ya se rompieron; ahora se rompen los silos entre perfiles: un PM que genera un prototipo funcional y valida su idea sin una cadena de especialistas, un diseñador que sustituye un diseño muerto en Figma por algo operativo, o un desarrollador que asume tareas antes exclusivas de testing. El profesional multifuncional, la máxima expresión de las competencias en T, pasa de ser raro a ser obligatorio. Menciona herramientas de vibe coding como Lovable o Antigravity, esta última usada por su propio equipo para automatizar tareas cotidianas y pequeñas aplicaciones de uso interno.
+
+#### El auge del perfil builder
+
+El título del rol importa cada vez menos; importa si la persona es capaz de tomar un problema concreto de su alrededor, imaginar una solución y llevarla a cabo ella misma. Insiste en no llevarlo al terreno de las grandes aplicaciones: la clave está en lo cotidiano y en soluciones operativas de uso interno, sin necesidad de llegar a producción con millones de usuarios. De ahí la etiqueta de roles builders o IA builders, y ejemplos como crear una skill en lugar de revisar a mano la herramienta de gestión, tirar de MCP para acelerar el seguimiento o automatizar la revisión de informes y tendencias con IA.
+
+#### Se transforman las prácticas clásicas: fuera PRDs, dentro prototipos y specs
+
+Cuando crear se democratiza, cambian las prácticas de ingeniería y de gestión, y los ciclos pasan a ser bucles rápidos de IA y humano. Los requisitos dejan de volcarse en documentos eternos y se sustituyen por prototipos hechos en poco tiempo por perfiles no técnicos que muestran el comportamiento esperado desde el primer día. Señala que el responsable de Claude Code ha contado que no habrían llegado a esa herramienta si no hubieran eliminado por completo los PRDs. Las historias de usuario conviven ahora con specs en ficheros que condicionan a la IA, y el testing cambia: la IA genera tests unitarios, de interacción y de APIs directamente desde las specs, y el equipo revisa la cobertura. La documentación no desaparece, pero el centro de gravedad deja de ser el Word, el ticket, Jira o Confluence.
+
+#### Todo el mundo se ha vuelto más técnico, sin ser programador
+
+No se trata de que todos aprendan a programar, sino de que las herramientas técnicas antes exclusivas de perfiles muy especializados se han vuelto necesarias y mucho más fáciles de usar. Es normal ver a gestores de proyectos tocando Git, lanzando tests o participando en revisiones de código, algo impensable hace poco. Con Claude Code, un PM puede lanzar una revisión con un botón y que los agentes generen la pull request automáticamente, sin tener que abrir un IDE.
+
+#### El fin del gestor administrativo
+
+Las tareas repetitivas de informes, reporting, coordinación y reuniones se reducen drásticamente con equipos más pequeños y menos gente. Quien se quede solo en alinear perfiles, convocar reuniones y hacer reporting tiene poco recorrido: el PM del futuro toma decisiones, crea y se involucra activamente con las disciplinas que le rodean para acelerar el negocio. Las habilidades humanas —criterio, empatía, capacidad de influir, leer una sala, generar confianza— dejan de ser un extra y pasan a ser el núcleo de lo que queda cuando la parte mecánica la asume la máquina.
+
+#### La lección de Gutenberg
+
+Cierra con la historia de la imprenta: hacia 1440 Gutenberg construyó un ingenio que hizo irrelevante la parte mecánica del trabajo de miles de copistas, que no eran malos profesionales, y que provocó pánico real, resistencia y pérdida de empleos. Con perspectiva histórica, el número total de personas que trabajó alrededor de la industria del libro se disparó con impresores, editores y distribuidores, y se multiplicaron los libros y las obras. Su lectura es la misma para la IA: desaparecen oportunidades, pero se abren muchas más.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| Claude Code (Anthropic) | — |
+| Antigravity (Google) | — |
+| Lovable | — |
+| MCP (protocolo de Anthropic) | — |
+| Grupo de WhatsApp gratuito de Javier Garzás | — |
+
+---
+## [Javier Garzás] Sin Scrum: así se organizan los equipos que usan IA
+
+**Fecha:** 2026-03-08
+**URL:** https://www.youtube.com/watch?v=eOju3Z0VnHg
+**Video ID:** eOju3Z0VnHg
+
+### 📝 Resumen
+
+Javier Garzás sostiene que Scrum responde a un paradigma ya superado y describe los métodos y flujos de trabajo que están adoptando los equipos que trabajan con IA como herramienta principal. La consecuencia más incómoda de ese cambio no es metodológica, sino estructural: afecta al tamaño y a la composición de los equipos de producto.
+
+#### Discovery y delivery: los dos grandes bloques de siempre
+
+Recuerda que la creación de producto de base tecnológica se ha organizado históricamente en torno a dos responsabilidades: el discovery, centrado en descubrir necesidades y problemas de los usuarios y validar si se ha acertado, y el delivery, centrado en optimizar tiempos, procesos, coordinación, releases e incrementos. Cada cambio de paradigma tecnológico ha ido adaptando ambos bloques. Los frameworks clásicos, y Scrum en particular, fueron muy valiosos sobre todo para el delivery, pero se pensaron para el trabajo entre personas y para iteraciones mucho más lentas que las actuales.
+
+#### Los nuevos flujos nativos de IA: GitHub Kit, Claude Code y AWS Kiro
+
+Señala que empresas y colectivos han ido publicando flujos de trabajo para la convivencia de equipos humanos con IA y destaca tres. El primero, GitHub Kit, con GitHub y Microsoft detrás. El segundo, el flujo casi metodológico que propone Anthropic alrededor de Claude Code, una de las herramientas más punteras para creación de producto. El tercero, Kiro, de Amazon Web Services. Añade que la productividad del delivery se ha disparado y que la capacidad de desplegar y testear a velocidades desconocidas era inimaginable tiempo atrás.
+
+#### El spec-driven development (SDD) como denominador común
+
+Todas esas propuestas comparten un patrón: dejar crear a la IA, pero acotándola. Se acota el qué debe crear (decisiones de negocio) y el cómo, en la parte técnica y de arquitectura. Ese conjunto de aproximaciones se agrupa bajo el nombre de SDD, spec-driven development, y se apoya en especificaciones claras en ficheros, típicamente en Markdown. El flujo típico es: los humanos definen las specs, con historias de usuario y pruebas de aceptación incluidas; la IA propone un plan técnico y una arquitectura; los humanos revisan, acotan y aprueban; la IA implementa y el ciclo se cierra con validación y testeo humano. Es un bucle continuo humano-IA-humano, con iteraciones mucho más cortas que las de los frameworks clásicos. Avisa del riesgo de irse al lado oscuro de la cascada: pocas historias de usuario y bien delimitadas.
+
+#### Cómo lo aplica su propio equipo: specs.md, Gherkin y versionado
+
+Cuenta que en su equipo usan una versión muy simplificada del SDD para desarrollos internos. Crean ficheros specs.md con pocas historias de usuario, cada una con sus criterios de aceptación escritos en Gherkin. Guardan y versionan esos ficheros, y de ahí salen pequeñas aplicaciones de uso cotidiano que les ahorran bastante tiempo. Insiste en repetir que la clave es mantener el número de historias bajo control para no acabar haciendo cascada con otro nombre.
+
+#### Menos personas en el delivery, pero no cero personas
+
+Responde con un "sí y no" a la pregunta de si desaparece la necesidad de humanos en el delivery. Hoy es imposible prescindir de supervisión: hacen falta técnicos que condicionen planes y arquitectura, que supervisen despliegues y detecten derivas, y especialistas de negocio que comprueben que lo liberado satisface necesidades reales. La parte negativa, que confiesa que no le gusta, es que las personas necesarias para el delivery son bastantes menos que antes y que la tendencia va a más.
+
+#### El renacer del discovery como espacio diferenciador
+
+El foco creativo se desplaza al discovery, que se convierte en el nuevo espacio de valor. Subraya que la IA no sustituye las técnicas clásicas de descubrimiento —cita el value proposition canvas, que él usa continuamente, y otras muchas— sino que las potencia: investigaciones profundas para descubrir tendencias y estudios, análisis de artículos y observatorios, scraping de webs de la competencia y de mercado, comprensión mucho más rápida y profunda de clientes y usuarios, y prototipado ultrarrápido. Distingue el vibe coding, orientado a prototipar y a validar necesidades con perfiles no técnicos, del vibe engineering, orientado a producto robusto. Aun así, defiende que el juicio estratégico del product manager, la empatía del diseñador y la visión técnica del ingeniero siguen siendo imprescindibles.
+
+#### Equipos de tres o cuatro personas donde antes había siete u ocho
+
+Los roles no desaparecen, se transforman: cambian de nombre, se potencian y también se reducen en número, concentrándose en lo que la IA no puede replicar. Aparecen perfiles como el IA product manager, el product designer, un IA tester o validador de calidad, y el ingeniero de software que garantiza la viabilidad técnica. La tendencia a dos o tres años es pasar de equipos de unas siete u ocho personas a equipos de tres o cuatro, con menos gente pero más impacto. Como cara positiva, señala que caen las barreras de entrada y surgen muchas más startups y empresas que antes no podían plantearse crear producto tecnológico, lo que podría generar una demanda agregada de talento mayor.
+
+#### Conclusión: ventaja para quien se forma rápido
+
+Reconoce la doble cara de la moneda: ahorros significativos de coste y tiempo para las empresas, pero impactos dolorosos para los profesionales que no se reciclen, y competidores nuevos donde antes había barreras infranqueables. Su consejo es formarse rápido, escuchar vídeos, leer libros y papers, seguir tendencias y filtrar la paja de la realidad. Cierra invitando a comentar en el vídeo y a unirse a su grupo de WhatsApp gratuito.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| GitHub Kit (flujo de GitHub y Microsoft) | — |
+| Flujo de trabajo de Claude Code (Anthropic) | — |
+| Kiro (Amazon Web Services) | — |
+| Grupo de WhatsApp gratuito de Javier Garzás | — |
+
+---
+## [Javier Garzás] La IA ha Matado a Scrum (esto es lo que viene Ahora)
+
+**Fecha:** 2026-03-01
+**URL:** https://www.youtube.com/watch?v=jrTrihcZZlc
+**Video ID:** jrTrihcZZlc
+
+### 📝 Resumen
+
+Javier Garzás, que ha formado y mentorizado a cientos de equipos en Scrum, sostiene que ese framework fue imprescindible pero hoy empieza a ser parte del pasado: quien sigue gestionando equipos como antes de la IA trabaja con un modelo pensado para otros tiempos. El vídeo explica por qué los pilares clásicos chocan con la forma actual de crear producto, qué está apareciendo en su lugar y en qué cuatro líneas conviene posicionarse.
+
+#### De dónde viene Scrum y por qué su contexto ya no es el nuestro
+La primera mención de Scrum en el desarrollo de software aparece en un libro de 1990, una joya poco conocida que forma parte de su colección, y sus padres lo popularizan a mediados de los 90. En aquel contexto no existían los smartphones, WhatsApp ni YouTube. La última guía oficial de Scrum es de 2020, cuando ChatGPT todavía no había llegado (aparece en noviembre de 2022); en junio de 2025 uno de sus creadores publicó un pack de expansión no del todo oficial que integra la IA, pero es solo un suplemento que no toca el núcleo duro, que sigue siendo el de 2020: sprint, product backlog, sprint backlog y roles como el product owner y el scrum master. Muchos equipos están abandonando Scrum por la puerta de atrás sin atreverse a decirlo, o deformándolo hasta que resulta irreconocible.
+
+#### La IA cambia la forma de crear y eso condiciona el modelo de gestión
+El autor repite una idea central: cuando cambia la tecnología con la que se crea el producto, cambian los modelos de gestión. Un framework nacido para software distribuido en CDs y cintas alcanzó su máxima popularidad con el software como servicio en la nube, y ahora se intenta retorcer para gestionar una tecnología totalmente distinta. La IA generativa genera código de forma brutal, acerca la creación de tecnología a perfiles no técnicos y hace volver a perfiles técnicos que la habían abandonado; primero aparece el vibe coding, después el vibe engineering y empiezan a surgir maneras de trabajar pensadas para convivir con la IA.
+
+#### Velocidad: el sprint de dos semanas se debilita
+Estábamos acostumbrados a unos ritmos concretos entre la ideación, el paso por negocio y la conversión en incremento, MVP o release, y eso ya se había acelerado con el no code antes de sumarle la capa de IA generativa. El concepto tradicional de sprint, con la referencia de las dos semanas, se tambalea cuando un equipo es capaz de incrementar el producto con funcionalidades listas para producción en días o incluso en un día. La cadencia de iteración deja de tener el mismo sentido y el vocabulario clásico empieza a no encajar con la realidad de los equipos modernos.
+
+#### Equipos más pequeños y menos ceremonias
+Scrum concienció a las organizaciones, en parte por influencia de Putnam, de que los equipos debían ser pequeños, con aquel 7 más menos 2 y menos de diez personas; pero ese "pequeño" hoy resulta grande. Los equipos actuales son mucho más pequeños y especializados, en parte porque son más productivos, y con ellos pierden sentido ceremonias como los dailies, las retrospectivas o los plannings con la frecuencia anterior. Antes, para convertir una funcionalidad en prototipo intervenían negocio, diseño y técnica; hoy con vibe coding un único perfil de negocio puede sacar un prototipo no liberable pero sí enseñable a friends and family.
+
+#### Artefactos que mutan: de las historias de usuario a las specs
+Las historias de usuario no son nativas de Scrum, vienen más del extreme programming, y nacieron para la interacción entre personas; hoy hay que decirle a una IA lo que queremos y no se le habla igual que a una persona. Ese artefacto empieza a cambiar y no sirve igual, y lo mismo ocurre con el sprint backlog cuando los sprints se diluyen. La línea emergente es el SDD (spec-driven development) o desarrollo guiado por especificaciones, donde todavía no está claro cómo hacerlo: las specs detalladas parecen la vía más interesante, pero si crecen demasiado recuerdan al viejo cascada. Por ahora conviven dos maneras de transmitir requisitos, las historias de usuario para personas y las specs para las IA.
+
+#### Roles: del product owner al IA Product Manager
+Los roles clásicos se van quedando solos: el product owner fue evolucionando hacia el product manager, figura con más responsabilidades y visión, y ese product manager está mutando de nuevo hacia el IA Product Manager, que potencia a sus equipos con inteligencia artificial. El scrum master, figura vital que enseñó a andar a muchas organizaciones, prácticamente desaparece cuando hay menos sprints y menos ceremonias, y cuando sobrevive es como un facilitador de naturaleza distinta. Aparecen además roles nuevos ligados a la convivencia con el no code y la IA, como perfiles de tipo builder que ayudan con la arquitectura de esas soluciones.
+
+#### Nuevos ciclos de vida de dos carriles y el nuevo testing
+Frente al sprint clásico emergen ciclos de vida de dos carriles: uno ultrarrápido de vibe coding para validar prototipos con personas conocidas, y otro algo más lento de vibe engineering que asegura mínimos de ingeniería, robustez, seguridad y calidad antes de producir. El legacy y los ciclos antiguos seguirán conviviendo durante años con estos modelos. En paralelo, el testing y el QA viven un cambio radical: hacen falta técnicas y buenas prácticas para controlar lo que hace la IA, para que una IA controle a otra, para poner semáforos de lo que puede y no puede hacer y para revisar de forma automatizada las tripas de lo que genera.
+
+#### Cuatro líneas de trabajo para no quedarse atrás
+El autor resume su recomendación en cuatro grandes líneas: la evolución de los roles (los que mutan y los que aparecen, como el IA Product Manager); los ciclos de vida donde conviven legacy, vibe coding y vibe engineering; los artefactos, con los repositorios tradicionales conviviendo con el spec-driven development y su familia de tendencias; y el control de calidad, el testing y el QA sobre lo que produce la IA. Cierra describiendo la etapa como una disrupción total y un reto profesional apasionante, invita a comentar en YouTube qué prácticas tradicionales se han cambiado en cada equipo y recuerda el enlace a su grupo de WhatsApp gratuito en la descripción.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| Guía oficial de Scrum (última versión, 2020) | — |
+| Pack de expansión de Scrum con IA (junio de 2025) | — |
+| Libro de 1990 donde se menciona Scrum por primera vez | — |
+| ChatGPT (noviembre de 2022) | — |
+| Grupo de WhatsApp gratuito de Javier Garzás | — |
+
+---
+## [Javier Garzás] NO seas el cuello de botella de tu proyecto (Deja de LEER PDFs y Usa NotebookLM)
+
+**Fecha:** 2026-02-22
+**URL:** https://www.youtube.com/watch?v=n0f2d-QmiJY
+**Video ID:** n0f2d-QmiJY
+
+### 📝 Resumen
+
+Javier Garzás vuelve sobre NotebookLM, la herramienta gratuita de Google que utiliza desde pocas semanas después de su lanzamiento, para explicar por qué sigue sorprendiéndole que tantísima gente que gestiona proyectos no la use. Su tesis es directa: quien sigue leyendo decenas de PDFs, Excel, papers, webs y pliegos de prescripciones técnicas a la antigua o buscando por palabra clave se convierte en un cuello de botella, en el "manager embudo", y pierde horas de vida en tareas que una IA resuelve en segundos.
+
+#### Qué es NotebookLM y por qué se ha convertido en el rey
+NotebookLM se plantea como una especie de gestor documental con IA: cada cuaderno es un repositorio de información al que se le añaden fuentes y sobre el que se pregunta en lenguaje natural, con búsqueda semántica en lugar de búsqueda por palabra clave. Su gran ventaja es que no sale de la información aportada, de modo que las respuestas se apoyan en las fuentes cargadas y no en el conocimiento general del modelo. El autor distingue con claridad entre lo que es la entrada de información y lo que es la salida: en la entrada considera que no tiene competidor en su nicho (gestión de proyectos y productos con mucha información heterogénea), mientras que para salidas más elaboradas prefiere otras herramientas. Si se necesita algo más potente ya hay que ir a un RAG, que son palabras mayores.
+
+#### Cómo se cargan las fuentes y cómo se mantienen actualizadas
+El botón de añadir fuentes admite subir archivos, pegar webs, incorporar texto copiado y, desde versiones recientes, conectar con Drive, algo que el autor considera muy importante. Esa conexión permite trabajar con un Google Doc que se va editando: si se modifica el documento, la fuente se actualiza y el cuaderno toma la última versión, lo que evita subir y bajar documentación y resulta ideal para preparar informes en los que la IA propone mejoras y el documento evoluciona. Admite PDFs, Excel, webs, vídeos de YouTube y textos pegados, mezclándolo todo en un mismo cuaderno, y además incorpora búsqueda profunda o investigación para descubrir nuevas fuentes, función que el autor combina con Perplexity para localizar papers de última generación que luego introduce en el cuaderno.
+
+#### Citas, control de alucinaciones y uso en temas sensibles
+Cada respuesta indica de qué fuente sale y enlaza al punto exacto del documento, lo que permite verificar la información y controlar el riesgo de alucinaciones. Esto resulta determinante en asuntos delicados como contratos, cláusulas o normativa, donde no se puede afirmar nada que no sea cierto. La herramienta también sugiere preguntas que al usuario no se le habrían ocurrido, aprovechando que tiene delante toda la información cargada. El autor lo resume como un cuaderno de estudio con IA que sirve tanto para consultar como para formarse dentro de la propia organización.
+
+#### Casos de uso en gestión de producto y proyectos
+Enumera varios casos de uso muy típicos en su sector: agrupar normas ISO, certificaciones y toda la documentación necesaria para preparar una auditoría; hacer discovery de tendencias y estudios de mercado, por ejemplo para saber qué está haciendo la competencia en product management; centralizar la información dispersa de un proyecto (licitación, pliego, documentos y correos del cliente) para obtener respuestas rápidas; crear cuadernos para gente junior o recién incorporada que necesita resolver dudas sin abrir documento por documento; y usos personales como finanzas o facturas. Sus propios cuadernos incluyen uno de prompt engineering con papers y el blog de Martin Fowler, otro sobre vibe coding y estudios sobre diferencias generacionales en equipos o el impacto de la IA en las profesiones.
+
+#### Cuadernos en abierto, compartición y privacidad
+Los cuadernos destacados son cuadernos abiertos que otras personas han dejado accesibles, como el que The Economist publicó con fuentes sobre el mundo en 2026, y permiten estudiar un tema preguntando por IA sobre las fuentes que alguien ha dejado preparadas. Trasladado a una organización, el autor propone dejar en abierto o compartir cuadernos con normativas, cláusulas y buenas prácticas para que juniors o cualquier persona del equipo se resuelvan dudas solas, sin montar un RAG ni infraestructura complicada. Sobre el miedo a subir información, recuerda que es una interfaz de Google: los documentos se comportan como si estuvieran en Drive y no salen de Google.
+
+#### Leer imágenes y formatos de salida
+Una capacidad que el autor destaca es la lectura de imágenes: está volcando apuntes, dibujos hechos a mano en formaciones, anotaciones y pizarras (procedentes en su caso de Google Photos) para extraer de ahí conocimiento acumulado durante años. En cuanto a las salidas, admite que no es lo más potente de la herramienta, aunque permite generar resumen en audio, diapositivas, infografías, tablas, tarjetas y mapas mentales. Para llevar todo ese material a un entregable presentable prefiere herramientas más específicas y visuales como gamma.app. Cierra insistiendo en que es gratuita y que no usarla mantiene al gestor de proyectos atrapado en tareas lentas, y enlaza en la descripción su grupo de WhatsApp y un vídeo anterior más tutorial.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| NotebookLM (Google) | — |
+| Google Drive | — |
+| Google Photos | — |
+| Perplexity | — |
+| gamma.app | https://gamma.app |
+| Cuaderno en abierto de The Economist sobre el mundo en 2026 | — |
+| Blog de Martin Fowler | — |
+| Vídeo anterior del canal sobre NotebookLM en formato tutorial | — |
+| Grupo de WhatsApp gratuito de Javier Garzás | — |
+
+---
+## [Javier Garzás] Experta Nº1 en Product Management con IA: “Te vas a quedar ATRÁS si no cambias YA” con Judith Sáez
+
+**Fecha:** 2026-02-15
+**URL:** https://www.youtube.com/watch?v=Zh1FgyoywCw
+**Video ID:** Zh1FgyoywCw
+
+### 📝 Resumen
+
+Javier Garzás entrevista a Judith Sáez, profesional con más de 15 años en productos digitales, para repasar cómo cambia el oficio de product management cuando la IA entra de lleno en el día a día. La conversación gira en torno a qué técnicas siguen vigentes, qué prácticas conviene abandonar y cómo se organiza un equipo pequeño que sostiene un e-commerce de farmacia con miles de pedidos diarios.
+
+#### Perfil y contexto: del código al IA Product Manager
+Judith Sáez empezó como programadora en aplicaciones móviles y backend y fue migrando hacia producto, gestión de proyectos y procesos; hoy se define como IA Product Manager más que como product manager a secas. Trabaja en el sector farmacéutico liderando la parte tecnológica de tres países, con un e-commerce en torno a 5.000 pedidos al día y unos 100 millones de euros de facturación anual, con unas 30 personas en producto y tecnología y trabajo diario en inglés. Su equipo protagonizó la migración de un desarrollo completamente a medida a Magento 2, resuelta en menos de seis meses y con equipos más pequeños que en etapas anteriores. Avisa de que la IA no se puede aplicar al 100% en un negocio de ese volumen: la clave está en decidir dónde entra y dónde no.
+
+#### Lo que sigue valiendo: MVP, priorización y "hacer de poli malo"
+Para ella las técnicas clásicas de gestión no han muerto: MVP, priorización y gestión de alcance siguen siendo válidas, y lo que cambia radicalmente es el tiempo y la forma de llegar a ellas. Definir el alcance de un MVP que antes exigía días de análisis, discovery de mercado y de competencia ahora se resuelve en horas con apoyo de IA. Su receta es "hacer de poli malo": saber decir no a negocio, pero con métricas y razones que lo justifiquen. Un ejemplo concreto fue el análisis de riesgo de una tarjeta regalo: aunque la funcionalidad parecía sencilla, los postmortems y postreleases anteriores mostraban impacto en los equipos de data, logística y facturación, de modo que la IA ayuda a anticipar que una petición aparentemente pequeña arrastra a otros equipos.
+
+#### Cuadernos de conocimiento como base del discovery
+Una de sus bases diarias es construir cuadernos de conocimiento que recogen no solo su información, sino también la de todo el equipo y la de años anteriores; la herramienta concreta da igual, porque se puede llevar a NotebookLM, a un Gem de Géminis o a un proyecto o custom GPT. Esto transforma el discovery: muchas funcionalidades que se analizan ya se intentaron en el pasado y la IA permite saber qué se hizo y por qué sin depender de buscar documentación antigua ni de preguntar a personas que ya no están en el equipo o que están de vacaciones. En un negocio donde diez minutos de caída de las tiendas de tres países cuestan miles de euros, contar con esa memoria consultable es crítico.
+
+#### Migraciones y releases grandes: workstream leads y showstoppers
+En releases grandes como las migraciones, su equipo se apoya en leads por cada workstream implicado (pricing, catálogo, CRM, PIM, SEO, facturación, logística, data): cada persona responde en exclusiva de su ámbito, porque si la responsabilidad se diluye nadie acaba estando realmente a cargo. Para saber si un e-commerce está listo manejan el concepto de showstopper, los pasos que no pueden fallar: el funnel completo, el pago, la página de gracias y que el pedido llegue al almacén, con un runbook que evita dejarse nada. Rechaza la documentación exhaustiva en general, pero defiende una documentación básica de configuraciones (por ejemplo los manuales de los métodos de pago) a la que recurrir o preguntar directamente a un agente cuando hay un punto crítico.
+
+#### IA con criterio: automatizaciones, soporte y microfuncionalidades
+Advierte de que intentar automatizar cualquier cosa es un error: en su equipo han probado N8N y han visto cómo se generan cuadros de mando que nadie mira o alertas que nadie necesita, creando un "monstruo" a seis meses vista. Su método es hacer una tabla con lo que consume más tiempo, lo que realmente aporta valor y lo que es repetible, y solo entonces decidir qué se automatiza. Uno de los filones que exploran es el soporte, las incidencias y el QA, tareas repetitivas que desmotivan al equipo y donde sí tiene sentido desplegar agentes de IA. En empresas con legacy, su recomendación es aislar microfuncionalidades fuera del núcleo (validaciones de precios, catálogo, herramientas de marketing o soporte) y llevarlas a desarrollo puro, en lugar de intentar meter la IA dentro del core.
+
+#### Menos reuniones y más esencialismo: cómo organiza al equipo
+Su equipo no tiene dailies, decisión por la que ha recibido críticas, y sustituye esas ceremonias por reuniones semanales más las que se convocan a demanda cuando aparece un blocker o hay que cerrar acuerdos. Trabajan con franjas de una semana en lugar de un sprint clásico de dos semanas, con una lista de tareas muy básica por equipo y sin actualizar historias de usuario, horas o tareas. Su principio es el esencialismo puro: un escáner rápido de los cientos de correos diarios para descartar lo no crítico, distinguiendo lo urgente de lo importante, y una herramienta tipo Roda como gestor de tareas y documentación. Además recomienda medir lo que casi nadie mide, como las horas de reuniones por equipo o la creación de franjas de horas fértiles protegidas para concentrarse con pomodoros.
+
+#### Requisitos con IA, prototipado y LLM como juez
+Para redactar requisitos usa IA con su propio contexto y skills, y va un paso más allá con prototipado: en la mayoría de los casos no hace falta un diseño de Figma, basta una herramienta como V0 que genere un prototipo por lenguaje natural y permite validarlo con un usuario, algo impensable cuando un prototipo exigía un diseñador. Para evitar dejar escenarios sin cubrir trabaja con un LLM como juez: una IA valida a la otra y avisa de detalles según el país, como que en Portugal hay que mostrar una línea legal concreta en los descuentos del carrito o que la fidelización solo está activa en algunos mercados. También señala que la agilidad corrompida dejó de medirse: hoy se lanzan funcionalidades sin saber si se usan y sin tests A/B ni insights de usuario.
+
+#### Carrera, expertise y reciclaje profesional
+Judith cree que la IA no elimina la profesión, sino que revaloriza el expertise: la IA pone escenarios sobre la mesa, pero no los que se aprenden tras muchas migraciones, caídas de sitios y WordPress migrados. Le diría a su yo de hace quince años que los límites se los pone uno mismo, porque ella misma tenía un enorme síndrome del impostor y hoy trabaja íntegramente en inglés. Su consejo para quien empieza o se recicla es preguntarse en qué es bueno y en qué no, apoyarse en quien es mejor en lo que uno flojea, perder el miedo a disciplinas nuevas (marketing, diseño, prototipado) sin pretender ser experto, y elegir mentores y formadores rigurosos, porque la IA también ha traído mucho postureo y perfiles que dan ponencias sin conocimiento real del sector.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+| --- | --- |
+| NotebookLM | — |
+| Gem de Géminis (Google) | — |
+| N8N | — |
+| Magento 2 | — |
+| Figma | — |
+| V0 (prototipado por lenguaje natural) | — |
+| Roda (gestor de tareas y documentación) | — |
+
+---
 ## [Matt Wolfe] AI News: The AI World is REALLY Scared Right Now
 
 **Fecha:** 2026-09-11
