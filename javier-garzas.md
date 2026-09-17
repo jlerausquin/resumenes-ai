@@ -1,5 +1,54 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] La IA y el plan para ELIMINAR al programador: una Guerra secreta de 70 años
+
+**Fecha:** 2026-09-16
+**URL:** https://www.youtube.com/watch?v=HoRY-SrZHd0
+**Video ID:** HoRY-SrZHd0
+
+### 📝 Resumen
+
+#### Cuatro batallas y un patrón que se repite desde 1954
+Garzás plantea el vídeo como un ejercicio de perspectiva histórica: la promesa de que las máquinas se programen solas no es nueva, sino que la ofensiva actual de la IA es ya la cuarta vez que el sector lo intenta. Sostiene que las tres anteriores no eliminaron al programador, sino que multiplicaron el software y, con él, la demanda de profesionales, aunque siempre con un cambio total de perfiles. Conocer ese patrón permite, en su opinión, anticiparse y posicionarse antes que el resto, tanto si se es técnico como si no.
+
+#### Batalla 1 (1954): Fortran, COBOL y la primera promesa por escrito
+En los años 50 se programaba con cables en ceros y unos, el coste de un programador equivalía prácticamente al del hardware y entre programar y depurar se consumían unas tres cuartas partes del tiempo de operación. Con el Fortran de John Backus y el COBOL de Grace Hopper aparecen los lenguajes de alto nivel: por primera vez se podía «hablar» con la máquina en un inglés simplificado. Garzás subraya que el informe original de la propuesta de Backus a IBM ya declaraba el objetivo de eliminar la programación y la depuración, la primera formulación por escrito de lo que hoy se presenta como novedad. El resultado fue el contrario al prometido: la nueva forma de programar generó más software que nunca, volvió a faltar gente y el coste se disparó. Lo que sí desapareció fue el programador de la tecnología antigua; el programador de mainframe sigue hoy detrás de las nóminas y la banca.
+
+#### Batalla 2 (años 2000): RAD, Visual Basic y los citizen developers
+El siguiente escalón consistió en dejar de escribir parte del programa y pasar a dibujarlo: arrastrar cajas y botones con Visual Basic, PowerBuilder y el modelado UML con herramientas CASE. El desarrollo rápido de aplicaciones (RAD) no solo cambió la tecnología, reconfiguró el mercado laboral: bajó la barrera de entrada y dio origen a los «citizen developers» (financieros, contables, administrativos, personal de recursos humanos, ingenieros químicos) y a profesiones hoy normalizadas como la del diseñador. El precio fue la crisis del software: código espagueti, deuda técnica y aplicaciones corporativas difíciles y caras de mantener. En 1982 James Martin ya había publicado *Application Development Without Programmers*, reconocido hoy como antecedente directo del no-code.
+
+#### Batalla 3 (2010): el no-code y la creación masiva de empleo
+El no-code hereda la idea del RAD, pero nace para simplificar el trabajo de quien no es programador y vive en la web: Zapier (2011), Bubble (2012), Airtable (2012) y Webflow (2013) son sus iconos. Garzás recuerda un post propio de 2013 en su blog en el que anunciaba que llegaría el momento en que cualquiera podría crear software, doce años antes de que se popularizara el término «vibe coding». El movimiento rompió el monopolio de la creación tecnológica a escala global y, de nuevo contra la intuición, generó una gran ola de empleo: hacían falta ingenieros para mantener las plataformas y construir APIs, infraestructura y «cañerías». También trajo integraciones frágiles, brechas de seguridad y silos de datos.
+
+#### Batalla 4 (hoy): el lenguaje natural como último nivel de abstracción
+La cuarta batalla lleva la abstracción al extremo: el lenguaje materno del usuario se convierte en el lenguaje de programación y programar pasa a ser mantener una conversación con una IA (ChatGPT, Lovable, Vercel, vibe coding). El vídeo aporta dos datos que confirman que el patrón se repite: el 80 % de quienes construyen con Lovable no tienen perfil técnico, y en Claude Code cerca de la mitad de las sesiones ya no consisten en escribir código. La particularidad de esta ronda es la velocidad, muy superior a la de las anteriores, y la clave histórica que Garzás repite: cada nivel de abstracción no destruye al anterior, lo absorbe y se apoya en él.
+
+#### Los cuatro patrones predecibles
+De las tres batallas previas extrae cuatro consecuencias probables para la actual. Primero, repunte del desempleo junior: es el perfil que compite directamente con la nueva forma simplificada de crear software, tal como ocurrió con el programador que solo picaba líneas manuales ante el RAD o con el maquetador web junior ante el no-code. Segundo, deterioro de la calidad de lo producido: productos inestables, problemas de seguridad, integraciones complejas y silos de datos. Tercero, aparición de nuevos puestos y profesiones especializadas que antes no existían (desarrolladores de componentes, consultores de migración, especialistas en automatización). Y cuarto, una mutación profunda del empleo: mueren los roles antiguos y emergen perfiles de mayor nivel de abstracción, orientados a arquitectura, calidad, seguridad, escalabilidad y a limpiar el software defectuoso que se generará en volumen.
+
+#### Cómo posicionarse: no ir solo
+La conclusión es que el siguiente programador puede ser cualquiera: el contable, el abogado, el arquitecto, la persona que trabaja en una farmacia, el jefe de proyecto o el extécnico que abandonó la parte técnica por su complejidad y ahora puede volver conociendo las bases. Recomienda probar una herramienta de IA para crear software sin conocimientos técnicos profundos y, a los perfiles técnicos, dar el salto a ayudar a quienes no lo son y a aportar calidad, seguridad y escalabilidad a lo que produzcan. Insiste en no hacerlo en solitario: en esta batalla no hay recetas ni libros de referencia, por lo que las comunidades (menciona la suya, «Rebeldes y Ágiles», en 23academy, con casos como los de José Elías y Mónica) permiten compartir experiencias y acelerar. Cierra preguntando a la audiencia si el ciclo se repetirá una vez más o si esta batalla será la definitiva.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Fortran | Lenguaje de alto nivel; propuesta de John Backus a IBM (1954) | https://es.wikipedia.org/wiki/Fortran |
+| COBOL | Lenguaje de alto nivel impulsado por Grace Hopper | https://es.wikipedia.org/wiki/COBOL |
+| *Application Development Without Programmers* (James Martin, 1982) | Libro, antecedente del no-code | — |
+| RAD / Visual Basic / PowerBuilder / UML con CASE | Herramientas y metodología de los años 90 | https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones |
+| Zapier (2011) | Plataforma no-code de automatización | https://zapier.com/ |
+| Bubble (2012) | Plataforma no-code para aplicaciones web | https://bubble.io/ |
+| Airtable (2012) | Plataforma no-code de gestión de datos | https://airtable.com/ |
+| Webflow (2013) | Diseño web visual sin código | https://webflow.com/ |
+| Post de Javier Garzás (2013) anticipando la creación de software sin programar | Blog del autor | https://javiergarzas.com |
+| Lovable | Herramienta de creación de software por lenguaje natural (80 % de usuarios no técnicos) | https://lovable.dev/ |
+| Claude Code | Agente de programación de Anthropic | https://claude.com/product/claude-code |
+| ChatGPT | Asistente de IA citado como herramienta de vibe coding | https://chatgpt.com/ |
+| Vercel | Plataforma de despliegue citada | https://vercel.com/ |
+| «Rebeldes y Ágiles» — 23academy | Comunidad del autor (casos de José Elías y Mónica) | — |
+
+---
 ## [Javier Garzás] Mientras gestionas con Jira o Notion, otros ya tienen un IA segundo cerebro con Claude Cowork
 
 **Fecha:** 2026-05-20

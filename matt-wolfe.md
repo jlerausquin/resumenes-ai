@@ -1,5 +1,50 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] He Built The Ultimate Spy Tool (Free and Open-Source)
+
+**Fecha:** 2026-09-16
+**URL:** https://www.youtube.com/watch?v=S2VJU5DQqlU
+**Video ID:** S2VJU5DQqlU
+
+### 📝 Resumen
+
+#### Qué es God's Eye View
+Matt Wolfe entrevista a Bilawal Sidhu, creador de God's Eye View, un «simulador de satélite espía» que funciona en el navegador con datos reales en lugar de datos sintéticos. El proyecto llegó a ser el número uno en tendencias de GitHub y nació de la idea de reproducir el cuadro de mando de las películas de espías —satélites, aviones, embarcaciones— sobre un globo terráqueo fotorrealista. Sidhu lo describe como una ventana para observar el mundo: la gracia no es mirar un punto en un mapa, sino acceder a la misma información pública que ya existe y poder interpretarla uno mismo. Entre sus usuarios hay desde creadores de contenido que buscan escenas de «sala de situación» hasta periodismo, activismo, curiosos que vigilan su propia ciudad e incluso gente del ámbito de la defensa.
+
+#### Cómo se construyó
+El primer prototipo se levantó entre marzo y abril combinando un harness de agente (OpenClaw) con Gemini 3.1, aprovechando su buen razonamiento espacial, y un modelo Opus para el desarrollo full-stack. El trabajo consistió en paralelizar y ensamblar piezas: primero la capa base, después satélites, luego aviones y embarcaciones, en unas jornadas de desarrollo intensivo. Sidhu insiste en que la dificultad no estaba en generar código, sino en saber qué APIs y fuentes de datos públicas existían y cómo integrarlas. El resultado se ofrece como proyecto de código abierto, con la ambición de que «florezcan mil flores»: ya han aparecido numerosos simuladores de vuelo y derivados construidos sobre la misma base.
+
+#### Privacidad, legalidad y la línea roja sobre el rastreo de personas
+La primera pregunta de Wolfe fue cómo puede ser esto legal y si permitiría acosar a alguien. Sidhu responde que el proyecto marca una línea dura: no se puede rastrear personas. Lo que sí ofrece es conciencia situacional sobre infraestructura a gran escala: satélites en órbita, vuelos comerciales y militares, embarcaciones, cámaras CCTV de determinadas ciudades y datos agregados de tráfico. Argumenta que las herramientas de vigilancia ya existen y las usan los gobiernos y los ejércitos; su propuesta es lo contrario, una herramienta de inteligencia civil que haga legible esa información. En la práctica, las cámaras se sirven con retardo (en Austin, aproximadamente un fotograma cada diez minutos), el tráfico llega anonimizado y sin matrículas, y todos los datos son de acceso público: lo novedoso es que cualquiera pueda consultarlos sin manejar claves de API ni programar. Wolfe concluye que se siente cómodo usándolo porque no se vulnera la privacidad de nadie.
+
+#### Las capas de datos que integra
+Durante la demostración se activan y revisan vuelos comerciales (blancos) y militares (amarillos), satélites, embarcaciones, tráfico urbano con código de color por densidad, cámaras CCTV, embalses, cables submarinos, centros de datos, instalaciones mapeadas, terremotos recientes y misiones espaciales con reproducción aproximada de lanzamientos y órbitas. Una de las fuentes más llamativas es NASA FIRMS: satélites de imagen térmica que detectan incendios por encima de un umbral, con focos visibles por ejemplo en la frontera entre Rusia y Ucrania. El tráfico procede de TomTom, que mide densidad y flujo por segmento de vía usando datos anonimizados de vehículos conectados; la lógica es la misma que la de Google Maps, pero expuesta en el propio globo.
+
+#### Interacción por voz, modo contexto y cabina
+La capa de voz (basada en ChatGPT Realtime) convierte el globo en un interlocutor: el usuario pide «llévame al aeropuerto más concurrido de Estados Unidos» o «zoom a San Diego» y la cámara se desplaza sola. Hay modos de visualización 3D de aeronaves, un «modo contexto» que explica qué hay alrededor de un punto y una vista de cabina desde la que se puede preguntar qué vuelo se está siguiendo (por ejemplo, DAL 346, operado por Delta) o pedir datos curiosos. Wolfe destaca que los modelos aportan conocimiento del mundo listo para usar y que eso convierte la exploración en una actividad colaborativa con el agente; se pueden identificar bases militares, zonas de entrenamiento de helicópteros o clústeres de actividad y preguntar por su significado. Los retrasos son mínimos (un paso) para que las trayectorias se vean fluidas.
+
+#### Reconstrucción de eventos del mundo real
+Más allá del entretenimiento, la herramienta sirve para reconstruir sucesos con datos publicados: usuarios han recreado las inundaciones de Irán superponiendo la trayectoria y la línea de tiempo a los vídeos que la gente subía a las redes, una alternativa al «doomscrolling» que sitúa los clips sobre el terreno. Los proveedores comerciales de imagen satelital, como Vantor, liberan datos de alta resolución en estas situaciones para comparar el antes y el después. También se muestra una reconstrucción de un accidente aéreo a partir del vídeo del NTSB y del audio ATC, combinando un escaneo 3D con imágenes a nivel de suelo y alineándolas para reproducir la trayectoria del avión, las marcas de derrape y el contexto aéreo.
+
+#### Instalación en minutos y coste
+Wolfe instala el proyecto desde el repositorio de GitHub dentro de la aplicación de ChatGPT: crea un proyecto local, pide al agente que clone el repositorio, lea las instrucciones e instale dependencias, y en menos de dos minutos lo tiene funcionando. Después basta con abrir el panel de «PowerUp» e introducir las claves de API de las capas que se quieran activar (cada proveedor incluye un enlace «get key»). Sobre el coste, Sidhu explica que el uso personal no comercial es esencialmente gratuito y que solo el uso intensivo, o la interacción por voz con ChatGPT Realtime, puede suponer unos pocos dólares al mes. Para él, el interés del proyecto es que devuelve algo de acceso y control al usuario en un mundo donde la privacidad se reduce y las cámaras se multiplican.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| God's Eye View (Bilawal Sidhu) | Repositorio open source en GitHub (~36.000 estrellas, nº 1 en tendencias) | https://github.com/bilawalsidhu/gods-eye-view |
+| Bilawal Sidhu | Perfil del creador en GitHub | https://github.com/bilawalsidhu |
+| MapTheWorld.ai | Sitio web del proyecto | https://maptheworld.ai/ |
+| NASA FIRMS | Detección de incendios con satélites de imagen térmica | https://firms.modaps.eosdis.nasa.gov/ |
+| TomTom Traffic | Datos de tráfico anonimizados por segmento de vía | https://developer.tomtom.com/ |
+| Vantor | Imagen satelital comercial liberada en emergencias | https://vantor.com |
+| Palantir | Referencia comparativa usada por el invitado | https://www.palantir.com/ |
+| ChatGPT (app de escritorio y voz en tiempo real) | Herramienta usada para instalar y conversar con el sistema | https://chatgpt.com/ |
+| Claude Code | Alternativa citada para instalar el proyecto | https://claude.com/product/claude-code |
+| NTSB | Datos y vídeo del accidente aéreo reconstruido | https://www.ntsb.gov/ |
+
+---
 ## [Matt Wolfe] AI News: The AI World is REALLY Scared Right Now
 
 **Fecha:** 2026-09-11

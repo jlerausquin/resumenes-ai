@@ -1,6 +1,100 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matt Wolfe] He Built The Ultimate Spy Tool (Free and Open-Source)
+
+**Fecha:** 2026-09-16
+**URL:** https://www.youtube.com/watch?v=S2VJU5DQqlU
+**Video ID:** S2VJU5DQqlU
+
+### 📝 Resumen
+
+#### Qué es God's Eye View
+Matt Wolfe entrevista a Bilawal Sidhu, creador de God's Eye View, un «simulador de satélite espía» que funciona en el navegador con datos reales en lugar de datos sintéticos. El proyecto llegó a ser el número uno en tendencias de GitHub y nació de la idea de reproducir el cuadro de mando de las películas de espías —satélites, aviones, embarcaciones— sobre un globo terráqueo fotorrealista. Sidhu lo describe como una ventana para observar el mundo: la gracia no es mirar un punto en un mapa, sino acceder a la misma información pública que ya existe y poder interpretarla uno mismo. Entre sus usuarios hay desde creadores de contenido que buscan escenas de «sala de situación» hasta periodismo, activismo, curiosos que vigilan su propia ciudad e incluso gente del ámbito de la defensa.
+
+#### Cómo se construyó
+El primer prototipo se levantó entre marzo y abril combinando un harness de agente (OpenClaw) con Gemini 3.1, aprovechando su buen razonamiento espacial, y un modelo Opus para el desarrollo full-stack. El trabajo consistió en paralelizar y ensamblar piezas: primero la capa base, después satélites, luego aviones y embarcaciones, en unas jornadas de desarrollo intensivo. Sidhu insiste en que la dificultad no estaba en generar código, sino en saber qué APIs y fuentes de datos públicas existían y cómo integrarlas. El resultado se ofrece como proyecto de código abierto, con la ambición de que «florezcan mil flores»: ya han aparecido numerosos simuladores de vuelo y derivados construidos sobre la misma base.
+
+#### Privacidad, legalidad y la línea roja sobre el rastreo de personas
+La primera pregunta de Wolfe fue cómo puede ser esto legal y si permitiría acosar a alguien. Sidhu responde que el proyecto marca una línea dura: no se puede rastrear personas. Lo que sí ofrece es conciencia situacional sobre infraestructura a gran escala: satélites en órbita, vuelos comerciales y militares, embarcaciones, cámaras CCTV de determinadas ciudades y datos agregados de tráfico. Argumenta que las herramientas de vigilancia ya existen y las usan los gobiernos y los ejércitos; su propuesta es lo contrario, una herramienta de inteligencia civil que haga legible esa información. En la práctica, las cámaras se sirven con retardo (en Austin, aproximadamente un fotograma cada diez minutos), el tráfico llega anonimizado y sin matrículas, y todos los datos son de acceso público: lo novedoso es que cualquiera pueda consultarlos sin manejar claves de API ni programar. Wolfe concluye que se siente cómodo usándolo porque no se vulnera la privacidad de nadie.
+
+#### Las capas de datos que integra
+Durante la demostración se activan y revisan vuelos comerciales (blancos) y militares (amarillos), satélites, embarcaciones, tráfico urbano con código de color por densidad, cámaras CCTV, embalses, cables submarinos, centros de datos, instalaciones mapeadas, terremotos recientes y misiones espaciales con reproducción aproximada de lanzamientos y órbitas. Una de las fuentes más llamativas es NASA FIRMS: satélites de imagen térmica que detectan incendios por encima de un umbral, con focos visibles por ejemplo en la frontera entre Rusia y Ucrania. El tráfico procede de TomTom, que mide densidad y flujo por segmento de vía usando datos anonimizados de vehículos conectados; la lógica es la misma que la de Google Maps, pero expuesta en el propio globo.
+
+#### Interacción por voz, modo contexto y cabina
+La capa de voz (basada en ChatGPT Realtime) convierte el globo en un interlocutor: el usuario pide «llévame al aeropuerto más concurrido de Estados Unidos» o «zoom a San Diego» y la cámara se desplaza sola. Hay modos de visualización 3D de aeronaves, un «modo contexto» que explica qué hay alrededor de un punto y una vista de cabina desde la que se puede preguntar qué vuelo se está siguiendo (por ejemplo, DAL 346, operado por Delta) o pedir datos curiosos. Wolfe destaca que los modelos aportan conocimiento del mundo listo para usar y que eso convierte la exploración en una actividad colaborativa con el agente; se pueden identificar bases militares, zonas de entrenamiento de helicópteros o clústeres de actividad y preguntar por su significado. Los retrasos son mínimos (un paso) para que las trayectorias se vean fluidas.
+
+#### Reconstrucción de eventos del mundo real
+Más allá del entretenimiento, la herramienta sirve para reconstruir sucesos con datos publicados: usuarios han recreado las inundaciones de Irán superponiendo la trayectoria y la línea de tiempo a los vídeos que la gente subía a las redes, una alternativa al «doomscrolling» que sitúa los clips sobre el terreno. Los proveedores comerciales de imagen satelital, como Vantor, liberan datos de alta resolución en estas situaciones para comparar el antes y el después. También se muestra una reconstrucción de un accidente aéreo a partir del vídeo del NTSB y del audio ATC, combinando un escaneo 3D con imágenes a nivel de suelo y alineándolas para reproducir la trayectoria del avión, las marcas de derrape y el contexto aéreo.
+
+#### Instalación en minutos y coste
+Wolfe instala el proyecto desde el repositorio de GitHub dentro de la aplicación de ChatGPT: crea un proyecto local, pide al agente que clone el repositorio, lea las instrucciones e instale dependencias, y en menos de dos minutos lo tiene funcionando. Después basta con abrir el panel de «PowerUp» e introducir las claves de API de las capas que se quieran activar (cada proveedor incluye un enlace «get key»). Sobre el coste, Sidhu explica que el uso personal no comercial es esencialmente gratuito y que solo el uso intensivo, o la interacción por voz con ChatGPT Realtime, puede suponer unos pocos dólares al mes. Para él, el interés del proyecto es que devuelve algo de acceso y control al usuario en un mundo donde la privacidad se reduce y las cámaras se multiplican.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| God's Eye View (Bilawal Sidhu) | Repositorio open source en GitHub (~36.000 estrellas, nº 1 en tendencias) | https://github.com/bilawalsidhu/gods-eye-view |
+| Bilawal Sidhu | Perfil del creador en GitHub | https://github.com/bilawalsidhu |
+| MapTheWorld.ai | Sitio web del proyecto | https://maptheworld.ai/ |
+| NASA FIRMS | Detección de incendios con satélites de imagen térmica | https://firms.modaps.eosdis.nasa.gov/ |
+| TomTom Traffic | Datos de tráfico anonimizados por segmento de vía | https://developer.tomtom.com/ |
+| Vantor | Imagen satelital comercial liberada en emergencias | https://vantor.com |
+| Palantir | Referencia comparativa usada por el invitado | https://www.palantir.com/ |
+| ChatGPT (app de escritorio y voz en tiempo real) | Herramienta usada para instalar y conversar con el sistema | https://chatgpt.com/ |
+| Claude Code | Alternativa citada para instalar el proyecto | https://claude.com/product/claude-code |
+| NTSB | Datos y vídeo del accidente aéreo reconstruido | https://www.ntsb.gov/ |
+
+---
+## [Javier Garzás] La IA y el plan para ELIMINAR al programador: una Guerra secreta de 70 años
+
+**Fecha:** 2026-09-16
+**URL:** https://www.youtube.com/watch?v=HoRY-SrZHd0
+**Video ID:** HoRY-SrZHd0
+
+### 📝 Resumen
+
+#### Cuatro batallas y un patrón que se repite desde 1954
+Garzás plantea el vídeo como un ejercicio de perspectiva histórica: la promesa de que las máquinas se programen solas no es nueva, sino que la ofensiva actual de la IA es ya la cuarta vez que el sector lo intenta. Sostiene que las tres anteriores no eliminaron al programador, sino que multiplicaron el software y, con él, la demanda de profesionales, aunque siempre con un cambio total de perfiles. Conocer ese patrón permite, en su opinión, anticiparse y posicionarse antes que el resto, tanto si se es técnico como si no.
+
+#### Batalla 1 (1954): Fortran, COBOL y la primera promesa por escrito
+En los años 50 se programaba con cables en ceros y unos, el coste de un programador equivalía prácticamente al del hardware y entre programar y depurar se consumían unas tres cuartas partes del tiempo de operación. Con el Fortran de John Backus y el COBOL de Grace Hopper aparecen los lenguajes de alto nivel: por primera vez se podía «hablar» con la máquina en un inglés simplificado. Garzás subraya que el informe original de la propuesta de Backus a IBM ya declaraba el objetivo de eliminar la programación y la depuración, la primera formulación por escrito de lo que hoy se presenta como novedad. El resultado fue el contrario al prometido: la nueva forma de programar generó más software que nunca, volvió a faltar gente y el coste se disparó. Lo que sí desapareció fue el programador de la tecnología antigua; el programador de mainframe sigue hoy detrás de las nóminas y la banca.
+
+#### Batalla 2 (años 2000): RAD, Visual Basic y los citizen developers
+El siguiente escalón consistió en dejar de escribir parte del programa y pasar a dibujarlo: arrastrar cajas y botones con Visual Basic, PowerBuilder y el modelado UML con herramientas CASE. El desarrollo rápido de aplicaciones (RAD) no solo cambió la tecnología, reconfiguró el mercado laboral: bajó la barrera de entrada y dio origen a los «citizen developers» (financieros, contables, administrativos, personal de recursos humanos, ingenieros químicos) y a profesiones hoy normalizadas como la del diseñador. El precio fue la crisis del software: código espagueti, deuda técnica y aplicaciones corporativas difíciles y caras de mantener. En 1982 James Martin ya había publicado *Application Development Without Programmers*, reconocido hoy como antecedente directo del no-code.
+
+#### Batalla 3 (2010): el no-code y la creación masiva de empleo
+El no-code hereda la idea del RAD, pero nace para simplificar el trabajo de quien no es programador y vive en la web: Zapier (2011), Bubble (2012), Airtable (2012) y Webflow (2013) son sus iconos. Garzás recuerda un post propio de 2013 en su blog en el que anunciaba que llegaría el momento en que cualquiera podría crear software, doce años antes de que se popularizara el término «vibe coding». El movimiento rompió el monopolio de la creación tecnológica a escala global y, de nuevo contra la intuición, generó una gran ola de empleo: hacían falta ingenieros para mantener las plataformas y construir APIs, infraestructura y «cañerías». También trajo integraciones frágiles, brechas de seguridad y silos de datos.
+
+#### Batalla 4 (hoy): el lenguaje natural como último nivel de abstracción
+La cuarta batalla lleva la abstracción al extremo: el lenguaje materno del usuario se convierte en el lenguaje de programación y programar pasa a ser mantener una conversación con una IA (ChatGPT, Lovable, Vercel, vibe coding). El vídeo aporta dos datos que confirman que el patrón se repite: el 80 % de quienes construyen con Lovable no tienen perfil técnico, y en Claude Code cerca de la mitad de las sesiones ya no consisten en escribir código. La particularidad de esta ronda es la velocidad, muy superior a la de las anteriores, y la clave histórica que Garzás repite: cada nivel de abstracción no destruye al anterior, lo absorbe y se apoya en él.
+
+#### Los cuatro patrones predecibles
+De las tres batallas previas extrae cuatro consecuencias probables para la actual. Primero, repunte del desempleo junior: es el perfil que compite directamente con la nueva forma simplificada de crear software, tal como ocurrió con el programador que solo picaba líneas manuales ante el RAD o con el maquetador web junior ante el no-code. Segundo, deterioro de la calidad de lo producido: productos inestables, problemas de seguridad, integraciones complejas y silos de datos. Tercero, aparición de nuevos puestos y profesiones especializadas que antes no existían (desarrolladores de componentes, consultores de migración, especialistas en automatización). Y cuarto, una mutación profunda del empleo: mueren los roles antiguos y emergen perfiles de mayor nivel de abstracción, orientados a arquitectura, calidad, seguridad, escalabilidad y a limpiar el software defectuoso que se generará en volumen.
+
+#### Cómo posicionarse: no ir solo
+La conclusión es que el siguiente programador puede ser cualquiera: el contable, el abogado, el arquitecto, la persona que trabaja en una farmacia, el jefe de proyecto o el extécnico que abandonó la parte técnica por su complejidad y ahora puede volver conociendo las bases. Recomienda probar una herramienta de IA para crear software sin conocimientos técnicos profundos y, a los perfiles técnicos, dar el salto a ayudar a quienes no lo son y a aportar calidad, seguridad y escalabilidad a lo que produzcan. Insiste en no hacerlo en solitario: en esta batalla no hay recetas ni libros de referencia, por lo que las comunidades (menciona la suya, «Rebeldes y Ágiles», en 23academy, con casos como los de José Elías y Mónica) permiten compartir experiencias y acelerar. Cierra preguntando a la audiencia si el ciclo se repetirá una vez más o si esta batalla será la definitiva.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Fortran | Lenguaje de alto nivel; propuesta de John Backus a IBM (1954) | https://es.wikipedia.org/wiki/Fortran |
+| COBOL | Lenguaje de alto nivel impulsado por Grace Hopper | https://es.wikipedia.org/wiki/COBOL |
+| *Application Development Without Programmers* (James Martin, 1982) | Libro, antecedente del no-code | — |
+| RAD / Visual Basic / PowerBuilder / UML con CASE | Herramientas y metodología de los años 90 | https://es.wikipedia.org/wiki/Desarrollo_r%C3%A1pido_de_aplicaciones |
+| Zapier (2011) | Plataforma no-code de automatización | https://zapier.com/ |
+| Bubble (2012) | Plataforma no-code para aplicaciones web | https://bubble.io/ |
+| Airtable (2012) | Plataforma no-code de gestión de datos | https://airtable.com/ |
+| Webflow (2013) | Diseño web visual sin código | https://webflow.com/ |
+| Post de Javier Garzás (2013) anticipando la creación de software sin programar | Blog del autor | https://javiergarzas.com |
+| Lovable | Herramienta de creación de software por lenguaje natural (80 % de usuarios no técnicos) | https://lovable.dev/ |
+| Claude Code | Agente de programación de Anthropic | https://claude.com/product/claude-code |
+| ChatGPT | Asistente de IA citado como herramienta de vibe coding | https://chatgpt.com/ |
+| Vercel | Plataforma de despliegue citada | https://vercel.com/ |
+| «Rebeldes y Ágiles» — 23academy | Comunidad del autor (casos de José Elías y Mónica) | — |
+
+---
 ## [Matthew Berman] The Risk Dario’s AI Warning Leaves Out
 **Fecha:** 2026-09-15
 **URL:** https://www.youtube.com/watch?v=_6PR25pkHKI
