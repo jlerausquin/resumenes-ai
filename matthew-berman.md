@@ -1,5 +1,46 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] We need to talk about Jev...
+**Fecha:** 2026-09-18
+**URL:** https://www.youtube.com/watch?v=2z-7pIj57f8
+**Video ID:** 2z-7pIj57f8
+
+### 📝 Resumen
+
+Matthew Berman analiza Jev, el modelo que ha revolucionado internet por su velocidad extrema, lanzado por uno de los coinventores de ChatGPT tras dos años en modo sigiloso.
+
+#### Un modelo de decisión, no de chat
+Jev rompe con la arquitectura de ChatGPT: no es un modelo conversacional sino un **modelo de decisión generalizado**. Se le entrega un estado o un bloque de información y devuelve decisiones —no una, sino potencialmente miles en paralelo y en segundos. El ejemplo que muestra Berman es el enrutado de tickets de soporte: una queja de doble cobro de un usuario del plan pro con 420 días de antigüedad se convierte en tres preguntas concretas (tipo de petición, urgencia, prioridad) con opciones cerradas, resueltas en milisegundos. El lema del equipo es "construimos producto, no dios", en lo que Berman lee un dardo directo a Anthropic.
+
+#### RLCD: refuerzo para decisiones calibradas
+El fundador cuenta que, después de coinventar ChatGPT, se preguntó por qué los modelos de chat sobrehumanos no habían desembocado en AGI, y pasó dos años en sigilo desarrollando otra vía de entrenamiento: **RLCD** (aprendizaje por refuerzo para decisiones calibradas) frente al RLHF clásico. La diferencia clave es el objetivo de optimización: el RLHF se ajusta a humanos, y los humanos se equivocan, lo que abre la puerta a las alucinaciones. El resultado declarado es un sistema hasta 200 veces más rápido y hasta 400 veces más barato en cómputo de entrenamiento e inferencia.
+
+#### Velocidad: de Doom a carreras de clics en la Wikipedia
+La velocidad es la propuesta central del vídeo: Jev toma todas las decisiones dentro del bucle del propio software de Doom en tiempo real (sin acelerar el vídeo), y en una "Wiki Race" de navegación por navegador completa tres saltos antes de que el espectador pueda verlos y cinco saltos en medio segundo, frente a los 4-5 segundos que tardan Terra, Haiku 4.5 y Sonnet 5 en la misma tarea. En los benchmarks, Berman lo sitúa a la par de Luna y Terra y de Sonnet 5, por encima de Opus 5 y de Soul, con un coste de fracciones de céntimo.
+
+#### Precio: tokens de salida gratis
+La eficiencia es tal que el equipo ha hecho gratuito el **output** ilimitado, cobrando solo los tokens de entrada a fracciones de céntimo, lo que lo convierte en el modelo más barato del mercado para cargas masivas de decisión.
+
+#### Cero alucinaciones y decisiones de alto riesgo
+Berman subraya una consecuencia de RLCD con implicaciones serias: si el modelo no se optimiza para agradar a humanos, el equipo sostiene **cero alucinaciones**. Aunque el índice de alucinación de los LLM ha caído mucho en tres años, hay dominios donde cualquier error es catastrófico (sanidad, objetivos militares, tráfico) y donde un modelo de decisión verificable resulta especialmente valioso. Ahí está el verdadero mercado de Jev: empresas que necesitan tomar miles de decisiones por segundo de forma fiable.
+
+#### Integración empresarial: el enrutado como caso natural
+El vídeo incluye un patrocinio de **Zapier**, presentado como la tubería para llevar flujos de correo o de atención al cliente a Jev dentro de un workflow automatizado, aprovechando su coste y su velocidad para decidir, con más de 9.000 aplicaciones conectables. Otro caso de uso que Berman destaca es el de los **enrutadores de modelos**: alguien que construye un router que decide a qué modelo conviene mandar cada prompt encuentra en Jev la pieza intermedia ideal, porque no responde la pregunta sino que la clasifica y deriva.
+
+#### Demos de la comunidad: de una ciudad simulada al FSD de Tesla
+Berman construyó con Astra en Codex un pequeño pueblo cuyos habitantes deciden con Jev: ante un "todo debe irse" en la panadería, 50 decisiones se resuelven en 0,6 segundos (39 siguen a lo suyo, 6 investigan, 4 se apuntan, 1 avisa); ante un estímulo agresivo, casi todos se mueven hacia la fuente. También muestra a Jev ordenando 150.000 Skittles con pinzas, uno a uno, y acelerado al máximo. De la comunidad recoge el router de modelos de Riley Brown, la extensión open source **Unclutter** (bloqueo de anuncios y "slots" en fracciones de segundo), y el caso más llamativo: alguien que reconstruyó el piloto automático completo de Tesla con Jev en menos de una hora, con decisiones de conducción en tiempo real sobre la información que da el vehículo. En el lado negativo, el propio equipo reconoce que Jev no es mejor jugando al ajedrez que un modelo de chat: perdió contra Astra y solo batió a Fable porque esta se quedó sin tiempo (iba +16 en material y coronó una segunda dama, pero gastaba de 6 a 15 segundos por jugada frente a los 2,6 de Jev). La conclusión de Berman es que Jev no sirve para programar desde cero ni para sesiones de chat interactivas, pero que la combinación de velocidad, coste y fiabilidad abre un espacio enorme de casos de uso.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Jev — modelo de decisión | Producto/modelo | (anuncio y demos difundidos vía X en el vídeo) |
+| Zapier | Plataforma (patrocinador) | https://zapier.com |
+| Astra (GPT-6) en Codex | Modelo usado para las demos | https://openai.com |
+| Unclutter — bloqueo de anuncios y slots open source | Proyecto open source | https://github.com |
+| OpenRouter | Plataforma de acceso a modelos | https://openrouter.ai |
+
+---
 ## [Matthew Berman] The Risk Dario’s AI Warning Leaves Out
 **Fecha:** 2026-09-15
 **URL:** https://www.youtube.com/watch?v=_6PR25pkHKI

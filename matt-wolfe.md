@@ -1,5 +1,51 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI News: All AI Labs Want To Slow Down (Except One)
+**Fecha:** 2026-09-18
+**URL:** https://www.youtube.com/watch?v=Kof2VcHTjrk
+**Video ID:** Kof2VcHTjrk
+
+### 📝 Resumen
+
+Matt Wolfe dedica la mayor parte del episodio semanal a la reacción en cadena que provocó el artículo de Dario Amodei sobre frenar la frontera de la IA, y la aprovecha para repasar el resto de novedades de producto de la semana.
+
+#### El artículo de Dario Amodei: "hay que marcar el ritmo de la frontera"
+El CEO de Anthropic publicó durante el fin de semana un ensayo en el que empieza reconociendo las críticas que recibe su empresa (acusaciones de alarmismo, hype o de buscar captura regulatoria) y defiende que han priorizado la cautela sobre la velocidad y la prudencia sobre el beneficio. Su plan se articula en tres piezas: **evaluadores embebidos** (terceros con acceso permanente a permisos y herramientas equivalentes a los de empleados internos que hacen evaluaciones de riesgo, con despacho, credencial y portátil dentro de la empresa), **regulación dirigida a todas las empresas frontera de EE. UU.** —incluidas las que no cooperen voluntariamente— y **ritmo global**. Los vectores concretos que menciona son no vender chips ni equipos de fabricación de semiconductores a China, perseguir el contrabando, frenar la destilación no autorizada por parte de empresas de países autoritarios y reforzar la seguridad interna para evitar el robo de pesos. La parte global incluiría acuerdos con China sobre usos prohibidos (armas biológicas), tests cruzados de modelos antes de su publicación y un límite a la velocidad de auto-mejora recursiva. Matt señala que la lógica es matizada: la regulación solo hasta el punto en que no deje a Occidente por detrás de China, porque un frenazo excesivo sería en sí mismo un riesgo de seguridad nacional.
+
+#### La respuesta coordinada de los laboratorios
+El efecto fue casi inmediato: Elon Musk retuiteó el texto con un "Dario tiene razón"; Sam Altman, que rara vez coincide con él, afirmó que el ritmo de la frontera también es tema central en OpenAI y que adoptarán evaluadores independientes con acceso tipo empleado; Demis Hassabis (Google DeepMind) dijo que el ensayo apunta en la dirección correcta aunque falte trabajar los detalles; y Satya Nadella (Microsoft) respaldó que el diseño de la IA debe ser estar bajo control humano y que la compañía acepta los evaluadores embebidos.
+
+#### Zuckerberg: "dejad de pedir regulación, haced lo correcto"
+Matt identifica la respuesta de Mark Zuckerberg como la más interesante, y matiza después que no es tanto un desacuerdo como un "ya lo estamos haciendo": cada laboratorio tiene la responsabilidad y el incentivo de entrenar a la velocidad que exija la seguridad, a los usuarios no les gustarán los agentes desalineados y cualquier laboratorio que no se enfoque en la alineación se quedará atrás. Como ejemplo, Meta retrasó varios meses el lanzamiento de Muse por motivos de seguridad sin exigir a los demás que hicieran lo mismo. Añade que contratar evaluadores y asesores independientes ya es práctica habitual en sus laboratorios de superinteligencia. La réplica de la Casa Blanca fue la contraria: el único control que necesita la IA es un presidente fuerte y de alto coeficiente intelectual, el asunto es un "timo" y un complot contra la IA y los centros de datos del que solo China se beneficia. Trump lo repitió en directo durante una llamada improvisada a Jensen Huang en el escenario del All-In Summit, insistiendo en que los centros de datos son "el petróleo de los próximos 20-25 años" y que los robots no van a hacerse con el control. Matt resume su propia posición: cree que las empresas deben gastar más en alineación y menos en beneficio, no está tan preocupado por los escenarios apocalípticos como otros, pero tampoco cree que deban descartarse.
+
+#### Anthropic unifica Claude Chat y Cowork, y rediseña Projects
+Anthropic anunció que Claude Cowork y el chat pasan a ser una sola experiencia sin tener que cambiar entre ambas, con despliegue primero para planes Pro y Max en web, escritorio y móvil. Matt critica con dureza el modo de comunicarlo: él paga el plan Max de 200 dólares al mes y sigue viendo las dos opciones separadas, igual que ocurre con otras compañías que anuncian como disponibles funciones que aún están en lista de espera. Lo mismo ocurre con el rediseño de Projects, presentado como "del folder a la conversación", disponible en beta solo para suscriptores seleccionados de Pro y Max que usen sesiones de Claude Code y no tengan proyectos previos en web o escritorio. El funcionamiento que describe le parece claramente mejor: se elige un objetivo junto al repositorio o contexto, Claude propone trabajo y va abriendo hilos; cada hilo es una sesión en la nube de Claude Code trabajando sobre su propia rama y copia del repositorio, y el chat principal actúa como jefe de gabinete que coordina. Si dos hilos tocan el mismo código, el solapamiento se resuelve como un conflicto de merge normal. El contexto se va construyendo con el tiempo.
+
+#### Gemini Notebook y el nuevo Siri: anuncios que aún no llegan
+En Gemini Notebook (antes NotebookLM) ya se puede mantener una conversación de audio sobre el contenido del cuaderno —por ejemplo, preguntarle por la primera ley de Newton— en lugar de escuchar solo el podcast, y se añade un grabador de audio en la app móvil para capturar clases o ideas sobre la marcha, además de "resúmenes de aprendizaje interactivos" que combinan resúmenes con infografías, cuestionarios y tarjetas. Apple anunció una versión mucho más capaz y personal de Siri con Apple Intelligence, capaz de ver la pantalla, mantener contexto entre apps y actuar en nombre del usuario, pero al abrir el móvil en iOS 27.2 beta Matt solo encuentra una lista de espera. Su queja transversal del episodio es precisamente esta: los blogs y notas de prensa dicen "ya disponible" cuando en realidad empieza un despliegue escalonado, y sería mejor publicar el anuncio el día en que la función llega de verdad.
+
+#### Dos modelos nuevos: Qwen 3.8 Omni Flash y el sigiloso Ox-Alpha
+Alibaba presentó Qwen 3.8 Omni Flash, comparado con Gemini 3.8 Flash y Muse Spark 1.2 (no con los modelos punteros), con ventana de contexto de un millón de tokens y orientado a edición de vídeo, creación de vídeos musicales, producción cinematográfica, resumen audiovisual y conversaciones en tiempo real; Matt no ha podido medirlo en su benchmark de imágenes porque aún no estaba en OpenRouter. Más interesante le resultó el modelo sigiloso disponible gratis una semana en OpenRouter y Open Code, que se reveló como Paro 26.9 de la compañía "Unbiased": no es un único conjunto de pesos, sino un sistema de varios modelos —abiertos y frontera— trabajando sobre la misma tarea con un arnés que revisa el trabajo y llama a un modelo más fuerte cuando hace falta, es decir, una especie de enrutador sin entrenamiento nuevo. En el benchmark de Matt puntúa 74 en DeepSuite, generó su imagen en 4 minutos y 44 segundos usando 9.588 tokens, menos de un tercio de los que necesitó GPT-6 Astra y en la mitad de tiempo, con un resultado tan parecido que sospecha que en realidad derivó la petición a Astra.
+
+#### Ráfaga breve: Meta, Google, Grok, ElevenLabs y publicidad
+Meta lanzó una suscripción con más funciones de IA (Meta AI sigue gratis para uso cotidiano; WhatsApp Plus desde 2,99 dólares al mes y el plan Max hasta 4,99), y dio a su agente Muse la capacidad de hacer llamadas salientes a empresas de EE. UU. para reservar citas o esperar en línea. Google publicó Gemini 3.8 Live y Gemini 3.8 Live Extended Thinking, que según sus benchmarks superan a GPT Live 1 Astra en diálogo en vivo, orientados a agentes de atención al cliente, y presentó "CC", un agente familiar con control de acceso que reparte el parte diario y gestiona eventos, tareas y permisos (de momento en acceso gradual). Grok Build incorpora memoria: escribe notas en segundo plano mientras se trabaja y las relee al volver al proyecto. ElevenLabs lanzó Music 2.5 y metió sus modelos de voz, música, imagen y vídeo en un MCP para que cualquier agente los use. En publicidad, OpenAI permite ahora que al pulsar un anuncio se abra un chat con la empresa anunciante. Cierra Matt con robótica: una compañía (UB) monta una fábrica capaz de producir 10.000 robots humanoides al año, uno cada 10 minutos, en la que los propios humanoides hacen despaletizado, paletizado y carga de material mientras brazos colaborativos en estaciones giratorias de 360° aprietan tornillos.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Dario Amodei — ensayo "We Must Pace the Frontier" | Artículo | https://www.anthropic.com/news |
+| Anthropic — Claude Chat y Cowork unificados | Producto | https://www.anthropic.com/news |
+| Anthropic — Projects rediseñados (Claude Code, beta) | Producto | https://www.anthropic.com/news |
+| Gemini Notebook (antes NotebookLM) | Producto | https://gemini.google.com |
+| Apple Intelligence / nueva Siri | Producto | https://www.apple.com/apple-intelligence/ |
+| Qwen 3.8 Omni Flash (Alibaba) | Modelo | https://qwen.ai |
+| OpenRouter (modelo sigiloso Ox-Alpha / Paro 26.9) | Plataforma | https://openrouter.ai |
+| Google DeepMind — Gemini 3.8 Live | Modelo | https://deepmind.google |
+| ElevenLabs Music 2.5 y MCP de generación | Producto | https://elevenlabs.io |
+| Meta — suscripciones con IA y agente Muse | Producto | https://about.meta.com |
+
+---
 ## [Matt Wolfe] He Built The Ultimate Spy Tool (Free and Open-Source)
 
 **Fecha:** 2026-09-16
