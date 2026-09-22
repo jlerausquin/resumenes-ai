@@ -1,6 +1,60 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] Did Elon catch up? (Grok 4.7 is here)
+**Fecha:** 2026-09-22
+**URL:** https://www.youtube.com/watch?v=MJllZbpvrAc
+**Video ID:** MJllZbpvrAc
+
+### 📝 Resumen
+
+#### El lanzamiento y la promesa previa de Musk
+El vídeo arranca con un tuit de Elon Musk de aproximadamente una semana antes en el que anticipaba que Grok 4.7 estaría "más o menos a la par de Opus 5.0, no de la 5.1". El presentador se propone comprobar si esa afirmación se sostiene con los datos publicados. El modelo ya está disponible, supone una mejora notable respecto a Grok 4.6 manteniendo el mismo precio y velocidad, y la propia xAI lo describe en su blog como su modelo más capaz para programación y trabajo de conocimiento: trabaja más tiempo en tareas difíciles, revisa su propio trabajo con más cuidado y llega con la pila de salvaguardas mejor calibrada hasta la fecha.
+
+#### CursorBench 4.0: rendimiento frente a coste por tarea
+Berman advierte primero de un conflicto de interés relevante: xAI, la empresa detrás de Grok, es ahora propietaria de Cursor, de modo que la benchmark CursorBench 4.0 que aparece en el material de lanzamiento no es neutral. Con la puntuación en el eje vertical y el coste medio por tarea en el horizontal, el lugar deseable es la esquina superior derecha. Grok 4.7 se sitúa bien en esa gráfica, con una diferencia enorme entre el modo de esfuerzo bajo (33%) y el de pensamiento extra alto (46,3%), una de las curvas más pronunciadas que el autor recuerda fuera de GPT-5.6 Soul. La lectura es que el modelo queda comparable a Opus 5, no por delante —va justo por detrás en el ajuste de pensamiento máximo—, pero a aproximadamente la mitad de coste para completar esa misma benchmark.
+
+#### Eficiencia: tokens y pasos por tarea
+La misma comparativa se repite con los tokens de salida medios por tarea en el eje horizontal, donde menos es mejor porque indica mayor densidad de inteligencia. El presentador matiza que esta métrica combina dos factores: cuántos tokens necesita el modelo para resolver la tarea y cuánto cuesta cada millón de tokens, de forma que un modelo que consume el doble de tokens pero cuesta la mitad puede acabar siendo equivalente. Grok 4.7 vuelve a quedar muy cerca de Opus 5 y, en el esfuerzo más bajo, usa muy pocos tokens, aunque con una puntuación modesta. El ganador absoluto de la gráfica es Fable 5.1, penalizado por un precio varias veces superior. En la métrica de pasos por tarea todos los modelos aparecen muy igualados y GPT-5.6 Soul se revela como el más eficiente, algo que coincide con la impresión personal del autor de que ese modelo tiende a ir directamente a la solución.
+
+#### Benchmarks de nicho: coding, terminal, legal, salud e ingeniería
+En DeepSWE (transcrito en el vídeo como "Deep Suite"), históricamente la referencia más fiel a cómo perciben los ingenieros de producción estos modelos, Grok 4.7 obtiene 71%, GPT-5.6 Soul 72,7% y Fable 5.1 70%. Berman critica que Astra no aparezca en esa tabla del blog, así que pidió a Astra que recreara la tabla incluyéndose: con ello DeepSWE sitúa a Astra Max al frente con 74,1%. En AA Briefcase, sobre trabajo de oficina de varias horas, Grok 4.7 y Fable 5.1 Max quedan prácticamente empatados. En Terminal-Bench 4.0, benchmark clave para el coding agéntico, Grok 4.7 se queda en 38% frente a 57,9% de Fable 5.1 y 58,2% de Astra, muy por detrás de la frontera. En cambio, domina con claridad en trabajo legal (19,6% frente a 15,8% de Grok 4.6 y porcentajes muy bajos de GPT-5.6 Soul, Fable y Astra), si bien un "modelo durmiente", Muse Spark 1.3, arrasa en esa categoría con 42%. En HealthBench Professional todos los modelos empatan, y en Electrical Engineering Bench Grok 4.7 habría ganado de no ser por Astra, que lo relega al segundo puesto.
+
+#### Precio, cómputo sobrante y la deriva hacia open-weights
+Grok 4.7 se ofrece a 2 dólares por millón de tokens de entrada y 6 por millón de salida. El autor explica que ese precio combina dos factores: que el modelo está un escalón por debajo de la frontera absoluta y que xAI dispone de un enorme excedente de cómputo —invirtió en exceso al principio y no consiguió un modelo frontera que generase suficiente demanda para rentabilizar todas esas GPU—, lo que le permite bajar el precio. Como comparación, GPT-5.6 Soul cuesta más del doble, Fable 5.1 más de cinco veces y GPT-6 Astra unas cinco veces por una mejora de apenas unos puntos porcentuales. Berman enlaza aquí un tuit de Gavin Baker según el cual el 62% de los tokens consumidos en empresa ya corresponden a pesos abiertos frente al 38% de modelos cerrados, por eficiencia, control, privacidad y precio, aunque el valor sigue concentrándose en OpenAI y Anthropic. Su conclusión es que no se pueden cobrar precios de frontera absoluta sin ofrecer la mejor respuesta absoluta, y que muchas industrias no necesitan esa respuesta: solo quieren automatización y trabajo de conocimiento hecho.
+
+#### Posición relativa en Artificial Analysis
+En el índice de inteligencia de Artificial Analysis, Grok 4.7 ocupa la quinta posición con 46 puntos en el ajuste extra alto. Por delante quedan Fable 5.1 en primera plaza, Astra en segunda (con puntuaciones casi idénticas), Claude Opus 5 en tercera y Muse Spark 1.3 Max en cuarta con 48 puntos, un modelo que el presentador apenas había probado y que le despierta curiosidad porque alimenta al asistente personal de Muse. Justo por debajo de Grok 4.7 quedan GLM-5.3 Max y Kimi K3, ambos de pesos abiertos, igual que Muse Spark 1.3, lo que refuerza la idea de que ya existen modelos casi de frontera y abiertos. Artificial Analysis señala además que las ganancias de Grok 4.7 vienen acompañadas de un mayor consumo de tokens, lo que elevará el coste por tarea completada. Otro detalle relevante: la ventana de contexto de Grok 4.6 y 4.7 es de solo 500.000 tokens, mientras que casi todos los modelos frontera alcanzan el millón.
+
+#### Sesgo de benchmarks y el caso Astra
+El presentador insiste en que hay selección interesada de benchmarks y que es habitual en Musk amplificar cualquier tabla donde Grok salga bien. Considera ligeramente deshonesto que Astra aparezca en unas gráficas del blog y desaparezca de otras, y por eso recreó la tabla de DeepSWE para incluirla. En GDPval, la benchmark de OpenAI sobre tareas reales de trabajo de conocimiento, Fable 5.1 lidera con 1.735 ELO, Grok 4.7 logra unos notables 1.695, Grok 4.6 baja a 605 y GPT-6 Astra queda cuarto con 1.542. En la tabla de coding agéntico publicada por Musk, Grok 4.7 coloca a xAI en tercera posición por detrás de Anthropic y OpenAI. Un demo comparativo de Grok 4.7 frente a Kimi K3 muestra un resultado muy pobre del modelo de xAI, aunque el autor advierte que desconoce los ajustes empleados.
+
+#### Salvaguardas, retraso del lanzamiento y expectativas
+xAI afirma que Grok 4.7 se construyó con una pila de salvaguardas totalmente nueva y que es el modelo más sólido que han probado en rechazos y resistencia a jailbreaks, incluidas resistencias en dominios de doble uso como ciberseguridad y biología, con buen equilibrio entre utilidad en tareas benignas y rechazo seguro en las peligrosas. Musk justificó el retraso de aproximadamente una semana y media diciendo que el modelo "necesitaba unos días más de cocción" porque podrían haber penalizado en exceso la longitud de las respuestas durante el aprendizaje por refuerzo, y reconoció que todavía abandona demasiado pronto tareas difíciles que sí podría resolver y que no es lo bastante riguroso revisando su trabajo. Berman valora positivamente que se le diera más tiempo. Recuerda también que en agosto Musk llegó a decir que Grok 4.7 superaría a todos los modelos existentes: su veredicto es que está cerca de Fable 5 y claramente por debajo de Fable 5.1.
+
+#### Valoración final, Grokbot y el patrocinio
+La conclusión del autor es que Grok 4.7 es un gran modelo, sobre todo por su relación calidad-precio: no está en la frontera absoluta, pero se acerca lo suficiente, es extremadamente rentable y toda competencia beneficia al usuario final. Espera que llegue a la frontera con 4.8 o 4.9 y que Grokbot incorpore pronto el nuevo modelo, herramienta en la que dice estar profundamente enganchado. El bloque patrocinado corre a cargo de Zapier, plataforma de automatización que conecta más de 9.000 aplicaciones y permite usar Grok 4.7 en flujos de trabajo y agentes mediante su servidor MCP.
+
+### 🔗 Referencias
+
+| Tipo | Elemento mencionado | Enlace |
+|---|---|---|
+| Producto | Grok 4.7 / Grok 4.6 (xAI) | https://x.ai/ |
+| Producto | Blog de lanzamiento de Grok 4.7 (xAI) | https://x.ai/news |
+| Producto | Cursor / CursorBench 4.0 | https://cursor.com/ |
+| Producto | Grokbot | https://x.ai/ |
+| Producto | GPT-5.6 Soul, GPT-6 Astra, GDPval (OpenAI) | https://openai.com/index/gdpval/ |
+| Producto | Claude Opus 5 (Anthropic) | https://www.anthropic.com/ |
+| Benchmark | Artificial Analysis Intelligence Index | https://artificialanalysis.ai/ |
+| Benchmark | Terminal-Bench 4.0 | https://www.tbench.ai/ |
+| Benchmark | SWE-bench / DeepSWE (familia de benchmarks de coding) | https://www.swebench.com/ |
+| Benchmark | AA Briefcase | https://artificialanalysis.ai/ |
+| Herramienta | Zapier (patrocinador) | https://zapier.com/ |
+| Artículo | Tuit de Gavin Baker sobre tokens de pesos abiertos en empresa | https://x.com/gavinsbaker |
+| Artículo | Tuits de Elon Musk sobre predicciones y resultados de Grok 4.7 | https://x.com/elonmusk |
+| Vídeo | Este mismo vídeo (Matthew Berman) | https://www.youtube.com/watch?v=MJllZbpvrAc |
+
+---
 ## [Matthew Berman] We need to talk about Jev...
 **Fecha:** 2026-09-18
 **URL:** https://www.youtube.com/watch?v=2z-7pIj57f8
