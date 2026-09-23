@@ -1,5 +1,51 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] Opus 5.5 Is Crazy Good and GPT-6-Sol Launched Too
+
+**Fecha:** 2026-09-22
+**URL:** https://www.youtube.com/watch?v=0t-eWrGFZyA
+**Video ID:** 0t-eWrGFZyA
+
+### 📝 Resumen
+
+#### Dos modelos frontera el mismo día
+
+Matt Wolfe graba este análisis rápido desde su habitación de hotel en Palo Alto, adonde se había desplazado para cubrir Meta Connect. En la misma jornada coincidieron dos lanzamientos de los grandes laboratorios: por la mañana Anthropic publicó Claude Opus 5.5 y unas dos horas después OpenAI respondió con GPT-6 Sol y GPT-6 Luna. El presentador advierte desde el principio que no da tanto peso a los benchmarks como antes y que prefiere guiarse por lo que la comunidad construye y por sus propias pruebas, aunque repasa igualmente las métricas publicadas.
+
+#### Opus 5.5 adelanta a Fable 5.1 y a GPT-6 Astra
+
+Anthropic afirma que el nuevo modelo rinde al nivel de Claude 5.1 en la mayoría de tareas y cuesta un 40% menos de ejecutar que Opus 5. En los números difundidos, Opus 5.5 se coloca en cabeza en agentic coding (66,4%), Frontier Code (54,4%), el benchmark de Cursor (57,8%) y GDPval para trabajo de conocimiento (1846), además de liderar en uso de ordenador y reconocimiento visual de gráficos. Wolfe subraya la anomalía llamativa: Opus, el escalón inmediatamente inferior a Fable, supera en la mayoría de áreas al modelo que hasta ahora se presentaba como el techo de la propia casa. Las únicas excepciones donde mantiene el liderazgo GPT-6 Astra son Automation Bench y Terminal Bench Science.
+
+#### Precio por token y coste real por tarea
+
+La rebaja de precios es notable: la entrada pasa de 5 a 4 dólares por millón de tokens y la salida de 25 a 20. Comparado con Fable 5.1 (10 dólares de entrada y 50 de salida) la diferencia es enorme para una capacidad equivalente o superior. Wolfe matiza que el ahorro por tarea no es tan espectacular como sugiere el precio unitario, porque Opus 5.5 consume muchos más tokens: alrededor de 119.000 por tarea frente a los 78.000 de Fable 5.1. Aun así, el coste final por tarea baja, y el presentador insiste en que esa es la métrica que de verdad importa. Menciona también que el modo de esfuerzo "extra high" logra una puntuación ligeramente mejor y más barata que el modo máximo.
+
+#### Los demos de la comunidad
+
+La parte que más impresiona al presentador son los ejemplos hechos por usuarios: animaciones completas generadas en JavaScript, un emulador de Game Boy que además se usa como Game Boy, un juego con estética de dibujo infantil, animaciones renderizadas en Blender, un shooter en primera persona estilo doodle, una versión de Snake con detalles de estela que se afina, una recreación de Dark Souls, un simulador de vuelo con vista desde cabina y un Mario Maker. Wolfe reconoce que se repite al calificarlos todos de espectaculares, y argumenta que juegos y animaciones son los mejores termómetros del avance, porque hace un año los modelos ni siquiera producían animaciones y los juegos eran arcaicos. Algunos de estos demos provienen de miembros del equipo de Forward Future.
+
+#### GPT-6 Sol y Luna: mejor precio, salto marginal
+
+OpenAI lanzó sus modelos poco después, con precios a la mitad: GPT-6 Sol baja de 4 a 2 dólares por millón de entrada y de 20 a 10 por salida, mientras que Luna recorta la entrada de 20 a 10 céntimos y la salida de 1,20 dólares a 50 céntimos. El artículo oficial aporta pocos datos y algunos benchmarks elegidos a medida; en Automation Bench Sol queda por debajo de Astra aunque con menor coste por tarea, y en Deep Suite el resultado es discreto. Wolfe lo describe como una actualización útil sobre todo para quien busca un modelo GPT más económico, pero no un nuevo estado del arte: no hubo apenas acceso anticipado, casi no circulan demos y en redes sociales prácticamente toda la conversación del día giró en torno a Opus 5.5. La disponibilidad llega a ChatGPT Work y Codex en planes de pago, con Luna accesible también en la app de escritorio para usuarios gratuitos y Go.
+
+#### Rankings agregados y la letra pequeña de los jueces automáticos
+
+En Artificial Analysis, Opus 5.5 toma el liderazgo con 58 puntos frente a los 53 de Fable 5.1 y GPT-6 Astra, mientras GPT-6 Sol se queda en 48, empatado con Muse Spark y diez puntos por debajo del nuevo modelo de Anthropic. En coste por tarea, el contraste es el esperado: unos 16 dólares por tarea para GPT-6 Sol frente a los cerca de 6 de Opus 5.5, con 31.000 tokens por tarea en el primero. Wolfe también probó ambos modelos en su propio "beauty bench" y su juez-LLM situó a GPT-6 Sol como nuevo líder, con Opus 5.5 relegado al octavo puesto; el presentador se distancia del resultado y afirma que, a sus ojos, Astra sigue pareciendo mejor.
+
+#### Lo que queda por venir esta semana
+
+El vídeo se cierra con la agenda prevista: Meta Connect en marcha, el evento Made on YouTube y una gran expectación en torno a "Jev". Wolfe anuncia que profundizará en todo ello, y en las nuevas versiones de ambos modelos, en su repaso de noticias del viernes, cuando ya existirán más demos y pruebas. Su conclusión resumida es que Opus 5.5 es más barato, más rápido y aparentemente mejor que el anterior estado del arte de Anthropic, lo que hace pensar en lo que traerá la siguiente generación de Fable, mientras que GPT-6 Sol representa un avance más bien marginal cuyo principal atractivo es el precio.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+| --- | --- |
+| Anthropic — anuncios y notas de producto (Claude Opus 5.5) | https://www.anthropic.com/news |
+| OpenAI — anuncios de producto (GPT-6 Sol / GPT-6 Luna) | https://openai.com/index/ |
+| Artificial Analysis — índice agregado de inteligencia y coste por tarea | https://artificialanalysis.ai |
+| Forward Future — equipo que publicó varios de los demos mostrados | https://forwardfuture.com |
+
+---
 ## [Matt Wolfe] AI News: All AI Labs Want To Slow Down (Except One)
 **Fecha:** 2026-09-18
 **URL:** https://www.youtube.com/watch?v=Kof2VcHTjrk

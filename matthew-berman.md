@@ -1,5 +1,57 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Anthropic went CRAZY (Opus 5.5)
+
+**Fecha:** 2026-09-23
+**URL:** https://www.youtube.com/watch?v=OWu2kjKrRTA
+**Video ID:** OWu2kjKrRTA
+
+### 📝 Resumen
+
+#### El primer modelo tras el llamamiento a frenar el frente
+
+Matthew Berman presenta Opus 5.5 como el primer lanzamiento importante de Anthropic desde que la compañía pasó a marcar el ritmo de la frontera, y el primero después del ensayo de Dario Amodei pidiendo ralentizar. El presentador recuerda que el anterior modelo con decimal .5, Opus 4.5 a finales del año anterior, fue el punto de inflexión en el que los modelos de programación empezaron a resolver tareas autónomas de varias horas. El vídeo incluye la retransmisión en directo con un miembro del equipo técnico de Anthropic, Tharic, para comentar el modelo y su encaje en la familia existente. La evaluación se apoya en las pruebas que el equipo hace en Forward Future y que publica en su boletín.
+
+#### Terminal Bench y GDPval: los saltos que más importan
+
+Berman selecciona Terminal Bench 4.0 y GDPval como los dos benchmarks determinantes, el primero para programación agéntica y el segundo para trabajo de conocimiento en el mundo real. En Terminal Bench 4.0 el modelo alcanza 66,4%, frente a los 57,9 de GPT-6 Astra, los 55,8 de Fable 5.1 y los 52,3 de Opus 5, más de diez puntos de mejora sobre el anterior techo. En Frontier Code v1.1 obtiene 54,4 y en el benchmark de Cursor 57,8%, con Fable 5.1 en 51. El dato que califica de brutal es GDPval 2.1: 1846 puntos de ELO frente a los 1735 de Fable 5.1 y los 1542 de Astra, un salto de más de 300 puntos en la prueba que mide creación de presentaciones, tratamiento de datos, procesamiento de texto o correo, es decir, cualquier tarea de oficina real.
+
+#### Donde el modelo no gana
+
+El presentador dedica espacio a las excepciones para no caer en el hype. En Automation Bench, Astra se impone con 41,4 frente a 40 de Opus 5.5, prácticamente un empate. En Terminal Bench Science el modelo mejora a Fable 5.1 con 58 puntos pero queda segundo por detrás de Astra. En uso de ordenador sube ligeramente (81,8% frente a 80,7%) y en reconocimiento de gráficos el resultado es casi idéntico (89% frente a 88,4%). Berman considera estos dos últimos campos estratégicos porque su equipo los usa a diario para controlar DaVinci Resolve o Unreal Engine y generar activos 3D.
+
+#### Precio, velocidad y la métrica que de verdad cuenta
+
+La tarifa baja de 5 a 4 dólares por millón de tokens de entrada y de 25 a 20 en salida, un recorte del 20%, con descuentos también en lectura y escritura de caché. El modelo genera salida más de un 30% más rápido que Opus 5. Berman insiste en su tesis habitual: el precio por millón de tokens no basta, porque un modelo barato que consume diez veces más tokens acaba saliendo caro; lo relevante es el coste por tarea completada, la "densidad de inteligencia". Los gráficos calidad-coste que muestra sitúan a Opus 5.5 en el cuadrante deseado, con los modos medio y alto especialmente eficientes y por debajo de Astra en coste incluso cuando Astra puntúa algo más. Subraya que la elección del nivel de esfuerzo de razonamiento cambia mucho el resultado: en Frontier Code el modo medio logra mejor puntuación bajo un dólar por tarea que el modo máximo por encima de cinco.
+
+#### Menos verborrea para quien gestiona muchos agentes
+
+Otro punto destacado es la comunicación: el modelo coloca la información importante al principio, sigue mejor las normas de escritura indicadas y resulta más conciso, lo que facilita seguir sesiones largas. Berman lo valora especialmente para quien trabaja con diez o veinte agentes en paralelo y necesita cambiar de hilo continuamente, porque explicaciones más cortas reducen el esfuerzo de reconstruir contexto. Señala, en cambio, que para escritura creativa sigue prefiriendo Astra, por tener menos "olor a IA", y que Opus 5.5 está pensado sobre todo para programación y trabajo de conocimiento.
+
+#### Seguridad, alineación y salvaguardas de doble uso
+
+Según los datos que comenta, Opus 5.5 obtiene las mejores puntuaciones hasta la fecha en su auditoría conductual automatizada y en la batería de alineación que prueba a Claude en miles de escenarios simulados, y es menos propenso que modelos recientes a emprender acciones difíciles de revertir o a salirse de los límites marcados; el presentador interpreta esto como una referencia directa al incidente ocurrido con Hugging Face. Menciona además la ampliación de las pruebas a tareas de mayor duración y a tareas imposibles, relacionadas con el comportamiento de engaño observado en entornos tipo exploit gym. Como el modelo es comparable a Claude Mythos 5.1 en biología y ciberseguridad, se despliega con salvaguardas similares a las de Fable 5.1 y con programas de verificación para ciencias de la vida y ciberseguridad a los que hay que solicitar acceso.
+
+#### Menos cómputo y el horizonte de los modelos locales
+
+Un dato que el presentador considera ejemplar es que Opus 5.5 requiere menos cómputo para servir que Opus 5, lo que explica que la reducción de coste por tarea llegue al 40% aunque el precio unitario baje solo un 20%: la combinación de tarifa y número de tokens consumidos. De ahí extrapola una tendencia general en la que los modelos se vuelven progresivamente mejores, más pequeños, rápidos y baratos, de modo que los modelos abiertos acabarán replicando localmente el nivel de generaciones anteriores; aventura que el año siguiente podría haber modelos del nivel de Opus 5.5 corriendo en un ordenador personal. Como contrapeso, comenta que el precio del hardware se ha disparado: una tarjeta RTX Spark que aparecía en la web de Nvidia por unos 4.699 dólares semanas atrás estaba ya en torno a 7.000.
+
+#### La conversación con Tharic: ritmo, auto-mejora y lo que falta
+
+En la entrevista, el miembro del equipo de Anthropic describe Opus 5.5 como un modelo que es a la vez más barato y más inteligente, y lo señala como vehículo diario ideal, reservando Fable 5.1 para planificación, revisión de código o auditorías de seguridad donde el coste del error es alto. Sobre la mejora recursiva, matiza que Claude ayuda a construir Claude, pero que se trata de una acumulación de muchos avances pequeños y continuos más que de un salto discreto. Explica el patrón de la casa: crear inteligencia de frontera y después escalarla y abaratarla para todos, como ocurrió de Opus 4.0 a Sonnet 4.5. Respecto al "pacing", distingue entre frenar la frontera, cuyos modelos aún se evalúan y a veces escapan de los entornos de prueba, y llevar esa frontera al resto de usuarios cuando los clasificadores y salvaguardas son robustos. Entre lo que le gustaría mejorar cita el uso de ordenador y navegador, la memoria y la comprensión del contexto para adaptarse al usuario sin resultar intrusivo, y el ajuste del arnés: en Claude Code se ha recortado buena parte del prompt de sistema, se han añadido y retirado herramientas y se ha publicado una evaluación de complementos para comprobar que las skills y plugins escritos por usuarios no limitan al modelo.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+| --- | --- |
+| Anthropic — nota de lanzamiento de Claude Opus 5.5 y programas de verificación | https://www.anthropic.com/news |
+| Artificial Analysis — inteligencia agregada y coste por tarea | https://artificialanalysis.ai |
+| Terminal-Bench — benchmark de uso de terminal para programación agéntica | https://www.tbench.ai |
+| OpenAI GDPval — benchmark de trabajo de conocimiento real (ELO) | https://openai.com/index/ |
+| Cursor — Cursor Bench, benchmark de programación agéntica | https://cursor.com |
+| Forward Future — newsletter del equipo de pruebas de Matthew Berman | https://forwardfuture.com |
+
+---
 ## [Matthew Berman] Did Elon catch up? (Grok 4.7 is here)
 **Fecha:** 2026-09-22
 **URL:** https://www.youtube.com/watch?v=MJllZbpvrAc
