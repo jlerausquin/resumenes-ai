@@ -1,5 +1,57 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] NO sabe PROGRAMAR: le enseño a crear apps con IA en directo (una profesional real)
+
+**Fecha:** 2026-09-23
+**URL:** https://www.youtube.com/watch?v=LjJBrha91ik
+**Video ID:** LjJBrha91ik
+
+### 📝 Resumen
+
+Javier Garzás publica la grabación de la sesión final del reto «Viberano» lanzado en verano por su comunidad 233 Academy, en la que profesionales sin conocimientos técnicos —o que dejaron de programar hace años— construyeron diez aplicaciones reales sin escribir una sola línea de código. Junto a Judith, que hace un roleplay como persona ajena al mundo técnico, el autor desglosa en siete pasos el proceso completo que va de una necesidad de negocio a una aplicación operativa y publicada, insistiendo en que la barrera ya no es saber programar sino saber especificar.
+
+#### El reto «Viberano» y el punto de partida
+
+El punto de partida del vídeo es un concurso de la comunidad 233 Academy en el que más de 500 profesionales fueron invitados a presentarse como voluntarios para crear una aplicación por sí solos. La norma central del reto era explícita: no se podía escribir una sola línea de código, todo debía generarse con IA a partir de lenguaje natural mediante prompts. El nombre «Viberano» juega con el término *vibe coding* y resume la tesis del vídeo: cada vez más profesionales de perfiles no técnicos —abogados, químicos, fisioterapeutas— están creando software de verdad. La sesión grabada funciona como demostración en directo del método, con Judith interpretando a alguien que no tiene ni idea y formulando las preguntas que se hace habitualmente quien se enfrenta por primera vez a este tipo de problema.
+
+#### La spec.md como fuente de la verdad
+
+El primer paso consiste en partir de una fase de *discovery* simplificada —detectar una necesidad que merezca la pena resolver— y traducirla inmediatamente a una especificación en un fichero `spec.md`. Garzás insiste en que ese fichero no se escriba con el teclado sino dictando, y recomienda herramientas de dictado como Wispr Flow para no ralentizar el proceso. La razón de fondo es el problema de memoria de los chatbots: la ventana de contexto es efímera, las respuestas son estadísticas y tienden a variar, de modo que lo importante debe vivir en formatos persistentes. El `spec.md` actúa por tanto como fuente de la verdad, es del usuario y no del fabricante de IA, y es portable entre entornos. Además, el concepto de *spec* incorpora buenas prácticas de ingeniería de requisitos que la IA ya conoce, de manera que una persona ajena a esa disciplina obtiene una especificación formal sin haberla estudiado.
+
+#### Spec-Driven Development: del requisito en texto al prototipo operativo
+
+El vídeo enmarca el método bajo el nombre de Spec-Driven Development (SDD), es decir, desarrollo dirigido por especificaciones: escribir primero qué se quiere y dejar que la IA construya después, acotando el alcance y conservando esa fuente de la verdad para futuras réplicas o evoluciones. Garzás lo presenta como una versión muy simplificada del método, suficiente para el 80/20, y señala un cambio de fondo en el papel de los perfiles de negocio: al product owner ya no se le pide solo describir lo que espera, sino entregar un prototipo operativo que funcione y pueda validarse. El antiguo requisito en texto queda sustituido por un prototipo ejecutable creado por la propia persona de negocio, con el criterio ágil de mantener las especificaciones pequeñas —del orden de unas cinco historias de usuario como máximo— e ir de menos a más, porque quitar capas de una solución grande resulta mucho más costoso que añadirlas.
+
+#### Prototipado visual y design.md
+
+Tras la especificación, el proceso pasa por pedir un artefacto visual que permita ver cómo funcionaría la aplicación antes de construirla, lo que habilita una validación temprana muy alejada del antiguo documento en texto. Una vez validado el flujo, se aborda el diseño solicitando que se apliquen buenas prácticas de UX mediante un fichero `design.md`, que en la demostración se busca específicamente para aplicaciones deportivas. Igual que el `spec.md`, el `design.md` se convierte en una segunda fuente de la verdad, independiente del fabricante, portable y legible en lenguaje natural, y evita discusiones sobre colores, contrastes o estilos. Garzás subraya que este reparto de tareas ilustra la ruptura actual de roles: la misma persona cubre el trabajo del antiguo analista de requisitos, del prototipador y ahora también del diseñador de experiencia, dando lugar al perfil que denomina *product builder* o *product maker*.
+
+#### Aplicación operativa, despliegue en Vercel y la barrera del séptimo paso
+
+El sexto paso exige que el prototipo sea operativo y probablemente es donde más código de negocio se genera; aquí la IA decide por sí sola el lenguaje, el framework y la arquitectura, sin que el usuario técnico tenga que especificarlos. El séptimo paso, que Garzás señala al inicio como el punto donde se pierde la mayoría de la gente no técnica, es sacar la aplicación del ordenador personal y ponerla a disposición de cualquiera. Para ello el vídeo recurre a un hosting gratuito y sencillo, Vercel, arrastrando la carpeta generada al proyecto correspondiente. Se explican también alternativas intermedias según el caso: si la aplicación no almacena datos, la propia herramienta puede generar un enlace compartible sin necesidad de desplegar; y si se quiere ir de menos a más, basta con guardar los datos en el propio navegador en lugar de montar una base de datos. Como cierre técnico, Garzás advierte de que conviene decidir con cuidado a qué se concede acceso a la IA y no darle permisos sobre nada que no se compartiría abiertamente.
+
+#### Límites del método y disciplinas adyacentes
+
+El autor marca con claridad el perímetro de utilidad: el método sirve para prototipos, aplicaciones internas y automatizaciones de procesos propios, y estima que entre el 80 % y el 90 % de las aplicaciones que ve se crean para resolver problemas internos sin clientes externos. En cuanto una aplicación va a escalar, va a producción o va a facturar de forma significativa, es de sentido común que pase por un equipo técnico que garantice seguridad, escalabilidad, mantenibilidad y cumplimiento legal. En ese escalón aparecen disciplinas que el vídeo menciona de pasada: el *vibe engineering* como paso más allá del *vibe coding*, y la «ingeniería del arnés», orientada a rodear a la IA de guardarraíles para que no se desmorone lo construido. También se apunta que existen ficheros de ámbito técnico como `plan.md` o `tasks.md`, donde se fijan decisiones arquitectónicas y tecnológicas, que quedan deliberadamente fuera del alcance de esta sesión introductoria.
+
+#### Resultados del reto y el nuevo perfil profesional
+
+La parte final del vídeo repasa las aplicaciones creadas por los participantes del reto: una aplicación de acompañamiento y asistencia en eventos, un recetario ligado a objetivos de entrenamiento, un gestor de estado de credenciales, la propuesta ganadora centrada en trámites administrativos por comunidad autónoma con conexión a APIs oficiales, una guía de recomendaciones sobre herramientas, una aplicación para adolescentes y un asistente sobre prestaciones de la Seguridad Social. Garzás cierra con la idea de que la barrera de los lenguajes complejos y de los despliegues ha caído, que el profesional del futuro será mucho más multifuncional dentro de su sector y que conviene afrontar este cambio acompañado, dado el ritmo al que evoluciona el ecosistema.
+
+### 🔗 Referencias
+
+| Tipo | Referencia | Enlace |
+|---|---|---|
+| Producto | Claude Code (Anthropic) — herramienta usada en local para generar la aplicación | https://claude.com/product/claude-code |
+| Producto | Wispr Flow — dictado por voz para escribir prompts sin teclado | https://wisprflow.ai/ |
+| Producto | Vercel — hosting gratuito usado para el despliegue | https://vercel.com/ |
+| Empresa/comunidad | 233 Academy — comunidad que organiza el reto «Viberano» | https://233academy.com/ |
+| Repositorio | GitHub — repositorio de skills y materiales de Discovery de la comunidad | https://github.com/ |
+| Estándar/método | Spec-Driven Development (SDD) — desarrollo dirigido por especificaciones | https://en.wikipedia.org/wiki/Spec-driven_development |
+| Fichero | `spec.md`, `design.md`, `plan.md`, `tasks.md` — fuentes de la verdad en Markdown | https://commonmark.org/ |
+| Producto | Figma — herramienta de diseño de referencia citada por el autor | https://www.figma.com/ |
+
+---
 ## [Javier Garzás] La IA y el plan para ELIMINAR al programador: una Guerra secreta de 70 años
 
 **Fecha:** 2026-09-16

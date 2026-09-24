@@ -1,6 +1,110 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] GPT-6 Sol and Luna Are HERE!
+
+**Fecha:** 2026-09-23
+**URL:** https://www.youtube.com/watch?v=Ima_AVPyQ9E
+**Video ID:** Ima_AVPyQ9E
+
+### 📝 Resumen
+
+Matthew Berman analiza en directo el lanzamiento simultáneo de los dos nuevos modelos de OpenAI, GPT-6 Sol y GPT-6 Luna, que llegan el mismo día que el Opus 5.5 de Anthropic y apenas un día después del Grok 4.7 de xAI. El vídeo combina el repaso de precios y disponibilidad con una lectura de fondo: lo que ambas compañías están entregando no es potencia bruta, sino eficiencia, velocidad y precio.
+
+#### Un lanzamiento encadenado: Sol, Luna, Opus 5.5 y Grok 4.7
+
+El vídeo arranca subrayando el ritmo del ecosistema: en apenas dos días se han publicado GPT-6 Sol y Luna de OpenAI, Opus 5.5 de Anthropic y Grok 4.7 de xAI. Berman describe la semana como saturada de modelos y sitúa a Luna como la actualización de su modelo favorito, el GPT-5.6 Luna, que ya destacó en su momento por ser extremadamente rápido y barato manteniendo un nivel de inteligencia alto. Ambos modelos se presentan como mejoras transversales no solo en benchmarks, sino también en calidad de escritura.
+
+#### Precios: la reducción del 50 % y el modelo de trabajo barato
+
+El análisis de precios es el eje económico del vídeo. Frente a GPT-5.6 Sol, GPT-6 Sol aplica una reducción del 50 %, quedando en 2 dólares por millón de tokens de entrada y 10 dólares por millón de tokens de salida; se trata de un modelo situado un paso por debajo de Astra, el frontier absoluto de OpenAI. GPT-6 Luna encadena otra rebaja del 50 % a la que ya había aplicado previamente, hasta 10 céntimos por millón de tokens de entrada y 50 céntimos por millón de salida. Berman califica ambos precios como increíbles y los describe como modelos de trabajo puros, capaces de asumir entre el 90 % y el 95 % de las tareas habituales.
+
+#### Automation Bench: la relación calidad-precio
+
+El primer benchmark que analiza es Automation Bench, representado en el llamado «cuadrante del dinero» —rendimiento en el eje vertical frente a coste en el horizontal—. GPT-5.6 a esfuerzo máximo anotó 28,8 puntos, mientras que GPT-6 Sol en modo extra high alcanzó lo más alto con un 33 %. Astra sigue siendo el mejor modelo de OpenAI, pero ahora existe una versión mucho más barata que se le acerca sin igualarla. Luna es el peor de los tres modelos en puntuación, pero con un coste mínimo: en su configuración baja obtiene una puntuación modesta a un precio muy reducido y en su configuración máxima supera el 20 % por menos de 5 céntimos por tarea. Berman señala además que GPT-6 Sol supera a Claude Fable 5.1 a un coste muy inferior e incluso a GPT-6 Astra en modo de bajo esfuerzo.
+
+#### Frontier Code y el uso de computadora
+
+El segundo benchmark, que Berman considera la referencia más precisa para evaluar la codificación agéntica, vuelve a colocar a Luna en una posición muy fuerte: GPT-6 Luna Max alcanza un 66,6 % con 22 céntimos de coste por tarea, un resultado comparable al de Soul Medium con 80 céntimos y al de Astra Low con 1,70 dólares por tarea. En cambio, en OSWorld —la prueba de uso de computadora— Luna queda claramente por detrás de Astra, con un 53 % frente a un 73 %. El autor encarga al propio Astra que genere un gráfico que reúna a Sol, Luna y Opus 5.5 en las mismas métricas.
+
+#### La misma semana, tres modelos y una brecha de precio enorme
+
+Al comparar en un mismo gráfico GPT-6 Sol, Luna y Opus 5.5, todos lanzados el mismo día, Berman observa que la diferencia de rendimiento en Frontier Code entre los tres es de apenas 6 a 7 puntos porcentuales, mientras que el precio se multiplica varias veces: 10 céntimos frente a 2 dólares frente a 4 dólares. Esa asimetría sostiene la narrativa central del vídeo: pagar por la mejor respuesta absoluta es caro, y la elección razonable pasa por modelos intermedios con una relación calidad-precio muy superior.
+
+#### «Pacing the frontier»: eficiencia en lugar de potencia bruta
+
+La reflexión de fondo es que tanto Anthropic como OpenAI están aplicando una política de frenar o dosificar la frontera. El resultado observable es que se obtiene eficiencia, velocidad y precio, pero no potencia e inteligencia crudas. Berman matiza que esto no implica que las compañías no estén desarrollando capacidades mayores internamente, sino que lo que llega al mercado ahora son modelos más eficientes. Recuerda además el patrón habitual de publicación: primero aparecen los grandes modelos frontier, caros y muy potentes, y en las semanas o meses siguientes llegan versiones más baratas, probablemente de arquitectura similar a los frontier o incluso destiladas de ellos. Berman cierra señalando que este desenrollado es exactamente lo esperado y que acoge la tendencia con satisfacción, remitiendo a su vídeo anterior sobre Opus 5.5.
+
+#### Disponibilidad
+
+GPT-6 Sol y Luna están disponibles desde el mismo día en ChatGPT, en GPT Work y en Codex para todos los planes de pago (Plus, Pro, Business, Enterprise y Edu). Los usuarios gratuitos y de Go pueden acceder a GPT-6 Luna en la aplicación de escritorio.
+
+### 🔗 Referencias
+
+| Tipo | Referencia | Enlace |
+|---|---|---|
+| Producto | OpenAI — GPT-6 Sol y GPT-6 Luna, GPT-6 Astra | https://openai.com/ |
+| Producto | Anthropic — Opus 5.5 y Claude Fable 5.1 | https://www.anthropic.com/ |
+| Producto | xAI — Grok 4.7 | https://x.ai/ |
+| Benchmark | Automation Bench — puntuación de automatización frente a coste | https://www.automationbench.com/ |
+| Benchmark | Frontier Code — evaluación de codificación agéntica | https://www.frontiercode.ai/ |
+| Benchmark | OSWorld — uso de computadora (computer use) | https://github.com/xlang-ai/OSWorld |
+| Patrocinador | here.now — publicación de artefactos en la web desde el agente | https://here.now/ |
+| Empresa | Forward Future — equipo del autor | https://www.youtube.com/@matthew_berman |
+
+---
+## [Javier Garzás] NO sabe PROGRAMAR: le enseño a crear apps con IA en directo (una profesional real)
+
+**Fecha:** 2026-09-23
+**URL:** https://www.youtube.com/watch?v=LjJBrha91ik
+**Video ID:** LjJBrha91ik
+
+### 📝 Resumen
+
+Javier Garzás publica la grabación de la sesión final del reto «Viberano» lanzado en verano por su comunidad 233 Academy, en la que profesionales sin conocimientos técnicos —o que dejaron de programar hace años— construyeron diez aplicaciones reales sin escribir una sola línea de código. Junto a Judith, que hace un roleplay como persona ajena al mundo técnico, el autor desglosa en siete pasos el proceso completo que va de una necesidad de negocio a una aplicación operativa y publicada, insistiendo en que la barrera ya no es saber programar sino saber especificar.
+
+#### El reto «Viberano» y el punto de partida
+
+El punto de partida del vídeo es un concurso de la comunidad 233 Academy en el que más de 500 profesionales fueron invitados a presentarse como voluntarios para crear una aplicación por sí solos. La norma central del reto era explícita: no se podía escribir una sola línea de código, todo debía generarse con IA a partir de lenguaje natural mediante prompts. El nombre «Viberano» juega con el término *vibe coding* y resume la tesis del vídeo: cada vez más profesionales de perfiles no técnicos —abogados, químicos, fisioterapeutas— están creando software de verdad. La sesión grabada funciona como demostración en directo del método, con Judith interpretando a alguien que no tiene ni idea y formulando las preguntas que se hace habitualmente quien se enfrenta por primera vez a este tipo de problema.
+
+#### La spec.md como fuente de la verdad
+
+El primer paso consiste en partir de una fase de *discovery* simplificada —detectar una necesidad que merezca la pena resolver— y traducirla inmediatamente a una especificación en un fichero `spec.md`. Garzás insiste en que ese fichero no se escriba con el teclado sino dictando, y recomienda herramientas de dictado como Wispr Flow para no ralentizar el proceso. La razón de fondo es el problema de memoria de los chatbots: la ventana de contexto es efímera, las respuestas son estadísticas y tienden a variar, de modo que lo importante debe vivir en formatos persistentes. El `spec.md` actúa por tanto como fuente de la verdad, es del usuario y no del fabricante de IA, y es portable entre entornos. Además, el concepto de *spec* incorpora buenas prácticas de ingeniería de requisitos que la IA ya conoce, de manera que una persona ajena a esa disciplina obtiene una especificación formal sin haberla estudiado.
+
+#### Spec-Driven Development: del requisito en texto al prototipo operativo
+
+El vídeo enmarca el método bajo el nombre de Spec-Driven Development (SDD), es decir, desarrollo dirigido por especificaciones: escribir primero qué se quiere y dejar que la IA construya después, acotando el alcance y conservando esa fuente de la verdad para futuras réplicas o evoluciones. Garzás lo presenta como una versión muy simplificada del método, suficiente para el 80/20, y señala un cambio de fondo en el papel de los perfiles de negocio: al product owner ya no se le pide solo describir lo que espera, sino entregar un prototipo operativo que funcione y pueda validarse. El antiguo requisito en texto queda sustituido por un prototipo ejecutable creado por la propia persona de negocio, con el criterio ágil de mantener las especificaciones pequeñas —del orden de unas cinco historias de usuario como máximo— e ir de menos a más, porque quitar capas de una solución grande resulta mucho más costoso que añadirlas.
+
+#### Prototipado visual y design.md
+
+Tras la especificación, el proceso pasa por pedir un artefacto visual que permita ver cómo funcionaría la aplicación antes de construirla, lo que habilita una validación temprana muy alejada del antiguo documento en texto. Una vez validado el flujo, se aborda el diseño solicitando que se apliquen buenas prácticas de UX mediante un fichero `design.md`, que en la demostración se busca específicamente para aplicaciones deportivas. Igual que el `spec.md`, el `design.md` se convierte en una segunda fuente de la verdad, independiente del fabricante, portable y legible en lenguaje natural, y evita discusiones sobre colores, contrastes o estilos. Garzás subraya que este reparto de tareas ilustra la ruptura actual de roles: la misma persona cubre el trabajo del antiguo analista de requisitos, del prototipador y ahora también del diseñador de experiencia, dando lugar al perfil que denomina *product builder* o *product maker*.
+
+#### Aplicación operativa, despliegue en Vercel y la barrera del séptimo paso
+
+El sexto paso exige que el prototipo sea operativo y probablemente es donde más código de negocio se genera; aquí la IA decide por sí sola el lenguaje, el framework y la arquitectura, sin que el usuario técnico tenga que especificarlos. El séptimo paso, que Garzás señala al inicio como el punto donde se pierde la mayoría de la gente no técnica, es sacar la aplicación del ordenador personal y ponerla a disposición de cualquiera. Para ello el vídeo recurre a un hosting gratuito y sencillo, Vercel, arrastrando la carpeta generada al proyecto correspondiente. Se explican también alternativas intermedias según el caso: si la aplicación no almacena datos, la propia herramienta puede generar un enlace compartible sin necesidad de desplegar; y si se quiere ir de menos a más, basta con guardar los datos en el propio navegador en lugar de montar una base de datos. Como cierre técnico, Garzás advierte de que conviene decidir con cuidado a qué se concede acceso a la IA y no darle permisos sobre nada que no se compartiría abiertamente.
+
+#### Límites del método y disciplinas adyacentes
+
+El autor marca con claridad el perímetro de utilidad: el método sirve para prototipos, aplicaciones internas y automatizaciones de procesos propios, y estima que entre el 80 % y el 90 % de las aplicaciones que ve se crean para resolver problemas internos sin clientes externos. En cuanto una aplicación va a escalar, va a producción o va a facturar de forma significativa, es de sentido común que pase por un equipo técnico que garantice seguridad, escalabilidad, mantenibilidad y cumplimiento legal. En ese escalón aparecen disciplinas que el vídeo menciona de pasada: el *vibe engineering* como paso más allá del *vibe coding*, y la «ingeniería del arnés», orientada a rodear a la IA de guardarraíles para que no se desmorone lo construido. También se apunta que existen ficheros de ámbito técnico como `plan.md` o `tasks.md`, donde se fijan decisiones arquitectónicas y tecnológicas, que quedan deliberadamente fuera del alcance de esta sesión introductoria.
+
+#### Resultados del reto y el nuevo perfil profesional
+
+La parte final del vídeo repasa las aplicaciones creadas por los participantes del reto: una aplicación de acompañamiento y asistencia en eventos, un recetario ligado a objetivos de entrenamiento, un gestor de estado de credenciales, la propuesta ganadora centrada en trámites administrativos por comunidad autónoma con conexión a APIs oficiales, una guía de recomendaciones sobre herramientas, una aplicación para adolescentes y un asistente sobre prestaciones de la Seguridad Social. Garzás cierra con la idea de que la barrera de los lenguajes complejos y de los despliegues ha caído, que el profesional del futuro será mucho más multifuncional dentro de su sector y que conviene afrontar este cambio acompañado, dado el ritmo al que evoluciona el ecosistema.
+
+### 🔗 Referencias
+
+| Tipo | Referencia | Enlace |
+|---|---|---|
+| Producto | Claude Code (Anthropic) — herramienta usada en local para generar la aplicación | https://claude.com/product/claude-code |
+| Producto | Wispr Flow — dictado por voz para escribir prompts sin teclado | https://wisprflow.ai/ |
+| Producto | Vercel — hosting gratuito usado para el despliegue | https://vercel.com/ |
+| Empresa/comunidad | 233 Academy — comunidad que organiza el reto «Viberano» | https://233academy.com/ |
+| Repositorio | GitHub — repositorio de skills y materiales de Discovery de la comunidad | https://github.com/ |
+| Estándar/método | Spec-Driven Development (SDD) — desarrollo dirigido por especificaciones | https://en.wikipedia.org/wiki/Spec-driven_development |
+| Fichero | `spec.md`, `design.md`, `plan.md`, `tasks.md` — fuentes de la verdad en Markdown | https://commonmark.org/ |
+| Producto | Figma — herramienta de diseño de referencia citada por el autor | https://www.figma.com/ |
+
+---
 ## [Matthew Berman] Anthropic went CRAZY (Opus 5.5)
 
 **Fecha:** 2026-09-23

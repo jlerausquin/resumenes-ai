@@ -1,5 +1,57 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] GPT-6 Sol and Luna Are HERE!
+
+**Fecha:** 2026-09-23
+**URL:** https://www.youtube.com/watch?v=Ima_AVPyQ9E
+**Video ID:** Ima_AVPyQ9E
+
+### 📝 Resumen
+
+Matthew Berman analiza en directo el lanzamiento simultáneo de los dos nuevos modelos de OpenAI, GPT-6 Sol y GPT-6 Luna, que llegan el mismo día que el Opus 5.5 de Anthropic y apenas un día después del Grok 4.7 de xAI. El vídeo combina el repaso de precios y disponibilidad con una lectura de fondo: lo que ambas compañías están entregando no es potencia bruta, sino eficiencia, velocidad y precio.
+
+#### Un lanzamiento encadenado: Sol, Luna, Opus 5.5 y Grok 4.7
+
+El vídeo arranca subrayando el ritmo del ecosistema: en apenas dos días se han publicado GPT-6 Sol y Luna de OpenAI, Opus 5.5 de Anthropic y Grok 4.7 de xAI. Berman describe la semana como saturada de modelos y sitúa a Luna como la actualización de su modelo favorito, el GPT-5.6 Luna, que ya destacó en su momento por ser extremadamente rápido y barato manteniendo un nivel de inteligencia alto. Ambos modelos se presentan como mejoras transversales no solo en benchmarks, sino también en calidad de escritura.
+
+#### Precios: la reducción del 50 % y el modelo de trabajo barato
+
+El análisis de precios es el eje económico del vídeo. Frente a GPT-5.6 Sol, GPT-6 Sol aplica una reducción del 50 %, quedando en 2 dólares por millón de tokens de entrada y 10 dólares por millón de tokens de salida; se trata de un modelo situado un paso por debajo de Astra, el frontier absoluto de OpenAI. GPT-6 Luna encadena otra rebaja del 50 % a la que ya había aplicado previamente, hasta 10 céntimos por millón de tokens de entrada y 50 céntimos por millón de salida. Berman califica ambos precios como increíbles y los describe como modelos de trabajo puros, capaces de asumir entre el 90 % y el 95 % de las tareas habituales.
+
+#### Automation Bench: la relación calidad-precio
+
+El primer benchmark que analiza es Automation Bench, representado en el llamado «cuadrante del dinero» —rendimiento en el eje vertical frente a coste en el horizontal—. GPT-5.6 a esfuerzo máximo anotó 28,8 puntos, mientras que GPT-6 Sol en modo extra high alcanzó lo más alto con un 33 %. Astra sigue siendo el mejor modelo de OpenAI, pero ahora existe una versión mucho más barata que se le acerca sin igualarla. Luna es el peor de los tres modelos en puntuación, pero con un coste mínimo: en su configuración baja obtiene una puntuación modesta a un precio muy reducido y en su configuración máxima supera el 20 % por menos de 5 céntimos por tarea. Berman señala además que GPT-6 Sol supera a Claude Fable 5.1 a un coste muy inferior e incluso a GPT-6 Astra en modo de bajo esfuerzo.
+
+#### Frontier Code y el uso de computadora
+
+El segundo benchmark, que Berman considera la referencia más precisa para evaluar la codificación agéntica, vuelve a colocar a Luna en una posición muy fuerte: GPT-6 Luna Max alcanza un 66,6 % con 22 céntimos de coste por tarea, un resultado comparable al de Soul Medium con 80 céntimos y al de Astra Low con 1,70 dólares por tarea. En cambio, en OSWorld —la prueba de uso de computadora— Luna queda claramente por detrás de Astra, con un 53 % frente a un 73 %. El autor encarga al propio Astra que genere un gráfico que reúna a Sol, Luna y Opus 5.5 en las mismas métricas.
+
+#### La misma semana, tres modelos y una brecha de precio enorme
+
+Al comparar en un mismo gráfico GPT-6 Sol, Luna y Opus 5.5, todos lanzados el mismo día, Berman observa que la diferencia de rendimiento en Frontier Code entre los tres es de apenas 6 a 7 puntos porcentuales, mientras que el precio se multiplica varias veces: 10 céntimos frente a 2 dólares frente a 4 dólares. Esa asimetría sostiene la narrativa central del vídeo: pagar por la mejor respuesta absoluta es caro, y la elección razonable pasa por modelos intermedios con una relación calidad-precio muy superior.
+
+#### «Pacing the frontier»: eficiencia en lugar de potencia bruta
+
+La reflexión de fondo es que tanto Anthropic como OpenAI están aplicando una política de frenar o dosificar la frontera. El resultado observable es que se obtiene eficiencia, velocidad y precio, pero no potencia e inteligencia crudas. Berman matiza que esto no implica que las compañías no estén desarrollando capacidades mayores internamente, sino que lo que llega al mercado ahora son modelos más eficientes. Recuerda además el patrón habitual de publicación: primero aparecen los grandes modelos frontier, caros y muy potentes, y en las semanas o meses siguientes llegan versiones más baratas, probablemente de arquitectura similar a los frontier o incluso destiladas de ellos. Berman cierra señalando que este desenrollado es exactamente lo esperado y que acoge la tendencia con satisfacción, remitiendo a su vídeo anterior sobre Opus 5.5.
+
+#### Disponibilidad
+
+GPT-6 Sol y Luna están disponibles desde el mismo día en ChatGPT, en GPT Work y en Codex para todos los planes de pago (Plus, Pro, Business, Enterprise y Edu). Los usuarios gratuitos y de Go pueden acceder a GPT-6 Luna en la aplicación de escritorio.
+
+### 🔗 Referencias
+
+| Tipo | Referencia | Enlace |
+|---|---|---|
+| Producto | OpenAI — GPT-6 Sol y GPT-6 Luna, GPT-6 Astra | https://openai.com/ |
+| Producto | Anthropic — Opus 5.5 y Claude Fable 5.1 | https://www.anthropic.com/ |
+| Producto | xAI — Grok 4.7 | https://x.ai/ |
+| Benchmark | Automation Bench — puntuación de automatización frente a coste | https://www.automationbench.com/ |
+| Benchmark | Frontier Code — evaluación de codificación agéntica | https://www.frontiercode.ai/ |
+| Benchmark | OSWorld — uso de computadora (computer use) | https://github.com/xlang-ai/OSWorld |
+| Patrocinador | here.now — publicación de artefactos en la web desde el agente | https://here.now/ |
+| Empresa | Forward Future — equipo del autor | https://www.youtube.com/@matthew_berman |
+
+---
 ## [Matthew Berman] Anthropic went CRAZY (Opus 5.5)
 
 **Fecha:** 2026-09-23
