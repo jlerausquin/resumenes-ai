@@ -1,5 +1,59 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] 8 Jev Use Cases That Feel Like Cheating
+**Fecha:** 2026-09-24
+**URL:** https://www.youtube.com/watch?v=jGD_UR4wMJc
+**Video ID:** jGD_UR4wMJc
+
+### 📝 Resumen
+
+#### Qué es Jev y por qué genera expectación
+
+Matthew Berman presenta Jev, una IA aparecida apenas unos días antes de la grabación y que describe como lo más emocionante que ha visto en mucho tiempo, con una sensación comparable a los primeros días de ChatGPT. La clave es que Jev no es un modelo generativo de texto, sino un **tomador de decisiones** capaz de resolver decenas de miles o cientos de miles de decisiones de forma extremadamente rápida y muy barata. Su atractivo no está en la conversación, sino en la velocidad y el coste por decisión.
+
+#### Cómo funciona: decisiones estructuradas y criterios explícitos
+
+El funcionamiento se explica con un ejemplo deliberadamente simple: la pregunta "¿un perrito caliente es un sándwich?". El usuario estructura la consulta en JSON, define criterios de verdadero/falso (un sándwich es un plato con relleno entre almidón estructural; no lo es si no hay pan que encierre el relleno, si usa una sola rebanada o si emplea un envoltorio que no es pan, como una tortilla o una galleta) y puede anidar definiciones adicionales, por ejemplo qué se considera "comida". Al ejecutarlo, Jev devuelve un 73% de probabilidad de verdadero. La conclusión es que Jev rinde al máximo cuando el tipo de decisión se puede describir, el contexto es claro y las preguntas están estructuradas.
+
+#### Lo que Jev no hace bien
+
+Berman es explícito sobre los límites: Jev no es un modelo de generación de texto, por lo que no sirve para pedir consejo abierto (por ejemplo, cómo hablar con un jefe) ni para escribir código. Su terreno son las decisiones discretas y masivas, no la creatividad ni la redacción. Un matiz interesante: enfrentado a otro modelo en una partida de ajedrez sin límite de tiempo perdería, pero con límite de tiempo ganaría, porque toma cada decisión casi instantáneamente mientras el rival se queda sin reloj.
+
+#### Automatización práctica: bloqueo de publicidad y "slop", y correo priorizado
+
+Entre las aplicaciones reales destacadas está un detector de "slop" de IA: al analizar anthropic.com detectó un 26% de contenido generado por IA y desglosó en qué elementos se basaba. También se muestra **Unclutter**, un bloqueador inteligente de anuncios y slop creado por Kitsy, que limpia una web al cargarse eliminando anuncios, banners de cookies y diálogos molestos, enviando los elementos a Jev con criterios de "spam" y "molesto" para decidir qué se retira; es prácticamente instantáneo y muy barato usando la clave propia del usuario. Otra demo ordena 100 correos por prioridad en menos de medio segundo, algo que Berman antes resolvía con herramientas en GrokBot.
+
+#### Integración con Zapier y demos de la comunidad
+
+Zapier, patrocinador del vídeo, ha incorporado Jev como acción dentro de sus flujos: conectándolo a más de 9.000 aplicaciones ya integradas, Jev puede decidir entre ellas, por ejemplo aceptar o rechazar automáticamente invitaciones de calendario según criterios definidos. Se menciona el contexto de Zap Connect 2026, la conferencia anual de la compañía, y los "NextG Zaps". Otras demos de la comunidad incluyen una versión de búsqueda difusa del "buscar en página" del navegador, creada por un product manager de Google, que resalta palabras por significado aproximado, no por coincidencia exacta, y es de código abierto con clave propia.
+
+#### Generación dinámica de interfaces y recorte de vídeo ultrarrápido
+
+Aunque Jev no escribe código, sí puede ensamblar páginas web eligiendo entre una biblioteca preconfigurada de elementos de interfaz (botones, campos de entrada, tipografías): en la demo se ve la página renderizándose a la izquierda mientras Jev decide en tiempo real qué componentes necesita el usuario, incluido el inicio de sesión, en menos de un segundo. También se muestra **Clipfast**, una herramienta que trocea un vídeo de más de 90 minutos en varios clips relevantes según lo que se escriba, analizando transcripción y contenido en menos de dos segundos y con descarga en un clic: un caso donde la velocidad es el factor que desbloquea el uso.
+
+#### Demos lúdicas: paletas de color y asociación de emojis
+
+El vídeo cierra con dos ejemplos más de carácter exploratorio. El primero genera paletas de color a partir de cualquier término ("disco de los 80", "navegador", "Mario", "Luis", "Wario", "pantalla azul de la muerte", "Matrix", "playa"), mostrando que Jev maneja conocimiento del mundo. El segundo convierte cualquier texto en una selección de emojis asociados, como "quiero adelgazar" o "montar una banda".
+
+#### Precio y disponibilidad
+
+Berman destaca el modelo de coste como parte central de su atractivo: según lo expuesto en el vídeo, los tokens de entrada cuestan unos 4,2 centavos por millón y los de salida son gratuitos e ilimitados, lo que hace viable enviar lotes enormes de decisiones a casi coste cero. El ecosistema de demos se concentra en el sitio madewithjev.com.
+
+### 🔗 Referencias
+
+| Tipo | Referencia |
+|---|---|
+| Web / demos | [madewithjev.com](https://madewithjev.com) — recopilatorio de ejemplos y demos hechas con Jev |
+| Producto / herramienta | Unclutter (por Kitsy) — bloqueador inteligente de anuncios, banners de cookies y "slop" con Jev |
+| Producto / herramienta | [Clipfast](https://clipfast.ai) — recorte automático de vídeos largos en clips con Jev |
+| Plataforma | [Zapier](https://zapier.com) (patrocinador) — Jev disponible como acción dentro de los Zaps, integrable con +9.000 apps; contexto de Zap Connect 2026 y "NextG Zaps" |
+| Modelo / servicio | Jev — modelo de decisión; ~4,2 centavos por millón de tokens de entrada, salida gratuita |
+| Demo / open source | Búsqueda difusa tipo "find in page" con Jev (creada por un product manager de Google), gratuita y con clave propia |
+| Sitio analizado en la demo | [anthropic.com](https://www.anthropic.com) — ejemplo de detección de "slop" (26% estimado) |
+| Mencionado | Fable — modelo con el que se compara a Jev en una partida de ajedrez con y sin límite de tiempo |
+| Mencionado | GrokBot — herramienta usada antes por el autor para priorizar correo |
+
+---
 ## [Matthew Berman] GPT-6 Sol and Luna Are HERE!
 
 **Fecha:** 2026-09-23
