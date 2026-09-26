@@ -1,5 +1,63 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI News: Opus 5.5, GPT-6 Sol, Jev, Muse and More!
+**Fecha:** 2026-09-26
+**URL:** https://www.youtube.com/watch?v=aDpIra7NFuE
+**Video ID:** aDpIra7NFuE
+
+### 📝 Resumen
+
+#### Meta Connect: Muse, el agente que compite con OpenClaw
+
+Matt Wolfe abre el repaso semanal con lo anunciado en Meta Connect, al que asistió en persona. El protagonista es **Muse**, el agente de IA de Meta, presentado como una alternativa a OpenClaw pero sin la complejidad de instalación y configuración que este último exige. El autor asegura haberlo usado para revisar su correo y volcar automáticamente a su calendario los eventos que encuentra en él, además de analizar sus cuentas de Instagram e Threads para proponerle ideas de publicaciones con potencial de viralidad en función del rendimiento histórico de su contenido. Las novedades anunciadas para Muse incluyen poder dirigirlo desde las gafas de Meta, un modo de voz disponible también en la app y el navegador, una batería de nuevos conectores (entre ellos Granola, que usa para grabar reuniones), *computer use* en la app de Mac —capaz de tomar el control de aplicaciones mientras el usuario se ausenta— y una dirección de correo propia para el agente, de modo que se le puedan reenviar hilos y pedirle tareas como encontrar hueco en la agenda, agendarlo y responder al interlocutor. Meta también adelantó **Muse Charm**, un pequeño dispositivo de mano tipo llavero, aún en producción y previsto para las próximas vacaciones.
+
+#### Nuevas gafas: del rechazo a las cámaras al visor sin casco
+
+En el apartado de hardware, Meta desplegó una amplia variedad de formatos de gafas. Destacan las **Ray-Ban Meta Audio**, que conservan toda la funcionalidad de las Ray-Ban Meta pero eliminan las cámaras —una respuesta directa al rechazo social hacia las llamadas "gafas de mirón" y a la incomodidad que generan quienes las llevan puestas—; el autor las probó y elogió su calidad de sonido. También se actualizaron las Ray-Ban Display, con novedades como indicaciones para ciclismo y transporte público, navegación con voz más natural, un calendario más potente, notificaciones espejadas del teléfono y feeds comunitarios de Threads. El momento más celebrado de la keynote fue, sin embargo, el nuevo dispositivo de realidad mixta: unas gafas que sustituyen al voluminoso casco de Meta Quest y que, según el autor, ofrecen una calidad de visión comparable o incluso superior a la del Apple Vision Pro, con pass-through nítido, seguimiento ocular y gestos con los dedos. Pesan unos 100 gramos porque todo el cómputo y la batería se trasladan a un pequeño puck conectado por cable. Se podrá jugar a todo lo disponible en Meta Quest y las llamadas mostrarán hologramas completos con piernas, característica que también llegará a las Meta Display. Llegarán en primavera de 2027 por 1.299 dólares.
+
+#### Horizon Create y Horizon Studio: crear juegos describiéndolos
+
+En la segunda jornada, dedicada a desarrolladores, Meta presentó **Horizon Create** y **Horizon Studio**, dos plataformas de creación asistida por IA construidas sobre las capacidades agénticas del motor Meta Horizon. Ambas permiten convertir una idea descrita con palabras en un juego móvil 2D o 3D completo, con sistemas de progresión, dificultad equilibrada, dirección artística y multijugador. Horizon Create funciona desde una app móvil y Horizon Studio desde el navegador. El autor anticipa que no tardaremos en ver el mismo enfoque aplicado a la creación de mundos de realidad virtual directamente desde dentro de los visores.
+
+#### OpenAI: la API de GPT-Live 1 y los modelos económicos Sol y Luna
+
+OpenAI hizo disponible de forma general la API de **GPT-Live 1**, que permite que un asistente de voz siga conversando con el usuario mientras un agente trabaja en segundo plano. El autor lo demuestra construyendo, junto a GPT Astra en Codex, un investigador de noticias de IA controlado por voz y capaz de citar fuentes, con la particularidad de que puede cambiar de instrucciones en mitad de la conversación sin esperar a que termine la investigación en curso. A esto se suman **GPT-6 Sol** y **GPT-6 Luna**, presentados como modelos de recorte de precio más que de récord en benchmarks: Sol baja de 4 a 2 dólares por millón de tokens de entrada y de 20 a 10 por millón de salida, mientras Luna pasa de 20 a 10 centavos y de 1,20 a 0,50 dólares. El autor los sitúa como "casi estado del arte" pero mucho más baratos: en su prueba de generación de juegos, Sol Ultra trabajó 24 minutos y produjo un resultado inferior al de Astra y superior al de Fable, y su propio *leaderboard* subjetivo —basado en un LLM como juez— lo colocó primero, por delante de la variante Pro, que gastó muchos más tokens y tiempo. En ChatGPT, el chat normal sigue usando 5.6 Soul, mientras que el modo "work" ya permite seleccionar explícitamente GPT-6 Soul o Luna.
+
+#### Claude Opus 5.5, el nuevo estado del arte
+
+La segunda novedad relevante fue **Claude Opus 5.5**, que el autor considera el mejor modelo disponible en el momento de grabar, a la espera del OpenAI Dev Day de la semana siguiente. Lidera codificación agéntica, trabajo de conocimiento, Humanity's Last Exam, uso de ordenador y reconocimiento visual de gráficos, superando a GPT-6 Astra también en relación coste-rendimiento y mejorando a Claude Fable 5.1 en casi todos los benchmarks a menos de la mitad del precio (de 10 a 4 dólares de entrada y de 50 a 20 de salida). En su prueba estándar de desarrollo de videojuegos, Opus 5.5 trabajó casi 20 horas construyendo y probando de forma iterativa y produjo una réplica notablemente fiel del juego de referencia en personajes, animaciones de subida de nivel, sonido, jefe final y menú de pausa. Otra faceta que generó admiración fue su capacidad de animación: el vídeo recopila ejemplos creados con JavaScript —explicaciones de cómo funcionan los navegadores y los modelos transformer—, esquemas arquitectónicos e incluso una animación del LHC en la que el modelo toma el control de Blender. Pese a ello, en la clasificación de animaciones del autor quedó octavo, con un coste de 49 centavos, 4 minutos y unos 25.000 tokens.
+
+#### Grok 4.7 y la comparativa agregada
+
+El tercer modelo de la semana fue **Grok 4.7** de xAI, el menos impresionante de los tres. En su prueba de generación de juegos produjo resultados de nivel muy básico —personajes con forma de cubo y de píldora— y en las gráficas comparativas aparece frente a modelos de generación anterior, no contra Sol, Astra u Opus 5.5. En el ranking agregado de Artificial Analysis, Opus 5.5 Max queda como el modelo más inteligente por un margen amplio, con GPT-6 Soul unos diez puntos por debajo y Grok 4.7 en modo extra high en 46. En coste por tarea, la lectura es matizada: Opus 5.5 es el segundo más caro pese a haber reducido el precio por token, porque consume muchos más tokens de salida que cualquier otro modelo; GPT-6 Soul se queda en unos 6 dólares por tarea frente a los casi 16 del propio Grok, que resulta barato por millón de tokens pero muy ineficiente en consumo.
+
+#### Jev: un modelo calibrado para decidir, no para escribir
+
+La mayor expectación de la semana la generó **Jev**, de Typesafe AI, un modelo publicado la semana anterior pero discutido masivamente ahora. Su premisa es que los LLM convencionales están optimizados para producir texto que agrada a los humanos, incluso cuando se les pide decidir; Jev en cambio salta directamente a la decisión y devuelve *valores estructurados* —una elección entre opciones, una puntuación o un valor nulo— acompañados de una puntuación de confianza. Eso lo hace extremadamente barato (4 centavos por millón de tokens de entrada, salida gratuita por lo irrisorio de su coste) y muy rápido: en la comparativa de su web, 27 preguntas resueltas de forma casi instantánea frente a GPT 5.6 Terra en modo streaming. El autor enumera casos de uso ya compartidos por terceros: arrastrar y soltar inteligente que clasifica archivos por carpetas, ordenación de una bandeja de entrada por criticidad en lugar de por fecha, moderación automática de comentarios negativos, detección de URLs maliciosas y control de videojuegos decidiendo fotograma a fotograma si saltar, avanzar, retroceder o atacar. Los registros nuevos están temporalmente cerrados por exceso de demanda, y el autor anuncia que dedicará un análisis más profundo a Jev en un vídeo aparte.
+
+#### Made on YouTube y repaso rápido
+
+En el bloque de noticias breves, la conferencia **Made on YouTube** anunció feeds personalizados creados por IA, búsquedas conversacionales, doblaje automático en directo para retransmisiones, funciones de IA para miniaturas y edición con Gemini Omni, mejor detección de suplantación de identidad y pruebas A/B de introducciones y de miniaturas por segmentos de audiencia; en YouTube Music llega Ask Music, una experiencia conversacional sobre podcasts y un catálogo de 300 millones de canciones. Microsoft presentó un Copilot reorganizado en tres modos —chat, co-work y autopilot— con elección entre modelos de GPT y de Claude, un modo de código equivalente a Claude Code o Codex y un modo de automatización capaz de operar Excel, Word y PowerPoint. Google lanzó **Gemini 3.8 Live** con avatar en vídeo en tiempo real y **Gemini 3.8 text-to-speech** en AI Studio, además de integrar Omni en Google Vids, que pasa a ofrecer animaciones más dinámicas y una vía gratuita de acceso a Omni. Spotify introdujo su *taste profile* editable con IA y Google anunció **Project Suncatcher**, su plan para llevar TPUs al espacio en colaboración con SpaceX, asumiendo que aún hay que resolver disipación de calor, supervivencia al lanzamiento y conectividad entre satélites. El autor cierra recordando que la semana siguiente es el OpenAI Dev Day, donde espera nuevos anuncios relevantes.
+
+### 🔗 Referencias
+
+| Referencia | Enlace |
+|---|---|
+| Meta Connect (keynote y anuncios) | https://www.metaconnect.com/ |
+| Meta AI / agente Muse | https://www.meta.ai/ |
+| OpenAI Platform (API GPT-Live 1, GPT-6 Sol y Luna) | https://platform.openai.com/docs/models |
+| OpenAI Codex | https://openai.com/codex/ |
+| Anthropic (Claude Opus 5.5) | https://www.anthropic.com/news |
+| xAI (Grok 4.7) | https://x.ai/news |
+| Typesafe AI (modelo Jev) | https://typesafe.ai/ |
+| Artificial Analysis (rankings de inteligencia y coste por tarea) | https://artificialanalysis.ai/ |
+| Made on YouTube | https://blog.youtube/ |
+| Google AI Studio (Gemini 3.8 Live y TTS) | https://aistudio.google.com/ |
+| Google Project Suncatcher | https://blog.google/technology/ |
+| Spotify Taste Profile | https://newsroom.spotify.com/ |
+| Microsoft 365 Copilot | https://www.microsoft.com/microsoft-365/copilot |
+
+---
 ## [Matt Wolfe] Opus 5.5 Is Crazy Good and GPT-6-Sol Launched Too
 
 **Fecha:** 2026-09-22
