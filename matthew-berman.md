@@ -1,5 +1,54 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Sonnet 5.5 Is Here. Look What It Can Build.
+**Fecha:** 2026-09-29
+**URL:** https://www.youtube.com/watch?v=T-E7rmD6rh4
+**Video ID:** T-E7rmD6rh4
+
+### 📝 Resumen
+
+#### Sonnet 5.5: rendimiento de gama alta a mitad de precio
+El vídeo parte de la tesis de que Sonnet 5.5 puede ser el mejor modelo global en relación calidad-precio, y posiblemente el mejor en términos absolutos para la mayoría de usos. El autor tuvo acceso anticipado y estructura la pieza como una demostración práctica: qué es capaz de construir y dónde falla todavía. La conclusión que repite a lo largo del vídeo es que la diferencia cualitativa frente a Opus 5.5 es casi imperceptible, mientras que el precio es aproximadamente la mitad, lo que convierte a Sonnet 5.5 en la opción por defecto razonable para la mayoría de tareas de desarrollo.
+
+#### Un océano 3D en el navegador a partir de un único prompt
+El primer demo consiste en una simulación de océano en tiempo real en el navegador, generada desde una sola instrucción. El resultado incluye estados de mar configurables (de calma cristalina a tormenta), olas rompientes con espuma, cielo dinámico con nubes que proyectan sombra sobre el agua, ciclos de luz hasta noche de luna, lluvia y rayos, un velero con estela y una vista subacuática con haces de luz y peces. La interfaz permite ajustar oleaje, dirección del viento, altura de ola, cobertura nubosa y posición del sol en tiempo real. Como detalle adicional, el propio modelo se encargó de abrir cada escena, grabarla y editarla en vídeo, lo que ilustra que el flujo de trabajo ya no se limita a generar código sino a producir y verificar el material resultante.
+
+#### Juegos completos: el clone de Fall Guys y Crownfall
+El segundo bloque muestra un juego jugable tipo Fall Guys construido con Three.js, con el jugador enfrentándose a 59 bots a lo largo de cinco rondas y una ceremonia final de corona. El autor subraya un patrón de prompting clave: hay que pedir explícitamente al modelo que verifique su propio trabajo (mediante capturas, vídeo o jugando la partida) en lugar de asumir que funciona. También presenta Crownfall, un juego de estrategia estilo Age of Empires desarrollado por un miembro de su equipo, con gestión de aldeanos, caballería de exploración y construcción de casas; el propio juego avisa al jugador de cuándo necesita más viviendas. En ambos casos, el material jugable se generó con uno o dos prompts, y el autor considera que la versión de Sonnet resultó incluso más divertida que la de Opus.
+
+#### Constructores 3D: Lego y ciudades hiperrealistas en Unreal
+Una aplicación permite describir cualquier objeto en lenguaje natural (o subir una imagen) y obtener un modelo construido solo con piezas de Lego reales, en colores reales, con vista 3D, instrucciones paso a paso y exportación a PDF, lista de deseos de BrickLink, CSV de Rebrickable, modelo LDraw o JSON. El diseño del prompt es notable: el modelo no coloca los ladrillos directamente, sino que describe las formas y un programa las traduce a piezas reales, comprobando que el resultado sea una única pieza conectada y devolviendo los errores al modelo para corregirlos. En el demo aparecen construcciones predefinidas (como un pato de goma) con centenares de pasos y vistas frontal, lateral, superior, 3D y despiezada. En el mismo registro, el autor recreó San Francisco a escala real en Unreal Engine 5.8 usando datos reales de la ciudad, con unas 120.000 personas y 2.400 vehículos, y un cuadro de texto para lanzar eventos (por ejemplo, un incendio en la pirámide Transamérica) ante los que la ciudad reacciona: bomberos que llegan, tráfico que se aparta y multitudes que huyen o se quedan mirando.
+
+#### Luces y sombras del 3D generado
+El balance del 3D es desigual pero convincente. Entre los aciertos: el realismo de los peatones, los patrones de tráfico y los coches aparcados, y edificios individualmente distinguibles que un local reconocería a primera vista. Entre los problemas: brillos y parpadeos («shimmering») en ventanas y fachadas detectados tanto en San Francisco como en el demo de Batman Arkham Knight, sombras imperfectas en ciertos puntos, sobrecarga del equipo local y algunas pequeñas colisiones. Otro miembro del equipo construyó una ciudad completa para un demo tipo Batman y una versión realista del mundo de Mario en Unreal, con Mario más humanizado de lo habitual y una postura algo encorvada al correr. Un demo de carreras tipo Forza completó el repertorio. La carencia transversal que el autor destaca es el audio: ni la música ni los efectos de sonido generados alcanzan un nivel aceptable en ninguno de los proyectos.
+
+#### Benchmarks: prácticamente indistinguible de Opus 5.5
+La parte más llamativa son las comparaciones. Sonnet 5.5 supera a Opus 5.5 en Terminal Bench 4.0, uno de los referentes más importantes para evaluar código, pese a ser teóricamente el modelo más pequeño, barato y rápido. En el resto de pruebas las cifras quedan casi empatadas: Frontier Code 1.1 en extra high (52,1 frente a 54,4), Cursor Bench (55,5 frente a 57,8), GDPval (1844 frente a 1846), Humanity's Last Exam (64,5 frente a 67,7), OSWorld de uso de ordenador (80,1% frente a 81%) y reconocimiento visual de gráficos (61% frente a 64%). El autor reconoce que en uso real durante varios días no logró distinguir ambos modelos, y apunta que en varias pruebas un Sonnet 5.5 en esfuerzo bajo o medio supera la mejor puntuación de Sonnet 5 a una décima parte del coste. Su única reserva en cuanto a uso de ordenador es que los modelos de OpenAI siguen siendo mejores controlando el navegador.
+
+#### Precio, velocidad y rarezas de comportamiento
+El argumento económico cierra el vídeo: Opus 5.5 cuesta 4 dólares por millón de tokens de entrada y 20 por millón de salida, frente a los 2 y 10 de Sonnet 5.5. No compite con el coste de los modelos abiertos, pero para la calidad que ofrece resulta muy atractivo, y además es más rápido. El autor menciona una peculiaridad observada en escritura: Sonnet 5.5 tiende a usar ortografía británica de forma consistente, algo fácilmente corregible por instrucción. Su recomendación final es que quien canceló su suscripción a Claude debería recuperarla, porque el modelo vale la pena, y ofrece enlazar los demos para probarlos por cuenta propia.
+
+### 🔗 Referencias
+
+| Tipo | Referencia | Enlace |
+|------|-----------|--------|
+| Producto | CodeRabbit / Change Stack (patrocinador) | https://coderabbit.link/matthew-berman-001 |
+| Demo | Crownfall (estrategia estilo Age of Empires) | https://saffron-flint-kkcm.here.now/ |
+| Demo | Bounce Lab | https://granite-intent-25rt.here.now/ |
+| Demo | Marrow Manor | https://humble-laurel-xy9b.here.now/ |
+| Demo | Splatburst | https://cerulean-nimbus-dv8v.here.now/ |
+| Demo | DEADLOCK | https://dusty-solace-cxph.here.now/ |
+| Demo | Bouncing Ball (comparativa Sonnet 5) | https://placid-tassel-bxss.here.now/ |
+| Demo | Withering Manor (comparativa Sonnet 5) | https://present-quiche-ynav.here.now/ |
+| Empresa | Anthropic — modelos Sonnet 5.5 y Opus 5.5 | https://www.anthropic.com |
+| Producto | Unreal Engine 5.8 (Epic Games) | https://www.unrealengine.com |
+| Biblioteca | Three.js (render 3D en navegador) | https://threejs.org |
+| Producto | BrickLink (listas de piezas y compra) | https://www.bricklink.com |
+| Producto | Rebrickable (exportación CSV de piezas) | https://rebrickable.com |
+| Formato | LDraw (modelos 3D de Lego) | https://ldraw.org |
+| Newsletter | Forward Future — actualizaciones de IA | https://forwardfuture.com |
+
+---
 ## [Matthew Berman] 8 Jev Use Cases That Feel Like Cheating
 **Fecha:** 2026-09-24
 **URL:** https://www.youtube.com/watch?v=jGD_UR4wMJc
