@@ -1,6 +1,59 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] OpenAI COOKED
+
+**Fecha:** 2026-09-30
+**URL:** https://www.youtube.com/watch?v=Xc6ERvZM1NY
+**Video ID:** Xc6ERvZM1NY
+
+### 📝 Resumen
+
+Matthew Berman, que asistió en persona al Dev Day 2026 de OpenAI, repasa las principales novedades anunciadas en el evento, que en su opinión han puesto a la compañía por delante de sus competidores y han redefinido varias de sus líneas de producto.
+
+#### Dots: el asistente personal proactivo
+
+El anuncio más sonado fue Dots, la apuesta de OpenAI por la nueva generación de asistentes personales hiperpersonalizados, un terreno que hasta ahora ocupaban Grokbot, Muse e Instinct y que en su origen estuvo marcado por OpenClaw (con un reconocimiento explícito a Peter Steinberger por haber fijado el tono de toda esta categoría). A diferencia del uso tradicional de ChatGPT, donde el usuario escribe un prompt y espera una respuesta, Dots funciona de forma permanente, siempre activo y muchísimo más proactivo: trata de anticipar lo que se necesita antes de que se pida. Es accesible tanto desde ChatGPT como desde Slack y Teams, opera como uno o varios agentes con su propio entorno en la nube y se conecta a las cuentas personales del usuario (Gmail, Google Docs, Calendar, etc.), de modo que tiene acceso a todo ello. Berman señala un detalle llamativo: todos estos asistentes están convergiendo hacia el mismo lenguaje de diseño, una forma geométrica suave con ojos, exactamente como ocurrió cuando todos los productos empezaron a imitar la interfaz de ChatGPT. También apunta una reserva: Dots vive dentro de la app de ChatGPT y controla los hilos de ChatGPT y Codex del usuario, en lugar de ser una app independiente. Las conversaciones con Dots no consumen cuota de ChatGPT, pero cuando Dots controla hilos de ChatGPT o Codex sí cuentan para el uso.
+
+#### UltraFast y el plan Pro 500
+
+Otra novedad destacada es UltraFast, basado en GPT-6 Astra y ejecutado sobre chips Cerebras, que va ocho veces más rápido que Astra sobre GPUs Nvidia a cambio de un coste seis veces mayor. Berman advierte de que los tokens se consumen con enorme rapidez: con acceso anticipado gastó 1.000 dólares en apenas una hora y media. En paralelo OpenAI introdujo el plan Pro 500, de 500 dólares al mes, con 25 veces más uso que Plus; el plan de 200 dólares, que antes ofrecía 20 veces, pasa a ofrecer solo 10 veces. Su lectura del pricing es matizada: aunque la inteligencia disponible hoy cuesta céntimos por millón de tokens frente a los 10, 20 o 30 dólares de hace un año, en la frontera absoluta se paga más, ya sea por velocidad o por calidad. Mostró una demo comparativa de construcción y lanzamiento de cohetes en la que UltraFast ya estaba lanzando mientras el modo estándar seguía pensando, y subrayó que con UltraFast el cuello de botella ha dejado de ser la inferencia y ha pasado a ser el propio ordenador local (tool calling y comandos de terminal).
+
+#### GPT-6.1 Sol, el modelo económico casi de frontera
+
+Berman considera posiblemente el anuncio más impresionante del día a GPT-6.1 Sol: un modelo asequible, rápido y eficiente que rinde prácticamente como el frontier absoluto. Enmarca el movimiento en el mismo patrón que Anthropic con Opus 5.5 (que sigue siendo el mejor modelo del mundo pero mucho más caro que Fable) y Sonnet 5.5 (casi tan bueno como Opus a mitad de precio): parece que OpenAI y Anthropic han resuelto el post-entrenamiento casi simultáneamente, construyendo modelos enormes (Fable, Astra) y destilándolos o post-entrenándolos en versiones más pequeñas, más baratas y más rápidas de inferir. En precios, Astra cuesta 10 dólares por millón de tokens de entrada y 50 por millón de salida, frente a los 2 y 10 de 6.1 Sol, con 10 céntimos por millón de tokens de entrada en caché. En benchmarks como el que mejor refleja la sensación real de los desarrolladores, 6.1 Sol iguala o supera a Astra a una fracción del precio; ocurre lo mismo en el benchmark de PDF, mientras que en OS World (uso de ordenador) Astra sigue por delante en los niveles más altos de razonamiento. La conclusión es que se obtiene un rendimiento casi de frontera pagando mucho menos.
+
+#### Codex: seguridad, nube, CLI con voz y revisión de código
+
+OpenAI presentó Codex Security Cloud, que escanea el código de forma continua en busca de problemas y vulnerabilidades y avisa cuando aparecen. Además, Codex pasa de forma nativa a la nube, algo que Berman celebra porque nunca tuvo sentido tener el portátil abierto permanentemente para programar. También se refrescó la CLI, que ahora permite controlarla por voz, y se añadió una nueva experiencia de revisión de código dentro de Codex.
+
+#### Decisions API: la respuesta a Jev
+
+Se mostró una preview de la Decisions API, un modelo construido para tomar decisiones rápidas al estilo de Jev y basado en la inteligencia de Luna, el modelo más ligero y pequeño de la casa. Berman matiene una duda razonable: cree que Jev seguirá siendo más rápido, porque está diseñado desde cero como modelo de decisión en lugar de reaprovechar un modelo existente como Luna para esa nueva función.
+
+#### Plugins relanzados, Sign in with ChatGPT y ChatGPT Space
+
+OpenAI relanzó los plugins después de que, dos Dev Days atrás, el lanzamiento original no funcionara bien y alimentara el relato de que las apps habían muerto o de cuántas startups acababa de matar la compañía. Ahora las apps viven de forma nativa dentro de ChatGPT y se añade el inicio de sesión con la cuenta de OpenAI (Sign in with ChatGPT) en terceros, con la posibilidad de llevar los propios tokens; Berman lo considera un gesto generoso, imaginando que un usuario con suscripción de ChatGPT pueda entrar en una app de terceros sin que esta tenga que cobrarle otra suscripción ni proveerle tokens. Por último, ChatGPT Space llega como competidor directo de Notion: un espacio nativo para que el usuario y sus compañeros de equipo trabajen con agentes, capaz de albergar desde presentaciones y hojas de cálculo hasta sitios web.
+
+### 🔗 Referencias
+
+| Recurso | Descripción | Enlace |
+|---|---|---|
+| OpenAI Dev Day 2026 — Recap | Página oficial con el resumen de todos los anuncios del evento | https://openai.com/index/devday-2026-recap/ |
+| Dots | Nuevo asistente personal proactivo de OpenAI, integrado en ChatGPT, Slack y Teams | — |
+| UltraFast (GPT-6 Astra sobre Cerebras) | Modo de inferencia 8x más rápido sobre chips Cerebras | — |
+| Plan Pro 500 | Suscripción de OpenAI de 500 $/mes con 25x el uso de Plus | — |
+| GPT-6.1 Sol | Modelo económico casi de frontera (2 $/M entrada, 10 $/M salida) | — |
+| Codex Security Cloud | Escaneo continuo de vulnerabilidades en el código | — |
+| Codex en la nube + CLI con voz + code review | Codex nativo en la nube, control por voz y nueva revisión de código | — |
+| Decisions API | Modelo de decisión rápida basado en Luna; competencia con Jev | — |
+| Plugins relanzados + Sign in with ChatGPT | Apps nativas en ChatGPT y login con cuenta de OpenAI llevando tus tokens | — |
+| ChatGPT Space | Espacio colaborativo con agentes, competidor de Notion | — |
+| OpenClaw (Peter Steinberger) | Proyecto que inspiró la ola de asistentes personales | — |
+| Grokbot / Muse / Instinct / Jev | Asistentes y modelos competidores citados | — |
+| Anthropic Opus 5.5 / Sonnet 5.5 · Fable / Astra / Luna | Modelos de Anthropic y de OpenAI mencionados como referencia | — |
+
+---
 ## [Matthew Berman] Sonnet 5.5 Is Here. Look What It Can Build.
 **Fecha:** 2026-09-29
 **URL:** https://www.youtube.com/watch?v=T-E7rmD6rh4
