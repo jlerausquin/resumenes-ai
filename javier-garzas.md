@@ -1,5 +1,68 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] ELIMINAR a los Managers con IA: el plan secreto de las grandes tecnológicas
+**Fecha:** 2026-09-30
+**URL:** https://www.youtube.com/watch?v=cCQqq68f1C0
+**Video ID:** cCQqq68f1C0
+
+### 📝 Resumen
+
+#### El origen: de ChatGPT al «Project OT» de Meta
+
+Javier Garzás sitúa el arranque de la historia en noviembre de 2022, con la irrupción de ChatGPT y sus 100 millones de usuarios en dos meses. Mientras la mayoría se preguntaba qué se podía hacer con la herramienta, en las cúpulas de las grandes tecnológicas la pregunta fue otra: qué gasto se podía eliminar con ella. Zuckerberg fue el primero en responder y bautizó su primer gran recorte como «el año de la eficiencia». Su tesis, ya explícita en enero de 2026, era que con IA los proyectos que antes exigían equipos grandes pasarían a hacerlos una sola persona muy buena; si una persona con IA hace el trabajo de un equipo, la capa que lo coordina sobra. El vídeo describe cómo esa idea cuajó en un plan con nombre en clave —el «Project OT»— presentado en una finca privada en Hawái a la cúpula de managers de Meta, con el objetivo de pasar equipos de 10 o 20 personas a grupos de tres a cinco y reducir hasta un 60 % las plantillas implicadas.
+
+#### No fue solo Meta: la oleada de recortes de mandos intermedios
+
+El vídeo subraya que el plan no era exclusivo de Meta. Amazon, Google, Microsoft, Block y Coinbase llevaban desde 2024 aplicando movimientos equivalentes, siempre bajo eufemismos que evitaban nombrar al manager: Andy Jassy (Amazon) hablaba de «quitar burocracia» en septiembre de 2024; Sundar Pichai lo llamó «era de la eficiencia»; la dirección de Microsoft, «reducir capas». El denominador común era siempre el manager de nivel intermedio, la parte central de la jerarquía. Gartner puso cifra a la tendencia al anticipar que una de cada cinco organizaciones eliminaría más de la mitad de sus mandos intermedios.
+
+#### Jack Dorsey y la doctrina «de la jerarquía a la inteligencia»
+
+En febrero de 2026, Jack Dorsey despidió al 40 % de la plantilla de Block —unos 4.000 de 10.000 empleados— argumentando que un equipo más pequeño con las herramientas adecuadas puede hacer más y mejor. Semanas después firmó con Roelof Botha, socio de Sequoia, el artículo «From Hierarchy to Intelligence», que Garzás considera la formulación casi doctrinal del movimiento. Su tesis es que la jerarquía existe para enrutar información de arriba abajo y de abajo arriba, y que si por primera vez hay una herramienta capaz de hacer ese trabajo, la figura que solo actúa como mensajero deja de ser necesaria. El vídeo recalca el matiz clave: el manager es sustituible si es solo un mensajero; si hace algo más, la ecuación cambia.
+
+#### Los tres movimientos del plan y el nacimiento del «builder»
+
+El autor resume el plan en tres movimientos que cada empresa aplicó por separado, aunque Zuckerberg los ejecutó a la vez y en secreto: dar más personas a cada manager, convertir al manager que queda en creador y sustituir con IA al manager puramente mensajero. De ahí surge la figura del «builder» o manager-creador, un perfil cada vez más presente en las ofertas de empleo al que no se le pide construir aplicaciones para millones de usuarios, sino optimizar procesos internos: cruzar datos, leer Excel con lenguaje natural, crear cuadros de mando, prototipos, integraciones y pequeñas aplicaciones. Garzás lo presenta como una salida profesional, no solo para técnicos, y recomienda a quien esté en esa situación moverse hacia un rol que combine experiencia de dominio y ejecución asistida por IA.
+
+#### La ejecución y el fallo: mucho código, poco producto
+
+El 20 de mayo de 2026 Meta ejecutó la primera oleada y despidió a cerca del 10 % de la plantilla, unas 8.000 personas, con grupos reducidos y managers reconvertidos o despedidos. A partir de ahí las cuentas dejaron de salir. La cantidad de código escrito con IA creció un 220 %, pero la mejora real percibida por el usuario solo aumentó en torno al 36 %: seis veces más actividad que resultados. Además, las incidencias graves, caídas y fallos de seguridad subieron un 40 %, y el tiempo dedicado a resolverlos se disparó un 70 %. El resumen del autor es contundente: más código, menos producto y más incendios. Con esos datos, el 19 de mayo de 2026 Zuckerberg canceló la segunda oleada de despidos, que iba a ser mucho mayor.
+
+#### La máquina de café: los canales informales que nadie contabilizó
+
+Para explicar el fallo, el vídeo recupera una anécdota documentada de hace más de cincuenta años, ligada al libro «The Psychology of Computer Programming» de Gerald M. Weinberg (1971): una empresa retiró la máquina de café porque los jefes creían que los empleados perdían el tiempo charlando allí, y la productividad del departamento se hundió. La razón era que en torno a la cafetera se resolvían incidencias, trucos y dudas que no figuran en ningún organigrama; al desaparecer, las consultas de los juniors a los seniors se dispararon y hubo que reponer la máquina. El paralelismo es directo: quitar managers elimina los canales de comunicación no formales, que son justamente los que sostenían buena parte del funcionamiento real de la organización.
+
+#### Lo que un manager hace y la IA todavía no
+
+Además de los canales informales, el autor enumera tres funciones que la IA no cubre hoy: el contexto y la memoria histórica —por qué se tomó una decisión, quién la tomó, qué cliente no hay que tocar—, que no está en documentos ni en organigramas; la capacidad de decir no, cuando la IA tiende por diseño a dar la razón; y la disposición a «comerse marrones», es decir, apagar incendios, mediar en conflictos y asumir responsabilidad cuando algo se tuerce. Son, en su lectura, cuatro razones por las que el plan de sustitución masiva no funcionó como estaba sobre el papel.
+
+#### La guerra continúa: datos, paradojas y qué hacer esta semana
+
+El vídeo cierra con el balance de la batalla y varias contradicciones. Por un lado, Gartner mantiene que una de cada cinco organizaciones recortará más de la mitad de sus mandos intermedios; por otro, Oxford Economics calcula que la IA explica menos del 5 % de los despidos de 2025, lo que sugiere que en muchos casos se usa como excusa para recortes que responden a otras causas. Se suma el caso de Klarna, cuyo responsable reconoció haberse centrado demasiado en el coste frente al resultado y haber obtenido una calidad peor, y el estudio de Georgetown que proyecta un déficit de unos 2,9 millones de managers en Estados Unidos para 2032: sobran y a la vez faltan, en función del perfil. El autor constata además que el tamaño de equipo se ha reducido de forma sostenida —el clásico 7±2 se ha quedado obsoleto y la media ronda los tres a cinco integrantes— y termina con una recomendación práctica: analizar la propia semana de trabajo, separar la burocracia pura de las tareas de valor, formarse en IA y unirse a comunidades de profesionales para no afrontar el cambio en solitario.
+
+### 🔗 Referencias
+
+| Tipo | Referencia | Enlace |
+| --- | --- | --- |
+| 📄 Artículo | Reuters — investigación sobre el «Project OT» de Meta (26-ago-2026) | https://www.reuters.com/investigations/mark-zuckerberg-had-bold-plan-replace-meta-staff-with-ai-heres-how-it-imploded-2026-08-26/ |
+| 📄 Artículo | The Pragmatic Engineer — «Meta wanted to reduce teams by 60% because of AI» | https://newsletter.pragmaticengineer.com/p/the-pulse-meta-wanted-to-reduce-teams-43b |
+| 📄 Artículo | Zuckerberg, reunión interna del 2-jul-2026 (PYMNTS) | https://www.pymnts.com/facebook-meta/2026/zuckerberg-tells-meta-employees-ai-agents-are-advancing-slower-than-expected/ |
+| 📄 Artículo | Jack Dorsey y Roelof Botha — «From Hierarchy to Intelligence» (31-mar-2026) | https://block.xyz/inside/from-hierarchy-to-intelligence |
+| 📄 Artículo | Andy Jassy (Amazon) — carta a la plantilla sobre managers (sept-2024) | https://www.aboutamazon.com/news/company-news/ceo-andy-jassy-latest-update-on-amazon-return-to-office-manager-team-ratio |
+| 📊 Informe | Gartner — predicciones 2025 y siguientes (22-oct-2024) | https://www.gartner.com/en/newsroom/press-releases/2024-10-22-gartner-unveils-top-predictions-for-it-organizations-and-users-in-2025-and-beyond |
+| 📄 Artículo | CNBC — Google elimina el 35 % de los managers de equipos pequeños (2025) | https://www.cnbc.com/2025/08/27/google-executive-says-company-has-cut-a-third-of-its-managers.html |
+| 📄 Artículo | The Register — Microsoft, «menos capas, menos managers» (2025) | https://www.theregister.com/2025/05/13/microsoft_layoff/ |
+| 📄 Artículo | Fortune — Block despide al 40 % (feb-2026) | https://fortune.com/2026/02/27/jack-dorsey-block-40-percent-layoff-ai-intelligence-tools-smaller-team/ |
+| 📄 Artículo | Fortune — Coinbase y el fin del «pure manager» (may-2026) | https://fortune.com/2026/05/05/coinbase-layoffs-org-chart-player-coach-replaces-managers/ |
+| 📄 Artículo | Fortune — Sam Altman y la empresa de una sola persona (2024) | https://fortune.com/2024/02/04/sam-altman-one-person-unicorn-silicon-valley-founder-myth/ |
+| 📊 Informe | Oxford Economics — la IA y los despidos de 2025 | https://www.oxfordeconomics.com/resource/evidence-of-an-ai-driven-shakeup-of-job-markets-is-patchy/ |
+| 📊 Informe | Georgetown University — «Falling Behind: How Skills Shortages Threaten Future Jobs» | https://cew.georgetown.edu/cew-reports/skills-shortages/ |
+| 📚 Libro | Gerald M. Weinberg — «The Psychology of Computer Programming» (1971) | https://www.dorsethouse.com/books/psy.html |
+| 📊 Informe | QSM (Putnam) — tamaño óptimo de equipo, 491 proyectos | https://www.qsm.com/team-size-can-be-key-successful-software-project |
+| 🎥 Vídeo | Keynote del autor en CAEA 2024 | https://youtu.be/i7BNYcATgpU |
+| 🏢 Producto | Comunidad IÁgil / 233 Academy | https://www.233academy.com/ |
+| 🏢 Producto | Diccionario de la IA (gratuito, Javier Garzás) | https://javiergarzas.com/diccionario-de-la-ia-javier-garzas |
+
+---
 ## [Javier Garzás] NO sabe PROGRAMAR: le enseño a crear apps con IA en directo (una profesional real)
 
 **Fecha:** 2026-09-23
