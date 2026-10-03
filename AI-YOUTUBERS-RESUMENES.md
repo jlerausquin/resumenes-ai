@@ -1,6 +1,60 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matt Wolfe] AI News: Dots, GPT-6.1 Sol, Sonnet 5.5, Gemini 4, and everything you need to know
+**Fecha:** 2026-10-02
+**URL:** https://www.youtube.com/watch?v=dDgncbBAA0c
+**Video ID:** dDgncbBAA0c
+
+### 📝 Resumen
+
+#### OpenAI Dev Day 2026: la llegada de "Dots"
+Matt Wolfe, que asistió presencialmente al Dev Day de OpenAI, abre su repaso semanal con el anuncio que considera más relevante del evento: "Dots", un nuevo asistente-agente descrito por la compañía como un conjunto de agentes "notablemente capaces y siempre activos" diseñados para encargarse de todo. La herramienta elimina el selector de modelos —el usuario no decide si usar Codex, modo trabajo o el chat normal— y es el propio sistema el que elige qué modelo emplear y lo ejecuta en segundo plano antes de devolver una respuesta; se puede usar escribiendo o mediante una llamada de voz. Wolfe subraya su carácter proactivo: avisa de correos o mensajes de Slack que considera importantes y ofrece redactar borradores de respuesta. Tras una semana de acceso anticipado, lo que más le llamó la atención fue precisamente esa frecuencia con la que le escribía para señalar asuntos pendientes, incluido un aviso de retraso de vuelo antes de que él mismo viera el correo. Como hereda las conexiones ya configuradas en su cuenta de ChatGPT (Notion, Todoist, Slack, GitHub, Granola, Google Calendar, Drive, Gmail, iMessage), el onboarding resultó inmediato.
+
+#### El problema de Dots: precio frente a competencia gratuita
+El principal inconveniente que señala Wolfe es el coste y la disponibilidad: Dots solo está disponible para usuarios Pro y Business premium en mercados seleccionados, y el plan Pro arranca en 100 dólares al mes. OpenAI reactivó además su plan de 200 dólares —recortando el uso que antes incluía— y añadió un plan nuevo de 500 dólares que devuelve el nivel de uso anterior. Wolfe compara la oferta con Meta Muse, el asistente siempre activo de Meta, gratuito con solo tener una cuenta de Meta, y con Grokbot, y duda de que valga la pena pagar 100 dólares frente a la alternativa gratuita. Reconoce que la propuesta de OpenAI es superior en modelos y conectores (Muse aún no tiene conector de Granola ni de iMessage), con ejemplos como hacer que reconstruya el hilo de conversaciones con una empresa a partir de correos antiguos, pero mantiene la sensación de que es la opción más cara del mercado. Como curiosidad, apunta que el dominio dot.com pertenece a Elon Musk y redirige a Grokbot.
+
+#### GPT-6.1 Sol y la escalera de precios de OpenAI
+El segundo anuncio destacado fue GPT-6.1 Sol, un modelo mucho más económico que la compañía describe como "casi tan bueno como Astra". Según el post dedicado, su precio vía API es de 2 dólares por millón de tokens de entrada y 10 por millón de salida, frente a los 10 y 50 de GPT-6 Astra. En benchmarks de programación queda prácticamente a la par —o ligeramente por encima— de Astra en DeepSuite, aunque lejos del Opus 5.5 de Anthropic. En Automation Bench aparece algo menos capaz pero más barato por tarea, patrón que se repite en casi todas las pruebas. En Artificial Analysis obtiene 52 puntos, uno por debajo de Astra y seis por debajo de Opus 5.5, con un coste aproximado de 72 centavos por tarea. Requiere plan de pago y aún no está disponible en el chat normal, solo en modo trabajo y Codex.
+
+#### Velocidad, privacidad y nuevas APIs: Ultra Fast, Private Intelligence y Decisions API
+OpenAI anunció también el modo "Ultra Fast", que según Wolfe emplea los chips Cerebras y genera 300 tokens por segundo —unas ocho veces más rápido—, aunque Sam Altman advirtió de que costará seis veces más y solo será accesible en el plan de 500 dólares. Se presentó además Private Intelligence, que permite usar sus modelos sin que OpenAI acceda al contenido subyacente, mediante cómputo confidencial y sin entrenar sobre los datos del cliente; Codex en la nube, para lanzar tareas de programación que siguen ejecutándose aunque se cierre el portátil y que se pueden retomar desde otro equipo; y la Decisions API, que Wolfe describe como la respuesta de OpenAI a Jev —el modelo que no genera texto sino decisiones—. Esta API centra la inteligencia de Luna en un conjunto de preguntas definidas por el usuario con respuestas finitas predefinidas (verdadero/falso, una opción entre varias o una valoración). La Agents API ahora admite computer use.
+
+#### Spaces, Pages, plugins y el marketplace: la capa colaborativa de ChatGPT
+El evento dejó también numerosos anuncios menores que Wolfe admite entender a medias. Destaca ChatGPT Spaces, un espacio dedicado donde compañeros de equipo, ChatGPT y el propio Dot colaboran sobre conocimiento compartido y que ChatGPT mantiene organizado según las instrucciones dadas, y Pages, un nuevo tipo de documento pensado para la colaboración humano-agente en el que se puede escribir, investigar, generar gráficos, crear imágenes y visualizar información. A su juicio, Pages recuerda a Notion integrado dentro de ChatGPT, mientras que Spaces se parece a los Projects actuales pero más colaborativos. Se anunciaron asimismo slides colaborativas, creación de equipos y tareas compartidas, integración con Slack y Teams, un plugin de reuniones que compite directamente con Granola (borra el audio una vez generadas las notas) y "Sign in with ChatGPT", que permite registrarse en aplicaciones de terceros con la cuenta de ChatGPT y que el coste de IA se facture a la API key del usuario en lugar de a la del desarrollador. Se mencionó también un marketplace dentro del plan de 500 dólares, del que Wolfe sigue sin tener clara la diferencia respecto a intentos anteriores, y se facilitó la creación de extensiones/plugins.
+
+#### Anthropic y Claude Sonnet 5.5: la polémica de los benchmarks
+Anthropic lanzó Claude Sonnet 5.5, más barato que Opus 5.5 y "casi igual de bueno", en el mismo patrón que Sol frente a Astra. Es el mejor modelo de la casa en Terminal Bench, pero Opus 5.5 lo supera en el resto de pruebas. Su precio es aproximadamente la mitad: de 4 a 2 dólares por millón de tokens de entrada y de 20 a 10 por millón de salida. Wolfe cuestiona la presentación de sus benchmarks, que se obtuvieron con "adaptive thinking" a max effort: en Artificial Analysis Sonnet 5.5 puntúa 56 (segundo tras Opus 5.5) pero cuesta de media 7,62 dólares por tarea frente a 5,98 de Opus, y es el modelo que más tokens de salida consume (unas 194.000 de media a max effort). Edwin, de Anthropic, le respondió en Twitter recomendándole no usar Sonnet a max effort y recurrir a Opus en ese nivel, a lo que Wolfe replica que, si es así, los benchmarks deberían reflejar el nivel de esfuerzo recomendado. En su propia "beauty bench", GPT-6.1 Sol quedó como nuevo líder y Sonnet 5.5 cayó al puesto 13. También se anunció que Claude Code puede personalizarse mediante "mods" pidiéndoselo al propio Claude Code.
+
+#### Google DeepMind, Gemini 4 Argon e Ideogram 4.5
+Google DeepMind anunció Gemini 4 Argon, un modelo frontier que, según sus benchmarks, sería el nuevo estado del arte por encima de Opus 5.5 y GPT-6 Astra, aunque el acceso queda limitado por ahora a un conjunto de defensores cibernéticos de confianza a través de su programa específico. Su precio introductorio sería de 2 dólares por millón de tokens de entrada y 10 por millón de salida, y lo más llamativo es que eleva el límite de salida a 1 millón de tokens frente a los 64.000 anteriores (más de 750.000 palabras). Artificial Analysis, que sí pudo probarlo, lo sitúa empatado con GPT-6 Astra pese a que los benchmarks propios lo colocan claramente como el mejor. Cuando llegue a más usuarios lo hará primero a clientes de API y suscriptores de Google AI Ultra. En el terreno de imagen, Ideogram presentó Ideogram 4.5, presentado como el modelo de edición más preciso, capaz de aplicar cualquier cambio sobre una imagen manteniendo intacto al sujeto original.
+
+#### Ronda rápida: modelos de decisión, Team Bots, voz y la Casa Blanca
+En el repaso exprés, Wolfe menciona Strand Decider 2B, un pequeño modelo de decisión de código abierto de "Strand", división experimental de agentes de IA de Amazon, con benchmarks todavía difíciles de interpretar; los Team Bots de SpaceX AI, una suerte de Grokbot para equipos que comparte contexto, plugins, credenciales y memorias entre todos los miembros; y dos nuevos modelos de voz: ElevenLabs v4, el más emotivo de la compañía y mejor clonando voces, y MAI Voice 2.1 de Microsoft AI, también con expresión realista y varios idiomas, además de un nuevo modelo de transcripción en streaming de Microsoft casi en tiempo real. Cierra comentando que varios líderes de IA (Sundar Pichai, Dario Amodei, Zuckerberg, Greg Brockman, Elon Musk y Jensen Huang, junto a Donald Trump) se reunieron con la Casa Blanca y firmaron un acuerdo para rebautizar la IA como "superinteligencia" y desarrollarla de forma segura en cuatro capas: controles internos, equipo interno de supervisión, auditor independiente externo y un comité del consejo de administración. Wolfe advierte de que el pacto no es vinculante. Termina reflexionando sobre la dificultad de mantener la objetividad tras asistir a eventos patrocinados y sobre su compromiso de dar su opinión honesta aunque eso le cueste invitaciones futuras.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| OpenAI — Dev Day 2026 y Dots | Empresa / Producto | https://openai.com/ |
+| Precios y planes de ChatGPT (Pro, Business, tier de 500 $) | Producto | https://openai.com/chatgpt/pricing/ |
+| GPT-6.1 Sol y GPT-6 Astra (API) | Modelo | https://platform.openai.com/docs/models |
+| Codex (CLI, cloud y mods) | Producto | https://openai.com/codex/ |
+| Artificial Analysis — benchmarks agregados y coste por tarea | Benchmark | https://artificialanalysis.ai/ |
+| Anthropic — Claude Sonnet 5.5 y Opus 5.5 | Modelo | https://www.anthropic.com/news |
+| Claude Code | Producto | https://www.anthropic.com/claude-code |
+| Google DeepMind — Gemini 4 Argon | Modelo | https://deepmind.google/models/gemini/ |
+| Ideogram 4.5 | Producto | https://ideogram.ai/ |
+| Meta Muse | Producto | https://www.meta.ai/ |
+| Grokbot y Team Bots (SpaceX AI / xAI) | Producto | https://x.ai/ |
+| ElevenLabs v4 | Producto | https://elevenlabs.io/ |
+| Microsoft AI — MAI Voice 2.1 y transcripción streaming | Modelo | https://microsoft.ai/ |
+| Strand Decider 2B (división agéntica de Amazon) | Modelo open source | https://huggingface.co/ |
+| Jev — modelo de decisión (vídeo previo) | Modelo | https://www.youtube.com/@mreflow |
+| Optimizely — virtual teammates (patrocinador) | Producto | https://www.optimizely.com/ |
+| FutureTools — repositorio de herramientas IA del autor | Web | https://futuretools.io/ |
+
+---
 ## [Javier Garzás] ELIMINAR a los Managers con IA: el plan secreto de las grandes tecnológicas
 **Fecha:** 2026-09-30
 **URL:** https://www.youtube.com/watch?v=cCQqq68f1C0
