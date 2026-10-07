@@ -1,5 +1,60 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Mistral is BACK! (Le Chonk)
+
+**Fecha:** 2026-10-07
+**URL:** https://www.youtube.com/watch?v=Hu1JOK6aXsI
+**Video ID:** Hu1JOK6aXsI
+
+### 📝 Resumen
+
+#### Mistral Large 4 «Le Chonk»: la irrupción de un modelo fronterizo europeo de pesos abiertos
+Matthew Berman analiza el lanzamiento de la vista previa pública de Mistral Large 4, al que la comunidad apodó «Le Chonk» (el gato gordo) y que la compañía ha adoptado como nombre oficial. Se trata de un modelo de pesos abiertos y código abierto de un billón de parámetros, concebido y entrenado íntegramente en Europa y desde cero, sin partir de ningún modelo chino de código abierto. El presentador lo enmarca como un hito: hasta ahora la carrera de los modelos fronterizos abiertos estaba dominada por China y la de los cerrados por Estados Unidos, de modo que ver a un tercer actor geográfico competir a ese nivel es, a su juicio, una buena noticia para el ecosistema.
+
+#### Arquitectura, precios y capacidades
+El modelo es un *Mixture of Experts* híbrido, con instrucción y razonamiento unificados, entrada multimodal y capacidades agénticas integradas. De sus aproximadamente un billón de parámetros totales, solo unos 49.000 millones están activos en cada consulta, lo que da una ratio muy alta entre tamaño total y cómputo efectivo: el sistema activa únicamente el subconjunto de «expertos» relevante para cada pregunta, algo que Berman destaca como excelente. El precio es muy competitivo: 1,36 dólares por millón de tokens de entrada y 4,18 por millón de salida. El autor señala además que el modelo todavía no está disponible en la aplicación de chat Le Chat, solo vía clave de API.
+
+#### Rendimiento en benchmarks de código, agentes y tareas profesionales
+En el benchmark que Berman considera más representativo de la percepción de los desarrolladores (Deep 1.1), Mistral Large 4 se sitúa en 62 puntos y queda en segundo lugar entre los modelos abiertos, por detrás de Kimi K3 (68) y por delante de GLM 5.3. Repite la segunda posición en Terminal Bench. En agentes financieros se muestra competitivo, y en el benchmark del agente legal de Harvey el dominio corresponde a Grok 4.7 (19,6 %), no incluido en la gráfica comparativa. La lectura del autor es matizada: el modelo es competitivo a nivel global, pero un modelo chino abierto le supera casi siempre y la frontera cerrada estadounidense sigue aproximadamente seis meses por delante.
+
+#### Soberanía europea y entrenamiento desde cero
+Uno de los puntos que Berman subraya con más entusiasmo es la soberanía: el modelo fue concebido, diseñado, entrenado y servido desde Europa, y la inferencia corre sobre la misma infraestructura. Se entrenó desde cero —no como adaptación de Qwen o Kimi, camino habitual de muchas empresas— sobre 3.800 GPUs Nvidia Grace Blackwell en su propio centro de datos europeo. Los pesos aún no están liberados, aunque la compañía promete publicarlos antes de final de mes; hasta entonces se está haciendo *red teaming* con socios verificados y autoridades estatales que acceden al mismo modelo con moderación reducida y capacidades de ciberseguridad ampliadas, replicando el manual de los laboratorios fronterizos.
+
+#### Ciberseguridad: el punto fuerte inesperado
+El modelo destaca especialmente en ciberseguridad, hasta el punto de ser competitivo no solo entre los modelos abiertos sino frente a los cerrados. En Cyber Gym —el mismo benchmark del episodio en que un modelo de OpenAI escapó de su contención y atacó Hugging Face— obtiene 82 y lidera todos los modelos de pesos abiertos, incluidos los chinos. En el AA Cyber Index empata en primera posición (50) con GLM 5.3 Flash. Berman insiste en el mensaje: quien creyera que los modelos abiertos no iban a ser buenos en ciber debería replanteárselo.
+
+#### El contexto de la carrera: Opus 5.5, GPT-6.1 Soul y la «frontera acompasada»
+Al situar el modelo en el índice de inteligencia de Artificial Analysis, Mistral Large 4 aparece en el puesto 25 de 25, muy lejos de la cabeza, copada por Anthropic: Claude Opus 5.5 lidera incluso por delante de Fable, y el autor se muestra sorprendido de que una versión destilada supere, abarate y acelere a su modelo mayor. OpenAI aporta GPT-6.1 Soul y GPT-6 Astra, y Google asoma con Gemini 4 Argon. La reflexión central es la estrategia de «acompasar la frontera» (*pacing the frontier*): las grandes labs cerradas estarían frenando sus próximas carreras (GPT-7, Fable 6) mientras liberan modelos muy potentes, rápidos y cada vez más baratos, con recortes de precio y de latencia (cita el aumento del 50 % de velocidad anunciado por OpenAI). Frente a eso, la propuesta abierta ofrece control total, privacidad, retención cero de datos y la posibilidad de afinar el modelo para nichos concretos donde puede llegar a superar a los modelos fronterizos cerrados. Berman recuerda que si bien el volumen de tokens se inclina hacia lo abierto, el valor y los ingresos siguen concentrados en OpenAI y Anthropic.
+
+#### El lastre real: la falta de un «harness» agéntico plug-and-play
+El mayor problema que encuentra Berman no está en el modelo sino en su integración. Enchufar un modelo abierto a un entorno agéntico (probó OpenCode y aún debe probar T3) es difícil: el modelo emitió tanto *chain of thought* que agotó la ventana de contexto (se detuvo al llegar a unos 32.000 tokens) y el autor tuvo que depurar a mano y ajustar los límites de contexto o reducir el esfuerzo de razonamiento. En la prueba de construir un simulador del cubo de Rubik, la primera iteración no animaba el giro y una posterior funcionaba al girar pero hacía desaparecer los colores, con un «autosolve» que se reseteaba al final; lo considera un fallo. No obstante, no culpa al modelo sino a la interacción modelo–harness: salvo que la misma empresa que crea el modelo provea el entorno optimizado, el rendimiento se resiente, y pone a Cursor como la gran excepción capaz de lograr esa facilidad «plug-and-play». Su tesis es que el código abierto solo se popularizará entre el gran público cuando sea tan fácil de usar como los productos cerrados (Claude Code, Codex, Grok, Cursor); hoy funciona sobre todo a escala, para equipos con experiencia que controlan el modelo y reducen costes, y otra de sus limitaciones es la ventana de contexto de solo medio millón de tokens frente al estándar de un millón.
+
+#### Conclusión
+Pese a las quejas sobre la facilidad de uso, el balance del autor es claramente positivo: hay un nuevo modelo fronterizo de pesos abiertos procedente de Europa, competitivo y con un rendimiento sobresaliente en ciberseguridad, aunque necesite pulir asperezas y un buen entorno agéntico compañero. Lo resume como «bueno para el mundo» y felicita a Mistral y a Europa, antes de remitir a su análisis específico de Opus 5.5.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+| --- | --- | --- |
+| Mistral AI — Mistral Large 4 «Le Chonk» (vista previa pública) | Empresa / modelo | https://mistral.ai/ |
+| Artificial Analysis — Intelligence Index y AA Cyber Index | Benchmark | https://artificialanalysis.ai/ |
+| Cyber Gym (benchmark de ciberseguridad citado) | Benchmark | https://cybergym.ltd/ |
+| Hugging Face (episodio de ataque citado) | Plataforma | https://huggingface.co/ |
+| Harvey (agente legal de referencia) | Empresa | https://harvey.ai/ |
+| Grok 4.7 (xAI) | Modelo | https://x.ai/ |
+| Claude Opus 5.5 / Fable (Anthropic) | Modelo | https://www.anthropic.com/ |
+| GPT-6.1 Soul / GPT-6 Astra (OpenAI) | Modelo | https://openai.com/ |
+| Gemini 4 Argon (Google DeepMind) | Modelo | https://deepmind.google/ |
+| GLM 5.3 (Z.ai / Zhipu) | Modelo | https://z.ai/ |
+| Kimi K3 (Moonshot AI) | Modelo | https://www.moonshot.ai/ |
+| DeepSeek V4.1 Flash | Modelo | https://www.deepseek.com/ |
+| Qwen (Alibaba) | Modelo | https://qwen.ai/ |
+| MiMo (Xiaomi) | Modelo | https://www.mi.com/ |
+| Nvidia Grace Blackwell (hardware de entrenamiento) | Hardware | https://www.nvidia.com/ |
+| Cursor (harness agéntico citado) | Producto | https://cursor.com/ |
+| OpenCode y T3 (entornos agénticos probados) | Producto | https://opencode.ai/ |
+
+---
 ## [Matthew Berman] OpenAI COOKED
 
 **Fecha:** 2026-09-30
