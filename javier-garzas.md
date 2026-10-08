@@ -1,5 +1,59 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] Evita que la IA le CUESTE Caro a tu empresa: lo que nadie te cuenta
+**Fecha:** 2026-10-07
+**URL:** https://www.youtube.com/watch?v=ix6gBAu0Nis
+**Video ID:** ix6gBAu0Nis
+
+### 📝 Resumen
+
+Javier Garzás aborda en este vídeo los cuatro riesgos reales —más allá del discurso entusiasta habitual— que afronta cualquier organización que integra IA en sus procesos: costes, legalidad, fiabilidad y dependencia. Parte de la experiencia de su propia compañía, donde la IA está embebida en prácticamente todas las áreas funcionales (marketing, finanzas, comercial, formación y producción de contenido), y sostiene que la verdadera ventaja no está en usar un chatbot en el navegador, sino en optimizar procesos internos, dashboards y automatizaciones que conectan herramientas. De los cuatro problemas, tres tienen arreglo razonablemente sencillo; el cuarto —la dependencia de un proveedor externo— es el que casi ninguna empresa está atendiendo y el que resulta más difícil de resolver.
+
+#### Más allá del chatbot: dónde está el valor real
+
+Garzás insiste en que el retorno no proviene de tareas triviales (corregir un texto o redactar un correo), sino de meter la IA en el núcleo del negocio: conciliación de facturas y bancos, síntesis de datos, informes y webs generadas a golpe de prompt. Relata que tanto su blog (unos 3.000 posts) como su academia se han reconstruido y se mantienen hoy con Claude Code conectado a WordPress, algo impensable hace unos años. Bajo la «punta del iceberg» que ve el usuario (chat), afirma, hay toda una capa de automatismos que es la que realmente marca la diferencia competitiva.
+
+#### Coste 1: el precio de los tokens y la amenaza de subida
+
+El primer frente es económico. Reconoce que usar la IA profesionalmente hoy es barato para el retorno que da, pero advierte de que la pregunta correcta no es cuánto cuesta, sino cuánto *puede* llegar a costar. Su empresa paga unos 200 €/mes por Claude (Anthropic), y según un informe reciente de SemiAnalysis, exprimir los límites del modelo top equivaldría a unos 940 $/mes si se pagara por consumo real. Señala precedentes de subidas ya consumadas: OpenAI ha recortado a la mitad su plan equivalente de 200 $ y ha lanzado uno de 500 $, y GitHub Copilot pasó en junio de cuota fija a pago por consumo —lo que, en el caso anonimizado de «Matías» (1.000 desarrolladores usando Copilot para clientes terceros), volvió los costes inviables y les empujó a estudiar LLMs locales—.
+
+#### Reducir la dependencia del proveedor
+
+Su consejo central es limitar al máximo la dependencia de un único fabricante (OpenAI, Anthropic o cualquiera). Subraya que el problema de una herramienta no es solo lo que cuesta entrar, sino lo que cuesta salir, por lo que recomienda técnicas y artefactos portables —como las *skills*—, el uso de infraestructura clásica para no tener los datos en manos de un solo proveedor (menciona Supabase) y, en general, volver a fundamentos como bases de datos tradicionales, que hoy son baratas o de código abierto y que un LLM puede manejar directamente hablándoles en lenguaje natural.
+
+#### LLMs en local y arquitecturas híbridas
+
+Sobre el autoalojamiento, aporta datos concretos: la última GPU que compraron (una RTX 5060 Ti de 16 GB, con todo lo necesario, unos 1.000 €) no basta para acercarse al nivel de los modelos punteros de Anthropic u OpenAI; para algo equiparable habría que hablar de 5.000 € o más. Su tesis es que el futuro razonable para pymes son arquitecturas híbridas: pagar como servicio «lo último de lo último» y cubrir el resto con IAs locales más económicas, dado que los modelos que hoy son top quedarán pronto desfasados y el hardware será más asequible. En esa línea recomienda mirar modelos nuevos y no conversacionales, muy rápidos y baratos para clasificar, ordenar y decidir (cita a Jev como ejemplo que rompe el patrón de uso clásico de los LLM).
+
+#### El riesgo legal y el cumplimiento normativo
+
+Recuerda que los riesgos legales ya se han materializado: unos abogados de Nueva York fueron multados por presentar a un juez una sentencia inventada por ChatGPT, y el chatbot de Air Canada se inventó una política de reembolso que un tribunal obligó a la aerolínea a cumplir. En su entorno cercano narra el caso de «Lidia», una product manager de una red de clínicas de psicología de Madrid cuyo chatbot de primer contacto por WhatsApp no avisaba de que era una IA hasta que un paciente lo preguntó, lo que derivó en una denuncia que casi provoca el cierre de la clínica. Recuerda que, con el RGPD, el responsable de los datos personales que se introducen en una IA es siempre la empresa, y que la Ley Europea de IA (de febrero de 2025) exige formación del personal y transparencia —obligación de advertir que se habla con una IA— desde agosto de 2026. Su propio asistente, Leia, se identifica siempre como IA precisamente para no correr ese riesgo.
+
+#### Fiabilidad: la IA rara vez dice «no sé»
+
+El tercer frente es la fiabilidad. Garzás resume el problema con el error con el que abre el vídeo: preguntaron a una IA local dónde nació Colón y respondió «en Cuba». Su advertencia es que la IA rara vez dice que no, tiende a afirmar que puede hacerlo todo y a justificarlo, de modo que los errores obvios se detectan, pero los sutiles hacen perder muchísimo tiempo y pueden ser críticos. Cita el caso de Amazon, que en marzo de 2026 sufrió cuatro incidencias de máxima gravedad en una semana (una dejó la tienda seis horas sin carrito ni precios) tras tomarse como buena una indicación desactualizada de una wiki interna. Sus consejos: no delegar nunca lo crítico, validar exhaustivamente lo que la IA toque o aconseje, comprobar siempre su trabajo y usar una IA para verificar a otra.
+
+#### Dependencia: el punto de falla crítico sin arreglo fácil
+
+El cuarto punto, y el que considera más descuidado, es la dependencia. La IA es casi siempre un servicio de un tercero y, si se van apoyando en ella procesos clave (marketing, soporte, ventas, producción), se crea un punto de falla crítico en un servidor remoto cuyo proveedor no dará respuestas rápidas porque el cliente es uno entre millones. Pone como ejemplo su propia asistente Leia, que da soporte de primer nivel a los alumnos y depende a la vez de WhatsApp (servicio externo) y de un LLM en la nube: cuanto más se convierte en parte core del negocio, mayor es el riesgo. Su recomendación es reconocer la situación, mapear dónde están los riesgos e ir poniendo niveles de contingencia, camino de arquitecturas híbridas (local + nube) que reduzcan latencia, coste y dependencia de un único punto de falla.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Libro «Irreemplazable» (Javier Garzás) | https://javiergarzas.com/ |
+| Diccionario de IA (descarga gratuita, en la descripción del vídeo) | https://javiergarzas.com/ |
+| Claude / Claude Code (Anthropic) | https://www.anthropic.com/ |
+| ChatGPT (OpenAI) | https://openai.com/ |
+| GitHub Copilot | https://github.com/features/copilot |
+| Supabase (infraestructura / base de datos) | https://supabase.com/ |
+| WordPress | https://wordpress.org/ |
+| Informe de costes de SemiAnalysis | https://semianalysis.com/ |
+| Leia — asistente IA de Garzás por WhatsApp | https://javiergarzas.com/ |
+| RGPD / Ley Europea de IA | https://eur-lex.europa.eu/ |
+| Caso Air Canada (chatbot y política de reembolso) | https://www.bbc.com/news |
+
+---
 ## [Javier Garzás] ELIMINAR a los Managers con IA: el plan secreto de las grandes tecnológicas
 **Fecha:** 2026-09-30
 **URL:** https://www.youtube.com/watch?v=cCQqq68f1C0

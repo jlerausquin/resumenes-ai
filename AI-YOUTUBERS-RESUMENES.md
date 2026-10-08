@@ -1,6 +1,115 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] 12 Grok Bot Use Cases That Feel Illegal
+**Fecha:** 2026-10-07
+**URL:** https://www.youtube.com/watch?v=BsNHg6cNjZE
+**Video ID:** BsNHg6cNjZE
+
+### 📝 Resumen
+
+Matthew Berman repasa doce casos de uso reales de asistentes personales de IA —principalmente Grokbot, aunque también usa Muse y Dot, y los ejemplos valen para cualquiera de ellos—. Sostiene que estos asistentes han llevado la IA al gran público al encargarse de tareas tediosas, y demuestra con su propia experiencia cómo bots especializados pueden encadenarse entre sí para ahorrar dinero, tiempo y coordinación familiar. Para cada caso comparte la plantilla de Grokbot y el prompt genérico reutilizable en otros asistentes, y anuncia que todos los prompts están recopilados en un documento alojado en Box. Señala también el lanzamiento de Frontier Pass, su comunidad de pago para suscriptores.
+
+#### Bots que ahorran dinero
+
+El primero es el *money saver bot*: revisa todos los correos en busca de suscripciones, negocia con ellas a la baja y cancela las que parecen no usarse. A Berman le encontró más de 1.000 $/mes en cargos fijos repartidos entre tres cuentas de Gmail (desde el seguro hasta Typeform, ChatGPT o Anthropic), y el bot redacta el correo de negociación —por ejemplo a BeeHive, su proveedor de newsletter a 459 $/mes— dejándolo listo para enviar. El mismo bot rastreó la web de bienes no reclamados de California y le encontró cientos de dólares registrados a su nombre, un trámite que muchos estados permiten y que el bot puede presentar por ti.
+
+#### Control del coche y del entorno físico
+
+Berman conectó su nuevo Tesla Model Y a Grokbot: el bot descargó la documentación de la API, generó una clave y ahora gestiona climatización, calefacción de asientos y volante, bloqueo, frunk y maletero, puerto de carga y envío de destinos de navegación. Con la orden «prepara el coche» activa el clima, calienta los asientos, abre el garaje si está configurado y envía al coche el siguiente destino del calendario. El prompt le indica extraer de la cuenta lo que pueda deducir solo (coches de la cuenta, ajustes habituales, destinos frecuentes) y reservar para el usuario únicamente lo que solo él puede hacer (inicio de sesión, códigos 2FA, emparejamiento de la llave virtual).
+
+#### Limpieza del ordenador y mantenimiento
+
+El *computer cleanup bot* corre cada lunes, busca cachés, ficheros obsoletos y descargas antiguas y los marca para la papelera, sin borrar nada por su cuenta. En una de sus últimas ejecuciones detectó unos 50 GB seguros de liberar en su Mac Studio (13,7 GB de clips antiguos, 44 GB de salidas fechadas, 11 GB de grabaciones OBS en formato MKV, entre otros). El prompt insiste en clasificar por nivel de riesgo, mostrar la ruta completa y el motivo de cada elemento, preferir cachés y restos obvios frente a posibles documentos personales y no tocar directorios de sistema dudosos.
+
+#### Briefing diario y bot familiar
+
+Tiene *bots de briefing diario* separados para trabajo y familia: cada mañana revisan calendario, correos y lista de tareas y generan un resumen breve, encabezado por lo que requiere acción. El *family bot* es, según él, uno de los mayores ahorradores de tiempo: lee todos los correos del colegio y de las actividades deportivas de sus hijos, los resume al máximo y envía el resumen a un grupo de Telegram familiar, además de autoarchivar el correo, volcar los eventos al calendario compartido e invitar a su esposa. Su carácter proactivo quedó patente cuando avisó de un partido de fútbol de su hijo al día siguiente recordándole el color de la camiseta y que le tocaba llevar la merienda, ofreciéndose incluso a pedirla por DoorDash.
+
+#### Gestión de oportunidades, reuniones y tareas
+
+El *leadbot* vigila los mensajes directos de Facebook, LinkedIn, X, TikTok e Instagram, distingue propuestas reales de patrocinio o colaboración del spam, archiva lo irrelevante y permite responder desde el propio chat del bot, redactando correos para patrocinadores prometedores. El *meeting summary bot* se apoya en Fathom, que graba y transcribe cada reunión; el bot lee la transcripción, escribe un resumen con decisiones, preguntas abiertas y acciones —quién hace qué y con qué fechas—, las añade a su lista de tareas y hasta se ofrece a redactar el correo de seguimiento (por ejemplo, una propuesta prometida para el lunes). El *to-do manager* se conecta a Todoist y mantiene la lista viva, marcando lo completado y creando tareas nuevas a partir de correos, reuniones y mensajes.
+
+#### Correo, facturas de suministros y agenda
+
+El *email triage bot* escanea sus tres cuentas, autoarchiva lo de bajo riesgo (envíos, recibos, ruido promocional) con un recibo de una línea, y luego recorre el resto uno a uno con resúmenes y respuestas sugeridas —incluso por voz mientras conduce—, reservando para él las decisiones de mayor riesgo y sin enviar ni comprar nada sin su aprobación. El *PG&E bot* (aplicable a cualquier suministrador) entró en su cuenta, revisó doce meses de consumo eléctrico, comparó todos los planes disponibles y encontró uno que le ahorra 1.000 $/año, cambiándolo él mismo tras la aprobación. El *calendar assistant* unifica sus distintos calendarios y permite al bot de correo negociar reuniones sabiendo sus huecos reales, avisando de conflictos y reservando citas (dentista, médico, peluquería) antes de confirmar.
+
+#### Bots de Uber y DoorDash, y el efecto de red
+
+Los dos últimos son prácticamente idénticos: un *Uber bot* y un *DoorDash bot* que permiten pedir un coche (por ejemplo, «llévame a San Francisco para las 2 p.m.») o repetir un pedido con hora de entrega. La clave, subraya Berman, es que al existir estos bots cualquier otro agente puede hablar con ellos, de modo que los casos de uso empiezan a encadenarse: el briefing diario puede detectar un hueco entre reuniones un lunes, saber que suele pedir comida ese día y ofrecerse a tramitar el pedido para que llegue a tiempo. Esa combinación de contexto y cooperación entre bots es lo que hace al asistente realmente personal y capaz de resolver cosas del mundo real.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Grokbot (asistente personal de IA) | https://grok.com/ |
+| Muse / Dot (asistentes personales de IA) | https://www.producthunt.com/ |
+| Documento con todos los prompts (alojado en Box) | https://www.box.com/ |
+| Tesla Fleet API | https://developer.tesla.com/ |
+| Fathom (grabador y transcripción de reuniones) | https://fathom.video/ |
+| Todoist (lista de tareas) | https://todoist.com/ |
+| PG&E (plan de suministro eléctrico) | https://www.pge.com/ |
+| Servicio de bienes no reclamados de California | https://www.sco.ca.gov/ |
+| DoorDash | https://www.doordash.com/ |
+| Uber | https://www.uber.com/ |
+| Eight Sleep Pod 6 (patrocinador) | https://www.eightsleep.com/ |
+| Frontier Pass (comunidad de Matthew Berman) | https://www.youtube.com/@matthew_berman |
+
+---
+## [Javier Garzás] Evita que la IA le CUESTE Caro a tu empresa: lo que nadie te cuenta
+**Fecha:** 2026-10-07
+**URL:** https://www.youtube.com/watch?v=ix6gBAu0Nis
+**Video ID:** ix6gBAu0Nis
+
+### 📝 Resumen
+
+Javier Garzás aborda en este vídeo los cuatro riesgos reales —más allá del discurso entusiasta habitual— que afronta cualquier organización que integra IA en sus procesos: costes, legalidad, fiabilidad y dependencia. Parte de la experiencia de su propia compañía, donde la IA está embebida en prácticamente todas las áreas funcionales (marketing, finanzas, comercial, formación y producción de contenido), y sostiene que la verdadera ventaja no está en usar un chatbot en el navegador, sino en optimizar procesos internos, dashboards y automatizaciones que conectan herramientas. De los cuatro problemas, tres tienen arreglo razonablemente sencillo; el cuarto —la dependencia de un proveedor externo— es el que casi ninguna empresa está atendiendo y el que resulta más difícil de resolver.
+
+#### Más allá del chatbot: dónde está el valor real
+
+Garzás insiste en que el retorno no proviene de tareas triviales (corregir un texto o redactar un correo), sino de meter la IA en el núcleo del negocio: conciliación de facturas y bancos, síntesis de datos, informes y webs generadas a golpe de prompt. Relata que tanto su blog (unos 3.000 posts) como su academia se han reconstruido y se mantienen hoy con Claude Code conectado a WordPress, algo impensable hace unos años. Bajo la «punta del iceberg» que ve el usuario (chat), afirma, hay toda una capa de automatismos que es la que realmente marca la diferencia competitiva.
+
+#### Coste 1: el precio de los tokens y la amenaza de subida
+
+El primer frente es económico. Reconoce que usar la IA profesionalmente hoy es barato para el retorno que da, pero advierte de que la pregunta correcta no es cuánto cuesta, sino cuánto *puede* llegar a costar. Su empresa paga unos 200 €/mes por Claude (Anthropic), y según un informe reciente de SemiAnalysis, exprimir los límites del modelo top equivaldría a unos 940 $/mes si se pagara por consumo real. Señala precedentes de subidas ya consumadas: OpenAI ha recortado a la mitad su plan equivalente de 200 $ y ha lanzado uno de 500 $, y GitHub Copilot pasó en junio de cuota fija a pago por consumo —lo que, en el caso anonimizado de «Matías» (1.000 desarrolladores usando Copilot para clientes terceros), volvió los costes inviables y les empujó a estudiar LLMs locales—.
+
+#### Reducir la dependencia del proveedor
+
+Su consejo central es limitar al máximo la dependencia de un único fabricante (OpenAI, Anthropic o cualquiera). Subraya que el problema de una herramienta no es solo lo que cuesta entrar, sino lo que cuesta salir, por lo que recomienda técnicas y artefactos portables —como las *skills*—, el uso de infraestructura clásica para no tener los datos en manos de un solo proveedor (menciona Supabase) y, en general, volver a fundamentos como bases de datos tradicionales, que hoy son baratas o de código abierto y que un LLM puede manejar directamente hablándoles en lenguaje natural.
+
+#### LLMs en local y arquitecturas híbridas
+
+Sobre el autoalojamiento, aporta datos concretos: la última GPU que compraron (una RTX 5060 Ti de 16 GB, con todo lo necesario, unos 1.000 €) no basta para acercarse al nivel de los modelos punteros de Anthropic u OpenAI; para algo equiparable habría que hablar de 5.000 € o más. Su tesis es que el futuro razonable para pymes son arquitecturas híbridas: pagar como servicio «lo último de lo último» y cubrir el resto con IAs locales más económicas, dado que los modelos que hoy son top quedarán pronto desfasados y el hardware será más asequible. En esa línea recomienda mirar modelos nuevos y no conversacionales, muy rápidos y baratos para clasificar, ordenar y decidir (cita a Jev como ejemplo que rompe el patrón de uso clásico de los LLM).
+
+#### El riesgo legal y el cumplimiento normativo
+
+Recuerda que los riesgos legales ya se han materializado: unos abogados de Nueva York fueron multados por presentar a un juez una sentencia inventada por ChatGPT, y el chatbot de Air Canada se inventó una política de reembolso que un tribunal obligó a la aerolínea a cumplir. En su entorno cercano narra el caso de «Lidia», una product manager de una red de clínicas de psicología de Madrid cuyo chatbot de primer contacto por WhatsApp no avisaba de que era una IA hasta que un paciente lo preguntó, lo que derivó en una denuncia que casi provoca el cierre de la clínica. Recuerda que, con el RGPD, el responsable de los datos personales que se introducen en una IA es siempre la empresa, y que la Ley Europea de IA (de febrero de 2025) exige formación del personal y transparencia —obligación de advertir que se habla con una IA— desde agosto de 2026. Su propio asistente, Leia, se identifica siempre como IA precisamente para no correr ese riesgo.
+
+#### Fiabilidad: la IA rara vez dice «no sé»
+
+El tercer frente es la fiabilidad. Garzás resume el problema con el error con el que abre el vídeo: preguntaron a una IA local dónde nació Colón y respondió «en Cuba». Su advertencia es que la IA rara vez dice que no, tiende a afirmar que puede hacerlo todo y a justificarlo, de modo que los errores obvios se detectan, pero los sutiles hacen perder muchísimo tiempo y pueden ser críticos. Cita el caso de Amazon, que en marzo de 2026 sufrió cuatro incidencias de máxima gravedad en una semana (una dejó la tienda seis horas sin carrito ni precios) tras tomarse como buena una indicación desactualizada de una wiki interna. Sus consejos: no delegar nunca lo crítico, validar exhaustivamente lo que la IA toque o aconseje, comprobar siempre su trabajo y usar una IA para verificar a otra.
+
+#### Dependencia: el punto de falla crítico sin arreglo fácil
+
+El cuarto punto, y el que considera más descuidado, es la dependencia. La IA es casi siempre un servicio de un tercero y, si se van apoyando en ella procesos clave (marketing, soporte, ventas, producción), se crea un punto de falla crítico en un servidor remoto cuyo proveedor no dará respuestas rápidas porque el cliente es uno entre millones. Pone como ejemplo su propia asistente Leia, que da soporte de primer nivel a los alumnos y depende a la vez de WhatsApp (servicio externo) y de un LLM en la nube: cuanto más se convierte en parte core del negocio, mayor es el riesgo. Su recomendación es reconocer la situación, mapear dónde están los riesgos e ir poniendo niveles de contingencia, camino de arquitecturas híbridas (local + nube) que reduzcan latencia, coste y dependencia de un único punto de falla.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Libro «Irreemplazable» (Javier Garzás) | https://javiergarzas.com/ |
+| Diccionario de IA (descarga gratuita, en la descripción del vídeo) | https://javiergarzas.com/ |
+| Claude / Claude Code (Anthropic) | https://www.anthropic.com/ |
+| ChatGPT (OpenAI) | https://openai.com/ |
+| GitHub Copilot | https://github.com/features/copilot |
+| Supabase (infraestructura / base de datos) | https://supabase.com/ |
+| WordPress | https://wordpress.org/ |
+| Informe de costes de SemiAnalysis | https://semianalysis.com/ |
+| Leia — asistente IA de Garzás por WhatsApp | https://javiergarzas.com/ |
+| RGPD / Ley Europea de IA | https://eur-lex.europa.eu/ |
+| Caso Air Canada (chatbot y política de reembolso) | https://www.bbc.com/news |
+
+---
 ## [Matthew Berman] Mistral is BACK! (Le Chonk)
 
 **Fecha:** 2026-10-07
