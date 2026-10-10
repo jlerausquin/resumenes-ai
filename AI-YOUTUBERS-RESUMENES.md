@@ -1,6 +1,87 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matt Wolfe] AI News: Haiku-5.5, Visual ChatGPT, Grok's New Trick, and more!
+**Fecha:** 2026-10-09
+**URL:** https://www.youtube.com/watch?v=NUizyuGj-kE
+**Video ID:** NUizyuGj-kE
+
+### 📝 Resumen
+
+#### Anthropic presenta Claude Haiku 5.5
+
+Matt Wolfe abre el repaso semanal con el lanzamiento por parte de Anthropic de Claude Haiku 5.5, un modelo pensado para ser rápido y económico más que para ser el más inteligente de la gama. La compañía lo describe como un modelo orientado a tareas de alto volumen y sensibles al coste, capaz de manejar de forma fiable cargas repetitivas como resúmenes, compactaciones de contexto, consultas a bases de datos y clasificación, y lo recomienda además como subagente dentro de flujos de programación. En los benchmarks publicados no supera prácticamente en nada a Sonnet ni a Opus: en trabajo de conocimiento obtiene 1620 frente a los 1840 de Sonnet, y en uso de computadora 72 frente a 83,9. Su ventaja real es el precio: Haiku 5.5 en nivel de esfuerzo extra alto rinde de forma comparable a Sonnet 5.5 en nivel medio por unos 28 centavos frente a los 93 de Sonnet, con un coste de unos 10 centavos por millón de tokens de entrada en los primeros 100.000 tokens y 50 centavos en salida. Según el análisis de Artificial Analysis, Anthropic conserva los tres modelos más inteligentes, pero Haiku cae por debajo de Kimi K3, GLM 5.3 y Grok 4.7; aun así, su coste medio por tarea de unos 0,21 dólares lo convierte en una opción muy barata de ejecutar. Wolfe señala que, si bien sigue consumiendo muchos tokens, no está pensado para quien paga una suscripción de Claude y solo chatea, sino para desarrolladores que usan la API o para tareas básicas en Claude Code donde priman la velocidad y el ahorro.
+
+#### Paneles en vivo y explicadores animados con Claude Motion
+
+El presentador destaca que el anuncio más interesante de Anthropic fue la capacidad de crear paneles interactivos en vivo y de animar explicaciones dentro de Claude. Los paneles se conectan a plataformas de datos como BigQuery, Databricks o Snowflake, o a CRM como Salesforce, y están disponibles en prácticamente cualquier plan de pago. En cambio, la función de animación, llamada Claude Motion, queda reservada a planes de equipo y empresariales en versión beta. Wolfe relativiza el mérito: construir tableros ya era posible y ahora simplemente está más integrado, y las animaciones también podían lograrse pidiendo a Claude que programara en JavaScript o usando herramientas como HyperFrames y Remotion. Su principal queja es comercial, ya que paga un plan Max de 200 dólares al mes por acceso anticipado a funciones avanzadas y, sin embargo, Claude Motion no se ofreció a quienes pagan más de 100 dólares mensuales sino a planes de equipo.
+
+#### El patrocinio de Hyper Agent y los agentes de preparación de invitados
+
+En un segmento patrocinado, Wolfe muestra un sistema que construyó con Hyper Agent para preparar entrevistas con creadores. Creó tres agentes con roles delimitados —Scout, el investigador; Echo, el entrevistador que plantea las preguntas; y Vox, el productor que convierte el material en un resumen— y deliberadamente los mantuvo sin acceso al correo ni al calendario, siguiendo el principio de dar a cada agente solo las herramientas que su tarea requiere. Al lanzar una petición en un hilo nuevo, los tres agentes se activan en orden y generan un plan revisable antes de pasar a modo de ejecución. La novedad clave es la función de salas, que permite reunir a varios compañeros de equipo con los tres agentes en un mismo espacio de trabajo para que colaboren y se transfieran tareas sin que el humano haga de intermediario, compartiendo todos las mismas instrucciones en lugar de mantener configuraciones separadas.
+
+#### OpenAI y su maratón de 28 días: GPT-6 y la interfaz inteligente
+
+El bloque central lo ocupa OpenAI, que el 4 de octubre anunció a través de X una campaña de 28 días en la que cada jornada lanzaría una mejora relevante para los usuarios de Codex y Work, y que en la práctica ha publicado más de una actualización al día. Wolfe considera que el hito más significativo fue la llegada de GPT-6 acompañada de una interfaz inteligente que vuelve a ChatGPT mucho más visual: las respuestas pueden incluir gráficos, botones, formularios, tablas y experiencias interactivas en lugar de texto plano, como demuestran los ejemplos de desglose del diseño de una bicicleta o de una guía de vestuario. Además, el modelo es a la vez más inteligente y más rápido: un nivel de inteligencia que antes requería 215 segundos ahora se obtiene en 109, y el modo Instant permite respuestas casi inmediatas con apoyo de imágenes. Otras actualizaciones incluyen una optimización de velocidad por defecto del 50 % en GPT-6 Astra y GPT-6.1 Soul, una revisión automática gratuita que reduce la fricción de las aprobaciones en modo edición, y un complemento de reuniones que escucha el audio de micrófono y sistema para transcribir, tomar notas y guardarlas en la memoria de ChatGPT, compitiendo directamente con Granola.
+
+#### La API de decisiones, los nuevos precios y el modo ultra rápido
+
+OpenAI también presentó la API de decisiones anunciada en su Dev Day, una suerte de equivalente de Jev que responde con una decisión predefinida en lugar de grandes bloques de texto, generando tres tipos de salida —predicados, elecciones y puntuaciones— y apoyándose en GPT-6 Luna, el modelo más barato y rápido, por lo que su uso resulta casi gratuito. En paralelo simplificaron los precios de la API de cinco niveles a tres: Build, Launch y Grow, con distintos límites de tasa según el nivel contratado. Asimismo lanzaron el modo ultra rápido en GPT-6.1 Soul dentro de la API, Codex y ChatGPT, disponible previsiblemente en el plan de 500 dólares al mes y bastante más caro: si la versión estándar cuesta 2 dólares por millón de tokens de entrada y 10 de salida, la rápida duplica el precio y la ultra rápida lo multiplica por seis a cambio de ser ocho veces más veloz. Wolfe confiesa que quiere probarlo para edición de vídeo, aprovechando el uso de computadora, pero no se ha decidido a pagar ese nivel. Cierra el bloque OpenAI con la mejora de la dirección instantánea, que permite redirigir una generación en curso —por ejemplo, cambiar un perro por un lobo— sin esperar al resultado previo.
+
+#### El bot de Grok: acceso directo a X y orquestación multiagente
+
+El presentador dedica espacio a Grok, defendiendo que sus herramientas merecen una oportunidad al margen de las opiniones sobre Elon Musk. La actualización principal es que el bot de Grok utilizará el mejor modelo de infraestructura disponible para cada tarea, recurriendo a Opus 5.5, Midjourney, Suno y otras APIs líderes en lugar de limitarse al modelo propio de Grok, aunque queda en el aire si incluirá modelos de OpenAI dada la disputa entre Musk y Sam Altman. La segunda novedad es que el bot puede buscar, leer y monitorizar X, lo que permite vigilar tendencias, avisar cuando una publicación empieza a hacerse viral o sugerir ideas según lo que es tendencia en un nicho. Wolfe explica la arquitectura de bots especializados —uno de triaje de correo conectado a Gmail, otro de investigación— y la figura del jefe de personal como bot principal que delega en los demás, convirtiéndose en el orquestador, un enfoque distinto al de Muse y Dots, que apuestan por un único chat. Como muestra, su bot de X revisó sus últimas 75 publicaciones, detectó que sus mejores horarios son entre las 10 y la 13 horas del Pacífico y propuso temas como Gemini 4 Argon, la prueba gratuita de GPT-6, los artículos de matemáticas escritos por IA de OpenAI y la noche de combates de robots humanoides en Singapur.
+
+#### Mistral Large 4 (Le Chonk) y Reflection Beam: el auge de los modelos abiertos
+
+En una ronda rápida, Wolfe repasa varios modelos nuevos. El primero es Mistral Large 4, apodado Le Chonk, un modelo de pesos abiertos con un billón de parámetros que difícilmente se ejecutará en equipos locales pero que resulta sólido y se compara con los buenos modelos abiertos chinos como Kimi K3, GLM 5.3 y DeepSeek V4; en Busy Bench tardó unos dos minutos y medio, consumió 9.675 tokens y obtuvo una puntuación de nivel medio. El segundo es Beam, de la estadounidense Reflection, un modelo abierto de 501.000 millones de parámetros que se alinea con Kimi K3, GLM 5.3, DeepSeek V4.1 y Nemotron-3 Ultra, aunque rinde algo menos en codificación agéntica y todavía no está disponible públicamente, solo para primeros evaluadores. El presentador enmarca ambos como ejemplos de modelos abiertos no chinos y muy grandes, pensados sobre todo para empresas que quieran construir sus propios servidores y mantener los pesos en sus instalaciones.
+
+#### Google: Playground, Foresight y el agente Gemini
+
+Google lanzó Playground, un constructor de juegos donde basta describir el juego en una caja de texto para que el sistema lo diseñe, con soporte para escritorio y móvil y disponibilidad en Estados Unidos para mayores de 18 años en playground.google, además de juegos creados por otros usuarios. Además presentó Google AI Edge Foresight, una aplicación de notas con IA para macOS que transcribe reuniones completamente sin conexión, tomando las notas, creando listas de tareas y aprendiendo lo que sabe el usuario sin enviar nada a la nube, como competidor local de Granola y de la versión de OpenAI. Siguiendo con el ecosistema, Google prepara su propio agente —denominado Gemini agent— similar a Dots, Muse o Grok bot pero integrado en su infraestructura, accesible desde web, iOS, Android, Windows, Mac y servicios como Workspace, Microsoft 365 o Slack, con orquestación multiagente; Wolfe lo relega a la ronda rápida porque parece enfocado a empresas más que a consumidores y porque no se ha oído mucho de Gemini Spark desde el lanzamiento de Muse, Dots y Grok Bot. Google también presentó Synth ID Detector, un identificador que determina si un archivo fue generado por IA, aunque solo si procede de productos de Nvidia, OpenAI, Google o Kakao.
+
+#### Hark Pro, Muse y el cierre: convergencia de agentes y nuevas reglas
+
+Wolfe cierra con el anuncio de Hark Pro, el nuevo agente de Bret Adcock —fundador de Figure Robotics— que puede controlar la computadora para ejecutar tareas como reponer productos, preparar presentaciones, buscar candidatos en LinkedIn, pedir un Uber, imprimir etiquetas de devolución o incluso cancelar una suscripción. Para el presentador, todos estos agentes —Muse, Dots, Grok bot, Instinct, los de Google y Hark— tienden a converger en las mismas capacidades, de modo que la elección acabará dependiendo de la lealtad a cada empresa; destaca que Muse puede usarse gratis, a diferencia de Dots o Grok. También menciona que Meta liberó con código abierto la tecnología para crear dispositivos con su IA Muse, permitiendo construir versiones propias incluso con una Raspberry Pi. En el terreno normativo, Anthropic actualizó su política de uso para prohibir el comportamiento abusivo o cruel, sostenido e innecesario hacia sus modelos, aunque aclaró que solo se aplicará a casos extremos y no a frustraciones comunes, críticas, temas creativos oscuros o pruebas de investigación. Por último, Wolfe comparte una reflexión de Mustafa Suleyman sobre el premio Nobel Daron Acemoglu, quien sostiene que en diez años solo el 5 % del trabajo humano será reemplazado por IA, una visión que contradice la narrativa del reemplazo masivo de empleos.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+| --- | --- | --- |
+| Claude Haiku 5.5 | Modelo / producto | https://www.anthropic.com |
+| Anthropic | Empresa | https://www.anthropic.com |
+| Claude Motion y paneles en vivo | Producto | https://www.anthropic.com |
+| Hyper Agent | Producto (patrocinador) | https://hyperagent.com |
+| OpenAI | Empresa | https://openai.com |
+| Codex / Work | Producto | https://openai.com/codex |
+| GPT-6 / GPT-6 Astra / GPT-6.1 Soul / GPT-6 Luna | Modelos | https://openai.com |
+| API de decisiones (OpenAI) | Producto / API | https://platform.openai.com |
+| Granola | Producto | https://www.granola.ai |
+| Grok bot / xAI | Producto / empresa | https://x.ai |
+| Midjourney | Producto | https://www.midjourney.com |
+| Suno | Producto | https://suno.com |
+| Muse (Meta) | Agente / producto open source | https://ai.meta.com |
+| Dots (OpenAI) | Agente | https://openai.com |
+| Instinct | Agente | — |
+| Mistral Large 4 (Le Chonk) | Modelo open weights | https://mistral.ai |
+| Reflection Beam | Modelo open weights | https://reflection.ai |
+| Kimi K3 | Modelo | https://www.moonshot.ai |
+| GLM 5.3 | Modelo | https://zhipuai.cn |
+| DeepSeek V4 / V4.1 | Modelo | https://www.deepseek.com |
+| Nemotron-3 Ultra | Modelo | https://www.nvidia.com |
+| Artificial Analysis | Benchmark / análisis | https://artificialanalysis.ai |
+| Busy Bench | Benchmark | — |
+| Google Playground | Producto | https://playground.google |
+| Google AI Edge Foresight | Producto | https://ai.google.dev |
+| Gemini agent / Gemini 4 Argon | Producto / modelo | https://deepmind.google |
+| Synth ID Detector | Producto | https://deepmind.google |
+| HyperFrames / Remotion | Herramientas de animación | https://www.remotion.dev |
+| Hark Pro (Bret Adcock) | Agente / producto | https://www.figure.ai |
+| Figure Robotics | Empresa | https://www.figure.ai |
+| Salesforce / BigQuery / Databricks / Snowflake | Plataformas de datos | https://www.salesforce.com |
+| Andrew Curran (cambio de política de Anthropic) | Artículo / hilo | https://x.com |
+| Daron Acemoglu (predicción sobre empleo e IA) | Opinión / premio Nobel | — |
+| Mustafa Suleyman (Microsoft AI) | Referencia | https://www.microsoft.com |
 ## [Matthew Berman] 12 Grok Bot Use Cases That Feel Illegal
 **Fecha:** 2026-10-07
 **URL:** https://www.youtube.com/watch?v=BsNHg6cNjZE
