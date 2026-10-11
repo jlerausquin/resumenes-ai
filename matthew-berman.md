@@ -1,5 +1,57 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Everything has been solved
+
+**Fecha:** 2026-10-10
+**URL:** https://www.youtube.com/watch?v=cX2kD2yQf88
+**Video ID:** cX2kD2yQf88
+
+### 📝 Resumen
+
+#### La descompilación como caso de uso perfecto para la IA
+
+Matthew Berman abre el vídeo con la idea de que la IA se ha vuelto tan competente escribiendo código que ya está alterando industrias enteras. El ejemplo central es la descompilación de videojuegos: el código fuente que un programador escribe y edita se compila a código máquina que solo la máquina ejecuta de forma eficiente, de modo que recuperar ese código original se convierte en un ejercicio de prueba y error. Berman explica que históricamente este proceso ha consumido años de trabajo humano —como el proyecto comunitario para descompilar Super Smash Bros. Melee—, mientras que ahora docenas de juegos se están descompilando en cuestión de semanas. La razón es que la descompilación encaja con la fortaleza distintiva de la IA: es intensiva en código y posee un bucle verificable, donde el modelo propone una implementación y comprueba automáticamente si el resultado se comporta como el original. Aunque el código recuperado nunca es idéntico al original (los comentarios y nombres se pierden y el compilador reorganiza y simplifica), el comportamiento final del juego es el mismo.
+
+#### Del trabajo humano a los agentes en paralelo
+
+El vídeo contrasta los tiempos: el caso de Chris Lewis, que descompiló el juego *Snowboard Kids* y pasó de dedicarle casi dos años a completarlo en 84 días usando IA, con una línea de tiempo que sigue comprimiéndose. Berman atribuye esa aceleración a tres factores combinados: repartir el trabajo en pequeñas porciones entre muchos agentes que corren en simultáneo, la mayor velocidad de la IA escribiendo código y su capacidad de iterar sin cansarse. El resultado es que lo que antes exigía un equipo humano durante años ahora puede resolverse en días.
+
+#### Los cuatro enfoques para fusionar videojuegos
+
+Berman clasifica las distintas formas en que la gente está mezclando juegos. La más simple es el *swap* o importación de assets: cambiar el aspecto de un personaje por el de otro, como si fuera una skin que conserva el comportamiento original. Un paso más allá está el *pass-through mod*, donde ambos juegos siguen ejecutándose y un mod conecta sus motores, alineando cámaras, física y dibujado para que coincidan —el ejemplo de Minecraft dentro de GTA, donde una explosión de TNT en un juego se traduce en una explosión en el otro—. El tercer enfoque consiste en trasladar una mecánica completa de un juego a otro (el parkour de *Mirror's Edge* dentro de *Skyrim*, o el skate en *Call of Duty*), portando directamente el código cuando es posible o utilizando IA para recrear el comportamiento a partir de la observación. El cuarto y más ambicioso es reconstruir por completo el juego y sus reglas, escribiendo un reemplazo del software que da más control y permite fusiones realistas, aunque es el que más tiempo y dependencia de la IA requiere.
+
+#### Su propio experimento: Super Mario World para el Mod Retro
+
+Berman comparte un proyecto personal: al recibir en el OpenAI Dev Day unos "Mod Retro" (una versión recreada de la Game Boy), pidió a GPT-6.1 Soul que recreara *Super Mario World* desde cero para ese dispositivo. El modelo lleva más de cuatro días trabajando en un bucle que escribe código, lo compara con la documentación y las imágenes de referencia del juego original e itera; Berman estima que podría terminar en unos pocos días más. Señala que este caso no es estrictamente una descompilación, pero se le parece mucho, y que gracias a modelos más baratos y eficientes ya no consume todos sus tokens, hasta el punto de acumular resets sin usar.
+
+#### "El software está resuelto": el fin del software como foso defensivo
+
+A partir del ejemplo de alguien que clonó Adobe Photoshop y lo publicó como proyecto de código abierto y gratuito —Photo Craft—, Berman sostiene que si se puede recrear Photoshop apuntando una IA a una copia local y pidiéndole que lo reconstruya observando su comportamiento, lo mismo aplica a Premiere o a cualquier otra pieza de software (él mismo había hecho algo similar con Excel). Su conclusión es que "el software está resuelto": construir una empresa alrededor del software sigue teniendo valor, pero si el único foso es el propio software, esa empresa está en problemas. El valor se desplaza hacia servicios adicionales como formación, funciones empresariales, soporte y mantenimiento continuo. Insiste en que la razón de fondo es el bucle: dar a la IA un objetivo final y dejarla continuar hasta alcanzarlo, el mismo principio que llevó a que Claude Code, Codex y Cursor incorporen comandos de "goal" o "loop".
+
+#### Matemáticas y ciencia como dominios verificables
+
+Berman extiende el argumento a las matemáticas, afirmando que el día anterior a la grabación fue probablemente el más importante de su historia: OpenAI publicó numerosas pruebas e investigaciones nuevas. Cita un análisis del usuario Will Depue, que pidió a GPT-6 Pro y Fable 5.1 clasificar los descubrimientos matemáticos de los últimos tres años en tres categorías —descubiertos por humanos, descubiertos por IA antes de ese día y descubiertos por IA ese mismo día—, mostrando gráficamente que los días de los humanos resolviendo matemáticas en solitario han terminado. La extrapolación que propone es directa: si las matemáticas y el software están resueltos, ¿por qué no la ciencia, el descubrimiento de materiales o la cura del cáncer? Su tesis es que cualquier problema con un resultado verificable, aunque no se sepa cómo llegar a él, es básicamente resoluble por IA.
+
+#### Autorrefinamiento recursivo y el nuevo valor del criterio humano
+
+La parte final conecta todo con el autorrefinamiento recursivo, que Berman describe como el bucle definitivo: apuntar la IA hacia sí misma para mejorar su eficiencia, velocidad o formas de operar, de modo que cada mejora habilita la siguiente y se produce una "explosión de inteligencia". Menciona el proyecto Alpha evolve de Google, que analizó el código que sostiene la infraestructura de la compañía y encontró mejoras arquitectónicas que ahorran miles de millones de dólares al año, como ejemplo de beneficios ya visibles. Frente a esto, señala que los laboratorios frontera hablan de "marcar el ritmo de la frontera" precisamente por la incertidumbre sobre las implicaciones. Pese a ello, Berman defiende que el criterio y la creatividad humanos son ahora más valiosos que nunca: en un mundo donde cualquiera puede generar imágenes o juegos en masa, saber qué va a conectar emocionalmente con las personas es lo que no es verificable, y por tanto lo que distingue la señal del ruido. Cierra enlazando con su anterior vídeo viral *SaaS is dead*.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Chris Lewis — descompilación de *Snowboard Kids* con IA en 84 días | Proyecto/comunidad | — |
+| Super Smash Bros. Melee — proyecto de descompilación comunitaria | Proyecto/comunidad | https://github.com/doldecomp/melee |
+| Photo Craft — clon de código abierto de Adobe Photoshop | Repositorio | https://github.com/search?q=photocraft |
+| OpenAI Dev Day — Mod Retro / GPT-6.1 Soul | Producto/empresa | https://openai.com/ |
+| Claude Code (Anthropic) | Producto/empresa | https://www.anthropic.com/claude-code |
+| Codex (OpenAI) | Producto/empresa | https://openai.com/codex/ |
+| Cursor | Producto/empresa | https://cursor.com/ |
+| Alpha evolve (Google DeepMind) | Paper/proyecto | https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/ |
+| Will Depue — análisis de descubrimientos matemáticos (humano vs IA) | Artículo (X/Twitter) | https://x.com/willdepue1 |
+| Matthew Berman — *SaaS is dead* | Vídeo | https://www.youtube.com/@matthew_berman |
+
+---
 ## [Matthew Berman] 12 Grok Bot Use Cases That Feel Illegal
 **Fecha:** 2026-10-07
 **URL:** https://www.youtube.com/watch?v=BsNHg6cNjZE
