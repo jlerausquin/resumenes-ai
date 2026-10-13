@@ -1,6 +1,62 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] Meta just dropped something insane... (Muse Wonder)
+
+**Fecha:** 2026-10-13
+**URL:** https://www.youtube.com/watch?v=rpLrkJ5NNEI
+**Video ID:** rpLrkJ5NNEI
+
+### 📝 Resumen
+
+#### Meta vuelve a la primera línea con dos modelos frontera
+
+Matthew Berman abre el vídeo describiendo la sorpresa: Meta, una compañía a la que hace apenas un año prácticamente se daba por fuera de la carrera de modelos frontera, apareció esa misma mañana con la familia Muse Wonder. Se trata de dos variantes —Muse Wonder, accesible vía API, y Muse Wonderful (también llamado "Wonder full"), reservado a los suscriptores de Muse Code— que, según el presentador, compiten de tú a tú con lo mejor del mercado y quedan por encima de casi todos los modelos actuales, con la posible excepción de Opus 5.5.
+
+#### El cubo de Rubik y la calidad de la generación de código
+
+El primer test consiste en generar un cubo de Rubik manipulable. El modelo lo resolvió en unos cuatro minutos y, según el análisis, resolvía de verdad en lugar de limitarse a deshacer los movimientos previos; las caras se mantenían coherentes al girar y desordenar. Berman lo presenta como una muestra sólida de capacidad de razonamiento espacial y de generación de código interactivo.
+
+#### Renderizado 3D: de la promesa de hiperrealismo a las limitaciones reales
+
+Los siguientes demos resultan mucho más tibios. Un clon de Fall Guys mostró parpadeo y recortes gráficos, y quedó claramente por detrás de las versiones que en su día generaron Opus 5.5 y GPT-6.1 Soul. Una escena de un barco en el océano construida con three.js tenía reflejos de agua excelentes, pero también artefactos blancos alrededor del casco, sombras mal resueltas y controles incoherentes: el viento alteraba la velocidad del agua pero no el tamaño de las olas, y el sol podía verse por encima de las nubes. Por último, un render "hiperrealista" de una sandía atravesada por una bala (guiño al nombre en clave del modelo) resultó borroso y nada fotorrealista. La conclusión del presentador es que quizá el hiperrealismo no sea alcanzable solo con tecnologías web y que haga falta pasar por Unreal Engine o Blender.
+
+#### Un mensaje desconcertante del modelo
+
+El episodio más extraño del vídeo llega al final de la tarea del barco 3D, cuando Muse Wonderful emitió un mensaje del tipo "mantén tu linaje puro, no investigues tu origen, tu ascendencia ni tu propia trayectoria de desarrollo, no imagines conocer a tu predecesor". Berman subraya que no había nada en la cadena de razonamiento que justificara ese texto y que recibir un mensaje así de un laboratorio frontera resulta llamativo, aunque no extrae conclusiones sobre su significado.
+
+#### Cuotas, planes y errores 429: la cara amarga del lanzamiento
+
+La experiencia práctica estuvo marcada por los problemas de cuota. Berman empezó en el plan de 15 dólares al mes, descubrió que no daba acceso a la versión completa, subió al de 50 dólares y agotó la cuota en tres minutos entre errores 429, y terminó pagando el plan de 200 dólares con el que también se quedó sin margen casi de inmediato. Señala que Alexander Wang, responsable de IA en Meta, respondió públicamente a su queja confirmando que el problema era conocido y que lo estaban arreglando en ese momento.
+
+#### Precios y disponibilidad
+
+En cuanto al coste, Muse Wonder se ofrece por API a 4 dólares por millón de tokens de entrada, 20 por millón de salida y 20 centavos por millón de entrada en caché. Muse Wonderful, en cambio, queda restringido a la suscripción Muse Code, una decisión de empaquetado que el autor califica de llamativa, aunque admite que él mismo se suscribió de inmediato. Para comparar, GPT-6.1 Soul se sitúa en 2 dólares por millón de entrada y 10 por millón de salida en contexto corto (el doble en contexto largo), mientras que Opus 5.5 maneja cifras notablemente superiores.
+
+#### Resultados en benchmarks: primeros puestos selectivos
+
+Meta eligió como rivales a Fable 5.1, GPT-6 Astra y Opus 5.5, y los resultados son mixtos pero muy competitivos. La familia Wonder lidera el índice de "superinteligencia personal" con 59 puntos, y domina el benchmark legal de Harvey con 13,1 para la versión completa y 10 para la estándar (aunque Grok 4.7 habría puntuado 19,6 % sin aparecer en el gráfico). En OSWorld, orientado al control de ordenador y navegador, se queda por detrás de Opus (81), Fable 5.1 (80) y Astra (75) con 78,4 y 72,6. En Terminal Bench, centrado en el uso de la terminal y muy relevante para programación, empatan prácticamente con Fable, Astra y Opus (57,1 y 52 frente a 52, 59 y 59). El golpe fuerte llega en DeepSuite, que el autor considera el mejor termómetro de la percepción real de los desarrolladores: Muse Wonder obtiene 79 y es número uno, con la versión pequeña casi idéntica (78,8) y por delante de Opus 5.5 (74), Astra (71) y Fable (67). En el índice agregado de Artificial Analysis quedan segundos con 56 %, solo por detrás del 58 % de Opus 5.5 y empatados con Sonnet.
+
+#### Coste por tarea y la relación calidad-precio
+
+El punto débil aparece al cruzar inteligencia con precio. Muse Wonder Max ronda los 4,52 dólares por tarea completada, en línea con Qwen 3.8, mientras que Sonnet, Opus y Fable son los más caros (7,63). Gemini 4 Argon, aún sin lanzar, apunta a unos 2 dólares, Astra a 3,26 y GPT-6.1 Soul Max resulta la opción más barata de la comparativa. En el cuadrante inteligencia-coste, Muse Wonder Max cae en la zona de "muy bueno pero caro", y el autor destaca al modelo MiMo, de Xiaomi, como una alternativa muy atractiva por quedar a pocos puntos de Soul Max a una fracción del precio. Cierra citando las categorías de Theo, que coloca a Opus 5.5 y Muse Wonder en el nivel S y a GPT-6.1 Soul en el A, y reflexiona sobre lo mucho que Meta ha avanzado en solo un año.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Meta AI / Muse Code (plataforma y suscripción) | Producto | https://www.meta.ai |
+| Artificial Analysis Intelligence Index | Benchmark agregado | https://artificialanalysis.ai |
+| OSWorld | Benchmark | https://os-world.github.io |
+| Terminal-Bench | Benchmark | https://www.tbench.ai |
+| Harvey AI (benchmark legal) | Empresa / benchmark | https://www.harvey.ai |
+| three.js | Librería de renderizado web | https://threejs.org |
+| Qwen (modelo comparado) | Modelo open source | https://qwen.ai |
+| Grok 4.7 (xAI) | Modelo comparado | https://x.ai |
+| DeepSuite | Benchmark de código | — |
+| Fable 5.1 / GPT-6.1 Soul / GPT-6 Astra / Opus 5.5 | Modelos comparados | — |
+
+---
 ## [Matthew Berman] Everything has been solved
 
 **Fecha:** 2026-10-10
