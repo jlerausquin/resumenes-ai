@@ -1,5 +1,55 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Google just went FRONTIER (Gemini 4 Argon)
+
+**Fecha:** 2026-10-14
+**URL:** https://www.youtube.com/watch?v=M8iqahFogtA
+**Video ID:** M8iqahFogtA
+
+### 📝 Resumen
+
+#### Un modelo frontier tras una semana de acceso anticipado
+
+Matthew Berman confirma que Gemini 4 Argon marca el regreso de Google a la primera línea y muestra lo que ha construido durante la semana de acceso anticipado. Un detalle operativo que le llamó la atención: sin instrucciones concretas sobre cuánto tiempo dedicar a una tarea ni el uso de comandos de objetivo, el modelo tiende a trabajar alrededor de 30 minutos por defecto antes de dar por cerrado el trabajo.
+
+#### 3D y visual: de la ciudad cyberpunk al Rube Goldberg
+
+Con un prompt mínimo, Argon generó una animación 3D hiperrealista de una ciudad cyberpunk en 3JS que corre a 60 fotogramas por segundo en el navegador, con multitud de edificios, vehículos voladores y controles de estilo como el modo "2049 amber", densidad de neón y calidad ultra. En cambio, una máquina de Rube Goldberg en 3JS resultó competente pero no hiperrealista: aunque la física y las colisiones funcionaron bien y permitió recorrer niveles temáticos —Grand Canyon, Las Vegas, laboratorio de relojería y templo de Kioto—, el modelo no logró el acabado realista solicitado, algo que el autor atribuye a las limitaciones del renderizado en navegador frente a Unreal Engine o Blender.
+
+#### Muse Wonder (Meta) y las limitaciones en 3D
+
+Berman dedica un aparte al nuevo modelo de Meta, Muse Wonder, publicado un día antes: lo considera un modelo frontier absolutamente válido, pero flojo en 3D, 3JS, Unreal Engine y Blender. Cita a Alexander Wang, responsable de IA de Meta, admitiendo que el equipo no entrenó con refuerzo al modelo para destacar en 3D y que, visto en retrospectiva, fue un error. Aun así, Berman sitúa a Argon en un punto intermedio: es claramente mejor que Muse Wonder en 3D, pero sigue por detrás de Astra y Opus, que califica como revolucionarios en ese terreno.
+
+#### Benchmarks de trabajo de conocimiento con Box
+
+La primera tanda de benchmarks, aportada por el patrocinador Box, se centra en trabajo de conocimiento real: extracción de datos y conexión de información entre cientos o miles de documentos en ámbitos legal, ciencias de la vida y sanidad. Argon representa un salto del 14 % respecto al modelo anterior probado (Gemini 3.1 Pro), pasando del 71 % al 85 % en el conjunto de datos total, con mejoras amplias en evaluación de hojas de cálculo, extracción de PDF, presentaciones e imágenes. El autor recomienda Box AI para desarrolladores que quieran construir sobre modelos frontier y aclara que su propia empresa, Forward Future, lo utiliza.
+
+#### Juegos: clon de Fall Guys y comparativas
+
+El clon de Fall Guys, generado con un prompt deliberadamente simple y sin sobreespecificar, mostró niveles divertidos, buenas colisiones y una animación final sólida; el autor lo iteró con objetivos explícitos hasta lograr diez niveles complejos y corregir parpadeos y colisiones, y compara el resultado con otros modelos. También construyó una escena de un barco flotando en el océano renderizada en Unreal Engine, con buenas olas y detalle alto pese a cierta repetición en la superficie, aunque el modelo no permitía sumergirse bajo el agua a diferencia de otras alternativas.
+
+#### Benchmark frontier: DeepSWE, Terminal Bench y control de ordenador
+
+Con las tablas comparativas frente a Astra, Fable 5.1, Opus 5.5, Muse Wonder y GPT-6.1 Soul, Argon obtiene 77,9 puntos en DeepSWE —justo por detrás de Muse Wonder, líder con 79 %—, 91,9 % en Vibe Code Bench, donde queda primero, y 57 en Terminal Bench, por detrás de Opus 5.5 (66,4), Muse y Astra. En control de ordenador OS World alcanza el 69 % frente al 71,4 % de GPT-6.1 Soul, y en Agent's Last Exam 39 frente a 38 de Opus. Su conclusión es que el modelo está a la altura de la frontera y que la competencia entre Google, Meta, OpenAI y Anthropic beneficia a los usuarios con modelos mejores, más rápidos y más baratos.
+
+#### Clonar Excel y la tesis de que el software tenderá a costar cero
+
+En la prueba de ingeniería inversa, Argon clonó Excel en unos 20 minutos, abriendo la aplicación real para inspeccionarla: la interfaz y la experiencia de usuario en el navegador resultan notables y las fórmulas básicas funcionan, con algún detalle menor en el manejo de "equals sum". El autor aprovecha para lanzar su tesis de fondo: si el único foso defensivo de un negocio son las líneas de código de su software, ese negocio está en peligro, porque los productos y servicios deberán ofrecer algo que el último modelo no pueda duplicar.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+| --- | --- | --- |
+| Gemini 4 Argon (Google DeepMind) | Modelo frontier | https://deepmind.google/models/gemini/ |
+| Box / Box AI | Plataforma y benchmark de trabajo de conocimiento | https://www.box.com/ai |
+| Muse Wonder (Meta) | Modelo frontier | https://ai.meta.com/ |
+| Claude Opus 5.5 (Anthropic) | Modelo frontier | https://claude.com/ |
+| OpenAI GPT-6.1 Soul | Modelo frontier | https://openai.com/ |
+| Unreal Engine | Motor 3D | https://www.unrealengine.com/ |
+| Blender | Suite 3D | https://www.blender.org/ |
+| three.js (3JS) | Librería 3D para navegador | https://threejs.org/ |
+
+---
 ## [Matthew Berman] Meta just dropped something insane... (Muse Wonder)
 
 **Fecha:** 2026-10-13

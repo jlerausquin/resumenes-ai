@@ -1,5 +1,63 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] Google Just Caught Up (Gemini-4 Argon)
+
+**Fecha:** 2026-10-13
+**URL:** https://www.youtube.com/watch?v=eBszYxzE2dk
+**Video ID:** eBszYxzE2dk
+
+### 📝 Resumen
+
+#### Gemini 4 Argon: el lanzamiento que llega tarde pero llega
+
+Matt Wolfe analiza la disponibilidad general de Gemini 4 Argon, el nuevo modelo de Google que, según el autor, coloca a la compañía al nivel de GPT-6.1 y Opus 5.5. Señala que el anuncio se había hecho dos semanas antes mediante una entrada de blog, pero sin acceso para el público general salvo testers de confianza y ciberdefensores; a partir de ahora sí está disponible para los planes de pago de gama alta. El modelo está diseñado para los problemas más complejos y las tareas largas, más que para la típica pregunta-respuesta, y viene integrado en la Búsqueda de Google, en la plataforma de programación Antigravity y competidores nuevos al estilo de Muse y Dots.
+
+#### Benchmarks y novedades técnicas
+
+El creador repasa los resultados iniciales: Argon lidera el Índice Vowels (tareas profesionales en finanzas, programación, trabajo legal e impuestos), es estado del arte en Automation Bench, en trabajo legal y en el benchmark de referencia para programación agéntica de DeepSeek. Su rasgo más llamativo es el límite de salida de un millón de tokens —equivalentes a unas 750.000 palabras—, algo que ningún otro modelo ofrece, frente a los modelos con ventana de un millón de tokens donde casi todo el contexto se consume en la entrada. En el índice compuesto Artificial Analysis se sitúa en el puesto 53, a la par de Fable pero por detrás de Opus 5.5, Sonnet 5.5 y el nuevo Muse Wonder de Meta. Como contrapartida positiva, su coste por tarea es considerablemente más bajo que el de la mayoría de sus rivales.
+
+#### Precios y acceso
+
+Los suscriptores de Google AI Pro, desde unos 20 dólares al mes, obtienen Argon en la aplicación Gemini y en el modo IA de las búsquedas; para usarlo dentro de Antigravity hace falta el plan Google AI Ultra, desde unos 100 dólares mensuales. Vía API el precio introductorio es de 2 dólares por millón de tokens de entrada y 10 por millón de salida, aproximadamente la mitad que Opus y similar a Sonnet 5.5 y GPT-6.1, pero a partir de diciembre subirá a 4 y 20 dólares respectivamente.
+
+#### Antigravity, chat y tareas: el nuevo ecosistema
+
+Argon es el modelo principal de Antigravity, la apuesta de Google frente a Codex, Claude Code o Cursor, y está disponible en modos bajo, medio y alto. La interfaz de programación de Antigravity llegará también a la aplicación de Gemini en macOS, siguiendo el patrón de ChatGPT y Claude Code de unificar chat y programación. Google sustituye Gemini Spark por un modo de "tareas" diferenciado del chat, conectado a aplicaciones de terceros como Instacart, OpenTable, Adobe o Shopify. El autor destaca además que Argon ofrece respuestas más directas, con menos clichés y mayor fidelidad a las instrucciones de estilo que modelos anteriores de Google.
+
+#### Demos: SVG, clon de Mega Bonk y motor de física
+
+En las pruebas prácticas, generar a Gary Busey como archivo SVG produjo probablemente el mejor resultado hasta la fecha del canal. El clon del juego 3D Mega Bonk arrojó mecánicas correctas a la primera y gráficos decentes, aunque por debajo de Opus 5.5 o GPT-6 Astra en estética. El patio de pruebas de física, con cañón, preajustes de gravedad de Tierra, Marte y Luna, ángulo, velocidad, viento y distancia al objetivo, funcionó con actualizaciones en tiempo real y modos claro y oscuro, con aterrizajes exactos incluso al cambiar a un simulador marciano.
+
+#### Casos de uso: planificación, investigación y modelos 3D
+
+En tareas de planificación con restricciones —dos personas con franjas no disponibles y tareas indivisibles— el modelo construyó un cronograma correcto con hora de finalización más temprana a las 2:00 p.m. También generó comparativas bien presentadas, como la de si ChatGPT Plus, Claude Pro y Google AI Pro cubren llamadas a la API (solo Google ofrece 10 dólares mensuales en créditos de Google Cloud). Google había señalado al autor su buen desempeño creando archivos para impresión 3D: el modelo generó un busto STL de Gary Busey, verificado y efectivamente imprimible, que el autor abrió en Bambu Studio y llegó a imprimir.
+
+#### La función de tareas todavía cojea
+
+A pesar de las buenas sensaciones, el modo de tareas de Gemini no funcionó durante las pruebas: tanto una investigación de los cinco anuncios de IA más relevantes de la semana como una presentación de seis diapositivas sobre inyección de prompts se quedaron estancadas durante cerca de una hora sin mostrar plan de pasos. Curiosamente, al inspeccionar los pasos se comprobó que la presentación sí se había generado correctamente, lo que apunta a fallos de interfaz o de estado en la versión de acceso anticipado.
+
+#### Robótica: enseñar a un robot a jugar al cornhole
+
+Entre los casos más llamativos, Google usó Argon para enseñar a un robot a jugar al cornhole: observó a una persona lanzar las bolsas desde su perspectiva, practicó por su cuenta y terminó encestando siete veces seguidas entendiendo la mecánica del juego. El autor lo considera un ejemplo revelador del potencial del modelo en robótica y aprendizaje por demostración.
+
+#### Conclusión: paridad más que revolución
+
+La valoración final es matizada: salvo por la ventana de salida de un millón de tokens, Gemini 4 Argon no cambia las reglas del juego, sino que entrega a Google un modelo a la altura de lo que ya ofrecían Anthropic y OpenAI. Es probable que sus rivales lancen próximamente modelos que lo superen, pero el autor insiste en no descartar a Google por su enorme ecosistema —Gmail, Calendar, Chrome—, ya que integrar un modelo competitivo en esa base de usuarios puede volver a ponerlo por delante en adopción.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+| --- | --- | --- |
+| Gemini (Google DeepMind) | Modelo / producto | https://deepmind.google/models/gemini/ |
+| Google AI Pro / Ultra | Suscripciones | https://one.google.com/about/plans |
+| Antigravity | Plataforma de programación agéntica | https://antigravity.google |
+| Artificial Analysis | Índice comparativo de modelos | https://artificialanalysis.ai/ |
+| DeepSeek | Modelo de referencia en programación agéntica | https://www.deepseek.com/ |
+| Muse Wonder (Meta) | Modelo frontier | https://ai.meta.com/ |
+| Claude Opus / Sonnet (Anthropic) | Modelos de referencia | https://claude.com/ |
+| OpenAI GPT-6.1 | Modelo de referencia | https://openai.com/ |
+
+---
 ## [Matt Wolfe] AI News: Haiku-5.5, Visual ChatGPT, Grok's New Trick, and more!
 **Fecha:** 2026-10-09
 **URL:** https://www.youtube.com/watch?v=NUizyuGj-kE

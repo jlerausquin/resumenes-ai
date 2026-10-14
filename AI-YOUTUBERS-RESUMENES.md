@@ -1,6 +1,114 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] Google just went FRONTIER (Gemini 4 Argon)
+
+**Fecha:** 2026-10-14
+**URL:** https://www.youtube.com/watch?v=M8iqahFogtA
+**Video ID:** M8iqahFogtA
+
+### 📝 Resumen
+
+#### Un modelo frontier tras una semana de acceso anticipado
+
+Matthew Berman confirma que Gemini 4 Argon marca el regreso de Google a la primera línea y muestra lo que ha construido durante la semana de acceso anticipado. Un detalle operativo que le llamó la atención: sin instrucciones concretas sobre cuánto tiempo dedicar a una tarea ni el uso de comandos de objetivo, el modelo tiende a trabajar alrededor de 30 minutos por defecto antes de dar por cerrado el trabajo.
+
+#### 3D y visual: de la ciudad cyberpunk al Rube Goldberg
+
+Con un prompt mínimo, Argon generó una animación 3D hiperrealista de una ciudad cyberpunk en 3JS que corre a 60 fotogramas por segundo en el navegador, con multitud de edificios, vehículos voladores y controles de estilo como el modo "2049 amber", densidad de neón y calidad ultra. En cambio, una máquina de Rube Goldberg en 3JS resultó competente pero no hiperrealista: aunque la física y las colisiones funcionaron bien y permitió recorrer niveles temáticos —Grand Canyon, Las Vegas, laboratorio de relojería y templo de Kioto—, el modelo no logró el acabado realista solicitado, algo que el autor atribuye a las limitaciones del renderizado en navegador frente a Unreal Engine o Blender.
+
+#### Muse Wonder (Meta) y las limitaciones en 3D
+
+Berman dedica un aparte al nuevo modelo de Meta, Muse Wonder, publicado un día antes: lo considera un modelo frontier absolutamente válido, pero flojo en 3D, 3JS, Unreal Engine y Blender. Cita a Alexander Wang, responsable de IA de Meta, admitiendo que el equipo no entrenó con refuerzo al modelo para destacar en 3D y que, visto en retrospectiva, fue un error. Aun así, Berman sitúa a Argon en un punto intermedio: es claramente mejor que Muse Wonder en 3D, pero sigue por detrás de Astra y Opus, que califica como revolucionarios en ese terreno.
+
+#### Benchmarks de trabajo de conocimiento con Box
+
+La primera tanda de benchmarks, aportada por el patrocinador Box, se centra en trabajo de conocimiento real: extracción de datos y conexión de información entre cientos o miles de documentos en ámbitos legal, ciencias de la vida y sanidad. Argon representa un salto del 14 % respecto al modelo anterior probado (Gemini 3.1 Pro), pasando del 71 % al 85 % en el conjunto de datos total, con mejoras amplias en evaluación de hojas de cálculo, extracción de PDF, presentaciones e imágenes. El autor recomienda Box AI para desarrolladores que quieran construir sobre modelos frontier y aclara que su propia empresa, Forward Future, lo utiliza.
+
+#### Juegos: clon de Fall Guys y comparativas
+
+El clon de Fall Guys, generado con un prompt deliberadamente simple y sin sobreespecificar, mostró niveles divertidos, buenas colisiones y una animación final sólida; el autor lo iteró con objetivos explícitos hasta lograr diez niveles complejos y corregir parpadeos y colisiones, y compara el resultado con otros modelos. También construyó una escena de un barco flotando en el océano renderizada en Unreal Engine, con buenas olas y detalle alto pese a cierta repetición en la superficie, aunque el modelo no permitía sumergirse bajo el agua a diferencia de otras alternativas.
+
+#### Benchmark frontier: DeepSWE, Terminal Bench y control de ordenador
+
+Con las tablas comparativas frente a Astra, Fable 5.1, Opus 5.5, Muse Wonder y GPT-6.1 Soul, Argon obtiene 77,9 puntos en DeepSWE —justo por detrás de Muse Wonder, líder con 79 %—, 91,9 % en Vibe Code Bench, donde queda primero, y 57 en Terminal Bench, por detrás de Opus 5.5 (66,4), Muse y Astra. En control de ordenador OS World alcanza el 69 % frente al 71,4 % de GPT-6.1 Soul, y en Agent's Last Exam 39 frente a 38 de Opus. Su conclusión es que el modelo está a la altura de la frontera y que la competencia entre Google, Meta, OpenAI y Anthropic beneficia a los usuarios con modelos mejores, más rápidos y más baratos.
+
+#### Clonar Excel y la tesis de que el software tenderá a costar cero
+
+En la prueba de ingeniería inversa, Argon clonó Excel en unos 20 minutos, abriendo la aplicación real para inspeccionarla: la interfaz y la experiencia de usuario en el navegador resultan notables y las fórmulas básicas funcionan, con algún detalle menor en el manejo de "equals sum". El autor aprovecha para lanzar su tesis de fondo: si el único foso defensivo de un negocio son las líneas de código de su software, ese negocio está en peligro, porque los productos y servicios deberán ofrecer algo que el último modelo no pueda duplicar.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+| --- | --- | --- |
+| Gemini 4 Argon (Google DeepMind) | Modelo frontier | https://deepmind.google/models/gemini/ |
+| Box / Box AI | Plataforma y benchmark de trabajo de conocimiento | https://www.box.com/ai |
+| Muse Wonder (Meta) | Modelo frontier | https://ai.meta.com/ |
+| Claude Opus 5.5 (Anthropic) | Modelo frontier | https://claude.com/ |
+| OpenAI GPT-6.1 Soul | Modelo frontier | https://openai.com/ |
+| Unreal Engine | Motor 3D | https://www.unrealengine.com/ |
+| Blender | Suite 3D | https://www.blender.org/ |
+| three.js (3JS) | Librería 3D para navegador | https://threejs.org/ |
+
+---
+## [Matt Wolfe] Google Just Caught Up (Gemini-4 Argon)
+
+**Fecha:** 2026-10-13
+**URL:** https://www.youtube.com/watch?v=eBszYxzE2dk
+**Video ID:** eBszYxzE2dk
+
+### 📝 Resumen
+
+#### Gemini 4 Argon: el lanzamiento que llega tarde pero llega
+
+Matt Wolfe analiza la disponibilidad general de Gemini 4 Argon, el nuevo modelo de Google que, según el autor, coloca a la compañía al nivel de GPT-6.1 y Opus 5.5. Señala que el anuncio se había hecho dos semanas antes mediante una entrada de blog, pero sin acceso para el público general salvo testers de confianza y ciberdefensores; a partir de ahora sí está disponible para los planes de pago de gama alta. El modelo está diseñado para los problemas más complejos y las tareas largas, más que para la típica pregunta-respuesta, y viene integrado en la Búsqueda de Google, en la plataforma de programación Antigravity y competidores nuevos al estilo de Muse y Dots.
+
+#### Benchmarks y novedades técnicas
+
+El creador repasa los resultados iniciales: Argon lidera el Índice Vowels (tareas profesionales en finanzas, programación, trabajo legal e impuestos), es estado del arte en Automation Bench, en trabajo legal y en el benchmark de referencia para programación agéntica de DeepSeek. Su rasgo más llamativo es el límite de salida de un millón de tokens —equivalentes a unas 750.000 palabras—, algo que ningún otro modelo ofrece, frente a los modelos con ventana de un millón de tokens donde casi todo el contexto se consume en la entrada. En el índice compuesto Artificial Analysis se sitúa en el puesto 53, a la par de Fable pero por detrás de Opus 5.5, Sonnet 5.5 y el nuevo Muse Wonder de Meta. Como contrapartida positiva, su coste por tarea es considerablemente más bajo que el de la mayoría de sus rivales.
+
+#### Precios y acceso
+
+Los suscriptores de Google AI Pro, desde unos 20 dólares al mes, obtienen Argon en la aplicación Gemini y en el modo IA de las búsquedas; para usarlo dentro de Antigravity hace falta el plan Google AI Ultra, desde unos 100 dólares mensuales. Vía API el precio introductorio es de 2 dólares por millón de tokens de entrada y 10 por millón de salida, aproximadamente la mitad que Opus y similar a Sonnet 5.5 y GPT-6.1, pero a partir de diciembre subirá a 4 y 20 dólares respectivamente.
+
+#### Antigravity, chat y tareas: el nuevo ecosistema
+
+Argon es el modelo principal de Antigravity, la apuesta de Google frente a Codex, Claude Code o Cursor, y está disponible en modos bajo, medio y alto. La interfaz de programación de Antigravity llegará también a la aplicación de Gemini en macOS, siguiendo el patrón de ChatGPT y Claude Code de unificar chat y programación. Google sustituye Gemini Spark por un modo de "tareas" diferenciado del chat, conectado a aplicaciones de terceros como Instacart, OpenTable, Adobe o Shopify. El autor destaca además que Argon ofrece respuestas más directas, con menos clichés y mayor fidelidad a las instrucciones de estilo que modelos anteriores de Google.
+
+#### Demos: SVG, clon de Mega Bonk y motor de física
+
+En las pruebas prácticas, generar a Gary Busey como archivo SVG produjo probablemente el mejor resultado hasta la fecha del canal. El clon del juego 3D Mega Bonk arrojó mecánicas correctas a la primera y gráficos decentes, aunque por debajo de Opus 5.5 o GPT-6 Astra en estética. El patio de pruebas de física, con cañón, preajustes de gravedad de Tierra, Marte y Luna, ángulo, velocidad, viento y distancia al objetivo, funcionó con actualizaciones en tiempo real y modos claro y oscuro, con aterrizajes exactos incluso al cambiar a un simulador marciano.
+
+#### Casos de uso: planificación, investigación y modelos 3D
+
+En tareas de planificación con restricciones —dos personas con franjas no disponibles y tareas indivisibles— el modelo construyó un cronograma correcto con hora de finalización más temprana a las 2:00 p.m. También generó comparativas bien presentadas, como la de si ChatGPT Plus, Claude Pro y Google AI Pro cubren llamadas a la API (solo Google ofrece 10 dólares mensuales en créditos de Google Cloud). Google había señalado al autor su buen desempeño creando archivos para impresión 3D: el modelo generó un busto STL de Gary Busey, verificado y efectivamente imprimible, que el autor abrió en Bambu Studio y llegó a imprimir.
+
+#### La función de tareas todavía cojea
+
+A pesar de las buenas sensaciones, el modo de tareas de Gemini no funcionó durante las pruebas: tanto una investigación de los cinco anuncios de IA más relevantes de la semana como una presentación de seis diapositivas sobre inyección de prompts se quedaron estancadas durante cerca de una hora sin mostrar plan de pasos. Curiosamente, al inspeccionar los pasos se comprobó que la presentación sí se había generado correctamente, lo que apunta a fallos de interfaz o de estado en la versión de acceso anticipado.
+
+#### Robótica: enseñar a un robot a jugar al cornhole
+
+Entre los casos más llamativos, Google usó Argon para enseñar a un robot a jugar al cornhole: observó a una persona lanzar las bolsas desde su perspectiva, practicó por su cuenta y terminó encestando siete veces seguidas entendiendo la mecánica del juego. El autor lo considera un ejemplo revelador del potencial del modelo en robótica y aprendizaje por demostración.
+
+#### Conclusión: paridad más que revolución
+
+La valoración final es matizada: salvo por la ventana de salida de un millón de tokens, Gemini 4 Argon no cambia las reglas del juego, sino que entrega a Google un modelo a la altura de lo que ya ofrecían Anthropic y OpenAI. Es probable que sus rivales lancen próximamente modelos que lo superen, pero el autor insiste en no descartar a Google por su enorme ecosistema —Gmail, Calendar, Chrome—, ya que integrar un modelo competitivo en esa base de usuarios puede volver a ponerlo por delante en adopción.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+| --- | --- | --- |
+| Gemini (Google DeepMind) | Modelo / producto | https://deepmind.google/models/gemini/ |
+| Google AI Pro / Ultra | Suscripciones | https://one.google.com/about/plans |
+| Antigravity | Plataforma de programación agéntica | https://antigravity.google |
+| Artificial Analysis | Índice comparativo de modelos | https://artificialanalysis.ai/ |
+| DeepSeek | Modelo de referencia en programación agéntica | https://www.deepseek.com/ |
+| Muse Wonder (Meta) | Modelo frontier | https://ai.meta.com/ |
+| Claude Opus / Sonnet (Anthropic) | Modelos de referencia | https://claude.com/ |
+| OpenAI GPT-6.1 | Modelo de referencia | https://openai.com/ |
+
+---
 ## [Matthew Berman] Meta just dropped something insane... (Muse Wonder)
 
 **Fecha:** 2026-10-13
