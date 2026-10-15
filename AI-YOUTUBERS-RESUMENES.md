@@ -1,6 +1,53 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Javier Garzás] La IA te ha DEVUELTO al cascada: pistas de que ya trabajas así (y la tercera casi nadie la ve)
+**Fecha:** 2026-10-14
+**URL:** https://www.youtube.com/watch?v=kPyM4FwOKbM
+**Video ID:** kPyM4FwOKbM
+
+### 📝 Resumen
+
+#### El regreso inesperado del ciclo de vida en cascada
+
+Javier Garzás plantea una paradoja central: la inteligencia artificial, la herramienta más disruptiva para crear software, está devolviendo a muchas organizaciones al ciclo de vida en cascada, el modelo que se creía superado. El vídeo recuerda que los rasgos clásicos del cascada son los requisitos cerrados y documentados de antemano, las entregas grandes a meses vista, el testing relegado al final y convertido en cuello de botella, y una enorme dificultad para responder a la pregunta de "cómo vamos". Señala además que Winston Royce, autor del famoso artículo de 1970 al que se atribuye el modelo, en realidad lo criticaba, y que fue culpado erróneamente de haberlo implantado en el sector. La advertencia es directa: puede que el equipo u organización ya tenga un cascada oculto bajo una apariencia moderna de IA, y la tercera pista es la que casi nadie detecta.
+
+#### Pista 1: las specs gigantes como nuevo cascada de requisitos
+
+La primera señal está en cómo se escriben los requisitos. Garzás describe tres épocas: los requisitos cerrados del cascada, pensados para que un departamento externo los implementara; las historias de usuario de la era ágil, basadas en la conversación dentro de un equipo multifuncional; y la época actual del Spec-Driven Development (SDD), donde la especificación se dirige a un miembro no humano del equipo, la IA. El problema surge cuando esas specs se convierten en documentos enormes con decenas o centenares de requisitos e historias: aunque parezcan modernas, reproducen el defecto esencial del cascada, cerrar demasiado trabajo por adelantado y renunciar al aprendizaje que aportan las liberaciones pequeñas frente a usuarios reales. El autor menciona que figuras como Kent Beck participan en este debate en redes sociales y defiende que las specs deben limitarse para mantener ciclos cortos; en su propia organización aplican un tope de no más de cinco historias de usuario por spec.
+
+#### Pista 2: el "Token Max" y las métricas de productividad erróneas
+
+La segunda pista, descrita como especialmente oscura, ataca las métricas. Cuando las iteraciones son gigantes, se recurre a indicadores falsos: tiempo transcurrido, funcionalidades terminadas o, en su versión más extrema, líneas de código escritas. Garzás recuerda que premiar el volumen de código produce software innecesario y menos mantenible, y que la misma funcionalidad hecha con menos código es preferible. Ese error ancestral —se llegó a medir la productividad en tarjetas perforadas— ha reaparecido hoy con el nombre de "Token Max": premiar a las personas por los tokens que consumen, una práctica que atribuye a empresas del nivel de Amazon o Meta. Lo emparenta con el antipatrón conocido como Feature Factory, en el que crear se convierte en el fin y se olvida si lo creado aporta valor. La moraleja es que las medidas equivocadas de productividad alejan a las organizaciones de su objetivo real.
+
+#### Del delivery al discovery: dónde está el valor profesional
+
+Frente a la automatización del delivery, Garzás identifica el discovery como el campo con más futuro: descubrir qué problemas merecen realmente la pena y son viables para la organización. Si la IA se encarga de tirar las líneas de código, el reto humano —y la oportunidad profesional— está en decidir hacia dónde ir y poner el criterio antes de crear. Subraya que de poco sirve producir muchísimo código si lo producido no sirve, y anima a quienes temen la desaparición de la profesión a reorientarse hacia esa área, que considera fértil y creciente.
+
+#### Pista 3: el testing como cuello de botella definitivo
+
+La tercera pista, la más difícil de ver, se refiere al testing. Al ser la IA la que escribe el código a una velocidad sin precedentes, el embudo se agrava: el esfuerzo final se concentra en verificar y validar que lo generado es mantenible, seguro, escalable y conforme a las políticas de la organización. Garzás sostiene que el testing manual tradicional está abocado a desaparecer porque frena un ciclo que ahora es vertiginoso, y describe la aparición de prácticas emergentes: la ingeniería del arnés (dar libertad para crear pero con un arnés que contenga los fallos), el uso de un LLM como juez o tester de otro LLM, los guardarraíles y los semáforos. Lejos de ser malas noticias, lo presenta como una oportunidad professional: hacen falta testers y profesionales capaces de diseñar un testing basado en IA, integrado en el flujo de generación, en lugar de un testing manual tardío.
+
+#### Conclusiones y recomendaciones
+
+El cierre resume tres consejos. Primero, trabajar las specs con sensatez, sin disfrazar de moderna una especificación de requisitos de toda la vida, limitándolas y trabajando por hipótesis y liberaciones cortas para poder aprender; en este punto sentencia que "Scrum puede estar muerto, pero la agilidad está más viva que nunca". Segundo, trabajar el discovery y abandonar métricas absurdas como los tokens consumidos, porque huelen igual que las líneas de código. Tercero, trabajar el testing, asumiendo que el testing manual está muerto y que existe una carrera por eliminar el cuello de botella que supone cuando es la IA la que genera el código. El vídeo remite además a su diccionario de IA gratuito y a su libro "Irreemplazable", y se enlaza con otro vídeo previo sobre la guerra de más de setenta años por intentar eliminar al programador.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Royce (1970), artículo sobre el ciclo de vida en cascada (criticado por su autor) | Paper pionero | https://agilemanifesto.org/ |
+| Manifiesto Ágil y Extreme Programming (Kent Beck, TDD) | Manifiesto / práctica | https://agilemanifesto.org/iso/es/manifesto.html |
+| Kent Beck — debate en redes sobre specs y cascada | Debate / perfil | https://x.com/KentBeck |
+| Spec-Driven Development (SDD) — marco de trabajo con IA como colaborador | Metodología | https://javiergarzas.com/ |
+| Límite interno de 5 historias de usuario por spec (233 Academy) | Práctica organizativa | https://www.233academy.com/ |
+| "Token Max" — antipatrón de medir productividad por tokens consumidos | Antipatrón | https://javiergarzas.com/ |
+| "Feature Factory" — antipatrón de fábrica de funcionalidades | Antipatrón | https://javiergarzas.com/ |
+| Ingeniería del arnés (harness engineering) y LLM-como-juez para testing | Práctica emergente | https://javiergarzas.com/ |
+| Libro "Irreemplazable" (Javier Garzás) | Libro | https://javiergarzas.com/ |
+| Diccionario de IA gratuito de Javier Garzás | Recurso | https://javiergarzas.com/ |
+
+---
 ## [Matthew Berman] Google just went FRONTIER (Gemini 4 Argon)
 
 **Fecha:** 2026-10-14
