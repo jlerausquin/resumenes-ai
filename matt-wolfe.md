@@ -1,5 +1,69 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI News: 6 New Models & A Nano Banana Killer
+**Fecha:** 2026-10-16
+**URL:** https://www.youtube.com/watch?v=KGcuuhqmPhI
+**Video ID:** KGcuuhqmPhI
+
+### 📝 Resumen
+
+Matt Wolfe repasa en su boletín semanal una semana especialmente cargada: tres modelos de imagen nuevos, media docena de modelos de lenguaje —cuatro de ellos con pesos abiertos— y un goteo de funciones menores que, en conjunto, confirman que la carrera ya no se libra por la calidad bruta de generación, sino por la edición, el coste por tarea y la velocidad.
+
+#### Krea 3: la edición de imagen pasa a primer plano
+
+El presentador abre el vídeo por donde no suele hacerlo, con un modelo de imagen, porque Krea 3 le ha parecido lo más divertido que ha probado en la semana. El modelo, en beta pública en krea.ai, genera imágenes al nivel de cualquier competidor, pero su diferencial está en la edición conversacional: se selecciona un objeto de la propia imagen (un teléfono, unos ojos, el texto de un cartel, el logo de una gorra) y se describe el cambio en lenguaje natural. Wolfe demuestra encadenando ediciones sucesivas —fondo azul del móvil, ojos rojos, sustitución de texto y de logo— con resultados en unos diez segundos y tres variaciones por petición, sin alterar el resto del encuadre. Su valoración es que el proceso es más limpio que el de ChatGPT Image o Nano Banana, con la ventaja de que el texto editado conserva tipografía y esquema de color, lo que lo convierte en la herramienta más práctica para retocar miniaturas con rapidez. Asume que los grandes competidores acabarán igualando el flujo de trabajo, pero ahora mismo la experiencia le parece superior.
+
+#### FLUX 3 [klein] y Qwen-Image 2.1 Turbo: dos apuestas por el peso abierto y la velocidad
+
+Junto a Krea 3 llegan otros dos modelos de imagen. Black Forest Labs publica FLUX 3 [klein] como modelo de pesos abiertos descargable desde Hugging Face, con la particularidad de estar optimizado para hardware de consumo: en una DGX Spark hace texto a imagen en 7,3 segundos y edición en 16,2, y en una RTX 4070 —mucho más asequible— añade apenas segundo y medio, incluso a resoluciones altas. También puede probarse gratis en los Spaces de Hugging Face, con la salvedad de que el cómputo compartido lo vuelve lento cuando hay mucha gente. Alibaba, por su parte, publica Qwen-Image 2.1 Turbo, un checkpoint acelerado del 2.1 que sacrifica algo de calidad por velocidad y que también está disponible para pruebas en Hugging Face. El balance del presentador es que la generación de imágenes está esencialmente resuelta y que la diferencia competitiva se ha desplazado a la edición; de ahí que el premio de la semana en imagen sea para Krea 3.
+
+#### Gemini 4 Argon: la respuesta de Google y su ventaja en coste por tarea
+
+Gemini 4 Argon, anunciado el 30 de septiembre, se presenta como el modelo que devuelve a Google a la primera línea: iguala a GPT-6 Astra y a Claude Opus 5.5 en la mayoría de benchmarks y es estado del arte en casi todos. Está disponible por API y dentro de Gemini para planes Ultra y Pro, con un precio promocional de 2 dólares por millón de tokens de entrada y 10 por millón de salida hasta finales de noviembre, cuando prácticamente se duplicará. En el índice agregado de Artificial Analysis obtiene 53 puntos, cinco por debajo de Opus 5.5, pero con un coste por tarea muy inferior, lo que en la práctica lo hace más atractivo para uso intensivo. En las pruebas propias del canal generó su imagen de referencia en unos cuatro minutos por 34 céntimos y 34.000 tokens, quedando segundo en la clasificación juzgada por un LLM, y en la prueba de generación de un juego one-shot ofreció un resultado funcional aunque visualmente discreto. Un detalle revelado en el briefing previo con el equipo de Google resultó llamativo: su capacidad para producir modelos 3D imprimibles; Wolfe lo verificó pidiendo un busto en STL de Gary Busey a partir de una foto frontal y obtuvo una pieza razonablemente fiel.
+
+#### Muse Wonder: Meta entra en la liga frontera
+
+El segundo gran lanzamiento de la semana es Muse Wonder, de Meta, que según el analista Theo merece categoría S junto a Opus 5.5. En DeepSuite, el benchmark de código de referencia, alcanza el 79 %, lo que lo situaría como el mejor modelo en esa prueba, y también firma resultados de estado del arte en índices de inteligencia agregada, trabajo legal y análisis financiero. Su precio de 4 dólares por millón de entrada y 20 por millón de salida lo coloca en la banda de Opus. En Artificial Analysis supera a Gemini 4 Argon, a GPT-6 Astra y a Claude Fable 5.1, empata con Claude Sonnet 5.5 y queda dos puntos por debajo de Opus 5.5, con un coste por tarea alto pero por debajo de los modelos de Anthropic. La impresión personal de Wolfe es más tibia que la de los benchmarks: en su prueba de imagen quedó en decimocuarto lugar y en la prueba de juego generó un resultado visualmente pobre aunque con toda la mecánica correcta. La conclusión que extrae es que Meta ha alcanzado técnicamente al grupo de cabeza, algo que pocos esperaban de la compañía.
+
+#### Cuatro modelos de pesos abiertos con estrategias opuestas
+
+La semana deja cuatro releases abiertos. Meta publica Muse Spark Open, la versión abierta de su anterior modelo estrella, ahora desplazado por Wonder: 816.000 millones de parámetros y un millón de tokens de contexto, optimizado junto a Apple para ejecutarse en un Mac Studio con M5 Ultra, algo insólito en ese tamaño. Se presenta como el modelo abierto más capaz de origen estadounidense —matización deliberada, porque los modelos chinos compiten en esa franja— y lidera la mayoría de benchmarks frente a Nemotron, Mistral Large 4, Qwen 3.8, GLM 5.3 y Kimi K3, salvo en código, donde Kimi K3 sigue por delante. Microsoft anuncia MAI Base 2, de 80.000 millones de parámetros activos, pero solo ha completado el preentrenamiento: no está disponible ni evaluado tras el postentrenamiento. NVIDIA lanza Nemotron 3.5 Super VL, de 120.000 millones de parámetros, que con 26 puntos en Artificial Analysis no alcanza a DeepSeek, Qwen 3.8 o GLM 5.3, pero compensa con una velocidad de salida muy superior: es su principal argumento de venta. Cierra la lista Ultramarine 1 Flash, de Paper Instruments, que se posiciona como «clase Fable» en trabajo de conocimiento a un sexagésimo del coste, con 15 céntimos por millón de tokens de entrada y 50 por millón de salida, aunque las comparaciones que muestra la empresa se hacen contra modelos que ya no son el estado del arte de sus respectivos fabricantes.
+
+#### Los 28 días de OpenAI: mantenimiento disfrazado de novedad
+
+El seguimiento del ciclo de lanzamientos diarios de OpenAI que Tibo anunció el 4 de octubre arroja un balance flojo en su segunda semana. El día cinco llegaron tres mejoras menores: predicción de prompts en el compositor, creación del asistente personal «dot» directamente desde el móvil y delegación de trabajo entre Codex y ese asistente. Los días seis, ocho y diez fueron jornadas de reinicio sin novedades. El día siete se amplió el contexto por defecto de GPT-6.1 Sol a 500.000 tokens en Codex y Work, frente a los 272.000 anteriores. El día nueve se optimizó el almacenamiento en disco de ChatGPT y la app de escritorio con una reducción del 60 %, y el día once se destinó más cómputo a reducir los errores de «modelo no disponible». La crítica de Wolfe es que dos de los titulares de la semana son en realidad correcciones de errores y fiabilidad básica del servicio, no funcionalidades: queda la impresión de que el evento se está llenando con mantenimiento.
+
+#### Modelos de decisión y de voz: el frente que se satura
+
+El presentador dedica un bloque a los modelos de decisión, una categoría distinta de los LLM que no generan texto sino que evalúan opciones y devuelven una decisión o una probabilidad calibrada. Tras la aparición de Jev y del modelo equivalente de OpenAI, esta semana llegan Microsoft Decision 1, que replica el planteamiento con supuestamente mayor precisión y soporta respuestas sí/no, opción múltiple, escalas de valoración y evaluación por rúbrica de respuestas de IA y acciones de agentes; y Nimble V4 y V4 Max, de Bespoke Labs, que también afirman superar a Jev con menos errores. Su lectura es que los tres fabricantes ofrecen esencialmente lo mismo y que las diferencias se reducen a puntos de precisión. En voz, xAI publica Grok Voice 3.0, con un sandbox gratuito para probarlo: Wolfe construyó un agente de soporte para su web que formula preguntas, redacta instrucciones personalizadas y mensaje de bienvenida, selecciona una voz entre varias y responde consultando el contenido del sitio, con una latencia notablemente baja. Esa inmediatez, más que la calidad del timbre, es lo que el modelo trata de demostrar.
+
+#### Rápidas: audio, algoritmos, agentes y la sacudida en los videojuegos
+
+El resto de la actualidad se despacha en formato rápido. ElevenLabs incorpora bandas sonoras instantáneas en 11 Creative: se sube un vídeo, el sistema lo analiza y genera música y efectos sincronizados. Facebook permite introducir intereses explícitos para reajustar el ranking de lo que se ve en tiempo real. Google añade detección de estafas en mensajes SMS mediante Circle to Search y AI Overviews, que señalan posibles señales de alarma en el texto. Se lanza Kylon, herramienta de orquestación en la que varios agentes y varias personas colaboran en un mismo hilo conversacional, y que el presentador destaca tras ver una demo. En videojuegos, Microsoft crea Xbox Labs, una división experimental para explorar fusiones de juegos y generación asistida por IA, mientras Tim Sweeney anuncia un giro profundo en Epic Games con reasignación de desarrolladores para «acelerar al máximo con IA», matizando que no busca hacer lo mismo con menos gente sino permitir que cada persona construya más. Wolfe observa que la comunidad gamer es la más resistente a estos cambios y que la fricción será mayor por los recursos generados (gráficos, voces, efectos) que por el código. Apple, por último, presentó un Apple TV 4K con Siri integrada y un dispositivo doméstico de pantalla, una suerte de Apple Watch grande de sobremesa orientada al hogar inteligente.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Krea 3 (beta pública) | Producto | https://www.krea.ai |
+| FLUX 3 [klein] — Black Forest Labs | Modelo open weight | https://huggingface.co/black-forest-labs |
+| Qwen-Image 2.1 Turbo — Alibaba | Modelo open weight | https://huggingface.co/Qwen |
+| GenSpark Design | Producto (patrocinador) | https://www.genspark.ai |
+| Gemini 4 Argon — Google DeepMind | Modelo | https://deepmind.google/models/gemini/ |
+| Artificial Analysis (índice y coste por tarea) | Benchmark | https://artificialanalysis.ai |
+| Muse Wonder y Muse Spark Open — Meta | Modelos | https://ai.meta.com |
+| MAI Base 2 — Microsoft | Modelo (preentrenamiento) | https://microsoft.ai |
+| Nemotron 3.5 Super VL — NVIDIA | Modelo open weight | https://huggingface.co/nvidia |
+| Ultramarine 1 Flash — Paper Instruments | Modelo (vía OpenRouter) | https://openrouter.ai |
+| 28 días de lanzamientos de OpenAI | Anuncio | https://openai.com |
+| Microsoft Decision 1 | Modelo de decisión | https://microsoft.ai |
+| Nimble V4 / V4 Max — Bespoke Labs | Modelo de decisión | https://bespokelabs.ai |
+| Grok Voice 3.0 — xAI | Modelo de voz | https://x.ai |
+| ElevenLabs Instant Soundtracks | Producto | https://elevenlabs.io |
+| Future Tools (sitio del autor) | Directorio de herramientas | https://futuretools.io |
+| Epic Games — declaraciones de Tim Sweeney | Artículo / anuncio | https://www.epicgames.com |
+
+---
 ## [Matt Wolfe] Google Just Caught Up (Gemini-4 Argon)
 
 **Fecha:** 2026-10-13
