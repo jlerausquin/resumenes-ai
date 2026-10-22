@@ -1,5 +1,52 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] La IA y la puerta que se cierra al programador junior: ¿la siguiente es la TUYA?
+
+**Fecha:** 2026-10-21
+**URL:** https://www.youtube.com/watch?v=VCH2dqhWKkQ
+**Video ID:** VCH2dqhWKkQ
+
+### 📝 Resumen
+
+#### El dato que rompe el relato: la demanda junior se hunde mientras IT crece
+
+Javier Garzás arranca con la contradicción que da sentido al vídeo: en mayo de 2022 España tenía un déficit estimado de 40.000 profesionales del software y hoy las ofertas para programadores junior han caído un 33%. El contraste importa porque las vacantes tecnológicas en general han subido un 13% en el mismo periodo, de modo que el golpe no está en IT sino específicamente en desarrollo. Apoya la tesis con Eurostat —el peso de los programadores en las ofertas españolas ha caído casi un tercio desde 2022— y con un estudio estadounidense de 2025 según el cual los programadores de 22 a 25 años han perdido cerca del 20% del empleo desde finales de 2022. La conclusión que extrae es matizada: no se despide a los juniors, simplemente no se les deja entrar.
+
+#### Por qué el junior es el eslabón más expuesto
+
+La explicación que ofrece es competitiva, no tecnológica: el junior es el perfil que compite de forma más directa con lo que la IA ya hace razonablemente bien. Cita como ejemplo la frase del CEO de Shopify —"antes de que me pidáis más gente, demostradme que la IA no puede hacerlo"— y extiende el patrón a otras profesiones de cuello blanco como atención al cliente, soporte, marketing y ventas. Frente a eso, señala que los ámbitos manuales y de cuidado quedan fuera de esa presión. Su lectura histórica es que cada salto de abstracción en el software (los lenguajes en los años 50, los frameworks y componentes en los 90, el no-code en 2020) ha tenido al junior como primer perjudicado, aunque después el trabajo se ha reorganizado.
+
+#### La paradoja del senior: se le busca y se le prejubila
+
+El segundo eje del vídeo es la pinza que se cierra por arriba. Aunque la demanda se concentra en perfiles senior —los únicos capaces de supervisar, ordenar arquitecturas y detectar fallos de seguridad en código generado por IA—, Garzás observa un goteo inédito de prejubilaciones a partir de los 53 años en ingeniería, arquitectura y jefatura de proyecto. Lo respalda con dos ejemplos corporativos españoles: el ERE de Telefónica con prejubilaciones desde los 55 y el acelerón de salidas en Santander, BBVA y CaixaBank con la IA como telón de fondo o como excusa. El resultado es una contradicción de mercado: se contrata senior, pero cada vez quedan menos.
+
+#### Un mercado de conocimiento que se descapitaliza
+
+El argumento central es que la combinación de ambos fenómenos rompe la cadena de transmisión de conocimiento. Recupera la práctica del pair programming que defendía Kent Beck —dos personas, un teclado, una aprendiendo del criterio de la otra— para explicar que uno se hace senior equivocándose con alguien al lado que corrige. Sin juniors no hay a quién formar y, por tanto, no hay relevo. El vídeo subraya la asimetría temporal del problema: un junior que no entra hoy es un senior que no existirá en 2031, justo cuando la IA seguirá necesitando supervisión experta porque genera código rápido pero puede esconder fallos de arquitectura o seguridad que solo se detectan con años de oficio.
+
+#### El precedente del COBOL: de la desaparición de la cantera a la guerra por el veterano
+
+Para proyectar el futuro, Garzás recurre al caso COBOL. Desde 2000 se dejó de contratar programadores de COBOL mientras los existentes envejecían —una encuesta de 2006 ya mostraba que más de la mitad eran veteranos en las empresas consultadas—, las escuelas dejaron de enseñarlo y el conocimiento se evaporó de la industria. Las consecuencias que anticipa para el desarrollo actual son tres: una "guerra por el senior" con revalorización salarial por ley de oferta y demanda, formación de urgencia a precio elevado dentro de unos años y dependencia de veteranos rescatados, como hizo la empresa COBOL Cowboys en 2013 subcontratando jubilados a compañías con sistemas que nadie sabía mantener. Recuerda también el colapso en 2020 del sistema de desempleo de Nueva York, escrito en COBOL hace más de 40 años, que obligó al gobernador a pedir voluntarios que supieran ese lenguaje y a IBM a lanzar un curso gratuito exprés.
+
+#### La cantera universitaria y la pregunta que cierra el círculo
+
+El último eslabón es educativa: si los titulados no encuentran trabajo, las familias dejarán de recomendar informática. En Estados Unidos la matrícula de cuatro años ya cae un 8% en un año mientras la universidad en general crece; en España de momento sube un 55% desde 2016, pero Garzás advierte que esas tendencias suelen llegar con retraso desde Estados Unidos. La pregunta con la que abre y cierra el vídeo —quién será el senior dentro de cinco años— admite una respuesta incómoda: quizá nadie, porque la IA no sustituye al senior, lo necesita, y el sector se ha quedado sin la base que lo producía. Cierra con una nota menos apocalíptica: en todos los ciclos anteriores el trabajo acabó reorganizándose, y la clave está en posicionarse en las tareas donde el criterio humano sigue siendo el cuello de botella.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| HubSpot — Informe "IA en marketing España 2026" (203 profesionales, 64% dedica más tiempo a corregir la IA que a crear con ella) | Informe | https://www.hubspot.es/ |
+| Paper "Who Will Be the Next Senior?" (julio de 2026), sobre cómo la IA absorbe el trabajo junior y rompe la cadena de aprendizaje | Paper | Citado en la descripción del vídeo |
+| Eurostat — peso de los programadores en las ofertas de empleo en España (caída de casi un tercio desde 2022) | Estadística | https://ec.europa.eu/eurostat |
+| Estudio 2025 sobre empleo de programadores de 22-25 años en EE. UU. (caída ~20% desde finales de 2022) | Estudio | Citado en la descripción del vídeo |
+| Gartner — casi una de cada cuatro empresas ha dejado de contratar juniors por la IA | Informe | https://www.gartner.com |
+| COBOL Cowboys — empresa que subcontrata veteranos de COBOL a compañías con sistemas heredados | Empresa | https://cobolcowboys.com |
+| IBM — curso gratuito de COBOL y directorio de programadores tras el colapso de los sistemas públicos en 2020 | Formación | https://www.ibm.com |
+| Kent Beck — pair programming como método de formación de seniors | Referencia metodológica | — |
+| Javier Garzás — "Irremplazable" (libro) y vídeo "Qué hacer con tu carrera después de los 40 en la era de la IA" | Contenido propio | https://youtube.com/@javiergarzas |
+
+---
 ## [Javier Garzás] La IA te ha DEVUELTO al cascada: pistas de que ya trabajas así (y la tercera casi nadie la ve)
 **Fecha:** 2026-10-14
 **URL:** https://www.youtube.com/watch?v=kPyM4FwOKbM

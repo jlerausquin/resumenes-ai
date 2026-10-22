@@ -1,5 +1,68 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI Breakthroughs Everyone Missed
+
+**Fecha:** 2026-10-21
+**URL:** https://www.youtube.com/watch?v=umGZrkyTRtw
+**Video ID:** umGZrkyTRtw
+
+### 📝 Resumen
+
+#### Un repaso deliberado a lo que no sale en los titulares
+
+Matt Wolfe cambia de formato: en lugar del habitual repaso de fin de semana centrado en OpenAI, Anthropic, Google o Nvidia, dedica el vídeo a investigación y herramientas que pasan por debajo del radar. Explica que tres años atrás su canal vivía de este tipo de contenido y que el ritmo de lanzamientos de los grandes laboratorios lo desplazó; con esta entrega pretende recuperar esa raíz y hacer al menos un vídeo mensual de este estilo. La selección abarca voz, vídeo sintético, modelos de mundo, 3D generativo y una herramienta procedural que ni siquiera usa IA.
+
+#### Drama 3 de Fish Audio: dirigir la voz como se dirige a un actor
+
+El primer hallazgo es Drama 3, un modelo texto-a-voz que sustituye el menú de emociones predefinidas por instrucciones en lenguaje natural entre corchetes dentro del propio guion. Se puede pedir "apenas conteniéndose, forzando una sonrisa", aplicar la indicación a una palabra concreta —susurrar una frase— o insertar efectos como una risa corta o una respiración entrecortada en un punto exacto. Admite varios hablantes con voces distintas y, como detalle de demo, licenció la voz del creador Uncle Roger. En el ranking de pronunciación de Artificial Analysis queda arriba, por delante de ElevenLabs, aunque en la preferencia ciega de la arena no domina: lee bien lo difícil, pero no es la voz favorita. Es de pesos abiertos con 36.000 millones de parámetros —unos 46 GB de VRAM, o 32 GB con una cuantización 4-bit de la comunidad—, licencia comercial gratuita por debajo de 500.000 dólares de facturación y API a 10 dólares por millón de caracteres durante el lanzamiento, con subida a 50 dólares a partir del 12 de noviembre. Advierte dos trampas prácticas: las tomas varían, así que conviene generar varias, y la API puede degradar silenciosamente a modelos antiguos y facturar igual.
+
+#### OmniHuman 2.0 de ByteDance: un retrato y cinco minutos de plano continuo
+
+El segundo bloque trata del vídeo con avatar. OmniHuman 2.0 toma una sola imagen y una pista de audio y genera a la persona hablando, cantando o actuando. El salto respecto a la versión anterior es la duración: de 60 segundos a cinco minutos en un único plano sin cortes, lo que elimina el trabajo de empalmar clips y disimular costuras. Acepta prompts de texto para mover la cámara o añadir elementos que no estaban en la foto, trabaja a 720p y sirve tanto para personas como para personajes de dibujo o animales. El precio baja de 12 a 7 céntimos por segundo —unos 21 dólares por cinco minutos—. Wolfe mantiene su escepticismo sobre el sincronizado de labios, que sigue delatándose, y señala tres limitaciones: el material mostrado es el reel oficial de ByteDance, se han observado fondos que se desplazan y la combinación de una foto más audio abre un frente evidente de deepfakes, aunque a su juicio todavía no lo bastante convincente como para engañar a mucha gente.
+
+#### WorldCrafter y la memoria espacial en los modelos de mundo
+
+Entra después en los modelos de mundo, que generan un entorno navegable a partir de una imagen o una frase. El problema clásico es la amnesia: al girar la vista y volver, lo que había desaparecido o ha cambiado, porque el modelo solo conserva los últimos segundos. WorldCrafter, de ARC Lab (Tencent), lo ataca con una memoria indexada por posición de cámara: al apuntar hacia un lugar recupera vistas pasadas que coinciden con esa dirección y las reinyecta en el generador. La demostración es elegante: reconstruyen una nube de puntos 3D a partir del vídeo generado y, si el mundo fuese inconsistente, saldría una masa informe; en cambio aparece geometría limpia y la trayectoria de cámara vuelve a alinearse al revisitar un punto. También mantiene objetos en movimiento que salen y entran de cuadro. En su propio benchmark de 145 escenas supera a los modelos comparados en consistencia al revisitar y control de cámara, con la advertencia de que es su propio benchmark. El código está en GitHub y hay una versión en Hugging Face; en sus pruebas es lento, pero acaba llegando.
+
+#### Dos formas opuestas de repartir el trabajo entre motor y modelo
+
+El vídeo contrasta dos arquitecturas que resuelven el mismo problema por vías distintas. Matrix-Game 4.0, de Skywork, deja de pedir al modelo que lo recuerde todo: un motor de juego convencional mantiene el estado —dónde está cada enemigo, qué ocurre al disparar, qué hay detrás— y dibuja una versión poligonal tosca que el modelo de vídeo solo tiene que repintar. Si el jugador pide algo que las reglas no cubren, un agente de código escribe reglas nuevas en el motor y actualiza el prompt del modelo. Cada escena tiene su propio modelo de unos 5.000 millones de parámetros, la resolución es 480×864, las sesiones duran hasta minuto y medio sin cortes y los pesos e inferencia se publican con licencia Apache 2.0, aunque el código de entrenamiento no. NVIDIA, con Stream-Render H3, aplica la misma separación pero entrega mucha menos información: un mapa de colores planos donde cada píxel significa asfalto, hierba, barrera o coche rival, sin luz ni texturas. Como el mapa no contiene aspecto alguno, cambiar una sola imagen de referencia reestiliza la partida entera y permite recorrer el mismo trazado en escenarios distintos. El modelo debe deducir por su cuenta qué coche es cuál, cada paso de renderizado cuesta unos 218 milisegundos en ocho GPU GB200 y de momento solo se ha entrenado con carreras. La lectura de Wolfe es que el tándem motor más repintado de IA es la ruta realista hacia los videojuegos generativos, y que NVIDIA parece pensar lo mismo. Como curiosidad, cuenta que encargaron a Claude Code un decodificador de vídeo más rápido y tuvieron una versión funcionando en producción en unas tres horas.
+
+#### Del cerebro de una mosca a los mundos de Odyssey
+
+El tramo más especulativo llega con Odyssey, que publicó un clip en el que un cerebro simulado de mosca de la fruta pilota por mundos generados por Odyssey 3. El cerebro no es suyo: lo construyó Eon Systems a partir del mapa completo del cerebro de una mosca, con unos 140.000 neuronas y 50 millones de conexiones; Odyssey solo sustituyó el cuerpo virtual al que estaba conectado por una cámara que se mueve por su modelo de mundo. Wolfe lo califica de divertido pero opaco —sin paper, sin código y sin explicar cómo se conectan ambos sistemas— y recoge la crítica de los comentarios: la mosca nunca intenta aterrizar, algo que una mosca real haría. El episodio deriva en preguntas sobre teoría de la simulación que decide no explorar. Lo práctico es que Odyssey 3 sí es accesible: en experience.odyssey.systems se puede escribir un prompt, entrar en el mundo y controlar un personaje, cambiar la cámara y ordenarle saltar.
+
+#### Telescope y Gaussi-Animate: 3D generativo desde fotos y rigging de lo blando
+
+En 3D presenta dos herramientas. Telescope, de la japonesa Preferred Networks, convierte un conjunto de fotos de un lugar en una malla detallada, desde un objeto hasta una manzana de ciudad. Frente al ajuste clásico de un modelo a una escena concreta, es un modelo generativo que ha aprendido cómo son las superficies y rellena los huecos donde faltan fotos; además maneja brillos y cristales, que suelen arruinar la reconstrucción fotogramétrica. El nombre describe el método: construye la escena completa en baja definición y luego amplía y refina las zonas que lo necesitan. Comparada con el envolvente gaussiano estándar, el detalle es notablemente mayor, a cambio de exigir muchas imágenes —ejemplos de 256 fotos, alguno de 56— y de limitarse a lo que la cámara recorrió. El código aún no está disponible. Gaussi-Animate, en cambio, se centra en animar personajes con partes blandas sobre un esqueleto rígido: ropa holgada, animales o prendas sueltas. A los nodos del esqueleto añade nodos flotantes que capturan el movimiento, el flujo y la física del material; primero detecta la forma, luego coloca el esqueleto para identificar lo rígido y después calcula qué debe fluir. Necesita una secuencia de movimiento capturada —no funciona con una sola imagen— y su código está en GitHub para uso de investigación.
+
+#### Un paréntesis patrocinado: los Dots de OpenAI como agentes persistentes
+
+Wolfe intercala un segmento patrocinado por OpenAI sobre los Dots, agentes siempre activos a los que se asignan responsabilidades continuas y que siguen trabajando aunque el usuario cierre ChatGPT. Su caso de uso: un Dot conectado a su canal que extrae vistas y datos de interacción para encontrar patrones entre títulos, temas, ángulos y horas de publicación, y que además mantiene organizado un espacio compartido con el equipo, generando subpáginas con informes semanales e ideas de vídeo. Cada Dot dispone de su propio ordenador en la nube, puede usar ChatGPT y Codex, funciona sobre GPT-6 Astra y aprende preferencias para sugerir de forma proactiva.
+
+#### World Gacha: geometría procedural como lienzo para la IA
+
+Cierra con una herramienta que no es IA y que aun así considera relevante: World Gacha, utilidad gratuita de navegador de un desarrollador japonés que genera regiones ficticias aleatorias —montañas, ríos, costas, pueblos, ferrocarriles, arrozales— con estilos que van del line art de manga al modo arcilla, además de ciudades y distritos financieros con vistas cenitales o a pie de calle. Se puede rebarajar la semilla, cambiar de estilo y exportar en PNG, SVG o malla 3D. La idea que deja abierta es combinarla con los modelos de vídeo o imagen comentados antes: generar una ciudad tosca y repintarla hasta hacerla realista para cine, animación o incluso para importarla en Unreal Engine. Su conclusión es que el criterio del canal siempre fue mostrar tecnología interesante, con IA o sin ella.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Fish Audio — modelo TTS Drama 3 (36B, pesos abiertos, dirección por instrucciones) | Producto / modelo | https://fish.audio |
+| Artificial Analysis — rankings de modelos TTS (pronunciación y preferencia en arena) | Benchmark | https://artificialanalysis.ai |
+| ByteDance — OmniHuman 2.0, avatar hablante desde una imagen + audio | Producto / modelo | https://www.byteplus.com |
+| Tencent ARC Lab — WorldCrafter, modelo de mundo con memoria por posición de cámara | Repositorio / modelo | https://github.com/TencentARC |
+| Skywork — Matrix-Game 4.0 (motor de juego + repintado por modelo de vídeo, Apache 2.0) | Repositorio / modelo | https://huggingface.co/Skywork |
+| NVIDIA — Stream-Render H3 (mapa de colores + render neural en tiempo real) | Investigación | — |
+| Odyssey — Odyssey 3, modelo de mundo interactivo | Producto / modelo | https://odyssey.systems |
+| Eon Systems — simulación del cerebro de mosca de la fruta (140.000 neuronas, 50M conexiones) | Investigación | — |
+| Preferred Networks — Telescope, reconstrucción 3D generativa desde fotos | Investigación | https://www.preferred.jp |
+| Gaussi-Animate — rigging de personajes con partes blandas sobre esqueleto | Repositorio | Citado en la descripción del vídeo |
+| OpenAI — Dots, agentes persistentes sobre GPT-6 Astra | Producto | https://openai.com |
+| World Gacha — generador procedural de regiones y ciudades en el navegador | Herramienta | Citado en la descripción del vídeo |
+| Theoretically Media (Tim) — cobertura del modelo de mundo mostrado por ByteDance en Pekín | Canal | — |
+
+---
 ## [Matt Wolfe] AI News: 6 New Models & A Nano Banana Killer
 **Fecha:** 2026-10-16
 **URL:** https://www.youtube.com/watch?v=KGcuuhqmPhI
