@@ -1,7 +1,7 @@
 # 📹 Resúmenes
 
 Resúmenes diarios de los canales de IA monitorizados y de podcasts.
-Última actualización: 2026-10-24 10:36
+Última actualización: 2026-10-24 11:12
 
 ---
 
@@ -15,7 +15,7 @@ Resúmenes diarios de los canales de IA monitorizados y de podcasts.
 
 ## Podcasts
 
-- **[La Cultureta](la-cultureta.md)** — 1 programas (mod: 2026-10-24 10:36)
+- **[La Cultureta](la-cultureta.md)** — 4 programas (mod: 2026-10-24 11:12)
 
 ---
 
