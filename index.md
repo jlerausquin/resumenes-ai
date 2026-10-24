@@ -1,7 +1,7 @@
-# 📹 Resúmenes AI YouTubers
+# 📹 Resúmenes
 
-Resúmenes diarios de los canales de IA monitorizados.
-Última actualización: 2026-10-24 08:04
+Resúmenes diarios de los canales de IA monitorizados y de podcasts.
+Última actualización: 2026-10-24 10:36
 
 ---
 
@@ -10,6 +10,12 @@ Resúmenes diarios de los canales de IA monitorizados.
 - **[Javier Garzás](javier-garzas.md)** — 37 resúmenes (mod: 2026-10-22 08:06)
 - **[Matt Wolfe](matt-wolfe.md)** — 41 resúmenes (mod: 2026-10-24 08:04)
 - **[Matthew Berman](matthew-berman.md)** — 76 resúmenes (mod: 2026-10-24 08:04)
+
+---
+
+## Podcasts
+
+- **[La Cultureta](la-cultureta.md)** — 1 programas (mod: 2026-10-24 10:36)
 
 ---
 
