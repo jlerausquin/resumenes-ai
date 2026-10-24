@@ -1,6 +1,6 @@
 # 🎭 La Cultureta (Onda Cero) — Recomendaciones
 Programa de Rubén Amón, Rosa Belmonte, Guillermo Altares, Sergio del Molino e Isabel Vázquez.
-Una entrada por programa: qué recomiendan, quién y en qué minuto.
+Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en qué minuto.
 
 ## [La Cultureta] La Cultureta Gran Reserva: Premios Princesa de Asturias 2026
 **Fecha:** 2026-10-24
