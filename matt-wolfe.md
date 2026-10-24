@@ -1,5 +1,70 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] AI News: 24 Things You Need To Know This Week
+**Fecha:** 2026-10-23
+**URL:** https://www.youtube.com/watch?v=TVRCcMlvR10
+**Video ID:** TVRCcMlvR10
+
+### 📝 Resumen
+
+Matt Wolfe repasa en su resumen semanal las noticias de IA que considera relevantes, agrupadas en dos ejes: el lanzamiento de Claude Duet por parte de Anthropic y una oleada de incidentes de ciberseguridad de gran alcance, a los que suma el goteo de novedades del calendario de 28 días de OpenAI, varias herramientas creativas recién abiertas al público, el giro de Perplexity hacia modelos abiertos y hacia la ejecución local, y un fenómeno de fondo que considera la historia más interesante de la semana: los grandes sitios web empezando a bloquear a los agentes de IA.
+
+#### Claude Duet: el asistente proactivo de Anthropic
+
+Anthropic presentó Claude Duet, que Wolfe interpreta como la respuesta directa a Dots de ChatGPT, Muse de Meta y el bot de Grok de xAI. La diferencia que destaca no es la capacidad de ejecutar tareas en nombre del usuario, sino la proactividad: el agente abre la conversación con un resumen del día ("decisiones de contratación, permisos de salud, renovación de Northfield") en lugar de esperar una instrucción. Puede usar herramientas y extraer información del punto de venta, la tienda online, el CRM, el soporte, la nómina y el banco, y lo presenta en un panel de control integrado en el propio chat, algo que el autor considera mejor resuelto que en Dots o Muse. También redacta mensajes y correos listos para enviar. Anthropic afirma que el producto se lanza con un clasificador dedicado y un sistema de seguridad que verifica cada mensaje para evitar filtraciones de datos sensibles. Las integraciones anunciadas son las habituales del sector: Gmail, Slack, QuickBooks, Stripe, Gusto, LinkedIn, DocuSign, HubSpot, Canva y Shopify. El acceso está limitado por lista de espera para planes Pro y Max, y Wolfe, que no ha sido seleccionado, no pudo hacer una demostración propia; aun así lo califica como el lanzamiento más importante de la semana, con la salvedad de que "lanzamiento" es un decir porque casi nadie tiene acceso todavía.
+
+#### Una semana de agujeros de seguridad explotados con IA
+
+El otro gran bloque informativo fueron los incidentes de ciberseguridad. El primero, una vulnerabilidad en PHP, el lenguaje que según algunas estimaciones sostiene hasta el 70 % de los sitios web (Wikipedia, WordPress, Drupal, DeviantArt, 4chan). El fallo llevaba veinte años en el código, pero explotarlo exigía una cadena de pasos tan compleja que estaba en el límite de lo que un investigador humano podía lograr. La novedad es que fue descubierta por OpenAI usando GPT-5.6 Sol antes que los atacantes, y que la compañía publicó una herramienta para que los desarrolladores comprueben si su versión de PHP es vulnerable. El CEO de Cloudflare, Matthew Prince, describió la progresión de la explotación: miles de intentos en las diez horas previas al anuncio, decenas de miles en los 45 minutos posteriores, cientos de miles en dos horas y millones después. Wiz la calificó como una de las vulnerabilidades más graves de la historia del software. Hubo que desactivar temporalmente varios sitios para parchear, pero el daño fue contenido.
+
+El segundo incidente afectó a Railway, la capa de infraestructura donde muchos desarrolladores alojan bases de datos y aplicaciones: un tercero no autorizado habría accedido a variables de entorno cifradas y obtenido el contenido descifrado de algunas de ellas, es decir, claves de API de servicios como OpenAI o Anthropic, con el consiguiente riesgo de cargos ajenos y la necesidad de rotar credenciales con urgencia. Wolfe extrae de ambos casos una lectura de fondo: la IA ya es lo bastante buena en programación y seguridad como para convertir errores oscuros en exploits prácticos, y eso desplaza el equilibrio hacia "la IA está empezando a romper internet". Su preocupación práctica es que si esto le pasó a Railway, nada impide que le ocurra a plataformas como Vercel.
+
+#### OpenAI: el calendario de 28 días y los lanzamientos menores
+
+OpenAI sigue con su compromiso de publicar algo relevante cada día durante 28 días. En la semana reseñada, el día 12 trajo mejoras de eficiencia en Codex y Work (reutilización de contexto entre subagentes, caché retenida más tiempo y mejor enrutamiento de peticiones), el día 13 fue un reinicio sin novedades, el día 14 permitió editar mensajes previos dentro de un hilo en la aplicación de escritorio —el autor confiesa no entender del todo el alcance, y cita a empleados de OpenAI explicando que se descartan las salidas del modelo y las llamadas a herramientas posteriores al mensaje editado—, el día 15 otro reinicio, el día 16 amplió la caché a 12 horas en la API y la hizo permanente para usuarios con sesión iniciada en Codex, y el día 17 otro reinicio. Wolfe considera que la mejora de caché es la única realmente significativa. Fuera del calendario, OpenAI lanzó chats bloqueados con PIN (despliegue gradual) y anunció por tercera vez la disponibilidad general de la API de Decisiones, construida sobre GPT-6 Luna y orientada a preguntas con respuestas acotadas: probabilidades, elecciones entre opciones o puntuaciones, en la línea de lo que ya ofrecía Jev.
+
+#### Herramientas para probar ya: HyperAgent, Ideogram, Chimera y Canva Craft
+
+HyperAgent, patrocinador del vídeo, permite usar la suscripción de ChatGPT que el usuario ya paga para poner en marcha un equipo de agentes con roles distintos (investigación, contenido, análisis, operaciones) dentro de una misma sala, evitando una suscripción adicional. Ideogram estrenó un modelo vectorial que genera SVG limpios y editables elemento a elemento en ideogram.ai/models/vector; Wolfe lo probó con un lobo aullando y con monos en patines, y aunque detectó resultados irregulares (patas de más), celebra que dos de cada cuatro salidas sean utilizables y que el resultado sea escalable y editable. ElevenLabs presentó Chimera, que combina Seed Dance 2.5 con ElevenLabs v4 para sincronizar audio e imagen; en su prueba la sincronización labial resultó convincente, pero la herramienta ignoró su foto original y mostró planos que él no había pedido, además de arrastrar fallos de interfaz (el botón de envío desaparece con textos largos y el límite de 30 segundos solo se avisa al final). Canva lanzó su primer modelo de generación de imágenes, Canva Craft, desarrollado con el equipo de investigación de Leonardo AI y disponible en la pestaña Dream Lab. Como rumor, detectó indicios de un futuro modelo de imagen de OpenAI (Aurora Red Alpha, Green y Blue) en sitios de seguimiento de la API.
+
+#### Perplexity: modelos de decisión abiertos y agente local
+
+Perplexity publicó en abierto dos modelos de decisión propios, de 4.000 y 27.000 millones de parámetros, entrando en la misma categoría que la API de Decisiones de OpenAI o Jev. Además, su agente Perplexity Computer —descrito como su equivalente a OpenClaw o Hermes, capaz de usar herramientas y ejecutar tareas— ya puede ejecutarse íntegramente en un Mac en lugar de depender de sus servidores: funciona con la versión 3.6 y recomienda 36 GB de memoria unificada o más.
+
+#### La web empieza a cerrar la puerta a los agentes
+
+El autor considera este el hilo narrativo más interesante del momento. A la decisión previa de Amazon de impedir que los agentes compren en nombre del usuario se suman ahora Yelp, Delta Airlines, JPMorgan Chase, Charles Schwab, cars.com y Amtrak, que quieren solo humanos en sus páginas. El razonamiento económico que expone es el de la desintermediación: si el agente elige la tienda, el sitio pasa a ser intercambiable y pierde la relación directa con el cliente, de modo que cada empresa debe decidir si prioriza humanos o agentes. Shopify ha tomado la posición contraria y declara todos sus sitios compatibles con agentes, lo que en la práctica hará más probable que un agente acabe comprando allí. Wolfe no se aventura a predecir el desenlace, pero intuye que bloquear a los agentes acabará costando ventas. Como ejemplo de estrategia intermedia, señala que Yelp, pese a bloquear a agentes ajenos, permite ahora que su propio asistente llame por teléfono a restaurantes para consultar tiempos de espera o el menú.
+
+#### Voz, deepfakes y robots
+
+Mistral presentó Voxtral 3, un agente de voz que identifica en tiempo real quién habla entre varios interlocutores, admite interrupciones y ejecuta llamadas a herramientas mientras conversa; la demo mostró a dos personas hablando con el sistema sin que este perdiera el hilo. Zoom añadió detección de deepfakes en llamadas, pensada para evitar fraudes por suplantación de directivos. Y el cierre viral de la semana fue el vídeo de Unitree con su robot H2 haciendo volteretas sobre un coche, pateándolo y, en la escena más comentada, empujando a un niño para apartarlo de un vehículo. Wolfe duda de la verosimilitud: cree que las acrobacias están teledirigidas y que el levantamiento del coche no soporta el peso real, y señala la ironía de que el empujón resulte más peligroso que el propio coche.
+
+#### IA médica: el paper de Microsoft
+
+Microsoft publicó una investigación titulada "Building Medical Superintelligence" en la que afirma que su modelo es 1,7 veces más preciso que los médicos, más del doble de preciso que los médicos con acceso a libros de texto e internet, y casi cuatro veces más preciso cuando se compara con diagnósticos sin esos recursos. Wolfe lo ve como investigación prometedora que podría acabar en la consulta como apoyo o verificación del diagnóstico.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Anthropic (Claude Duet, lista de espera) | https://www.anthropic.com/news |
+| Resumen de The Verge sobre la vulnerabilidad de PHP | https://www.theverge.com |
+| Cloudflare (blog de seguridad) | https://blog.cloudflare.com |
+| Wiz (análisis de la vulnerabilidad) | https://www.wiz.io |
+| Railway (aviso de incidente) | https://railway.com |
+| OpenAI (Codex, API de Decisiones) | https://openai.com |
+| HyperAgent | https://hyperagent.com |
+| Ideogram Vector | https://ideogram.ai/models/vector |
+| ElevenLabs (Chimera) | https://elevenlabs.io |
+| Canva (Dream Lab / Craft) | https://www.canva.com |
+| Perplexity (modelos abiertos y Computer) | https://www.perplexity.ai |
+| Shopify (comercio para agentes) | https://www.shopify.com |
+| Mistral AI (Voxtral 3) | https://mistral.ai/news |
+| Zoom (detección de deepfakes) | https://www.zoom.com |
+| Unitree (robot H2) | https://www.unitree.com |
+| Microsoft Research (Medical Superintelligence) | https://www.microsoft.com/en-us/research/blog |
+
+---
 ## [Matt Wolfe] AI Breakthroughs Everyone Missed
 
 **Fecha:** 2026-10-21

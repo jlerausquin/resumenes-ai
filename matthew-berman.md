@@ -1,5 +1,109 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Who is local AI really for?
+**Fecha:** 2026-10-23
+**URL:** https://www.youtube.com/watch?v=fHY0sjAejcA
+**Video ID:** fHY0sjAejcA
+
+### 📝 Resumen
+
+Matthew Berman plantea una tesis incómoda desde una posición privilegiada: él es la persona más fácil de convencer para usar IA local —tiene hardware abundante, formación técnica, tiempo y motivos— y aun así, cuando quiere trabajo hecho, recurre a ChatGPT y a Claude. A partir de ahí desmonta la conversación actual sobre la IA local, hace los números de hardware y de coste por calidad, explica por qué las cuentas no salen y describe el único camino que, en su opinión, haría que funcionara: integrarla de forma invisible y con enrutamiento híbrido en los sistemas operativos. Deja claro en todo momento que quiere que la IA local funcione, porque le preocupa la concentración de poder.
+
+#### Local no es lo mismo que código abierto
+
+El primer malentendido que corrige es terminológico. Un modelo local es uno que corre literalmente en el ordenador del usuario: si se desconecta internet, sigue respondiendo. Un modelo de pesos abiertos es un modelo cuya fórmula y pesos se publican gratis, y puede servirse desde centros de datos de AWS, Google o los neoclouds. Existen modelos abiertos excelentes, una generación por debajo de la frontera absoluta —cita Fable 5.1 y los últimos Astra—, pero cuando son tan buenos son enormes: racks de GPU, cientos de miles o millones de dólares en hardware para servir a unos pocos usuarios. Berman es un firme partidario del código abierto y, sin embargo, insiste en que local es otra cosa.
+
+#### Las razones para quererlo
+
+Reconoce cuatro beneficios reales. La soberanía del dato: con ChatGPT o Claude se entrega información a una empresa, y aunque él ya vive resignado a eso con Facebook, Gmail o Docs, admite que infravalora su importancia. La independencia frente a las decisiones de los laboratorios: recuerda que cuando OpenClaw estaba en su mejor momento, Anthropic hizo prácticamente imposible usar con él la suscripción que el usuario ya pagaba, y que OpenAI, más permisiva por ahora, cortará el acceso si sus incentivos se desalinean. El funcionamiento sin internet, que considera un caso extremo de caso extremo —él tiene cobertura móvil y Starlink—. Y la propiedad de la propia inteligencia: teme la concentración de poder que implica depender de un laboratorio para pensar, y ve la generación doméstica de inteligencia como una forma de repartir ese poder. A eso suma el argumento de que la IA local puede trabajar 24 horas sin agotar cuotas, algo que ninguna suscripción permite.
+
+#### La aritmética del hardware
+
+Su tabla de rendimiento, medida en tokens por segundo con un solo agente en marcha. Una RTX 4090, que ya ronda los 5.000 dólares, mueve un modelo compacto de la familia Qwen en un rango de 25 a 40 tokens por segundo: el límite inferior de lo usable. Una RTX 5090 de 32 GB, a unos 8.500 dólares y difícil de encontrar, sube a 40-70, ya usable pero solo en un hilo. Una RTX 6000 Ada, de gama profesional, por unos 8.300 dólares, alcanza 50-130 con Qwen Coder Next. Una RTX Pro 6000 Blackwell, 16.000 dólares, llega a 95-245 con un especialista en código. Un Mac Studio de 256 GB (unos 10.000 dólares) o 512 GB (unos 15.000) permite ejecutar modelos grandes a 20-55 tokens por segundo, usable como máximo en ese extremo. La conclusión es que los modelos abiertos de vanguardia como GLM 5.3 Flash no caben en ninguno de estos equipos sin cuantización agresiva, y que en todos los casos el factor limitante para el trabajo real no es la velocidad de un agente sino la imposibilidad de lanzar varios en paralelo, algo que él hace constantemente.
+
+#### El coste real frente a una suscripción
+
+El cálculo que presenta compara el mejor modelo abierto que cabe en un ordenador de consumo, amortizado a tres años, contra la suscripción cerrada equivalente. Con un equipo de 4.000 dólares, el modelo local sale a unos 144 dólares al mes por un índice de inteligencia de aproximadamente 34 y unos 50 tokens por segundo. Claude Haiku 5.5, recién lanzado, cuesta 27 dólares al mes, entrega 235 tokens por segundo y supera en diez puntos ese índice. En el gráfico de coste frente a calidad, la frontera de Pareto —lo más alto y lo más a la izquierda— está ocupada exclusivamente por modelos cerrados, que además no requieren instalación, mantenimiento ni configuración, funcionan sincronizados en todos los dispositivos y se actualizan solos. Su diagnóstico es directo: con esas cifras, la IA local no es más barata que pagar 20 o 100 dólares al mes, es bastante más cara.
+
+#### Por qué las cuentas no salen
+
+Identifica dos causas estructurales. La primera es la restricción de oferta: los laboratorios absorben toda la asignación de memoria y GPU para construir sus centros de datos, lo que ha disparado el precio del hardware de consumo —una tarjeta que antes costaba 3.000 o 4.000 dólares ahora se vende cerca de 8.000— sin que la calidad del modelo ni la velocidad por chip hayan mejorado en la misma proporción. La segunda es que el modelo de negocio del código abierto en Estados Unidos no cierra: hay que invertir miles de millones, regalar el modelo y permitir que hiperescaladores y neoclouds lo sirvan sin haber asumido la inversión. El único actor que sostiene el ecosistema es Nvidia, con compromisos multimillonarios y adquisiciones —menciona Hugging Face y los rumores sobre Reflection AI— que funcionan como red de seguridad para los inversores. Los modelos chinos, excelentes, están subsidiados por su gobierno, lo que tampoco genera un incentivo para que el código abierto lidere la frontera, y menos aún para el uso local: una empresa de código abierto necesita servir la inferencia para ganar dinero, no regalar el modelo para que se ejecute en el salón de casa.
+
+#### Para quién es hoy: el hobby del overclocking
+
+Su respuesta a la pregunta del título es que la IA local es, hoy, para aficionados. Compara la escena con el overclocking: a la gente le entusiasma el proceso de ajustar parámetros, cargar el modelo más grande posible y exprimir tokens por segundo, no tanto lo que consigue con ello. Lo que echa en falta en las discusiones públicas es precisamente eso, resultados: se muestra qué modelo corre, no qué se ha logrado con él. El perfil necesario es exigente —capacidad técnica alta, ingresos disponibles amplios, tiempo para aprender y mantener el sistema, e interés genuino por el campo—, y él mismo, que cumple todos los requisitos y tiene el sistema montado, sigue acudiendo a los modelos cerrados cuando el objetivo es producir. También menciona que invirtió en LM Studio, en su opinión el producto más sencillo del mercado, para ilustrar la dificultad del problema: estandarizar una experiencia simple sobre arquitecturas, sistemas operativos y familias de modelos heterogéneas es muy complicado.
+
+#### El camino que sí funcionaría: híbrido e invisible
+
+La propuesta de Berman no es mejorar los modelos locales, sino que los sistemas operativos resuelvan el problema. Microsoft, Apple y Google están en la mejor posición porque controlan hardware y sistema, y pueden hacer IA híbrida bien. La condición es que el usuario no sepa —ni tenga que decidir— si está usando un modelo local o en la nube: para documentos importantes, datos sensibles o como respaldo cuando se cae la conexión, el sistema debería recurrir a lo local de forma transparente, y enrutar al cloud solo lo que exceda esa capacidad. A eso añade una capa de IA ambiental que actúe en segundo plano dentro de la interfaz, y un enrutamiento local que resuelva en el dispositivo todo lo que pueda. Es optimista al respecto porque los modelos pequeños mejoran rápido y porque la mayoría de las tareas cotidianas de un asistente no requieren el mejor modelo disponible; en el ámbito empresarial ya observa que el volumen de tokens se inclina hacia el código abierto, aunque el valor económico siga capturándose en los laboratorios cerrados. El último obstáculo que señala es el entorno: los agentes de Muse, Grok o Dot resultan tan atractivos porque viven en entornos en la nube, persistidos 24 horas y aislados, y replicar eso en un ordenador doméstico está por resolver.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| LM Studio (ejecución local de modelos) | https://lmstudio.ai |
+| JetBrains Air (patrocinador) | https://www.jetbrains.com |
+| Qwen (modelos abiertos de Alibaba) | https://qwen.ai |
+| GLM (Z.ai) | https://z.ai |
+| Artificial Analysis (índice de inteligencia) | https://artificialanalysis.ai |
+| Nvidia (GPUs y compromiso con pesos abiertos) | https://www.nvidia.com |
+| Hugging Face | https://huggingface.co |
+| Anthropic (Claude Haiku 5.5) | https://www.anthropic.com |
+| OpenAI (ChatGPT y modelos de pesos abiertos) | https://openai.com |
+
+---
+## [Matthew Berman] They actually did it... (Kimi K3.1)
+**Fecha:** 2026-10-24
+**URL:** https://www.youtube.com/watch?v=5sEVvu4mQ8g
+**Video ID:** 5sEVvu4mQ8g
+
+### 📝 Resumen
+
+Matthew Berman prueba Kimi K3.1 Pro, un modelo de pesos abiertos de clase frontera con 2,8 billones de parámetros totales (104.000 millones activos, arquitectura de mezcla de expertos), un millón de tokens de contexto y capacidad multimodal. Se suscribió al servicio, instaló la aplicación de escritorio y dedicó el vídeo a comparar tareas prácticas contra los mejores modelos cerrados —Opus 5.5, GPT-6.1, Gemini 4 Argon y Muse de Meta— antes de revisar los benchmarks publicados y el precio. Su conclusión es doble: el modelo es excelente y está en la frontera según las métricas, pero en su experiencia directa todavía no alcanza a Opus 5.5 ni a GPT-6.1, y requiere bastante más guía por parte del usuario.
+
+#### Especificaciones: un modelo abierto con números de frontera
+
+La ficha técnica que destaca el autor: 2,8 billones de parámetros con 104.000 millones activos por token, esto es, un modelo de mezcla de expertos donde solo una fracción de los parámetros se activa en cada petición; un millón de tokens de contexto; multimodalidad (acepta imágenes con seguridad y probablemente audio, aunque no lo probó con vídeo). Kimi lo presenta como especialmente fuerte en proyectos de código completos (juegos en Unreal, Unity y Godot), modelado paramétrico en 3D con Blender y CAD, trabajo financiero fiable y modelado con una reducción del 65 % en alucinaciones. Berman señala el matiz importante: la afirmación es "igualar a los modelos propietarios más potentes en benchmarks de codificación y conocimiento", y ese "en benchmarks" es precisamente lo que abre la sospecha de que el modelo esté optimizado para las pruebas más que para el uso real. Aun así, insiste en lo que considera la noticia: un modelo de este tamaño, descargable y ejecutable en centros de datos propios, gratuito.
+
+#### Las pruebas 3D: cubo de Rubik, iPhone Duo y nudo de bolina
+
+El autor recuperó el test del cubo de Rubik en 3D porque los modelos abiertos suelen fallar en él: pierden colores, hacen rotaciones incoherentes o "resuelven" cambiando todos los colores de golpe. Kimi K3.1 generó un cubo con reflejos de luz reales, controles de teclado, temporizador, deshacer, velocidad de giro y una resolución algorítmica del cubo barajado, con animación de confeti incluida; para Berman es un aprobado absoluto y uno de los mejores resultados que ha visto. Apunta que Opus 5.5 y GPT-6.1 también han mejorado mucho en 3D y que los modelos están convergiendo en las mismas habilidades, mientras que Argon de Google se queda corto y Muse de Meta directamente no está hecho para modelado 3D, algo que su responsable de IA, Alexander Wang, admitió con humor.
+
+El segundo test —un render WebGL del nuevo iPhone Duo, con búsqueda web incluida— tardó 28 minutos y 45 segundos en esfuerzo de razonamiento alto y produjo un resultado visualmente atractivo (reflejos metálicos, luz en los biseles de las cámaras) pero impreciso: el logo de Apple parecía una parodia y no aparecía la división central de la pantalla. El tercero, más exigente, pedía modelar en Blender una cuerda anudada con un nudo de bolina: requiere control de computadora, búsqueda web, conciencia espacial y precisión. El resultado falló; la forma general del ocho estaba, pero el nudo no estaba bien hecho ni unido al arnés. Y en la variante de motion graphic explicando cómo hacer el nudo, la versión de Kimi no permitía distinguir cuándo una cuerda pasa por encima o por debajo de la otra, mientras que GPT-6.1 con esfuerzo medio sí lo lograba con claridad en 54 segundos. Una segunda iteración de Kimi, tras pedirle más calidad de marca y menos aspecto de diagrama, mejoró la estética pero no la claridad didáctica.
+
+#### Juegos y código: el clon de Fall Guys y el rediseño web
+
+Con un prompt deliberadamente corto ("haz un clon de Fall Guys para el navegador, referenciando vídeos e imágenes del juego"), Kimi tardó 48 minutos en entregar "Bean Blitz", una carrera de obstáculos 3D con doce competidores animados, rivales de CPU, barreras giratorias, puertas deslizantes, plataformas, checkpoints, clasificación, temporizador, efectos de sonido y controles táctiles. Berman lo considera un resultado decente para un modelo abierto, con defectos claros: colores demasiado pastel, colisiones imprecisas y parpadeos. Aprovecha para explicar su filosofía de prompting: los prompts cortos permiten ver el criterio y el gusto del modelo, y solo conviene detallar cuando el usuario tiene preferencias concretas (colores, animaciones, tecnología). También le pidió rediseñar forwardfuture.com: el resultado respetó colores y tipografías de la marca, pero con espaciados incorrectos y una estética que identifica como "diseño de ChatGPT".
+
+#### Creatividad multimodal y el vídeo YTP
+
+El momento más llamativo fue la generación de un vídeo de YouTube Poop de cinco minutos a petición de un espectador del directo. Kimi explicó el proceso: generación de vídeo con su propia API para crear cinco clips originales de parodia, Python para orquestar el montaje y generar la banda sonora procedural con NumPy, FFmpeg para inversiones, espejados, distorsión de color, subtítulos y secuencia de clips, y FFprobe para verificar la duración y el formato. Berman, que no sabía que el modelo tuviera una API de generación de vídeo, quedó impresionado por la ejecución técnica aunque el resultado sea, por definición del género, un vídeo absurdo.
+
+#### Cuando el modelo inventa: benchmarks y la necesidad de guiarle
+
+El punto débil que documenta con más detalle es la tendencia a no asumir responsabilidad sobre los datos. Al pedirle un gráfico comparando Kimi K3.1 Pro, GPT-6.1, Opus 5.5 y DeepSeek 4.1 Flash, el modelo entregó categorías genéricas (codificación, razonamiento, matemáticas, tareas agénticas) sin nombrar los benchmarks; al insistir, listó SWE-bench Verified, Terminal-Bench, GPQA Diamond y otros, pero al preguntarle si los números eran reales admitió que eran "marcadores de posición inventados". Solo cuando Berman le proporcionó las cifras publicadas por Kimi generó la imagen, y aun así se limitó a recolorear la tabla oficial. Su conclusión es que este modelo necesita más empujones que otros, que tienden a hacer suposiciones razonables por su cuenta.
+
+#### Rendimiento frente a los modelos cerrados
+
+En Terminal-Bench, la prueba de escribir y ejecutar comandos de terminal, Opus 5.5 lidera con 66,4 y Kimi K3.1 Pro queda a menos de un punto porcentual (65,7). En GDPval, la evaluación de trabajo de conocimiento real de OpenAI, Opus 5.5 obtiene 1866 de ELO y Kimi 1846, con Fable 5.1 cien puntos por detrás. En OSWorld, que mide el control del ordenador, Kimi logra 79,6, en línea con Opus y Fable. En Terminal-Bench Science y en el benchmark propio de Kimi (Kimi Codebench 3.0) queda claramente por detrás de GPT-6 Astra. En el índice de inteligencia de Artificial Analysis, Kimi K3.1 Pro entra con 55, por detrás de Opus 5.5, Sonnet 5.5 y Muse Wonderful Full, pero por delante de Fable 5.1, GPT-6 Astra Max y Gemini 4 Argon. Berman resume la paradoja: según los benchmarks es un modelo de frontera abierto; según su uso, es muy bueno pero no está a la altura de los dos mejores cerrados, lo que refuerza su sospecha de que al menos parte del modelo se apoya en ellos.
+
+#### Precio y coste por tarea
+
+La versión estándar cuesta 2 dólares por millón de tokens de entrada y 10 por millón de salida, con 0,20 dólares por millón de entrada en caché. La versión de alta velocidad duplica la tarifa (4 y 20 dólares) pero mantiene el precio de la caché y ofrece entre dos y tres veces más velocidad, lo que el autor considera un salto notable por poco dinero. En la métrica que más valora, el coste por tarea de inteligencia completada —que combina precio y consumo de tokens—, Kimi K3.1 Pro sale a 2,11 dólares, frente a los 7,63 de Fable 5.1 y los 4,54 de Muse Wonder Max. Su recomendación final es probarlo directamente en Kimi o a través de algún neocloud.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Kimi (modelo K3.1 y plataforma) | https://www.kimi.com |
+| Moonshot AI (blog técnico del modelo) | https://moonshot.ai |
+| Artificial Analysis (índice de inteligencia y coste por tarea) | https://artificialanalysis.ai |
+| CodeRabbit (patrocinador, revisión de código) | https://www.coderabbit.ai |
+| Forward Future (web rediseñada en la prueba) | https://forwardfuture.com |
+| Blender | https://www.blender.org |
+| FreeCAD | https://www.freecad.org |
+
+---
 ## [Matthew Berman] Sam Altman: RSI, AI Consciousness, OpenAI's New Hardware, Compute, and more!
 
 **Fecha:** 2026-10-21
