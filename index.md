@@ -1,7 +1,7 @@
 # 📹 Resúmenes
 
 Resúmenes diarios de los canales de IA monitorizados y de podcasts.
-Última actualización: 2026-10-24 14:24
+Última actualización: 2026-10-26 08:01
 
 ---
 
