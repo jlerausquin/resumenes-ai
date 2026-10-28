@@ -1,6 +1,61 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] Deepseek crushed everyone
+
+**Fecha:** 2026-10-28
+**URL:** https://www.youtube.com/watch?v=DDZ-a6bAn3Y
+**Video ID:** DDZ-a6bAn3Y
+
+### 📝 Resumen
+
+#### Un modelo que pasó desapercibido
+
+Matthew Berman sostiene que el último modelo de DeepSeek, V4.1 Flash, se lanzó sin apenas ruido mediático pese a ser, en su valoración, el mejor modelo de pesos abiertos disponible en la actualidad. Su argumento no se apoya en un único benchmark, sino en la combinación de tres factores: una calidad cercana a la de los modelos propietarios de referencia, un coste muy inferior y una velocidad de inferencia que lo sitúa entre los más rápidos del mercado. A lo largo del vídeo somete al modelo a una batería de pruebas de diseño, visión, uso de herramientas y generación de aplicaciones completas, y cierra con los datos de benchmarks y de coste por tarea para respaldar la conclusión de que se trata de la mejor relación calidad-precio actual.
+
+#### Relojería mecánica en 3D
+
+La primera prueba combina varias capacidades a la vez: generación de geometría 3D, conciencia espacial, conocimiento interno en los pesos del modelo y diseño de interfaces. El encargo consistía en construir un despiece interactivo de un reloj mecánico hiperrealista, con información emergente al pasar el cursor sobre cada pieza. El resultado —bautizado como «Mechanica»— se generó en una sola página web: las piezas encajan entre sí, la iluminación y las sombras responden al girar la esfera, y las agujas de segundos, minutos y horas funcionan. Al seleccionar componentes como la espiral del volante, el modelo despliega fichas explicativas técnicamente correctas y permite aislar y centrar cada pieza e incluso «explotar» el mecanismo por capas. El único fallo señalado fue la ausencia del rotor de carga automática en la parte posterior, un detalle que el creador califica de decepcionante pero menor frente a la calidad general del conjunto.
+
+#### Clones de juegos y objetos físicos
+
+Con un prompt deliberadamente escueto —«construye un clon de Fall Guys»— el modelo produjo «Bean Blitz», un juego 3D jugable en el navegador con físicas de saltos, martillos que expulsan al jugador y plataformas móviles. Berman lo compara con versiones equivalentes generadas por otros modelos y concluye que queda algo por debajo de Opus 5.5, aunque muy cerca, teniendo en cuenta que es una fracción del precio y mucho más rápido; los defectos detectados son menores (objetos que se solapan y decoraciones que parecen animarse pero no lo hacen). La prueba siguiente exigía documentarse en la web y reconstruir en 3D un iPhone Duo: el resultado se consideró prácticamente impecable, con el logotipo, los botones, la bisagra y el acabado mate de la pantalla interior correctamente interpretados. La comparación directa con el mismo ejercicio hecho con Kimi de Moonshot favoreció claramente a DeepSeek, más allá de un fallo puntual en la animación de plegado, que desplaza la imagen fuera de pantalla.
+
+#### Visión, conteo y conciencia espacial
+
+En la prueba multimodal se subió una fotografía de un mostrador repleto de bollería y se pidió contar cada pieza por separado. Con razonamiento en su nivel máximo, el modelo invirtió cuatro minutos y veinticinco segundos en enumerar 137 unidades e identificar cada tipo —macarons, cruasanes de mantequilla, cruasanes rellenos, brownies—, acertando por muy poco en los recuentos individuales. El aspecto más destacado fue que, sin que se le pidiera, advirtió por su cuenta que muchas piezas estaban apiladas y parcialmente ocultas, y estableció un rango defendible de 130 a 145 unidades totales. Al solicitarle una estimación de las piezas no visibles, razonó sobre la geometría de cada montón —una pila cónica de macarons de cinco a seis capas implicaría una base de 19 a 25 unidades— y añadió un 21 % adicional de macarons ocultos y un 60 % a los montones de cruasanes. La segunda respuesta tardó apenas veintitrés segundos, lo que revela tanto calidad de razonamiento visual como eficiencia en la reutilización del contexto.
+
+#### Velocidad de inferencia
+
+Con el razonamiento desactivado y una petición de mil palabras de texto directo en el chat, el modelo generó a un ritmo estimado de 125 a 150 tokens por segundo en la interfaz utilizada. Sin embargo, los datos de Artificial Analysis muestran que ese no es su techo: el proveedor Lithos AI lo sirve hasta 1.286 tokens por segundo y Base 10 ronda los 845. Esa combinación de velocidad extrema con calidad alta es, según el autor, lo que justifica la etiqueta de mejor modelo global del momento, matizando que no es el de mayor calidad absoluta pero sí el que mejor equilibra las tres dimensiones.
+
+#### Agente con navegador y criterio editorial
+
+La prueba de agencia consistió en pedirle que revisara la entrevista del canal con Sam Altman y extrajera los cinco momentos más recortables con marcas de tiempo exactas y justificación. El modelo trabajó seis minutos y veinticuatro segundos, y al ser de pesos abiertos pudo inspeccionarse toda la cadena de pensamiento y las llamadas a herramientas. Los cinco clips propuestos coincidieron con los que el propio creador habría elegido, entre ellos la confesión de Altman de que lleva un año sin leer una línea de código —con su chiste sobre recreaciones históricas— y la advertencia de que el debate sobre la conciencia de la IA puede usarse como puerta trasera para apartar a las personas del control del futuro. Cada elección venía acompañada de enlace, cita literal y un razonamiento sobre por qué funcionaría fuera de la burbuja tecnológica, con formato de gancho para vídeos cortos. Queda pendiente para otro vídeo la fase de descarga y corte efectivo del material.
+
+#### Aplicaciones completas, también en local
+
+Berman ejecutó el modelo en su propia estación DGX, señalando que una versión cuantizada cabe en una GPU de consumo de gama alta, y le pidió un clon de Excel para navegador. Tras cincuenta minutos de trabajo obtuvo «GridLine», una hoja de cálculo offline-first con fórmulas encadenadas y arrastrables, referencias relativas correctas, negritas y gráficos insertables. El test del cubo de Rubik —scramble y resolución 3D con prompt mínimo— se superó con rotaciones y físicas coherentes, lo que el autor interpreta como evidencia de que el modelo comparte el modelo mental implícito del usuario sin necesidad de especificarlo todo. Por último, reutilizó un prompt detallado generado por Opus 5.5 para construir «Folio», un lector y anotador de PDF con Electron, React, TypeScript y PDF.js, con temas claro y oscuro, subrayado, dibujo, notas, firmas capturadas con la cámara y exportación e impresión. Calcula que, pagando inferencia, el coste de crear esa herramienta fue de menos de un par de dólares.
+
+#### Benchmarks y economía por tarea
+
+En el gráfico de Pareto de calidad frente a coste, el modelo ocupa la esquina superior izquierda, superando a Opus 5, Fable 5, GPT 6.1 Soul, Astra 6 Soul, Gemini 3.8 Flash y GLM 5.3 Max. En Humanity's Last Exam obtiene 42 puntos, a la par de Kimi K3 y GLM 5.3, y en Terminal Bench también 42, con buenos resultados en pruebas de agentes. El dato que el autor considera decisivo es el coste por tarea completada, que combina precio y consumo de tokens: DeepSeek se sitúa en 26 céntimos por tarea, frente a los 763 dólares de Claude Fable 5.1 Max, los 211 de Kimi K3.1 Pro, los 3,26 de Astra o los 5 de Qwen 3.8 Max. En precios por millón de tokens, Lithos AI ofrece 15 céntimos de entrada y 60 de salida con aciertos de caché gratuitos, mientras que Base 10 cobra 30 céntimos de entrada y 1,20 dólares de salida con caché a un céntimo. El vídeo se cierra reconociendo que Kimi K3.1 puntúa más alto en las tablas, pero sosteniendo que, en uso real, DeepSeek resulta superior.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| DeepSeek V4.1 Flash (modelo, pesos abiertos) | Producto / empresa | https://www.deepseek.com |
+| Artificial Analysis — benchmarks y frontera calidad/coste | Artículo / análisis | https://artificialanalysis.ai |
+| CoreWeave (patrocinador: Arena y Forge, pruebas de carga) | Producto / empresa | https://www.coreweave.com |
+| PDF.js — renderizado de PDF usado en Folio | Repositorio open source | https://mozilla.github.io/pdf.js/ |
+| Electron — stack de la aplicación Folio | Repositorio open source | https://www.electronjs.org |
+| Kimi de Moonshot AI (modelo comparado) | Producto / empresa | https://www.moonshot.ai |
+| Fall Guys (juego original clonado en la prueba) | Producto | https://www.fallguys.com |
+| Apple iPhone Duo (objeto reconstruido en 3D) | Producto | https://www.apple.com |
+| Proveedores de inferencia citados: Lithos AI y Base 10 | Servicio | — |
+
+---
 ## [Matthew Berman] It's happening...
 
 **Fecha:** 2026-10-27
