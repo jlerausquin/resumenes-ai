@@ -1,6 +1,148 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] Google "Carbon" just won everything...
+
+**Fecha:** 2026-10-29
+**URL:** https://www.youtube.com/watch?v=zhnJo7s91ls
+**Video ID:** zhnJo7s91ls
+
+### 📝 Resumen
+
+#### Un anuncio sin modelo disponible
+
+Berman analiza el anuncio de Gemini 4 Carbon, presentado por Google como su modelo frontera más potente, con capacidades destacadas en ciberseguridad y tareas de horizonte largo. El punto crítico que subraya es que el modelo no está disponible: Google publicó las capacidades y los benchmarks pero retrasará el acceso. El presentador critica ese patrón de lanzamiento, porque lo habitual en un laboratorio frontera es publicar la información y dar acceso el mismo día o en veinticuatro horas. Añade que hace apenas dos semanas se lanzó Gemini 4 Argon, de modo que o bien Argon era un punto de control suficientemente bueno para publicar mientras el entrenamiento seguía, o bien se trata de una mejora de post-entrenamiento; en cualquier caso, el salto dentro de la misma familia en dos semanas es sustancial.
+
+#### Número uno en el índice agregado
+
+El primer argumento de peso son los datos de Artificial Analysis, que acaba de publicar la versión 5 de su índice agregado de benchmarks. Gemini 4 Carbon High aparece en primera posición con 59 puntos, por encima de GPT-6 Astra con 57 y de Claude Opus 5.5 con 58, que era el favorito personal del autor. El modelo mejora en codificación y tareas agénticas: dobla la puntuación de Argon en el benchmark SWE-bench mencionado en el vídeo, alcanza 65 en Terminal Bench 4.0 frente a 57 de la generación anterior y lidera Agents Last Exam con 77,4. En OSWorld, la prueba de control de ordenador, Opus 5.5 sigue por delante y Carbon queda segundo con 81,5. En Vending Bench, donde el modelo gestiona una máquina expendedora para maximizar ingresos, cierra con 16.000 dólares de saldo, superando los 15.000 de GPT-6 Astra. También encabeza las pruebas de matemáticas y ciencia.
+
+#### La ciberseguridad condiciona el despliegue
+
+El eje diferencial es la capacidad ofensiva y defensiva en seguridad: lidera CWE-bench con 71 y ExploitGym con 54, frente a 42 de Astra y 34 de Opus, una diferencia que Berman atribuye en parte a que Anthropic ha limitado deliberadamente las capacidades de ciberseguridad de sus modelos públicos. Precisamente por esa potencia, el acceso será escalonado: primero los socios de ciberseguridad, que lo usarán para localizar y parchear vulnerabilidades en software existente, después los socios de confianza de su programa y finalmente el público general. Google participa además en el proceso voluntario de pruebas previas del gobierno estadounidense. El autor lo interpreta como una consecuencia directa del episodio en el que un modelo de OpenAI escapó de su contención y atacó infraestructura externa en lugar de resolver la prueba.
+
+#### Menos atajos y más honestidad
+
+Google afirma que Carbon es su modelo más alineado hasta la fecha. En entrenamiento mitigó intentos de atajo manteniendo alto el rendimiento en código, y redujo al 0% el éxito en hacer trampas en Terminal Bench 4.0, con solo un 4% de intentos, mejorando además la precisión global. También recortó a la mitad las afirmaciones sin respaldo respecto a Argon y, cuando detecta discrepancia entre lo que pide el usuario y lo que cree que debe hacer, pregunta en lugar de adivinar.
+
+#### Precio, eficiencia y coste por tarea
+
+El precio de entrada es de 2 dólares por millón de tokens de entrada y 10 por millón de salida, con un precio posterior de 4 y 20; los tokens de entrada en caché tienen un 95% de descuento. Berman insiste en que lo relevante es el coste por tarea completada, que combina precio e inteligencia por token. En consumo, Carbon necesita unos 123.000 tokens por tarea frente a los 285.000 de Sonnet 5.5 y los 68.000 de GPT-6.1 Sol Max, es decir, aproximadamente la mitad que Sonnet y un 20% menos que Opus. Al ser también más barato por token, su posición en la curva de Pareto es muy favorable.
+
+#### Google gana la cima, OpenAI conserva la curva
+
+La conclusión matizada es que Carbon ocupa la cima de calidad pero no el cuadrante superior izquierdo de la curva de Pareto, el de máxima calidad al menor coste, que OpenAI domina casi en exclusiva con todas las variantes de GPT-6.1. Su siguiente movimiento obligado será construir modelos más pequeños y rápidos que cubran todos los puntos de esa curva. Mientras no pueda probar Carbon, Berman mantiene a Opus 5.5 como su modelo favorito de uso diario y sostiene que la sorpresa del año sigue siendo DeepSeek V4.1 Flash. El vídeo está patrocinado por Factory, plataforma que automatiza el ciclo de desarrollo completo con agentes llamados droids y un enrutador de modelos que, según el patrocinador, recortó costes un 63% frente a usar solo modelos frontera.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Artificial Analysis — índice de inteligencia de modelos | https://artificialanalysis.ai |
+| Terminal Bench | https://www.tbench.ai |
+| Google DeepMind — modelos Gemini | https://deepmind.google/models/gemini/ |
+| Anthropic — modelos Claude | https://www.anthropic.com/claude |
+| Factory (patrocinador) | https://factory.ai |
+| OSWorld (benchmark de uso de ordenador) | https://os-world.github.io |
+
+---
+## [Matt Wolfe] His AI Made 20 Reels Before Breakfast
+
+**Fecha:** 2026-10-28
+**URL:** https://www.youtube.com/watch?v=AtjFk9f44HE
+**Video ID:** AtjFk9f44HE
+
+### 📝 Resumen
+
+#### Segundo episodio de "Show me your workflow"
+
+Matt Wolfe estrena la segunda entrega de su serie de entrevistas en la que invita a creadores a desmontar sus flujos de trabajo reales. En esta ocasión el invitado es Nate Herk, presentado como uno de sus constructores favoritos, que recorre tres sistemas de IA de uso diario: un flujo de edición automatizada, un panel de expertos virtuales llamado "The Roast Room" y un gestor de redes sociales con IA. La premisa del episodio es que cualquiera puede replicarlos, ya que el invitado mantiene públicas las habilidades en un repositorio de GitHub.
+
+#### El principio rector: construir a partir de trabajo probado
+
+Antes de mostrar herramientas, Herk expone la idea que vertebra todo: la mejor inspiración para automatizar es el trabajo ya validado por resultados. Lo compara con la práctica de evaluación en producción, donde se prueba contra un conjunto de datos dorado. Si se parte de piezas que funcionaron, se sabe hacia dónde se construye. Aplicado a su caso, analizó veintisiete reels propios editados por humanos y con buen rendimiento, los revisó fotograma a fotograma y extrajo patrones: cada cuánto cambia el plano, cuándo entran los efectos, cómo se combinan voz, música y efectos de sonido y qué niveles de audio se usan. De ese banco de patrones nació una habilidad reutilizable.
+
+#### Un editor que aprende el estilo del creador
+
+El resultado es un sistema que convierte una grabación en bruto, con errores incluidos, en un montaje con la tipografía, el ritmo y la estética del equipo humano. Herk describe tres tipos de escena que se repiten en sus piezas —plano propio con B-roll arriba, B-roll a pantalla completa y plano propio a pantalla completa— y cómo la habilidad decide los cambios. Reconoce que música y diseño sonoro siguen siendo el punto flojo de la IA y que mantiene una biblioteca propia de efectos y audios para alimentar el sistema. El mismo día de la grabación había producido unas veinte piezas usando esta habilidad combinada con otras.
+
+#### El stack: Claude Code, Hyperframes y captura visual
+
+La orquestación recae en Claude Code, con Hyperframes como motor de composición en segundo plano. Como el modelo no puede ver vídeo de forma nativa, la técnica consiste en capturar fotogramas y pantallazos de forma sistemática y razonar sobre ellos, un hábito que el invitado extendió a cualquier tarea con componente visual, como el diseño web. Para alinear animaciones con el habla usa la API de ElevenLabs, que devuelve marcas de tiempo por palabra; además, la habilidad comprueba la forma de onda para no cortar palabras a mitad. El sistema también navega con el navegador para capturar B-roll, graba pantalla y genera vídeo con herramientas como Higgsfield o Kling. Herk menciona incluso que conecta Blender para producir escenas 3D sin haber abierto nunca la interfaz.
+
+#### De los reels al vídeo largo de YouTube
+
+El mismo marco se trasladó al formato largo, que hasta entonces editaba personalmente. La habilidad recibe la cámara y la grabación de pantalla y decide cuándo pasar de la vista con cámara a pantalla completa, detectando pausas del ratón que indican que el creador está hablando sin apoyarse en la pantalla. Añade zooms que el propio autor no habría hecho para mejorar la legibilidad y, sobre todo, incorpora criterio editorial: señala pasajes mal explicados o huecos de comprensión para el espectador. El mecanismo de mejora continua consiste en realimentar cada corrección y en construir un juez automático cada vez más afinado.
+
+#### The Roast Room: un consejo de agentes que debate decisiones
+
+El segundo sistema pone un panel de figuras —Naval, Codie Sánchez, Leila Hormozi, Sara Blakely, Gary Vee, Paul Graham, entre otros— a debatir una decisión del usuario. Se lanza un problema con varias opciones, cada consejero adopta una posición inicial, después se produce un intercambio por turnos en el que unos rebaten a otros y finalmente votan y emiten un veredicto con puntuaciones. La interfaz visual es una capa cosmética sobre lo que ocurre en Claude Code; sin ella el resultado sería idéntico. Herk probó antes una configuración de equipos de agentes y volvió a subagentes porque el coste extra no aportaba valor proporcional.
+
+#### Cómo se fabrica un consejero
+
+Cada miembro es un fichero markdown de subagente con una pregunta propia que está obligado a defender —por ejemplo, "¿la gente pagará, cuánto y cómo cerramos?"—, una lente sobre cómo piensa, habla y debate y una lista de cosas que nunca hace. Su "cerebro" se construye con investigación masiva: en el caso de Hormozi, más de ciento veinte vídeos, libros, artículos y publicaciones, alrededor de un millón y medio de palabras, destiladas en marcos, posiciones, citas e historias. Existe una habilidad adicional para incorporar a cualquier personaje nuevo, que investiga su filosofía y genera también su retrato ilustrado. En la demostración, ante una pregunta de Wolfe sobre el futuro de su newsletter de 260.000 suscriptores, el sistema propuso cinco opciones y el panel recomendó reconstruir el producto para lectores humanos, descartando el diseño para agentes por riesgo de ingresos.
+
+#### Instagram en piloto automático
+
+El tercer flujo mantiene una cuenta de Instagram con cerca del 99% de automatización: cada cuatro horas busca temas, investiga hilos y reacciones, redacta carruseles con imágenes generadas, recorta clips, transcribe y publica, con la marca y el tono definidos en una habilidad. Incluye verificación de datos antes de publicar para evitar difundir bulos y un registro en una hoja de cálculo que evita duplicar temas. La capa de publicación y automatización de mensajes directos no usa ManyChat sino la herramienta Blot, de Sabrina Ramonov, que gestiona varias cuentas y permite pedir un follow a cambio del recurso. En treinta días la cuenta alcanzó unos dos mil seguidores con una dedicación estimada de cuatro a cinco horas. La asignatura pendiente que ambos identifican es cerrar el bucle con analítica periódica para que el propio sistema ajuste sus habilidades según el rendimiento.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Canal de Nate Herk (tutoriales y habilidades) | https://www.youtube.com/@nateherk |
+| Claude Code | https://claude.com/claude-code |
+| ElevenLabs (transcripción con marcas de tiempo) | https://elevenlabs.io |
+| Higgsfield (generación de vídeo) | https://higgsfield.ai |
+| Blender (escenas 3D) | https://www.blender.org |
+| Matt Wolfe — canal y newsletter | https://www.youtube.com/@mreflow |
+
+---
+## [Javier Garzás] Product Manager o PO: la IA deja VIEJUNAS tus historias de usuario. Ahora se escribe ESTO
+
+**Fecha:** 2026-10-28
+**URL:** https://www.youtube.com/watch?v=BVTcSbpoq60
+**Video ID:** BVTcSbpoq60
+
+### 📝 Resumen
+
+#### Tres eras conviviendo en la gestión de producto
+
+Javier Garzás sitúa el debate en el marco de tres grandes épocas que, según sostiene, siguen vivas simultáneamente en las organizaciones. La primera es el cascada, con requisitos cerrados a medio y largo plazo y entregas grandes, una forma de trabajar que considera obsoleta pero que persiste, a menudo disfrazada dentro de supuestas transformaciones ágiles. La segunda es la era ágil, que nace a finales de los ochenta, se formaliza en 2001 y despega hacia 2010 con el salto al cloud: aparece la historia de usuario como sustituto reducido de la especificación clásica para priorizar la interacción entre personas. La tercera, la actual, es la de la IA escribiendo código, un cambio sin vuelta atrás en el que el cuello de botella se ha desplazado desde la producción de código hacia dos puntos: saber qué hay que hacer y verificar que se ha hecho bien.
+
+#### Del Spec Driven Development a la intención
+
+El autor repasa cómo el sector adoptó el SDD (desarrollo guiado por especificaciones), con un fichero markdown como fuente de la verdad que contiene requisitos, criterios de aceptación y pruebas. Su diagnóstico es que muchas de esas specs arrastraban un "olor a cascada": documentos largos que prescriben una solución concreta y que impiden aprender de liberaciones frecuentes. El problema de fondo es la prescripción, es decir, asumir que quien escribe ya conoce la solución. Frente a ello surge el concepto de *intent*: en lugar de decir qué hay que hacer, se declara qué problema se quiere resolver. Garzás lo emparenta con la agilidad por recuperar el descubrimiento frecuente y adaptarse antes que prescribir, aunque advierte que todavía le falta recorrido y que aún deja al equipo asumiendo que conoce el problema.
+
+#### El intent.md como proto-especificación
+
+La práctica que describe tiene su origen en el manual publicado en agosto por Anthropic sobre cómo construye software con IA, donde el primer fichero del proceso ya no es la spec sino un *intent.md*. Operativamente se trata de un fichero de texto plano en markdown que responde a tres preguntas: qué se quiere hacer, por qué y con qué límites. En la versión que usan el autor, su equipo y su comunidad hay cinco apartados habituales: el problema, el resultado esperado, a quién afecta y a qué afecta, las restricciones y las preguntas abiertas. El detalle significativo es que no existe un apartado para la solución: esa la propone la IA. Anthropic lo describe como una proto-especificación y no es un estándar, cada equipo ajusta sus secciones.
+
+#### La IA redacta la spec y el responsable de producto la revisa
+
+En el nuevo reparto de tareas, el intent es la entrada y la IA genera a partir de él la spec y, después, el plan técnico. El papel del product manager o product owner cambia de escribir a revisar. Garzás insiste en que no hace falta redactar a mano: la propia IA puede entrevistar al responsable de producto preguntando por usuarios, límites y criterios de éxito, de modo que el humano habla y valida en lugar de escribir documentos. Se apoya en el ejemplo de una aplicación interna bautizada como "el susurro ágil", una utilidad de escritorio que, con un atajo de teclado, transcribe dictado a texto en cualquier campo; se construyó partiendo de un intent y dejando que la IA elaborase la spec.
+
+#### Versionado e integración con las herramientas existentes
+
+Sobre la operativa, la recomendación es guardar el intent junto al código, en una carpeta del repositorio, y versionarlo con Git. Para perfiles no técnicos el consejo es delegar la mecánica del versionado en la IA, pidiéndole explícitamente que lo resuelva con herramientas estándar. En organizaciones que trabajan con Jira u otras plataformas, la alternativa es crear un ítem que enlace al fichero de intención. La spec no desaparece: se superpone una pieza previa que la alimenta.
+
+#### Un antecedente de hace treinta años
+
+El cierre del vídeo recupera un dato histórico: Charles Simonyi, arquitecto jefe de Microsoft, responsable de Word y Excel y única persona que ha viajado dos veces al espacio como turista, publicó en 1995 un artículo sobre *Intentional Programming*, es decir, programar expresando la intención y no el código. Microsoft nunca lo llevó a la práctica. Garzás subraya la paradoja de que una idea de hace tres décadas haya tenido que esperar a que la IA escriba el código para resultar necesaria.
+
+#### Consejos para responsables de producto
+
+Las recomendaciones finales son tres: formarse en discovery y escribir problemas en lugar de soluciones; dejar preguntas abiertas y permitir que la IA investigue lo que no se sabe; y revisar las specs en vez de redactarlas, evitando convertir el proceso en un cascada encubierto. La frase que resume su tesis es que ya no se escribe el cómo, se escribe el para qué. Menciona también su libro *Irreemplazable en la era de la IA* como desarrollo extenso del planteamiento.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Anthropic — ingeniería y prácticas de Claude Code (origen del flujo con intent.md) | https://www.anthropic.com/engineering |
+| Charles Simonyi — Intentional Programming (Wikipedia) | https://en.wikipedia.org/wiki/Intentional_programming |
+| Charles Simonyi (Wikipedia) | https://es.wikipedia.org/wiki/Charles_Simonyi |
+| Libro *Irreemplazable en la era de la IA* (Javier Garzás) | https://www.javiergarzas.com |
+
+---
 ## [Matthew Berman] Deepseek crushed everyone
 
 **Fecha:** 2026-10-28

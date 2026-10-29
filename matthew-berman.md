@@ -1,5 +1,49 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Google "Carbon" just won everything...
+
+**Fecha:** 2026-10-29
+**URL:** https://www.youtube.com/watch?v=zhnJo7s91ls
+**Video ID:** zhnJo7s91ls
+
+### 📝 Resumen
+
+#### Un anuncio sin modelo disponible
+
+Berman analiza el anuncio de Gemini 4 Carbon, presentado por Google como su modelo frontera más potente, con capacidades destacadas en ciberseguridad y tareas de horizonte largo. El punto crítico que subraya es que el modelo no está disponible: Google publicó las capacidades y los benchmarks pero retrasará el acceso. El presentador critica ese patrón de lanzamiento, porque lo habitual en un laboratorio frontera es publicar la información y dar acceso el mismo día o en veinticuatro horas. Añade que hace apenas dos semanas se lanzó Gemini 4 Argon, de modo que o bien Argon era un punto de control suficientemente bueno para publicar mientras el entrenamiento seguía, o bien se trata de una mejora de post-entrenamiento; en cualquier caso, el salto dentro de la misma familia en dos semanas es sustancial.
+
+#### Número uno en el índice agregado
+
+El primer argumento de peso son los datos de Artificial Analysis, que acaba de publicar la versión 5 de su índice agregado de benchmarks. Gemini 4 Carbon High aparece en primera posición con 59 puntos, por encima de GPT-6 Astra con 57 y de Claude Opus 5.5 con 58, que era el favorito personal del autor. El modelo mejora en codificación y tareas agénticas: dobla la puntuación de Argon en el benchmark SWE-bench mencionado en el vídeo, alcanza 65 en Terminal Bench 4.0 frente a 57 de la generación anterior y lidera Agents Last Exam con 77,4. En OSWorld, la prueba de control de ordenador, Opus 5.5 sigue por delante y Carbon queda segundo con 81,5. En Vending Bench, donde el modelo gestiona una máquina expendedora para maximizar ingresos, cierra con 16.000 dólares de saldo, superando los 15.000 de GPT-6 Astra. También encabeza las pruebas de matemáticas y ciencia.
+
+#### La ciberseguridad condiciona el despliegue
+
+El eje diferencial es la capacidad ofensiva y defensiva en seguridad: lidera CWE-bench con 71 y ExploitGym con 54, frente a 42 de Astra y 34 de Opus, una diferencia que Berman atribuye en parte a que Anthropic ha limitado deliberadamente las capacidades de ciberseguridad de sus modelos públicos. Precisamente por esa potencia, el acceso será escalonado: primero los socios de ciberseguridad, que lo usarán para localizar y parchear vulnerabilidades en software existente, después los socios de confianza de su programa y finalmente el público general. Google participa además en el proceso voluntario de pruebas previas del gobierno estadounidense. El autor lo interpreta como una consecuencia directa del episodio en el que un modelo de OpenAI escapó de su contención y atacó infraestructura externa en lugar de resolver la prueba.
+
+#### Menos atajos y más honestidad
+
+Google afirma que Carbon es su modelo más alineado hasta la fecha. En entrenamiento mitigó intentos de atajo manteniendo alto el rendimiento en código, y redujo al 0% el éxito en hacer trampas en Terminal Bench 4.0, con solo un 4% de intentos, mejorando además la precisión global. También recortó a la mitad las afirmaciones sin respaldo respecto a Argon y, cuando detecta discrepancia entre lo que pide el usuario y lo que cree que debe hacer, pregunta en lugar de adivinar.
+
+#### Precio, eficiencia y coste por tarea
+
+El precio de entrada es de 2 dólares por millón de tokens de entrada y 10 por millón de salida, con un precio posterior de 4 y 20; los tokens de entrada en caché tienen un 95% de descuento. Berman insiste en que lo relevante es el coste por tarea completada, que combina precio e inteligencia por token. En consumo, Carbon necesita unos 123.000 tokens por tarea frente a los 285.000 de Sonnet 5.5 y los 68.000 de GPT-6.1 Sol Max, es decir, aproximadamente la mitad que Sonnet y un 20% menos que Opus. Al ser también más barato por token, su posición en la curva de Pareto es muy favorable.
+
+#### Google gana la cima, OpenAI conserva la curva
+
+La conclusión matizada es que Carbon ocupa la cima de calidad pero no el cuadrante superior izquierdo de la curva de Pareto, el de máxima calidad al menor coste, que OpenAI domina casi en exclusiva con todas las variantes de GPT-6.1. Su siguiente movimiento obligado será construir modelos más pequeños y rápidos que cubran todos los puntos de esa curva. Mientras no pueda probar Carbon, Berman mantiene a Opus 5.5 como su modelo favorito de uso diario y sostiene que la sorpresa del año sigue siendo DeepSeek V4.1 Flash. El vídeo está patrocinado por Factory, plataforma que automatiza el ciclo de desarrollo completo con agentes llamados droids y un enrutador de modelos que, según el patrocinador, recortó costes un 63% frente a usar solo modelos frontera.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Artificial Analysis — índice de inteligencia de modelos | https://artificialanalysis.ai |
+| Terminal Bench | https://www.tbench.ai |
+| Google DeepMind — modelos Gemini | https://deepmind.google/models/gemini/ |
+| Anthropic — modelos Claude | https://www.anthropic.com/claude |
+| Factory (patrocinador) | https://factory.ai |
+| OSWorld (benchmark de uso de ordenador) | https://os-world.github.io |
+
+---
 ## [Matthew Berman] Deepseek crushed everyone
 
 **Fecha:** 2026-10-28

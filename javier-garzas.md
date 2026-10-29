@@ -1,5 +1,51 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] Product Manager o PO: la IA deja VIEJUNAS tus historias de usuario. Ahora se escribe ESTO
+
+**Fecha:** 2026-10-28
+**URL:** https://www.youtube.com/watch?v=BVTcSbpoq60
+**Video ID:** BVTcSbpoq60
+
+### 📝 Resumen
+
+#### Tres eras conviviendo en la gestión de producto
+
+Javier Garzás sitúa el debate en el marco de tres grandes épocas que, según sostiene, siguen vivas simultáneamente en las organizaciones. La primera es el cascada, con requisitos cerrados a medio y largo plazo y entregas grandes, una forma de trabajar que considera obsoleta pero que persiste, a menudo disfrazada dentro de supuestas transformaciones ágiles. La segunda es la era ágil, que nace a finales de los ochenta, se formaliza en 2001 y despega hacia 2010 con el salto al cloud: aparece la historia de usuario como sustituto reducido de la especificación clásica para priorizar la interacción entre personas. La tercera, la actual, es la de la IA escribiendo código, un cambio sin vuelta atrás en el que el cuello de botella se ha desplazado desde la producción de código hacia dos puntos: saber qué hay que hacer y verificar que se ha hecho bien.
+
+#### Del Spec Driven Development a la intención
+
+El autor repasa cómo el sector adoptó el SDD (desarrollo guiado por especificaciones), con un fichero markdown como fuente de la verdad que contiene requisitos, criterios de aceptación y pruebas. Su diagnóstico es que muchas de esas specs arrastraban un "olor a cascada": documentos largos que prescriben una solución concreta y que impiden aprender de liberaciones frecuentes. El problema de fondo es la prescripción, es decir, asumir que quien escribe ya conoce la solución. Frente a ello surge el concepto de *intent*: en lugar de decir qué hay que hacer, se declara qué problema se quiere resolver. Garzás lo emparenta con la agilidad por recuperar el descubrimiento frecuente y adaptarse antes que prescribir, aunque advierte que todavía le falta recorrido y que aún deja al equipo asumiendo que conoce el problema.
+
+#### El intent.md como proto-especificación
+
+La práctica que describe tiene su origen en el manual publicado en agosto por Anthropic sobre cómo construye software con IA, donde el primer fichero del proceso ya no es la spec sino un *intent.md*. Operativamente se trata de un fichero de texto plano en markdown que responde a tres preguntas: qué se quiere hacer, por qué y con qué límites. En la versión que usan el autor, su equipo y su comunidad hay cinco apartados habituales: el problema, el resultado esperado, a quién afecta y a qué afecta, las restricciones y las preguntas abiertas. El detalle significativo es que no existe un apartado para la solución: esa la propone la IA. Anthropic lo describe como una proto-especificación y no es un estándar, cada equipo ajusta sus secciones.
+
+#### La IA redacta la spec y el responsable de producto la revisa
+
+En el nuevo reparto de tareas, el intent es la entrada y la IA genera a partir de él la spec y, después, el plan técnico. El papel del product manager o product owner cambia de escribir a revisar. Garzás insiste en que no hace falta redactar a mano: la propia IA puede entrevistar al responsable de producto preguntando por usuarios, límites y criterios de éxito, de modo que el humano habla y valida en lugar de escribir documentos. Se apoya en el ejemplo de una aplicación interna bautizada como "el susurro ágil", una utilidad de escritorio que, con un atajo de teclado, transcribe dictado a texto en cualquier campo; se construyó partiendo de un intent y dejando que la IA elaborase la spec.
+
+#### Versionado e integración con las herramientas existentes
+
+Sobre la operativa, la recomendación es guardar el intent junto al código, en una carpeta del repositorio, y versionarlo con Git. Para perfiles no técnicos el consejo es delegar la mecánica del versionado en la IA, pidiéndole explícitamente que lo resuelva con herramientas estándar. En organizaciones que trabajan con Jira u otras plataformas, la alternativa es crear un ítem que enlace al fichero de intención. La spec no desaparece: se superpone una pieza previa que la alimenta.
+
+#### Un antecedente de hace treinta años
+
+El cierre del vídeo recupera un dato histórico: Charles Simonyi, arquitecto jefe de Microsoft, responsable de Word y Excel y única persona que ha viajado dos veces al espacio como turista, publicó en 1995 un artículo sobre *Intentional Programming*, es decir, programar expresando la intención y no el código. Microsoft nunca lo llevó a la práctica. Garzás subraya la paradoja de que una idea de hace tres décadas haya tenido que esperar a que la IA escriba el código para resultar necesaria.
+
+#### Consejos para responsables de producto
+
+Las recomendaciones finales son tres: formarse en discovery y escribir problemas en lugar de soluciones; dejar preguntas abiertas y permitir que la IA investigue lo que no se sabe; y revisar las specs en vez de redactarlas, evitando convertir el proceso en un cascada encubierto. La frase que resume su tesis es que ya no se escribe el cómo, se escribe el para qué. Menciona también su libro *Irreemplazable en la era de la IA* como desarrollo extenso del planteamiento.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Anthropic — ingeniería y prácticas de Claude Code (origen del flujo con intent.md) | https://www.anthropic.com/engineering |
+| Charles Simonyi — Intentional Programming (Wikipedia) | https://en.wikipedia.org/wiki/Intentional_programming |
+| Charles Simonyi (Wikipedia) | https://es.wikipedia.org/wiki/Charles_Simonyi |
+| Libro *Irreemplazable en la era de la IA* (Javier Garzás) | https://www.javiergarzas.com |
+
+---
 ## [Javier Garzás] La IA y la puerta que se cierra al programador junior: ¿la siguiente es la TUYA?
 
 **Fecha:** 2026-10-21

@@ -1,5 +1,57 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] His AI Made 20 Reels Before Breakfast
+
+**Fecha:** 2026-10-28
+**URL:** https://www.youtube.com/watch?v=AtjFk9f44HE
+**Video ID:** AtjFk9f44HE
+
+### 📝 Resumen
+
+#### Segundo episodio de "Show me your workflow"
+
+Matt Wolfe estrena la segunda entrega de su serie de entrevistas en la que invita a creadores a desmontar sus flujos de trabajo reales. En esta ocasión el invitado es Nate Herk, presentado como uno de sus constructores favoritos, que recorre tres sistemas de IA de uso diario: un flujo de edición automatizada, un panel de expertos virtuales llamado "The Roast Room" y un gestor de redes sociales con IA. La premisa del episodio es que cualquiera puede replicarlos, ya que el invitado mantiene públicas las habilidades en un repositorio de GitHub.
+
+#### El principio rector: construir a partir de trabajo probado
+
+Antes de mostrar herramientas, Herk expone la idea que vertebra todo: la mejor inspiración para automatizar es el trabajo ya validado por resultados. Lo compara con la práctica de evaluación en producción, donde se prueba contra un conjunto de datos dorado. Si se parte de piezas que funcionaron, se sabe hacia dónde se construye. Aplicado a su caso, analizó veintisiete reels propios editados por humanos y con buen rendimiento, los revisó fotograma a fotograma y extrajo patrones: cada cuánto cambia el plano, cuándo entran los efectos, cómo se combinan voz, música y efectos de sonido y qué niveles de audio se usan. De ese banco de patrones nació una habilidad reutilizable.
+
+#### Un editor que aprende el estilo del creador
+
+El resultado es un sistema que convierte una grabación en bruto, con errores incluidos, en un montaje con la tipografía, el ritmo y la estética del equipo humano. Herk describe tres tipos de escena que se repiten en sus piezas —plano propio con B-roll arriba, B-roll a pantalla completa y plano propio a pantalla completa— y cómo la habilidad decide los cambios. Reconoce que música y diseño sonoro siguen siendo el punto flojo de la IA y que mantiene una biblioteca propia de efectos y audios para alimentar el sistema. El mismo día de la grabación había producido unas veinte piezas usando esta habilidad combinada con otras.
+
+#### El stack: Claude Code, Hyperframes y captura visual
+
+La orquestación recae en Claude Code, con Hyperframes como motor de composición en segundo plano. Como el modelo no puede ver vídeo de forma nativa, la técnica consiste en capturar fotogramas y pantallazos de forma sistemática y razonar sobre ellos, un hábito que el invitado extendió a cualquier tarea con componente visual, como el diseño web. Para alinear animaciones con el habla usa la API de ElevenLabs, que devuelve marcas de tiempo por palabra; además, la habilidad comprueba la forma de onda para no cortar palabras a mitad. El sistema también navega con el navegador para capturar B-roll, graba pantalla y genera vídeo con herramientas como Higgsfield o Kling. Herk menciona incluso que conecta Blender para producir escenas 3D sin haber abierto nunca la interfaz.
+
+#### De los reels al vídeo largo de YouTube
+
+El mismo marco se trasladó al formato largo, que hasta entonces editaba personalmente. La habilidad recibe la cámara y la grabación de pantalla y decide cuándo pasar de la vista con cámara a pantalla completa, detectando pausas del ratón que indican que el creador está hablando sin apoyarse en la pantalla. Añade zooms que el propio autor no habría hecho para mejorar la legibilidad y, sobre todo, incorpora criterio editorial: señala pasajes mal explicados o huecos de comprensión para el espectador. El mecanismo de mejora continua consiste en realimentar cada corrección y en construir un juez automático cada vez más afinado.
+
+#### The Roast Room: un consejo de agentes que debate decisiones
+
+El segundo sistema pone un panel de figuras —Naval, Codie Sánchez, Leila Hormozi, Sara Blakely, Gary Vee, Paul Graham, entre otros— a debatir una decisión del usuario. Se lanza un problema con varias opciones, cada consejero adopta una posición inicial, después se produce un intercambio por turnos en el que unos rebaten a otros y finalmente votan y emiten un veredicto con puntuaciones. La interfaz visual es una capa cosmética sobre lo que ocurre en Claude Code; sin ella el resultado sería idéntico. Herk probó antes una configuración de equipos de agentes y volvió a subagentes porque el coste extra no aportaba valor proporcional.
+
+#### Cómo se fabrica un consejero
+
+Cada miembro es un fichero markdown de subagente con una pregunta propia que está obligado a defender —por ejemplo, "¿la gente pagará, cuánto y cómo cerramos?"—, una lente sobre cómo piensa, habla y debate y una lista de cosas que nunca hace. Su "cerebro" se construye con investigación masiva: en el caso de Hormozi, más de ciento veinte vídeos, libros, artículos y publicaciones, alrededor de un millón y medio de palabras, destiladas en marcos, posiciones, citas e historias. Existe una habilidad adicional para incorporar a cualquier personaje nuevo, que investiga su filosofía y genera también su retrato ilustrado. En la demostración, ante una pregunta de Wolfe sobre el futuro de su newsletter de 260.000 suscriptores, el sistema propuso cinco opciones y el panel recomendó reconstruir el producto para lectores humanos, descartando el diseño para agentes por riesgo de ingresos.
+
+#### Instagram en piloto automático
+
+El tercer flujo mantiene una cuenta de Instagram con cerca del 99% de automatización: cada cuatro horas busca temas, investiga hilos y reacciones, redacta carruseles con imágenes generadas, recorta clips, transcribe y publica, con la marca y el tono definidos en una habilidad. Incluye verificación de datos antes de publicar para evitar difundir bulos y un registro en una hoja de cálculo que evita duplicar temas. La capa de publicación y automatización de mensajes directos no usa ManyChat sino la herramienta Blot, de Sabrina Ramonov, que gestiona varias cuentas y permite pedir un follow a cambio del recurso. En treinta días la cuenta alcanzó unos dos mil seguidores con una dedicación estimada de cuatro a cinco horas. La asignatura pendiente que ambos identifican es cerrar el bucle con analítica periódica para que el propio sistema ajuste sus habilidades según el rendimiento.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Canal de Nate Herk (tutoriales y habilidades) | https://www.youtube.com/@nateherk |
+| Claude Code | https://claude.com/claude-code |
+| ElevenLabs (transcripción con marcas de tiempo) | https://elevenlabs.io |
+| Higgsfield (generación de vídeo) | https://higgsfield.ai |
+| Blender (escenas 3D) | https://www.blender.org |
+| Matt Wolfe — canal y newsletter | https://www.youtube.com/@mreflow |
+
+---
 ## [Matt Wolfe] AI News: 24 Things You Need To Know This Week
 **Fecha:** 2026-10-23
 **URL:** https://www.youtube.com/watch?v=TVRCcMlvR10
