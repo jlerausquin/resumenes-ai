@@ -1,6 +1,72 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matt Wolfe] AI News: The Only 6 Stories Worth Knowing This Week
+**Fecha:** 2026-10-30
+**URL:** https://www.youtube.com/watch?v=eDiQNFa-zYg
+**Video ID:** eDiQNFa-zYg
+
+### 📝 Resumen
+
+Matt Wolfe abandonó por esta semana el formato de ráfaga informativa para concentrarse en las seis noticias que, a su juicio, movieron realmente la aguja del ecosistema de IA, descartando el resto de anuncios menores.
+
+#### El registro S-1 de Anthropic y el reparto de la riqueza
+
+Anthropic presentó el lunes su formulario S-1 ante la SEC, el trámite previo a cotizar en bolsa, con una salida prevista alrededor del 16 de noviembre y una valoración estimada de entre 1,5 y 2 billones de dólares. Los números del documento muestran ingresos de 4.585 millones en todo 2025 frente a más de 16.000 millones solo hasta el 30 de junio de 2026, es decir, casi el cuádruple en medio año. La contrapartida es una pérdida neta de 80.000 millones en ese mismo periodo, que Wolfe matiza: buena parte corresponde a deudas de inversores tempranos que se convertirán en acciones y no a dinero que haya salido realmente de las cuentas de la compañía.
+
+El punto que más le llamó la atención fue el reparto accionarial estimado. Con una cotización de unos 118 dólares por acción, 199.000 millones irían a los siete cofundadores con control, 100.000 millones al fondo de beneficio público y 331.000 millones a los empleados vía opciones y RSU, lo que con unas 5.300 personas da una media de 62 millones por cabeza. El desglose que cita, atribuido a una publicación en X de Andrew Benson, sitúa a los contratados hasta 2023 en 110-400 millones cada uno, a los de 2024 en 200-300 millones, a los de 2025 en 70-95 millones y a los de 2026 en 10-20 millones; unas 940 personas alcanzarían cifras de nueve dígitos. Wolfe pide cautela con estas cifras, que no ha verificado, y señala además que Amazon, Google y Broadcom se beneficiarán de cientos de miles de millones por los acuerdos de cómputo y los canjes por participación.
+
+Para el presentador, lo relevante es que se trata de la primera gran empresa dedicada exclusivamente a IA que sale a bolsa, lo que convierte la operación en una prueba de burbuja: cuando se levanten los periodos de bloqueo para los insiders, se verá si quienes están más cerca del negocio creen de verdad en él o simplemente buscaban una salida rápida.
+
+#### Warp Factories: cadenas de montaje de agentes en la nube
+
+En el segmento patrocinado, Wolfe probó Warp Factories, una propuesta para que equipos de ingeniería monten en la nube una cadena de producción de software basada en agentes. Su prueba consistió en construir un generador automático de guiones para vídeos de análisis de veinte minutos: agentes evaluadores puntúan aspectos concretos del guion, un agente de mejora detecta problemas recurrentes y propone cambios, y las puntuaciones se siguen en el tiempo para comprobar si el sistema realmente progresa.
+
+#### Tres lanzamientos de modelos: GPT-6.1 Terra, Gemini 4 Carbon y Kimi K3.1 Pro
+
+El primero es GPT-6.1 Terra de OpenAI, situado en la escala de la compañía por debajo de Astra (tope de gama) y Soul, y por encima de Luna. Según los datos que repasa en Artificial Analysis, Terra resulta un modelo algo menos inteligente que Soul con un precio prácticamente idéntico en el modo de máximo esfuerzo, y tampoco es sensiblemente más rápido. En sus propias pruebas, comparando inteligencia por coste, Soul en esfuerzo medio rinde mejor que Terra en esfuerzo extra alto a precio similar. Wolfe confiesa no entender a qué usuario responde este modelo y sostiene que, para ahorrar, lo lógico sigue siendo Soul.
+
+El segundo es Gemini 4 Carbon de Google, un paso por delante del Gemini 4 Argon presentado semanas antes y que ya lidera las clasificaciones de Artificial Analysis por encima de Opus 5.5 y GPT-6 Astra. No obstante, no está disponible de forma pública: solo algunos evaluadores, entre ellos especialistas en ciberseguridad, tienen acceso, y la compañía lo presenta como un "anuncio de un anuncio futuro".
+
+El tercero, y el más significativo para el presentador, es Kimi K3.1 Pro de Moonshot AI, que se convertirá en el mejor modelo de pesos abiertos disponible cuando libere sus pesos el 4 de noviembre. Hablamos de 2,8 billones de parámetros totales y una ventana de contexto de un millón de tokens. En Terminal Bench 4.0 supera a GPT-6 Astra y queda por debajo de Opus 5.5, y en Artificial Analysis se sitúa a solo tres puntos de Fable 5.1, el modelo que meses atrás hizo temer una crisis de seguridad global. Frente a otros pesos abiertos (Qwen en 32, DeepSeek en 34) la distancia es enorme.
+
+#### El límite práctico de los pesos abiertos
+
+A pesar del entusiasmo, Wolfe es realista sobre qué significa "abierto" en modelos de este tamaño: con 2,8 billones de parámetros harían falta unas 44 tarjetas RTX 5090 o al menos tres Mac Studio de 512 GB, cada uno de 10.000 a 15.000 dólares. El sueño de ejecutar el modelo más capaz en casa sigue fuera de alcance para un particular. Donde sí ve valor es en hospitales, bancos y gobiernos capaces de montar servidores propios: el argumento de privacidad y retención de datos se mantiene si la infraestructura es propia, y la tendencia apunta a que con el tiempo llegarán versiones más pequeñas y eficientes que sí quepan en dispositivos domésticos.
+
+#### Genie 4: mundos interactivos con sonido y prompting en tiempo real
+
+La pieza que más entusiasmó al presentador fue Genie 4 de Google DeepMind, un modelo de mundo al que se accede por lista de espera y que pudo probar en primicia. Permite describir una escena y un personaje, recorrer el entorno en primera o tercera persona y, novedad de esta versión, introducir cambios sobre la marcha mediante texto: hacer aparecer un dron policial o que Godzilla derribe una pared. Añade además sonido ambiental y efectos, algo que las iteraciones anteriores no tenían, y gana realismo, aunque de forma desigual según la escena.
+
+En la demostración práctica aparecieron las limitaciones: incoherencias al girar 360 grados sobre un entorno (objetos que cambian de sitio), fallos puntuales al introducir prompts y un límite de dos minutos por sesión antes de expulsar al usuario. Wolfe lo ve como una herramienta de previsualización más que como un videojuego: útil para que cineastas esbocen una escena antes de rodarla, para que diseñadores de juegos validen una idea en minutos antes de construirla en Unreal o Unity, y para que empresas de robótica entrenen agentes dentro de mundos simulados, como ya hace Nvidia. Su apuesta es que en un año veremos clips coherentes de veinte minutos y control por voz.
+
+#### OpenAI y la refutación de la hipótesis del tiempo exponencial
+
+El cierre del programa lo dedica a un anuncio de OpenAI: uno de sus modelos internos, aún sin publicar, habría refutado la hipótesis del tiempo exponencial, un supuesto de 25 años de antigüedad sobre el que descansan cientos de artículos de informática teórica. Wolfe lo explica con la analogía de una fila de interruptores y un conjunto de reglas que restringen qué combinaciones son válidas: con diez interruptores hay unas mil combinaciones, con treinta unos mil millones, y cada interruptor adicional duplica el espacio. La hipótesis sostiene que para los casos más difíciles todo método acaba escalando de forma exponencial; nunca se ha demostrado, pero nadie había encontrado un atajo.
+
+Según OpenAI, su modelo halló la refutación el 16 de octubre y la prueba se verificó en Lean, el asistente de demostraciones que actúa como corrector orthográfico de las matemáticas y comprueba cada paso sin dejar pasar errores. La consecuencia, de confirmarse, sería que buena parte de esa literatura podría quedar en entredicho. El presentador subraya la importancia cualitativa del hallazgo: hasta ahora la IA destacaba en tareas que los humanos ya dominan, mientras que esto sería resolver un problema abierto para los expertos, algo mucho más relevante que cualquier puntuación en un benchmark.
+
+#### Un cambio de formato deliberado
+
+Wolfe explica que ha recortado deliberadamente la sección de noticias rápidas y los anuncios de producto de empresas menores para quedarse con lo que considera momentos que cambian el juego. Para quien eche de menos el repaso exhaustivo, remite a la página de noticias de Future Tools, donde sigue listando cada novedad de la semana.
+
+### 🔗 Referencias
+
+| Tipo | Referencia | Enlace |
+|---|---|---|
+| Documento | Formulario S-1 de Anthropic ante la SEC | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=anthropic |
+| Artículo/Análisis | Publicación de Andrew Benson en X sobre el reparto accionarial de la IPO | https://x.com/ |
+| Producto | Warp Factories (cadenas de agentes en la nube) | https://www.warp.dev/ |
+| Producto | GPT-6.1 Terra de OpenAI | https://openai.com/ |
+| Benchmark | Artificial Analysis (comparativa de modelos) | https://artificialanalysis.ai/ |
+| Modelo | Gemini 4 Carbon — Google DeepMind | https://deepmind.google/models/ |
+| Modelo | Kimi K3.1 Pro — Moonshot AI (pesos abiertos previstos para 2026-11-04) | https://www.moonshot.ai/ |
+| Modelo | Genie 4 — Google DeepMind (lista de espera) | https://deepmind.google/discover/blog/genie/ |
+| Artículo | OpenAI: la hipótesis del tiempo exponencial y la colaboración con la comunidad académica | https://openai.com/index/ |
+| Verificación | Lean (asistente de demostraciones) | https://lean-lang.org/ |
+| Web | Future Tools — archivo de noticias diarias | https://futuretools.io/news |
+
+---
 ## [Matthew Berman] Google "Carbon" just won everything...
 
 **Fecha:** 2026-10-29
