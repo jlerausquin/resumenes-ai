@@ -2,6 +2,58 @@
 Programa de Rubén Amón, Rosa Belmonte, Guillermo Altares, Sergio del Molino e Isabel Vázquez.
 Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en qué minuto.
 
+## [La Cultureta] La cultureta 31/10/2026
+**Fecha:** 2026-10-31
+**Programa:** Gran Reserva · 90 min
+**URL:** https://www.ondacero.es/podcast/programas/la-cultureta/cultureta-31102026_202610316ae54e21e2d9a85c1b9b694f.html
+**GUID:** 6ae54e21e2d9a85c1b9b694f
+
+### 📚 Recomendaciones
+
+- **Libro** — *Corazón de Silex*, de Rosa Belmonte y Emilia Landaluce (Espasa), tercera novela de la periodista Socorro Núñez. Lo recomienda **Guillermo Altares** [63:57]. Por qué: sostiene que, como en las buenas novelas policiacas, hay trama y hay ambientes y personajes muy conseguidos, con mucho sentido del humor y una lectura fácil; le sorprendió que siendo «un libro progre» tenga tanto de *La escopeta nacional*.
+- **Cine** — *Patrimonio Nacional*, de Luis García Berlanga con guión de Rafael Azcona, rodada en el propio Palacio de Linares. Lo recomienda **Rosa Belmonte** [41:34]. Por qué: la considera una película extraordinaria, con planos que delatan que está rodada allí, llena de cameos (Chávarri, las Vainica Doble, Alfredo Mayo) y con un retrato del desencanto de la Transición que en 1981 aún no se había hecho.
+- **Cine** — *Esta soledad*, debut como director de Javi Giner. Lo recomienda **Isabel Vázquez** [83:41]. Por qué: describe una película sobre una pareja separada, de personajes desamparados que quieren encontrarse y no saben cómo; muy triste e intensa, pero un debut esperanzador y muy disfrutable.
+- **Serie** — *Vigil*, tercera temporada, ambientada en Svalbard. Lo comenta la mesa [81:29]. Por qué: valoran el hallazgo del enclave ártico con competencias rusas y que esté «bien hecha y bien resuelta», con protagonistas estupendas, aunque la consideran la más floja de las tres temporadas.
+- **Música** — *Sonata F.A.E.*, escrita a seis manos por Schumann, Brahms y Albert Dietrich para el violinista Joseph Joachim. Lo propone **Rubén Amón** [58:29]. Por qué: la presenta como un juego de autoría involuntaria —los tres movimientos sin firma para que Joachim adivinase de oído quién había escrito cada uno— que sirve de contrapunto inocente al debate sobre el escritor fantasma.
+- **Música** — *At Fillmore East*, de The Allman Brothers Band, con Duane Allman. Lo recomienda la pieza de cierre del programa (**J. F. León**) [87:04]. Por qué: con motivo de los 55 años de su muerte y los 80 que habría cumplido, reivindica el directo como una conversación entre músicos y piezas como *In Memory of Elizabeth Reed* o los 23 minutos de *Whipping Post*.
+
+### 🗒️ De qué se habló
+
+- Programa especial en directo desde la Casa de América (Palacio de Linares) y con público, que aprovecha la leyenda del fantasma de Raimunda como metáfora del escritor fantasma.
+- Monográfico sobre el negro literario y su heredero, la IA: el detector Pangram revisó más de un centenar de superventas recientes y encontró huella de IA en casi tres de cada diez, mientras que los libros de 2019 y 2020 dieron cero.
+- El caso del premio que prohibía el uso de IA y cuyo ganador, David Silva Rojas, fue señalado con un 99% de texto generado; la editorial suspendió las presentaciones y el autor lo niega. Se recuerda también el precedente francés del libro de un refugiado haitiano que iba a ser finalista del Goncourt (autor citado como «Télésphore Ogelian», dudoso).
+- Debate sobre la autoría: los precedentes de Dumas y Auguste Maquet o de Theodore Sorensen con Kennedy, la responsabilidad de quien firma, y la paradoja de que una máquina detecte a otra máquina mientras los humanizadores la burlan.
+- Sergio del Molino aporta la tesis de que la IA actúa como un editor exacerbado que lamina el estilo —lo que nos hace humanos es el defecto y la manía— y denuncia el expolio de derechos con que se alimentan estos modelos.
+- Bloque berlangiano desde el propio escenario de *Patrimonio Nacional*, el centenario de John Berger con su *Ways of Seeing* y *¿Por qué miramos a los animales?*, la leyenda de la emisión de *La guerra de los mundos* de Orson Welles y la relación entre Sorolla y María Guerrero a propósito de la ampliación del museo Sorolla.
+
+> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+
+
+## [La Cultureta] La Cultureta 13x10: ‘Naza’ (daños colaterales en Gaza)
+**Fecha:** 2026-10-30
+**Programa:** Cultureta 13x10 · 35 min
+**URL:** https://www.ondacero.es/podcast/programas/mas-de-uno/cultureta/cultureta-13x10-naza-danos-colaterales-gaza_202610306ae47c0596b2b0e4b27dc5ea.html
+**GUID:** 6ae47c0596b2b0e4b27dc5ea
+
+### 📚 Recomendaciones
+
+- **Documental** — *Naza*, sobre los testimonios anónimos de militares israelíes adiestrados para señalar objetivos en Gaza. Lo recomienda la mesa [10:34]. Por qué: lo califican de «estremecedoramente bien» y avisan de que se sale con muy mal cuerpo; piden verlo en el cine y recuerdan que también está en Filmin.
+- **Documental** — *The Act of Killing*, de Joshua Oppenheimer, sobre los escuadrones de la muerte indonesios. Lo recomienda la mesa [11:32]. Por qué: lo ponen en paralelo con *Naza* por la mecánica de la impunidad, y señalan la diferencia de que allí los protagonistas no muestran culpa alguna, se ríen y se exhiben.
+- **Cómic** — *La conjura de los necios*, adaptación gráfica de Albert Monteys de la novela de John Kennedy Toole. Lo recomienda **Nacho Vigalondo** [27:07]. Por qué: la considera un desafío a la herencia del tebeo clásico, con una inventiva y capacidad de sorpresa constante página a página, y sostiene que el libro se lee ahora como profecía del troll de internet.
+
+### 🗒️ De qué se habló
+
+- Anuncio de la Cultureta larga de esa misma noche en la Casa de América (sala Miguel de Cervantes, entrada libre hasta completar aforo), con el fantasma de Raimunda de fondo y la estela del programa que Del Olmo hizo allí en 1990.
+- El documental *Naza* vertebra el tramo central: cómo se seleccionan los objetivos, la frase «papá está en casa» para autorizar un bombardeo, la escucha masiva de teléfonos en Gaza y el algoritmo que decide quién es militante, con la consiguiente dilución de responsabilidad.
+- Se detallan las ratios de «daños colaterales» admisibles (15 o 20 civiles por un soldado de bajo rango, hasta 100 por un alto mando) y el uso de una interfaz tipo videojuego que despersonaliza el ataque.
+- Denuncian la existencia de un documental homónimo de 45 minutos difundido por el ejército israelí como contraréplica que, imitando el formato original, busca sustituir el visionado del auténtico en las búsquedas de internet.
+- Los psicofonías como género: de Germán de Argumosa a las caras de Bélmez, con la anécdota del reportero Antonio Casado y la explicación por humedades.
+- El concurso de la semana se resuelve con un pasaje de *El tercer hombre* y se repasa la lista de libros más vendidos de 1983, de Oneto sobre el caso Tejero a *La historia interminable*.
+- Cierre con el anuncio de que Sergio del Molino defenderá la semana próxima su tesis sobre el descenso de calidad de la literatura española en 40 años.
+
+> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+
+
 ## [La Cultureta] La Cultureta Gran Reserva: Premios Princesa de Asturias 2026
 **Fecha:** 2026-10-24
 **Programa:** Gran Reserva · 89 min
