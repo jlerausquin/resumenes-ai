@@ -1,6 +1,64 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] They did it...
+
+**Fecha:** 2026-11-03
+**URL:** https://www.youtube.com/watch?v=r0cJOa9MZsE
+**Video ID:** r0cJOa9MZsE
+
+### 📝 Resumen
+
+Matthew Berman sostiene en este vídeo que el coste de crear software propio ha caído por debajo del coste de comprarlo, y que eso convierte a los consumidores —no solo a las empresas— en constructores de sus propias herramientas. Su tesis central es que el software como producto está perdiendo valor y tiende a convertirse en open source por defecto.
+
+#### El detonante: un lector de PDF propio
+
+El vídeo arranca con una anécdota personal: al configurar un ordenador nuevo necesitaba leer un PDF y acabó instalando Adobe Acrobat, una aplicación que describe como inflada, cargada de funciones innecesarias, con empuje constante hacia otros productos y con exigencia de iniciar sesión para una tarea trivial. En lugar de aceptar esa fricción, decidió programar su propio lector y editor de PDF. Lo que en principio parece un ejercicio menor le sirvió para replantearse cómo se va a construir todo el software a partir de ahora, y a partir de ahí empezó a crear otras herramientas que necesitaba. Señala además que no es un caso aislado: otros desarrolladores han clonado suites completas, incluida la totalidad del paquete Adobe con equivalentes de Premiere y After Effects, y lo presentan como software libre.
+
+#### Tres condiciones que han coincidido en el tiempo
+
+Berman identifica tres requisitos que debían cumplirse simultáneamente para que este escenario fuera viable, y afirma que en el último mes se han alineado los tres. Primero, los modelos tenían que ser suficientemente buenos como para producir software real y no demos. Segundo, tenían que ser suficientemente baratos: no tiene sentido gastar decenas de millones de tokens en construir algo que se compra por veinte o treinta dólares. Tercero, tenía que ser suficientemente fácil, y eso lo aporta el hecho de que los modelos van envueltos en agentes cada vez más autónomos, capaces de recibir una instrucción y llevarla hasta el final sin supervisión continua. Sitúa el punto de inflexión en Opus 5.5, el momento en que podía pedir la creación o el clonado de una pieza de software y el sistema simplemente lo hacía.
+
+#### La nueva aritmética: construir frente a comprar
+
+El núcleo del argumento es un cálculo económico que, según él, se hace de forma permanente: cuánto cuesta construir y mantener una herramienta a medida frente a cuánto cuesta comprarla, normalmente en forma de suscripción recurrente. Su conclusión es que el coste en tokens de construir y mantener ya es inferior al de comprar, y que además el resultado tiene una ventaja estructural: el software hecho a medida incluye exactamente las funciones que el usuario necesita, aunque no le interesen a nadie más. Ese ajuste perfecto al caso propio es, para Berman, parte del valor y no un detalle menor.
+
+#### De la serpiente a clonar Excel en 90 minutos
+
+Para justificar que los modelos han llegado al nivel necesario, repasa su propia serie de pruebas de capacidad, que ha ido endureciendo con el tiempo. Empezó pidiendo el juego de la serpiente en Python, pasó después a una simulación del cubo de Rubik cuando la serpiente se quedó corta, y al quedarse también corta esa prueba adoptó una referencia mucho más exigente: reconstruir Microsoft Excel desde cero. Con GPT-5 y los modelos anteriores al salto reciente, el resultado se parecía a Excel pero arrastraba muchas asperezas y no estaba completo en funcionalidades. Con la última generación, en cambio, el clonado se completa de extremo a extremo en aproximadamente noventa minutos o un par de horas, en versión web, con todas las funciones. El contraste económico que ofrece es contundente: una licencia perpetua de Excel cuesta unos 180 dólares y la suscripción mensual se mueve entre 7 y 10 dólares, mientras que reconstruirlo le costó alrededor de 10 dólares en tokens.
+
+#### El software como bien de valor cero y el auge de la descompilación
+
+La consecuencia que extrae es que el valor del software tiende a cero: cualquiera con una suscripción de unos 200 dólares mensuales a un modelo frontier puede construir lo que quiera y publicarlo, y a partir de esa base otros pueden modificarlo a una fracción del coste original, de modo que cada usuario acaba teniendo exactamente lo que necesita. Reconoce que ese mecanismo tiene un nombre conocido, el código abierto, y por eso cree que en el futuro todo el software será de facto open source. Un factor que refuerza esa predicción es la popularidad creciente de la descompilación de software existente, que describe como mucho menos complicada de lo que parece. Como ejemplo señala Artcraft, un proyecto que replica toda la suite de Adobe de forma gratuita y abierta, con PhotoCraft como equivalente a Photoshop, Vectorcraft para vectores y Filmcraft como alternativa a Premiere. El método del autor de ese proyecto fue apuntar la IA a un software existente y pedirle que iterara hasta clonarlo.
+
+#### Las herramientas que construyó
+
+Berman muestra tres piezas propias. La primera es Folio, su lector y editor de PDF: permite subrayar, dibujar, añadir notas y hacer preguntas al documento con IA, es ligero, rápido, gratuito y de código abierto, y está pensado para que cualquiera lo bifurque y lo adapte. La segunda es Outlier Tracker, que nace de su frustración con una herramienta de analítica de YouTube (la que llama "One of 10"): esta había ido acumulando funciones que no usaba, exigía autenticación y datos personales y ocupaba hasta un tercio de la pantalla. Su reemplazo ofrece estadísticas por vídeo, seguimiento de vídeos y análisis de canales, exactamente lo que necesitaba, y lo construyó en unos treinta minutos. La tercera es el clon de Excel en el navegador, que presenta como funcionalmente completo.
+
+#### Las objeciones: mantenimiento, seguridad y software "vibecodeado"
+
+El vídeo aborda el contraargumento más habitual: no basta con construir, hay que mantener, actualizar y proteger el software, y los incidentes de seguridad van en aumento, por lo que el software generado a la ligera podría estar lleno de agujeros. Su respuesta es doble. Por un lado, los modelos escriben código cada vez mejor, de modo que el software resultante será progresivamente más robusto. Por otro, plantea una comparación de costes: mantener un agente dedicado de forma permanente a actualizar el software y buscar problemas de seguridad resulta más barato que pagar la suscripción a un tercero. Y añade una tercera vía, la del código abierto mantenido por otros desarrolladores que destinan tokens de forma continua a mejorarlo; a medida que el precio de los tokens tiende a cero, construir deja de tener coste y aparece un impulso casi vocacional de crear y compartir. De ahí su conclusión de que se está abriendo un renacimiento del software en el que cada persona construye lo que necesita.
+
+#### Sistemas operativos hechos a medida
+
+Cierra con una derivada de la misma lógica: Omarchy, el nuevo sistema operativo del creador de Ruby on Rails, que integra IA en su diseño hasta el punto de permitir personalizar el sistema operativo de forma continua según lo que el usuario quiera. Aunque parte de esa personalización ya es posible en Windows, la idea de un sistema completamente moldeable le parece un argumento serio para que haya espacio para un sistema operativo nuevo. Termina animando a explorar proyectos de código abierto, construir una aplicación propia y comprobar hasta dónde se puede llegar, y menciona DeepSeek V4.1 Flash como uno de los mejores modelos abiertos disponibles en ese momento.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Adobe Acrobat | Producto (el que motivó el vídeo) | https://www.adobe.com/acrobat.html |
+| Microsoft Excel | Producto (usado como referencia de clonado) | https://www.microsoft.com/microsoft-365/excel |
+| Claude | Modelo/suscripción (Opus 5.5 como punto de inflexión) | https://claude.ai |
+| ChatGPT | Modelo/suscripción | https://chatgpt.com |
+| DeepSeek (V4.1 Flash) | Modelos abiertos | https://www.deepseek.com |
+| Ruby on Rails | Framework (autor del SO mencionado) | https://rubyonrails.org |
+| Omarchy | Sistema operativo de DHH con IA integrada | https://omarchy.org |
+| Artcraft (PhotoCraft, Vectorcraft, Filmcraft) | Proyecto open source que clona la suite Adobe | Sin URL oficial verificada; citado en el vídeo |
+| Folio | Lector/editor de PDF open source del autor | Enlace en la descripción del vídeo; sin URL verificada |
+| Outlier Tracker | Herramienta de analítica de YouTube del autor | Enlace en la descripción del vídeo; sin URL verificada |
+
+---
 ## [Matt Wolfe] AI News: The Only 6 Stories Worth Knowing This Week
 **Fecha:** 2026-10-30
 **URL:** https://www.youtube.com/watch?v=eDiQNFa-zYg
