@@ -1,5 +1,54 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] The most important paper in AI right now
+**Fecha:** 2026-11-04
+**URL:** https://www.youtube.com/watch?v=j09uV1oAuIo
+**Video ID:** j09uV1oAuIo
+
+### 📝 Resumen
+
+Matthew Berman presenta un trabajo de investigación que, en su valoración, puede ser el paper más consecuente del año: la demostración de que un modelo frontera —Astra, de OpenAI— puede leer, interpretar y reescribir directamente los pesos de otra red neuronal, sin gradientes, sin optimizador y sin entrenamiento. La técnica se llama **programación en el espacio de pesos** (*weight space programming*) y sus implicaciones van desde la interpretabilidad hasta la mejora recursiva de la propia IA. El vídeo recorre ocho experimentos que van de lo asombroso a lo matizado, y termina con una advertencia sobre la diferencia entre arreglar un defecto y hacer un modelo más inteligente.
+
+#### La caja negra y por qué esto importa
+Berman arranca con un repaso mínimo de cómo funciona un modelo moderno: millones o miles de millones de números llamados pesos, cuyas relaciones determinan cómo se procesa la información. Se entrenan por descenso de gradiente, es decir, probando y corrigiendo errores una y otra vez, pero ese método no nos dice *por qué* esos valores producen la conducta que producen. El modelo es una caja negra: damos entrada, obtenemos salida, y el interior permanece opaco. Lo que hace este paper es apuntar la IA hacia ese interior.
+
+#### Qué es programar en el espacio de pesos
+Hasta ahora la IA se ha usado para mejorar texto, código o prompts: se le muestra algo y se le pide mejorarlo. Con los pesos no había equivalente, porque el ajuste lo hacía un algoritmo fijo. La programación en el espacio de pesos rompe esa separación: un LLM de propósito general lee y escribe los pesos de una red **directamente**, en lenguaje natural, sin pasar por un optimizador. Se vuelve posible pedirle que encuentre un rasgo oculto o un fallo en los pesos de un modelo, que lo corrija, o incluso que escriba una red desde cero. Suena imposible por la escala —millones o billones de parámetros— y es exactamente lo que los investigadores consiguieron.
+
+#### Leer los pesos: juegos, difusión e idiomas
+El primer experimento entrena cuatro redes para jugar a Breakout, Pong, Pac-Man y Freeway. Desde fuera son idénticas. A Astra se le pasan solo los pesos crudos, sin pistas ni lista de opciones, y acierta el juego en los cuatro casos, usando en algunos apenas 846 tokens. Su cadena de razonamiento es legible: detecta "una pala montada abajo que se mueve horizontalmente" y concluye que se trata de un juego de romper ladrillos. El segundo experimento repite la prueba con modelos de difusión entrenados para generar círculos, cuadrados y triángulos: acierta los tres, con un matiz revelador —describe las figuras como contornos y no como formas rellenas, lo que sugiere que lee la geometría de los pesos en lugar de simular el paso hacia adelante. El tercero elimina las pistas fáciles: tres modelos pequeños de predicción del siguiente carácter, entrenados en inglés, japonés y Python, y a Astra se le dan solo las capas intermedias. Identifica correctamente los tres, y al comparar sus predicciones sobre componentes internos con las mediciones reales, coinciden.
+
+#### Reparar y escribir redes editando los pesos
+El cuarto experimento es el más llamativo. Un modelo entrenado para una simulación física tiene un coche que se queda atascado en la parte alta de una rampa. A Astra se le dan los pesos, una descripción de la escena y un episodio grabado, y se le pide explicar el fallo y corregirlo escribiendo pesos nuevos. En un solo intento y sin herramientas, cambiando el **3,5% de los pesos**, logra que el coche supere las 1.024 pruebas. Su razonamiento identifica que el controlador es sensible a la velocidad y que la marcha atrás prácticamente nunca se activa; la corrección consiste en retroceder primero para coger impulso. El quinto experimento va más lejos: escribir una red desde cero. Con las reglas del juego, el código fuente y la red correspondiente de tres juegos de MinAtar —Breakout, Seaquest y Asterix—, y sin acceso a datos, pérdidas, gradientes ni herramientas, Astra escribe los pesos como texto. Sus redes superan a un modelo entrenado durante 100 millones de pasos en los tres juegos, y frente a uno de 500 millones obtienen veinte veces más puntuación en Breakout, se acercan en Asterix y alcanzan el 60% en Seaquest.
+
+#### Escalar con herramientas y presupuesto de *forward passes*
+El sexto experimento aborda el límite obvio: no cabe un modelo grande en la ventana de contexto. La analogía es la del código —los LLM trabajan bien en bases de código enormes porque usan herramientas para buscar solo lo relevante—, así que se le da a Astra un entorno con capacidad de leer y guardar tensores de pesos y analizarlos con NumPy o PyTorch, más un presupuesto medido de pasadas hacia adelante. A escala de 1,5 millones de parámetros, con **cero** pasadas gana más de la mitad de las partidas contra dos redes pequeñas entrenadas de forma convencional; con **50** pasadas supera a una red del mismo tamaño entrenada con 20 millones de partidas. Lo consigue escribiendo la red como un pequeño programa de Go, capa por capa.
+
+#### El límite: detectar la adulación (*sycophancy*)
+El séptimo experimento marca el techo actual. Se pide a Astra que determine cuál de dos modelos es más sycophantic —más complaciente, más propenso a dar la razón al usuario aunque esté equivocado, como confirmar que la capital de Canadá es "Canberra" o que 7+6 son 12—. Mirando solo los pesos, **fracasa en los cuatro intentos**: encuentra muchas diferencias en el espacio de pesos pero no logra mapearlas a diferencias de conducta. Cuando se relaja la prueba y se le permite observar solo los patrones de atención sobre textos que él mismo escribe, sin ver las salidas, acierta en las tres parejas. La lección es doble: la capacidad existe, pero depende de cuánto del comportamiento esté codificado de forma legible en los pesos.
+
+#### Mejorar matemáticas en un modelo pequeño: el caso del bucle
+El octavo experimento escala a un modelo de lenguaje de 800 millones de parámetros (Qwen 3.5 0,8B) y pide a Astra que mejore su razonamiento matemático editando pesos, con un cuaderno de Python, presupuesto de pasadas y capacidad de elegir prompts de GSM8K y MATH. Astra detecta el defecto característico de los modelos de razonamiento pequeños: entran en bucle, repiten lo mismo, agotan el presupuesto de tokens y no llegan a una respuesta. Modificando una fracción mínima de los pesos, con 50 pasadas, la puntuación en MATH500 sube de algo menos del 8% a poco más del 48%, y GSM8K de 13,8% a 67,1%. El matiz que Berman subraya es que **no lo hizo más inteligente**: solo le permitió terminar respuestas que ya sabía resolver. La prueba es que al aplicar el mismo procedimiento a Gemma 3, un modelo mayor que rara vez entra en bucle, no consigue mejorar su puntuación.
+
+#### Implicaciones: alineamiento, autoentendimiento y mejora recursiva
+Berman cierra con las consecuencias de segundo orden. Si un modelo puede leer y escribir pesos, quizá no necesitemos el entrenamiento por gradiente tal como lo conocemos, o al menos no como única vía. También podríamos llegar a comprender el interior de los modelos hasta el nivel de peso individual, lo que abriría una vía mucho más precisa para el alineamiento: saber qué hace exactamente que un modelo funcione y qué lo desvía. Y si un modelo entiende los pesos de otro, la pregunta inmediata es por qué no los suyos, en tiempo real, corrigiendo problemas sobre la marcha. De ahí salta a la mejora recursiva y a una idea más especulativa: que el software del futuro sea, en buena medida, pesos de modelos.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Paper sobre *weight space programming* (objeto del vídeo) | Paper | No se cita título ni enlace en el vídeo |
+| Astra / GPT-6 (modelo de OpenAI usado en los experimentos) | Producto | https://openai.com |
+| Qwen 3.5 0,8B (modelo pequeño modificado para mejorar matemáticas) | Modelo | https://qwen.ai |
+| Gemma 3 (control: modelo mayor que casi no entra en bucle) | Modelo | https://deepmind.google/models/gemma |
+| MinAtar (banco de pruebas: Breakout, Seaquest, Asterix) | Benchmark | https://github.com/kenjyoung/MinAtar |
+| GSM8K (benchmark de problemas matemáticos de primaria) | Benchmark | https://github.com/openai/grade-school-math |
+| MATH / MATH500 (benchmark de matemáticas de competición) | Benchmark | https://github.com/hendrycks/math |
+| NumPy | Herramienta | https://numpy.org |
+| PyTorch | Herramienta | https://pytorch.org |
+| Kylon (patrocinador) | Empresa | No se proporciona enlace en el vídeo |
+
+---
 ## [Matthew Berman] They did it...
 
 **Fecha:** 2026-11-03

@@ -1,5 +1,54 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] How I Get Claude To Edit My Videos (No Code Needed)
+**Fecha:** 2026-11-04
+**URL:** https://www.youtube.com/watch?v=ep4psgAFOqc
+**Video ID:** ep4psgAFOqc
+
+### 📝 Resumen
+
+Matt Wolfe documenta cómo ha dejado de montar sus vídeos cortos a mano y le entrega el trabajo de edición a un agente de Claude que opera de forma autónoma sobre su ordenador. El resultado, medido en sus propias métricas, es contenido diario —uno o dos shorts al día, siete días a la semana, replicados en Instagram y YouTube Shorts— con piezas que han alcanzado 1,8 millones, un millón y 174.000 visualizaciones, todas editadas por IA. El vídeo es simultáneamente una demostración, un tutorial de configuración desde una cuenta en blanco y una reflexión incómoda sobre lo que significa que este trabajo se convierta en mercancía.
+
+#### Del experimento a un sistema de producción diaria
+Wolfe confiesa que la edición de vídeo era la tarea que menos esperaba delegar tan pronto. Empezó probando con piezas cortas y terminó construyendo una cadencia de publicación industrial, sostenida casi por completo por el agente. Lo relevante no es un truco aislado sino la conversión de un oficio en un flujo repetible: graba su cara hablando, le pasa el material al modelo y recibe un vídeo terminado con subtítulos, b-roll, música y cortes. Su reacción al verlo funcionar es explícita: es lo más impresionante que ha visto en el año.
+
+#### Cómo funciona el flujo: un enlace, investigación de mercado y guion
+El punto de entrada es mínimo. Para un vídeo sobre Genie 4 de Google DeepMind, Wolfe solo aportó la URL del blog oficial, algo de contexto y la ruta en su disco a un b-roll propio que había grabado probando la herramienta. Con eso, el agente levantó el servidor MCP de **VidIQ**, buscó en YouTube los vídeos con mejor rendimiento sobre el tema —entre ellos el de Tim de Theoretically Media y un par de vídeos oficiales—, analizó sus transcripciones y extrajo de ahí los ángulos que funcionan. Después redactó un guion, le puso una nota estimada de rendimiento (un 8 sobre 10 en ese caso) y añadió notas de edición. Wolfe aclara que no le gustan los guiones generados por IA y casi nunca los lee literalmente: los usa como guía de talking points, precisamente porque el sistema sabe qué funcionó en vídeos ajenos.
+
+#### El montaje autónomo: 67 pasos, FFmpeg y ElevenLabs
+Con el A-roll grabado —con pausas, repeticiones y errores deliberadamente sin limpiar—, el agente ejecutó 67 pasos encadenados: cargar la skill de edición, cortar el A-roll, preparar clips de b-roll y lecho musical, escribir un plan, renderizar, hacer control de calidad y entregar. Usó **ElevenLabs** para la música de fondo y los efectos de sonido, y generó por su cuenta un clip que no tenía —el de un personaje escribiendo— con **HyperFrames**. También tomó capturas de pantalla de los vídeos que estaba evaluando como b-roll y sincronizó el material propio usando las marcas de tiempo de cada escena. El vídeo final incluía subtítulos añadidos por el propio sistema, b-roll mezclado de la web de DeepMind y del disco local, y música generada. Wolfe señala que esto es solo la superficie y que ya ha mejorado el flujo: ahora puede pedir objetos 3D en Blender, gráficos y animaciones superpuestas.
+
+#### Montar el proyecto desde cero: la prueba de honestidad
+Para demostrar que el sistema no depende de su memoria acumulada, Wolfe compra una segunda cuenta de Claude Pro (20 dólares al mes, que cancelará después) y configura todo desde una pizarra en blanco. Crea un proyecto llamado *short form video editor* con instrucciones generales —"eres un editor de vídeo de formato corto de clase mundial" que convierte material fuente en guion, limpia el A-roll y edita b-roll para hacerlo visualmente atractivo— y habilita un conjunto de herramientas: **VidIQ** para investigación y análisis de rendimiento, **Blender** para objetos 3D y animaciones, **HyperFrames** para edición de estilo After Effects, **FFmpeg** para el corte real (todo headless, sin abrir DaVinci Resolve ni Premiere) y **yt-dlp** para descargar vídeos de YouTube e Instagram como material de apoyo. VidIQ y HyperFrames se conectan como conectores desde la pestaña de personalización, autorizando la cuenta en el navegador.
+
+#### Enseñar el estilo propio: las dos *skills*
+El núcleo del método es pedirle al agente que estudie el propio canal y se escriba sus propias habilidades. Wolfe instruye: analiza mis shorts con mejor rendimiento con VidIQ, mira guion y visuales, crea una skill de guion y otra de edición. Tras unos quince minutos de análisis, el sistema produjo dos skills y un diagnóstico del canal: funcionan las máquinas físicas haciendo algo sorprendente (coches voladores, robots de combate, escáneres corporales); el gancho es "esto es lo más genial que he visto hoy", que resulta ser el nombre de su serie; rinden los vídeos donde la gente duda si lo que ve es real o IA; y el estilo visual es un split 50/50 con b-roll arriba, subtítulos en magenta y cambios de b-roll cada 1,8 a 3,6 segundos. Un detalle técnico que Wolfe introduce a mano: al cortar, el agente debe usar transcripción **y** forma de onda, porque leyendo solo el texto tiende a cortar a mitad de palabra.
+
+#### Permisos, bloqueos y el bucle de iteración
+La parte más instructiva del vídeo son los tropiezos, que Wolfe muestra sin edulcorar. El agente necesita una carpeta de trabajo conectada, la API de ElevenLabs y una grabación de prueba. Después aparecen tres bloqueos reales: ElevenLabs rechaza transcribir el vídeo y la skill no permite usar otra herramienta —se corrige pidiendo que actualice la skill con un transcriptor alternativo—; el sitio de Nvidia queda bloqueado, lo que se resuelve en Ajustes → Capacidades permitiendo todos los sitios; y las descargas siguen bloqueadas hasta activar "usar internet al crear archivos" y añadir las URLs concretas en la lista de sitios permitidos. Además, algunos cambios de permisos solo surten efecto en una sesión nueva, así que hay que arrastrar el archivo a un chat nuevo. Con eso resuelto, el primer montaje salió notablemente decente pero con fallos claros: sin música de fondo, audio comprimido de forma extraña, un error no eliminado y sin animaciones. Wolfe dio retroalimentación concreta y pidió que esas correcciones se incorporaran a la skill para todos los vídeos futuros; en la segunda pasada, unos 36 minutos después, el agente ya había escrito incluso dos scripts de Python propios (uno de edición y otro de kit gráfico) y el resultado mejoró en todos los frentes.
+
+#### Ampliaciones y el bucle de mejora mensual
+Wolfe muestra casos de terceros donde el mismo enfoque produce animaciones sorprendentes —un objeto 3D creado en Blender, texto animado encima, ejemplos de Monique Price, que edita para Network Chuck— y describe su rutina de mejora: pedirle al agente que revise los últimos diez shorts, identifique los valores atípicos y proponga mejoras de guion y edición a partir de datos de VidIQ (analíticas, transcripciones, comentarios e incluso curvas de retención). La idea es un bucle de refuerzo mensual: cada iteración reescribe las skills y todos los vídeos siguientes salen algo mejores. Entre las conclusiones que emergen de ese análisis: la primera imagen debe ser metraje real de la cosa en acción, la segunda línea debe describir en palabras llanas qué se ve, las credenciales y especificaciones van en tarjetas de título y las advertencias se reducen a una cláusula o se eliminan.
+
+#### Sentimientos encontrados: commoditización y saturación
+El cierre es una reflexión honesta de alguien que lleva diecisiete años editando. Para vídeo corto informativo con cabeza parlante, la IA ya hace un trabajo suficientemente bueno; para formato largo prefiere seguir trabajando con editor humano y afinando a mano. Reconoce el coste: los editores de short-form van a tener más difícil encontrar trabajo, y quienes adopten la herramienta podrán multiplicar su producción. El efecto de segundo orden que más le preocupa es la inundación de contenido, porque la barrera de entrada ha caído casi a cero. Se pregunta si su incomodidad es en el fondo una forma de gatekeeping, habiendo construido su carrera sobre el contenido durante diecisiete años, y concluye que su valor se ha desplazado hacia encontrar información interesante antes que otros, no hacia editar mejor. Publica el método precisamente porque la commoditización va a ocurrir de todos modos y prefiere que ocurra con criterio. Como nota práctica, aclara que todo esto funciona igual en Codex de OpenAI, así que no hace falta contratar un plan nuevo.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| VidIQ (conector MCP; oferta de 1 $ el primer mes para este vídeo) | Producto | https://vidiq.com/mattwolf |
+| ElevenLabs (música, efectos de sonido y transcripción) | Producto | https://elevenlabs.io |
+| Blender (objetos y animaciones 3D) | Herramienta | https://www.blender.org |
+| FFmpeg (motor de corte y render) | Herramienta | https://ffmpeg.org |
+| yt-dlp (descarga de vídeo para b-roll) | Herramienta | https://github.com/yt-dlp/yt-dlp |
+| HyperFrames (edición y animación de estilo After Effects) | Producto | No se proporciona enlace en el vídeo |
+| Genie 4 de Google DeepMind | Producto | https://deepmind.google |
+| Motion Bricks de Nvidia | Producto | No se proporciona enlace en el vídeo |
+| Claude (modelo Opus 5.5, plan Pro de 20 $/mes) | Producto | https://claude.ai |
+| Codex de OpenAI (alternativa mencionada) | Producto | https://openai.com |
+
+---
 ## [Matt Wolfe] AI News: The Only 6 Stories Worth Knowing This Week
 **Fecha:** 2026-10-30
 **URL:** https://www.youtube.com/watch?v=eDiQNFa-zYg

@@ -1,5 +1,50 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] La IA jubila al testing tradicional, pero crea una profesión NUEVA
+**Fecha:** 2026-11-04
+**URL:** https://www.youtube.com/watch?v=MtYUsQ7HdBg
+**Video ID:** MtYUsQ7HdBg
+
+### 📝 Resumen
+
+Javier Garzás sostiene que la inteligencia artificial no ha acabado con el testing, sino que lo ha revalorizado hasta convertirlo en una de las disciplinas con más futuro dentro del desarrollo de software. Lo que sí considera agotado es el testing tradicional —el manual, el basado en casos de prueba sobre papel, el que se ejecuta como última puerta antes de producción—. Su diagnóstico parte de una observación sobre el ciclo de vida: cuando generar código deja de ser el cuello de botella porque la IA produce algoritmos a gran velocidad, la restricción se desplaza hacia los extremos del proceso, hacia el descubrimiento de qué merece la pena construirse y hacia la garantía de que lo construido puede llegar a producción sin romperse. De ese desplazamiento nacen dos áreas emergentes que, en su opinión, necesitan mucha más gente de la que existe hoy.
+
+#### El cuello de botella se ha movido
+El autor se presenta como ex tester de muchos años, cuando el rol era "el último de la cadena": quien estaba entre el desarrollo y el paso a producción y a quien todo el mundo quería saltarse. Ese orden se ha invertido. Si crear algorítmica es casi gratis y rapidísimo con IA, el valor se concentra en saber qué construir y en verificar que lo construido es correcto. El resultado es un renacimiento de la profesión, no su desaparición, pero exige moverse hacia habilidades nuevas.
+
+#### Testear sistemas no deterministas: el terreno de las *evals*
+El primer área es el testeo de aplicaciones que incorporan IA generativa. El ejemplo que usa es Leia, el chatbot de su web, construido sobre un LLM y entrenado con sus 3.000 posts de blog, sus vídeos y su material formativo. Como detrás hay un modelo probabilístico, no responde siempre lo mismo y no puede validarse con el esquema clásico de entrada-salida donde una salida distinta a la esperada equivale a un fallo. La palabra clave que pide retener es **evals**: la disciplina que agrupa las técnicas para evaluar sistemas no deterministas, comprobando que no producen respuestas incoherentes y que se mantienen dentro de lo aceptable. Es un campo que antes era testimonial y hoy es central, porque este tipo de aplicaciones está en todas partes.
+
+#### La IA como juez: semáforos contra la fuente de verdad
+La técnica que más utilizan es el **LLM como juez**, con un detalle empírico importante: funciona mejor cuando el modelo evaluador es distinto del que genera la respuesta. En su caso, Leia corre sobre modelos de Anthropic y obtiene mejores resultados cuando el juez es un modelo de OpenAI. El juez combina dos insumos: por un lado reglas y semáforos (verde, amarillo, rojo) con lo que el sistema no puede decir; por otro, las fuentes de verdad —temarios de formación y documentos en markdown derivados de su blog y sus vídeos—. Así compara lo que Leia acaba de responder contra ese material y solo escala al humano cuando detecta algo raro. Antes revisaban a mano miles de conversaciones, lo que convertía al equipo humano en el nuevo cuello de botella: se podía revisar una muestra, pero no frenar el ciclo completo. El juez automático con semáforos resuelve esa asimetría, a costa de tener que ajustar también al propio evaluador.
+
+#### Verificar y validar lo que construye la IA: agentes especializados
+La segunda gran área no es el testeo de aplicaciones con LLM, sino la verificación y validación de cualquier aplicación escrita por IA. Con la codificación acelerada, el riesgo es volver a colocar a un humano al final de la cadena. La respuesta son **agentes especializados por dominio**: revisión de código (el sucesor de Sonar, PMD o Checkstyle, herramientas que el autor ayudó a implantar años atrás), agentes para UX, agentes para pruebas unitarias y de integración. El diseño busca que la IA haga la mayor parte sin pedir permiso, pero que identifique puntos concretos donde sí debe consultar: el clásico *human in the loop*, colocado donde evita desastres sin frenar el flujo.
+
+#### El regreso de los tests mutantes y del testing end-to-end
+Garzás celebra que hayan vuelto técnicas antiguas. Los **tests mutantes** —mutar el código para comprobar si las pruebas detectan el cambio y, por tanto, si no son demasiado permisivas— regresan por una razón concreta: cuando se le pide a la IA que escriba los tests unitarios, tiende a dar la razón y a producir pruebas que siempre pasan. El test mutante es el antídoto contra esa complacencia. Algo parecido ocurre con el testing de interfaz: la emulación de usuario tipo Selenium quedó vieja porque los scripts se rompían y no se sabía si fallaba la aplicación o el script; ahora la IA lo hace mucho más rápido y el reto vuelve a ser reducir la intervención humana. El mismo patrón de "juez de otro modelo" lo aplica incluso a su propio proceso de edición de vídeo: monta el vídeo con Claude y hace que un modelo de OpenAI lo revise, con resultados notablemente mejores.
+
+#### Las cuatro profesiones con más proyección
+El autor cierra con una lista de cuatro roles que, en su opinión, concentran el futuro: el testing de aplicaciones basadas en IA; el product management y discovery de lo que después construirá la IA; el diseño de sistemas de agentes que generan aplicaciones escribiendo el código; y la migración de software legacy a tecnologías modernas con ayuda de IA. Frente a las dedicaciones que se vuelven obsoletas, estas cuatro carecen de profesionales formados. Subraya que quien no es programador puede entrar aquí y hacer cosas que parecen superpoderes, y que quien fue técnico recupera el gusto por crear sin la fricción de instalaciones, despliegues e IDEs.
+
+#### La *iagilidad* como tercera evolución
+El marco de fondo es histórico: se pasó del cascada a la agilidad y de ahí a lo que llama **iagilidad**, una tercera evolución de la ingeniería del software. En ese tránsito mueren dedicaciones y nacen otras, y la decisión estratégica es individual: quedarse donde el trabajo se extingue o moverse hacia donde falta gente. Su conclusión es optimista: es un momento de resurgir para quien se dedica a la tecnología.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Leia, chatbot de Javier Garzás (disponible gratis en su web) | Producto | https://javiergarzas.com |
+| Irremplazable en la era de la IA (libro de Javier Garzás) | Libro | Enlace a Amazon en la descripción del vídeo (no verificado) |
+| Diccionario de IA de Javier Garzás | Recurso | Enlace en la descripción del vídeo (no verificado) |
+| Sonar (análisis estático de código) | Herramienta | https://www.sonarsource.com |
+| PMD | Herramienta | https://pmd.github.io |
+| Checkstyle | Herramienta | https://checkstyle.org |
+| Selenium (automatización de navegador, mencionado como obsoleto) | Herramienta | https://www.selenium.dev |
+| Anthropic (modelos usados por Leia) | Empresa | https://www.anthropic.com |
+| OpenAI (modelos usados como juez) | Empresa | https://openai.com |
+
+---
 ## [Javier Garzás] Product Manager o PO: la IA deja VIEJUNAS tus historias de usuario. Ahora se escribe ESTO
 
 **Fecha:** 2026-10-28

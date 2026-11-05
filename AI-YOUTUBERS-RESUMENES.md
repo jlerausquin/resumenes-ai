@@ -1,6 +1,149 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] The most important paper in AI right now
+**Fecha:** 2026-11-04
+**URL:** https://www.youtube.com/watch?v=j09uV1oAuIo
+**Video ID:** j09uV1oAuIo
+
+### 📝 Resumen
+
+Matthew Berman presenta un trabajo de investigación que, en su valoración, puede ser el paper más consecuente del año: la demostración de que un modelo frontera —Astra, de OpenAI— puede leer, interpretar y reescribir directamente los pesos de otra red neuronal, sin gradientes, sin optimizador y sin entrenamiento. La técnica se llama **programación en el espacio de pesos** (*weight space programming*) y sus implicaciones van desde la interpretabilidad hasta la mejora recursiva de la propia IA. El vídeo recorre ocho experimentos que van de lo asombroso a lo matizado, y termina con una advertencia sobre la diferencia entre arreglar un defecto y hacer un modelo más inteligente.
+
+#### La caja negra y por qué esto importa
+Berman arranca con un repaso mínimo de cómo funciona un modelo moderno: millones o miles de millones de números llamados pesos, cuyas relaciones determinan cómo se procesa la información. Se entrenan por descenso de gradiente, es decir, probando y corrigiendo errores una y otra vez, pero ese método no nos dice *por qué* esos valores producen la conducta que producen. El modelo es una caja negra: damos entrada, obtenemos salida, y el interior permanece opaco. Lo que hace este paper es apuntar la IA hacia ese interior.
+
+#### Qué es programar en el espacio de pesos
+Hasta ahora la IA se ha usado para mejorar texto, código o prompts: se le muestra algo y se le pide mejorarlo. Con los pesos no había equivalente, porque el ajuste lo hacía un algoritmo fijo. La programación en el espacio de pesos rompe esa separación: un LLM de propósito general lee y escribe los pesos de una red **directamente**, en lenguaje natural, sin pasar por un optimizador. Se vuelve posible pedirle que encuentre un rasgo oculto o un fallo en los pesos de un modelo, que lo corrija, o incluso que escriba una red desde cero. Suena imposible por la escala —millones o billones de parámetros— y es exactamente lo que los investigadores consiguieron.
+
+#### Leer los pesos: juegos, difusión e idiomas
+El primer experimento entrena cuatro redes para jugar a Breakout, Pong, Pac-Man y Freeway. Desde fuera son idénticas. A Astra se le pasan solo los pesos crudos, sin pistas ni lista de opciones, y acierta el juego en los cuatro casos, usando en algunos apenas 846 tokens. Su cadena de razonamiento es legible: detecta "una pala montada abajo que se mueve horizontalmente" y concluye que se trata de un juego de romper ladrillos. El segundo experimento repite la prueba con modelos de difusión entrenados para generar círculos, cuadrados y triángulos: acierta los tres, con un matiz revelador —describe las figuras como contornos y no como formas rellenas, lo que sugiere que lee la geometría de los pesos en lugar de simular el paso hacia adelante. El tercero elimina las pistas fáciles: tres modelos pequeños de predicción del siguiente carácter, entrenados en inglés, japonés y Python, y a Astra se le dan solo las capas intermedias. Identifica correctamente los tres, y al comparar sus predicciones sobre componentes internos con las mediciones reales, coinciden.
+
+#### Reparar y escribir redes editando los pesos
+El cuarto experimento es el más llamativo. Un modelo entrenado para una simulación física tiene un coche que se queda atascado en la parte alta de una rampa. A Astra se le dan los pesos, una descripción de la escena y un episodio grabado, y se le pide explicar el fallo y corregirlo escribiendo pesos nuevos. En un solo intento y sin herramientas, cambiando el **3,5% de los pesos**, logra que el coche supere las 1.024 pruebas. Su razonamiento identifica que el controlador es sensible a la velocidad y que la marcha atrás prácticamente nunca se activa; la corrección consiste en retroceder primero para coger impulso. El quinto experimento va más lejos: escribir una red desde cero. Con las reglas del juego, el código fuente y la red correspondiente de tres juegos de MinAtar —Breakout, Seaquest y Asterix—, y sin acceso a datos, pérdidas, gradientes ni herramientas, Astra escribe los pesos como texto. Sus redes superan a un modelo entrenado durante 100 millones de pasos en los tres juegos, y frente a uno de 500 millones obtienen veinte veces más puntuación en Breakout, se acercan en Asterix y alcanzan el 60% en Seaquest.
+
+#### Escalar con herramientas y presupuesto de *forward passes*
+El sexto experimento aborda el límite obvio: no cabe un modelo grande en la ventana de contexto. La analogía es la del código —los LLM trabajan bien en bases de código enormes porque usan herramientas para buscar solo lo relevante—, así que se le da a Astra un entorno con capacidad de leer y guardar tensores de pesos y analizarlos con NumPy o PyTorch, más un presupuesto medido de pasadas hacia adelante. A escala de 1,5 millones de parámetros, con **cero** pasadas gana más de la mitad de las partidas contra dos redes pequeñas entrenadas de forma convencional; con **50** pasadas supera a una red del mismo tamaño entrenada con 20 millones de partidas. Lo consigue escribiendo la red como un pequeño programa de Go, capa por capa.
+
+#### El límite: detectar la adulación (*sycophancy*)
+El séptimo experimento marca el techo actual. Se pide a Astra que determine cuál de dos modelos es más sycophantic —más complaciente, más propenso a dar la razón al usuario aunque esté equivocado, como confirmar que la capital de Canadá es "Canberra" o que 7+6 son 12—. Mirando solo los pesos, **fracasa en los cuatro intentos**: encuentra muchas diferencias en el espacio de pesos pero no logra mapearlas a diferencias de conducta. Cuando se relaja la prueba y se le permite observar solo los patrones de atención sobre textos que él mismo escribe, sin ver las salidas, acierta en las tres parejas. La lección es doble: la capacidad existe, pero depende de cuánto del comportamiento esté codificado de forma legible en los pesos.
+
+#### Mejorar matemáticas en un modelo pequeño: el caso del bucle
+El octavo experimento escala a un modelo de lenguaje de 800 millones de parámetros (Qwen 3.5 0,8B) y pide a Astra que mejore su razonamiento matemático editando pesos, con un cuaderno de Python, presupuesto de pasadas y capacidad de elegir prompts de GSM8K y MATH. Astra detecta el defecto característico de los modelos de razonamiento pequeños: entran en bucle, repiten lo mismo, agotan el presupuesto de tokens y no llegan a una respuesta. Modificando una fracción mínima de los pesos, con 50 pasadas, la puntuación en MATH500 sube de algo menos del 8% a poco más del 48%, y GSM8K de 13,8% a 67,1%. El matiz que Berman subraya es que **no lo hizo más inteligente**: solo le permitió terminar respuestas que ya sabía resolver. La prueba es que al aplicar el mismo procedimiento a Gemma 3, un modelo mayor que rara vez entra en bucle, no consigue mejorar su puntuación.
+
+#### Implicaciones: alineamiento, autoentendimiento y mejora recursiva
+Berman cierra con las consecuencias de segundo orden. Si un modelo puede leer y escribir pesos, quizá no necesitemos el entrenamiento por gradiente tal como lo conocemos, o al menos no como única vía. También podríamos llegar a comprender el interior de los modelos hasta el nivel de peso individual, lo que abriría una vía mucho más precisa para el alineamiento: saber qué hace exactamente que un modelo funcione y qué lo desvía. Y si un modelo entiende los pesos de otro, la pregunta inmediata es por qué no los suyos, en tiempo real, corrigiendo problemas sobre la marcha. De ahí salta a la mejora recursiva y a una idea más especulativa: que el software del futuro sea, en buena medida, pesos de modelos.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Paper sobre *weight space programming* (objeto del vídeo) | Paper | No se cita título ni enlace en el vídeo |
+| Astra / GPT-6 (modelo de OpenAI usado en los experimentos) | Producto | https://openai.com |
+| Qwen 3.5 0,8B (modelo pequeño modificado para mejorar matemáticas) | Modelo | https://qwen.ai |
+| Gemma 3 (control: modelo mayor que casi no entra en bucle) | Modelo | https://deepmind.google/models/gemma |
+| MinAtar (banco de pruebas: Breakout, Seaquest, Asterix) | Benchmark | https://github.com/kenjyoung/MinAtar |
+| GSM8K (benchmark de problemas matemáticos de primaria) | Benchmark | https://github.com/openai/grade-school-math |
+| MATH / MATH500 (benchmark de matemáticas de competición) | Benchmark | https://github.com/hendrycks/math |
+| NumPy | Herramienta | https://numpy.org |
+| PyTorch | Herramienta | https://pytorch.org |
+| Kylon (patrocinador) | Empresa | No se proporciona enlace en el vídeo |
+
+---
+## [Matt Wolfe] How I Get Claude To Edit My Videos (No Code Needed)
+**Fecha:** 2026-11-04
+**URL:** https://www.youtube.com/watch?v=ep4psgAFOqc
+**Video ID:** ep4psgAFOqc
+
+### 📝 Resumen
+
+Matt Wolfe documenta cómo ha dejado de montar sus vídeos cortos a mano y le entrega el trabajo de edición a un agente de Claude que opera de forma autónoma sobre su ordenador. El resultado, medido en sus propias métricas, es contenido diario —uno o dos shorts al día, siete días a la semana, replicados en Instagram y YouTube Shorts— con piezas que han alcanzado 1,8 millones, un millón y 174.000 visualizaciones, todas editadas por IA. El vídeo es simultáneamente una demostración, un tutorial de configuración desde una cuenta en blanco y una reflexión incómoda sobre lo que significa que este trabajo se convierta en mercancía.
+
+#### Del experimento a un sistema de producción diaria
+Wolfe confiesa que la edición de vídeo era la tarea que menos esperaba delegar tan pronto. Empezó probando con piezas cortas y terminó construyendo una cadencia de publicación industrial, sostenida casi por completo por el agente. Lo relevante no es un truco aislado sino la conversión de un oficio en un flujo repetible: graba su cara hablando, le pasa el material al modelo y recibe un vídeo terminado con subtítulos, b-roll, música y cortes. Su reacción al verlo funcionar es explícita: es lo más impresionante que ha visto en el año.
+
+#### Cómo funciona el flujo: un enlace, investigación de mercado y guion
+El punto de entrada es mínimo. Para un vídeo sobre Genie 4 de Google DeepMind, Wolfe solo aportó la URL del blog oficial, algo de contexto y la ruta en su disco a un b-roll propio que había grabado probando la herramienta. Con eso, el agente levantó el servidor MCP de **VidIQ**, buscó en YouTube los vídeos con mejor rendimiento sobre el tema —entre ellos el de Tim de Theoretically Media y un par de vídeos oficiales—, analizó sus transcripciones y extrajo de ahí los ángulos que funcionan. Después redactó un guion, le puso una nota estimada de rendimiento (un 8 sobre 10 en ese caso) y añadió notas de edición. Wolfe aclara que no le gustan los guiones generados por IA y casi nunca los lee literalmente: los usa como guía de talking points, precisamente porque el sistema sabe qué funcionó en vídeos ajenos.
+
+#### El montaje autónomo: 67 pasos, FFmpeg y ElevenLabs
+Con el A-roll grabado —con pausas, repeticiones y errores deliberadamente sin limpiar—, el agente ejecutó 67 pasos encadenados: cargar la skill de edición, cortar el A-roll, preparar clips de b-roll y lecho musical, escribir un plan, renderizar, hacer control de calidad y entregar. Usó **ElevenLabs** para la música de fondo y los efectos de sonido, y generó por su cuenta un clip que no tenía —el de un personaje escribiendo— con **HyperFrames**. También tomó capturas de pantalla de los vídeos que estaba evaluando como b-roll y sincronizó el material propio usando las marcas de tiempo de cada escena. El vídeo final incluía subtítulos añadidos por el propio sistema, b-roll mezclado de la web de DeepMind y del disco local, y música generada. Wolfe señala que esto es solo la superficie y que ya ha mejorado el flujo: ahora puede pedir objetos 3D en Blender, gráficos y animaciones superpuestas.
+
+#### Montar el proyecto desde cero: la prueba de honestidad
+Para demostrar que el sistema no depende de su memoria acumulada, Wolfe compra una segunda cuenta de Claude Pro (20 dólares al mes, que cancelará después) y configura todo desde una pizarra en blanco. Crea un proyecto llamado *short form video editor* con instrucciones generales —"eres un editor de vídeo de formato corto de clase mundial" que convierte material fuente en guion, limpia el A-roll y edita b-roll para hacerlo visualmente atractivo— y habilita un conjunto de herramientas: **VidIQ** para investigación y análisis de rendimiento, **Blender** para objetos 3D y animaciones, **HyperFrames** para edición de estilo After Effects, **FFmpeg** para el corte real (todo headless, sin abrir DaVinci Resolve ni Premiere) y **yt-dlp** para descargar vídeos de YouTube e Instagram como material de apoyo. VidIQ y HyperFrames se conectan como conectores desde la pestaña de personalización, autorizando la cuenta en el navegador.
+
+#### Enseñar el estilo propio: las dos *skills*
+El núcleo del método es pedirle al agente que estudie el propio canal y se escriba sus propias habilidades. Wolfe instruye: analiza mis shorts con mejor rendimiento con VidIQ, mira guion y visuales, crea una skill de guion y otra de edición. Tras unos quince minutos de análisis, el sistema produjo dos skills y un diagnóstico del canal: funcionan las máquinas físicas haciendo algo sorprendente (coches voladores, robots de combate, escáneres corporales); el gancho es "esto es lo más genial que he visto hoy", que resulta ser el nombre de su serie; rinden los vídeos donde la gente duda si lo que ve es real o IA; y el estilo visual es un split 50/50 con b-roll arriba, subtítulos en magenta y cambios de b-roll cada 1,8 a 3,6 segundos. Un detalle técnico que Wolfe introduce a mano: al cortar, el agente debe usar transcripción **y** forma de onda, porque leyendo solo el texto tiende a cortar a mitad de palabra.
+
+#### Permisos, bloqueos y el bucle de iteración
+La parte más instructiva del vídeo son los tropiezos, que Wolfe muestra sin edulcorar. El agente necesita una carpeta de trabajo conectada, la API de ElevenLabs y una grabación de prueba. Después aparecen tres bloqueos reales: ElevenLabs rechaza transcribir el vídeo y la skill no permite usar otra herramienta —se corrige pidiendo que actualice la skill con un transcriptor alternativo—; el sitio de Nvidia queda bloqueado, lo que se resuelve en Ajustes → Capacidades permitiendo todos los sitios; y las descargas siguen bloqueadas hasta activar "usar internet al crear archivos" y añadir las URLs concretas en la lista de sitios permitidos. Además, algunos cambios de permisos solo surten efecto en una sesión nueva, así que hay que arrastrar el archivo a un chat nuevo. Con eso resuelto, el primer montaje salió notablemente decente pero con fallos claros: sin música de fondo, audio comprimido de forma extraña, un error no eliminado y sin animaciones. Wolfe dio retroalimentación concreta y pidió que esas correcciones se incorporaran a la skill para todos los vídeos futuros; en la segunda pasada, unos 36 minutos después, el agente ya había escrito incluso dos scripts de Python propios (uno de edición y otro de kit gráfico) y el resultado mejoró en todos los frentes.
+
+#### Ampliaciones y el bucle de mejora mensual
+Wolfe muestra casos de terceros donde el mismo enfoque produce animaciones sorprendentes —un objeto 3D creado en Blender, texto animado encima, ejemplos de Monique Price, que edita para Network Chuck— y describe su rutina de mejora: pedirle al agente que revise los últimos diez shorts, identifique los valores atípicos y proponga mejoras de guion y edición a partir de datos de VidIQ (analíticas, transcripciones, comentarios e incluso curvas de retención). La idea es un bucle de refuerzo mensual: cada iteración reescribe las skills y todos los vídeos siguientes salen algo mejores. Entre las conclusiones que emergen de ese análisis: la primera imagen debe ser metraje real de la cosa en acción, la segunda línea debe describir en palabras llanas qué se ve, las credenciales y especificaciones van en tarjetas de título y las advertencias se reducen a una cláusula o se eliminan.
+
+#### Sentimientos encontrados: commoditización y saturación
+El cierre es una reflexión honesta de alguien que lleva diecisiete años editando. Para vídeo corto informativo con cabeza parlante, la IA ya hace un trabajo suficientemente bueno; para formato largo prefiere seguir trabajando con editor humano y afinando a mano. Reconoce el coste: los editores de short-form van a tener más difícil encontrar trabajo, y quienes adopten la herramienta podrán multiplicar su producción. El efecto de segundo orden que más le preocupa es la inundación de contenido, porque la barrera de entrada ha caído casi a cero. Se pregunta si su incomodidad es en el fondo una forma de gatekeeping, habiendo construido su carrera sobre el contenido durante diecisiete años, y concluye que su valor se ha desplazado hacia encontrar información interesante antes que otros, no hacia editar mejor. Publica el método precisamente porque la commoditización va a ocurrir de todos modos y prefiere que ocurra con criterio. Como nota práctica, aclara que todo esto funciona igual en Codex de OpenAI, así que no hace falta contratar un plan nuevo.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| VidIQ (conector MCP; oferta de 1 $ el primer mes para este vídeo) | Producto | https://vidiq.com/mattwolf |
+| ElevenLabs (música, efectos de sonido y transcripción) | Producto | https://elevenlabs.io |
+| Blender (objetos y animaciones 3D) | Herramienta | https://www.blender.org |
+| FFmpeg (motor de corte y render) | Herramienta | https://ffmpeg.org |
+| yt-dlp (descarga de vídeo para b-roll) | Herramienta | https://github.com/yt-dlp/yt-dlp |
+| HyperFrames (edición y animación de estilo After Effects) | Producto | No se proporciona enlace en el vídeo |
+| Genie 4 de Google DeepMind | Producto | https://deepmind.google |
+| Motion Bricks de Nvidia | Producto | No se proporciona enlace en el vídeo |
+| Claude (modelo Opus 5.5, plan Pro de 20 $/mes) | Producto | https://claude.ai |
+| Codex de OpenAI (alternativa mencionada) | Producto | https://openai.com |
+
+---
+## [Javier Garzás] La IA jubila al testing tradicional, pero crea una profesión NUEVA
+**Fecha:** 2026-11-04
+**URL:** https://www.youtube.com/watch?v=MtYUsQ7HdBg
+**Video ID:** MtYUsQ7HdBg
+
+### 📝 Resumen
+
+Javier Garzás sostiene que la inteligencia artificial no ha acabado con el testing, sino que lo ha revalorizado hasta convertirlo en una de las disciplinas con más futuro dentro del desarrollo de software. Lo que sí considera agotado es el testing tradicional —el manual, el basado en casos de prueba sobre papel, el que se ejecuta como última puerta antes de producción—. Su diagnóstico parte de una observación sobre el ciclo de vida: cuando generar código deja de ser el cuello de botella porque la IA produce algoritmos a gran velocidad, la restricción se desplaza hacia los extremos del proceso, hacia el descubrimiento de qué merece la pena construirse y hacia la garantía de que lo construido puede llegar a producción sin romperse. De ese desplazamiento nacen dos áreas emergentes que, en su opinión, necesitan mucha más gente de la que existe hoy.
+
+#### El cuello de botella se ha movido
+El autor se presenta como ex tester de muchos años, cuando el rol era "el último de la cadena": quien estaba entre el desarrollo y el paso a producción y a quien todo el mundo quería saltarse. Ese orden se ha invertido. Si crear algorítmica es casi gratis y rapidísimo con IA, el valor se concentra en saber qué construir y en verificar que lo construido es correcto. El resultado es un renacimiento de la profesión, no su desaparición, pero exige moverse hacia habilidades nuevas.
+
+#### Testear sistemas no deterministas: el terreno de las *evals*
+El primer área es el testeo de aplicaciones que incorporan IA generativa. El ejemplo que usa es Leia, el chatbot de su web, construido sobre un LLM y entrenado con sus 3.000 posts de blog, sus vídeos y su material formativo. Como detrás hay un modelo probabilístico, no responde siempre lo mismo y no puede validarse con el esquema clásico de entrada-salida donde una salida distinta a la esperada equivale a un fallo. La palabra clave que pide retener es **evals**: la disciplina que agrupa las técnicas para evaluar sistemas no deterministas, comprobando que no producen respuestas incoherentes y que se mantienen dentro de lo aceptable. Es un campo que antes era testimonial y hoy es central, porque este tipo de aplicaciones está en todas partes.
+
+#### La IA como juez: semáforos contra la fuente de verdad
+La técnica que más utilizan es el **LLM como juez**, con un detalle empírico importante: funciona mejor cuando el modelo evaluador es distinto del que genera la respuesta. En su caso, Leia corre sobre modelos de Anthropic y obtiene mejores resultados cuando el juez es un modelo de OpenAI. El juez combina dos insumos: por un lado reglas y semáforos (verde, amarillo, rojo) con lo que el sistema no puede decir; por otro, las fuentes de verdad —temarios de formación y documentos en markdown derivados de su blog y sus vídeos—. Así compara lo que Leia acaba de responder contra ese material y solo escala al humano cuando detecta algo raro. Antes revisaban a mano miles de conversaciones, lo que convertía al equipo humano en el nuevo cuello de botella: se podía revisar una muestra, pero no frenar el ciclo completo. El juez automático con semáforos resuelve esa asimetría, a costa de tener que ajustar también al propio evaluador.
+
+#### Verificar y validar lo que construye la IA: agentes especializados
+La segunda gran área no es el testeo de aplicaciones con LLM, sino la verificación y validación de cualquier aplicación escrita por IA. Con la codificación acelerada, el riesgo es volver a colocar a un humano al final de la cadena. La respuesta son **agentes especializados por dominio**: revisión de código (el sucesor de Sonar, PMD o Checkstyle, herramientas que el autor ayudó a implantar años atrás), agentes para UX, agentes para pruebas unitarias y de integración. El diseño busca que la IA haga la mayor parte sin pedir permiso, pero que identifique puntos concretos donde sí debe consultar: el clásico *human in the loop*, colocado donde evita desastres sin frenar el flujo.
+
+#### El regreso de los tests mutantes y del testing end-to-end
+Garzás celebra que hayan vuelto técnicas antiguas. Los **tests mutantes** —mutar el código para comprobar si las pruebas detectan el cambio y, por tanto, si no son demasiado permisivas— regresan por una razón concreta: cuando se le pide a la IA que escriba los tests unitarios, tiende a dar la razón y a producir pruebas que siempre pasan. El test mutante es el antídoto contra esa complacencia. Algo parecido ocurre con el testing de interfaz: la emulación de usuario tipo Selenium quedó vieja porque los scripts se rompían y no se sabía si fallaba la aplicación o el script; ahora la IA lo hace mucho más rápido y el reto vuelve a ser reducir la intervención humana. El mismo patrón de "juez de otro modelo" lo aplica incluso a su propio proceso de edición de vídeo: monta el vídeo con Claude y hace que un modelo de OpenAI lo revise, con resultados notablemente mejores.
+
+#### Las cuatro profesiones con más proyección
+El autor cierra con una lista de cuatro roles que, en su opinión, concentran el futuro: el testing de aplicaciones basadas en IA; el product management y discovery de lo que después construirá la IA; el diseño de sistemas de agentes que generan aplicaciones escribiendo el código; y la migración de software legacy a tecnologías modernas con ayuda de IA. Frente a las dedicaciones que se vuelven obsoletas, estas cuatro carecen de profesionales formados. Subraya que quien no es programador puede entrar aquí y hacer cosas que parecen superpoderes, y que quien fue técnico recupera el gusto por crear sin la fricción de instalaciones, despliegues e IDEs.
+
+#### La *iagilidad* como tercera evolución
+El marco de fondo es histórico: se pasó del cascada a la agilidad y de ahí a lo que llama **iagilidad**, una tercera evolución de la ingeniería del software. En ese tránsito mueren dedicaciones y nacen otras, y la decisión estratégica es individual: quedarse donde el trabajo se extingue o moverse hacia donde falta gente. Su conclusión es optimista: es un momento de resurgir para quien se dedica a la tecnología.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Leia, chatbot de Javier Garzás (disponible gratis en su web) | Producto | https://javiergarzas.com |
+| Irremplazable en la era de la IA (libro de Javier Garzás) | Libro | Enlace a Amazon en la descripción del vídeo (no verificado) |
+| Diccionario de IA de Javier Garzás | Recurso | Enlace en la descripción del vídeo (no verificado) |
+| Sonar (análisis estático de código) | Herramienta | https://www.sonarsource.com |
+| PMD | Herramienta | https://pmd.github.io |
+| Checkstyle | Herramienta | https://checkstyle.org |
+| Selenium (automatización de navegador, mencionado como obsoleto) | Herramienta | https://www.selenium.dev |
+| Anthropic (modelos usados por Leia) | Empresa | https://www.anthropic.com |
+| OpenAI (modelos usados como juez) | Empresa | https://openai.com |
+
+---
 ## [Matthew Berman] They did it...
 
 **Fecha:** 2026-11-03
