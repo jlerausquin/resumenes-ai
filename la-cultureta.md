@@ -2,6 +2,62 @@
 Programa de Rubén Amón, Rosa Belmonte, Guillermo Altares, Sergio del Molino e Isabel Vázquez.
 Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en qué minuto.
 
+## [La Cultureta] La cultureta 07/11/2026
+**Fecha:** 2026-11-07
+**Programa:** Gran Reserva · 89 min
+**URL:** https://www.ondacero.es/podcast/programas/la-cultureta/cultureta-07112026_202611076aee88a12eae5c13c3506abe.html
+**GUID:** 6aee88a12eae5c13c3506abe
+
+### 📚 Recomendaciones
+
+- **Exposición** — *Enrique Ochoa*, en el Monasterio de la Victoria del Puerto de Santa María, con la muestra de la Fundación sobre el pintor portuense y su "plástica musical". Lo recomienda la mesa [09:21]. Por qué: les impresiona la serie de tintas chinas y lienzos pintados a partir de Chopin, Debussy, la *Pasión según San Mateo*, la *Patética* de Beethoven o *El pájaro de fuego*, hasta el punto de que allí mismo les entran ganas de oficiar misa; se insiste en que el montaje hay que verlo con los poemas que Ochoa escribió al lado.
+- **Exposición** — *Enrique Ochoa. La Eva moderna: de la ilustración al lienzo*, en la Sala Conde Duque de Madrid, a partir del 16 de diciembre. Lo anuncia **Julia Gutiérrez de Iztueta** [20:04]. Por qué: antológica que abre con el lienzo y cierra en una sala íntima con las portadas de *Blanco y Negro* que cede el Museo ABC: mujeres flapper de los años veinte, de tendencia orientalizante.
+- **Exposición** — *Una cita con Luis Escobar*, en el Archivo Regional de la Comunidad de Madrid. Lo comenta la mesa [40:55]. Por qué: reúne unos 400 documentos de su archivo personal —cartas, fotografías, bocetos de decorados y vestuario y treinta cuadernos de diario— de un director al que consideran la figura clave del teatro español de posguerra y que está demasiado caricaturizado.
+- **Libro** — *En cuerpo y alma*, memorias de Luis Escobar. Lo recomienda la mesa [49:18]. Por qué: póstumas, no son unas memorias literariamente extraordinarias pero sí muy divertidas y significativas, con el mismo humor que desplegaba en sus veladas de Conde Orgaz.
+- **Teatro** — *Yerma*, de Federico García Lorca, en el Teatro Español, producción de Eduardo Vasco con Lara Grube. Lo comenta la mesa [61:42]. Por qué: se ha repuesto el título en el mismo teatro donde se estrenó la versión de 1974, y sirve para recordar el pulso de Escobar con la censura: estrenó *Yerma* en 1960 solo después de que la familia diera el visto bueno.
+- **Serie** — *La Diplomática*, cuarta temporada (Netflix), creada por Deborah Cahn y protagonizada por Keri Russell. Lo recomienda **Rosa Belmonte** [70:29]. Por qué: sostiene que esta temporada es extraordinaria —"lo mejor que se puede ver ahora mismo"—, porque mezcla *El ala oeste* y *The Crown*, arranca en Windsor y tiene diálogos brillantísimos; avisa de que hay que haber visto las anteriores y de que la serie remonta a partir del final de la segunda.
+- **Cine** — *Hope*, de Na Hong-jin. Lo recomienda un contertulio de la sección Pantallas [76:40]. Por qué: la presenta como una aventura coreana de dos horas y media que mezcla todo el Spielberg que uno recuerde con un punto *Mad Max*, monstruos extraterrestres y un arranque a lo *Tiburón*; salió del cine "exultante" y se la recomendó a Guillermo Altares, que también quedó encantado. Vio la película en el Perlak de San Sebastián y reivindica del mismo director *The Yellow Sea*.
+- **Serie** — *Leonard and Hungry Paul*, serie norirlandesa basada en una novela, narrada en versión original por Julia Roberts (dudoso). Lo recomienda **José Peláez** [79:16]. Por qué: le gusta justo por lo contrario que *La Diplomática*: dos introvertidos sin conflicto aparente, avance lento, narrativa más literaria que cinematográfica, sin giros de guion y con una fotografía de los pasajes grises del norte de Irlanda. Disponible en Filmin.
+- **Otro** — *La beta cultureta*, el boletín sobre series de Carlos Zumer. Lo recomienda **José Peláez** [80:54]. Por qué: lo pone como lectura de referencia mientras llega el documental de Nathan Fielder sobre Elizabeth Holmes, que no se estrena en España hasta Navidad.
+- **Serie** — *Los Ensayos* (*The Rehearsal*), de Nathan Fielder. Lo comenta la mesa [81:11]. Por qué: les interesa su mezcla marciana de comedia, realidad y experimento social —ensayar con actores y decorados las situaciones difíciles que están por venir—, y la segunda temporada, centrada en accidentes de aviación y en la tesis de John Goglia sobre la mala comunicación en cabina, que según la prensa estadounidense ha contribuido a desatascar dos leyes sobre salud mental de los pilotos.
+- **Música** — *Alegría*, de Anni B Sweet (el ASR escribe "Annie B. Sweet"). Lo recomienda **J. F. León** [85:51]. Por qué: lo escuchó sin saber el título y pensó "qué buen rollo" —ritmos tropicales, ecos brasileños, psicodelia, teclados juguetones, guitarras con fuzz—; detrás hay una depresión y una ruptura, y una recuperación vía Gal Costa, Caetano, Chico Buarque, Os Mutantes y Juan Perro, que canta en *Todo está bien*, con Miren Iza de Tulsa en *En mi olvido*.
+
+### 🗒️ De qué se habló
+
+- Programa especial en directo desde el Monasterio de la Victoria (El Puerto de Santa María), con público y con el alcalde Fernando Beardo y la comisaria Julia Gutiérrez de Iztueta como invitados; la mesa insiste en que se puede desacralizar un espacio pero no despojarlo de su carga teatral y simbólica.
+- El edificio como caso de recuperación patrimonial: monasterio desde el siglo XV, penal hasta 1981 —con encarcelamientos masivos de presos políticos, reconocido como lugar de memoria histórica de Andalucía desde 2013—, hoy sala de exposiciones y sede de la Bienal de Flamenco, a la espera de fondos europeos para su rehabilitación completa.
+- Enrique Ochoa (El Puerto de Santa María, muerto en Mallorca tras caerse de un andamio): ilustrador de *Blanco y Negro* y *La Esfera*, retratista de Lorca en 1933, autor de las "mujeres melancólicas" que elogió Alberti, y en la Cartuja de Valldemosa inventor de la "plástica musical" y de unas tintas chinas narrativas que la mesa lee casi como un cómic y como precedente de las pinturas negras de Goya.
+- La tesis de la exposición y del Ayuntamiento: que Ochoa anticipa desde Andalucía el expresionismo abstracto americano, y el proyecto de "ciudad museo" —Plan Especial del casco histórico, licencia exprés en 90 días, rehabilitación de San Juan de Dios para la Fundación Ochoa, recuperación de la Fundación Alberti y el 90 aniversario de la muerte de Pedro Muñoz Seca.
+- Bloque central sobre Luis Escobar a propósito de la exposición del Archivo Regional: el Tenorio de 1950 con decorados de Dalí, la dirección del María Guerrero desde 1939, el Teatro Eslava y su salida de humo comprada con una librería anexa, la censura de *La Celestina* —las dos veces que logró mantener la palabra "puta"— y la habilidad para tratar con la marquesa de Villaverde y con el ministro de turno.
+- El retrato político del personaje: aristócrata monárquico, homosexual visible en tiempos hostiles, hombre que desayunaba con conservadores y cenaba con socialistas, que se adhirió al bando sublevado con una carta a Chaplin y que pagó con su patrimonio el teatro que dirigía; se lee como anticipo del universo berlanguiano y como antídoto contra la polarización actual.
+- Cierre con el tradicional encendido de luces navideñas —capítulo 116 de *Platero y yo*, "La Navidad", y el Nakatomi Plaza de *Jungla de cristal*—, la parodia de Nacho Vigalondo sobre los escritores que tienen miedo de buscar en Google o en ChatGPT y su denuncia de la prensa que tradujo "bust" como "fracaso" en una crítica del *New Yorker*.
+
+> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+
+
+## [La Cultureta] La Cultureta 13x10: Los Bach son muy amables (y panaderos)
+**Fecha:** 2026-11-06
+**Programa:** Cultureta 13x10 · 31 min
+**URL:** https://www.ondacero.es/podcast/programas/mas-de-uno/cultureta/cultureta-13x10-bach-son-muy-amables-panaderos_202611066aedb6138f62b0e4eacb3e63.html
+**GUID:** 6aedb6138f62b0e4eacb3e63
+
+### 📚 Recomendaciones
+
+- **Libro** — *El mundo de los Bach*, de Volker Hagedorn (el ASR dice "El mundo de los Black"), lectura cultureta de la semana. Lo presenta **Guillermo Altares** [22:49]. Por qué: avisa de que no es el tratado de musicología que temía sino una novela familiar que cuenta los siglos XVII y XVIII en Alemania a través de la genealogía de los Bach, escrita con pulso periodístico —Hagedorn visita los lugares y hasta localiza a descendientes y coleccionistas de reliquias— y con un capítulo sobre la guerra de los Treinta Años que considera extraordinario.
+- **Serie** — *The Pitt*, con Noah Wyle como protagonista, productor y guionista, y creada por Scott Gemmill (ASR: "Scott Jamel"). Lo comenta la mesa [11:09]. Por qué: Rosa Belmonte se enganchó a ella durante su convalecencia y Rubén Amón la defiende porque no renuncia a la jerga ni a los principios médicos y traslada el mundo de *Urgencias* al tiempo real, aunque consideran la polémica con la viuda de Michael Crichton "un poco forzada".
+
+### 🗒️ De qué se habló
+
+- La demanda de la viuda de Michael Crichton contra *The Pitt*: el tribunal aprecia parecidos que van más allá de lo casual —la sala de urgencias, el ritmo, la jerga, las lesiones y el joven e incompetente recién salido de la facultad— y la acusación añade relanzamiento no autorizado de *Urgencias*, porque Noah Wyle y John Wells habrían querido revivirla y solo cambiaron de planes al no obtener permiso.
+- El debate sobre plagio y tradición: la mesa distingue entre derechos patrimoniales y mérito creativo, sostiene que aquí hay homenaje explícito y continuidad de equipo más que copia, y recuerda que hay películas construidas sobre la plantilla de otras (*Boogie Nights* sobre *Uno de los nuestros*, *Seven* sobre *Willy Wonka*) sin que ello las desmerezca; se reprocha que la lectura dominante del audiovisual se quede en la superficie.
+- La tesis de Rubén Amón de que lo decisivo no es el parecido sino el cambio de narrativa, y su deseo de que los herederos de Conan Doyle pudieran demandar a *House* por convertir a Sherlock Holmes en médico.
+- La genealogía Bach: el molino de Veit Bach —"el maestro del pan blanco"— en la Turingia alemana, el laúd o cistro con que marcaba el ritmo mientras molía, la asociación de san Vito con las epidemias de baile, y una saga de músicos municipales mal pagados entre Erfurt y Leipzig que atraviesa pestes, guerras y hambrunas.
+- La discusión interpretativa: Altares lee la música de Bach como el cierre luminoso de dos siglos de guerras de religión, y Amón le responde que el libro evita justamente esa lectura presentista y presenta a los Bach como artesanos de oficio, una cadena casi biológica de talento que enlaza con Carl Philipp Emanuel y la transición al clasicismo.
+- El concurso de la semana, resuelto con un fragmento doblado de *Amadeus* de Miloš Forman —tres puntos para Guillermo Altares, medio punto de consolación para Amón—, el repaso a la clasificación y la pulla de Nacho Vigalondo contra la prensa que tituló que el *New Yorker* llamaba "fracaso" a la película de los Javis cuando la crítica decía "busto".
+
+> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+
+
 ## [La Cultureta] La cultureta 31/10/2026
 **Fecha:** 2026-10-31
 **Programa:** Gran Reserva · 90 min
@@ -28,7 +84,6 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 
 > ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
 
-
 ## [La Cultureta] La Cultureta 13x10: ‘Naza’ (daños colaterales en Gaza)
 **Fecha:** 2026-10-30
 **Programa:** Cultureta 13x10 · 35 min
@@ -52,7 +107,6 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 - Cierre con el anuncio de que Sergio del Molino defenderá la semana próxima su tesis sobre el descenso de calidad de la literatura española en 40 años.
 
 > ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
-
 
 ## [La Cultureta] La Cultureta Gran Reserva: Premios Princesa de Asturias 2026
 **Fecha:** 2026-10-24
