@@ -1,5 +1,57 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] — AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)
+**Fecha:** 2026-11-06
+**URL:** https://www.youtube.com/watch?v=IrAHINf0M6E
+**Video ID:** IrAHINf0M6E
+
+### 📝 Resumen
+
+Matt Wolfe repasa en formato de repaso semanal catorce novedades del ecosistema de IA, con demostraciones en directo de las más relevantes. La tesis de fondo del vídeo es que la semana fue inusualmente floja en anuncios grandes, y dedica el tramo final a explicar por qué.
+
+#### OpenAI Images 2.6: GIFs animados y edición sobre lo animado
+OpenAI presentó un nuevo modelo de imagen disponible tanto en ChatGPT como en la API, con una mejora de velocidad de aproximadamente el doble respecto al anterior y, sobre todo, con la capacidad de generar GIF animados a partir de una instrucción. Wolfe lo prueba pidiendo un mono patinando, obtiene el resultado en unos veinte segundos y comprueba que las instrucciones de edición posteriores (añadir una gorra, cambiar la acera por la calle) se aplican también sobre el GIF y no solo sobre imágenes fijas. Una imagen estática de la bahía de San Diego tardó 20,4 segundos. El presentador interpreta que un GIF implica generar varias imágenes y coserlas, por lo que la latencia resulta sorprendentemente baja, y atribuye parte del acierto contextual a la memoria del asistente, que sabe que vive en San Diego.
+
+#### Modelos abiertos de imagen: PH3 Image de Pruna AI
+La segunda novedad es PH3 Image, de Pruna AI, construida tomando MiniMax H3 —un modelo de vídeo de referencia— y convirtiéndolo en un modelo de imagen de pesos abiertos. Al ser open weight se puede descargar, ajustar y ejecutar en local o en la nube. Los pesos completos ocupan unos 55 GB, con variantes de 16 bits, 8 bits y 8 bits con VAE reducido; generar a 8 megapíxeles exige unos 56 GB de VRAM en 16 bits y 21 GB en 4 bits, lo que sitúa la versión cuantizada al alcance de tarjetas de consumo como una 4090 o una 5090, mientras que la versión completa pide memoria unificada de 128 GB o más (M3/M5 Ultra, DGX Spark). El pack completo en Hugging Face ronda los 100 GB y existe un Space público para probarlo gratis, aunque con colas y con una calidad claramente inferior a la de ChatGPT: la imagen de San Diego que generó no se parecía al skyline real.
+
+#### Vídeo generativo: Gemini Omni 1.2 Flash y Pika H3 Flex
+Google lanzó Gemini Omni 1.2 Flash con clips de hasta 15 segundos (frente a 10 del modelo anterior) y una rebaja de precio del 30 % respecto a Omni 1.1, hasta unos 7 céntimos por segundo de vídeo 720p. Las mejoras declaradas son mayor fidelidad a la imagen de referencia, más consistencia entre tomas, edición que preserva a las personas y cambia solo el fondo, habla más natural y un control cinematográfico más fino. Está disponible en la API de Gemini, en Flow y en Google Vids, y cualquier cuenta de Google puede generar tres vídeos de 15 segundos al mes gratis desde vids.new; Wolfe lo prueba creando un avatar con su cara y una camiseta, con un oso malabareando motosierras al fondo, y obtiene el clip en menos de un minuto (equivalente a 1,05 dólares de coste si no hubiera sido gratuito). En paralelo, Pika Labs publicó Pika H3 Flex, modelo de vídeo de pesos abiertos que alcanza 4K, genera más rápido que en tiempo real y produce clips de 15 segundos con banda sonora en tan solo 7 segundos; lidera el ranking de modelos abiertos de texto a vídeo en Design Arena. Sus pesos ocupan 220 GB y las pruebas oficiales se hicieron sobre H100 de 80 GB, de modo que en la práctica exige nube o hardware de gama muy alta; también hay un Space gratuito, donde el intento de Will Smith comiendo espaguetis fue bloqueado por límite de duración de GPU, no por el contenido.
+
+#### Agentes con voz y con teléfono: Meta Muse y Grokbot
+Meta añadió llamadas de voz y videollamada con Muse, con avatar visible y acceso a Gmail, calendario y al estudio de contenidos de Instagram; Wolfe conversa con el asistente, que incluso adapta su timbre cuando se le pide una voz más adecuada a su nombre. La valoración es que hablar en lugar de escribir da una sensación mucho más de asistente personal, aunque el avatar aporte poco. Por su parte, Grokbot incorporó la capacidad de hacer llamadas telefónicas en nombre del usuario: en la demostración, el agente se niega inicialmente a llamar a lo que detecta como un número de empresa inexistente, pide confirmación y finalmente mantiene una conversación correcta con el presentador haciéndose pasar por un comercio para preguntar el horario. Wolfe considera Grokbot un agente infravalorado, a menudo descartado por prejuicios sobre su creador, y advierte que la mitad de las veces un humano que detecte una voz robot colgará, al menos hasta que la práctica se normalice.
+
+#### Modelos y cuotas: GPT-6 Cyber, fusión de límites y Kimi K3.1 Pro
+OpenAI lanzó GPT-6 Cyber, restringido a profesionales de ciberseguridad y con resultados que superan todos los benchmarks del área. También unificó las cuotas de uso de ChatGPT, Work y Codex en un único cupo compartido. En el terreno abierto, Moonshot publicó los pesos de Kimi K3.1 Pro, descrito como el mejor modelo de pesos abiertos disponible, apenas por debajo de Claude Fable 5.1: son 1,56 terabytes para 2,8 billones de parámetros, inviables en hardware doméstico.
+
+#### Datos financieros dentro del asistente: Claude y Plaid
+Anthropic habilitó la conexión de cuentas bancarias a Claude mediante Plaid en los planes Pro, Max y Ultra, con preguntas como en qué se gastó el dinero del mes o cuánto queda antes de cobrar. El modelo no se entrena con esa información, el acceso es de solo lectura y únicamente ve los cuatro últimos dígitos de la cuenta. Wolfe se muestra reticente a conectarlo y, en todo caso, no lo mostraría en cámara.
+
+#### Señales de mercado: los agentes que casi nadie usa
+Dos datos de las llamadas de resultados del tercer trimestre matizan el relato de los agentes como caso de uso masivo. DoorDash, con unas tres millones de entregas diarias, ha recibido solo varios cientos de pedidos originados por agentes de IA en total. Uber, con 320 millones de trayectos, registró apenas 500 pedidos de Uber Eats tramitados por un agente. La conclusión del presentador es que la adopción real de los agentes para comprar o reservar sigue siendo anecdótica.
+
+#### Movimientos rápidos y lectura del calendario
+En el bloque rápido aparecen Selendis, editor de vídeo con IA en acceso anticipado creado junto a Steve Aoki, que aprende el gusto del creador a partir de sus decisiones en el editor, su catálogo previo y vídeos de referencia; la nueva pestaña AI Discover de Netflix, que organiza recomendaciones por estado de ánimo sin diferenciarse mucho de las categorías existentes; y Project Sun Catcher de Google, que el 1 de octubre puso TPUs en órbita y esta semana alcanzó su hito "hello world", la primera respuesta de IA desde un centro de datos en el espacio. Para explicar la calma del sector, Wolfe apunta a la incertidumbre electoral en Estados Unidos, a un mercado bursátil en caída, a la espera del IPO de Anthropic —que probablemente retrase anuncios hasta después de la salida a bolsa— y a la costumbre de OpenAI de contrarrestar los lanzamientos de sus competidores.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| OpenAI Images 2.6 / GPT-6 Cyber | Producto | https://openai.com |
+| Pruna AI — PH3 Image (pesos abiertos) | Modelo / repositorio | https://huggingface.co/prunaai |
+| MiniMax H3, modelo base de PH3 | Modelo | https://huggingface.co/MiniMaxAI |
+| Google Gemini Omni 1.2 Flash y Google Flow | Producto | https://labs.google/flow |
+| Google Vids (vids.new, generación gratuita) | Producto | https://vids.new |
+| Pika Labs — Pika H3 Flex | Producto / modelo | https://pika.art |
+| Design Arena (rankings de modelos) | Benchmark | https://designarena.ai |
+| Meta AI — Muse con voz y vídeo | Producto | https://meta.ai |
+| Grok / Grokbot (llamadas telefónicas) | Producto | https://grok.com |
+| Anthropic Claude + Plaid (cuentas bancarias) | Producto | https://claude.ai |
+| Moonshot AI — Kimi K3.1 Pro | Modelo | https://huggingface.co/moonshotai |
+| Optimizely — virtual teammates (patrocinador) | Producto | https://www.optimizely.com |
+| Netflix — pestaña AI Discover | Producto | https://www.netflix.com |
+
+---
 ## [Matt Wolfe] How I Get Claude To Edit My Videos (No Code Needed)
 **Fecha:** 2026-11-04
 **URL:** https://www.youtube.com/watch?v=ep4psgAFOqc

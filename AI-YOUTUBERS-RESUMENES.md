@@ -1,6 +1,152 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] — 12 months to the singularity
+**Fecha:** 2026-11-07
+**URL:** https://www.youtube.com/watch?v=lVbQqjAJpkE
+**Video ID:** lVbQqjAJpkE
+
+### 📝 Resumen
+
+Matthew Berman analiza el informe de evaluación independiente que METR realizó sobre Anthropic en octubre de 2026 y que, por primera vez, aporta evidencia de tercera parte de que la mejora de la IA se está acelerando por la propia IA. Su lectura es que el documento confirma algo que los desarrolladores intuían, pero que ahora está medido, y que la conclusión le resulta inquietante.
+
+#### El encargo: acceso casi completo a Anthropic
+El punto de partida es el llamamiento de los principales laboratorios a "marcar el ritmo" de la frontera por preocupación ante la auto-mejora recursiva, con la promesa de abrir sus sistemas a evaluadores externos. METR —una evaluadora independiente de prestigio— trabajó con Anthropic durante unas dos semanas y media de personal equivalente a tiempo completo desde mediados de agosto, con capacidad de solicitar acceso a cualquier información relevante para entender la aceleración de I+D. Berman precisa que este proyecto no forma parte del programa de "acceso tipo empleado" anunciado el 15 de octubre: Anthropic podía aprobar o rechazar cada petición y decidir qué se publicaba, y el alcance se recortó a mitad de camino.
+
+#### Dos veces más rápido: el hallazgo central
+La conclusión principal es que, a octubre de 2026, Anthropic mejora las capacidades de sus modelos en tareas bien especificadas —el proceso de I+D, los sistemas que lo rodean y el código asociado— a un ritmo aproximado del doble del que tenía entre marzo de 2024 y octubre de 2025, y que el equipo no se sorprendería de que el factor real estuviera entre 1,3 y 3 veces. Se estima que cerca del 80 % de la aceleración actual es atribuible a la IA, no a más contrataciones, a investigadores mejores ni a más cómputo. El punto de inflexión se sitúa a finales de 2025, con la llegada de Opus 4.5, cuando los modelos pasaron a ser extraordinariamente buenos escribiendo código y construyendo funcionalidades y arquitecturas completas. En el último año Anthropic habría avanzado en benchmarks tanto como entre octubre de 2023 y octubre de 2025.
+
+#### Cómo descartaron las causas alternativas
+METR construyó una comparación entre la tendencia histórica lineal de capacidad, una medida interna de capacidad sin ayuda de IA y el exceso de crecimiento atribuible a la IA, y el quiebre de la curva coincide con la experiencia de los desarrolladores. Para aislar la causa revisaron la evidencia sobre escala de cómputo de entrenamiento —cuyos detalles fueron censurados por Anthropic—, el número de investigadores incorporados, las líneas de código escritas, el uso de experimentos y entrevistas al personal, además de reflexiones cualitativas del equipo directivo. Los propios empleados reportan aceleraciones superiores a 2x, y alguno llega a afirmar que un año de progreso equivale a dos o incluso cuatro.
+
+#### El bucle que se retroalimenta: eficiencia de cómputo y AlphaEvolve
+La preocupación central es que la aceleración se componga. Los modelos mejoran, descubren cómo mejorar más rápido, aprovechan mejor el cómputo limitado y amplifican el rendimiento de los investigadores humanos, y cada efecto amplifica a los demás: el escenario de "explosión de inteligencia" descrito en el trabajo sobre conciencia situacional. El documento S-1 previo al IPO de Anthropic muestra una utilización del cómputo en aumento: 67x en el cuarto trimestre de 2025, equilibrio en el primero de 2026 y 2x en el segundo. Como precedente cita AlphaEvolve de Google, que aplicó IA a mejorar su propia arquitectura de hardware con una ganancia de eficiencia del 1 %, cifra que a escala de Google representa miles de millones de dólares.
+
+#### "No encontramos cuellos de botella claros"
+La frase que más inquieta a Berman es la ausencia de limitaciones identificadas: METR no vio cuellos de botella significativos en progreso algorítmico, cómputo de entrenamiento, cómputo de experimentación ni datos que fueran a actuar en los próximos doce meses, y advierte de un riesgo significativo de que el progreso de capacidades se acelere aún más en el año siguiente. El presentador matiza que los modelos son excelentes ejecutando investigación, escribiendo código y verificando experimentos, pero que la selección de direcciones de investigación prometedoras seguía siendo territorio humano, aunque el informe recoge indicios de que empiezan a generar hipótesis de investigación relevantes. Su reflexión es que, con cómputo suficiente, la intuición deja de ser imprescindible: probarlo todo equivale a acertar la dirección.
+
+#### Lo que Anthropic recortó del informe
+Un tramo del vídeo se detiene en los límites del acceso. El alcance contratado incluía verificar la asignación de cómputo de Anthropic, en particular el reparto entre capacidades y seguridad, pero a mitad del proyecto se excluyó esa verificación antes de que METR llegara a conclusiones sustantivas; la empresa argumentó que quería mantener el foco en la evaluación de riesgos y revisarlo más adelante. Berman conecta esa retirada con la inminencia de la salida a bolsa y con el interés en no publicar información que pudiera afectarla.
+
+#### Señales internas: modelos no publicados y benchmarks saturados
+En los apéndices destaca que Anthropic ya usa modelos internos no liberados para acelerar su propio desarrollo, lo que hace más plausible un cambio permanente de pendiente que un salto puntual en la vista previa de Mythos. También que la empresa ha tenido que endurecer sus benchmarks porque los modelos los saturan, y que sus investigadores describen por primera vez que los modelos resultan útiles para experimentación autónoma.
+
+#### Por qué esto inquieta: la programación en el espacio de pesos
+La reflexión final es que lo verdaderamente alarmante no es la aceleración en sí, sino el momento en que dejemos de comprender por completo lo que hacen los sistemas. Como ejemplo cita el artículo sobre programación en el espacio de pesos, en el que modelos de frontera crean nuevos modelos escribiendo directamente los pesos, tema al que dedicó un vídeo aparte. Berman cierra señalando que la sensación general de que la IA acelera ahora tiene respaldo de un evaluador externo con acceso a información interna, y que no se ve ningún obstáculo entre la situación actual y la auto-mejora recursiva.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| METR — Independent assessment of AI R&D acceleration at Anthropic (oct. 2026) | Informe / organización | https://metr.org |
+| Anthropic — documento S-1 previo al IPO | Documento corporativo | https://www.anthropic.com |
+| AlphaEvolve (Google DeepMind) | Artículo / sistema | https://deepmind.google |
+| Situational Awareness — "the intelligence explosion" | Artículo | https://situational-awareness.ai |
+| JetBrains Air / IntelliJ IDEA (patrocinador) | Herramienta | https://www.jetbrains.com |
+
+---
+## [Matthew Berman] — Kimi K3.1 weights OUT, open source computer use, SOTA image model, science model, Pika H3: AI NEWS
+**Fecha:** 2026-11-05
+**URL:** https://www.youtube.com/watch?v=-M62vWrZh54
+**Video ID:** -M62vWrZh54
+
+### 📝 Resumen
+
+Matthew Berman recorre la que considera una de las semanas más intensas del año en publicación de modelos, con un patrón común: casi todo lo relevante llegó con pesos abiertos y con tamaños que van de los 600 millones a los 3 billones de parámetros.
+
+#### Kimi K3.1 Pro: pesos abiertos a medio paso de la frontera cerrada
+Moonshot cumplió su promesa y liberó los pesos de Kimi K3.1 Pro, un modelo de 3 billones de parámetros dividido en 96 fragmentos de unos 17 GB cada uno. Berman subraya que no es un modelo para ejecutar en casa —requiere del orden de 1,2 a 2 terabytes de VRAM— y que su uso práctico pasa por proveedores de inferencia, a la espera de que la comunidad publique cuantizaciones. En benchmarks queda por detrás de Opus 5.5 y de Astra, pero gana a Astra en Terminal Bench, es primero en Agents Last Exam, tercero en OS World (uso de ordenador) y segundo por ELO en GDPval, la evaluación de trabajo real de Open AAi. La comparación de escala sitúa a los modelos cerrados de frontera cerca de los 10 billones de parámetros, de modo que un modelo abierto de 3 billones es un salto cualitativo para el ecosistema.
+
+#### Computer use abierto: la familia North Ka y su harness
+North Ka es un modelo de tamaño medio especializado en control de ordenador: 397.000 millones de parámetros totales con 17.000 millones activos, es decir, mezcla de expertos. La familia incluye versiones Mini (35.000 millones) y Nano (9.000 millones). Viene acompañado de un harness propio de código abierto desarrollado por Beo AI, que opera en bucle de captura de pantalla, razonamiento y acción. En OSWorld Verified obtiene 78,9 (Nano), 85 (Mini) y 88 (Pro), y en We Arena Verified las diferencias entre Nano y Pro son igualmente estrechas: solo diez puntos separan al modelo de 9.000 millones del grande, lo que abre la puerta a ejecutarlo en hardware modesto e incluso en un teléfono.
+
+#### Imagen: PH3 Image, destilado de un modelo de vídeo
+Pruna AI convirtió MiniMax H3, un modelo de vídeo, en un modelo de imagen de pesos abiertos. La propuesta es eficiencia: genera o edita en ocho pasos en lugar de cincuenta, cinco veces más rápido, de modo que una imagen de 4 megapíxeles tarda 2,6 segundos frente a 12,4. El modelo es siete veces más pequeño que H3 (55 GB en BF16, 30 GB en int8 frente a 143 GB del original). Sus puntos fuertes son el fotorrealismo, la fotografía documental y editorial, los fotogramas cinematográficos y los estilos gráficos con texto corto entrecomillado; destaca especialmente en texto manuscrito, con trazos a lápiz y tinta, errores verosímiles e incluso manchas de café. Berman compara resultados con Qwen Image 2.1 y con el propio MiniMax H3 a cincuenta pasos y concluye que a ocho pasos la calidad es prácticamente idéntica.
+
+#### Decisión y ciencia: Prism de Sarvam e Hydrogen 1.0 del MIT
+Prism es un modelo de decisión de pesos abiertos construido sobre Sarvam 105B, pariente conceptual de Jev: recibe un contexto y una o varias preguntas con un conjunto fijo de respuestas posibles y devuelve, en una sola pasada, una probabilidad para cada opción, sin generar texto. Recomienda B200 o H200 y 106 GB de disco para los pesos. En el ámbito científico, Hydrogen 1.0 del MIT es un post-entrenamiento de GLM 5.3 orientado a descubrimiento científico: obtiene 38,33 % en Frontier Science Research, por encima de GPT-6 Astra Max, Kimi K3 y el propio GLM, a 25 céntimos por problema frente a 88 de Astra. La demostración genera código para simular la fusión del polietileno y renderiza las moléculas en 3D rotable, con métricas como densidad, función de distribución radial, radio de giro y distancia extremo a extremo.
+
+#### Recuperación y lectura de documentos: Perplexity Embed V2 y Unlimited OCR 2
+Perplexity publicó Embed V2 Context, modelos de embeddings visión-lenguaje de pesos abiertos en versiones de 9.000 y 600 millones de parámetros, pensados para recuperación sobre texto, imágenes y documentos visuales como PDF, y acompañados de un artículo técnico. Son lo bastante pequeños para ejecutarse en local. En la misma línea, Unlimited OCR 2 de Bite Research elimina los límites de páginas y el coste creciente de atención, procesando documentos de longitud prácticamente ilimitada en una sola pasada; Berman lo probó con documentos de 5.000 páginas sin pérdida de precisión.
+
+#### Modelos pequeños: Qwen 3.5 de 4B y LFM3 de Liquid AI
+La comunidad ajustó Qwen 3.5 para coding 3D y obtuvo un modelo de 4.000 millones de parámetros capaz de generar escenas Three.js HTML y JavaScript autónomas con exportación a GLB, útil en editores como Go dot y para assets de videojuegos indie. Liquid AI presentó LFM3, generación de modelos fundacionales líquidos para despliegue en dispositivo: la versión de 1.700 millones supera a la anterior de 2.600 millones con 35 parámetros menos y cabe en torno a 1 GB en 4 bits, con ventana de contexto de 256.000 tokens, comprensión de vídeo, texto y conciencia espacial, razonamiento paso a paso y ajuste fino posible en una sola GPU.
+
+#### Vídeo y voz: Pika H3 Flex, APL Voice 27B y Clover
+Pika H3 Flex debutó como el mejor modelo abierto de texto a vídeo en el ranking de Design Arena: hasta 4K, generación más rápida que el tiempo real, pistas de audio exportables y clips de 15 segundos con banda sonora en siete segundos, desde un céntimo por segundo. Admite múltiples activos de entrada —imágenes, texturas, patrones y audio— y edición posterior de partes concretas. En voz, ServiceNow sorprendió con APL Voice 27B, modelo abierto que integra habla, texto e imágenes mediante codificador de voz, embeddings de tokens y una interfaz visual congelada sobre una base de mezcla de expertos, capaz de decidir acciones y de sintetizar voz de vuelta. Clover, de Diffuse Space AI, es un modelo de difusión de texto de 35.000 millones con 3.000 millones activos; en una prueba de uso de ordenador resolvió en 169 segundos y 28 pasos lo que Qwen 3.6 Flash no completó en 578 segundos.
+
+#### El cierre propietario: GPT-6.1 Terra
+El único modelo no abierto del repaso fue GPT-6.1 Terra, que Berman califica posiblemente como el de mejor relación calidad-precio del mercado: reduce un 50 % el precio de API estándar respecto a GPT-5.6 Terra siendo más capaz, iguala a GPT-6 Astra en el presupuesto de razonamiento más alto a una décima parte del precio por token y termina tareas más de tres veces más rápido. Su equipo lo señala como especialmente bueno en edición de vídeo, y el presentador lo recomienda para flujos masivos de trabajo con consumo intensivo de tokens.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Moonshot AI — Kimi K3.1 Pro (pesos) | Modelo / repositorio | https://huggingface.co/moonshotai |
+| Beo AI — harness de North Ka | Repositorio | https://huggingface.co (buscar "North Ka") |
+| Pruna AI — PH3 Image | Modelo / repositorio | https://huggingface.co/prunaai |
+| MiniMax H3 (modelo base) | Modelo | https://huggingface.co/MiniMaxAI |
+| Sarvam AI — Prism (modelo de decisión) | Modelo / empresa | https://huggingface.co/sarvamai |
+| Liquid AI — LFM3 | Modelo / empresa | https://www.liquid.ai |
+| Pika Labs — Pika H3 Flex | Producto | https://pika.art |
+| Perplexity — Embed V2 Context | Modelo | https://huggingface.co/perplexity-ai |
+| Qwen — Qwen 3.5 4B (coding 3D) | Modelo | https://huggingface.co/Qwen |
+| OpenAI — GPT-6.1 Terra | Producto | https://openai.com |
+| Design Arena (ranking texto a vídeo) | Benchmark | https://designarena.ai |
+
+---
+## [Matt Wolfe] — AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)
+**Fecha:** 2026-11-06
+**URL:** https://www.youtube.com/watch?v=IrAHINf0M6E
+**Video ID:** IrAHINf0M6E
+
+### 📝 Resumen
+
+Matt Wolfe repasa en formato de repaso semanal catorce novedades del ecosistema de IA, con demostraciones en directo de las más relevantes. La tesis de fondo del vídeo es que la semana fue inusualmente floja en anuncios grandes, y dedica el tramo final a explicar por qué.
+
+#### OpenAI Images 2.6: GIFs animados y edición sobre lo animado
+OpenAI presentó un nuevo modelo de imagen disponible tanto en ChatGPT como en la API, con una mejora de velocidad de aproximadamente el doble respecto al anterior y, sobre todo, con la capacidad de generar GIF animados a partir de una instrucción. Wolfe lo prueba pidiendo un mono patinando, obtiene el resultado en unos veinte segundos y comprueba que las instrucciones de edición posteriores (añadir una gorra, cambiar la acera por la calle) se aplican también sobre el GIF y no solo sobre imágenes fijas. Una imagen estática de la bahía de San Diego tardó 20,4 segundos. El presentador interpreta que un GIF implica generar varias imágenes y coserlas, por lo que la latencia resulta sorprendentemente baja, y atribuye parte del acierto contextual a la memoria del asistente, que sabe que vive en San Diego.
+
+#### Modelos abiertos de imagen: PH3 Image de Pruna AI
+La segunda novedad es PH3 Image, de Pruna AI, construida tomando MiniMax H3 —un modelo de vídeo de referencia— y convirtiéndolo en un modelo de imagen de pesos abiertos. Al ser open weight se puede descargar, ajustar y ejecutar en local o en la nube. Los pesos completos ocupan unos 55 GB, con variantes de 16 bits, 8 bits y 8 bits con VAE reducido; generar a 8 megapíxeles exige unos 56 GB de VRAM en 16 bits y 21 GB en 4 bits, lo que sitúa la versión cuantizada al alcance de tarjetas de consumo como una 4090 o una 5090, mientras que la versión completa pide memoria unificada de 128 GB o más (M3/M5 Ultra, DGX Spark). El pack completo en Hugging Face ronda los 100 GB y existe un Space público para probarlo gratis, aunque con colas y con una calidad claramente inferior a la de ChatGPT: la imagen de San Diego que generó no se parecía al skyline real.
+
+#### Vídeo generativo: Gemini Omni 1.2 Flash y Pika H3 Flex
+Google lanzó Gemini Omni 1.2 Flash con clips de hasta 15 segundos (frente a 10 del modelo anterior) y una rebaja de precio del 30 % respecto a Omni 1.1, hasta unos 7 céntimos por segundo de vídeo 720p. Las mejoras declaradas son mayor fidelidad a la imagen de referencia, más consistencia entre tomas, edición que preserva a las personas y cambia solo el fondo, habla más natural y un control cinematográfico más fino. Está disponible en la API de Gemini, en Flow y en Google Vids, y cualquier cuenta de Google puede generar tres vídeos de 15 segundos al mes gratis desde vids.new; Wolfe lo prueba creando un avatar con su cara y una camiseta, con un oso malabareando motosierras al fondo, y obtiene el clip en menos de un minuto (equivalente a 1,05 dólares de coste si no hubiera sido gratuito). En paralelo, Pika Labs publicó Pika H3 Flex, modelo de vídeo de pesos abiertos que alcanza 4K, genera más rápido que en tiempo real y produce clips de 15 segundos con banda sonora en tan solo 7 segundos; lidera el ranking de modelos abiertos de texto a vídeo en Design Arena. Sus pesos ocupan 220 GB y las pruebas oficiales se hicieron sobre H100 de 80 GB, de modo que en la práctica exige nube o hardware de gama muy alta; también hay un Space gratuito, donde el intento de Will Smith comiendo espaguetis fue bloqueado por límite de duración de GPU, no por el contenido.
+
+#### Agentes con voz y con teléfono: Meta Muse y Grokbot
+Meta añadió llamadas de voz y videollamada con Muse, con avatar visible y acceso a Gmail, calendario y al estudio de contenidos de Instagram; Wolfe conversa con el asistente, que incluso adapta su timbre cuando se le pide una voz más adecuada a su nombre. La valoración es que hablar en lugar de escribir da una sensación mucho más de asistente personal, aunque el avatar aporte poco. Por su parte, Grokbot incorporó la capacidad de hacer llamadas telefónicas en nombre del usuario: en la demostración, el agente se niega inicialmente a llamar a lo que detecta como un número de empresa inexistente, pide confirmación y finalmente mantiene una conversación correcta con el presentador haciéndose pasar por un comercio para preguntar el horario. Wolfe considera Grokbot un agente infravalorado, a menudo descartado por prejuicios sobre su creador, y advierte que la mitad de las veces un humano que detecte una voz robot colgará, al menos hasta que la práctica se normalice.
+
+#### Modelos y cuotas: GPT-6 Cyber, fusión de límites y Kimi K3.1 Pro
+OpenAI lanzó GPT-6 Cyber, restringido a profesionales de ciberseguridad y con resultados que superan todos los benchmarks del área. También unificó las cuotas de uso de ChatGPT, Work y Codex en un único cupo compartido. En el terreno abierto, Moonshot publicó los pesos de Kimi K3.1 Pro, descrito como el mejor modelo de pesos abiertos disponible, apenas por debajo de Claude Fable 5.1: son 1,56 terabytes para 2,8 billones de parámetros, inviables en hardware doméstico.
+
+#### Datos financieros dentro del asistente: Claude y Plaid
+Anthropic habilitó la conexión de cuentas bancarias a Claude mediante Plaid en los planes Pro, Max y Ultra, con preguntas como en qué se gastó el dinero del mes o cuánto queda antes de cobrar. El modelo no se entrena con esa información, el acceso es de solo lectura y únicamente ve los cuatro últimos dígitos de la cuenta. Wolfe se muestra reticente a conectarlo y, en todo caso, no lo mostraría en cámara.
+
+#### Señales de mercado: los agentes que casi nadie usa
+Dos datos de las llamadas de resultados del tercer trimestre matizan el relato de los agentes como caso de uso masivo. DoorDash, con unas tres millones de entregas diarias, ha recibido solo varios cientos de pedidos originados por agentes de IA en total. Uber, con 320 millones de trayectos, registró apenas 500 pedidos de Uber Eats tramitados por un agente. La conclusión del presentador es que la adopción real de los agentes para comprar o reservar sigue siendo anecdótica.
+
+#### Movimientos rápidos y lectura del calendario
+En el bloque rápido aparecen Selendis, editor de vídeo con IA en acceso anticipado creado junto a Steve Aoki, que aprende el gusto del creador a partir de sus decisiones en el editor, su catálogo previo y vídeos de referencia; la nueva pestaña AI Discover de Netflix, que organiza recomendaciones por estado de ánimo sin diferenciarse mucho de las categorías existentes; y Project Sun Catcher de Google, que el 1 de octubre puso TPUs en órbita y esta semana alcanzó su hito "hello world", la primera respuesta de IA desde un centro de datos en el espacio. Para explicar la calma del sector, Wolfe apunta a la incertidumbre electoral en Estados Unidos, a un mercado bursátil en caída, a la espera del IPO de Anthropic —que probablemente retrase anuncios hasta después de la salida a bolsa— y a la costumbre de OpenAI de contrarrestar los lanzamientos de sus competidores.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| OpenAI Images 2.6 / GPT-6 Cyber | Producto | https://openai.com |
+| Pruna AI — PH3 Image (pesos abiertos) | Modelo / repositorio | https://huggingface.co/prunaai |
+| MiniMax H3, modelo base de PH3 | Modelo | https://huggingface.co/MiniMaxAI |
+| Google Gemini Omni 1.2 Flash y Google Flow | Producto | https://labs.google/flow |
+| Google Vids (vids.new, generación gratuita) | Producto | https://vids.new |
+| Pika Labs — Pika H3 Flex | Producto / modelo | https://pika.art |
+| Design Arena (rankings de modelos) | Benchmark | https://designarena.ai |
+| Meta AI — Muse con voz y vídeo | Producto | https://meta.ai |
+| Grok / Grokbot (llamadas telefónicas) | Producto | https://grok.com |
+| Anthropic Claude + Plaid (cuentas bancarias) | Producto | https://claude.ai |
+| Moonshot AI — Kimi K3.1 Pro | Modelo | https://huggingface.co/moonshotai |
+| Optimizely — virtual teammates (patrocinador) | Producto | https://www.optimizely.com |
+| Netflix — pestaña AI Discover | Producto | https://www.netflix.com |
+
+---
 ## [Matthew Berman] The most important paper in AI right now
 **Fecha:** 2026-11-04
 **URL:** https://www.youtube.com/watch?v=j09uV1oAuIo
