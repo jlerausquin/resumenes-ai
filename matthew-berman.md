@@ -1,5 +1,50 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Fable 5.2 is ridiculous
+**Fecha:** 2026-11-09
+**URL:** https://www.youtube.com/watch?v=0vNyVMDFdkg
+**Video ID:** 0vNyVMDFdkg
+
+### 📝 Resumen
+
+Matthew Berman dedica el vídeo a Claude Fable 5.2, el modelo que Anthropic lanzó ese mismo día, y lo presenta con una afirmación tajante: es el mejor modelo que ha usado, con una diferencia considerable. La estructura del vídeo es una batería de proyectos reales ejecutados durante el acceso anticipado, cada uno con su prompt, su coste estimado y su tiempo de construcción, seguida de una lectura de benchmarks y de observaciones sobre el comportamiento del modelo al trabajar.
+
+#### La tesis: el software deja de ser el cuello de botella
+Berman sostiene que lo que muestra no son demos de laboratorio sino aplicaciones que funcionan: juegos completos, clones de suites ofimáticas y de edición de vídeo, simulaciones físicas y visualizaciones 3D con calidad de producción. Su diagnóstico es que la limitación ya no es la capacidad de producir software sino la de decidir qué construir, y que la economía del desarrollo se desplaza desde el coste de programar hacia el coste de los tokens. Los proyectos de mayor envergadura que presenta consumieron entre 6.000 y 12.000 millones de tokens, con costes de API estimados entre 11.000 y 15.000 dólares, y aun así los describe como plausibles para un equipo pequeño o un creador individual que quiera monetizar un producto.
+
+#### Juegos completos a partir de una frase
+El primer caso es un clon de Gears of War: E-Day construido en Unreal Engine con un prompt de tres líneas y un único nivel, en modo Ultra Code. El resultado es un juego jugable con combate real, enemigos con IA creíble, recarga temporizada, coberturas, reanimación de compañeros y dificultad ajustable; el autor admite que se quedó jugando en lugar de grabar. El coste fue de 8 a 12 mil millones de tokens, unos 15.000 dólares si se pagara a precio de API, y varios días de construcción. El segundo es "Tumble Beans", un clon de Fall Guys con diez niveles, distintos modos de juego, físicas de rebote y colisiones logradas y multijugador funcional, probado en directo con dos miembros de su equipo; costó más de 9.000 millones de tokens, unas 71 horas y unos 13.000 dólares.
+
+#### Clones de software de escritorio
+Un clon de Microsoft Excel, ejecutado en el navegador, requirió cerca de 50 horas y, según el autor, no le encontró un solo fallo: fórmulas operativas, hoja de seguimiento de ventas de ejemplo con datos falsos y tablas dinámicas completas, con un consumo de unos 8.000 millones de tokens de entrada leídos de caché, 15 millones de salida y un coste aproximado de 11.700 dólares. El otro es "Kestrel", un clon de DaVinci Resolve que corre localmente en Windows: línea de tiempo con forma de onda, corte y desplazamiento de clips, imán al soltar junto a otro clip, selección múltiple, atajos de teclado y fotogramas clave. El autor subraya que Alex, de su equipo, construyó por separado un editor equivalente y ya lo usa para montar vídeos reales.
+
+#### Simulaciones físicas y diseño para fabricación
+Una simulación en tiempo real de una bala atravesando un globo de agua se resolvió en un único archivo HTML con JavaScript, CSS y WebGL2, sin frameworks ni dependencias, y con trazado de rayos: la goma se deforma y revienta, el agua cae, y el usuario puede congelar la escena, girarla y modificar velocidad y calibre de la bala, tamaño del globo, intensidad y dirección del sol o gravedad, recalculando la física al instante. Costó 41 millones de tokens, dos horas y media y unos 91 dólares. En el terreno físico, pidió una torre imprimible que soportara el máximo peso con restricciones concretas —Bambu Lab P2S, boquilla de 0,4 mm, PLA, menos de 10 gramos, dentro del volumen de impresión—: el modelo entregó el diseño en poco más de una hora y 10 millones de tokens (37 dólares), y la pieza aguantó dos portátiles, un iPad, dos MacBook Pro, un Mac mini, un DGX Spark, un cuaderno electrónico y finalmente un taladro.
+
+#### Vídeo, motion graphics y 3D
+Berman considera que la animación explicativa queda resuelta: un vídeo de un minuto y 52 segundos sobre cómo funciona la decompilación de software —guion, ritmo y visualizaciones— se generó con un solo prompt por 9,5 millones de tokens, 45 minutos y 25 dólares, y otro sobre el funcionamiento interno de los LLM cubre embeddings, capas transformer, entrenamiento con curva de pérdida y predicción del siguiente token. En Blender produjo una casa con materiales, piscina, paneles solares, terraza y garaje, con renders donde se aprecian reflejos y sombras, por 13 millones de tokens y 30 dólares, con un único error visible: un árbol plantado en medio del camino de entrada. La recreación del evento del Roadster de Tesla a partir de fotos y vídeos fue, en cambio, el primer experimento que consideró flojo. También generó un pueblo europeo con agentes conversacionales, tráfico, animales y un vídeo promocional, y una visualización completa de Tokio en Unreal Engine con tráfico, viandantes, estación de tren, torre emblemática y trazado de rayos en los reflejos, por 6.720 millones de tokens, unas 70 horas y unos 11.000 dólares.
+
+#### Benchmarks
+El modelo domina Frontier Code 2.0 y Frontier SWE, donde marca 69,9 y supera a Opus 5.5, Carbon y Astra. La única prueba en la que Carbon gana es Automation Bench (53 frente a 51). En Terminal Bench y en Science, Mythos 5.2 se impone por poco (75,3 frente a 74,6 de Fable). El dato que Berman destaca como más relevante es OSWorld 2.1, que mide el control de un sistema operativo: Fable obtiene 89,3 frente a 79,5 de Astra y 87 de Opus 5.5, un resultado que le sorprendió porque esperaba a Astra muy por delante en esa tarea. En Humanity's Last Exam alcanza 74,2, unos diez puntos por encima de Fable 5.1.
+
+#### Cómo se comporta al trabajar
+Más allá de las puntuaciones, el autor describe tres rasgos observados en uso intensivo. El primero es la autonomía: toma decisiones en su nombre y acierta en torno a nueve de cada diez veces, lo que reduce la carga de supervisión. El segundo es la velocidad de ejecución de tareas completas: revisiones de código con esfuerzo máximo y Ultra Code sobre todos sus repositorios, que antes tardaban entre una y dos horas, ahora terminan en unos diez minutos, y el modelo encuentra numerosos errores, problemas de seguridad e inconsistencias de interfaz. El tercero es que Ultra Code, que despliega abanicos de subagentes, sigue siendo muy caro y no lo recomienda como modo por defecto. Su conclusión práctica es que Fable 5.2 es mejor que Opus 5.5 sin discusión, pero Opus sigue siendo mucho más rápido y barato, por lo que la elección depende del tipo de tarea.
+
+#### Precio, modo rápido y cierre
+Anthropic rebajó el precio alrededor de un 20 % respecto a Fable 5.1: 8 dólares por millón de tokens de entrada y 40 por millón de salida. Existe además un modo rápido, al que el autor no tuvo acceso, que multiplica por 2,5 la velocidad a 16 y 80 dólares respectivamente. La compañía reparte reinicios de cuota durante la semana del lanzamiento en función del plan y de la antigüedad de la suscripción. Berman cierra relacionando el lanzamiento con el informe de METR sobre la vía hacia la auto-mejora recursiva: si Fable 5.2 es lo que se publica, argumenta, el margen para imaginar lo que Anthropic mantiene internamente es amplio.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Anthropic — precios de API | https://www.anthropic.com/pricing |
+| Unreal Engine | https://www.unrealengine.com |
+| Blender | https://www.blender.org |
+| DaVinci Resolve (Blackmagic Design) | https://www.blackmagicdesign.com/products/davinciresolve |
+| Bambu Lab (impresora P2S y laminador) | https://bambulab.com |
+| METR (informe sobre auto-mejora recursiva) | https://metr.org |
+
+---
 ## [Matthew Berman] — 12 months to the singularity
 **Fecha:** 2026-11-07
 **URL:** https://www.youtube.com/watch?v=lVbQqjAJpkE

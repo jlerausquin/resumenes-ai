@@ -1,5 +1,42 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] Anthropic's Fable 5.2 is the World's Best AI Model
+**Fecha:** 2026-11-09
+**URL:** https://www.youtube.com/watch?v=2TM8W66NI_8
+**Video ID:** 2TM8W66NI_8
+
+### 📝 Resumen
+
+Matt Wolfe analiza el lanzamiento de Claude Fable 5.2 y Mythos 5.2, dos modelos que Anthropic presentó el mismo día y que, en la práctica, son el mismo sistema con distintos niveles de restricción. El autor advierte desde el inicio que no recibió acceso anticipado y que su valoración se basa en unas pocas horas de uso tras el lanzamiento, complementadas con las demostraciones que otros usuarios publicaron en X.
+
+#### Dos nombres para un mismo modelo
+La diferencia entre ambas versiones es de permisos, no de capacidad. Mythos 5.2 es el modelo completo y solo se distribuye a probadores de ciberseguridad; Fable 5.2 es ese mismo modelo con salvaguardas adicionales en materia de seguridad informática y es la variante a la que accede el público. La recomendación oficial de Anthropic resulta llamativa: no usar Fable de forma cotidiana. La propia empresa sugiere empezar con Opus 5.5 como "caballo de batalla" diario y reservar Fable y Mythos para trabajo técnico abierto y muy ambicioso, o bien emplearlos como consejeros y orquestadores que delegan tareas simples en Haiku, Sonnet u Opus. Wolfe interpreta esa advertencia como una señal de que el modelo está sobredimensionado para la mayoría de encargos habituales.
+
+#### Qué dicen los benchmarks
+El modelo lidera la mayoría de las pruebas publicadas, aunque el salto no es uniforme. En código agéntico la mejora es moderada: Frontier Code pasa de 45,5 % con Opus 5 a 49,1 %, y otra prueba de ingeniería de software sube de 62 a 69. En flujos de negocio, Gemini Carbon aún supera a Fable por unos dos puntos, y Opus 5.5 se mantiene ligeramente por delante en una prueba de trabajo de conocimiento. El avance realmente grande aparece en investigación científica agéntica, donde se pasa de 58,7 % (Opus 5.5), 68,1 % (Astra) y 64,8 % (Carbon) a 74,6 %. Fable también alcanza el primer puesto en ciberseguridad, diseño de proteínas, búsqueda agéntica, control de ordenador, robótica, razonamiento multidisciplinar y reconocimiento de gráficos y tablas. El patrón que describe Wolfe es consistente: las ganancias se concentran en problemas muy difíciles, no en las tareas cotidianas de código o investigación.
+
+#### El techo del razonamiento extendido
+Uno de los hallazgos más interesantes del vídeo es que el esfuerzo de razonamiento ya muestra rendimientos decrecientes. En Frontier Code 2.0, Fable 5.2 obtiene mejor puntuación en el nivel "extra high" que en "max": obligarlo a pensar más tiempo lo vuelve, según el autor, "más tonto y más caro". Además, Fable en nivel alto iguala aproximadamente a Opus 5.5 en nivel máximo, pero con un coste menor, lo que convierte el ajuste del esfuerzo de razonamiento en una palanca práctica de ahorro. En el índice agregado de Artificial Analysis, Fable 5.2 se sitúa como el modelo más inteligente del momento, por delante de Gemini 4 Carbon, todavía sin lanzamiento público general; sin embargo, su coste medio por tarea ronda los 26,54 dólares en modo de razonamiento máximo, y genera menos tokens de salida por tarea que Sonnet 5.5, un dato que el autor considera llamativo.
+
+#### Pruebas propias: un juego y un gadget físico
+En su prueba informal de generación de SVG —la que llama "Buccy Bench"—, la imagen tardó 19 minutos y 50 segundos, consumió 122.248 tokens y costó cerca de 5 dólares, quedando en sexto lugar por detrás de varios modelos de GPT y de Gemini 4 Argon según el juez automático. La prueba más relevante fue un clon del juego Mega Bonk: el modelo se negó a reproducir la propiedad intelectual, pero construyó un juego original del mismo género, "Shardstorm", una supervivencia de hordas en tercera persona con armas automáticas y gemas de experiencia. Lo generó en unos 16 minutos con razonamiento medio y funcionó a la primera: sprint, resistencia, doble salto y progresión operativos, aunque con gráficos y sonido por debajo de lo que suele lograr Opus 5.5 y con música de tipo MIDI en lugar de audio generado. Después le pidió un gadget de escritorio con pantalla, botones y personaje pixel art: el modelo eligió componentes reales —Raspberry Pi Pico, pantalla, pulsadores, cableado—, escribió el firmware en Python, generó cuatro archivos STL para imprimir en 3D y, a petición posterior, produjo un manual de montaje con viñetas paso a paso. El filtro de salvaguardas volvió a actuar: se negó a reproducir el parecido de una persona real y sustituyó el personaje por un robot original.
+
+#### Precios, disponibilidad y lecturas encontradas
+Fable 5.2 está disponible desde el primer día en la API y en los planes de pago —Pro desde 17 dólares al mes, Max y superiores—, pero no en el plan gratuito. El precio es de 8 dólares por millón de tokens de entrada y 40 por millón de salida: el doble que Opus 5.5, aunque más barato que la versión anterior (10 y 50) y ligeramente por debajo de Astra de OpenAI, con mejores resultados en la mayoría de pruebas. Durante la semana de lanzamiento Anthropic amplía cuotas y reparte reinicios de uso. Entre los ejemplos que la compañía publica, Wolfe destaca un experimento en el que un ingeniero pidió a Fable diseñar un sistema operativo desde una carpeta vacía: el modelo coordinó más de mil subagentes durante ocho días y produjo un sistema que arranca en un portátil, con núcleo, controladores de disco, teclado y red, almacenamiento persistente, gestor de ventanas, pantalla de acceso e instalador. También se le atribuyen el hallazgo de una forma novedosa de predecir la estructura de una cápside vírica usando modelos abiertos de plegado de proteínas, y el diseño de tres dispositivos electrónicos completos —placa, carcasa impresa y software— a partir de un párrafo de instrucciones.
+
+#### Demostraciones de la comunidad
+El vídeo repasa trabajos de acceso anticipado: Matt Berman construyó un clon de Gears of War con gráficos muy superiores a los del experimento propio de Wolfe; Alex, del equipo de Berman, publicó una demo de dos horas con 23 proyectos, entre ellos clones de Photoshop y Premiere, un editor de vídeo funcional, un cambiador de voz y recreaciones de Zelda, Halo y Lego Iron Man; Peter Yang generó un anuncio de viaje de 20 segundos sobre un santuario en otoño, con música y animación, escrito enteramente en código; y Matt Schumer creó un mundo tipo "Tierra espejo" explorable, con algo de glitches. La conclusión del autor es matizada: se trata de un salto real, sobre todo para problemas de alta dificultad, depuración de fallos difíciles de encontrar, diseño de videojuegos y fabricación de dispositivos físicos, pero para investigación, escritura o proyectos pequeños de código Opus 5.5 sigue siendo la opción sensata por precio y eficiencia.
+
+### 🔗 Referencias
+
+| Recurso | Enlace |
+|---|---|
+| Anthropic (modelos Claude) | https://www.anthropic.com |
+| Anthropic — precios de API | https://www.anthropic.com/pricing |
+| Artificial Analysis (índice agregado de modelos) | https://artificialanalysis.ai |
+| Bambu Lab — Bambu Studio (laminador usado para los STL) | https://bambulab.com/en/download |
+
+---
 ## [Matt Wolfe] — AI News: New ChatGPT & Google Models (14 Updates Worth Knowing)
 **Fecha:** 2026-11-06
 **URL:** https://www.youtube.com/watch?v=IrAHINf0M6E
