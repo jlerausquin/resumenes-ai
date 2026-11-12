@@ -1,6 +1,216 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] AMA with me and the team!
+**Fecha:** 2026-11-11
+**URL:** https://www.youtube.com/watch?v=LFzBzzHZESE
+**Video ID:** LFzBzzHZESE
+
+### 📝 Resumen
+
+Directo en formato tertulia en el que Matthew Berman y su equipo —Brian y Alex— responden preguntas del chat, prueban en vivo un clon de *Fall Guys* construido por completo con Fable 5.2 y comentan la actualidad al hilo de las noticias. El hilo conductor no es un tema preparado, sino la conversación continua: la economía de las cuotas de suscripción, cómo detectar una web hecha con IA, qué separa la capacidad de un modelo de su utilidad real y hasta dónde llega la IA cuando el material de referencia ya existe. La emisión quedó marcada por el estallido, a mitad de partida, de la segunda revelación sobre el CEO de Nvidia.
+
+#### La economía de las cuotas: reinicios, límites y estrategia
+
+Berman abre confesando que está al 91% de su cuota de Claude y aún es miércoles, con el reinicio natural el viernes a la 1 de la tarde, así que se debate entre aguantar o "quemar" uno de los reinicios guardados. La conversación destila las reglas tal como las entienden: los reinicios de Fable caducan en marzo, abundan porque Anthropic fue generosa, y existe el incentivo perverso de gastar tokens para no dejar cuota sin usar antes del reinicio. También descubren, corrigiéndose entre ellos, que los reinicios de OpenAI están atados al ciclo individual de cada cuenta mientras que en Anthropic el reinicio natural mantiene su fecha original; y que Fable tiene un tope del 50% del límite semanal aunque consuma de ese mismo límite, de modo que un reinicio de Fable devuelve lo que Fable gastó de la semana pero no reinicia el cómputo global. Su conclusión práctica es doble: leer la letra pequeña y, llegado el reinicio natural, gastar rápido en los dos primeros días. Aparece también una estrategia de acumulación: como los modelos tienden a abaratarse, guardar cuota puede salir rentable si el precio por tarea cae.
+
+#### El terremoto de Nvidia, en directo
+
+A mitad de la partida llega la noticia: una segunda relación del CEO de Nvidia, esta vez con una ejecutiva que le reportaba, conocida a través de una fuente anónima, y la información de que el consejo se prepara para destituirlo. El equipo reacciona en tiempo real mientras mira la cotización —Nvidia ya acumulaba una caída del 25% en el mes— y debate las implicaciones. Alex sostiene que la compañía seguirá siendo fuerte y que el problema es de percepción pública; los demás dudan de que Huang pueda mantenerse y especulan con que el daño reputacional sea duradero, precisamente porque parte del relato de Nvidia se apoya en la figura de su consejero delegado. Berman, que había comprado acciones ese mismo día, resume el desconcierto: alguien a quien admiraba y que llevaba décadas en el sector, convertido de golpe en el centro de la peor historia posible para la industria.
+
+#### Auditoría de "slop": cómo se reconoce una web hecha con IA
+
+Un espectador del sector de los oficios pide una crítica despiadada de su web y el equipo improvisa una lista de señales. El criterio de Alex es la claridad y una pregunta contraintuitiva: ¿haría un humano esta misma decisión si la tomara a mano? El veredicto inicial es sorprendentemente benigno —organización clara, nada ofensivo— y la nota queda en un notable alto para el público entendido y sobresaliente para el cliente final. Los marcadores que delatan la autoría automática son el texto de ceja repetitivo, la alternancia mecánica "una app. Punto. cada respuesta. Punto." y la frase corta duplicada para enfatizar, convertida ya en tic insufrible para quien lo detecta. El equipo adivina el modelo usado —Claude, y probablemente Opus 5.5— y discute microdecisiones de diseño como impedir seleccionar el texto de una página, que rechazan por romper una convención básica del navegador.
+
+#### Fall Guys y Sports Club: lo que un modelo construye de una vez
+
+El plato fuerte de la emisión es jugar con la audiencia al clon de *Fall Guys* que construyeron durante las pruebas anticipadas de Fable 5.2: multijugador, alojado en el propio estudio, con varios niveles encadenados. El detalle técnico que subrayan es justamente ese —Fable ejecuta encargos largos y entrega un producto completo con varias pantallas, mientras que al pedirle algo equivalente a Opus este construye un nivel y pregunta si es suficiente—. La sesión incluye la confesión de que los enlaces a los artefactos publicados en el vídeo de reseña ya no funcionan, la sospecha de que el propio Berman no reclamó los enlaces permanentes, y el caos habitual: lobbies de diez segundos, cámaras que se quedan atascadas, gente que entra y sale, el modelo "tomando el control" para arreglar los controles de un jugador. Después llega *Sports Club*, un juego de deportes de tres jugadores construido también con Fable con el que el equipo había estado jugando horas.
+
+#### ¿La IA crea conocimiento nuevo o solo recrea lo existente?
+
+La conversación deriva hacia una idea con más fondo: replicar algo que ya existe —un GTA, un clon de Excel, una herramienta de edición— no demuestra que el modelo descubra nada, porque el original le sirve de referencia. De ahí surge la pregunta que el propio Berman formula: ¿la IA está generando conocimiento nuevo o recombinando lo conocido? Su respuesta optimista es que el trabajo creativo se reubica: la tarea del humano pasa a ser dirigir al modelo hacia lo siguiente, aportando la idea y la dirección. La objeción que queda flotando es si los modelos actuales son realmente "dirigibles" hacia lo que no existe, y si toda creación no es en el fondo una variación de algo anterior.
+
+#### Contenido para principiantes y cultura de herramienta
+
+Otras respuestas dispersas del directo: existe demanda de una serie introductoria sobre agentes —qué son, cuántos usar, montajes simples— y el equipo reconoce que el canal se ha ido a lo avanzado por inercia, aunque su boletín mantiene material de iniciación; recomiendan Muse como puerta de entrada para perfiles no técnicos porque elimina complejidad y reparte por donde ya está la gente; hablan de Grok Bot como herramienta familiar —el hijo de Berman le pregunta sin parar y eligen voz femenina— y del nuevo estudio desde el que empezarán a grabar; y repasan periféricos curiosos como la consola portátil con la que un niño puede programar y jugar su propio juego.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Forward Future — boletín del equipo con contenido para principiantes | Newsletter | https://www.forwardfuture.com |
+| ArtCraft — herramienta de VFX que comentan varios profesionales que han dejado Adobe | Producto | — |
+| Fall Guys (referencia del clon construido con Fable 5.2) | Videojuego | — |
+| Grok Bot — agente personal usado a diario por el equipo | Producto | — |
+| Muse — aplicación de IA para perfiles no técnicos | Producto | — |
+| Claude (Opus 5.5, Fable 5.2) y su sistema de cuotas | Modelo / servicio | https://www.anthropic.com |
+| Nvidia — segunda revelación sobre su CEO y reacción del consejo | Empresa | — |
+
+---
+## [Matthew Berman] Gemini Carbon, NVIDIA CEO AFFAIR, Fable 5.2, Meta Muse Ember, GPT Image 2.6, Minimax H3: AI NEWS
+**Fecha:** 2026-11-11
+**URL:** https://www.youtube.com/watch?v=FCmLuTENOp0
+**Video ID:** FCmLuTENOp0
+
+### 📝 Resumen
+
+Matthew Berman repasa la semana más convulsa que recuerda en el sector: la crisis reputacional de Nvidia tras reconocer su consejero delegado una relación extramatrimonial que una agencia de inteligencia estadounidense vincula con una posible espía china, el lanzamiento de Fable 5.2 de Anthropic —que describe como el mejor modelo disponible con diferencia— y la salida simultánea de Gemini 4 Carbon de Google, presentada como la frontera de la compañía pero que, en su uso real, queda lejos del modelo de Anthropic. A partir de ahí recorre una oleada de modelos abiertos (LongCat 2.5, Ripple 65B, Inkling 2 Small), el nuevo modelo pequeño de Meta, dos modelos de imagen y vídeo y la estela de miniaturas que MiniMax está dejando en el ecosistema.
+
+#### La crisis de Nvidia: la investigación del consejo
+
+Berman abre con el asunto que domina la conversación: tras semanas de rumores, Jensen Huang admitió una infidelidad, pidió disculpas a su familia, a los empleados y a los accionistas, y confirmó que permanece al frente de la compañía. El punto que convierte el escándalo corporativo en un problema de seguridad nacional es que la persona implicada podría ser una espía china según la inteligencia estadounidense; el consejo ha contratado a un investigador independiente y Huang niega haber filtrado información. Berman subraya que la compañía sigue siendo tan fuerte e importante como antes —su apuesta histórica por CUDA y su posición en el suministro de cómputo no cambian—, pero advierte de que si se confirma la filtración el impacto atravesará toda la industria de la IA.
+
+#### Fable 5.2 y la brecha entre benchmarks y uso real
+
+Con los datos del índice de inteligencia de Artificial Analysis en pantalla, Berman muestra un salto enorme: Claude Fable 5.2 Max ocupa el primer puesto y las tres primeras posiciones son variantes del mismo modelo, con Gemini 4 Carbon justo detrás a apenas dos puntos. Su objeción es que esa distancia de dos puntos no refleja lo que ocurre al usar los modelos: encuentra una diferencia cualitativa abismal en la calidad de las decisiones, en la capacidad de hacer suposiciones razonables y en resolver a la primera lo que otro modelo necesita cinco o seis intentos. Sospecha que hay *benchmarking* artificial o que las pruebas no capturan lo que importa. En el eje de coste por tarea, Fable 5.2 es la frontera y también lo más caro; Carbon queda unos puntos por debajo a una fracción del precio, lo que lleva a su tesis práctica: **no todas las tareas necesitan la frontera**. Aun así admite que se ha vuelto adicto a Fable y que volver a Opus 5.5 se siente como un retroceso, con el problema de que consume la cuota muy rápido incluso con los tres reinicios gratuitos que Anthropic acaba de regalar.
+
+#### Gemini 4 Carbon: bueno, barato y por detrás
+
+Con acceso anticipado a Carbon, Berman lo califica de modelo bueno, fiable y correcto, pero "ni cerca de Fable" y ni siquiera al nivel de Opus. Lo demuestra con tres pruebas: un clon completo de Excel funcional en navegador, construido en unas tres horas repartidas entre varios agentes —hora y cuarenta minutos de extremo a extremo— y unos 26 millones de tokens, es decir, un par de dólares; un clon de *Fall Guys* con las físicas y las colisiones flojas y algo de recorte visual; y una máquina de Rube Goldberg construida durante su asistencia a un evento, que sí considera notable. Su consejo es probarlo por su relación calidad-precio, no por superar a la frontera.
+
+#### Modelos abiertos: LongCat 2.5, Ripple 65B e Inkling 2 Small
+
+Berman se propone dar más espacio al código abierto y presenta tres novedades. **LongCat 2.5**, de una compañía que no conocía, es un modelo multimodal de 1,6 billones de parámetros con 48 mil millones activos, fuerte en diseño creativo y tareas 3D, descargable pero inabordable para uso local. **Ripple 65B preview**, de Recursive Intelligence, es un modelo denso de pesos abiertos, estadounidense, que alcanza 80,5% en Terminal Bench 2.1 comparado solo contra otros modelos abiertos, soporta hasta un millón de tokens de contexto y cabe en un portátil o en un dispositivo compacto, a 20 céntimos por millón de tokens de entrada y 60 de salida. **Inkling 2 Small**, de Thinking Machines —la compañía de Mira Murati—, obtiene 31 en el índice de Artificial Analysis y demos notables (un juego estilo *SimCity*, un emulador de PC escrito desde cero en Python, un videojuego de estética origami); comparado con DeepSeek V4.1 Flash, el mejor modelo abierto actual, pierde por poco en código de frontera (25 frente a 28) y bastante en el resto, pero con un tamaño mucho menor. La lectura de conjunto es que están apareciendo empresas estadounidenses de pesos abiertos construyendo modelos pequeños y medianos realmente buenos.
+
+#### Meta Muse Ember y la estrategia de planificar y delegar
+
+El nuevo modelo pequeño de Meta compite en el segmento de los "modelos de trabajo" contra Claude Haiku y GPT-6 Luna: supera a Haiku en inteligencia por tarea a cerca de un tercio del precio, domina en Automation Bench, gana por poco en Terminal Bench 4.0, Agents Last Exam y OS World, y empata con Haiku 5.5 en el índice de inteligencia. Berman lo enmarca en un patrón de uso que repite varias veces en el vídeo: **planificar con un modelo caro y delegar la ejecución en modelos pequeños** para estirar la cuota. El mismo patrón reaparece con Cognition, que tomó Inkling Small, lo reentrenó y lanzó su propio modelo de código rápido pensado para subagentes.
+
+#### Imagen y vídeo: GPT Image 2.6, Omni 1.2 y Seedream 5.5
+
+OpenAI publica **GPT Image 2.6**, con generación de GIF como novedad destacada, cerca de un 50% más rápido, en dos variantes —Sunburst para calidad y Flare para velocidad— disponible en ChatGPT, Codex y la API; Berman bromea sobre un precio por tokens en un modelo de imagen. Google lanza **Gemini Omni 1.2 Flash**, su modelo de generación de vídeo: un 30% más barato, clips más largos, edición dentro de la conversación, habla más natural y planos más controlables; recuerda que OpenAI cerró Sora y que pocos laboratorios mantienen vídeo. Y **ByteDance Seedream 5.5** le parece el mejor modelo de imagen del momento por hiperrealismo —texturas de piel, pelo, tejidos y desenfoques de profundidad coherentes— además de permitir edición multiturno manteniendo la consistencia.
+
+#### El modelo abierto de imagen de MiniMax y la estela de Qwen
+
+Cierra con **MiniMax H3 Image**, un modelo de imagen de pesos abiertos que se puede descargar (68 GB completos, unos 18 GB en versión cuantizada, apta para la mayoría de equipos). Su observación de ecosistema es que MiniMax se ha convertido en la base que otros muchos afinan y reempaquetan —igual que ocurrió con Qwen 3.8 en el terreno de los modelos de lenguaje, ahora pasa con lo visual—, y recomienda simplemente señalarle la página de Hugging Face a un agente para que lo descargue y lo ponga en marcha. Su conclusión personal sigue siendo la misma que al principio: pese a la avalancha de novedades, lo que le quita el sueño es Fable 5.2.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Artificial Analysis — índice de inteligencia y coste por tarea | Benchmark | https://artificialanalysis.ai |
+| Anthropic (Fable 5.2, Opus 5.5, Sonnet 5.5, Haiku) | Empresa / modelos | https://www.anthropic.com |
+| MiniMax H3 Image — pesos abiertos (instrucciones de instalación en la descripción del vídeo) | Repositorio / modelo | https://huggingface.co |
+| Nvidia (caso del CEO y gobernanza) | Empresa | — |
+| Google — Gemini 4 Carbon y Gemini Omni 1.2 Flash | Modelos | — |
+| OpenAI — GPT Image 2.6 | Modelo | — |
+| Meta — Muse Ember | Modelo | — |
+| LongCat 2.5 (1,6 T parámetros, multimodal) | Modelo abierto | — |
+| Ripple 65B preview — Recursive Intelligence | Modelo abierto | — |
+| Inkling 2 Small — Thinking Machines | Modelo abierto | — |
+| Seedream 5.5 — ByteDance | Modelo | — |
+| Victor — agente de IA para Slack y Teams (patrocinador) | Producto | — |
+
+---
+## [Matt Wolfe] He Built an AI System That Runs His Entire Business
+**Fecha:** 2026-11-11
+**URL:** https://www.youtube.com/watch?v=pvl3z_GyU2Y
+**Video ID:** pvl3z_GyU2Y
+
+### 📝 Resumen
+
+En una nueva entrega de la serie *Show Me Your Workflow*, Matt Wolfe entrevista a **Peter Yang**, ex product manager con más de diez años en la bahía de San Francisco —el último tramo en Roblox— que dejó el empleo en junio para dedicarse a crear contenido a tiempo completo y que, en la práctica, opera como negocio unipersonal apoyado en un sistema de agentes de IA. El sistema lee su correo, calendario y Slack dos veces al día y le dicta qué debe atender; un "asesor" le recuerda sus objetivos anuales cuando una oportunidad lo desvía; y varios flujos preparan su pódcast, editan vídeos o le sugieren planes de fin de semana con sus hijos. Wolfe no se limita a mostrarlo: reconstruye versiones simplificadas de cada pieza en directo para que el espectador pueda replicarlas, y remata con un mensaje explícito —no hay que construir todo esto de golpe, sino empezar por una única tarea recurrente que realmente ahorre tiempo—.
+
+#### Peter Yang y el sistema que corre su negocio
+
+Yang explica que se marchó porque el ritmo de una empresa tradicional —reuniones constantes— le impedía dedicar tiempo a trastear con herramientas nuevas, algo que en su área se ha vuelto un trabajo en sí mismo. Como creador trabaja solo, con colaboradores puntuales para edición y miniaturas, y durante años fue acumulando automatizaciones sueltas; el salto fue unificarlas en un sistema coherente. Su argumento central es que perseguir cada modelo o herramienta que aparece cada semana impide construir algo duradero: lo valioso es tener un sistema personal de *skills* y automatizaciones propias, portable entre herramientas.
+
+#### Tres herramientas, un mismo juego de skills
+
+Yang reparte el trabajo entre ChatGPT, Claude Code y Grok Bot, y la clave es que los tres leen el **mismo conjunto de skills**: instrucciones guardadas para un trabajo concreto, de modo que no reexplica la tarea cada vez ni queda atado a un proveedor. Su opinión es que el *harness* (el entorno que envuelve al modelo) importa más que el modelo: ChatGPT destaca por navegador y uso de ordenador —lo usa para rellenar formularios y tareas manuales de navegador—, Grok Bot es a su juicio el mejor agente personal porque vive en una máquina virtual y por tanto sobrevive con el ordenador apagado, además de integrar X para investigación, y Claude Code concentra el trabajo local. Reconoce que rota de modelo a menudo pero que **no lo recomienda**: si pagara las suscripciones de su bolsillo, elegiría solo una. Wolfe añade su propio reparto: Claude para escritura y voz, modelos de OpenAI para código y "browser as the new operating system" como idea de fondo.
+
+#### Chief of staff y advisor: urgencia frente a dirección
+
+El **chief of staff** corre a las 7:00 y a las 16:00: lee correo de las últimas 24 horas, calendario de hoy y mañana, y Slack, y devuelve una lista numerada de lo que requiere atención, con una línea de contexto, enlace y siguiente paso sugerido, filtrando boletines y promociones. Yang responde con números ("uno: agenda la cita; dos: redacta el correo; tres: esto lo hago yo") y el sistema ejecuta; los borradores nunca se envían solos, siempre pasan por revisión humana. El **advisor** hace un trabajo distinto: no mira la urgencia sino la dirección, y contrasta cada decisión con un documento de una sola página que Yang escribe y **solo él edita** —su "zona libre de slop"— con objetivos del año, qué no va a hacer, qué le da energía, qué le desgasta y compromisos familiares no negociables. Se le pide explícitamente que no endulce. Corre una vez al mes, porque más frecuencia convierte el ejercicio en ruido. Wolfe construye una versión mínima de ambos: en el primero programa ejecución desatendida en la nube, modelo por defecto y envío matinal entre semana; en el segundo copia la URL del documento y guarda la skill reutilizable.
+
+#### El sistema de contenidos: del pódcast a las miniaturas
+
+Para cada episodio, una skill investiga al invitado y su trabajo, propone ángulos, redacta una guía de entrevista que se envía al invitado y sugiere combinaciones de título y miniatura partiendo de capturas de miniaturas que ya funcionan bien. Yang insiste en dos reglas de contexto: basta con decir quién es el invitado, de qué se va a hablar, a qué audiencia se apunta y el formato, y pedir preguntas que se construyan unas sobre otras para que suene a conversación y no a cuestionario. El resultado nunca es definitivo: hace una pasada manual antes de compartirlo. Wolfe cuenta que él todavía no delega los títulos —considera que la IA sigue siendo mala en eso y que en YouTube es una de las piezas decisivas— y que la edición de vídeo funciona bien en formato corto, donde una skill bien ajustada permite resolverlo casi de una vez, mientras que en formato largo sigue habiendo editor humano. Yang incluso se construyó una interfaz propia para dejar notas por marca de tiempo al agente, en lugar de pelearse con software de edición profesional.
+
+#### Tareas programadas que llegan por email
+
+Además del chief of staff, Yang tiene tareas con calendario propio que le envían correos porque el correo es lo que de verdad lee: una revisión semanal de negocio con métricas de suscripción, curso y embudo, más investigación de otros canales; un correo de fin de semana con planes locales para hacer con sus hijos; y un seguimiento de entrenamiento alimentado por un MCP que lee sus registros de levantamiento de peso de una aplicación que él mismo programó. La lógica es la de un buzón de informes: en lugar de vigilar aplicaciones dispersas, la IA le empuja el resumen al sitio donde ya mira.
+
+#### Un bot por trabajo: el ejemplo del bajo
+
+La recomendación estructural es no construir un bot gigante que lo haga todo, sino **un bot por trabajo**, con tres definiciones explícitas: cuál es su propósito, qué necesita para hacerlo y cómo se ve un buen resultado; si es recurrente, cuándo corre y dónde envía el resultado. Wolfe lo demuestra creando un proyecto "Bass coach" para aprender a tocar el bajo: instrucciones personalizadas, un registro de práctica en una hoja de cálculo enlazada por contexto que se sincroniza continuamente, y una comprobación semanal que repasa canción por canción qué acerca y qué aleja del objetivo y propone un cambio para la semana siguiente, programada los domingos por la noche. Como alternativa a la hoja de cálculo, le pide al mismo proyecto que sea un registrador simple —canción, fecha, autoevaluación, notas— y obtiene una aplicación funcional en minutos.
+
+#### El skill editor: auditar en lote para no sobreajustar
+
+Una de las ideas más útiles del episodio. Yang mantiene una skill cuyo único trabajo es **mantener las demás**. El error habitual es actualizar la skill tras cada conversación, lo que la llena de reglas improvisadas y de un solo uso; su método consiste en abrir un hilo nuevo, pedir que revise un histórico amplio —por ejemplo, tres semanas de hilos sobre pódcast o todas las rondas de feedback de los últimos cortos— y que detecte los patrones que se repiten. En la demostración, el análisis de trece rondas de edición en nueve cortos devuelve problemas recurrentes (B-roll desincronizado, encuadre y zoom, texto blanco que repite subtítulos, efectos fuera de tiempo) y Wolfe elige qué puntos incorporar a la skill de edición. La mejora se aplica al conjunto, no al último error.
+
+#### Lo que sigue siendo humano
+
+El cierre es un contrapeso explícito al entusiasmo: a la IA se le puede pedir que revise ortografía o limpie un texto, pero conviene exigir la lista exacta de cambios "antes y después" para aprobar uno por uno, y cualquier cosa de cara al cliente o al público pasa por ojos humanos. También el documento de objetivos está vetado a la IA, que puede sugerir pero no escribir. Wolfe resume el aprendizaje en una frase: no construir el sistema entero, elegir un flujo que ahorre tiempo, darle buen contexto y mejorarlo con el uso.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Behind the Craft — comunidad de Peter Yang con sus skills | Formación / comunidad | https://behindthecraft.com |
+| Peter Yang — canal de YouTube (enlace en la descripción del vídeo) | Canal | — |
+| Claude Code (skills, tareas programadas y conectores) | Herramienta | https://www.anthropic.com |
+| Grok Bot — agente personal en máquina virtual | Producto | — |
+| ChatGPT | Producto | — |
+| Frame.io (referencia de interfaz de notas por marca de tiempo) | Herramienta | — |
+| Roblox (empleo anterior del invitado) | Empresa | — |
+
+---
+## [Javier Garzás] Product Manager con IA: si NO haces Discovery con bots, te quedas atrás (Grok Bot)
+**Fecha:** 2026-11-11
+**URL:** https://www.youtube.com/watch?v=FR5pNCqTsLY
+**Video ID:** FR5pNCqTsLY
+
+### 📝 Resumen
+
+Javier Garzás plantea que la inteligencia artificial no ha eliminado el cuello de botella del desarrollo de producto, sino que lo ha desplazado: la programación dejó de ser el punto crítico y ahora lo que frena son los dos extremos del ciclo —decidir **qué** hay que construir (descubrimiento o *Discovery*) y **validar/verificar** lo que la IA produce a gran velocidad—. Su tesis es que ambas actividades siguen dependiendo mucho del trabajo manual, pero se aceleran de forma drástica cuando se les aplican agentes, y que quien las mantenga exclusivamente artesanales se quedará atrás. El vídeo se centra en el primero de esos extremos y en cómo su equipo incorporó una plantilla de *Grok Bots* para comprimir los tiempos de descubrimiento.
+
+#### El cuello de botella se ha movido a los extremos
+
+Durante décadas el esfuerzo se concentraba en escribir código; con la IA generativa ese tramo se automatiza y el trabajo humano se desplaza a la definición del problema y a la verificación de resultados. Garzás subraya que lanzar un producto a producción con millones de usuarios sigue exigiendo criterio técnico —alguien que sepa rodear a la IA para que genere código de forma controlada y segura—, de modo que el nuevo reparto es: descubrir qué merece la pena construirse y comprobar que lo construido funciona y no introduce riesgo.
+
+#### Qué es Discovery y por qué se volvió la fase clave
+
+El descubrimiento consiste en localizar problemas reales de usuarios, clientes o del mercado que merezcan la pena resolverse y que además sean viables para la organización; debería ser la fuente natural que alimenta el *backlog* de producto. Garzás sostiene que la irrupción de la IA lo ha convertido en algo todavía más determinante, porque ahora el coste de construir está bajando y el riesgo se concentra en construir lo equivocado. En su equipo —un formato pequeño donde el rol de product management lo asumen indistintamente todos los miembros, no una persona dedicada— descubrieron pronto que aplicar IA disparaba la velocidad y la calidad del descubrimiento, y los resultados de los últimos meses los describe como inimaginables hace unos años.
+
+#### Bots de IA: una capa de abstracción sobre los agentes
+
+La distinción conceptual que propone es la de niveles. En la base sigue estando *Claude Code* como "fontanería": conexiones MCP, skills, APIs, webhooks e inteligencia de negocio; es el entorno donde ocurre el trabajo duro del día a día y del que el equipo no prescinde. Los bots son una capa por encima: sistemas de agentes personales que simplifican enormemente lo que antes exigía montar plataformas como *OpenClaw* o *Hermes*, que resultaban laboriosos y requerían mantenimiento de infraestructura local o en servidores. La ventaja práctica es que los bots viven en una instancia en la nube administrada por el proveedor: nada que instalar, nada que mantener, y la misma sesión disponible desde escritorio, móvil o tablet —a diferencia de soluciones como *Dispatch*, que intentaban llevar el entorno local al teléfono sin conseguirlo del todo—.
+
+La diferencia funcional con un agente clásico es que el bot añade **proactividad y memoria persistente**: recuerda preferencias, datos y resúmenes, detecta patrones de trabajo y ofrece resolver problemas antes de que se le pidan; cuanto más se usa, más se ajusta al usuario. Otra ruptura es la gestión de las *skills*: ya no se escriben a mano, sino que el bot las redacta y las guarda a partir de la conversación, aprende de ellas y las reescribe a su manera.
+
+#### Del scraping frágil al navegador sin interfaz
+
+Garzás contrasta dos formas de acceder a sistemas sin API ni MCP. La primera es el scraping desde el navegador local —por ejemplo, con el plugin de Claude en Chrome, que opera la pantalla como si fuera el ratón del usuario—; funciona para tareas puntuales, pero es lento, se satura y falla cuando el flujo se alarga más de unos minutos. La segunda es la que ofrecen los bots: al ejecutarse en una máquina remota, el scraping se hace fuera del navegador del usuario y resulta mucho más fiable, lo que permite automatizar operaciones sobre plataformas cerradas (el propio canal de YouTube, estadísticas, avisos de comentarios) que antes quedaban fuera del alcance de los agentes.
+
+#### Una empresa paralela de bots: veinte agentes con jerarquía
+
+El equipo mantiene cerca de veinte bots, cada uno con una única tarea, bautizados con nombres de superhéroes y personajes de Star Wars y Marvel. La nomenclatura no es capricho: acaba instalándose en el lenguaje del equipo ("pregúntale a Doctor Strange") y hace más natural la coordinación. Para no perderse entre tantos agentes aplican el viejo principio de divide y vencerás y los organizan jerárquicamente: hay jefes intermedios (*head of*) a los que se consulta y un bot superior —Capitán América— que puede hablar con todos, delegar y consolidar lo que reportan los niveles inferiores. Los colores de fondo de cada bot en la interfaz identifican su departamento, y existe un bot dedicado a cada fuente de información, al que llaman *observatorio*.
+
+#### Dos flujos de entrada: lo externo y lo interno
+
+El sistema se alimenta por dos vías que convergen en el descubrimiento. La primera es externa: Cyclops y sus bots subordinados vigilan tendencias en Twitter y LinkedIn sobre los temas de la casa, además de plataformas como Facebook (Odin). La segunda es interna: Charles Xavier (Profesor X) coordina bots que revisan incidencias, consultas de alumnos, correos y conversaciones; entre ellos, Leia atiende por WhatsApp a estudiantes y a cualquier interesado, entrenada con el conocimiento acumulado de Garzás —miles de publicaciones de su web y los vídeos del canal— y reportando tendencias y problemas a su *head of*, que a su vez informa al bot raíz. Toda esa información, antes imposible de procesar en tiempo razonable, entra en el ciclo de descubrimiento ya clasificada y sintetizada.
+
+#### Personas y Value Proposition Canvas ejecutados por bots
+
+El uso de los bots es de **entrada y síntesis**, no de creación de contenido: recogen información, la ordenan y generan informes periódicos. Sobre esa base, Charles Xavier aplica técnicas clásicas de descubrimiento —construcción de *personas* (cliente, usuario o alumno ideal con sus problemas, pensamientos, dolores y fuentes de satisfacción), *value proposition canvas* y *lean canvas*— de modo que cuando el equipo humano se sienta a revisar, el trabajo mecánico y arduo ya está hecho y solo queda aportar criterio. Garzás insiste en que el componente manual, la intuición y la interpretación siguen siendo insustituibles; lo que cambia es el volumen de datos que se puede digerir y la velocidad a la que llega.
+
+#### El cierre: dos extremos que exigen criterio humano
+
+La conclusión del vídeo vuelve al punto de partida: el descubrimiento se potencia con IA pero no se delega, y la validación se convierte en la otra gran tarea pendiente, porque saber si lo que la IA ha producido en minutos es correcto, seguro y no riesgoso exige revisión humana. Quien automatice solo la parte visible del ciclo —la generación— y descuide los extremos estará optimizando el tramo que ya no es el problema.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Javier Garzás — web personal (artículos y contacto por WhatsApp) | Sitio del autor | https://javiergarzas.com |
+| Javier Garzás — canal de YouTube | Canal | https://www.youtube.com/@javiergarzas |
+| *Irremplazable en la era de la IA* — libro con casos de Discovery asistido por IA (enlace en la descripción del vídeo) | Libro | — |
+| Claude Code (entorno de agentes, MCP y skills del equipo) | Herramienta | https://www.anthropic.com |
+| Grok Bots (bots de IA con instancia en la nube e interfaz móvil/escritorio) | Producto | — |
+| *Value Proposition Canvas* y *Lean Canvas* (técnicas de descubrimiento aplicadas por los bots) | Metodología | — |
+
+---
 ## [Matthew Berman] Fable 5.2 is ridiculous
 **Fecha:** 2026-11-09
 **URL:** https://www.youtube.com/watch?v=0vNyVMDFdkg

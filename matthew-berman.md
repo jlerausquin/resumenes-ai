@@ -1,5 +1,106 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] AMA with me and the team!
+**Fecha:** 2026-11-11
+**URL:** https://www.youtube.com/watch?v=LFzBzzHZESE
+**Video ID:** LFzBzzHZESE
+
+### 📝 Resumen
+
+Directo en formato tertulia en el que Matthew Berman y su equipo —Brian y Alex— responden preguntas del chat, prueban en vivo un clon de *Fall Guys* construido por completo con Fable 5.2 y comentan la actualidad al hilo de las noticias. El hilo conductor no es un tema preparado, sino la conversación continua: la economía de las cuotas de suscripción, cómo detectar una web hecha con IA, qué separa la capacidad de un modelo de su utilidad real y hasta dónde llega la IA cuando el material de referencia ya existe. La emisión quedó marcada por el estallido, a mitad de partida, de la segunda revelación sobre el CEO de Nvidia.
+
+#### La economía de las cuotas: reinicios, límites y estrategia
+
+Berman abre confesando que está al 91% de su cuota de Claude y aún es miércoles, con el reinicio natural el viernes a la 1 de la tarde, así que se debate entre aguantar o "quemar" uno de los reinicios guardados. La conversación destila las reglas tal como las entienden: los reinicios de Fable caducan en marzo, abundan porque Anthropic fue generosa, y existe el incentivo perverso de gastar tokens para no dejar cuota sin usar antes del reinicio. También descubren, corrigiéndose entre ellos, que los reinicios de OpenAI están atados al ciclo individual de cada cuenta mientras que en Anthropic el reinicio natural mantiene su fecha original; y que Fable tiene un tope del 50% del límite semanal aunque consuma de ese mismo límite, de modo que un reinicio de Fable devuelve lo que Fable gastó de la semana pero no reinicia el cómputo global. Su conclusión práctica es doble: leer la letra pequeña y, llegado el reinicio natural, gastar rápido en los dos primeros días. Aparece también una estrategia de acumulación: como los modelos tienden a abaratarse, guardar cuota puede salir rentable si el precio por tarea cae.
+
+#### El terremoto de Nvidia, en directo
+
+A mitad de la partida llega la noticia: una segunda relación del CEO de Nvidia, esta vez con una ejecutiva que le reportaba, conocida a través de una fuente anónima, y la información de que el consejo se prepara para destituirlo. El equipo reacciona en tiempo real mientras mira la cotización —Nvidia ya acumulaba una caída del 25% en el mes— y debate las implicaciones. Alex sostiene que la compañía seguirá siendo fuerte y que el problema es de percepción pública; los demás dudan de que Huang pueda mantenerse y especulan con que el daño reputacional sea duradero, precisamente porque parte del relato de Nvidia se apoya en la figura de su consejero delegado. Berman, que había comprado acciones ese mismo día, resume el desconcierto: alguien a quien admiraba y que llevaba décadas en el sector, convertido de golpe en el centro de la peor historia posible para la industria.
+
+#### Auditoría de "slop": cómo se reconoce una web hecha con IA
+
+Un espectador del sector de los oficios pide una crítica despiadada de su web y el equipo improvisa una lista de señales. El criterio de Alex es la claridad y una pregunta contraintuitiva: ¿haría un humano esta misma decisión si la tomara a mano? El veredicto inicial es sorprendentemente benigno —organización clara, nada ofensivo— y la nota queda en un notable alto para el público entendido y sobresaliente para el cliente final. Los marcadores que delatan la autoría automática son el texto de ceja repetitivo, la alternancia mecánica "una app. Punto. cada respuesta. Punto." y la frase corta duplicada para enfatizar, convertida ya en tic insufrible para quien lo detecta. El equipo adivina el modelo usado —Claude, y probablemente Opus 5.5— y discute microdecisiones de diseño como impedir seleccionar el texto de una página, que rechazan por romper una convención básica del navegador.
+
+#### Fall Guys y Sports Club: lo que un modelo construye de una vez
+
+El plato fuerte de la emisión es jugar con la audiencia al clon de *Fall Guys* que construyeron durante las pruebas anticipadas de Fable 5.2: multijugador, alojado en el propio estudio, con varios niveles encadenados. El detalle técnico que subrayan es justamente ese —Fable ejecuta encargos largos y entrega un producto completo con varias pantallas, mientras que al pedirle algo equivalente a Opus este construye un nivel y pregunta si es suficiente—. La sesión incluye la confesión de que los enlaces a los artefactos publicados en el vídeo de reseña ya no funcionan, la sospecha de que el propio Berman no reclamó los enlaces permanentes, y el caos habitual: lobbies de diez segundos, cámaras que se quedan atascadas, gente que entra y sale, el modelo "tomando el control" para arreglar los controles de un jugador. Después llega *Sports Club*, un juego de deportes de tres jugadores construido también con Fable con el que el equipo había estado jugando horas.
+
+#### ¿La IA crea conocimiento nuevo o solo recrea lo existente?
+
+La conversación deriva hacia una idea con más fondo: replicar algo que ya existe —un GTA, un clon de Excel, una herramienta de edición— no demuestra que el modelo descubra nada, porque el original le sirve de referencia. De ahí surge la pregunta que el propio Berman formula: ¿la IA está generando conocimiento nuevo o recombinando lo conocido? Su respuesta optimista es que el trabajo creativo se reubica: la tarea del humano pasa a ser dirigir al modelo hacia lo siguiente, aportando la idea y la dirección. La objeción que queda flotando es si los modelos actuales son realmente "dirigibles" hacia lo que no existe, y si toda creación no es en el fondo una variación de algo anterior.
+
+#### Contenido para principiantes y cultura de herramienta
+
+Otras respuestas dispersas del directo: existe demanda de una serie introductoria sobre agentes —qué son, cuántos usar, montajes simples— y el equipo reconoce que el canal se ha ido a lo avanzado por inercia, aunque su boletín mantiene material de iniciación; recomiendan Muse como puerta de entrada para perfiles no técnicos porque elimina complejidad y reparte por donde ya está la gente; hablan de Grok Bot como herramienta familiar —el hijo de Berman le pregunta sin parar y eligen voz femenina— y del nuevo estudio desde el que empezarán a grabar; y repasan periféricos curiosos como la consola portátil con la que un niño puede programar y jugar su propio juego.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Forward Future — boletín del equipo con contenido para principiantes | Newsletter | https://www.forwardfuture.com |
+| ArtCraft — herramienta de VFX que comentan varios profesionales que han dejado Adobe | Producto | — |
+| Fall Guys (referencia del clon construido con Fable 5.2) | Videojuego | — |
+| Grok Bot — agente personal usado a diario por el equipo | Producto | — |
+| Muse — aplicación de IA para perfiles no técnicos | Producto | — |
+| Claude (Opus 5.5, Fable 5.2) y su sistema de cuotas | Modelo / servicio | https://www.anthropic.com |
+| Nvidia — segunda revelación sobre su CEO y reacción del consejo | Empresa | — |
+
+---
+## [Matthew Berman] Gemini Carbon, NVIDIA CEO AFFAIR, Fable 5.2, Meta Muse Ember, GPT Image 2.6, Minimax H3: AI NEWS
+**Fecha:** 2026-11-11
+**URL:** https://www.youtube.com/watch?v=FCmLuTENOp0
+**Video ID:** FCmLuTENOp0
+
+### 📝 Resumen
+
+Matthew Berman repasa la semana más convulsa que recuerda en el sector: la crisis reputacional de Nvidia tras reconocer su consejero delegado una relación extramatrimonial que una agencia de inteligencia estadounidense vincula con una posible espía china, el lanzamiento de Fable 5.2 de Anthropic —que describe como el mejor modelo disponible con diferencia— y la salida simultánea de Gemini 4 Carbon de Google, presentada como la frontera de la compañía pero que, en su uso real, queda lejos del modelo de Anthropic. A partir de ahí recorre una oleada de modelos abiertos (LongCat 2.5, Ripple 65B, Inkling 2 Small), el nuevo modelo pequeño de Meta, dos modelos de imagen y vídeo y la estela de miniaturas que MiniMax está dejando en el ecosistema.
+
+#### La crisis de Nvidia: la investigación del consejo
+
+Berman abre con el asunto que domina la conversación: tras semanas de rumores, Jensen Huang admitió una infidelidad, pidió disculpas a su familia, a los empleados y a los accionistas, y confirmó que permanece al frente de la compañía. El punto que convierte el escándalo corporativo en un problema de seguridad nacional es que la persona implicada podría ser una espía china según la inteligencia estadounidense; el consejo ha contratado a un investigador independiente y Huang niega haber filtrado información. Berman subraya que la compañía sigue siendo tan fuerte e importante como antes —su apuesta histórica por CUDA y su posición en el suministro de cómputo no cambian—, pero advierte de que si se confirma la filtración el impacto atravesará toda la industria de la IA.
+
+#### Fable 5.2 y la brecha entre benchmarks y uso real
+
+Con los datos del índice de inteligencia de Artificial Analysis en pantalla, Berman muestra un salto enorme: Claude Fable 5.2 Max ocupa el primer puesto y las tres primeras posiciones son variantes del mismo modelo, con Gemini 4 Carbon justo detrás a apenas dos puntos. Su objeción es que esa distancia de dos puntos no refleja lo que ocurre al usar los modelos: encuentra una diferencia cualitativa abismal en la calidad de las decisiones, en la capacidad de hacer suposiciones razonables y en resolver a la primera lo que otro modelo necesita cinco o seis intentos. Sospecha que hay *benchmarking* artificial o que las pruebas no capturan lo que importa. En el eje de coste por tarea, Fable 5.2 es la frontera y también lo más caro; Carbon queda unos puntos por debajo a una fracción del precio, lo que lleva a su tesis práctica: **no todas las tareas necesitan la frontera**. Aun así admite que se ha vuelto adicto a Fable y que volver a Opus 5.5 se siente como un retroceso, con el problema de que consume la cuota muy rápido incluso con los tres reinicios gratuitos que Anthropic acaba de regalar.
+
+#### Gemini 4 Carbon: bueno, barato y por detrás
+
+Con acceso anticipado a Carbon, Berman lo califica de modelo bueno, fiable y correcto, pero "ni cerca de Fable" y ni siquiera al nivel de Opus. Lo demuestra con tres pruebas: un clon completo de Excel funcional en navegador, construido en unas tres horas repartidas entre varios agentes —hora y cuarenta minutos de extremo a extremo— y unos 26 millones de tokens, es decir, un par de dólares; un clon de *Fall Guys* con las físicas y las colisiones flojas y algo de recorte visual; y una máquina de Rube Goldberg construida durante su asistencia a un evento, que sí considera notable. Su consejo es probarlo por su relación calidad-precio, no por superar a la frontera.
+
+#### Modelos abiertos: LongCat 2.5, Ripple 65B e Inkling 2 Small
+
+Berman se propone dar más espacio al código abierto y presenta tres novedades. **LongCat 2.5**, de una compañía que no conocía, es un modelo multimodal de 1,6 billones de parámetros con 48 mil millones activos, fuerte en diseño creativo y tareas 3D, descargable pero inabordable para uso local. **Ripple 65B preview**, de Recursive Intelligence, es un modelo denso de pesos abiertos, estadounidense, que alcanza 80,5% en Terminal Bench 2.1 comparado solo contra otros modelos abiertos, soporta hasta un millón de tokens de contexto y cabe en un portátil o en un dispositivo compacto, a 20 céntimos por millón de tokens de entrada y 60 de salida. **Inkling 2 Small**, de Thinking Machines —la compañía de Mira Murati—, obtiene 31 en el índice de Artificial Analysis y demos notables (un juego estilo *SimCity*, un emulador de PC escrito desde cero en Python, un videojuego de estética origami); comparado con DeepSeek V4.1 Flash, el mejor modelo abierto actual, pierde por poco en código de frontera (25 frente a 28) y bastante en el resto, pero con un tamaño mucho menor. La lectura de conjunto es que están apareciendo empresas estadounidenses de pesos abiertos construyendo modelos pequeños y medianos realmente buenos.
+
+#### Meta Muse Ember y la estrategia de planificar y delegar
+
+El nuevo modelo pequeño de Meta compite en el segmento de los "modelos de trabajo" contra Claude Haiku y GPT-6 Luna: supera a Haiku en inteligencia por tarea a cerca de un tercio del precio, domina en Automation Bench, gana por poco en Terminal Bench 4.0, Agents Last Exam y OS World, y empata con Haiku 5.5 en el índice de inteligencia. Berman lo enmarca en un patrón de uso que repite varias veces en el vídeo: **planificar con un modelo caro y delegar la ejecución en modelos pequeños** para estirar la cuota. El mismo patrón reaparece con Cognition, que tomó Inkling Small, lo reentrenó y lanzó su propio modelo de código rápido pensado para subagentes.
+
+#### Imagen y vídeo: GPT Image 2.6, Omni 1.2 y Seedream 5.5
+
+OpenAI publica **GPT Image 2.6**, con generación de GIF como novedad destacada, cerca de un 50% más rápido, en dos variantes —Sunburst para calidad y Flare para velocidad— disponible en ChatGPT, Codex y la API; Berman bromea sobre un precio por tokens en un modelo de imagen. Google lanza **Gemini Omni 1.2 Flash**, su modelo de generación de vídeo: un 30% más barato, clips más largos, edición dentro de la conversación, habla más natural y planos más controlables; recuerda que OpenAI cerró Sora y que pocos laboratorios mantienen vídeo. Y **ByteDance Seedream 5.5** le parece el mejor modelo de imagen del momento por hiperrealismo —texturas de piel, pelo, tejidos y desenfoques de profundidad coherentes— además de permitir edición multiturno manteniendo la consistencia.
+
+#### El modelo abierto de imagen de MiniMax y la estela de Qwen
+
+Cierra con **MiniMax H3 Image**, un modelo de imagen de pesos abiertos que se puede descargar (68 GB completos, unos 18 GB en versión cuantizada, apta para la mayoría de equipos). Su observación de ecosistema es que MiniMax se ha convertido en la base que otros muchos afinan y reempaquetan —igual que ocurrió con Qwen 3.8 en el terreno de los modelos de lenguaje, ahora pasa con lo visual—, y recomienda simplemente señalarle la página de Hugging Face a un agente para que lo descargue y lo ponga en marcha. Su conclusión personal sigue siendo la misma que al principio: pese a la avalancha de novedades, lo que le quita el sueño es Fable 5.2.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Artificial Analysis — índice de inteligencia y coste por tarea | Benchmark | https://artificialanalysis.ai |
+| Anthropic (Fable 5.2, Opus 5.5, Sonnet 5.5, Haiku) | Empresa / modelos | https://www.anthropic.com |
+| MiniMax H3 Image — pesos abiertos (instrucciones de instalación en la descripción del vídeo) | Repositorio / modelo | https://huggingface.co |
+| Nvidia (caso del CEO y gobernanza) | Empresa | — |
+| Google — Gemini 4 Carbon y Gemini Omni 1.2 Flash | Modelos | — |
+| OpenAI — GPT Image 2.6 | Modelo | — |
+| Meta — Muse Ember | Modelo | — |
+| LongCat 2.5 (1,6 T parámetros, multimodal) | Modelo abierto | — |
+| Ripple 65B preview — Recursive Intelligence | Modelo abierto | — |
+| Inkling 2 Small — Thinking Machines | Modelo abierto | — |
+| Seedream 5.5 — ByteDance | Modelo | — |
+| Victor — agente de IA para Slack y Teams (patrocinador) | Producto | — |
+
+---
 ## [Matthew Berman] Fable 5.2 is ridiculous
 **Fecha:** 2026-11-09
 **URL:** https://www.youtube.com/watch?v=0vNyVMDFdkg

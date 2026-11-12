@@ -1,5 +1,59 @@
 # 📹 Resúmenes — Matt Wolfe
 
+## [Matt Wolfe] He Built an AI System That Runs His Entire Business
+**Fecha:** 2026-11-11
+**URL:** https://www.youtube.com/watch?v=pvl3z_GyU2Y
+**Video ID:** pvl3z_GyU2Y
+
+### 📝 Resumen
+
+En una nueva entrega de la serie *Show Me Your Workflow*, Matt Wolfe entrevista a **Peter Yang**, ex product manager con más de diez años en la bahía de San Francisco —el último tramo en Roblox— que dejó el empleo en junio para dedicarse a crear contenido a tiempo completo y que, en la práctica, opera como negocio unipersonal apoyado en un sistema de agentes de IA. El sistema lee su correo, calendario y Slack dos veces al día y le dicta qué debe atender; un "asesor" le recuerda sus objetivos anuales cuando una oportunidad lo desvía; y varios flujos preparan su pódcast, editan vídeos o le sugieren planes de fin de semana con sus hijos. Wolfe no se limita a mostrarlo: reconstruye versiones simplificadas de cada pieza en directo para que el espectador pueda replicarlas, y remata con un mensaje explícito —no hay que construir todo esto de golpe, sino empezar por una única tarea recurrente que realmente ahorre tiempo—.
+
+#### Peter Yang y el sistema que corre su negocio
+
+Yang explica que se marchó porque el ritmo de una empresa tradicional —reuniones constantes— le impedía dedicar tiempo a trastear con herramientas nuevas, algo que en su área se ha vuelto un trabajo en sí mismo. Como creador trabaja solo, con colaboradores puntuales para edición y miniaturas, y durante años fue acumulando automatizaciones sueltas; el salto fue unificarlas en un sistema coherente. Su argumento central es que perseguir cada modelo o herramienta que aparece cada semana impide construir algo duradero: lo valioso es tener un sistema personal de *skills* y automatizaciones propias, portable entre herramientas.
+
+#### Tres herramientas, un mismo juego de skills
+
+Yang reparte el trabajo entre ChatGPT, Claude Code y Grok Bot, y la clave es que los tres leen el **mismo conjunto de skills**: instrucciones guardadas para un trabajo concreto, de modo que no reexplica la tarea cada vez ni queda atado a un proveedor. Su opinión es que el *harness* (el entorno que envuelve al modelo) importa más que el modelo: ChatGPT destaca por navegador y uso de ordenador —lo usa para rellenar formularios y tareas manuales de navegador—, Grok Bot es a su juicio el mejor agente personal porque vive en una máquina virtual y por tanto sobrevive con el ordenador apagado, además de integrar X para investigación, y Claude Code concentra el trabajo local. Reconoce que rota de modelo a menudo pero que **no lo recomienda**: si pagara las suscripciones de su bolsillo, elegiría solo una. Wolfe añade su propio reparto: Claude para escritura y voz, modelos de OpenAI para código y "browser as the new operating system" como idea de fondo.
+
+#### Chief of staff y advisor: urgencia frente a dirección
+
+El **chief of staff** corre a las 7:00 y a las 16:00: lee correo de las últimas 24 horas, calendario de hoy y mañana, y Slack, y devuelve una lista numerada de lo que requiere atención, con una línea de contexto, enlace y siguiente paso sugerido, filtrando boletines y promociones. Yang responde con números ("uno: agenda la cita; dos: redacta el correo; tres: esto lo hago yo") y el sistema ejecuta; los borradores nunca se envían solos, siempre pasan por revisión humana. El **advisor** hace un trabajo distinto: no mira la urgencia sino la dirección, y contrasta cada decisión con un documento de una sola página que Yang escribe y **solo él edita** —su "zona libre de slop"— con objetivos del año, qué no va a hacer, qué le da energía, qué le desgasta y compromisos familiares no negociables. Se le pide explícitamente que no endulce. Corre una vez al mes, porque más frecuencia convierte el ejercicio en ruido. Wolfe construye una versión mínima de ambos: en el primero programa ejecución desatendida en la nube, modelo por defecto y envío matinal entre semana; en el segundo copia la URL del documento y guarda la skill reutilizable.
+
+#### El sistema de contenidos: del pódcast a las miniaturas
+
+Para cada episodio, una skill investiga al invitado y su trabajo, propone ángulos, redacta una guía de entrevista que se envía al invitado y sugiere combinaciones de título y miniatura partiendo de capturas de miniaturas que ya funcionan bien. Yang insiste en dos reglas de contexto: basta con decir quién es el invitado, de qué se va a hablar, a qué audiencia se apunta y el formato, y pedir preguntas que se construyan unas sobre otras para que suene a conversación y no a cuestionario. El resultado nunca es definitivo: hace una pasada manual antes de compartirlo. Wolfe cuenta que él todavía no delega los títulos —considera que la IA sigue siendo mala en eso y que en YouTube es una de las piezas decisivas— y que la edición de vídeo funciona bien en formato corto, donde una skill bien ajustada permite resolverlo casi de una vez, mientras que en formato largo sigue habiendo editor humano. Yang incluso se construyó una interfaz propia para dejar notas por marca de tiempo al agente, en lugar de pelearse con software de edición profesional.
+
+#### Tareas programadas que llegan por email
+
+Además del chief of staff, Yang tiene tareas con calendario propio que le envían correos porque el correo es lo que de verdad lee: una revisión semanal de negocio con métricas de suscripción, curso y embudo, más investigación de otros canales; un correo de fin de semana con planes locales para hacer con sus hijos; y un seguimiento de entrenamiento alimentado por un MCP que lee sus registros de levantamiento de peso de una aplicación que él mismo programó. La lógica es la de un buzón de informes: en lugar de vigilar aplicaciones dispersas, la IA le empuja el resumen al sitio donde ya mira.
+
+#### Un bot por trabajo: el ejemplo del bajo
+
+La recomendación estructural es no construir un bot gigante que lo haga todo, sino **un bot por trabajo**, con tres definiciones explícitas: cuál es su propósito, qué necesita para hacerlo y cómo se ve un buen resultado; si es recurrente, cuándo corre y dónde envía el resultado. Wolfe lo demuestra creando un proyecto "Bass coach" para aprender a tocar el bajo: instrucciones personalizadas, un registro de práctica en una hoja de cálculo enlazada por contexto que se sincroniza continuamente, y una comprobación semanal que repasa canción por canción qué acerca y qué aleja del objetivo y propone un cambio para la semana siguiente, programada los domingos por la noche. Como alternativa a la hoja de cálculo, le pide al mismo proyecto que sea un registrador simple —canción, fecha, autoevaluación, notas— y obtiene una aplicación funcional en minutos.
+
+#### El skill editor: auditar en lote para no sobreajustar
+
+Una de las ideas más útiles del episodio. Yang mantiene una skill cuyo único trabajo es **mantener las demás**. El error habitual es actualizar la skill tras cada conversación, lo que la llena de reglas improvisadas y de un solo uso; su método consiste en abrir un hilo nuevo, pedir que revise un histórico amplio —por ejemplo, tres semanas de hilos sobre pódcast o todas las rondas de feedback de los últimos cortos— y que detecte los patrones que se repiten. En la demostración, el análisis de trece rondas de edición en nueve cortos devuelve problemas recurrentes (B-roll desincronizado, encuadre y zoom, texto blanco que repite subtítulos, efectos fuera de tiempo) y Wolfe elige qué puntos incorporar a la skill de edición. La mejora se aplica al conjunto, no al último error.
+
+#### Lo que sigue siendo humano
+
+El cierre es un contrapeso explícito al entusiasmo: a la IA se le puede pedir que revise ortografía o limpie un texto, pero conviene exigir la lista exacta de cambios "antes y después" para aprobar uno por uno, y cualquier cosa de cara al cliente o al público pasa por ojos humanos. También el documento de objetivos está vetado a la IA, que puede sugerir pero no escribir. Wolfe resume el aprendizaje en una frase: no construir el sistema entero, elegir un flujo que ahorre tiempo, darle buen contexto y mejorarlo con el uso.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Behind the Craft — comunidad de Peter Yang con sus skills | Formación / comunidad | https://behindthecraft.com |
+| Peter Yang — canal de YouTube (enlace en la descripción del vídeo) | Canal | — |
+| Claude Code (skills, tareas programadas y conectores) | Herramienta | https://www.anthropic.com |
+| Grok Bot — agente personal en máquina virtual | Producto | — |
+| ChatGPT | Producto | — |
+| Frame.io (referencia de interfaz de notas por marca de tiempo) | Herramienta | — |
+| Roblox (empleo anterior del invitado) | Empresa | — |
+
+---
 ## [Matt Wolfe] Anthropic's Fable 5.2 is the World's Best AI Model
 **Fecha:** 2026-11-09
 **URL:** https://www.youtube.com/watch?v=2TM8W66NI_8

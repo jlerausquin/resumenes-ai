@@ -1,5 +1,60 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] Product Manager con IA: si NO haces Discovery con bots, te quedas atrás (Grok Bot)
+**Fecha:** 2026-11-11
+**URL:** https://www.youtube.com/watch?v=FR5pNCqTsLY
+**Video ID:** FR5pNCqTsLY
+
+### 📝 Resumen
+
+Javier Garzás plantea que la inteligencia artificial no ha eliminado el cuello de botella del desarrollo de producto, sino que lo ha desplazado: la programación dejó de ser el punto crítico y ahora lo que frena son los dos extremos del ciclo —decidir **qué** hay que construir (descubrimiento o *Discovery*) y **validar/verificar** lo que la IA produce a gran velocidad—. Su tesis es que ambas actividades siguen dependiendo mucho del trabajo manual, pero se aceleran de forma drástica cuando se les aplican agentes, y que quien las mantenga exclusivamente artesanales se quedará atrás. El vídeo se centra en el primero de esos extremos y en cómo su equipo incorporó una plantilla de *Grok Bots* para comprimir los tiempos de descubrimiento.
+
+#### El cuello de botella se ha movido a los extremos
+
+Durante décadas el esfuerzo se concentraba en escribir código; con la IA generativa ese tramo se automatiza y el trabajo humano se desplaza a la definición del problema y a la verificación de resultados. Garzás subraya que lanzar un producto a producción con millones de usuarios sigue exigiendo criterio técnico —alguien que sepa rodear a la IA para que genere código de forma controlada y segura—, de modo que el nuevo reparto es: descubrir qué merece la pena construirse y comprobar que lo construido funciona y no introduce riesgo.
+
+#### Qué es Discovery y por qué se volvió la fase clave
+
+El descubrimiento consiste en localizar problemas reales de usuarios, clientes o del mercado que merezcan la pena resolverse y que además sean viables para la organización; debería ser la fuente natural que alimenta el *backlog* de producto. Garzás sostiene que la irrupción de la IA lo ha convertido en algo todavía más determinante, porque ahora el coste de construir está bajando y el riesgo se concentra en construir lo equivocado. En su equipo —un formato pequeño donde el rol de product management lo asumen indistintamente todos los miembros, no una persona dedicada— descubrieron pronto que aplicar IA disparaba la velocidad y la calidad del descubrimiento, y los resultados de los últimos meses los describe como inimaginables hace unos años.
+
+#### Bots de IA: una capa de abstracción sobre los agentes
+
+La distinción conceptual que propone es la de niveles. En la base sigue estando *Claude Code* como "fontanería": conexiones MCP, skills, APIs, webhooks e inteligencia de negocio; es el entorno donde ocurre el trabajo duro del día a día y del que el equipo no prescinde. Los bots son una capa por encima: sistemas de agentes personales que simplifican enormemente lo que antes exigía montar plataformas como *OpenClaw* o *Hermes*, que resultaban laboriosos y requerían mantenimiento de infraestructura local o en servidores. La ventaja práctica es que los bots viven en una instancia en la nube administrada por el proveedor: nada que instalar, nada que mantener, y la misma sesión disponible desde escritorio, móvil o tablet —a diferencia de soluciones como *Dispatch*, que intentaban llevar el entorno local al teléfono sin conseguirlo del todo—.
+
+La diferencia funcional con un agente clásico es que el bot añade **proactividad y memoria persistente**: recuerda preferencias, datos y resúmenes, detecta patrones de trabajo y ofrece resolver problemas antes de que se le pidan; cuanto más se usa, más se ajusta al usuario. Otra ruptura es la gestión de las *skills*: ya no se escriben a mano, sino que el bot las redacta y las guarda a partir de la conversación, aprende de ellas y las reescribe a su manera.
+
+#### Del scraping frágil al navegador sin interfaz
+
+Garzás contrasta dos formas de acceder a sistemas sin API ni MCP. La primera es el scraping desde el navegador local —por ejemplo, con el plugin de Claude en Chrome, que opera la pantalla como si fuera el ratón del usuario—; funciona para tareas puntuales, pero es lento, se satura y falla cuando el flujo se alarga más de unos minutos. La segunda es la que ofrecen los bots: al ejecutarse en una máquina remota, el scraping se hace fuera del navegador del usuario y resulta mucho más fiable, lo que permite automatizar operaciones sobre plataformas cerradas (el propio canal de YouTube, estadísticas, avisos de comentarios) que antes quedaban fuera del alcance de los agentes.
+
+#### Una empresa paralela de bots: veinte agentes con jerarquía
+
+El equipo mantiene cerca de veinte bots, cada uno con una única tarea, bautizados con nombres de superhéroes y personajes de Star Wars y Marvel. La nomenclatura no es capricho: acaba instalándose en el lenguaje del equipo ("pregúntale a Doctor Strange") y hace más natural la coordinación. Para no perderse entre tantos agentes aplican el viejo principio de divide y vencerás y los organizan jerárquicamente: hay jefes intermedios (*head of*) a los que se consulta y un bot superior —Capitán América— que puede hablar con todos, delegar y consolidar lo que reportan los niveles inferiores. Los colores de fondo de cada bot en la interfaz identifican su departamento, y existe un bot dedicado a cada fuente de información, al que llaman *observatorio*.
+
+#### Dos flujos de entrada: lo externo y lo interno
+
+El sistema se alimenta por dos vías que convergen en el descubrimiento. La primera es externa: Cyclops y sus bots subordinados vigilan tendencias en Twitter y LinkedIn sobre los temas de la casa, además de plataformas como Facebook (Odin). La segunda es interna: Charles Xavier (Profesor X) coordina bots que revisan incidencias, consultas de alumnos, correos y conversaciones; entre ellos, Leia atiende por WhatsApp a estudiantes y a cualquier interesado, entrenada con el conocimiento acumulado de Garzás —miles de publicaciones de su web y los vídeos del canal— y reportando tendencias y problemas a su *head of*, que a su vez informa al bot raíz. Toda esa información, antes imposible de procesar en tiempo razonable, entra en el ciclo de descubrimiento ya clasificada y sintetizada.
+
+#### Personas y Value Proposition Canvas ejecutados por bots
+
+El uso de los bots es de **entrada y síntesis**, no de creación de contenido: recogen información, la ordenan y generan informes periódicos. Sobre esa base, Charles Xavier aplica técnicas clásicas de descubrimiento —construcción de *personas* (cliente, usuario o alumno ideal con sus problemas, pensamientos, dolores y fuentes de satisfacción), *value proposition canvas* y *lean canvas*— de modo que cuando el equipo humano se sienta a revisar, el trabajo mecánico y arduo ya está hecho y solo queda aportar criterio. Garzás insiste en que el componente manual, la intuición y la interpretación siguen siendo insustituibles; lo que cambia es el volumen de datos que se puede digerir y la velocidad a la que llega.
+
+#### El cierre: dos extremos que exigen criterio humano
+
+La conclusión del vídeo vuelve al punto de partida: el descubrimiento se potencia con IA pero no se delega, y la validación se convierte en la otra gran tarea pendiente, porque saber si lo que la IA ha producido en minutos es correcto, seguro y no riesgoso exige revisión humana. Quien automatice solo la parte visible del ciclo —la generación— y descuide los extremos estará optimizando el tramo que ya no es el problema.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Javier Garzás — web personal (artículos y contacto por WhatsApp) | Sitio del autor | https://javiergarzas.com |
+| Javier Garzás — canal de YouTube | Canal | https://www.youtube.com/@javiergarzas |
+| *Irremplazable en la era de la IA* — libro con casos de Discovery asistido por IA (enlace en la descripción del vídeo) | Libro | — |
+| Claude Code (entorno de agentes, MCP y skills del equipo) | Herramienta | https://www.anthropic.com |
+| Grok Bots (bots de IA con instancia en la nube e interfaz móvil/escritorio) | Producto | — |
+| *Value Proposition Canvas* y *Lean Canvas* (técnicas de descubrimiento aplicadas por los bots) | Metodología | — |
+
+---
 ## [Javier Garzás] La IA jubila al testing tradicional, pero crea una profesión NUEVA
 **Fecha:** 2026-11-04
 **URL:** https://www.youtube.com/watch?v=MtYUsQ7HdBg
