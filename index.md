@@ -1,7 +1,7 @@
 # 📹 Resúmenes
 
 Resúmenes de los canales de IA y de aprendizaje monitorizados, y de podcasts.
-Última actualización: 2026-11-12 08:06
+Última actualización: 2026-11-13 08:02
 
 ---
 
@@ -15,7 +15,7 @@ Resúmenes de los canales de IA y de aprendizaje monitorizados, y de podcasts.
 
 ## 🧠 Aprendizaje y estudio
 
-- **[Justin Sung](justin-sung.md)** — 4 resúmenes (mod: 2026-11-06 08:05)
+- **[Justin Sung](justin-sung.md)** — 5 resúmenes (mod: 2026-11-13 08:02)
 
 ---
 

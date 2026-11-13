@@ -1,5 +1,61 @@
 # 📹 Resúmenes — Justin Sung
 
+## [Justin Sung] How to Use AI Without Letting It Think for You (step by step guide)
+**Fecha:** 2026-11-13
+**URL:** https://www.youtube.com/watch?v=yFtB-ekr8d4
+**Video ID:** yFtB-ekr8d4
+
+### 📝 Resumen
+
+Justin Sung, especialista en aprendizaje y rendimiento cognitivo, presenta un diagrama de decisión para determinar cuándo conviene delegar una tarea en un modelo de lenguaje y cuándo no. El punto de partida es una constatación que considera ya suficientemente documentada: usar la IA en exceso o de la forma equivocada deteriora la capacidad de juicio. Tras dos años aplicándolo con cientos de profesionales de sectores distintos (directivos, desarrolladores, médicos, contables, docentes), propone un criterio único que se recorre antes de abrir ChatGPT o Claude. El objetivo declarado no es ahorrar tiempo, sino seguir siendo la persona en quien los demás confían para decidir.
+
+#### El coste real de delegar el pensamiento
+
+El vídeo sostiene que el debate sobre la IA en el trabajo está mal planteado cuando se reduce a eficiencia. La pregunta relevante es cómo mantener o mejorar la capacidad de juicio crítico mientras se aprovecha el ahorro de tiempo. Sung observa un patrón preocupante en profesionales con años de experiencia: personas que antes destacaban por su capacidad de análisis y resolución de problemas han ido perdiendo esa ventaja por delegar demasiado. Describe ese desgaste como una erosión autoinfligida de aquello que las hacía valiosas, y advierte de que el fenómeno no se limita al rendimiento individual, sino que se percibe en la confianza que los equipos depositan en sus miembros.
+
+#### Pregunta 1: ¿tienes el conocimiento o la habilidad para hacerlo sin IA?
+
+Todo el diagrama cuelga de esta primera pregunta. Sung distingue entre tareas de alto nivel (definir la estrategia de producto, gestionar un equipo, diseñar la solución de una funcionalidad), de nivel medio y de ejecución pura (configurar un servidor, redactar un correo concreto). La mayoría de las tareas diarias caen dentro del repertorio propio: son cosas que se llevan años haciendo. Solo un subconjunto menor son situaciones nuevas —tecnologías desconocidas, proyectos inéditos— donde efectivamente falta la competencia. Esa distinción es la que activa las dos ramas del diagrama.
+
+#### "No lo sé y no importa": el único caso de delegación cómoda
+
+Si no se tiene el conocimiento, la segunda pregunta es si se necesitará en el futuro para tomar decisiones; la tercera, si las consecuencias de equivocarse son sustanciales. Cuando ambas respuestas son negativas se cae en el escenario que Sung llama "no lo sé, da igual". Es habitual en equipos pequeños, donde a alguien le llega una tarea puntual sin especialista disponible: se pregunta a la IA cómo hacerlo, se siguen las instrucciones y se termina. El ejemplo personal que pone es configurar algo en un servidor web nuevo: no lo había hecho nunca, no volverá a necesitar ese conocimiento y un error no tendría mayor recorrido. Aquí usar el modelo es razonable.
+
+#### "No lo sé pero importa": cuando la IA erosiona la confianza
+
+Si las consecuencias sí son relevantes, el escenario cambia por completo. El ejemplo que utiliza son las políticas de privacidad y el cumplimiento del RGPD: no tiene formación jurídica, pero un error tendría exposición legal seria y carece de medios para detectarlo. Sung subraya que en esos casos el problema no es solo la mala decisión, sino el coste en confianza: quien delega una tarea está confiando en el criterio de otra persona, y no se confía el criterio a alguien sin conocimiento, habilidad y experiencia, porque no hay garantía de que detecte matices o errores. Añade una observación empírica reveladora: cuando usa un modelo sobre temas donde es experto (ciencia del aprendizaje, ciencia cognitiva) discrepa del 30-40 % del contenido; cuando lo usa sobre temas que desconoce, solo del 2-5 %. La explicación es que el conocimiento es lo que permite detectar el error, de modo que sin él no solo es más probable recibir mal consejo, sino ser incapaz de verlo —y ni siquiera saber formular las preguntas adecuadas. La solución en esta rama es aprender lo suficiente, contratar a quien sepa, o replantear el plan para eliminar la exposición al riesgo.
+
+#### El premortem como última red de seguridad
+
+Cuando ninguna de las salidas anteriores es viable y se va a usar la IA de todos modos, Sung exige un premortem: suponer de antemano que el plan fracasó y preguntarse por qué. La diferencia con el post-mortem es temporal —uno analiza el fallo cuando ya ocurrió, el otro lo anticipa—. Insiste en hacerlo incluso cuando la propuesta de la IA parece sensata, precisamente porque en el escenario "no lo sé" la sensación de coherencia no es un indicador fiable. Este paso convierte riesgos e incertidumbres en información explícita.
+
+#### "No lo sé pero lo necesitaré saber": la trampa de aprenderlo después
+
+La rama que Sung considera más peligrosa es la de quien hoy no domina la materia pero tendrá responsabilidad continuada sobre ella. En un equipo, siempre que alguien dependa de tu criterio para entregar un resultado sostenido, necesitas el conocimiento real. A nivel individual, son las capacidades que uno quiere como ventaja propia: escribir bien, comunicar, regularse emocionalmente. Delegarlas equivale a externalizar el desarrollo personal y volverse menos capaz con el tiempo. El autoengaño típico —"uso la IA hoy y aprendo más adelante"— falla porque la estrategia generada no se domina: cuando lleguen preguntas, nuevos datos y la necesidad de ajustar el plan, quien la propuso no sabrá defenderla y cargará igualmente con las consecuencias. El resultado es parecer incompetente o irresponsable, cuando habría bastado invertir el tiempo al principio. La forma de evitar la trampa es aclarar de entrada las condiciones reales del encargo.
+
+#### La urgencia como variable que reordena las opciones
+
+Sung introduce la urgencia como filtro transversal. Si no hay prisa, la vía correcta es aprender o contratar. Si la hay, puede no haber tiempo para aprender pero sí para incorporar a alguien con la expertise, o para replanificar y mitigar el riesgo. Si aun así se usa un modelo para sacar algo adelante, los riesgos deben quedar explícitamente reconocidos. Aquí aparece el argumento más contraintuitivo del vídeo: señalar las incertidumbres por adelantado suele hacer que los decisores senior reconsideren el enfoque, y eso aumenta la confianza en quien levantó la mano, no la reduce. Poner sobre la mesa información que evita perseguir durante un trimestre algo inviable es lo que hace valioso a un profesional.
+
+#### "Lo sé hacer": ¿es la IA igual de buena que yo?
+
+Si ya se tiene la competencia, la pregunta pasa a ser si la IA es igual de buena en esa tarea concreta. La regla práctica que propone: si una persona media con algo de formación y práctica podría hacerlo, probablemente el modelo también. La IA falla cuando el problema es multifactorial, admite muchas interpretaciones, exige acumular experiencia y provoca que diez expertos den diez opiniones distintas. Otra pregunta útil: ¿existe una respuesta correcta? Si no la hay, el criterio experto gana. Este filtro sirve para no perder horas de ingeniería de prompts buscando algo que el modelo no puede dar. Si la IA no es igual de buena, se hace uno mismo: su newsletter es el ejemplo, escrita sin LLM deliberadamente para que el contenido sea confiable. Si es igual de buena, queda una última pregunta: ¿ahorra una cantidad significativa de tiempo? Solo entonces es aceptable delegar; si el ahorro es marginal, sostiene que conviene hacerlo igualmente, porque el esfuerzo preserva la capacidad de pensar y ejecutar, y con ella la confianza ajena.
+
+#### Las dos excepciones y el criterio de fondo
+
+El diagrama se cierra con dos únicas situaciones donde usar el modelo es aceptable: no saber, no necesitarlo nunca y que un error sea intrascendente; o saber hacerlo, que la IA sea igual de buena y que el ahorro de tiempo sea sustancial. En todos los demás casos —consecuencias relevantes, necesidad futura del conocimiento, ahorro marginal o inferioridad del modelo— la salida es hacerlo uno mismo, aprender, contratar o replanificar. Sung resume el resultado como ser "potenciado por IA" en lugar de "dependiente de IA": el juicio crítico se conserva y mejora donde debe mejorar, y la IA se usa con confianza donde realmente aporta.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| ChatGPT | Herramienta (OpenAI) | https://chatgpt.com |
+| Claude | Herramienta (Anthropic) | https://claude.ai |
+| Canal de Justin Sung | Canal de YouTube | https://www.youtube.com/@JustinSung |
+| Newsletter semanal gratuita de Justin Sung | Recurso (enlace en la descripción del vídeo) | — |
+| Diagrama de flujo descargable | Recurso (Instagram: comentar "Save my brain" en el post enlazado en la descripción) | — |
+
+---
 ## [Justin Sung] Why You're Always Tired Between 1pm to 4pm (and what to do about it)
 
 **Fecha:** 2026-11-06
