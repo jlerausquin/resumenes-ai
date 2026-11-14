@@ -1,6 +1,75 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matt Wolfe] AI News: Things Will Never Be The Same
+**Fecha:** 2026-11-13
+**URL:** https://www.youtube.com/watch?v=G_Jrexy_5Bg
+**Video ID:** G_Jrexy_5Bg
+
+### 📝 Resumen
+
+Matt Wolfe califica la semana como la más convulsa que recuerda en el mundo de la IA, comparable solo a la semana en que Sam Altman fue despedido y recontratado en OpenAI. En su repaso semanal sostiene que se lanzaron dos de los mejores modelos de lenguaje hasta la fecha, pero que ambos quedaron eclipsados por la crisis en Nvidia.
+
+#### La salida de Jensen Huang de Nvidia
+
+El eje del programa es la cadena de acontecimientos que terminó con la dimisión del fundador y consejero delegado de Nvidia. Semanas antes había trascendido que el gobierno estadounidense sospechaba de una presunta espía china infiltrada en la compañía; después se publicó que esa persona mantenía una relación sentimental con Jensen Huang. Se trata de Alice Huang —mismo apellido, sin parentesco—, ejecutiva de MegaSpeed, una empresa con sede en Singapur que estaba bajo escrutinio por introducir chips avanzados de Nvidia en China. El 8 de noviembre Huang envió un memorando interno a toda la plantilla en el que reconocía una infidelidad, pedía perdón a su familia y a los empleados y anunciaba que el consejo había abierto una investigación independiente sobre las preocupaciones de seguridad nacional, comprometiéndose a cooperar.
+
+Wolfe insiste en que el problema no es la infidelidad en sí, sino su intersección con el negocio: según el reportaje citado, los vínculos prolongados de Huang con Alice Huang habrían facilitado ventas de chips a China por más de 7.000 millones de dólares. Entre 2023 y 2025 las importaciones de Nvidia de MegaSpeed sumaron 4.600 millones; parte se quedó en el Sudeste Asiático y otra fue a parar a Century Litong, compañía china fundada en 2023 cuyos chips acabaron en centros de datos que sirven a Alibaba, Tencent y laboratorios chinos menores. La historia se agravó el miércoles con la revelación de una relación con Kimberly Powell, vicepresidenta de salud de Nvidia y subordinada directa de Huang, lo que contraviene el propio código de conducta de la empresa; el jueves, el mismo día en que se anunció la transición, apareció un tercer caso con otra empleada.
+
+La conclusión institucional llegó ese jueves: Huang dimite como consejero delegado y no permanece en el consejo, y Colette Kress, vicepresidenta ejecutiva y directora financiera, asume como consejera delegada interina, con pocas probabilidades —según Wolfe— de quedarse en el puesto a largo plazo. El presentador subraya el vértigo del cambio: 33 años al frente de una compañía que fundó y con la que llegó a los 5 billones de dólares de capitalización, trabajando de friegaplatos en Denny's durante los inicios, y que hoy está en el centro de prácticamente toda la IA (Google, Microsoft, Anthropic, Meta, Amazon; Apple es la gran excepción). Estima en un 50 % la probabilidad de que Huang vuelva en unos meses si la acción sigue sufriendo, dado su papel de cara visible y principal valedor del código abierto y de una regulación laxa.
+
+#### El rastro contable de los chips hacia China
+
+Wolfe aporta un dato propio del análisis financiero: los ingresos geográficos reportados por Nvidia. En julio Singapur era el segundo mayor destino de sus chips; en octubre esa línea desapareció del informe. La explicación está en un cambio de metodología aplicado en octubre de 2025, cuando la empresa pasó a atribuir los ingresos según la sede del cliente en lugar de la ubicación de facturación. Con el nuevo criterio, Singapur deja de figurar mientras Taiwán y Estados Unidos suben con fuerza y China se mantiene estable. Para el presentador, ese detalle convierte la trama personal en una pregunta sobre rutas de exportación: si Huang buscaba formas de desviar chips a China o simplemente desconocía lo que hacía su pareja.
+
+#### Claude Fable 5.2 y Mythos 5.2
+
+El 9 de noviembre Anthropic lanzó Claude Fable 5.2 y Mythos 5.2, que según la mayoría de los benchmarks es el mejor modelo disponible, con excepciones puntuales frente a Gemini 4 Carbon. Wolfe lo ha adoptado como herramienta diaria para casi todo: algo más barato que la versión 5.1 y muy sólido en código, diseño y edición de vídeo. En sus pruebas propias, el test de juego 3D "Megabonk" quedó por debajo de lo que logró Gemini en calidad gráfica, y en su "Busi Bench" —evaluado por un LLM juez— se llevó el séptimo puesto tras casi 20 minutos y 5 dólares de generación. En Artificial Analysis, que agrega decenas de benchmarks, encabeza la tabla con un margen amplio, aunque es el más caro por tarea cuando se ejecuta en su nivel máximo; el propio laboratorio recomienda los niveles medio o alto.
+
+#### Gemini 4 Carbon y Gemini 4 Hydrogen
+
+Google anunció Gemini 4 Carbon el 28 de octubre con resultados que lo situaban como el mejor modelo visto, en primera posición de Artificial Analysis por delante de Opus 5.5, pero lo restringió a testers de ciberseguridad. Lo liberó al público justo el día después del lanzamiento de Fable 5.2, lo que Wolfe interpreta como una reacción defensiva: quedó segundo, eclipsado. Fuera de la API solo está disponible para suscriptores de AI Ultra, es decir, el plan de 200 dólares al mes; su precio actual de 2 dólares por millón de tokens de entrada y 10 de salida subirá a 4 y 20 respectivamente al terminar el periodo promocional. En las pruebas del presentador, el juego 3D generado por Carbon se veía gráficamente mejor que el de Fable 5.2 y en Busi Bench quedó segundo con 11 minutos y 46 céntimos de coste, frente a los 5 dólares de Fable: su conclusión es que está infravalorado.
+
+El tercer modelo de la semana fue Gemini 4 Hydrogen, una variante más pequeña, rápida y barata, con ventana de un millón de tokens y precios de 1,50 y 0,75 dólares por millón de tokens de entrada y salida. No compite en la frontera sino contra la clase media —Claude Sonnet y GPT 6.1 Terra—; sus 54 puntos de índice quedan a uno de los 55 de 6.1 Soul y a cinco de Opus 5.5, con un coste medio por tarea de 3,16 dólares frente a los 10,04 de Opus. Wolfe remata que un modelo así, hace tres meses, habría sido el mejor del mundo, y que los modelos de Google siguen destacando en la generación de SVG.
+
+#### OpenAI y su API de decisiones
+
+En el segmento patrocinado, Wolfe presenta la Decisions API de OpenAI, pensada para cuando no hace falta una respuesta larga sino una decisión rápida. Distingue tres tipos: *predicate*, que devuelve una probabilidad (por ejemplo, si el paquete de una devolución está dañado); *choice*, que elige entre una lista de opciones; y *score*, que puntúa en una escala. Frente a la Responses API de GPT-6 Luna puede ser hasta diez veces más rápida y cuesta 10 céntimos por millón de tokens de entrada no cacheados, sin cargos por salida. Los usos que propone son triaje de correo, puntuación de la gravedad de una incidencia técnica y control del bucle de un agente (seguir, reintentar o pedir ayuda al usuario). Google lanzó su propia API de decisiones esa misma semana, y Wolfe señala que ya casi todas las grandes empresas tienen una.
+
+#### Adobe MAX: agentes dentro de las herramientas creativas
+
+En el evento anual de Adobe en Florida, la compañía mostró una apuesta clara por agentes y asistentes embebidos en todas sus aplicaciones: en Photoshop se le pide colocar objetos de grupo en el lienzo y hace la edición; en Premiere basta decir "monta el material submarino en una secuencia"; en InDesign se pueden generar 50 versiones de un documento sustituyendo el contenido con un CSV adjunto. Firefly Design sigue la misma lógica —preparar cartelería de un festival con los activos propios, adaptar artes a formatos de redes sociales, cambiar el color de un material—, de modo que el usuario describe lo que quiere en lugar de manipular herramientas. En la sección Sneaks presentaron el cambio de perspectiva a partir de una sola foto y el Project Sound Bender para modular un sonido arrastrando un control. El balance del presentador es escéptico: buena parte de lo mostrado ya existe en OpenAI, Runway y otras plataformas, y Adobe estaría sobre todo poniéndose al día e integrándolo.
+
+#### Empresas en ChatGPT, modelos menores y la IPO de Anthropic
+
+ChatGPT incorpora "Businesses in ChatGPT", un sistema para reclamar el perfil de una empresa —similar a las fichas de Google— con estadísticas de visitas y capacidad de editar los datos que se muestran. Meta lanzó Muse Amber, un modelo pequeño y eficiente de 10 céntimos por millón de entrada y 50 por millón de salida, en la liga de Haiku y Luna. MiniMax presentó H3 Image, capaz de generar imágenes en 4K en diez segundos, disponible por API, en MiniMax Code y con un espacio propio en Hugging Face; Wolfe destacó ejemplos como un fotograma de cine de los setenta en una parada de autobús de Tokio bajo la lluvia o una panadería subterránea en corte isométrico.
+
+Anthropic detalló su salida a bolsa —oferta prevista entre 70 y 78 dólares por acción, con número de títulos aún sin fecha— y amplió Claude con varias funciones: Sheets, para generar hojas de cálculo con pestañas, fórmulas y formato; Whiteboards, para idear en un lienzo colaborativo; Interactive Connectors, que permiten a socios como Adobe, Atlassian, Salesforce, NetSuite y Workday incrustar aplicaciones dentro de Claude; Claude Data, para consultar datos propios; y Claude Meetings, que escucha reuniones y toma notas, en competencia directa con Granola. Por último, Automattic, la empresa detrás de WordPress, presentó Space Fast, una plataforma para desplegar aplicaciones creadas por "vibe coding" conectándose al modelo favorito del usuario, en la estela de Lovable y Bolt.
+
+#### Lectura de conjunto
+
+Wolfe cierra con una idea doble: la semana fue histórica tanto por la calidad de los modelos accesibles —Fable 5.2 y Gemini 4 Carbon— como por el terremoto de liderazgo en Nvidia, la empresa sobre la que descansa toda la infraestructura de la IA. Quedan abiertas preguntas sobre quién la dirigirá, si conservará la capacidad de convencer a empresas y gobiernos y cómo se moverá el precio de las acciones. Anuncia que seguirá la historia y recuerda su método de trabajo: absorber el caudal de noticias toda la semana y condensarlo cada viernes, grabando el jueves, de modo que lo que ocurra después pasa al vídeo siguiente.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Nvidia — comunicados y notas de prensa | Empresa | [nvidianews.nvidia.com](https://nvidianews.nvidia.com) |
+| Anthropic — Claude y anuncios corporativos | Producto / empresa | [anthropic.com](https://www.anthropic.com) |
+| Google Gemini | Producto | [gemini.google.com](https://gemini.google.com) |
+| Google DeepMind — modelos | Empresa | [deepmind.google/models](https://deepmind.google/models/) |
+| OpenAI — plataforma y APIs | Producto | [openai.com](https://openai.com) |
+| Meta AI | Empresa | [ai.meta.com](https://ai.meta.com) |
+| Adobe MAX | Evento | [adobe.com/max](https://www.adobe.com/max.html) |
+| Adobe Firefly | Producto | [adobe.com/products/firefly](https://www.adobe.com/products/firefly.html) |
+| MiniMax | Empresa | [minimax.io](https://www.minimax.io) |
+| Hugging Face | Plataforma / repositorio de modelos | [huggingface.co](https://huggingface.co) |
+| Automattic (WordPress) | Empresa | [automattic.com](https://automattic.com) |
+| Artificial Analysis — rankings de modelos | Benchmark | [artificialanalysis.ai](https://artificialanalysis.ai) |
+| Granola — notas de reuniones | Herramienta | [granola.ai](https://www.granola.ai) |
+| Vídeo previo del canal sobre Claude Fable 5.2 | Análisis del autor | [youtube.com/@mreflow](https://www.youtube.com/@mreflow) |
+
+---
 ## [Matthew Berman] AMA with me and the team!
 **Fecha:** 2026-11-11
 **URL:** https://www.youtube.com/watch?v=LFzBzzHZESE
