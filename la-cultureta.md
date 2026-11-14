@@ -2,6 +2,57 @@
 Programa de Rubén Amón, Rosa Belmonte, Guillermo Altares, Sergio del Molino e Isabel Vázquez.
 Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en qué minuto.
 
+## [La Cultureta] La cultureta 14/11/2026
+**Fecha:** 2026-11-14
+**Programa:** Gran Reserva · 89 min
+**URL:** https://www.ondacero.es/podcast/programas/la-cultureta/cultureta-14112026_202611146af7c3212eae5c13c350fcae.html
+**GUID:** 6af7c3212eae5c13c350fcae
+
+### 📚 Recomendaciones
+
+- **Cine** — *Godzilla Minus Zero*, de Takashi Yamazaki. Lo recomienda **Guillermo Altares** [01:37]. Por qué: insiste en que hay películas que solo se disfrutan en sala y que esta es una de ellas —el destrozo pide pantalla grande y la reconstrucción del Japón de la posguerra pide detalle—; le fastidia que en España se haya estrenado en pocas salas y sesiones raras cuando en Estados Unidos ha sido la más taquillera del fin de semana, con una versión en japonés por delante de todas las americanas.
+- **Cine** — *Hope*, de Na Hong-jin. Lo recomienda la mesa [01:58]. Por qué: la ponen como la otra película de monstruos que hay que ver en cine, con la reconstrucción de la Corea de finales de los sesenta y principios de los setenta, la paranoia de espías de la posguerra y un nivel de destrucción que exige pantalla grande; la definen como película profundamente cinéfila, con homenajes por todas partes y una escena escatológica antológica.
+- **Teatro** — *Chéjov Chéjov*, espectáculo de Juan Carlos Corazza a partir de obras breves, cuentos y escritos de Antón Chéjov, con Javier Bardem en su primera vez sobre las tablas junto a Alicia Borrachero, Rafa Castejón, Ben Temple y Manuela Velasco; desde el 19 de noviembre, en el Espacio Zafra de Madrid (sala dudosa). Lo recomienda la mesa [16:16]. Por qué: es el anuncio de la "recomendación de la semana" en la sección de crítica —con guiño paródico incluido— y viene acompañado de la queja de que las entradas más baratas costaban 60 euros, que ya no queda ninguna y de la petición de un pase de prensa decente.
+- **Libro** — *Éxodo y exilio del arte. La odisea del Museo del Prado durante la Guerra Civil*, de Arturo Colorado Castellary, en edición revisada y ampliada de Cátedra. Lo recomienda **Rosa Belmonte** [27:48]. Por qué: tenía la edición original y es uno de los libros que más le pone los pelos de punta y que más ha regalado; reconstruye la evacuación de las obras desde agosto del 36 hasta la firma del acuerdo de Figueras y su salida hacia Ginebra, con la vuelta incluida.
+- **Cine** — *El tren* (*The Train*, 1964), de John Frankenheimer, con Burt Lancaster. Lo comenta la mesa [50:19]. Por qué: una de las películas favoritas de quien la trae —creía recordar que está en Filmin—, y le sirve de contrapunto a la historia del Prado: el maquinista que va sorteando a los nazis para que no se lleven las obras de arte a Alemania, y la duda de si el guion se inspiró en esta evacuación real.
+- **Libro** — *El mundo de los Bach*, de Volker Hagedorn. Lo recomienda **Guillermo Altares** [69:34]. Por qué: lo considera precioso, muy recomendable y muy original —mezcla de historia, periodismo y música, muy erudito y a la vez fácil de leer—, y le interesan sobre todo los detalles: la boda de 1679 con su quodlibet, la princesa viuda danesa que patrocina al abuelo Christoph, la peste de Erfurt y el archivo familiar que acaba en Kiev; avisa de que con tanto Johann Christoph uno termina por perderse.
+- **Música** — Gram Parsons: *Sweetheart of the Rodeo* (The Byrds, 1968), *The Gilded Palace of Sin* (Flying Burrito Brothers) y sus dos discos en solitario con Emmylou Harris. Lo recomienda **J. F. León** [84:22]. Por qué: aprovecha su entrada en el Rock and Roll Hall of Fame como influencia musical —casi cuarenta años después de la creación de ese paseo de la fama y cuando habría cumplido ochenta— para reivindicar al niño rico que se arruinó haciendo "Cosmic American Music", que entendió que las fronteras entre country, soul, gospel y rock eran artificiales y murió con 26 años de sobredosis en 1973.
+
+### 🗒️ De qué se habló
+
+- Apertura cinéfila que continúa la conversación del viernes: *Godzilla Minus Zero* en sesiones matinales, el combate con Ghidorah, la tradición del kaiju de cartón piedra frente a los efectos digitales de las dos últimas entregas, y el detalle de que la sala estaba llena pese al maltrato de los distribuidores; al hilo aparece *Hope* y la Corea de la posguerra.
+- El caso Nvidia: la "mujer de rosa" y la operación para conseguir millones de chips prohibidos a China a través de una empresa de Singapur con inversores de Shanghái, la dimisión de Jensen Huang y sus tres relaciones simultáneas; el paralelo con el caso Profumo y con *El sastre de Panamá*, y la digresión sobre copias de seguridad y formatos a cuenta del apagón de Outlook.
+- La evacuación del Prado: los bombardeos sobre el museo desde agosto del 36, el acuerdo de Figueras firmado a oscuras y con cerillas, los 1.868 bultos y casi 140 toneladas que llegan a Ginebra, el comité internacional improvisado que ni siquiera estaba constituido legalmente, la exposición de 1939 con la que el franquismo se atribuyó el mérito, el tren especial y el ferroviario que detectó el problema de gálibo, el *2 de mayo* desgarrado y restaurado en 2007 y los milicianos a los que hubo que convencer para que no quemaran las Meninas.
+- Los nombres propios del salvamento —Timoteo Pérez Rubio, recuperado después por el MEIAC de Badajoz; José María Sert, franquista que avisaba a Burgos de dónde estaban las obras; el duque de Alba en Londres— y la tesis de fondo: Madrid fue la primera gran ciudad bombardeada de forma sistemática, el objetivo era el terror y no los objetivos militares, y la especie de las "hordas rojas" saqueando el patrimonio fue propaganda, frente a las campañas republicanas para salvar imágenes y conventos.
+- El reportaje del *New York Times* sobre un periodista que pasa tres horas seguidas mirando las Meninas, a partir del ejercicio que impone la profesora de Harvard Jennifer Roberts, frente al dato de los 17 segundos de media ante un cuadro medidos en 2001 y los 21 de 2017; y el consejo de Carlos Cano de ver pocas cosas y mucho tiempo.
+- Los Bach, ya sin las prisas del viernes: la ponencia sobre el libro de Hagedorn, el molino de Veit Bach, la guerra de los Treinta Años, la peste que dejó Erfurt en 6.000 habitantes, los músicos municipales que cobraban treinta florines y el derecho a fabricar su propia cerveza, y las mujeres reducidas a una inicial; cierre con la historia de los trirremes y la réplica Olympias.
+
+> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+
+
+## [La Cultureta] La Cultureta 13x11: Godzilla, James Bond y una espía china
+**Fecha:** 2026-11-13
+**Programa:** Cultureta 13x11 · 31 min
+**URL:** https://www.ondacero.es/podcast/programas/mas-de-uno/cultureta/cultureta-13x11-godzilla-james-bond-espia-china_202611136af7019356e17a0007a450d0.html
+**GUID:** 6af7019356e17a0007a450d0
+
+### 📚 Recomendaciones
+
+- **Cine** — *Godzilla Minus Zero*, de Takashi Yamazaki, y su predecesora *Godzilla Minus One*. Lo recomienda **Guillermo Altares** [22:45]. Por qué: se pidió un día libre para verla en una sesión matinal —en España se ha estrenado en muy pocas salas y en horarios escondidos, pese a haber sido la película más taquillera del fin de semana en Estados Unidos— y sostiene que las dos entregas de esta nueva serie están muy bien hechas y devuelven al monstruo a la posguerra japonesa, que es el lugar donde de verdad nació.
+- **Cine** — *Japón bajo el terror del monstruo* (*Gojira*, 1954), de Ishiro Honda. Lo recomienda **Guillermo Altares** [25:15]. Por qué: el original en blanco y negro, disponible en Filmin, le parece la mejor de la saga: rodado en los estudios Toho con un director que no era la primera opción de la productora y que acabó firmando una película de autor, retrata el Japón posterior a Hiroshima y Nagasaki y también el occidentalizado y amigo de Washington, sin poder nombrar a ninguno de los dos.
+- **Cine** — *Pulgasari* (Corea del Norte, 1985). Lo comenta la mesa [28:24]. Por qué: es la elegida como mejor película de monstruos del programa, con el aliciente de su historia de producción: patrocinada por el régimen, con Kim Jong-il acreditado como productor en caracteres más grandes que el propio monstruo y con un director surcoreano secuestrado para terminarla que después no fue liberado.
+
+### 🗒️ De qué se habló
+
+- La historia de la semana que traía el guionista: Alice Huang, la "mujer de rosa", presunta espía china que se infiltró en Nvidia gracias a su relación con el consejero delegado Jensen Huang —dimitió el día anterior—; el FBI la tiene en el radar y se ha sabido que el directivo mantenía tres relaciones extramatrimoniales, dos de ellas con vicepresidentas de su propia compañía.
+- El casting del nuevo James Bond a partir de la lista de cinco finalistas de la prensa británica (Josh O'Connor, Callum Turner, Jack Lowden, Nicholas Hoult y Robert Pattinson), con las propuestas de la casa —Rocío Ibáñez haciendo de Margarita Seisdedos, Tom Hardy o Totoro— y el debate sobre si Bond puede ser mujer; la broma de que la próxima entrega se titulará "007 contra Doctor No, lo siguiente".
+- El concurso: un fragmento doblado de *La espía que me amó* que acierta Rubén Amón con sospechosa rapidez; la organización anuncia una "investigación específica" —con pullas a la UCO y a Marlasca— que resolverá el viernes siguiente. Clasificación: Altares 11,5; Amón 6,5; Rosa Belmonte y Sergio del Molino 6; Nacho Vigalondo sigue sin estrenarse.
+- Godzilla: la nueva serie de Yamazaki, el origen del personaje como metáfora de la radiación y del escándalo del pesquero irradiado por las pruebas nucleares estadounidenses en marzo de 1954 (la película se rodó en verano y se estrenó en noviembre), el combate con el dragón tricéfalo Ghidorah y la lectura política del original, donde el monstruo sustituye al bombardeo que no se podía nombrar.
+- Cierre con la mejor película de monstruos de cada uno —*Pulgasari*, *Tiburón*, *Un hombre lobo americano en Londres*, *La bestia del reino*— y la promesa de Nacho Vigalondo de recomendar la semana que viene una "obra maestra" que no quiso desvelar.
+
+> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+
+
 ## [La Cultureta] La cultureta 07/11/2026
 **Fecha:** 2026-11-07
 **Programa:** Gran Reserva · 89 min
@@ -34,7 +85,6 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 
 > ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
 
-
 ## [La Cultureta] La Cultureta 13x10: Los Bach son muy amables (y panaderos)
 **Fecha:** 2026-11-06
 **Programa:** Cultureta 13x10 · 31 min
@@ -56,7 +106,6 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 - El concurso de la semana, resuelto con un fragmento doblado de *Amadeus* de Miloš Forman —tres puntos para Guillermo Altares, medio punto de consolación para Amón—, el repaso a la clasificación y la pulla de Nacho Vigalondo contra la prensa que tituló que el *New Yorker* llamaba "fracaso" a la película de los Javis cuando la crítica decía "busto".
 
 > ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
-
 
 ## [La Cultureta] La cultureta 31/10/2026
 **Fecha:** 2026-10-31
