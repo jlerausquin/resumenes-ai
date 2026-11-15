@@ -1,7 +1,7 @@
 # 📹 Resúmenes
 
 Resúmenes de los canales de IA y de aprendizaje monitorizados, y de podcasts.
-Última actualización: 2026-11-14 08:03
+Última actualización: 2026-11-15 08:02
 
 ---
 
