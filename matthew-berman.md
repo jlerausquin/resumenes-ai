@@ -1,5 +1,67 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] Box CEO Explains How AI Is Changing Software
+**Fecha:** 2026-11-16
+**URL:** https://www.youtube.com/watch?v=kMdHCyAnNHA
+**Video ID:** kMdHCyAnNHA
+
+### 📝 Resumen
+
+Entrevista de Matthew Berman a Aaron Levie, consejero delegado de Box, en el marco de Box Works. Levie expone la tesis estratégica de la compañía ante la IA: el valor a largo plazo no está en construir funcionalidades que el siguiente modelo hará obsoletas, sino en ser la capa de contexto gobernado sobre la que operan los agentes, y en aceptar con frialdad que buena parte de lo construido habrá que tirarlo.
+
+#### La predicción de las dos capas: agentes y contexto verificado
+
+Levie retoma la idea que Satya Nadella formuló hace dos años —el software se dividirá en una capa de agentes y una capa de "ground truth"— y la cuantifica: en unos años habrá del orden de diez a cien veces más agentes que personas, es decir, decenas de miles de millones de agentes procesando información dentro de las organizaciones. Eso exige un sustrato que fije los límites: qué datos puede tocar cada agente (CRM, ERP, lakehouse o, en el caso de Box, ficheros no estructurados), con qué controles de acceso, con qué gobierno del dato y con qué metadatos que permitan enrutar la consulta al sitio correcto.
+
+El error habitual, señala, es pensar que basta con volcar todo en una base de datos. La información tiene que estar curada, con separación de privilegios, sandboxing y gobernanza, porque el agente necesita saber adónde ir además de tener permiso para llegar. Su apuesta es que los sistemas de registro modernizados se conviertan en "sistemas de inteligencia" que controlen ese acceso y sigan teniendo interfaz de usuario, porque alguien tendrá que seguir introduciendo e interpretando datos.
+
+#### Box Architect: dejar que el modelo diseñe el proceso, no solo que lo ejecute
+
+El anuncio central es Box Architect, un sistema autónomo que diseña, construye, ejecuta y —con el tiempo— optimiza agentes, flujos de trabajo y aplicaciones sobre la plataforma. Un cliente describe el problema (gestión de contratos, revisión documental de cadena de suministro, procesamiento de facturas) y un modelo frontera, con los bloques de construcción de Box, genera la solución completa.
+
+El origen fue interno: un ingeniero construyó una demo que hacía en treinta segundos lo que a los clientes les lleva dos días de pizarra y diseño de arquitectura. Ese hallazgo se combinó con el salto de capacidades del verano en uso de herramientas, uso de ordenador y comprensión de procesos de negocio, medido en benchmarks como GDPval. La conclusión de Levie es que no hay que llegar a una empresa y automatizar el trabajo tal como está hoy, sino usar un modelo para proponer primero cómo debería hacerse el proceso. Reconoce precedentes en atención al cliente —Decagon, Sierra e Intercom Finn—, con la diferencia de que Architect apunta a cualquier área del negocio. La hoja de ruta contempla que el sistema aprenda de sus fallos sobre datos verificados y optimice el flujo de forma continua.
+
+#### La disciplina del "bitter lesson": construir solo lo que sobreviva a los modelos
+
+Levie se define como alguien "en el límite superior de la pastilla del bitter lesson": construir poco, y solo aquello que seguirá teniendo sentido con modelos mil veces mejores. Eso reduce la inversión a sustratos atemporales: gobernanza del dato, seguridad fuerte, infraestructura de altísimo rendimiento y esquemas y APIs fáciles de consumir por un agente. Lo compara con la decisión de Amazon de exponer externamente todo lo que construía para sí mismo: hay que asumir que en muchos escenarios nadie verá la interfaz, y producir valor también en ese mundo sin interfaz.
+
+La consecuencia operativa es la falta de sentimentalismo. Box ha tenido capacidades terminadas que nunca llegaron a publicarse porque un modelo nuevo las dejó sin sentido antes del lanzamiento; proyectos de tres meses se han descartado en cuanto el modelo mejoró en uso de herramientas. Levie lo describe como construir sobre arena movediza o sobre una cinta de correr, y admite que la compañía debería escribir un memorando interno que formalice esos principios.
+
+#### La tesis del consumo masivo de tokens
+
+Su predicción de un aumento de tres órdenes de magnitud en el uso de tokens se apoya en un argumento simple: todo artefacto digital relevante acabará siendo revisado por uno, tres, cinco o diez agentes. En ventas, cada cliente tendrá un perfil construido y actualizado de forma agéntica con sus puntos de contacto, prioridades de compra e inversiones. En ciberseguridad, cada evento anómalo —un inicio de sesión raro, un dispositivo desconocido— disparará agentes de revisión. En ingeniería habrá agentes sobre agentes: unos que programan en paralelo, otros que revisan, prueban y simulan riesgos de un cambio sobre el resto del código. En cadena de suministro, cada documento entrante (planos CAD, contratos de proveedor, facturas) se procesará para extraer datos y realimentar el ERP. Hoy, calcula, solo una centésima parte de las interacciones digitales tiene un agente asociado.
+
+Matiza, no obstante, que el volumen bruto no basta: aplicar los tokens con criterio importa más que maximizarlos, porque un exceso mal dirigido puede llevar a una empresa por el camino equivocado. Aun así, sostiene que la cantidad de cómputo dedicada a problemas que merecen la pena será una de las ventajas competitivas definitorias, con el riesgo aparejado de que el capital se convierta en dependencia y de que se concentre el poder en los laboratorios que controlan los tokens; de ahí su defensa de los pesos abiertos como válvula de escape.
+
+#### Precios, coste por token y el motor de recuperación de contexto con NVIDIA
+
+Sobre el modelo de negocio, Levie anticipa estructuras híbridas: una componente por asiento que aporte previsibilidad mientras haya personas trabajando con los datos y el agente, más una parte variable de consumo, porque el trabajo agéntico no se puede presupuestar de antemano. Calcula que en tres o cinco años los tokens serán una línea presupuestaria normal, comparable a marketing o dietas, una vez se conozca la tasa de gasto real. Reconoce que hoy nadie puede predecir el coste de atacar un problema concreto y bromea con los escalofríos de los directores financieros.
+
+La respuesta técnica a ese problema es el anuncio conjunto con NVIDIA: un motor de recuperación de contexto en la plataforma, apoyado en los modelos de embeddings de NVIDIA NeMo, que preindexa y ordena por relevancia los fragmentos de datos no estructurados para que el agente recupere solo lo que necesita. Menos tokens procesados inútilmente, respuestas más rápidas y, sobre todo, menor coste por consulta. Estará disponible de forma transparente o vía API en la edición enterprise advanced en los próximos meses.
+
+#### Pesos abiertos frente a modelos cerrados: no compiten, se retroalimentan
+
+La plataforma de Box ofrece ambos tipos de modelo y decide por evaluaciones, con la aspiración de una capa de enrutamiento adaptativo que elija el mejor modelo por coste y precisión para cada consulta. Levie sostiene que hay que empujar la frontera en cualquier caso, y observa con satisfacción que los modelos de pesos abiertos van solo uno o dos pasos por detrás del estado del arte: acepta ese retraso, porque la frontera de hace unos meses ya cubre la mayoría de los casos de uso reales —pone como ejemplo tareas de ticketing— y ese volumen acaba migrando a abierto.
+
+Su analogía es la de las bases de datos: tras 2005 casi toda startup usaba bases de datos abiertas y, aun así, Oracle llegó a los trescientos mil millones de capitalización. Ambos modelos crecen en paralelo, y de forma contraintuitiva el abaratamiento que traen los pesos abiertos hace más asequible usar modelos frontera como planificadores u orquestadores de la capa superior, mientras el volumen masivo —procesar cada documento o cada transacción en busca de fraude— se resuelve con modelos abiertos. Avisa de que el negocio de los pesos abiertos es duro en Estados Unidos por el CAPEX: quien los libera necesita monetizar inferencia, y por eso solo están en posición Meta, Google y NVIDIA. Sobre el post-entrenamiento, lo considera inevitable para conocimiento empresarial o flujos muy repetidos, y sigue con interés el ecosistema —Trajectory, Prime Intellect, Applied Compute, Fireworks AI, Ngram— sin descartar entrenar modelos propios sobre datos de cliente y ejecutarlos dentro de la plataforma.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Box / Box Works (evento y anuncios) | Empresa / producto | https://www.box.com |
+| Box Architect (sistema autónomo de diseño de flujos agénticos) | Producto | https://www.box.com |
+| NVIDIA NeMo (modelos de embeddings para el motor de recuperación de contexto) | Producto / tecnología | https://www.nvidia.com/en-us/ai-data-science/products/nemo/ |
+| "The Bitter Lesson", Rich Sutton | Ensayo | http://www.incompleteideas.net/IncIdeas/BitterLesson.html |
+| GDPval (benchmark de tareas económicamente valiosas) | Benchmark | https://openai.com/index/gdpval/ |
+| Decagon (diseño agéntico de agentes de soporte) | Empresa | https://decagon.ai |
+| Sierra (agentes de atención al cliente) | Empresa | https://sierra.ai |
+| Intercom Fin | Producto | https://www.intercom.com/fin |
+| Prime Intellect | Empresa (post-entrenamiento / descentralizado) | https://www.primeintellect.ai |
+| Fireworks AI | Empresa (inferencia y post-entrenamiento) | https://fireworks.ai |
+| Oracle y MySQL como precedente de convivencia abierto/cerrado | Analogía de mercado | https://www.oracle.com |
+
+---
 ## [Matthew Berman] AMA with me and the team!
 **Fecha:** 2026-11-11
 **URL:** https://www.youtube.com/watch?v=LFzBzzHZESE
