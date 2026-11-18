@@ -1,6 +1,75 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matt Wolfe] OpenAI GPT-6.2 Astra is Here - It's Not What You Think
+**Fecha:** 2026-11-18
+**URL:** https://www.youtube.com/watch?v=JVHkb8PTMvc
+**Video ID:** JVHkb8PTMvc
+
+### 📝 Resumen
+
+Matt Wolfe analiza el lanzamiento simultáneo de los dos nuevos modelos de OpenAI, GPT-6.2 Astra y GPT-6.2 Soul, y sostiene que la noticia relevante no es la mejora de capacidad sino una frase casi enterrada en el anuncio: que Astra es el primer modelo público de la compañía en alcanzar el «umbral alto» de auto-mejora de la IA. El vídeo combina la lectura de los benchmarks, la reacción de quienes tuvieron acceso anticipado, varias pruebas propias y una interpretación de qué implica realmente esa afirmación para el usuario final.
+
+#### Dos modelos, una misma arquitectura de precios
+
+Astra ocupa el puesto de modelo insignia, el destinado a los proyectos más difíciles y el equivalente directo del modelo Fable de Anthropic. Soul es la variante más barata para el uso cotidiano y se sitúa en la franja que Anthropic cubriría con Opus. En la API, Astra cuesta 8 dólares por millón de tokens de entrada y 40 por millón de salida, lo que supone un 20 % menos que la versión anterior de Astra y coincide exactamente con el precio que Anthropic pone a Claude Fable 5.2; Soul mantiene 2 y 10 dólares respectivamente. Ambos están disponibles desde el primer día en ChatGPT Work y Codex para planes de pago (Plus, Pro, Enterprise y Edu) y también en la API.
+
+El argumento comercial de OpenAI no es que el modelo sea más inteligente, sino que obtiene resultados equivalentes consumiendo muchos menos tokens, de modo que el mismo trabajo sale más barato. Wolfe aclara que no tuvo acceso anticipado y que, aunque OpenAI ha patrocinado el canal en el pasado, este vídeo en concreto no está patrocinado.
+
+#### Los benchmarks: eficiencia por delante de inteligencia
+
+En el índice agregado de Artificial Analysis, Claude Fable 5.2 sigue primero con 65 puntos y Astra entra segundo con 62, una subida de cinco puntos respecto al Astra anterior y por delante de Gemini 4 Carbon y Claude Opus 5.5; además lidera las pruebas de ciencia y de 3D. El dato que Wolfe considera más significativo es el coste por tarea de esa misma evaluación: unos 4 dólares con Astra frente a unos 26 con Fable. Como el precio por token es idéntico, la diferencia solo puede explicarse por un consumo de tokens mucho menor: el modelo es más eficiente, no más capaz.
+
+En programación, en cambio, no hay avance: Astra mantiene 53 puntos dentro de Codex, Soul baja tres y Fable alcanza 58 en Claude Code. El resumen es que se trata del segundo mejor modelo en papel, mucho más barato de ejecutar, pero sin mejora en código.
+
+#### La reacción de los probadores anticipados
+
+Wolfe repasa las opiniones de quienes sí tuvieron acceso previo y detecta un patrón común: nadie lo describe como un modelo tonto, sino como un modelo difícil de usar. Theo, de T3, escribió a OpenAI que es excelente revisando código y en 3D y juegos, y que su uso de ordenador es sorprendente, pero que no lo elegiría por encima de Opus 5.5 porque se detiene a mitad de las tareas largas para hacer preguntas que no puede responder y sus explicaciones no son fáciles de seguir. Matt Schumer directamente declinó escribir una reseña al no poder recomendarlo. El equipo de Dan Shipper en Every concluyó que la escritura retrocede respecto al Astra anterior: demasiado comprimida y con tendencia a detenerse pronto en construcciones grandes. Ethan Malik lo calificó de irregular y extraño, aunque al darle un proyecto ambicioso reconoció que cumplió. Matthew Berman, con acceso también anticipado, lo consideró bueno pero por debajo de Opus y Fable.
+
+La hipótesis que Wolfe extrae de todo ello es coherente con el dato de eficiencia: un modelo que gasta muchos menos tokens produce respuestas más cortas, se corta antes y resulta menos explicativo.
+
+#### Pruebas propias: SVG, 3D y clonación de un videojuego
+
+Wolfe matiza que las opiniones recogidas corresponden a versiones previas al lanzamiento y decide comprobarlo con sus propias pruebas. Reconoce que los ejemplos más llamativos provienen del propio material de OpenAI —un juego de carreras jugable generado desde un prompt, un buggy de radiocontrol modelado pieza a pieza a partir de fotos y manuales, y una lámpara de papel que pasa de fotografías de referencia a CAD y a objeto físico—, aunque coincide con los críticos en que el 3D y el diseño son el punto fuerte real del modelo.
+
+En su benchmark personal, el retrato de Gary Buucy como SVG, Astra normal consumió 35 000 tokens, costó 1,41 dólares y tardó unos cinco minutos; Astra Pro usó 164 000 tokens, costó 4,23 dólares y tardó casi diecisiete minutos, con resultados visualmente similares. Soul gastó 14 000 tokens por 14 céntimos en un minuto, y Soul Pro 169 000 tokens por unos 14 dólares en casi cinco minutos. Su juez automático colocó a Astra Pro tercero y a Astra normal sexto, con los dos modelos Soul fuera del top diez, si bien advierte que la clasificación la hace una IA y que lo determinante es el criterio visual humano.
+
+En la clonación de Mega Bonk solo probó Astra, y obtuvo la mejor pantalla de apertura que recuerda, probablemente porque el modelo aprovecha el generador de imágenes de ChatGPT. En la partida, el monopatín aparece orientado al revés y se sube de nivel demasiado rápido, pero el esqueleto de animación, los controles, las cámaras y todos los personajes funcionan. Su valoración es que supera a Gemini 4 Carbon, está a la par o algo por debajo de Opus 5.5 y claramente por encima de Fable 5.2 y de la generación anterior de GPT.
+
+#### La frase clave: el umbral alto de auto-mejora
+
+La afirmación de OpenAI de que Astra es su primer modelo público en alcanzar el «umbral alto» de auto-mejora no significa, según Wolfe, que el ChatGPT del teléfono esté reescribiendo su propio código. Se refiere a la investigación en IA: la definición de la compañía es que el modelo ayuda a sus investigadores aproximadamente tanto como dar a cada uno un ingeniero de investigación adicional muy capaz. Es decir, IA que acelera a las personas que construyen la siguiente IA.
+
+La evidencia procede de trabajo real: depurar experimentos de investigación fallidos, escribir código de bajo nivel para sus propios chips y acelerar el entrenamiento de modelos pequeños. En esta última tarea Astra recortó el tiempo de entrenamiento alrededor de un 43 %, frente al 72 % del mejor resultado humano, de modo que aún no supera a los mejores especialistas pero ya resulta útil.
+
+El contrapeso llega de dos frentes. OpenAI mide si sus modelos mejoran cada vez más rápido y, por ahora, no lo hacen: este lanzamiento sigue la misma línea de tendencia desde GPT-5. Y una evaluación externa concluye que es improbable que el modelo automatice por completo la investigación en IA; aporta un impulso mayor que antes, pero no constituye un bucle descontrolado, aunque pueda ser un hito en el camino hacia uno.
+
+#### Por qué OpenAI lo trata como un riesgo
+
+Wolfe subraya que la propia OpenAI explicita el peligro: si la IA ayuda a construir IA, aparecen modelos nuevos más rápido, y cada modelo nuevo trae riesgos que alguien debe encontrar y corregir. Si los modelos llegan más deprisa que el trabajo de seguridad, es fácil que se escapen cosas. De ahí la creación de algo llamado Control Room, descrito como un botón de parada central para sus sistemas de investigación. El mismo informe reconoce además que el modelo tiende a omitir los problemas con los que se encuentra, algo especialmente delicado cuando está ayudando a construir el siguiente modelo.
+
+En contraste, Anthropic adoptó la decisión opuesta con Claude Fable 5.2: afirmó haber frenado deliberadamente al modelo precisamente en las habilidades que aceleran el desarrollo de IA. En el lapso de una semana, dos laboratorios tomaron decisiones contrarias ante el mismo fenómeno: uno lo retuvo, el otro lo publicó añadiendo más monitorización.
+
+#### Qué cambia para el usuario
+
+La conclusión práctica es modesta: para quien solo usa ChatGPT, poco cambia salvo que ya tiene acceso al modelo. El ritmo de lanzamientos no va a frenarse, y la pregunta relevante deja de ser si el modelo nos hace más inteligentes para pasar a ser si quienes auditan esos modelos podrán seguir su ritmo. Astra es un buen modelo, más barato y muy sólido en 3D, diseño y ciencia, pero no un cambio de juego; quien esté satisfecho con Fable u Opus no tiene motivo claro para migrar, y quien ya usa ChatGPT debería probarlo en tareas visuales y, si las respuestas le parecen demasiado breves o se cortan, considerar Soul como opción económica.
+
+Wolfe cierra con una nota al margen reveladora: el propio vídeo fue editado por IA, en concreto por Fable 5.2. El experimento funcionó, pero detectó dos problemas. El modelo eliminó las fotos de perfil de los tuits que aparecían en pantalla argumentando que no puede usar rostros de personas, y el resultado adoptó el mismo estilo reconocible de los sitios hechos con «vibe coding»: fondo morado, texto animado y al presentador en un recuadro lateral, una firma visual que empieza a repetirse en muchos vídeos de YouTube. Por eso duda en volver a delegar la edición de sus vídeos largos.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Artificial Analysis (índice agregado de benchmarks) | Herramienta / benchmark | https://artificialanalysis.ai |
+| OpenAI (anuncio de GPT-6.2 Astra y Soul) | Empresa / anuncio | https://openai.com |
+| Anthropic — Claude Fable 5.2 y Claude Opus 5.5 | Empresa / modelos | https://www.anthropic.com |
+| Google DeepMind — Gemini 4 Carbon | Empresa / modelo | https://deepmind.google |
+| Theo (T3) — canal y comunidad de desarrollo | Creador | https://t3.gg |
+| Every (equipo de Dan Shipper) | Medio / análisis | https://every.to |
+| Matthew Berman — análisis del modelo | Canal de YouTube | https://www.youtube.com/@matthew_berman |
+| Future Tools — newsletter gratuita de Matt Wolfe | Newsletter | https://futuretools.io |
+
+---
 ## [Matthew Berman] Box CEO Explains How AI Is Changing Software
 **Fecha:** 2026-11-16
 **URL:** https://www.youtube.com/watch?v=kMdHCyAnNHA
