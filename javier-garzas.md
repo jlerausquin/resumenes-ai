@@ -1,5 +1,57 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] La IA Acaba con la Especialización: Scrum Master, PM, PO… ¿y AHORA qué? Los 3 roles que crecen
+
+**Fecha:** 2026-11-18
+**URL:** https://www.youtube.com/watch?v=jvg5i_lg7EY
+**Video ID:** jvg5i_lg7EY
+
+### 📝 Resumen
+
+El vídeo plantea que la inteligencia artificial está empujando al sector del producto digital hacia una tercera evolución organizativa: de los equipos multifuncionales (herencia de la cultura ágil) a los **profesionales multifuncionales**, personas que gracias a la IA cubren un espectro de trabajo que antes requería un departamento entero. Garzás sitúa ese cambio dentro de su marco habitual de tres eras convivientes —cascada, ágil y "y-ágil" o era de la IA— y lo usa para explicar qué perfiles se están premiando y cuáles corren riesgo.
+
+#### De la fábrica de Ford a los equipos multifuncionales
+
+El punto de partida es histórico: el software copió del mundo industrial el modelo de especialización (un operario pone ruedas, otro pinta), cuando en realidad el producto digital es trabajo intelectual, no físico. Esa herencia produjo silos departamentales —negocio por un lado, diseño por otro, tecnología por otro— y con ellos el conocido "ping-pong" de actas, correos y traspasos de información. La respuesta ágil fue el equipo multifuncional: no que todos sepan hacerlo todo, sino que los perfiles necesarios para entregar valor estén dentro del mismo equipo y no haya que llamar a un departamento externo. De ahí nacieron los perfiles en T, con profundidad en la propia especialidad y conocimiento superficial del resto.
+
+#### La IA se queda con todo lo procedimentable
+
+El argumento central es que la IA ya escribe código a bajo coste y, sobre todo, absorbe toda tarea burocrática, de papeleo y de traspaso de información. La regla que propone el autor es simple y operativa: **todo aquello que se pueda explicar en lenguaje natural a un becario acaba automatizado**. Ese drenaje de lo repetitivo y algorítmico libera espacio para que la persona haga lo que la IA no hace: criterio, estrategia y decisiones de producto. El movimiento hacia lo horizontal no nace con la IA —el DevOps ya rompió el muro entre desarrollo y operaciones—, pero la IA lo acelera de forma brutal, hasta permitir que alguien sin conocimientos técnicos hable con una base de datos en lenguaje natural o monte prototipos funcionales.
+
+#### La barrera técnica ha caído y eso reordena los roles
+
+La consecuencia práctica es que la línea de código pasa a ser una tarea secundaria delegada en la IA y lo valioso se desplaza hacia la parte estratégica. Garzás ilustra el reordenamiento con tres ejemplos reales: LinkedIn ha sustituido su programa interno de jóvenes product managers por un **Associate Product Builder**, con etiqueta de *Full Stack Builder*, al que ya no se le pide currículum sino una demo operativa de 60 segundos; Lovable defiende que no haya cargos porque "cuando construir cuesta menos que coordinar, el organigrama tiene que cambiar", y sus product managers entregan prototipos funcionales en lugar de historias de usuario; y Andrew Ng cuenta que uno de sus equipos propuso tener el doble de gente de producto que de programadores, porque los equipos más rápidos son los que deciden qué construir mientras construyen.
+
+#### Los tres roles que más crecen
+
+1. **Ingeniero de IA / AI Engineer** — el de mayor crecimiento en España según los datos de LinkedIn que cita. Es la evolución del perfil técnico: ya no escribe la línea de código, construye el ecosistema de agentes, la infraestructura y la "ingeniería del arnés" para que la IA programe de forma eficiente y segura.
+2. **IA Product Manager** — evolución por capas del product owner clásico (discovery, estrategia, priorización, roadmap, viabilidad económica) ahora potenciada con IA. Su ventaja es saltarse el ciclo largo: valida con usuarios beta y *friends and family* antes de que exista un sprint, recorta drásticamente el tiempo entre idea y evidencia y reduce el retrabajo. Como prueba de que no hace falta ser técnico, menciona el reto de su comunidad (233 Academy, más de 500 profesionales) en el que personas que nunca habían programado crearon más de diez aplicaciones hablando en lenguaje natural, sin tocar una línea de código.
+3. **Forward Deployed Engineer (FDE)** — el perfil más raro de ver en países hispanohablantes y el de crecimiento más espectacular: **más del 700% en un año en Estados Unidos**. Se lo describe como "fuerzas especiales": hace el discovery *in situ* con el cliente y, a diferencia del consultor tradicional que tomaba requisitos y volvía a casa, entrega la solución ahí mismo, en el cliente. Se mencionan además otros roles emergentes como el *builder*, el product engineer o el *growth marketer*.
+
+#### Quién gana y quién pierde
+
+El especialista no desaparece: quedan menos, son más senior y más difíciles de encontrar. El riesgo real lo tienen dos perfiles: el especialista "del montón" y el generalista que solo coordinaba —movía post-its, tocaba un Jira, hacía un informe o un acta—. Ese trabajo lo absorbe la IA o simplemente se extingue. Los dos perfiles premiados son, por tanto, el **especialista de élite** que crea infraestructura profunda y escasa, y el **generalista horizontal con fuerte criterio de negocio**, estrategia y eficiencia con IA. Como contexto de mercado, cita dos datos: LinkedIn estima que en 2030 habrá cambiado el 70% de las habilidades de la mayoría de los puestos, y el Foro Económico Mundial habla del 39% de las habilidades clave; además, tres de cada cuatro profesionales de producto creen que llegarán roles que mezclan varias dedicaciones.
+
+#### Cómo posicionarse: cuatro consejos
+
+El cierre es prescriptivo. Primero, estudiar las ofertas de empleo para ver qué se pide hoy y anticiparse a lo que se pedirá mañana. Segundo, empezar a crear cosas con IA en lugar de consumirla. Tercero, salir del chatbot del navegador: instalar una IA que trabaje en local y usar herramientas que suenan a programadores —cita Codex y Claude Code— para perder el miedo, sea uno técnico, ex-técnico o no técnico. Cuarto, romperse la cabeza deliberadamente: comprobar que cosas impensables hace poco ahora están al alcance porque se dispone de "un programador muy económico que sabe de todas las tecnologías y de todas las integraciones". La conclusión es que los silos y los equipos ágiles clásicos seguirán conviviendo un tiempo, pero la dirección es hacia un profesional multifuncional cuya multifuncionalidad la aporta la IA.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Notas |
+|---|---|---|
+| Andrew Ng (Google Brain, Coursera, DeepLearning.AI) | Persona / institución | Citado por su observación de que los equipos más rápidos son los que deciden qué construir mientras construyen |
+| Associate Product Builder / Full Stack Builder (LinkedIn) | Programa y rol | Sustituye al programa interno de formación de jóvenes product managers de LinkedIn; se accede con una demo de 60 s |
+| Lovable | Empresa / producto | Herramienta de *vibe coding* citada por su modelo sin cargos: "cuando construir cuesta menos que coordinar, el organigrama tiene que cambiar" |
+| 233 Academy | Comunidad / formación | Membresía de product management donde se hizo el reto de crear apps sin escribir código |
+| Irremplazable en la era de la IA — Javier Garzás | Libro | Último libro del autor, número uno en Amazon; amplía el marco del vídeo |
+| Codex (OpenAI) y Claude Code (Anthropic) | Herramientas | Recomendadas como primera toma de contacto local para construir con IA |
+| DevOps | Práctica / movimiento | Antecedente de la ruptura de silos entre desarrollo y operaciones |
+| LinkedIn — datos de habilidades y roles emergentes | Informe / datos | Fuente del 70% de cambio de habilidades en 2030 y del crecimiento del ingeniero de IA en España |
+| Foro Económico Mundial (Future of Jobs) | Informe | Fuente del dato del 39% de habilidades clave que las empresas esperan que cambien |
+| Diccionario de IA de Javier Garzás | Recurso gratuito | Enlazado en la descripción del vídeo |
+
+---
 ## [Javier Garzás] Product Manager con IA: si NO haces Discovery con bots, te quedas atrás (Grok Bot)
 **Fecha:** 2026-11-11
 **URL:** https://www.youtube.com/watch?v=FR5pNCqTsLY

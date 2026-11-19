@@ -1,6 +1,129 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matt Wolfe] Insane AI Breakthroughs Nobody Is Talking About
+
+**Fecha:** 2026-11-18
+**URL:** https://www.youtube.com/watch?v=-oA6oLxWpJg
+**Video ID:** -oA6oLxWpJg
+
+### 📝 Resumen
+
+Formato distinto al habitual del canal: en lugar de las noticias de IA del viernes, Wolfe recopila los avances del último mes que se quedaron fuera de esos resúmenes y que, en su opinión, pasaron desapercibidos. La selección va de realidad aumentada y modelos de mundo a edición de vídeo multi-plano, voz sin intermediación de texto, lentes que leen el habla silenciosa, generación 3D, animación en tiempo real y robótica de bajo coste. Cada bloque combina demostración práctica, cómo funciona por dentro y las limitaciones reales, y el presentador insiste en distinguir lo que ya se puede probar hoy de lo que solo es una demo o un paper.
+
+#### Simulon: personajes 3D que reaccionan en tu habitación
+
+La primera pieza es **Simulon**, una app de móvil que coloca personajes 3D en el entorno real a través de la cámara y, desde hace poco, permite grabar una escena en la que el personaje **reacciona** a lo que el usuario hace y dice. Wolfe lo prueba en directo con un gorila: lo escala, lo ancla sobre el escritorio y comprueba que al acariciarlo o tocarlo con un bolígrafo el personaje responde al contacto. El matiz técnico importante es que nada ocurre en vivo: la toma se graba, se envía a la nube y allí se **redibuja** el vídeo completo analizando la escena —mesa, coche, manos, lo que se dijo— y reconstruyéndola con el personaje integrado. El fundador afirma que no hay instrucciones programadas: se coloca al personaje y se actúa. La reacción es exclusiva de iPhone por ahora, hay 100 créditos gratuitos y luego cuesta 15 dólares al mes; los créditos se consumen rápido. La ambición declarada es llevarlo a gafas de realidad aumentada en tiempo real.
+
+#### Tencent y los modelos de mundo que se dirigen hablando
+
+Frente al patrón habitual —un prompt, un clip, y a empezar de cero si no gusta—, Tencent presenta un **modelo de mundo** que continúa el vídeo y acepta instrucciones sucesivas: añade un perro, haz que nieve, mueve la cámara a la izquierda, y sigue siendo el mismo mundo. Su rasgo diferencial es la **consistencia**: al volver la vista en la dirección original, la escena es la misma, algo que otros modelos de mundo pierden. Funciona en piezas de cinco segundos; cada nueva pieza toma la última instrucción (texto, movimiento de cámara o ambos) y, antes de dibujar, revisa todo lo generado, y esa memoria evita que el mundo cambie por sorpresa. Puede sostener la continuidad alrededor de un minuto. A diferencia de la propuesta vista el mes anterior, aquí no hay motor de juego que lleve la cuenta: es el propio modelo de vídeo el que recuerda. Wolfe lo prueba con un bosque y una hormiga en tercera persona y constata que la herramienta enriquece la escena, pero que el control de cámara es confuso y el resultado no es espectacular. Es **totalmente abierto** (código y modelo gratis, incluso uso comercial); corre en una sola RTX 4090 en versión comprimida y más lenta, mientras que la configuración en tiempo real usó ocho GPU de centro de datos. No hay benchmarks publicados frente a otros modelos de mundo: las afirmaciones de consistencia provienen de sus propias demos. Su utilidad realista hoy es el *previsualizado* de planos, no la producción final.
+
+#### Reshoot 4D: volver a filmar algo ya grabado
+
+El siguiente salto es mover la cámara dentro de un vídeo existente. **Reshoot 4D** —descargable ya, a diferencia de la demo de ByteDance mostrada el mes pasado— permite re-filmar una toma desde un ángulo nuevo: orbitar alrededor de la persona, hacer zoom, subir en grúa o un efecto *bullet time*. El proceso tiene cuatro pasos: reconstruir una captura 3D de la escena en movimiento (dónde estaba la cámara original y cómo se movió el sujeto), definir una cámara virtual (trayectoria, lente, enfoque o un preset), re-filmar desde ese ángulo —lo que genera borrosidad y artefactos de fondo— y, por último, una pasada de un modelo abierto llamado **LTX** que devuelve aspecto de metraje real y limpia los bordes. Limitaciones señaladas: no construye nada nuevo detrás del sujeto, así que lo que estaba fuera de cámara puede cambiar entre ángulos (lo que se ve por la ventana varía); el movimiento rápido puede deformar una cara durante unos fotogramas; requiere GPU NVIDIA y saber usar **ComfyUI**, cuya curva de aprendizaje no es trivial. Es gratis y de código abierto, y su autor afirma haberlo hecho íntegramente con Claude Code y Codex. El editor ya se puede probar, aunque todavía no se puede subir metraje propio.
+
+#### Movie Edit (Adobe): editar a través de varios planos a la vez
+
+El problema clásico de la edición de vídeo con IA es que opera toma a toma: cambias la chaqueta de un personaje, el vídeo corta al plano siguiente y la chaqueta vieja reaparece. **Movie Edit**, un trabajo de investigación de Adobe con una universidad coreana, resuelve eso: se escribe una instrucción como "elimina al hombre con el traje táctico negro" y el cambio se aplica a **todas las tomas de la escena**. También acepta una edición de un solo fotograma hecha en Photoshop y la propaga por todos los cortes. Maneja clips de hasta 25 segundos y genera borradores rápidos antes del render final. La advertencia es clara: de momento es solo un paper más un conjunto de vídeos de ejemplo, no hay modelo descargable y no se sabe si llegará a Premiere. Es un desarrollo a seguir, no algo usable.
+
+#### Voz sin texto intermedio: Dasa, Haru 4B y Fish Audio Live 3
+
+El bloque más llamativo del vídeo es el audio. **Dasa**, de un laboratorio de investigación dentro de Block (la empresa de Jack Dorsey), mantiene conversaciones de ida y vuelta indistinguibles de una llamada humana; el clip que reproduce —un personaje que insiste en llamar "Ronaldo" a su interlocutor y que se inventa un hijo recién nacido, un trabajo recogiendo productos agrícolas y una esposa con un bebé que llora— sirve para mostrar que **inventa una vida entera** porque no ha recibido una personalidad de asistente. La explicación técnica: la mayoría de las voces IA convierten habla en texto, pasan el texto por un LLM y vuelven a sintetizar; Dasa no hace eso, fue entrenada desde cero con grabaciones de personas hablando, sin texto y sin modelo de lenguaje subyacente. Aprendió cómo suena una llamada entre dos personas, y por eso se comporta como alguien con trabajo, familia e historia. Además escucha y habla a la vez, con "sí" y "ajá" de fondo mientras el otro habla. Es una preview de investigación con acceso restringido a investigadores de seguridad —precisamente por su potencial para el fraude telefónico— y, según Block, corre en un MacBook Pro con M4 Max.
+
+De ahí salen dos alternativas. **Haru 4B**, de la startup japonesa Higurashi, replica la idea y ya está disponible: escucha y habla simultáneamente, sin paso intermedio de texto; en cada iteración alinea el audio del usuario, el suyo propio y las palabras que dice, unas siete veces por segundo, y en un MacBook el ciclo completo tarda cerca de una quinta parte de segundo. Es un modelo base pensado para que los desarrolladores lo mejoren: conversa, pero no da respuestas al nivel de ChatGPT o Claude. Está en Hugging Face y GitHub, con un Space de demostración que a Wolfe le pareció limitado (se graba o sube audio y responde después, sin diálogo real). Lo notable es el ritmo del ecosistema: la versión abierta apareció tres semanas después que la cerrada. Y **Live 3**, de Fish Audio —la misma empresa del modelo de voz Drama 3—, es un producto empresarial para soporte, reservas y atención telefónica, con una demo de restaurante de comida rápida en la que se puede interrumpir y hablar encima; funciona en más de 30 idiomas y cuesta alrededor de 3,5 centavos por minuto, precio promocional que se duplica a final de año. No es código abierto: se usa vía web y API, con 5 dólares de crédito gratuito para probar.
+
+#### Subvocal: hablar con la IA sin emitir sonido
+
+**Subvocal** son unas gafas que permiten dictar sin hablar en voz alta. El vídeo muestra a una persona articulando en silencio con los labios moviéndose y el texto apareciendo en pantalla, sin cámara ni micrófono: la detección es por **radiofrecuencia**, enviando ondas de baja potencia a través del rostro y midiendo cómo cambian al moverse los músculos, con modelos que decodifican esas señales directamente a texto. Lo crearon dos estudiantes de Georgia Tech en un hackathon de febrero, están en la generación actual de Y Combinator y su vídeo de lanzamiento superó los 12 millones de visualizaciones en X. La letra pequeña que Wolfe subraya: la compañía afirma más de 200 palabras por minuto con vocabulario libre, mientras la investigación publicada en detección por radio se queda en torno a 50 palabras, y nadie fuera de la empresa lo ha probado. El prototipo parece impreso en 3D y los fundadores dicen que el producto final será distinto. Preventa de 199 dólares como depósito reembolsable sobre un precio de 499, con envío estimado en el primer trimestre de 2027. Su conclusión: lo desea con ganas —dictar en una cafetería o un avión sin que nadie escuche— pero quiere una prueba independiente antes de poner dinero.
+
+#### De la imagen al 3D y al movimiento: Budget 3D y Motion Bricks
+
+**Budget 3D** resuelve el paso previo a Simulon: convertir una imagen en un objeto 3D. Su idea diferencial es un control deslizante de **presupuesto de cómputo**: bajarlo lo hace el doble de rápido y con menos memoria a costa de calidad, subirlo mejora el resultado. La clave técnica es que no dedica el mismo esfuerzo a todo —identifica las zonas aburridas, empezando por el espacio vacío que rodea al objeto, las agrupa y concentra el esfuerzo donde están los detalles—. Wolfe lo prueba con un juguete de vaquero y un tren: al 40% de presupuesto la calidad se degrada visiblemente; al máximo tarda más pero el resultado es bueno (con el dorso plano, porque no puede saber cómo es la parte de atrás). Corre localmente con menos de 8 GB de VRAM, el código está en GitHub, los pesos en Hugging Face y hay un Space gratuito en el navegador. La pega: la página muestra cuánto se gana en velocidad pero no métricas de pérdida de calidad, así que hay que guiarse por el ojo.
+
+Con el personaje ya en 3D, **Motion Bricks** (equipo de investigación de NVIDIA) lo anima en tiempo real: se controla como en un videojuego y cada movimiento se genera al instante, sin transiciones hechas a mano. En un juego normal los animadores crean cientos de clips (caminar, correr, saltar, sentarse) y alguien los cose a mano; aquí un modelo aprendió de unos 350.000 clips de movimiento y resuelve él mismo los intermedios. Tiene dos capas: el movimiento (velocidad, dirección y estilo, cambiable en marcha: caminar de zombi, pierna lesionada, saltarín) y los objetos (se marcan poses clave —mano en la espada, sentarse en el banco— y el modelo rellena acercamiento, contacto y seguimiento). El mismo modelo controla robots: es la capa de movimiento dentro de **Groot**, el sistema de NVIDIA para humanoides. No está integrado en Unreal Engine todavía, pero el código y los modelos entrenados ya están en GitHub, lo que para un estudio indie significa animación de personajes sin presupuesto de animadores.
+
+#### Robots: Flash Aloha (Stanford) y Phonebot (UCLA)
+
+**Flash Aloha** es un robot de dos brazos de Stanford que lanza y atrapa una pelota sin control humano. Atrapar es difícil porque no hay tiempo para pensar, y el método habitual de enseñar —teleoperar el robot— se vuelve torpe a alta velocidad. La solución: brazos que una persona puede agarrar y mover con la mano, ejecutando la tarea a máxima velocidad para que el robot la registre, más un software que suaviza los movimientos bruscos al reproducirlos. Aprende otras tareas —doblar pantalones cortos, poner baterías, limpiar la mesa— con solo 50 demostraciones cada una y usando cámaras corrientes, con más del 80% de éxito (falla una de cada cinco atrapadas) y una velocidad que describen como cercana a la humana, sin precisar qué significa. El código está en GitHub y la documentación detalla el hardware necesario para construirlo.
+
+El cierre es **Phonebot**, del laboratorio de robótica de UCLA: un bípedo de medio metro cuyo cerebro es un teléfono Android viejo. El teléfono cubre las partes difíciles: su cámara son los ojos, el mismo sensor que rota la pantalla sirve para mantener el equilibrio y se conecta a internet para usar GPT como la IA que dirige el cerebro y el movimiento. El resto —13 motores pequeños, batería y cuerpo impreso en 3D— cuesta unos 400 dólares, y lo probaron con móviles prepago de 50 a 80 dólares. Camina adelante y atrás, gira, sigue a una persona con la cámara y se levanta solo cuando cae de cara. Aprendió a andar en simulación por prueba y error, con recompensa por mantenerse erguido y penalización por arrastrar los pies. Dos avisos: al grabar el vídeo los archivos de impresión 3D y el tutorial de ensamblaje aún no eran accesibles, y solo anda sobre suelo plano y sin brazos. El presentador cierra conectando las piezas de todo el vídeo: un modelo de movimiento de NVIDIA que ya guía humanoides, una voz descargable que suena humana y un robot de 400 dólares con un teléfono como cerebro.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Notas / disponibilidad |
+|---|---|---|
+| Simulon | App / producto | AR con personajes 3D reactivos en iPhone; 100 créditos gratis, 15 USD/mes |
+| Modelo de mundo de Tencent | Modelo / paper | Abierto, código y pesos gratuitos, uso comercial permitido; corre en una RTX 4090 comprimido |
+| Reshoot 4D | Herramienta / repo | Re-filmado desde ángulo nuevo; gratis y open source, requiere GPU NVIDIA y ComfyUI |
+| LTX | Modelo abierto | Pasada final de refinado usada por Reshoot 4D |
+| ByteDance (edición de cámara en vídeo) | Empresa / demo | Referencia del mes anterior, aún no disponible al público |
+| Movie Edit (Adobe + universidad coreana) | Paper | Edición multi-plano de vídeo; solo investigación, sin modelo descargable |
+| Dasa (Block / Jack Dorsey) | Modelo de voz | Preview de investigación, acceso restringido a investigadores de seguridad; corre en M4 Max |
+| Haru 4B (Higurashi) | Modelo abierto | Disponible en Hugging Face y GitHub, con Space de demo; modelo base |
+| Drama 3 y Live 3 (Fish Audio) | Producto de voz | Live 3 vía web/API, +30 idiomas, ~3,5 ¢/min promocional; 5 USD de crédito gratis |
+| Subvocal | Hardware / startup | Gafas con detección por radiofrecuencia; Y Combinator; preventa 199 USD (total 499), envío estimado Q1 2027 |
+| Budget 3D | Modelo / repo | Imagen a 3D con presupuesto de tokens; <8 GB VRAM, GitHub + Hugging Face + Space |
+| Motion Bricks (NVIDIA) | Modelo / repo | Animación en tiempo real; capa de movimiento de Groot; código y pesos en GitHub |
+| Flash Aloha (Stanford) | Paper / repo | Robot bi-manual que atrapa pelotas; 50 demos por tarea, >80% éxito; código en GitHub |
+| Phonebot (UCLA) | Proyecto / repo | Bípedo con cerebro de Android; ~400 USD en piezas, 13 motores, CAD en impresión 3D |
+| ComfyUI | Herramienta | Interfaz de nodos requerida por Reshoot 4D |
+| Claude Code y Codex | Herramientas | Usadas por el autor de Reshoot 4D para construirlo |
+| futuretools.io | Boletín / web | Boletín gratuito del canal, citado al cierre del vídeo |
+
+---
+## [Javier Garzás] La IA Acaba con la Especialización: Scrum Master, PM, PO… ¿y AHORA qué? Los 3 roles que crecen
+
+**Fecha:** 2026-11-18
+**URL:** https://www.youtube.com/watch?v=jvg5i_lg7EY
+**Video ID:** jvg5i_lg7EY
+
+### 📝 Resumen
+
+El vídeo plantea que la inteligencia artificial está empujando al sector del producto digital hacia una tercera evolución organizativa: de los equipos multifuncionales (herencia de la cultura ágil) a los **profesionales multifuncionales**, personas que gracias a la IA cubren un espectro de trabajo que antes requería un departamento entero. Garzás sitúa ese cambio dentro de su marco habitual de tres eras convivientes —cascada, ágil y "y-ágil" o era de la IA— y lo usa para explicar qué perfiles se están premiando y cuáles corren riesgo.
+
+#### De la fábrica de Ford a los equipos multifuncionales
+
+El punto de partida es histórico: el software copió del mundo industrial el modelo de especialización (un operario pone ruedas, otro pinta), cuando en realidad el producto digital es trabajo intelectual, no físico. Esa herencia produjo silos departamentales —negocio por un lado, diseño por otro, tecnología por otro— y con ellos el conocido "ping-pong" de actas, correos y traspasos de información. La respuesta ágil fue el equipo multifuncional: no que todos sepan hacerlo todo, sino que los perfiles necesarios para entregar valor estén dentro del mismo equipo y no haya que llamar a un departamento externo. De ahí nacieron los perfiles en T, con profundidad en la propia especialidad y conocimiento superficial del resto.
+
+#### La IA se queda con todo lo procedimentable
+
+El argumento central es que la IA ya escribe código a bajo coste y, sobre todo, absorbe toda tarea burocrática, de papeleo y de traspaso de información. La regla que propone el autor es simple y operativa: **todo aquello que se pueda explicar en lenguaje natural a un becario acaba automatizado**. Ese drenaje de lo repetitivo y algorítmico libera espacio para que la persona haga lo que la IA no hace: criterio, estrategia y decisiones de producto. El movimiento hacia lo horizontal no nace con la IA —el DevOps ya rompió el muro entre desarrollo y operaciones—, pero la IA lo acelera de forma brutal, hasta permitir que alguien sin conocimientos técnicos hable con una base de datos en lenguaje natural o monte prototipos funcionales.
+
+#### La barrera técnica ha caído y eso reordena los roles
+
+La consecuencia práctica es que la línea de código pasa a ser una tarea secundaria delegada en la IA y lo valioso se desplaza hacia la parte estratégica. Garzás ilustra el reordenamiento con tres ejemplos reales: LinkedIn ha sustituido su programa interno de jóvenes product managers por un **Associate Product Builder**, con etiqueta de *Full Stack Builder*, al que ya no se le pide currículum sino una demo operativa de 60 segundos; Lovable defiende que no haya cargos porque "cuando construir cuesta menos que coordinar, el organigrama tiene que cambiar", y sus product managers entregan prototipos funcionales en lugar de historias de usuario; y Andrew Ng cuenta que uno de sus equipos propuso tener el doble de gente de producto que de programadores, porque los equipos más rápidos son los que deciden qué construir mientras construyen.
+
+#### Los tres roles que más crecen
+
+1. **Ingeniero de IA / AI Engineer** — el de mayor crecimiento en España según los datos de LinkedIn que cita. Es la evolución del perfil técnico: ya no escribe la línea de código, construye el ecosistema de agentes, la infraestructura y la "ingeniería del arnés" para que la IA programe de forma eficiente y segura.
+2. **IA Product Manager** — evolución por capas del product owner clásico (discovery, estrategia, priorización, roadmap, viabilidad económica) ahora potenciada con IA. Su ventaja es saltarse el ciclo largo: valida con usuarios beta y *friends and family* antes de que exista un sprint, recorta drásticamente el tiempo entre idea y evidencia y reduce el retrabajo. Como prueba de que no hace falta ser técnico, menciona el reto de su comunidad (233 Academy, más de 500 profesionales) en el que personas que nunca habían programado crearon más de diez aplicaciones hablando en lenguaje natural, sin tocar una línea de código.
+3. **Forward Deployed Engineer (FDE)** — el perfil más raro de ver en países hispanohablantes y el de crecimiento más espectacular: **más del 700% en un año en Estados Unidos**. Se lo describe como "fuerzas especiales": hace el discovery *in situ* con el cliente y, a diferencia del consultor tradicional que tomaba requisitos y volvía a casa, entrega la solución ahí mismo, en el cliente. Se mencionan además otros roles emergentes como el *builder*, el product engineer o el *growth marketer*.
+
+#### Quién gana y quién pierde
+
+El especialista no desaparece: quedan menos, son más senior y más difíciles de encontrar. El riesgo real lo tienen dos perfiles: el especialista "del montón" y el generalista que solo coordinaba —movía post-its, tocaba un Jira, hacía un informe o un acta—. Ese trabajo lo absorbe la IA o simplemente se extingue. Los dos perfiles premiados son, por tanto, el **especialista de élite** que crea infraestructura profunda y escasa, y el **generalista horizontal con fuerte criterio de negocio**, estrategia y eficiencia con IA. Como contexto de mercado, cita dos datos: LinkedIn estima que en 2030 habrá cambiado el 70% de las habilidades de la mayoría de los puestos, y el Foro Económico Mundial habla del 39% de las habilidades clave; además, tres de cada cuatro profesionales de producto creen que llegarán roles que mezclan varias dedicaciones.
+
+#### Cómo posicionarse: cuatro consejos
+
+El cierre es prescriptivo. Primero, estudiar las ofertas de empleo para ver qué se pide hoy y anticiparse a lo que se pedirá mañana. Segundo, empezar a crear cosas con IA en lugar de consumirla. Tercero, salir del chatbot del navegador: instalar una IA que trabaje en local y usar herramientas que suenan a programadores —cita Codex y Claude Code— para perder el miedo, sea uno técnico, ex-técnico o no técnico. Cuarto, romperse la cabeza deliberadamente: comprobar que cosas impensables hace poco ahora están al alcance porque se dispone de "un programador muy económico que sabe de todas las tecnologías y de todas las integraciones". La conclusión es que los silos y los equipos ágiles clásicos seguirán conviviendo un tiempo, pero la dirección es hacia un profesional multifuncional cuya multifuncionalidad la aporta la IA.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Notas |
+|---|---|---|
+| Andrew Ng (Google Brain, Coursera, DeepLearning.AI) | Persona / institución | Citado por su observación de que los equipos más rápidos son los que deciden qué construir mientras construyen |
+| Associate Product Builder / Full Stack Builder (LinkedIn) | Programa y rol | Sustituye al programa interno de formación de jóvenes product managers de LinkedIn; se accede con una demo de 60 s |
+| Lovable | Empresa / producto | Herramienta de *vibe coding* citada por su modelo sin cargos: "cuando construir cuesta menos que coordinar, el organigrama tiene que cambiar" |
+| 233 Academy | Comunidad / formación | Membresía de product management donde se hizo el reto de crear apps sin escribir código |
+| Irremplazable en la era de la IA — Javier Garzás | Libro | Último libro del autor, número uno en Amazon; amplía el marco del vídeo |
+| Codex (OpenAI) y Claude Code (Anthropic) | Herramientas | Recomendadas como primera toma de contacto local para construir con IA |
+| DevOps | Práctica / movimiento | Antecedente de la ruptura de silos entre desarrollo y operaciones |
+| LinkedIn — datos de habilidades y roles emergentes | Informe / datos | Fuente del 70% de cambio de habilidades en 2030 y del crecimiento del ingeniero de IA en España |
+| Foro Económico Mundial (Future of Jobs) | Informe | Fuente del dato del 39% de habilidades clave que las empresas esperan que cambien |
+| Diccionario de IA de Javier Garzás | Recurso gratuito | Enlazado en la descripción del vídeo |
+
+---
 ## [Matt Wolfe] OpenAI GPT-6.2 Astra is Here - It's Not What You Think
 **Fecha:** 2026-11-18
 **URL:** https://www.youtube.com/watch?v=JVHkb8PTMvc

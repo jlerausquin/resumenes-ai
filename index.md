@@ -1,14 +1,14 @@
 # 📹 Resúmenes
 
 Resúmenes de los canales de IA y de aprendizaje monitorizados, y de podcasts.
-Última actualización: 2026-11-18 08:07
+Última actualización: 2026-11-19 08:04
 
 ---
 
 ## 🤖 Canales de IA
 
-- **[Javier Garzás](javier-garzas.md)** — 40 resúmenes (mod: 2026-11-12 08:06)
-- **[Matt Wolfe](matt-wolfe.md)** — 49 resúmenes (mod: 2026-11-18 08:07)
+- **[Javier Garzás](javier-garzas.md)** — 41 resúmenes (mod: 2026-11-19 08:04)
+- **[Matt Wolfe](matt-wolfe.md)** — 50 resúmenes (mod: 2026-11-19 08:04)
 - **[Matthew Berman](matthew-berman.md)** — 87 resúmenes (mod: 2026-11-17 08:03)
 
 ---
