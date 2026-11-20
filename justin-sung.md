@@ -1,5 +1,46 @@
 # 📹 Resúmenes — Justin Sung
 
+## [Justin Sung] If Active Recall Isn't Working For You, Watch This Video
+
+**Fecha:** 2026-11-20
+**URL:** https://www.youtube.com/watch?v=Vhg775rpt3s
+**Video ID:** Vhg775rpt3s
+
+### 📝 Resumen
+
+#### "Active recall" no es una técnica, es una etiqueta
+
+El autor abre con una afirmación provocadora: el repaso activo no es una técnica de aprendizaje, y buena parte de quienes lo practican sin buenos resultados lo hacen porque la etiqueta no significa nada. "Active recall" es, en su descripción, jerga de gurús de redes sociales que se limita a decir "recuperar algo de la memoria". En la investigación el fenómeno se llama recuperación (retrieval) y su entrenamiento deliberado, práctica de recuperación (retrieval practice). Bajo esa etiqueta caben dos grandes familias de técnicas, cada una con varias variantes, y cada variante sirve a un objetivo distinto de aprendizaje y memoria. La consecuencia práctica es que usar una técnica incompatible con la propia meta obliga a invertir mucho más tiempo para obtener menos.
+
+#### La pregunta correcta no es "cuál es la mejor técnica"
+
+El autor rechaza la búsqueda de la técnica óptima en abstracto: no existe, depende del objetivo. Propone una división útil entre metas de orden inferior y de orden superior. Las de orden inferior implican conocimiento aislado —cifras, datos concretos, explicar cómo funciona un único concepto, describir un proceso—, y son las típicas de la escuela temprana o de las competiciones de memoria, donde los campeones operan casi exclusivamente en este nivel. Las de orden superior implican información integrada: entender cómo se conectan los conceptos y qué influencia ejerce cada hecho sobre los demás. Construir una narrativa clara sobre un tema complejo, resolver un problema complicado o responder preguntas capciosas son resultados de orden superior, y son los que de verdad distinguen a un buen profesional.
+
+#### Recuperación frente a reconocimiento y la ilusión de fluidez
+
+Antes de clasificar técnicas, el autor fija una distinción previa. La práctica de recuperación —escribir un ensayo de memoria, responder una pregunta sin mirar— es casi siempre mejor que no hacer nada y claramente mejor que la práctica de reconocimiento, que consiste en leer la respuesta ajena y preguntarse si tiene sentido. El reconocimiento es mucho más rápido y cómodo, pero resulta en la práctica casi inútil porque genera lo que la investigación llama ilusión de fluidez: la sensación de comprender y de estar aprendiendo sin garantía alguna de poder generar esas mismas respuestas por cuenta propia.
+
+#### Recuperación reproductiva: útil, pero sólo para metas de orden inferior
+
+La primera familia es la recuperación reproductiva, en la que se reproduce el conocimiento tal cual: la definición de mitocondria se aprende y se devuelve igual. Sus formatos habituales son las flashcards, los ejercicios de rellenar huecos, los cuestionarios simples y los problemas cuya solución exige aplicar uno o dos conceptos como máximo. También se la conoce como recuperación con clave (cued recall), porque hay una pregunta, una tarjeta o un hueco que actúa de señal, lo que la hace mucho más fácil que la recuperación libre, sin pista alguna. El autor no la descarta: encaja bien con metas de orden inferior, pero es repetitiva, tediosa y mantiene el cerebro poco activo, algo que se traduce en aburrimiento y monotonía. Y advierte que la mayoría de las personas adultas, y sobre todo las que trabajan, no tienen problemas de orden inferior.
+
+#### Recuperación reconstructiva: el núcleo para metas de orden superior
+
+La segunda familia es la recuperación reconstructiva: más costosa, más comprometida cognitivamente, y centrada en manipular grupos de conceptos en lugar de reproducir piezas sueltas. El autor enumera cinco formatos. El volcado mental (brain dump) es la variante más simple: vaciar todo lo aprendido de una vez, sin filtro. Su eficacia es variable, porque quien no ha aprendido con profundidad no detecta sus propios huecos y no recibe retroalimentación sobre la falta de matiz; de ahí su recomendación actual de hacer el volcado contra un modelo de lenguaje y pedirle que desafíe lo escrito, señalando imprecisiones, errores y perspectivas sesgadas. La enseñanza no solicitada va un paso más allá: obliga a decidir qué enseñar, en qué orden y con qué estructura, lo que añade evaluación y juicio; y al no haber pregunta que sirva de andamiaje, los fallos aparecen y se convierten en información útil. La autoexplicación espontánea consiste en explicarse un tema a uno mismo de forma más intuitiva y simple, construyendo analogías, metáforas y aplicaciones reales: la dificultad para explicar algo señala exactamente dónde está el punto débil. A ellas se suman la aplicación de casos y simulaciones, que exigen movilizar el conocimiento de forma diversa, y la resolución de problemas complejos, que a diferencia de la versión simple requiere varios conceptos simultáneos; estas dos últimas son técnicamente recuperación con clave, pero de nivel reconstructivo, y resultan especialmente pertinentes cuando el desempeño real exigirá responder a claves concretas, como en un examen oral.
+
+#### La asimetría de transferencia y la regla práctica
+
+El hallazgo que el autor considera más relevante es la asimetría entre ambas familias. La recuperación reconstructiva transfiere de forma moderada hacia las metas de orden inferior: quien resuelve problemas complejos con varios conceptos acaba también sabiendo describir cada concepto por separado. Lo contrario no ocurre: la recuperación reproductiva apenas transfiere, y a veces nada, hacia los resultados de orden superior, de modo que alguien puede dominar sus tarjetas y fracasar estrepitosamente al escribir una narrativa, enseñar sin guion o resolver un caso. De ahí su regla de diseño: identificar primero las metas de orden superior, construir el sistema de recuperación sobre las técnicas reconstructivas y sólo después localizar los huecos de orden inferior que haya que tapar con las reproductivas. El orden inverso —empezar por lo reproductivo y añadir lo reconstructivo— es un error frecuente, porque lo reconstructivo consume más energía y tiempo, y quien empieza por lo fácil suele agotar el tiempo disponible en lo de menor valor, cuando dedicarlo a lo reconstructivo habría cubierto de paso buena parte de lo básico. El cierre es una invitación a abandonar la etiqueta "active recall", nombrar la técnica concreta que se usa y elegirla por estrategia y no por costumbre o comodidad.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Roediger & Karpicke (2006), "Test-enhanced learning: taking memory tests improves long-term retention", *Psychological Science* | Estudio | https://pubmed.ncbi.nlm.nih.gov/16507066/ |
+| Karpicke & Blunt (2011), "Retrieval practice produces more learning than elaborative studying with concept mapping", *Science* | Estudio | https://pubmed.ncbi.nlm.nih.gov/21252317/ |
+| Dunlosky et al. (2013), "Improving Students' Learning With Effective Learning Techniques", *Psychological Science in the Public Interest* | Revisión | https://pubmed.ncbi.nlm.nih.gov/26173288/ |
+
+---
 ## [Justin Sung] How to Use AI Without Letting It Think for You (step by step guide)
 **Fecha:** 2026-11-13
 **URL:** https://www.youtube.com/watch?v=yFtB-ekr8d4

@@ -1,6 +1,95 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] What's going on with GPT-6.2?
+
+**Fecha:** 2026-11-19
+**URL:** https://www.youtube.com/watch?v=nEYuoqqMgyg
+**Video ID:** nEYuoqqMgyg
+
+### 📝 Resumen
+
+#### Un lanzamiento con más ruido que señales
+
+OpenAI publicó sus dos nuevos modelos insignia, Astra y GPT-6.2 Soul, y el estreno llegó envuelto en polémica: antes incluso del lanzamiento circulaban acusaciones de connivencia entre revisores —incluido el autor— para reseñar negativamente los modelos. El autor, que había probado durante tiempo con acceso anticipado, reconstruye la cronología del día: una oleada de críticas muy duras al abrirse el acceso general y, horas después, una contranarrativa según la cual los modelos eran en realidad buenos. Su conclusión, matizada, es que Astra es un modelo correcto pero poco diferenciado, y que la comparación con la competencia es lo que realmente lo perjudica.
+
+#### El veredicto: un buen modelo en el vacío, mediocre en la comparación
+
+Tras gastar cientos de miles de millones de tokens en pruebas, el autor describe Astra como "fino" y nada más: no sobresale en ninguna categoría salvo en computer use, donde OpenAI sigue siendo claramente dominante. Construye juegos, aplicaciones y simulaciones 3D de ciudades de forma aceptable, pero sin brillo. Su argumento económico es el decisivo: si sólo hay presupuesto para una suscripción, la elección evidente hoy es Anthropic, porque Opus 5.5 y Fable 5.2 están muy por delante. Reconoce que hace unos meses recomendaba OpenAI por volumen de cuota, y que la situación se ha invertido: Anthropic dispone ahora de cómputo suficiente para ofrecer un valor semanal que permite trabajar con Opus 5.5 prácticamente sin agotar límites.
+
+#### Demos propias: la réplica de Tokio en Unreal Engine
+
+El autor perdió la mayor parte de las demos al morir el equipo de pruebas, pero recuperó la más ambiciosa: una réplica 3D de Tokio en Unreal Engine. El resultado, en frío, impresiona —decenas de miles de edificios creados a mano por el modelo, con carteles y logotipos descargados como assets—, pero el proceso revela el problema de fondo. En las primeras iteraciones el modelo construía fachadas planas y les pegaba imágenes satelitales, generando ventanas y puertas donde no correspondían; hizo falta insistir con numerosos prompts para que empezara a modelar los edificios de verdad. Ese patrón —no escuchar una instrucción que parece obvia— es, según el autor, el origen de la frustración de los revisores de acceso anticipado.
+
+#### Lo que sí le reconcilió con el modelo
+
+Dos capacidades le parecieron genuinamente valiosas. La primera, el control de aplicaciones: un problema de caídas de fotogramas que su equipo arrastraba desde hacía 18 meses y que había resistido cambios de cámara, cable HDMI, ordenador y consultas a varios expertos humanos. Astra revisó la configuración de cámara, la señal HDMI y los registros de OBS mientras se grababa, y localizó que el ajuste de búfer estaba desactivado pese a figurar en automático: OBS no lo habilitaba al detectar pérdida de frames, así que hubo que forzarlo. El problema quedó resuelto. La segunda, la edición de vídeo: el modelo lleva semanas siendo el motor de Scarlet, el editor abierto del autor, cortando diálogo con buen criterio y con capacidad de editar un vídeo casi de principio a fin en una sola pasada, algo que el autor valora especialmente por su propio flujo de producción.
+
+#### La polémica del programa de acceso anticipado
+
+El autor detalla su versión del conflicto. Pertenecía a un programa de acceso temprano junto a otros creadores; no hay pago de por medio, sólo modelos y devolución de impresiones, y describe a OpenAI como receptiva incluso a la crítica dura. El día del lanzamiento, casi todos los miembros publicaron opiniones negativas: Matt Schumer llegó a anunciar que no escribiría análisis por lo mala que fue su experiencia y que consideraba los modelos prácticamente inutilizables; Theo tituló su artículo "Por qué odio GPT-6.2 Astra"; Paul Sultt se quejó de mala comunicación, resúmenes finales poco claros, tendencia a detenerse antes de terminar, fijación en lo equivocado y mal rendimiento en interfaces de apps iOS; Dan Shipper lo resumió como un lanzamiento decepcionante frente a Fable 5.2. La explicación de Tibo —que OpenAI introdujo cambios en los últimos tres o cuatro días y que los vídeos se habían producido antes, sin retesteo— le parece verosímil, pero el autor critica la gestión: normalmente se avisa de las actualizaciones para volver a probar y se da al menos 24 horas de preaviso antes del lanzamiento, y esta vez no ocurrió; él se enteró de la salida por una publicación en X.
+
+#### Coste frente a calidad: las comparativas de la comunidad
+
+Frente al ruido, el autor recopila pruebas de terceros que dibujan un patrón consistente: los modelos de OpenAI son mucho más baratos que los de Anthropic para resultados comparables o ligeramente inferiores. Un usuario reporta, con el mismo prompt, 45 minutos y 9 dólares para Astra, 30 minutos y 2 dólares para Soul, 3 horas y 200 dólares para Fable 5.2 y casi 3 horas y 31 dólares para Opus 5.5; en otra comparación, Fable 5.2 tarda hora y media y cuesta cerca de 60 dólares frente a 1 hora 21 minutos y 5 dólares de Astra; y en una tercera, 81 dólares y casi dos horas frente a 8 dólares y 40 minutos. Visualmente las diferencias son de estilo y matiz —más realismo y clima dinámico en Fable, aspecto más cartoon en Astra—, no de calidad evidente. También recoge demos que considera francamente buenas: juegos en 3JS con reflejos y detalle notables, un templo japonés con iluminación cuidada y un experimento estilo Doom fluido.
+
+#### Balance y cierre
+
+El autor cierra rebajando la temperatura: Astra y Soul son un salto real frente a las generaciones anteriores de GPT, no son perfectos y OpenAI debería haber gestionado mejor el despliegue; y aun así, en su caso concreto, el modelo le ha resultado excelente para edición de vídeo y computer use. Apunta además una hipótesis sobre por qué Anthropic mantiene el liderazgo: la mejora recursiva de sus propios modelos, respaldada por investigación externa, que tratará en otro vídeo.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Scarlet — editor de vídeo con IA de código abierto (usado para probar Astra) | Repositorio | https://github.com/Forward-Future/scarlet |
+| Artificial Analysis — comparativas de modelos | Benchmark | https://artificialanalysis.ai/ |
+| Spaceship — espacio de trabajo multiagente (patrocinador) | Producto | https://spaceship.dev |
+
+---
+## [Matthew Berman] Gemini 4 Neon is ridiculous...
+
+**Fecha:** 2026-11-20
+**URL:** https://www.youtube.com/watch?v=5eON_8rgKzk
+**Video ID:** 5eON_8rgKzk
+
+### 📝 Resumen
+
+#### Google vuelve a la carrera de los modelos frontera
+
+Durante aproximadamente un año, OpenAI y Anthropic fueron los dos protagonistas indiscutibles del sector, mientras Google —antiguo gigante del software— aparecía relegada y muchos daban por hecho que se había quedado atrás. El autor sostiene que esa narrativa cambió de golpe con el lanzamiento de Neon, la tercera iteración de la familia Gemini 4, que considera el mejor modelo disponible en el momento de grabar. Su tesis central es que Neon destaca sobre todo en trabajo real de conocimiento y en programación, y que su único punto comparativamente más débil son las demos vistosas —escenas 3D, videojuegos, simulaciones—, que no es donde el autor concentra la prueba.
+
+#### Los números: primeros puestos casi generalizados
+
+En el índice de inteligencia de Artificial Analysis, Neon obtiene 61 puntos, por delante de Opus 5.5 y de GPT-6.2 Soul. En Cursor Bench alcanza el 65% frente al 58% de Opus. Sólo cede en dos pruebas por márgenes mínimos: aproximadamente medio punto porcentual en Terminal-Bench y cerca de un 1% en Frontier Code. En cambio, saca 13 puntos de ventaja en AutomationBench, cuatro en Agents Last Exam y siete en la variante científica de Terminal-Bench. El autor insiste, no obstante, en que los benchmarks sólo cuentan parte de la historia, porque ha visto muchos lanzamientos "benchmaxeados" que luego resultan incómodos o poco fiables en uso real; su afirmación es que Neon no pertenece a esa categoría.
+
+#### La prueba de fuego: Scarlet, su editor de vídeo con IA
+
+Para validarlo, el autor lo incorporó a Scarlet, un editor de vídeo con IA de código abierto que está desarrollando, tanto para construir la aplicación como para editar material. La demo que muestra es una simulación completa del cubo de Rubik en 3D, con mezcla aleatoria y resolución real, que el modelo entregó en unos 20 minutos con las caras consistentes tras girar, mezclar y resolver. Señala que no todos los modelos actuales son capaces de algo así, y que el resultado le sirvió como indicador rápido de solidez.
+
+#### Entender peticiones muy infraespecificadas
+
+El rasgo que más valora no es la capacidad bruta, sino la combinación de dos cualidades: comprender instrucciones deliberadamente vagas y responder con explicaciones breves y claras, sin necesidad de pedir una y otra vez "explícalo más simple". Con Astra, Opus 5.5 o Fable tenía que repetir constantemente esas peticiones de simplificación; con Neon no. Ilustra el punto con tres encargos reales: convertir el selector de modelos de Scarlet en filas de una sola línea con los desactivados debajo de los activos (lo resolvió en unos cinco minutos con un resumen conciso y, un minuto y medio después, con un mock interactivo con interruptores, favoritos y filtros); añadir modelos Gemini con paridad respecto a Anthropic y OpenAI, donde el modelo decidió por su cuenta usar el CLI de Antigravity sobre el Agent Client Protocol y la API de Gemini para la limpieza de notas habladas, acertando la intención; y, a partir de dos capturas de pantalla, añadir explicaciones al pasar el ratón sobre los iconos de la barra de marcado y permitir arrastrar los resaltados ya colocados en el vídeo.
+
+#### Computer use: diagnosticar y arreglar su propio estudio
+
+El autor destaca también el control de aplicaciones. Con un estudio nuevo y problemas de grabación, sospechaba que la captura de pantalla no era de calidad nativa pero no sabía por qué. Pasó un archivo de muestra y su ruta en la carpeta de OBS y, en dos minutos y medio, el modelo respondió que la calidad era alta pero no nativa 1:1 porque OBS grababa bajo el perfil principal en lugar del perfil de pantalla, y detalló que usaba 29,97 fotogramas por segundo en vez de 60. Al pedirle que configurara OBS para grabación nativa, asumió el control, ajustó los parámetros y lo consiguió; además avisó de que estaba grabando a 60 fps y, cuando el autor sugirió que 29,97 era suficiente, evitó reiniciar OBS mientras había una grabación en curso. El autor interpreta ese último detalle como criterio situacional, no como obediencia ciega.
+
+#### Reacciones de la comunidad y demos de terceros
+
+El video recoge el giro del consenso en X: figuras que semanas antes ni mencionaban a Google califican ahora a Neon como el mejor modelo del mundo. Entre las demostraciones que destaca están un vídeo fotorrealista generado íntegramente por Neon a través del servidor MCP de Blender y publicado por el propio CEO de Google; un juego de terror en el que bolos y humanos intercambian papeles; un racer con sombreado tipo cel por 1,50 dólares en razonamiento alto; y una catedral gótica de vampiros comparada cara a cara con Soul, con resultados visualmente similares aunque Soul más barato. La conclusión del autor es que por primera vez hay tres empresas entregando modelos excelentes a la vez, lo que traslada la decisión al terreno de qué suscripción conviene pagar, y confirma que ha integrado Neon tanto en su flujo de trabajo como en el motor de sus propios proyectos.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Artificial Analysis — índice de inteligencia | Benchmark | https://artificialanalysis.ai/ |
+| Terminal-Bench | Benchmark | https://tbench.ai |
+| Scarlet — editor de vídeo con IA de código abierto | Repositorio | https://github.com/Forward-Future/scarlet |
+| Blender MCP (control de Blender con LLM) | Repositorio | https://github.com/ahujasid/blender-mcp |
+| Google Antigravity | Producto | https://antigravity.google |
+| Forward Future — newsletter del autor | Newsletter | https://forwardfuture.com |
+
+---
 ## [Matt Wolfe] Insane AI Breakthroughs Nobody Is Talking About
 
 **Fecha:** 2026-11-18
