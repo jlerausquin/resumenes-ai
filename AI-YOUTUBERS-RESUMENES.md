@@ -1,6 +1,98 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matt Wolfe] AI News: This Is The Make or Break Week!!
+
+**Fecha:** 2026-11-20
+**URL:** https://www.youtube.com/watch?v=wqNIzUmNt9M
+**Video ID:** wqNIzUmNt9M
+
+### 📝 Resumen
+
+Matt Wolfe repasa la semana más intensa del año en el sector: la salida a bolsa de Anthropic, tres modelos nuevos de frontera (OpenAI, Google y Microsoft), y una oleada de funciones que convierten a los agentes en algo que usa tu ordenador y gasta tu dinero.
+
+#### Anthropic sale a bolsa: el mayor IPO de la historia
+
+Anthropic fijó el precio de su oferta pública en 83 dólares por acción y colocó unos 980 millones de títulos, captando 81.300 millones de dólares. La cifra supera la de SpaceX de junio y convierte a esta operación en la mayor salida a bolsa registrada hasta la fecha. Las acciones empezaron a cotizar en el Nasdaq con el ticker **ANT**: abrieron a 111,50 dólares, cerraron a 97,17 (una subida del 17 % en el primer día) y la compañía quedó valorada en torno a 1,27 billones de dólares, lo que la sitúa como la duodécima mayor del planeta.
+
+Wolfe insiste en que el precio del primer día es lo menos relevante: lo que importa es lo que venga después, porque esta operación es el primer test real de si la IA es una burbuja.
+
+#### Bloques de desbloqueo: la prueba de fuego de los insiders
+
+A diferencia del bloqueo estándar de seis meses, Anthropic escalona la liberación de acciones: el primer día los empleados podían vender hasta un 10 % de sus títulos (hasta 315 millones de acciones); el siguiente tramo se libera a mediados de diciembre, y entre el 5 de enero y el 2 de febrero se suman tres ventanas más que podrían poner en el mercado hasta 1.600 millones de acciones de insiders, más de las colocadas en la propia IPO. Los fundadores y grandes accionistas esperan hasta un año.
+
+El argumento es que quienes mejor conocen la empresa son los que tienen más información: cierta venta es normal (comprar una casa, devolver capital a los LPs de los fondos), pero si los cercanos liquidan en la primera oportunidad, la señal es de desconfianza y puede contagiar a todo el mercado de IA; si aguantan, están diciendo que aún es pronto. La fecha que Wolfe vigila es mediados de diciembre, y promete seguimiento.
+
+Además, cotizar trae dos consecuencias estructurales: cifras auditadas cada trimestre (el folleto ya revela 16.300 millones de ingresos en el primer semestre frente a unos 1.200 millones un año antes, con 8.900 millones gastados en cómputo) y presión por crecer por parte de los accionistas. El CFO de OpenAI habría comunicado a los empleados que su salida a bolsa llegará en 2027 o antes, de modo que lo que ocurra con Anthropic marca el guion.
+
+#### GPT-6.2 Astra y Soul: menos inteligencia extra, mucha más eficiencia
+
+OpenAI lanzó dos modelos: **Astra**, el tope de gama para problemas complejos, y **Soul**, la versión barata de uso diario; ambos funcionan en tiempo real en ChatGPT y en Codex para planes de pago. El mensaje no es que sean mucho más listos, sino que hacen el mismo trabajo con menos tokens y por menos dinero: un 20 % más baratos vía API, con 8 dólares por millón de tokens de entrada y 40 de salida para Astra, y 2/10 para Soul.
+
+En los benchmarks de Artificial Analysis, Astra es el segundo modelo más inteligente tras Claude Fable 5.2, pero cuesta 4 dólares por tarea de máximo esfuerzo frente a 26,54 del modelo de Anthropic: tres puntos de diferencia en el índice y una diferencia enorme en coste. En el benchmark visual de Wolfe (BusiBench), Astra saca 7,4 (sexto puesto, 42 dólares, cinco minutos y medio de generación) y Soul 6,9 (puesto 18, 14 céntimos, 68 segundos); las variantes "Pro" rinden peor que las normales, así que no compensa pagarlas. El modelo anterior, 6.1 Sol, sigue liderando ese test con 8 puntos.
+
+En la prueba de generación de videojuegos 3D, Astra produjo una de las mejores pantallas de inicio que Wolfe ha visto y un juego que funciona mecánicamente, aunque con fallos de orientación y ritmo. Las críticas que recoge: se detiene demasiado pronto, es difícil de seguir en proyectos largos y el propio informe de OpenAI admite que tiende a pasar por alto problemas. Conclusión: buen modelo, más barato y muy solvente en lo visual (3D, juegos), pero sin motivo para migrar si ya se trabaja cómodo con Claude.
+
+#### Gemini 4 Neon: el caballo de batalla que pone a Google en cabeza
+
+Google completó su familia Gemini 4: **Carbon** (el grande para proyectos largos), **Hydrogen** (rápido y ligero, equivalente a Sonnet o Luna) y **Neon** en el centro, el modelo de trabajo diario comparable a Opus o Soul. Cuesta 3 dólares por millón de tokens de entrada y 15 de salida, con ventana de un millón de tokens; está disponible en la app Gemini para suscriptores AI Pro/Ultra (no en el plan gratuito) y en la API.
+
+En Artificial Analysis saca 61 puntos: uno menos que Astra y cuatro menos que Fable 5.2, pero a la mitad de precio, y Google afirma que su coste por tarea es un 32 % inferior al de Carbon pese a ser un 32 % más pequeño y puntuar un punto más. Lo más llamativo: en el índice de agentes de código de Artificial Analysis, la combinación de Neon con Antigravity queda primera (59), por delante de Fable 5.2 en Claude Code y de Astra 6.2 en Codex.
+
+En las pruebas propias, Neon obtiene 7,1 en el benchmark visual (puesto 12, 70 céntimos, unos cinco minutos): la mitad de coste que Astra por tres décimas menos. En el clon del juego Megabonk, Antigravity ha mejorado hasta acercarse a Codex y ya permite usar también modelos de Claude; el resultado jugable es muy bueno aunque los gráficos quedan por debajo de Astra. Wolfe lo considera la mejor relación calidad-precio del momento y un modelo de código serio para usar a diario: Google ha vuelto a la carrera.
+
+#### El test "impresióname": el gusto propio de cada modelo
+
+Wolfe recupera una prueba que había abandonado: pedir a cada modelo, sin más instrucciones, "constrúyeme una web que realmente me impresione", para ver si tienen criterio propio cuando nadie les guía el diseño. La observación de partida es que las webs generadas con vibe coding empiezan a parecerse todas.
+
+El resultado fue revelador: Astra y Soul produjeron prácticamente la misma idea, un sitio submarino con zonas de profundidad, medusas y un descenso guiado, incluso con frases casi idénticas; coincide con la queja pública de Theo Brown de que el modelo "revierte a la media". Neon, en cambio, se fue a un tema completamente distinto —un taller de relojería con relojes desmontados, lupa animada y microinteracciones— y ganó claramente la comparación. La lección: los modelos tienden a converger en los mismos clichés visuales, y la diferencia de gusto se nota más que la de puntuación en los benchmarks.
+
+#### Microsoft Ignite: la estrategia del "casi igual, mucho más barato"
+
+La conferencia estuvo dominada por anuncios empresariales, pero destacó **MAI Code 2**, el modelo de código propio de Microsoft, que según la compañía ofrece el 98 % del rendimiento de GPT-6.1 Soul al 40 % del coste y el 96 % de lo que hace Claude Opus 5.5 por un 5 % del precio; en evaluaciones ciegas de front-end, los desarrolladores prefirieron sus resultados a los de GPT-6 Soul en el 64 % de los casos. Microsoft admite que no está bien ajustado para proyectos largos y complejos: es una opción barata para tareas sencillas. Está en GitHub Copilot y llegará a OpenRouter y Vercel. Wolfe señala el detalle de que OpenAI lanzó 6.2 el mismo día de la keynote, una coincidencia que se repite demasiado.
+
+También presentaron **MAI Image 2.7**, primero en edición de imágenes y cuarto en generación desde cero según Artificial Analysis, y **MAI Realtime One**, un modelo de voz en tiempo real desde un céntimo por minuto. El patrón de todo Ignite es el mismo que el de la semana: no ser el mejor absoluto, sino casi el mejor a una fracción del precio.
+
+#### Gemini Notebook: webs interactivas a partir de tus fuentes
+
+El antiguo NotebookLM añade la posibilidad de escribir "constrúyeme una web" y obtener un sitio interactivo generado a partir de los documentos subidos: dashboards de ventas trimestrales, rastreadores de tareas y plazos o webs de preparación de exámenes, compartibles en una pestaña nueva. Wolfe lo probó subiendo las noticias de la semana: en unos dos minutos obtuvo un sitio con estética de periódico, titulares correctos, gráficos, tablas y un listado de fuentes filtrable. Algunos sitios bloquearon la extracción, pero el resultado le pareció muy impresionante.
+
+#### Agentes que usan tu ordenador y pagan por ti
+
+- **Gemini en Mac** puede controlar el equipo: describes la tarea y hace clics, imprime y rellena formularios, en una ventana de fondo mientras sigues usando la pantalla; eliges qué apps puede tocar y pide confirmación en acciones importantes. Solo en EE. UU., Mac con Apple Silicon y planes de pago. Ejemplo mostrado: recrear un dibujo de una mariposa en Blender y animarla.
+- **Claude Duet**, el asistente siempre activo de Anthropic, se abre a todos los usuarios de EE. UU. con plan Pro, Max o Ultra que estaban en lista de espera; corre en segundo plano y consume cuota normal, así que agota antes los límites.
+- **Claude Desktop** permite crear temas propios: le describes colores y fondos animados y reconstruye su interfaz (solo en sesiones locales; estético, no funcional).
+- **Stitch Loop** (Google Labs) vigila el código y los datos de apps hechas con vibe coding para detectar problemas de seguridad, rendimiento y disponibilidad, y propone arreglos que hay que aprobar. En lista de espera, precio sin anunciar.
+- **ChatGPT Wallet**, construido con American Express, Chase, Mastercard y Visa: guardas la tarjeta una vez, cada compra se confirma con Face ID o huella y el agente recibe un número de tarjeta sustituto, nunca el real. Solo EE. UU., solo tarjetas de crédito, requiere plan Pro (desde 100 dólares al mes). Wolfe aún no se siente cómodo dándole tarjeta a un agente.
+- **ChatGPT for Sales**: flujos listos para ventas (listas de leads, preparación de llamadas, seguimientos, detección de deals en riesgo) conectados a más de 30 herramientas como HubSpot, Salesforce, Gong, Granola y DocuSign; solo en espacios de empresa.
+
+Además, ChatGPT estrena dictado en vivo (el texto aparece mientras hablas) y OpenAI abre **Codex** a más flujos de trabajo.
+
+#### Creación de vídeo, música y mundos
+
+**HeyGen Avatar 6** genera vídeos de una persona hablando a partir de una sola foto, sin límite de duración: hay ejemplos de 25 minutos en un plano continuo a 2K, y la empresa afirma un 84 % en el test de Turing (los evaluadores eligieron el clip sintético como real en el 42 % de los casos, todavía lejos del 50 % de engaño perfecto). **Suno Visuals** convierte cualquier canción de tu biblioteca en lyric video, portada y videoclip sincronizado con la letra; clips de 15 segundos como máximo y créditos visuales separados de los musicales. **Genie 4** de Google DeepMind genera mundos navegables en tiempo real y ahora permite cambiar el clima, añadir personajes o alterar la acción desde dentro, con sonido ambiental y voces; solo para AI Ultra, con lista de espera para Pro, y Genie 3 amplía sus partidas de 1 a 3 minutos.
+
+El cierre es doble: la empresa detrás de Claude ya cotiza y el mercado empezará a juzgarla con datos trimestrales y ventas de insiders; y casi todos los modelos de la semana comparten el mismo mensaje —un poco más de inteligencia por bastante menos dinero—. Aviso final: la semana de Acción de Gracias no habrá vídeo de noticias, pero Wolfe promete recuperar lo importante a la vuelta.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Anthropic (IPO, ticker ANT) | Empresa | https://www.anthropic.com |
+| OpenAI GPT-6.2 Astra y Soul | Producto | https://openai.com |
+| Google Gemini 4 Neon | Producto | https://gemini.google.com |
+| Google Antigravity | Herramienta de código | https://antigravity.google |
+| Microsoft MAI Code 2 / Ignite | Producto | https://microsoft.com |
+| Gemini Notebook (ex NotebookLM) | Herramienta | https://notebooklm.google.com |
+| Google Labs Stitch Loop | Herramienta | https://labs.google |
+| Google DeepMind Genie 4 | Proyecto de investigación | https://deepmind.google |
+| Artificial Analysis (benchmarks e índices) | Benchmark | https://artificialanalysis.ai |
+| HeyGen Avatar 6 | Producto | https://www.heygen.com |
+| Suno Visuals | Producto | https://suno.com |
+| Hyper Agent (plataforma de agentes, patrocinador) | Producto | — |
+| Claude Duet / Claude Desktop | Producto | https://claude.ai |
+
+---
 ## [Matthew Berman] What's going on with GPT-6.2?
 
 **Fecha:** 2026-11-19
