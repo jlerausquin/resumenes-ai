@@ -1,7 +1,7 @@
 # 📹 Resúmenes
 
 Resúmenes de los canales de IA y de aprendizaje monitorizados, y de podcasts.
-Última actualización: 2026-11-20 08:06
+Última actualización: 2026-11-21 07:06
 
 ---
 
@@ -21,7 +21,7 @@ Resúmenes de los canales de IA y de aprendizaje monitorizados, y de podcasts.
 
 ## Podcasts
 
-- **[La Cultureta](la-cultureta.md)** — 10 programas (mod: 2026-11-14 07:07)
+- **[La Cultureta](la-cultureta.md)** — 12 programas (mod: 2026-11-21 07:06)
 
 ---
 

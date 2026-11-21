@@ -2,6 +2,60 @@
 Programa de Rubén Amón, Rosa Belmonte, Guillermo Altares, Sergio del Molino e Isabel Vázquez.
 Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en qué minuto.
 
+## [La Cultureta] La cultureta 21/11/2026
+**Fecha:** 2026-11-21
+**Programa:** Gran Reserva · 89 min
+**URL:** https://www.ondacero.es/podcast/programas/la-cultureta/cultureta-21112026_202611216b00fda1d712f925d62cbc8b.html
+**GUID:** 6b00fda1d712f925d62cbc8b
+
+### 📚 Recomendaciones
+
+- **Cine** — *Wild Horse Nine* (título dudoso: el ASR alterna "Wild Horse 9", "White Horse 9" y "Walhorst Nine"), de Martin McDonagh, con John Malkovich, Sam Rockwell y Parker Posey. Lo recomienda la mesa [01:40]; Isabel Vázquez la había señalado antes que nadie [02:10]. Por qué: dos agentes de la CIA viajan a la isla de Pascua en vísperas del golpe contra Allende; la mesa la considera una de las películas del año por los diálogos, la puesta en escena y el trabajo de Malkovich, y recomienda verla en versión original.
+- **Música** — Triple álbum *Bajañí* (título dudoso), con documental musical anexo de Fernando Trueba. Lo recomienda **Nacho Ibernón** (nombre dudoso)** [21:40]. Por qué: lo escucha en bucle, deslumbrado por una obra de reciente factura que considera lo mejor que ha oído últimamente.
+- **Libro** — *Spotlight* (título dudoso), del fotógrafo David Coppel (nombre dudoso), publicado por el sello británico PAP Art. Lo recomienda **Nacho Ibernón** (nombre dudoso)** [22:57]. Por qué: 300 páginas y 165 fotografías de un paparazzi londinense con pedigrí ochentero que repasa sus peripecias con Jagger, Dylan, Bowie, Diana Spencer, Madonna o Michael Jackson; unas 80 libras.
+- **Libro** — *El largo maullido del gato*, de Francisco Pérez Sánchez (título y autor dudosos). Lo recomienda **Nacho Ibernón** (nombre dudoso)** [23:47]. Por qué: 250 páginas de historias verdaderas, crudas y asombrosas con la Guerra Civil de 1936 al fondo; confiesa no haberlo leído todavía.
+- **Libro** — *La isla final*, de Michael Pedersen. Lo recomienda **Nacho Ibernón** (nombre dudoso)** [25:05]. Por qué: primera novela de un autor escocés, "burbujeante y repleta de imaginación y aventura", publicada en Editorial Mapa.
+- **Libro** — *Lo que el viento se llevó*, de Margaret Mitchell, en la edición ilustrada del 90 aniversario de Reino de Cordelia. Lo recomienda **Rosa Belmonte** [35:03]. Por qué: propuso el monográfico y reivindica la novela por encima de la película —una edición "exquisita, de bibliómanos", que pesa y contiene mucho más de lo que parece—, más incómoda y socialmente compleja que el filme.
+- **Cine** — *Lo que el viento se llevó* (1939), de Victor Fleming, producida por David O. Selznick. Lo recomienda la mesa, en versión original [61:39]. Por qué: cuatro horas que no envejecen, con el Technicolor y el incendio de Atlanta como hitos técnicos; varios contertulios confiesan volver a ella una y otra vez pese a sus problemas contemporáneos.
+- **Otro** — Documental sobre el rodaje de *Lo que el viento se llevó*, narrado por Christopher Plummer (título sin citar). Lo recomienda la mesa [64:29]. Por qué: repasa un rodaje que fue "un milagro" —cuatro directores, guionistas despedidos, siete cámaras de Technicolor en el mundo rodando el incendio— y suele estar disponible en internet.
+- **Libro** — *Notorious* (título dudoso), de José Luis Garci, memoria personal con un ensayo sobre la película. Lo recomienda la mesa [67:52]. Por qué: Garci cuenta el estreno en España en 1950 y su asombro infantil ante el color, y sostiene que la película se puede ver hoy igual que entonces.
+
+### 🗒️ De qué se habló
+
+- El programa se abre, al margen del monográfico previsto, con *Wild Horse Nine* de Martin McDonagh: la amistad como obsesión de autor, la acusación de frivolizar con el golpe de Allende, la polémica sobre Rapanui y los moáis, el aroma a los Coen y una banda sonora con Violeta Parra, Judy Collins, Hank Williams y Harry Belafonte.
+- Monográfico por los 90 años de la novela: cómo Margaret Mitchell —periodista de Atlanta y autora de un solo libro— la escribió entre 1928 y 1936 escuchando a quienes habían vivido la guerra, y cómo ese punto de vista doméstico y localista es la clave de su grandeza narrativa.
+- La mesa discute el racismo estructural del libro: no se puede leer hoy sin incomodidad, pero Sergio del Molino defiende que la novela funciona literariamente porque no lo disimula; se repasa el caso de Mami (Hattie McDaniel) y de Prissy (Butterfly McQueen), y las diferencias con el filme.
+- La película de 1939: el casting de Scarlett entre 1.400 aspirantes, los 4,5 millones de dólares de presupuesto frente a los 50.000 de los derechos, los diez Oscar, la segregación que obligó a pedir permiso para que Hattie McDaniel asistiera a la ceremonia y la polémica sobre el final ("mañana será otro día").
+- A propósito de "Strange Fruit" de Billie Holiday y de los linchamientos, se habla de los Pullman porters, del sindicato de azafatos de tren como punta de lanza de los derechos civiles y de cómo Edgar Nixon sacó de la cárcel a Rosa Parks.
+- Cierre con la semblanza de Antonio Escohotado a cinco años de su muerte (su pasado anarco-comunista, Ibiza y la fundación de Amnesia, *Historia general de las drogas* y *Los enemigos del comercio*) y con el ingreso de los Red Hot Chili Peppers en el Rock and Roll Hall of Fame disfrazados de Rick Rubin, más la muerte del guitarrista John Christ.
+
+> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+
+
+## [La Cultureta] La Cultureta 13x12: La amistad en tiempos de la Chile de Allende (y de JFK)
+**Fecha:** 2026-11-20
+**Programa:** Cultureta 13x12 · 29 min
+**URL:** https://www.ondacero.es/podcast/programas/mas-de-uno/cultureta/cultureta-13x12-amistad-tiempos-chile-allende-jfk_202611206b002cc5f058440007c2bb26.html
+**GUID:** 6b002cc5f058440007c2bb26
+
+### 📚 Recomendaciones
+
+- **Cine** — *Wild Horse Nine* (título dudoso: el ASR dice "White Horse 9"), de Martin McDonagh, con John Malkovich y Sam Rockwell. Lo recomienda la mesa [22:13]. Por qué: les parece que lo mejor son los diálogos y el trabajo de Malkovich —insisten en que hay que verla en versión original porque el 90% de su interpretación es la voz—, y rechazan la acusación de frivolizar con el golpe de Allende: para el relato histórico ya están otras películas.
+- **Cine** — *Missing* (*Desaparecido*), de Costa-Gavras, y el cine sobre Chile de Patricio Guzmán y Pablo Larraín. Lo recomienda la mesa [22:44]. Por qué: se citan como la vía para quien quiera el relato histórico serio de lo ocurrido en Chile, frente al tratamiento humorístico de McDonagh.
+- **Otro** — *GTA VI*. Lo recomienda **Nacho Vigalondo** [17:08]. Por qué: sostiene que el juego abre una puerta nueva para la industria porque la reactividad del mundo —vecinos que recuerdan lo que has hecho, delitos con consecuencias irreversibles— convierte el "hacer el cafre" en una aventura real; Sergio del Molino añade que tras oírlo solo quiere jugarlo [17:45].
+
+### 🗒️ De qué se habló
+
+- El programa arranca con el concurso interno y la acusación velada de tongo: Rubén Amón sospecha que alguien filtró la respuesta a un concursante y la investigación queda sin concluir.
+- Ejercicio de arqueología: cómo era el mundo hace trece años (el GTA V, el Costa Concordia, el Madrid de las nueve Champions, la España sin Netflix, el PSOE de Rubalcaba), con la tesis de que el siglo XXI vive en un presente continuo donde lo único que evoluciona es la saga GTA.
+- Debate sobre GTA VI: la densidad de detalle, la interactividad y la memoria de los personajes secundarios, y la duda de si tanta consecuencia resta diversión al juego.
+- Repaso a *Wild Horse Nine* desde la amistad: la pareja de agentes de la CIA en la isla de Pascua, el humor sobre lo que se puede o no decir, la banda sonora de Hank Williams y Judy Collins, el escepticismo ante la verosimilitud y la defensa de McDonagh como autor que escribe películas que no parecen pensadas para la pantalla.
+- A partir de una escena de *Los Soprano*, se comenta el estudio de los investigadores estadounidenses Bledsoe y Smith sobre la soledad masculina y la distinción entre amistades "cara a cara" y "hombro a hombro", contestada por el articulista Tyler Austin Harper.
+- Cierre con el anuncio del especial de esa misma noche sobre los 90 años de *Lo que el viento se llevó* y la edición ilustrada de Reino de Cordelia.
+
+> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+
+
 ## [La Cultureta] La cultureta 14/11/2026
 **Fecha:** 2026-11-14
 **Programa:** Gran Reserva · 89 min
@@ -29,7 +83,6 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 
 > ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
 
-
 ## [La Cultureta] La Cultureta 13x11: Godzilla, James Bond y una espía china
 **Fecha:** 2026-11-13
 **Programa:** Cultureta 13x11 · 31 min
@@ -51,7 +104,6 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 - Cierre con la mejor película de monstruos de cada uno —*Pulgasari*, *Tiburón*, *Un hombre lobo americano en Londres*, *La bestia del reino*— y la promesa de Nacho Vigalondo de recomendar la semana que viene una "obra maestra" que no quiso desvelar.
 
 > ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
-
 
 ## [La Cultureta] La cultureta 07/11/2026
 **Fecha:** 2026-11-07
