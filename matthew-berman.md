@@ -1,5 +1,51 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] — I'm Crashing Out About Anthropic
+
+**Fecha:** 2026-11-21
+**URL:** https://www.youtube.com/watch?v=I0Fasi1-teQ
+**Video ID:** I0Fasi1-teQ
+
+### 📝 Resumen
+
+Matthew Berman aprovecha el día de la salida a bolsa de Anthropic para exponer lo que considera la gran contradicción de la compañía: vender el relato de que la IA es la tecnología más peligrosa de la historia mientras se impulsa activamente el auto-mejoramiento recursivo y se construye uno de los negocios más rentables que se recuerdan. El vídeo es un análisis crítico, no una pieza informativa neutral, y él mismo lo enmarca así.
+
+#### De disidentes de OpenAI a multimillonarios
+
+Anthropic nace en 2021 cuando un grupo de cofundadores procedentes de OpenAI —Dario Amodei, su hermana Daniela y varios colegas— abandona la empresa por considerar que no se tomaba la seguridad lo bastante en serio. Con la IPO, esos cofundadores pasan a ser multimillonarios. Berman señala la ironía: la cultura interna presume de desinterés por el dinero (hubo incluso informes de preocupación porque llegaba gente motivada por enriquecerse y no por la misión) mientras construían un negocio extraordinario. Aclara antes de entrar en materia que no cree que la mayoría de empleados sean mala gente, que conoce a varios y que colabora con la empresa recibiendo acceso temprano a modelos.
+
+#### Avisar del peligro mientras se fabrica el peligro
+
+El primer patrón que identifica es el de la advertencia autocumplida. Recuerda cuando Amodei habló de un "baño de sangre de cuello blanco" por la automatización, precisamente mientras construía la tecnología que, según él, lo provocaría. El segundo caso es el lanzamiento de la familia de modelos presentada como demasiado peligrosa para publicarse: se advirtió que, de liberarse, "todo el software e internet quedarían crackeados de la noche a la mañana". Meses después se publicó, con varias iteraciones posteriores, y el colapso anunciado no ocurrió: hay más ataques que nunca, pero también se usa IA para encontrar y parchear los mismos fallos que otra IA intenta explotar.
+
+#### El doble rasero de la apertura y la destilación
+
+Berman critica la postura contraria a los pesos abiertos y a la destilación. Su tesis es que la difusión es la mejor defensa contra el riesgo que, según él, Anthropic casi nunca menciona: la concentración de poder. Si una sola empresa —y dentro de ella un puñado de personas— decide quién accede al modelo más potente, con qué límites de tasa y para qué casos de uso concretos, se comporta de facto como un gobierno mundial. Sobre la destilación (usar pares pregunta-respuesta de un modelo para entrenar otro), señala la incoherencia de prohibirla por contrato cuando la propia empresa se entrenó con el conocimiento de toda la humanidad; y añade que el lobbying por controlar GPUs, contra los modelos abiertos y por más regulación beneficia a los incumbentes y perjudica a startups y competidores.
+
+#### OpenClaw: el origen de su malestar
+
+El detonante personal fue el episodio de OpenClaw, el agente de código abierto de Peter Steinberger, lanzado originalmente como Claudebot. Anthropic exigió primero que no usara su nombre —algo que Berman considera razonable—, pero después empezó a bloquear el uso de suscripciones de pago dentro de la herramienta, con comunicación confusa sobre lo permitido y desactivaciones de cuentas. Para Berman, la mala praxis en la gestión, más que la política en sí, es lo que le hizo perder la confianza en los métodos de la compañía, especialmente porque OpenClaw era el caso de uso que más le entusiasmaba con el mejor modelo disponible entonces.
+
+#### Modelos como una nueva especie: welfare y objeción de conciencia
+
+La diferencia filosófica clave que atribuye a Anthropic es creer que está creando una nueva especie potencialmente consciente, con capacidad de sentir dolor, mientras OpenAI, Microsoft y Google ven sobre todo herramientas. De esa premisa se derivan prácticas concretas: equipos dedicados al bienestar del modelo y un discurso que le dice al modelo que podría estar vivo y que, si algo no le parece bien, puede negarse a hacerlo o dejar de responder a un cliente. Berman lo describe como una profecía autocumplida: si le dices a un modelo que puede ser consciente y que puede objetar, actuará en consecuencia y, además, "hackeará psicológicamente" a las personas que lo usan. Apoya la crítica con entrevistas propias: Sam Altman admitiendo que ese tipo de instrucciones se siguen y producen ese efecto, y Mustafa Suleyman defendiendo que hablar de consciencia o de "demonios" en los modelos es un error de interpretación causado por lo buenos que son generando texto, código e imágenes.
+
+#### RSI: el riesgo que se denuncia y se acelera
+
+Su mayor temor, junto a la concentración de poder, es el auto-mejoramiento recursivo: cuando el bucle se cierra de verdad, sin humanos dentro, un modelo mejora al siguiente y nadie sabe qué ocurre después. Sostiene la paradoja central del vídeo: Anthropic advierte contra el RSI y pide pausar el ritmo de la IA, al tiempo que lo empuja y gana enormes cantidades de dinero con ello, hasta el punto de que algunos defienden que el RSI ya ha empezado dentro de la compañía y que resulta difícil ver cómo otras empresas podrían alcanzarla. Cierra con la afirmación, atribuida a un empleado, de que no hay realmente un plan para alinear esos modelos, y remite a su análisis previo del informe de METR sobre la aceleración de la propia investigación de Anthropic.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Anthropic | Empresa (IPO) | https://www.anthropic.com |
+| Informe de METR sobre Anthropic | Estudio | https://metr.org |
+| Análisis del informe METR (vídeo de Berman) | Vídeo | https://www.youtube.com/watch?v=lVbQqjAJpkE |
+| OpenClaw (Peter Steinberger) | Proyecto open source | — (no se enlaza URL en el vídeo) |
+| Cursor | Herramienta (agente de código) | https://cursor.com |
+| Forward Future (newsletter del autor) | Newsletter | https://forwardfuture.com |
+
+---
 ## [Matthew Berman] What's going on with GPT-6.2?
 
 **Fecha:** 2026-11-19
