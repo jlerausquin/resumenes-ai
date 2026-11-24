@@ -1,6 +1,52 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] Did AI JUST Solve Mathematics?
+
+**Fecha:** 2026-11-24
+**URL:** https://www.youtube.com/watch?v=MkeKXJzJo98
+**Video ID:** MkeKXJzJo98
+
+### 📝 Resumen
+
+#### El anuncio y la reacción de la comunidad matemática
+
+Matthew Berman abre el vídeo con un acontecimiento que califica como histórico: un modelo en la nube, desarrollado internamente, habría demostrado la hipótesis de Riemann trabajando junto a un matemático de Anthropic. El presentador recopila reacciones de figuras relevantes —un matemático del Imperial College de Londres que lo compara con una inteligencia alienígena revelando todos los misterios, otro que lo describe como el mayor resultado de la matemática pura de la historia, y menciones de Elon Musk y de Alexander Wang (Meta) hablando de la llegada de la superinteligencia— para transmitir la escala del momento. Su tesis central, sin embargo, es que lo importante no es que el problema se haya resuelto, sino **cómo** se ha resuelto y qué preguntas deja abiertas.
+
+#### El cambio de paradigma: de construir conocimiento a recibir respuestas
+
+El eje del vídeo es epistemológico. Historicamente la humanidad ha generado conocimiento por ensayo y error: se prueba algo, se descubre qué funciona, se itera y así se construye un modelo mental propio que permite comprender el problema. La IA invierte ese orden: entrega primero la respuesta y obliga a **ingeniería inversa del entendimiento**. La analogía que estructura toda la pieza es la aviación: los hermanos Wright volaron unos segundos con un artefacto simple y décadas de iteraciones llevaron a los 747; el escenario actual equivale a que alguien sin nociones de vuelo reciba de golpe un 747 sin saber cómo funciona ni cómo pilotarlo. Según Berman, ese patrón ya ocurre en matemáticas y se extenderá a la ciencia, el descubrimiento de materiales y la programación.
+
+#### Qué es la hipótesis de Riemann y por qué importa
+
+La pieza explica el problema para audiencia no especializada: los números primos, divisibles solo por sí mismos y por uno, son los bloques de construcción de las matemáticas y aparecen con un patrón aparentemente aleatorio e impredecible. En 1859 el matemático alemán Bernhard Riemann planteó que esa distribución podría no ser caótica y ser predecible. Durante casi 170 años la comunidad ha estado convencida de su veracidad en torno al 99 %, pero la convicción no equivale a demostración, y numerosos resultados posteriores se apoyan en ella como premisa. Forma parte de los Problemas del Milenio del Clay Mathematics Institute, dotados con un millón de dólares.
+
+#### Lo que realmente cambió: componer herramientas existentes
+
+Berman subraya el punto más contraintuitivo: no hubo un salto de capacidad ni matemáticas nuevas. Lo que se necesitó fue un dominio profundo y exhaustivo de las herramientas ya existentes y encadenarlas de forma novedosa. El cuello de botella humano es mantener decenas de conceptos simultáneamente en la cabeza y trazar cadenas largas de dependencias entre ellos; la IA está hecha para eso, igual que supera a los programadores al comprender bases de código de millones de líneas. De ahí su distinción entre dos formas de inteligencia: la IA es excelente **recombinando** ideas existentes de maneras nuevas, mientras los humanos siguen aportando la generación de ideas genuinamente nuevas; el matemático de Anthropic describe su propio papel como el de quien orienta la situación mientras el modelo "volaba y brillaba" cerca de la meta. El resultado fue una prueba formal de 17 millones de líneas en Lean —equivalente a unas 250 000 hojas de papel—, imposible de leer por completo para una persona, y que el propio matemático admite no comprender aún del todo.
+
+#### Un patrón que se repite: Navier-Stokes y P vs NP
+
+El presentador señala que no es un caso aislado: en las últimas semanas también habrían caído Navier-Stokes (predicción del movimiento de fluidos) y P vs NP (computabilidad de los problemas), ambos igualmente Problemas del Milenio. La lectura es que la matemática es solo el primero de muchos dominios afectados, y que la limitación de velocidad y capacidad intelectual humana queda muy por detrás del ritmo de aceleración de la IA.
+
+#### Precedente del ajedrez: la jugada 37
+
+Para ilustrar que ya existen ejemplos de IA tomando decisiones que los expertos no comprenden, se recuerda el AlphaGo de Google DeepMind frente a Lee Sedol: la jugada 37 fue valorada al instante como un error irreparable por comentaristas y analistas, y solo al avanzar la partida se reveló como una de las mejores de la máquina y clave para la victoria. El episodio sirve de advertencia sobre un futuro en el que el acierto y la opacidad van juntos.
+
+#### Riesgos: verificación, alineamiento, cifrado y el futuro del oficio
+
+La segunda mitad del vídeo aborda las consecuencias. Si el conocimiento llega en un paquete cerrado, ¿cómo se verifica que es correcto y cómo se garantiza que es seguro? El paralelismo con el código es explícito: la abstracción desde el binario hasta lenguajes casi naturales responde a la dificultad humana de leer unos y ceros; si la IA creara un lenguaje mil veces más eficiente pero incomprensible para nosotros, se perdería la capacidad de auditar qué hace ese 0,1 % del comportamiento que podría ser dañino. Se cita a Dario Amodei: es una carrera entre interpretabilidad e inteligencia del modelo; mientras se pueda entender, hay margen; cuando no, es territorio desconocido. A ello se suma el riesgo de que una IA capaz de resolver la matemática más dura acabe rompiendo el cifrado del que dependen la privacidad y las criptomonedas, con impacto económico masivo. Por último, se anticipa una división social análoga a la de la programación: quienes cultivan el oficio por disfrute —la curiosidad intelectual y el descubrimiento como pasatiempo— frente a quienes usan la IA para producir y descubrir mucho más que antes; se citan las reservas de matemáticos como Alex Kontorovich y Jordan Ellenberg, para quienes una prueba que nadie puede leer no constituye una prueba que merezca la pena.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Problemas del Milenio (hipótesis de Riemann, Navier-Stokes, P vs NP) — Clay Mathematics Institute | Institución / premio | https://www.claymath.org/millennium-problems/ |
+| Lean — demostrador y lenguaje de verificación formal de matemáticas | Herramienta / repositorio | https://lean-lang.org/ |
+| AlphaGo (Google DeepMind) y la jugada 37 frente a Lee Sedol | Caso documentado | https://deepmind.google/research/breakthroughs/alphago/ |
+| Matthew Berman — canal de YouTube | Canal | https://youtube.com/@matthew_berman |
+
+---
 ## [Matthew Berman] — I'm Crashing Out About Anthropic
 
 **Fecha:** 2026-11-21
