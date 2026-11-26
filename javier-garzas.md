@@ -1,5 +1,65 @@
 # 📹 Resúmenes — Javier Garzás
 
+## [Javier Garzás] Scrum ya tiene SUSTITUTOS: Metodologías de IA
+
+**Fecha:** 2026-11-25
+**URL:** https://www.youtube.com/watch?v=I4kquOXMoAA
+**Video ID:** I4kquOXMoAA
+
+### 📝 Resumen
+
+El vídeo arranca con un dato que sitúa el cambio de época: en julio de 2025 Amazon Web Services publicó un método de trabajo en el que el sprint de dos semanas desaparece y se sustituye por *bolts* (rayos) que duran horas o días. La tesis central de Garzás es que Scrum nació cuando escribir código era lento, caro y manual, mientras que hoy la IA genera miles de líneas en minutos; por tanto el cuello de botella ya no está en picar código sino en saber exactamente qué pedir a la máquina y cómo validar que no rompa nada. Su propuesta no es tirar el mapa mental ágil, sino reorganizar las tres capas de siempre —cultura y frameworks, prácticas de ingeniería, herramientas— sustituyendo su contenido porque el "equipo" ahora son agentes de IA supervisados por humanos.
+
+#### Las tres capas se mantienen, el contenido se sustituye
+
+Garzás recuerda que la industria siempre ha trabajado con tres niveles de abstracción: arriba la cultura y el mindset ágil; debajo los frameworks y modelos de proceso (Scrum, Kanban); después las técnicas y buenas prácticas (integración continua, TDD, pruebas unitarias, refactorización); y en la base las herramientas. Nada de eso desaparece. Lo que cambia es que los frameworks pensados para coordinar personas dejan de encajar cuando quien escribe el código es un agente, y las prácticas pensadas para que un humano lea y mantenga el código pierden buena parte de su sentido. El resultado es un mapa con las mismas capas pero con piezas nuevas en cada una, y la advertencia de que en una de ellas acecha la trampa que devuelve los equipos a la cascada.
+
+#### Capa 1 — Ciclos de vida agénticos: Anthropic frente a AWS
+
+En el nivel de proceso aparecen dos propuestas fuertes y compatibles. La primera es la de Anthropic, un *AI-native SDLC* basado en flujo asíncrono: no es una metodología formal con ceremonias nuevas, sino un playbook o patrón operativo que toma las fases clásicas del ciclo de vida y cambia cómo se ejecutan. El humano define qué quiere, la IA redacta la especificación, el humano la revisa, se lanzan los agentes a trabajar en paralelo y solo se interviene en puertas de aprobación (*gates*) clave; los documentos son vivos y los roles de product owner o product manager no desaparecen, se convierten en dueños de la especificación.
+
+La segunda es la de AWS, que sí se presenta explícitamente como sustituto de las ceremonias de Scrum: cambia el sprint por *bolts* de horas o días y apuesta por un flujo síncrono en el que todo el equipo diseña y valida junto a la IA en tiempo real. Recupera fases como Inception, Construction y Operation y añade eventos propios de *mob elaboration* y *mob construction*, un eco del antiguo mob programming que el propio autor documentó años atrás. Es agnóstico respecto a herramientas, se implementa con *steering files* y corre tanto en Kiro como en Claude Code. Garzás insiste en que no hay guerra metodológica: se puede hacer una sesión síncrona por la mañana para una funcionalidad compleja y pasar a un flujo asíncrono por la tarde.
+
+#### Capa 2 — Del TDD y la refactorización a la especificación
+
+Al bajar de nivel, las prácticas clásicas se adaptan o se retiran. La refactorización y el cuidado de la mantenibilidad existían para que humanos leyeran y mantuvieran código escrito por humanos; cuando el código lo genera la IA y a menudo resulta más barato regenerarlo que tocarlo, ese esfuerzo se desplaza "aguas arriba". El TDD pasa a ser ejecutado magníficamente por la IA, lo que abre un problema nuevo: comprobar si las pruebas que ha generado son correctas. La práctica que ocupa el lugar de columna vertebral es el SDD (*spec-driven development*): fuentes de verdad en texto plano —típicamente Markdown— y una especificación que manda, de modo que ante un cambio se edita la spec y se regenera la implementación en lugar de tocar el código a mano. El código se convierte en un resultado temporal y desechable; el activo real del equipo es el documento que define qué debe hacer el sistema.
+
+#### Los tres niveles de autonomía del SDD
+
+El autor distingue tres formas de llevar el SDD a la práctica. El **SDD estructurado** impone una plantilla fija y secuencial con puertas de aprobación (spec.md, luego plan.md técnico, luego tasks.md), de manera que la IA genera y el humano autoriza paso a paso. El **SDD agéntico supervisado** da mucha más libertad: se entrega la especificación o incluso solo un fichero de *intent* que declara el problema —no la solución—, el agente explora el repositorio por su cuenta, arma su plan, escribe código y tests hasta que todo pasa, y el humano solo interviene en el plan inicial y en la verificación final. El tercer nivel, todavía experimental y reservado a casos extremos, elimina por completo la lectura y escritura humana de código y valida solo por comportamiento externo y pruebas ocultas; el caso más citado es StrongDM, que lo llama "fábrica de software", un término que Garzás recuerda que viene de los años sesenta y sobre el que escribió un libro hace más de quince años.
+
+#### La trampa: SDD disfrazado de cascada
+
+La advertencia más importante del vídeo es que el SDD puede degenerar en el viejo waterfall cuando se convierte en specs con miles o trillones de requisitos, es decir, en las tradicionales especificaciones de requisitos software con otro nombre. En su equipo de 233 Academy limitan a cinco historias de usuario por especificación precisamente para no perder el privilegio de aprender en cada liberación. La regla que se deduce es que el SDD solo funciona aplicado en iteraciones muy cortas y ligeras y conservando por encima el mindset ágil, que ningún framework nativo de IA discute.
+
+#### Capa 3 — Herramientas con el método empaquetado frente a montarlo uno mismo
+
+En el nivel de herramientas hay dos caminos. El primero son entornos que traen el SDD empaquetado —OpenSpec, GitHub Spec Kit, Kiro de AWS— y que, al trabajar con ellos, crean carpetas, plantillas y comandos obligatorios para los agentes. El segundo es construir el método uno mismo sobre herramientas nativas como Claude Code, usando el repositorio, archivos de memoria, skills reutilizables y hooks; es la vía que el propio equipo usa para aplicaciones pequeñas, mientras que para proyectos grandes o asesorías recurren al camino empaquetado. La lógica de este cambio es notable: antes se descargaba un PDF con la guía de Scrum y se llevaba al equipo; ahora se instala un método dentro de una herramienta activa que dirige a los agentes.
+
+Garzás resume en cuatro los problemas que resuelve el SDD empaquetado y que justifican su adopción frente a hacerlo a mano: trazabilidad en el equipo (plan, requisitos y su relación con el código en Git, auditables sin depender del historial de un chat), control de cambios (obligan a calcular qué reglas antiguas se modifican o se borran para no romper lo que ya funciona), reducción de alucinaciones por saturación (trocean el trabajo en microtareas tipo checklist que el agente ejecuta sin perder el foco) y memoria viva del proyecto, que evita que la IA relea cientos de archivos en cada sesión para deducir cómo funciona la aplicación.
+
+#### Combinaciones que funcionan en la práctica
+
+Como las capas funcionan como piezas de Lego y no como una lista cerrada, el autor comparte dos recetas habituales en su trabajo. Para un producto legacy o una asesoría sobre código heredado: flujo asíncrono de la capa 1, SDD agéntico supervisado de la capa 2 y OpenSpec trabajando por detrás con Claude Code, lo que da un marco ligero orientado a cambios incrementales pequeños. Para arrancar un proyecto corporativo desde cero con todo el equipo: ciclo de vida síncrono al estilo AWS, SDD estructurado con puertas de revisión formales y Spec Kit o el propio IDE de AWS, manteniendo una arquitectura estricta desde el primer día.
+
+#### Cuándo no aplicar nada de esto
+
+El cierre del vídeo pone el foco en el descubrimiento. Todo este andamiaje supone que ya se sabe qué se quiere construir; si todavía se está averiguando qué problema merece la pena resolver, lo razonable es prototipar rápido con vibe coding y solo después entrar en métodos industriales. Para transformar un equipo que viene de Scrum sin abrumarlo con terminología, la receta mínima es flujo asíncrono ligero, especificaciones cortas supervisadas por el humano y una herramienta con procedimiento embebido como OpenSpec. La idea final es que lo irreemplazable como profesional no es el método de moda, sino el criterio para elegirlo.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Ebook gratuito sobre los métodos sucesores de Scrum | Libro (en la descripción del vídeo) | — |
+| 233 Academy — equipo y mentoría del autor | Formación | https://www.233academy.com |
+| GitHub Spec Kit | Repositorio | https://github.com/github/spec-kit |
+| OpenSpec | Repositorio | https://github.com/Fission-AI/OpenSpec |
+| Claude Code | Producto | https://www.anthropic.com/claude-code |
+| Kiro (IDE de AWS con SDD embebido) | Producto | — |
+| Anthropic — propuesta de ciclo de vida de software nativo de IA | Artículo/playbook | https://www.anthropic.com |
+| Libro "Irreemplazable en la era de la IA" | Libro | — |
+
+---
 ## [Javier Garzás] La IA Acaba con la Especialización: Scrum Master, PM, PO… ¿y AHORA qué? Los 3 roles que crecen
 
 **Fecha:** 2026-11-18

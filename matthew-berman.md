@@ -1,5 +1,64 @@
 # 📹 Resúmenes — Matthew Berman
 
+## [Matthew Berman] RANKING the BEST AI Models for Coding | TIER LIST
+
+**Fecha:** 2026-11-25
+**URL:** https://www.youtube.com/watch?v=iA0ns69dZGM
+**Video ID:** iA0ns69dZGM
+
+### 📝 Resumen
+
+Matthew Berman ordena en una tier list todos los modelos de IA que utiliza para programar, y lo hace desde un criterio explícito: no solo la calidad bruta, sino también el coste, la cuota que consume de la suscripción y, sobre todo, la facilidad y el gusto de trabajar con cada modelo. Esa mezcla explica varios resultados que rompen el ranking convencional: el modelo teóricamente más potente no queda primero, y un modelo recién llegado de Google se cuela por delante de él.
+
+#### El criterio: calidad no basta
+
+Berman advierte que mide cada modelo en varias dimensiones simultáneas. La calidad máxima sirve de poco si para obtenerla hay que pelearse con el modelo, si consume cuota desproporcionada o si resulta desagradable de usar en el día a día. Por eso la lista premia la relación entre resultado, esfuerzo, coste y disfrute, y no la puntuación de un benchmark.
+
+#### S tier — Opus 5.5 sigue siendo el número uno
+
+Opus 5.5 es, con diferencia, el modelo que más usa: lo describe como el mejor equilibrio entre calidad, coste y placer de uso. Sus razones son concretas: es directo, encuentra una línea recta hacia la solución, se comunica con claridad, sigue bien las instrucciones y hace buenas suposiciones sobre lo que el usuario habría querido. Además, la suscripción es generosa en cuota y el modelo es eficiente, de modo que se obtiene mucho uso. Reconoce que ha empezado a emplear otros modelos, pero sigue siendo el que más confianza le inspira para la mayoría de su trabajo.
+
+#### A tier — Fable 5.2 y el sorpasso de Gemini Neon
+
+Fable 5.2 está considerado el modelo de mayor calidad del planeta y, según Berman, efectivamente supera a Opus 5.5 en calidad global. El problema es el coste: no solo el precio por token de entrada y salida en la API, sino la cuota que consume dentro de la suscripción. Por eso lo reserva para los problemas más difíciles y para revisar el trabajo de otros modelos, y lo deja en A pese a ser el mejor en términos absolutos.
+
+La sorpresa de la lista es Gemini Neon. Berman confiesa que hace unas semanas habría hundido a la familia Gemini en D o menos, pero Neon le ha obligado a cambiar de opinión; cuenta incluso que el propio equipo de Google se mostró sorprendido por la acogida y por lo que tenía entre manos. No es un modelo del tamaño ni de la calidad de Fable, sino más bien un equivalente a Opus 5.5: algo menos capaz pero todavía más agradable de usar. Por eso se ha convertido en su opción por defecto para todo lo que va de fácil a medio-difícil, reservando Opus para lo que está por encima. Sumando precio, facilidad y potencia, lo coloca en A y por delante de Fable 5.2: Opus sigue primero, pero Neon queda justo detrás.
+
+#### B tier — Los sólidos con asterisco
+
+GPT-6.2 Astra ocupa la B. Berman no cree que sea tan malo como se dijo en su lanzamiento, pero está lejos de Opus 5.5 y, frente a Neon, puede ser algo mejor en calidad si se le aprieta lo suficiente, aunque conseguirlo exige un esfuerzo que rara vez compensa. GPT-6.2 Soul también entra en B, justo por delante de Astra y justo detrás de Fable 5.2: es el mejor modelo con diferencia en uso de ordenador y control de navegador, y muy bueno en edición de vídeo, especialmente si se ponderan velocidad y coste; para programar, en cambio, no lo elige. Estuvo tentado de subirlo a A, pero su alcance tan estrecho lo impidió.
+
+DeepSeek V4.1 Flash también es B: le gusta, es bueno programando y construyendo visualizaciones, muy barato y de pesos abiertos; la única razón por la que no sube es que, teniendo cuota de Claude, Gemini y ChatGPT, rara vez siente la necesidad de acudir a él. Cierra el grupo Meta Muse Wonderful, la sorpresa de Meta: fácil de trabajar, en la línea de Neon aunque menos capaz y menos divertido, con expectativas altas sobre lo que vendrá después.
+
+#### C tier — Correctos pero innecesarios
+
+Sonnet 5.5 se vendió como el mejor modelo para trabajo de conocimiento y realmente lo hace bien, pero al compararlo con Opus 5.5 por una cuota similar, cuesta justificar su uso. Gemini Hydrogen, el caballo de batalla de Google, apenas lo ha utilizado, pero lo sitúa en C por delante de Sonnet: es más barato y aparentemente igual de capaz, lo que lo convierte en la opción ligera preferible.
+
+#### D y F — Los que no encajan en su flujo
+
+Haiku 5.5 cae a D porque la pérdida de calidad respecto a Opus 5.5 es enorme y el descuento no compensa; solo lo usa para tareas triviales. Grok 4.7 baja a D: es bueno conversando, investigando y buscando en X o integrándose con Grokbot, pero muy malo programando y editando, y el resto de usos que le da no se sostienen. GLM 5.3 también es D: capaz y sin nada roto, simplemente no encaja en su forma de trabajar.
+
+Entre los laboratorios chinos, DeepSeek V4 Pro es un buen modelo pero no está a la altura de los cerrados estadounidenses, salvo en coste; Qwen 4 Max queda justo detrás y por delante de GLM 5.3; Kimi K3.1 Pro es, en su opinión, el mejor modelo chino, y aun así no pasa de D. En el fondo de la tabla, Gemini Carbon —el modelo que Google presentó como su gran apuesta— resulta inconsistente, flojo en tareas largas y lento, lo que lo lleva a F. Mistral Large 4 "Lechonk" también cae a F: reconoce el mérito de ser de pesos abiertos, pero no encuentra ningún caso de uso para él.
+
+#### Sin probar y conclusión
+
+Meta Muse Spark —de pesos abiertos— y Muse Ember quedan en la categoría de no probados, ya que son modelos más pequeños que no ha llegado a evaluar. El balance final deja a Opus 5.5 en solitario en la cima por su combinación de calidad, eficiencia y franqueza de uso, con la puerta abierta a que Neon lo supere si Google sigue evolucionando el modelo. Berman cierra pidiendo opiniones y remitiendo a su análisis completo de Neon para quien aún no entienda el entusiasmo.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Anthropic (Claude Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2) | Empresa/producto | https://www.anthropic.com |
+| Google DeepMind — modelos Gemini (Neon, Hydrogen, Carbon) | Empresa/producto | https://deepmind.google/models/gemini/ |
+| OpenAI (GPT-6.2 Astra y GPT-6.2 Soul) | Empresa/producto | https://openai.com |
+| DeepSeek (V4.1 Flash, V4 Pro) | Empresa/producto | https://www.deepseek.com |
+| Mistral AI (Mistral Large 4) | Empresa/producto | https://mistral.ai |
+| Meta AI (Muse Wonderful, Spark, Ember) | Empresa/producto | https://ai.meta.com |
+| Moonshot AI — Kimi K3.1 Pro | Producto | https://www.kimi.com |
+| Alibaba — Qwen 4 Max | Producto | https://chat.qwen.ai |
+| xAI — Grok 4.7 | Empresa/producto | https://x.ai |
+
+---
 ## [Matthew Berman] Did AI JUST Solve Mathematics?
 
 **Fecha:** 2026-11-24

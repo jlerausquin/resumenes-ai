@@ -1,6 +1,125 @@
 # 📹 Resúmenes AI YouTubers  
 Canales: Javier Garzás, Matt Wolfe, Matthew Berman
 
+## [Matthew Berman] RANKING the BEST AI Models for Coding | TIER LIST
+
+**Fecha:** 2026-11-25
+**URL:** https://www.youtube.com/watch?v=iA0ns69dZGM
+**Video ID:** iA0ns69dZGM
+
+### 📝 Resumen
+
+Matthew Berman ordena en una tier list todos los modelos de IA que utiliza para programar, y lo hace desde un criterio explícito: no solo la calidad bruta, sino también el coste, la cuota que consume de la suscripción y, sobre todo, la facilidad y el gusto de trabajar con cada modelo. Esa mezcla explica varios resultados que rompen el ranking convencional: el modelo teóricamente más potente no queda primero, y un modelo recién llegado de Google se cuela por delante de él.
+
+#### El criterio: calidad no basta
+
+Berman advierte que mide cada modelo en varias dimensiones simultáneas. La calidad máxima sirve de poco si para obtenerla hay que pelearse con el modelo, si consume cuota desproporcionada o si resulta desagradable de usar en el día a día. Por eso la lista premia la relación entre resultado, esfuerzo, coste y disfrute, y no la puntuación de un benchmark.
+
+#### S tier — Opus 5.5 sigue siendo el número uno
+
+Opus 5.5 es, con diferencia, el modelo que más usa: lo describe como el mejor equilibrio entre calidad, coste y placer de uso. Sus razones son concretas: es directo, encuentra una línea recta hacia la solución, se comunica con claridad, sigue bien las instrucciones y hace buenas suposiciones sobre lo que el usuario habría querido. Además, la suscripción es generosa en cuota y el modelo es eficiente, de modo que se obtiene mucho uso. Reconoce que ha empezado a emplear otros modelos, pero sigue siendo el que más confianza le inspira para la mayoría de su trabajo.
+
+#### A tier — Fable 5.2 y el sorpasso de Gemini Neon
+
+Fable 5.2 está considerado el modelo de mayor calidad del planeta y, según Berman, efectivamente supera a Opus 5.5 en calidad global. El problema es el coste: no solo el precio por token de entrada y salida en la API, sino la cuota que consume dentro de la suscripción. Por eso lo reserva para los problemas más difíciles y para revisar el trabajo de otros modelos, y lo deja en A pese a ser el mejor en términos absolutos.
+
+La sorpresa de la lista es Gemini Neon. Berman confiesa que hace unas semanas habría hundido a la familia Gemini en D o menos, pero Neon le ha obligado a cambiar de opinión; cuenta incluso que el propio equipo de Google se mostró sorprendido por la acogida y por lo que tenía entre manos. No es un modelo del tamaño ni de la calidad de Fable, sino más bien un equivalente a Opus 5.5: algo menos capaz pero todavía más agradable de usar. Por eso se ha convertido en su opción por defecto para todo lo que va de fácil a medio-difícil, reservando Opus para lo que está por encima. Sumando precio, facilidad y potencia, lo coloca en A y por delante de Fable 5.2: Opus sigue primero, pero Neon queda justo detrás.
+
+#### B tier — Los sólidos con asterisco
+
+GPT-6.2 Astra ocupa la B. Berman no cree que sea tan malo como se dijo en su lanzamiento, pero está lejos de Opus 5.5 y, frente a Neon, puede ser algo mejor en calidad si se le aprieta lo suficiente, aunque conseguirlo exige un esfuerzo que rara vez compensa. GPT-6.2 Soul también entra en B, justo por delante de Astra y justo detrás de Fable 5.2: es el mejor modelo con diferencia en uso de ordenador y control de navegador, y muy bueno en edición de vídeo, especialmente si se ponderan velocidad y coste; para programar, en cambio, no lo elige. Estuvo tentado de subirlo a A, pero su alcance tan estrecho lo impidió.
+
+DeepSeek V4.1 Flash también es B: le gusta, es bueno programando y construyendo visualizaciones, muy barato y de pesos abiertos; la única razón por la que no sube es que, teniendo cuota de Claude, Gemini y ChatGPT, rara vez siente la necesidad de acudir a él. Cierra el grupo Meta Muse Wonderful, la sorpresa de Meta: fácil de trabajar, en la línea de Neon aunque menos capaz y menos divertido, con expectativas altas sobre lo que vendrá después.
+
+#### C tier — Correctos pero innecesarios
+
+Sonnet 5.5 se vendió como el mejor modelo para trabajo de conocimiento y realmente lo hace bien, pero al compararlo con Opus 5.5 por una cuota similar, cuesta justificar su uso. Gemini Hydrogen, el caballo de batalla de Google, apenas lo ha utilizado, pero lo sitúa en C por delante de Sonnet: es más barato y aparentemente igual de capaz, lo que lo convierte en la opción ligera preferible.
+
+#### D y F — Los que no encajan en su flujo
+
+Haiku 5.5 cae a D porque la pérdida de calidad respecto a Opus 5.5 es enorme y el descuento no compensa; solo lo usa para tareas triviales. Grok 4.7 baja a D: es bueno conversando, investigando y buscando en X o integrándose con Grokbot, pero muy malo programando y editando, y el resto de usos que le da no se sostienen. GLM 5.3 también es D: capaz y sin nada roto, simplemente no encaja en su forma de trabajar.
+
+Entre los laboratorios chinos, DeepSeek V4 Pro es un buen modelo pero no está a la altura de los cerrados estadounidenses, salvo en coste; Qwen 4 Max queda justo detrás y por delante de GLM 5.3; Kimi K3.1 Pro es, en su opinión, el mejor modelo chino, y aun así no pasa de D. En el fondo de la tabla, Gemini Carbon —el modelo que Google presentó como su gran apuesta— resulta inconsistente, flojo en tareas largas y lento, lo que lo lleva a F. Mistral Large 4 "Lechonk" también cae a F: reconoce el mérito de ser de pesos abiertos, pero no encuentra ningún caso de uso para él.
+
+#### Sin probar y conclusión
+
+Meta Muse Spark —de pesos abiertos— y Muse Ember quedan en la categoría de no probados, ya que son modelos más pequeños que no ha llegado a evaluar. El balance final deja a Opus 5.5 en solitario en la cima por su combinación de calidad, eficiencia y franqueza de uso, con la puerta abierta a que Neon lo supere si Google sigue evolucionando el modelo. Berman cierra pidiendo opiniones y remitiendo a su análisis completo de Neon para quien aún no entienda el entusiasmo.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Anthropic (Claude Opus 5.5, Sonnet 5.5, Haiku 5.5, Fable 5.2) | Empresa/producto | https://www.anthropic.com |
+| Google DeepMind — modelos Gemini (Neon, Hydrogen, Carbon) | Empresa/producto | https://deepmind.google/models/gemini/ |
+| OpenAI (GPT-6.2 Astra y GPT-6.2 Soul) | Empresa/producto | https://openai.com |
+| DeepSeek (V4.1 Flash, V4 Pro) | Empresa/producto | https://www.deepseek.com |
+| Mistral AI (Mistral Large 4) | Empresa/producto | https://mistral.ai |
+| Meta AI (Muse Wonderful, Spark, Ember) | Empresa/producto | https://ai.meta.com |
+| Moonshot AI — Kimi K3.1 Pro | Producto | https://www.kimi.com |
+| Alibaba — Qwen 4 Max | Producto | https://chat.qwen.ai |
+| xAI — Grok 4.7 | Empresa/producto | https://x.ai |
+
+---
+## [Javier Garzás] Scrum ya tiene SUSTITUTOS: Metodologías de IA
+
+**Fecha:** 2026-11-25
+**URL:** https://www.youtube.com/watch?v=I4kquOXMoAA
+**Video ID:** I4kquOXMoAA
+
+### 📝 Resumen
+
+El vídeo arranca con un dato que sitúa el cambio de época: en julio de 2025 Amazon Web Services publicó un método de trabajo en el que el sprint de dos semanas desaparece y se sustituye por *bolts* (rayos) que duran horas o días. La tesis central de Garzás es que Scrum nació cuando escribir código era lento, caro y manual, mientras que hoy la IA genera miles de líneas en minutos; por tanto el cuello de botella ya no está en picar código sino en saber exactamente qué pedir a la máquina y cómo validar que no rompa nada. Su propuesta no es tirar el mapa mental ágil, sino reorganizar las tres capas de siempre —cultura y frameworks, prácticas de ingeniería, herramientas— sustituyendo su contenido porque el "equipo" ahora son agentes de IA supervisados por humanos.
+
+#### Las tres capas se mantienen, el contenido se sustituye
+
+Garzás recuerda que la industria siempre ha trabajado con tres niveles de abstracción: arriba la cultura y el mindset ágil; debajo los frameworks y modelos de proceso (Scrum, Kanban); después las técnicas y buenas prácticas (integración continua, TDD, pruebas unitarias, refactorización); y en la base las herramientas. Nada de eso desaparece. Lo que cambia es que los frameworks pensados para coordinar personas dejan de encajar cuando quien escribe el código es un agente, y las prácticas pensadas para que un humano lea y mantenga el código pierden buena parte de su sentido. El resultado es un mapa con las mismas capas pero con piezas nuevas en cada una, y la advertencia de que en una de ellas acecha la trampa que devuelve los equipos a la cascada.
+
+#### Capa 1 — Ciclos de vida agénticos: Anthropic frente a AWS
+
+En el nivel de proceso aparecen dos propuestas fuertes y compatibles. La primera es la de Anthropic, un *AI-native SDLC* basado en flujo asíncrono: no es una metodología formal con ceremonias nuevas, sino un playbook o patrón operativo que toma las fases clásicas del ciclo de vida y cambia cómo se ejecutan. El humano define qué quiere, la IA redacta la especificación, el humano la revisa, se lanzan los agentes a trabajar en paralelo y solo se interviene en puertas de aprobación (*gates*) clave; los documentos son vivos y los roles de product owner o product manager no desaparecen, se convierten en dueños de la especificación.
+
+La segunda es la de AWS, que sí se presenta explícitamente como sustituto de las ceremonias de Scrum: cambia el sprint por *bolts* de horas o días y apuesta por un flujo síncrono en el que todo el equipo diseña y valida junto a la IA en tiempo real. Recupera fases como Inception, Construction y Operation y añade eventos propios de *mob elaboration* y *mob construction*, un eco del antiguo mob programming que el propio autor documentó años atrás. Es agnóstico respecto a herramientas, se implementa con *steering files* y corre tanto en Kiro como en Claude Code. Garzás insiste en que no hay guerra metodológica: se puede hacer una sesión síncrona por la mañana para una funcionalidad compleja y pasar a un flujo asíncrono por la tarde.
+
+#### Capa 2 — Del TDD y la refactorización a la especificación
+
+Al bajar de nivel, las prácticas clásicas se adaptan o se retiran. La refactorización y el cuidado de la mantenibilidad existían para que humanos leyeran y mantuvieran código escrito por humanos; cuando el código lo genera la IA y a menudo resulta más barato regenerarlo que tocarlo, ese esfuerzo se desplaza "aguas arriba". El TDD pasa a ser ejecutado magníficamente por la IA, lo que abre un problema nuevo: comprobar si las pruebas que ha generado son correctas. La práctica que ocupa el lugar de columna vertebral es el SDD (*spec-driven development*): fuentes de verdad en texto plano —típicamente Markdown— y una especificación que manda, de modo que ante un cambio se edita la spec y se regenera la implementación en lugar de tocar el código a mano. El código se convierte en un resultado temporal y desechable; el activo real del equipo es el documento que define qué debe hacer el sistema.
+
+#### Los tres niveles de autonomía del SDD
+
+El autor distingue tres formas de llevar el SDD a la práctica. El **SDD estructurado** impone una plantilla fija y secuencial con puertas de aprobación (spec.md, luego plan.md técnico, luego tasks.md), de manera que la IA genera y el humano autoriza paso a paso. El **SDD agéntico supervisado** da mucha más libertad: se entrega la especificación o incluso solo un fichero de *intent* que declara el problema —no la solución—, el agente explora el repositorio por su cuenta, arma su plan, escribe código y tests hasta que todo pasa, y el humano solo interviene en el plan inicial y en la verificación final. El tercer nivel, todavía experimental y reservado a casos extremos, elimina por completo la lectura y escritura humana de código y valida solo por comportamiento externo y pruebas ocultas; el caso más citado es StrongDM, que lo llama "fábrica de software", un término que Garzás recuerda que viene de los años sesenta y sobre el que escribió un libro hace más de quince años.
+
+#### La trampa: SDD disfrazado de cascada
+
+La advertencia más importante del vídeo es que el SDD puede degenerar en el viejo waterfall cuando se convierte en specs con miles o trillones de requisitos, es decir, en las tradicionales especificaciones de requisitos software con otro nombre. En su equipo de 233 Academy limitan a cinco historias de usuario por especificación precisamente para no perder el privilegio de aprender en cada liberación. La regla que se deduce es que el SDD solo funciona aplicado en iteraciones muy cortas y ligeras y conservando por encima el mindset ágil, que ningún framework nativo de IA discute.
+
+#### Capa 3 — Herramientas con el método empaquetado frente a montarlo uno mismo
+
+En el nivel de herramientas hay dos caminos. El primero son entornos que traen el SDD empaquetado —OpenSpec, GitHub Spec Kit, Kiro de AWS— y que, al trabajar con ellos, crean carpetas, plantillas y comandos obligatorios para los agentes. El segundo es construir el método uno mismo sobre herramientas nativas como Claude Code, usando el repositorio, archivos de memoria, skills reutilizables y hooks; es la vía que el propio equipo usa para aplicaciones pequeñas, mientras que para proyectos grandes o asesorías recurren al camino empaquetado. La lógica de este cambio es notable: antes se descargaba un PDF con la guía de Scrum y se llevaba al equipo; ahora se instala un método dentro de una herramienta activa que dirige a los agentes.
+
+Garzás resume en cuatro los problemas que resuelve el SDD empaquetado y que justifican su adopción frente a hacerlo a mano: trazabilidad en el equipo (plan, requisitos y su relación con el código en Git, auditables sin depender del historial de un chat), control de cambios (obligan a calcular qué reglas antiguas se modifican o se borran para no romper lo que ya funciona), reducción de alucinaciones por saturación (trocean el trabajo en microtareas tipo checklist que el agente ejecuta sin perder el foco) y memoria viva del proyecto, que evita que la IA relea cientos de archivos en cada sesión para deducir cómo funciona la aplicación.
+
+#### Combinaciones que funcionan en la práctica
+
+Como las capas funcionan como piezas de Lego y no como una lista cerrada, el autor comparte dos recetas habituales en su trabajo. Para un producto legacy o una asesoría sobre código heredado: flujo asíncrono de la capa 1, SDD agéntico supervisado de la capa 2 y OpenSpec trabajando por detrás con Claude Code, lo que da un marco ligero orientado a cambios incrementales pequeños. Para arrancar un proyecto corporativo desde cero con todo el equipo: ciclo de vida síncrono al estilo AWS, SDD estructurado con puertas de revisión formales y Spec Kit o el propio IDE de AWS, manteniendo una arquitectura estricta desde el primer día.
+
+#### Cuándo no aplicar nada de esto
+
+El cierre del vídeo pone el foco en el descubrimiento. Todo este andamiaje supone que ya se sabe qué se quiere construir; si todavía se está averiguando qué problema merece la pena resolver, lo razonable es prototipar rápido con vibe coding y solo después entrar en métodos industriales. Para transformar un equipo que viene de Scrum sin abrumarlo con terminología, la receta mínima es flujo asíncrono ligero, especificaciones cortas supervisadas por el humano y una herramienta con procedimiento embebido como OpenSpec. La idea final es que lo irreemplazable como profesional no es el método de moda, sino el criterio para elegirlo.
+
+### 🔗 Referencias
+
+| Recurso | Tipo | Enlace |
+|---|---|---|
+| Ebook gratuito sobre los métodos sucesores de Scrum | Libro (en la descripción del vídeo) | — |
+| 233 Academy — equipo y mentoría del autor | Formación | https://www.233academy.com |
+| GitHub Spec Kit | Repositorio | https://github.com/github/spec-kit |
+| OpenSpec | Repositorio | https://github.com/Fission-AI/OpenSpec |
+| Claude Code | Producto | https://www.anthropic.com/claude-code |
+| Kiro (IDE de AWS con SDD embebido) | Producto | — |
+| Anthropic — propuesta de ciclo de vida de software nativo de IA | Artículo/playbook | https://www.anthropic.com |
+| Libro "Irreemplazable en la era de la IA" | Libro | — |
+
+---
 ## [Matthew Berman] Did AI JUST Solve Mathematics?
 
 **Fecha:** 2026-11-24
