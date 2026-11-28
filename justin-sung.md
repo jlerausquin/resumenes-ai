@@ -1,5 +1,62 @@
 # 📹 Resúmenes — Justin Sung
 
+## [Justin Sung] Cognitive Biases: The Psychology of Irrational Decisions
+**Fecha:** 2026-11-27
+**URL:** https://www.youtube.com/watch?v=xUBUOEQR7Kw
+**Video ID:** xUBUOEQR7Kw
+
+### 📝 Resumen
+
+Justin Sung plantea los sesgos cognitivos como "agentes en la sombra": procesos inconscientes presentes en todo cerebro humano que moldean la forma de sentir, pensar y actuar, empujan a decisiones contrarias a lo que realmente se quiere y después convencen a la persona de que esas decisiones fueron lógicas. En lugar de ofrecer una lista exhaustiva, selecciona los tres sesgos que observa con más frecuencia entre sus clientes como coach de rendimiento cognitivo y sostiene que la mayoría de las personas ha tomado decisiones vitales importantes condicionadas por ellos.
+
+#### Conocer el sesgo no basta para vencerlo
+
+El punto de partida metodológico del vídeo es que saber que un sesgo existe rara vez sirve para neutralizarlo. Un sesgo es, en la práctica, la forma en que el cerebro está programado para funcionar: durante la mayor parte del día son atajos que ahorran energía y operan de manera eficiente. Por eso la estrategia que propone no es "pensar mejor" ni vigilarse constantemente, sino combatir fuego con fuego: aceptar el sesgo y aprovechar su propia mecánica invirtiéndola. La conciencia no elimina el sesgo; solo permite gestionar los riesgos que genera.
+
+#### Sesgo de statu quo: el defecto que hay que reencuadrar
+
+El sesgo de statu quo es la tendencia a preferir que las cosas sigan como están, incluso cuando la alternativa es igual o mejor. Sung lo resume como esa voz que dice "tu vida es mala, no hagas nada al respecto" y lo ilustra con su propia experiencia al plantearse abandonar la medicina clínica: las conversaciones con colegas siempre acababan en "esto es malo, pero peor sería otra cosa, ¿y qué haría si no?". La gente justificaba quedarse no porque disfrutara del trabajo, sino porque pensar en la alternativa resultaba demasiado incómodo.
+
+Como evidencia a gran escala cita el experimento del lanzamiento de moneda dirigido por Steven Levitt y publicado en 2021: miles de personas con decisiones vitales pendientes (cambiar de carrera, terminar una relación) lanzaban una moneda virtual y solo actuaban si salía cara. Seis meses después, quienes habían hecho el cambio se declaraban más satisfechos con su decisión que quienes mantuvieron el statu quo. El autor aclara que es un solo estudio, pero que la observación de que las personas permanecen en situaciones más tiempo del razonable se ha replicado durante décadas. En su práctica lo ve constantemente: clientes que conocen las estrategias que resolverían sus problemas de aprendizaje o productividad, pero no se comprometen porque lo cómodo es no tocar nada. La conclusión que extrae es que, en muchas situaciones, el coste de la inacción supera el riesgo de actuar y equivocarse.
+
+La técnica concreta consiste en reencuadrar el valor por defecto mediante una pregunta contrafactual: "si no estuviera ya haciendo esto, ¿elegiría empezar a hacerlo hoy?". Con esa pregunta el statu quo deja de ser la referencia y pasa a ser una opción más entre otras. Aplicada a su propia disyuntiva, la respuesta fue contundente: si no fuera ya médico, no dejaría lo que estuviera haciendo para serlo.
+
+#### Coste hundido: mirar el futuro, no lo ya gastado
+
+Vinculado al statu quo aparece la falacia del coste hundido ("ya he invertido demasiado tiempo o dinero, no puedo parar"). Sung reconoce que la objeción es la primera que recibe al contar que dejó la medicina tras seis o siete años de carrera y unos 100.000 de deuda estudiantil. Su respuesta es que, aunque abandonar parezca un desperdicio, tiene mucho más que perder en el futuro que lo ya hundido: seguir haciendo lo mismo implicaría enterrar aún más recursos en una decisión en la que ya no cree.
+
+De ahí su recomendación práctica: cuando existe una meta clara pero la incertidumbre sobre cómo abordarla bloquea el arranque, conviene romper el statu quo invirtiendo tiempo en formación y aprendizaje para ganar confianza. El motivo habitual para no dar ese primer paso no es la falta de ganas, sino que la agenda actual no deja espacio; su contraargumento es que, especialmente en decisiones reversibles y de beneficio inmediato, el riesgo de no hacer nada pesa más que el de intentarlo y fallar. Ilustra el principio con su propio boletín semanal gratuito: tres a cinco minutos de lectura con una idea aplicable, sin exigir cambiar nada más de la vida.
+
+#### Sesgo del fin de la historia: no estás en tu forma final
+
+El segundo sesgo es la creencia de que el desarrollo personal ya ha concluido y que uno se encuentra en su "forma final". Se apoya en un patrón observado: las personas reconocen que sus valores y su personalidad han cambiado mucho en el pasado, pero creen que cambiarán poco en el futuro. Cita una serie de estudios publicada en Science en 2013 con casi 20.000 participantes de 18 a 64 años: en todas las etapas vitales la gente informaba de cambios significativos en la última década y anticipaba cambios menores en la siguiente. Si esa predicción fuera cierta, lo que un treintañero espera cambiar en diez años debería coincidir con lo que reporta un cuarentañero que realmente vivió esos diez años, y casi nunca coincide.
+
+Sobre las causas no hay certeza: puede ser que pronosticar el propio cambio sea cognitivamente costoso mientras recordar el cambio pasado es fácil, o puede tratarse de un efecto de autoensalzamiento, porque pensar "ya estoy en mi forma final" resulta halagador. La investigación longitudinal de personalidad indica que el cambio significativo continúa durante buena parte de la vida. En su práctica identifica manifestaciones muy concretas: tatuajes decididos pensando en una pareja o una creencia que diez años después se lamentan, y sobre todo decisiones de carrera tomadas según la identidad actual. La variante más dañina es rechazar oportunidades valiosas porque "no encajan con quién soy hoy": suele encontrar a personas que renunciaron a una oportunidad cinco o siete años atrás y ahora preguntan cómo reorientar su carrera para recuperarla.
+
+El propio autor se incluye: fue coach de aprendizaje durante años antes de publicar su primer vídeo porque no se identificaba con la etiqueta de creador o influencer, y ni siquiera con más de 100.000 suscriptores la tomó en serio durante los primeros años. También atribuye a este sesgo planes de negocio y productos poco flexibles, construidos asumiendo que su conocimiento sobre el tema ya no cambiaría, y calcula que esa rigidez le costó millones de dólares. La contramedida consiste en asumir que habrá tanta transformación futura como pasada y diseñar decisiones y planes que mantengan opciones abiertas o reversibles, aunque en el momento parezca innecesario. Lo justifica con la lógica del sesgo: como no se puede eliminar, solo se puede gestionar el riesgo que crea.
+
+#### Sesgo del propio lado: cómo se evalúa la evidencia
+
+El tercer sesgo, el sesgo del propio lado (my-side bias), es la tendencia a evaluar pruebas y construir argumentos de modo que confirmen lo que ya se cree: se aplica un estándar más bajo a la evidencia favorable y se buscan defectos en la contraria. Es pariente cercano del sesgo de confirmación y del razonamiento motivado. Como estudio seminal cita el trabajo de 1979 con 48 estudiantes universitarios, la mitad partidarios de que la pena capital disuade el homicidio y la mitad contrarios, a quienes se entregaron dos estudios ficticios, uno a favor y otro en contra. Cada grupo detectó más fallos metodológicos en el estudio que contradecía su postura: exponer a ambos bandos a evidencia igualmente mixta los volvió más seguros de sí mismos.
+
+Lo que considera más peligroso es que este sesgo contamina precisamente las decisiones que más se han investigado, y que la inteligencia no protege contra él. Describe clientes muy capaces en su dominio que aprenden de forma ineficiente pese a haber leído sobre aprendizaje eficaz, porque construyen una caja de creencias ("yo solo puedo aprender así") y solo buscan evidencia que las sostenga; en el fondo saben que sus estrategias no funcionan, pero no creen que exista alternativa mejor. Aporta un caso clínico extremo: una mujer de 27 años con un cáncer hematológico altamente tratable que retrasó un año el tratamiento por un zumo depurativo y falleció cuando ya no había curación posible. Extiende el patrón a inversiones arruinadas por partir de la creencia de que enriquecerían, o a años perdidos estudiando bajo la convicción de tener mala memoria.
+
+La contramedida es construir un argumento contrario igual de sólido, evaluándolo con el mismo estándar de evidencia y rigor. Aquí el autor precisa un matiz importante: esto no equivale a decir que todas las posturas son igual de válidas. El sesgo del propio lado afecta al proceso de evaluación, no a la calidad de la evidencia; si se acepta un estudio débil que apoya la propia opinión, hay que aceptar también uno débil que la refute. Añade una distinción epistemológica: tener razón no significa razonar bien. La mayoría de las personas, incluido él, cree lo que cree porque confía en un experto o en un consenso, no porque haya evaluado la evidencia por sí misma, y delegar en un consenso experto es la mejor estrategia disponible para quien no es especialista. La consecuencia es que acertar suele deberse a en quién se confió más que al razonamiento empleado, lo que explica que alguien perfectamente racional en un dominio sostenga creencias irracionales en otro. Quien quiera asegurarse de tener razón en algo importante debe aplicar el mismo estándar a ambos lados en lugar de suponer que acierta porque suele acertar en otras cosas.
+
+#### Cierre: autonomía frente a manipulación inconsciente
+
+Sung cierra subrayando que estos tres sesgos son solo una muestra, elegidos por ser de los más perjudiciales que observa. El objetivo que plantea es la autonomía: decidir sobre la propia vida en lugar de ser manipulado en secreto por estos mecanismos inconscientes.
+
+### 🔗 Referencias
+
+| Referencia | Tipo | Enlace |
+|---|---|---|
+| Levitt, S. — *Heads or Tails: The Impact of a Coin Toss on Major Life Decisions and Subsequent Happiness* (coin flip study, NBER/Review of Economic Studies) | Paper | https://www.nber.org/papers/w22487 |
+| Quoidbach, Gilbert & Wilson — *The End of History Illusion* (Science, 2013) | Paper | https://doi.org/10.1126/science.1229294 |
+| Lord, Ross & Lepper — *Biased Assimilation and Attitude Polarization* (JPSP, 1979) | Paper | https://doi.org/10.1037/0022-3514.37.11.2098 |
+| Free weekly newsletter de Justin Sung (mencionada en el vídeo) | Recurso | — |
+
+---
 ## [Justin Sung] If Active Recall Isn't Working For You, Watch This Video
 
 **Fecha:** 2026-11-20
