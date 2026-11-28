@@ -29,8 +29,7 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 - A propósito de "Strange Fruit" de Billie Holiday y de los linchamientos, se habla de los Pullman porters, del sindicato de azafatos de tren como punta de lanza de los derechos civiles y de cómo Edgar Nixon sacó de la cárcel a Rosa Parks.
 - Cierre con la semblanza de Antonio Escohotado a cinco años de su muerte (su pasado anarco-comunista, Ibiza y la fundación de Amnesia, *Historia general de las drogas* y *Los enemigos del comercio*) y con el ingreso de los Red Hot Chili Peppers en el Rock and Roll Hall of Fame disfrazados de Rick Rubin, más la muerte del guitarrista John Christ.
 
-> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
-
+> ⚠️ Nota de fiabilidad: transcripción ASR **local** (faster-whisper, modelo `base`). Calidad inferior a la de un servicio en la nube: nombres propios, títulos y cifras pueden estar deformados. Lo marcado como *dudoso* conviene verificarlo en el audio.
 
 ## [La Cultureta] La Cultureta 13x12: La amistad en tiempos de la Chile de Allende (y de JFK)
 **Fecha:** 2026-11-20
@@ -53,8 +52,7 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 - A partir de una escena de *Los Soprano*, se comenta el estudio de los investigadores estadounidenses Bledsoe y Smith sobre la soledad masculina y la distinción entre amistades "cara a cara" y "hombro a hombro", contestada por el articulista Tyler Austin Harper.
 - Cierre con el anuncio del especial de esa misma noche sobre los 90 años de *Lo que el viento se llevó* y la edición ilustrada de Reino de Cordelia.
 
-> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
-
+> ⚠️ Nota de fiabilidad: transcripción ASR **local** (faster-whisper, modelo `base`). Calidad inferior a la de un servicio en la nube: nombres propios, títulos y cifras pueden estar deformados. Lo marcado como *dudoso* conviene verificarlo en el audio.
 
 ## [La Cultureta] La cultureta 14/11/2026
 **Fecha:** 2026-11-14
@@ -135,7 +133,7 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 - El retrato político del personaje: aristócrata monárquico, homosexual visible en tiempos hostiles, hombre que desayunaba con conservadores y cenaba con socialistas, que se adhirió al bando sublevado con una carta a Chaplin y que pagó con su patrimonio el teatro que dirigía; se lee como anticipo del universo berlanguiano y como antídoto contra la polarización actual.
 - Cierre con el tradicional encendido de luces navideñas —capítulo 116 de *Platero y yo*, "La Navidad", y el Nakatomi Plaza de *Jungla de cristal*—, la parodia de Nacho Vigalondo sobre los escritores que tienen miedo de buscar en Google o en ChatGPT y su denuncia de la prensa que tradujo "bust" como "fracaso" en una crítica del *New Yorker*.
 
-> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+> ⚠️ Nota de fiabilidad: transcripción ASR **local** (faster-whisper, modelo `base`). Calidad inferior a la de un servicio en la nube: nombres propios, títulos y cifras pueden estar deformados. Lo marcado como *dudoso* conviene verificarlo en el audio.
 
 ## [La Cultureta] La Cultureta 13x10: Los Bach son muy amables (y panaderos)
 **Fecha:** 2026-11-06
@@ -157,7 +155,7 @@ Una entrada por programa, la más reciente arriba: qué recomiendan, quién y en
 - La discusión interpretativa: Altares lee la música de Bach como el cierre luminoso de dos siglos de guerras de religión, y Amón le responde que el libro evita justamente esa lectura presentista y presenta a los Bach como artesanos de oficio, una cadena casi biológica de talento que enlaza con Carl Philipp Emanuel y la transición al clasicismo.
 - El concurso de la semana, resuelto con un fragmento doblado de *Amadeus* de Miloš Forman —tres puntos para Guillermo Altares, medio punto de consolación para Amón—, el repaso a la clasificación y la pulla de Nacho Vigalondo contra la prensa que tituló que el *New Yorker* llamaba "fracaso" a la película de los Javis cuando la crítica decía "busto".
 
-> ✅ Nota de fiabilidad: transcripción ASR con **Groq** (`whisper-large-v3-turbo`), buena calidad en nombres y títulos. Aun así, lo marcado como *dudoso* conviene verificarlo en el audio.
+> ⚠️ Nota de fiabilidad: transcripción ASR **local** (faster-whisper, modelo `base`). Calidad inferior a la de un servicio en la nube: nombres propios, títulos y cifras pueden estar deformados. Lo marcado como *dudoso* conviene verificarlo en el audio.
 
 ## [La Cultureta] La cultureta 31/10/2026
 **Fecha:** 2026-10-31
